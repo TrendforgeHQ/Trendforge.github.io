@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-27T17:15:16.964Z",
+  "updatedAt": "2026-09-27T21:34:21.168Z",
   "mode": "shadow",
   "policy": {
     "advisoryOnly": true,
@@ -14,7 +14,7 @@
     "noWinnerBeforeMinimumSample": true
   },
   "sample": {
-    "runs": 45,
+    "runs": 46,
     "topics": 500,
     "articles": 27
   },
@@ -88,26 +88,6 @@
   "assignments": {
     "headline-style": [
       {
-        "key": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLWpnZVlpcElablcwOEszaWhVOTAxZHNyUFFEY1NsRVhJSTJiTUcxemZLSk1vSUxKVExKN2RKc0hvendSb1B4SDhfbVdNb0lOMnpaQ3B3MGEyTE5hZ1VYR1dQdTc3aFNUUHc1Vl85M1k2a0o1bjV1Qjk1eWdKZm9tSWFseWNmWUlmN0RV?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdWZCRDBDd0E2YnBTeGJZNXhZLURBOXlJZTR2dGhwY0c1bWlNX3N6MkhWcVRiSF9oNjJLWmJfY0Nwcy05SFB0RGJ2ckhaNjdueWFxMjdnWHhodFM1MEJkRXVnUzJZTTJidXdGckk1ZkI0RDZRNmVQQXYyTmxtbnJKZFdMNFRMbFhwcWY5RHdFeGpIY3prOVo1RWstRWhPVVRldXgyV1E1Q2FaOEZxSC1rTld2eFFHWnJTcXk2WmgxRG15a0ViblgzYzh3TQ?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kb0NwNTBkV2laNEljU2VPTlk5ZFV1bm5RR29wN2RVYklkcGdHSlJOdWptR3ZnRzF3anJzdFE3bHJadXI5Y0t3T25LektaQUVodmRKZkFfUk04dmd3S2ZZNko1TEg2Mnp5WVMtUE1R?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOTUlpTHVwLVg4VkJja2lDYU9qVmEwcElmNEpyMjMtZWUyZUVKX1h1UDQ2eU5Ib3E5amlWZVF5TG53VmQ4SDZDUEZnMEE4Q2ZobzNZWkJwZG1fZGUtRzA3a2k4OHVzTnhqc0NrOC1OVzlXYXVwNzUyczEwMzhIU1NvUzFiWUVtRXBKcnpzdXJGbjFXR2N5aDdUVDdzamtJQzJTY2ZBVlhVQWppTi1Uem1CX0YwZVU4MnBjeTcyOS1NYnF4cHNBcVlWNE10cGtKczdYelhsNmstclBUZTR1RXVqY0NJSWt1LTZVQ3pWa01sRUt6YlNzZXI1SGVHRC1uQVNlNjlBaVFnZmdDWllCc0o1Y1JGams?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQ2dldV84Vm1UalpUN1k3THNmM3hpZ21JUzRXRmF1ejRwV3dOQThTOUFuQWhfemF2Tk16UXBjdTFleG1MMTlUbGRHbzJkZTA0RVU2SVd4a0FMV2hSQmRzUnJTOWdkWTVOSkMwbWFPSjdSU3lyVTB5LXVEbmlpMzB2UERWN1N3WDNkeFA4NWQ5OGtWODc1RGgwb0lVV3QxNFBFUlE?oc=5",
-        "bucket": "variant"
-      },
-      {
         "key": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaGRjU2JPT2djSzVlMzNIWXpfWWY4NTNpQ0dFa2k3LS16QUFVNHdpS0g3MENYbk9WZVZhbzlMTGV0SDY2YUdwUi14bW5aSzlsam9tQU9iMGtueWkzTHZSaU0tX3VCcDRrazk3V05wWWRrWFJHSFF1YmpMRWFOM2c4bVI0aFhCTnlkWlQ0UDllc1JZWkdGWnBPdkd1c3hwdw?oc=5",
         "bucket": "control"
       },
@@ -165,31 +145,31 @@
       },
       {
         "key": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNl9kVzV0NlBYQ0pyQ1ltekFUemRHX0pKNkJMcHRJN2pBMzFEYXh2U3NLbnd1dkJaWGUza3NRR1VJYmE1bVk2SlNMS09EcGNDR3RDZkdDSWd4aGVKYTNZek5CQzRoM2NUd0VCOUMxWHNXLTd5eFA2d05tLVRab1ZWS0QxSjlBX1ZHN2xHcU9ndzZPMG5NVTFCem1tSm5HWlBtNXVpem44dUNNZw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5qc1RMZjRsdXEtUEpYbk5oNklKNlBHTloyM0NNV2lTU0h6b2UtbnQxd1JfckxiU09sRWZWQ3kzYTJueTBTV0RtN2NNOUpuSzZsckduRS1ZQzRKVThXZWRCa0F3dXpKLTBLeGR2ODZIaHpWbUU?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jZEI2VHA5Qk14QVQ4QmdUNFp1LTV5WEQwTFdkRXl0aGxaRktjTDZBMWFGdld6QzJVNFFLYktCMGpqTERWblVoUTlpQzJ1aTZ3dGJPMmZDeFJIUWVYYnBOdEtjbFVoRTJTMTk2MHplVm1hWllwTFkyOVQ3YkJVZ9IBgwFBVV95cUxOSkk1U3N6bkJFck1HLUhwUVdFblh4STlXQ09BQ2ZwLXBwbnVWWVoybko1THZQZVRhWWpsWlBYcVd5MFd1NE1jYktOZTZ3WmdjTURib2U0YzZEUF94ekhPRDR5N2tfcGhadkpvTXVMMzl3bnM0clJyNkVuS0FrV2pKdy13SQ?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSmpMYk0xRTBfdm5NMXRfNVNfMlE0cnppenNvTHNITzhVNXZ0R2NIX0Z3bmlWSmV1RHBpYURmWmdMT1ZLY2hUWG5WcDRsaFVSWktoRWFNQkdtRzg5UHpLeGstQXFGdkprdGhEbk05RUE5MEM4UTVlb281N3lOb2Y2WndNNHhzNUEtU3JlMUd5Z2FQRFRiM29JMU1fa25QRzBnekJJU3FYZGZlby1faklDS1pURG8?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWUEwZFd1d1BDYmozMGVrWmJ5dWJiZlhTVDVJdmhnM3BMNWh4d3ZFOGxmVFZta1B6cngzY0JCS0JGRG9jQzJTeTM1NkpBUzBEbkE0bkNsY19lUDZyRW83ZzBJZ2pUaHhyUFlQQ0lRc19iWjNyeWl5SFQ4Vmw3Rlo2ajFuZ0I1dw?oc=5",
         "bucket": "control"
       }
     ],
     "intro-style": [
       {
-        "key": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLWpnZVlpcElablcwOEszaWhVOTAxZHNyUFFEY1NsRVhJSTJiTUcxemZLSk1vSUxKVExKN2RKc0hvendSb1B4SDhfbVdNb0lOMnpaQ3B3MGEyTE5hZ1VYR1dQdTc3aFNUUHc1Vl85M1k2a0o1bjV1Qjk1eWdKZm9tSWFseWNmWUlmN0RV?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdWZCRDBDd0E2YnBTeGJZNXhZLURBOXlJZTR2dGhwY0c1bWlNX3N6MkhWcVRiSF9oNjJLWmJfY0Nwcy05SFB0RGJ2ckhaNjdueWFxMjdnWHhodFM1MEJkRXVnUzJZTTJidXdGckk1ZkI0RDZRNmVQQXYyTmxtbnJKZFdMNFRMbFhwcWY5RHdFeGpIY3prOVo1RWstRWhPVVRldXgyV1E1Q2FaOEZxSC1rTld2eFFHWnJTcXk2WmgxRG15a0ViblgzYzh3TQ?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kb0NwNTBkV2laNEljU2VPTlk5ZFV1bm5RR29wN2RVYklkcGdHSlJOdWptR3ZnRzF3anJzdFE3bHJadXI5Y0t3T25LektaQUVodmRKZkFfUk04dmd3S2ZZNko1TEg2Mnp5WVMtUE1R?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOTUlpTHVwLVg4VkJja2lDYU9qVmEwcElmNEpyMjMtZWUyZUVKX1h1UDQ2eU5Ib3E5amlWZVF5TG53VmQ4SDZDUEZnMEE4Q2ZobzNZWkJwZG1fZGUtRzA3a2k4OHVzTnhqc0NrOC1OVzlXYXVwNzUyczEwMzhIU1NvUzFiWUVtRXBKcnpzdXJGbjFXR2N5aDdUVDdzamtJQzJTY2ZBVlhVQWppTi1Uem1CX0YwZVU4MnBjeTcyOS1NYnF4cHNBcVlWNE10cGtKczdYelhsNmstclBUZTR1RXVqY0NJSWt1LTZVQ3pWa01sRUt6YlNzZXI1SGVHRC1uQVNlNjlBaVFnZmdDWllCc0o1Y1JGams?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQ2dldV84Vm1UalpUN1k3THNmM3hpZ21JUzRXRmF1ejRwV3dOQThTOUFuQWhfemF2Tk16UXBjdTFleG1MMTlUbGRHbzJkZTA0RVU2SVd4a0FMV2hSQmRzUnJTOWdkWTVOSkMwbWFPSjdSU3lyVTB5LXVEbmlpMzB2UERWN1N3WDNkeFA4NWQ5OGtWODc1RGgwb0lVV3QxNFBFUlE?oc=5",
-        "bucket": "variant"
-      },
-      {
         "key": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaGRjU2JPT2djSzVlMzNIWXpfWWY4NTNpQ0dFa2k3LS16QUFVNHdpS0g3MENYbk9WZVZhbzlMTGV0SDY2YUdwUi14bW5aSzlsam9tQU9iMGtueWkzTHZSaU0tX3VCcDRrazk3V05wWWRrWFJHSFF1YmpMRWFOM2c4bVI0aFhCTnlkWlQ0UDllc1JZWkdGWnBPdkd1c3hwdw?oc=5",
         "bucket": "control"
       },
@@ -247,31 +227,31 @@
       },
       {
         "key": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNl9kVzV0NlBYQ0pyQ1ltekFUemRHX0pKNkJMcHRJN2pBMzFEYXh2U3NLbnd1dkJaWGUza3NRR1VJYmE1bVk2SlNMS09EcGNDR3RDZkdDSWd4aGVKYTNZek5CQzRoM2NUd0VCOUMxWHNXLTd5eFA2d05tLVRab1ZWS0QxSjlBX1ZHN2xHcU9ndzZPMG5NVTFCem1tSm5HWlBtNXVpem44dUNNZw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5qc1RMZjRsdXEtUEpYbk5oNklKNlBHTloyM0NNV2lTU0h6b2UtbnQxd1JfckxiU09sRWZWQ3kzYTJueTBTV0RtN2NNOUpuSzZsckduRS1ZQzRKVThXZWRCa0F3dXpKLTBLeGR2ODZIaHpWbUU?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jZEI2VHA5Qk14QVQ4QmdUNFp1LTV5WEQwTFdkRXl0aGxaRktjTDZBMWFGdld6QzJVNFFLYktCMGpqTERWblVoUTlpQzJ1aTZ3dGJPMmZDeFJIUWVYYnBOdEtjbFVoRTJTMTk2MHplVm1hWllwTFkyOVQ3YkJVZ9IBgwFBVV95cUxOSkk1U3N6bkJFck1HLUhwUVdFblh4STlXQ09BQ2ZwLXBwbnVWWVoybko1THZQZVRhWWpsWlBYcVd5MFd1NE1jYktOZTZ3WmdjTURib2U0YzZEUF94ekhPRDR5N2tfcGhadkpvTXVMMzl3bnM0clJyNkVuS0FrV2pKdy13SQ?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSmpMYk0xRTBfdm5NMXRfNVNfMlE0cnppenNvTHNITzhVNXZ0R2NIX0Z3bmlWSmV1RHBpYURmWmdMT1ZLY2hUWG5WcDRsaFVSWktoRWFNQkdtRzg5UHpLeGstQXFGdkprdGhEbk05RUE5MEM4UTVlb281N3lOb2Y2WndNNHhzNUEtU3JlMUd5Z2FQRFRiM29JMU1fa25QRzBnekJJU3FYZGZlby1faklDS1pURG8?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWUEwZFd1d1BDYmozMGVrWmJ5dWJiZlhTVDVJdmhnM3BMNWh4d3ZFOGxmVFZta1B6cngzY0JCS0JGRG9jQzJTeTM1NkpBUzBEbkE0bkNsY19lUDZyRW83ZzBJZ2pUaHhyUFlQQ0lRc19iWjNyeWl5SFQ4Vmw3Rlo2ajFuZ0I1dw?oc=5",
         "bucket": "control"
       }
     ],
     "cta-placement": [
       {
-        "key": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLWpnZVlpcElablcwOEszaWhVOTAxZHNyUFFEY1NsRVhJSTJiTUcxemZLSk1vSUxKVExKN2RKc0hvendSb1B4SDhfbVdNb0lOMnpaQ3B3MGEyTE5hZ1VYR1dQdTc3aFNUUHc1Vl85M1k2a0o1bjV1Qjk1eWdKZm9tSWFseWNmWUlmN0RV?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdWZCRDBDd0E2YnBTeGJZNXhZLURBOXlJZTR2dGhwY0c1bWlNX3N6MkhWcVRiSF9oNjJLWmJfY0Nwcy05SFB0RGJ2ckhaNjdueWFxMjdnWHhodFM1MEJkRXVnUzJZTTJidXdGckk1ZkI0RDZRNmVQQXYyTmxtbnJKZFdMNFRMbFhwcWY5RHdFeGpIY3prOVo1RWstRWhPVVRldXgyV1E1Q2FaOEZxSC1rTld2eFFHWnJTcXk2WmgxRG15a0ViblgzYzh3TQ?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kb0NwNTBkV2laNEljU2VPTlk5ZFV1bm5RR29wN2RVYklkcGdHSlJOdWptR3ZnRzF3anJzdFE3bHJadXI5Y0t3T25LektaQUVodmRKZkFfUk04dmd3S2ZZNko1TEg2Mnp5WVMtUE1R?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOTUlpTHVwLVg4VkJja2lDYU9qVmEwcElmNEpyMjMtZWUyZUVKX1h1UDQ2eU5Ib3E5amlWZVF5TG53VmQ4SDZDUEZnMEE4Q2ZobzNZWkJwZG1fZGUtRzA3a2k4OHVzTnhqc0NrOC1OVzlXYXVwNzUyczEwMzhIU1NvUzFiWUVtRXBKcnpzdXJGbjFXR2N5aDdUVDdzamtJQzJTY2ZBVlhVQWppTi1Uem1CX0YwZVU4MnBjeTcyOS1NYnF4cHNBcVlWNE10cGtKczdYelhsNmstclBUZTR1RXVqY0NJSWt1LTZVQ3pWa01sRUt6YlNzZXI1SGVHRC1uQVNlNjlBaVFnZmdDWllCc0o1Y1JGams?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQ2dldV84Vm1UalpUN1k3THNmM3hpZ21JUzRXRmF1ejRwV3dOQThTOUFuQWhfemF2Tk16UXBjdTFleG1MMTlUbGRHbzJkZTA0RVU2SVd4a0FMV2hSQmRzUnJTOWdkWTVOSkMwbWFPSjdSU3lyVTB5LXVEbmlpMzB2UERWN1N3WDNkeFA4NWQ5OGtWODc1RGgwb0lVV3QxNFBFUlE?oc=5",
-        "bucket": "variant"
-      },
-      {
         "key": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaGRjU2JPT2djSzVlMzNIWXpfWWY4NTNpQ0dFa2k3LS16QUFVNHdpS0g3MENYbk9WZVZhbzlMTGV0SDY2YUdwUi14bW5aSzlsam9tQU9iMGtueWkzTHZSaU0tX3VCcDRrazk3V05wWWRrWFJHSFF1YmpMRWFOM2c4bVI0aFhCTnlkWlQ0UDllc1JZWkdGWnBPdkd1c3hwdw?oc=5",
         "bucket": "control"
       },
@@ -329,6 +309,26 @@
       },
       {
         "key": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNl9kVzV0NlBYQ0pyQ1ltekFUemRHX0pKNkJMcHRJN2pBMzFEYXh2U3NLbnd1dkJaWGUza3NRR1VJYmE1bVk2SlNMS09EcGNDR3RDZkdDSWd4aGVKYTNZek5CQzRoM2NUd0VCOUMxWHNXLTd5eFA2d05tLVRab1ZWS0QxSjlBX1ZHN2xHcU9ndzZPMG5NVTFCem1tSm5HWlBtNXVpem44dUNNZw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5qc1RMZjRsdXEtUEpYbk5oNklKNlBHTloyM0NNV2lTU0h6b2UtbnQxd1JfckxiU09sRWZWQ3kzYTJueTBTV0RtN2NNOUpuSzZsckduRS1ZQzRKVThXZWRCa0F3dXpKLTBLeGR2ODZIaHpWbUU?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jZEI2VHA5Qk14QVQ4QmdUNFp1LTV5WEQwTFdkRXl0aGxaRktjTDZBMWFGdld6QzJVNFFLYktCMGpqTERWblVoUTlpQzJ1aTZ3dGJPMmZDeFJIUWVYYnBOdEtjbFVoRTJTMTk2MHplVm1hWllwTFkyOVQ3YkJVZ9IBgwFBVV95cUxOSkk1U3N6bkJFck1HLUhwUVdFblh4STlXQ09BQ2ZwLXBwbnVWWVoybko1THZQZVRhWWpsWlBYcVd5MFd1NE1jYktOZTZ3WmdjTURib2U0YzZEUF94ekhPRDR5N2tfcGhadkpvTXVMMzl3bnM0clJyNkVuS0FrV2pKdy13SQ?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSmpMYk0xRTBfdm5NMXRfNVNfMlE0cnppenNvTHNITzhVNXZ0R2NIX0Z3bmlWSmV1RHBpYURmWmdMT1ZLY2hUWG5WcDRsaFVSWktoRWFNQkdtRzg5UHpLeGstQXFGdkprdGhEbk05RUE5MEM4UTVlb281N3lOb2Y2WndNNHhzNUEtU3JlMUd5Z2FQRFRiM29JMU1fa25QRzBnekJJU3FYZGZlby1faklDS1pURG8?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWUEwZFd1d1BDYmozMGVrWmJ5dWJiZlhTVDVJdmhnM3BMNWh4d3ZFOGxmVFZta1B6cngzY0JCS0JGRG9jQzJTeTM1NkpBUzBEbkE0bkNsY19lUDZyRW83ZzBJZ2pUaHhyUFlQQ0lRc19iWjNyeWl5SFQ4Vmw3Rlo2ajFuZ0I1dw?oc=5",
         "bucket": "control"
       }
     ]
@@ -337,8 +337,8 @@
     {
       "experimentId": "headline-style",
       "sample": {
-        "control": 9,
-        "variant": 11,
+        "control": 10,
+        "variant": 10,
         "total": 20
       },
       "outcomeMetrics": {
@@ -352,8 +352,8 @@
     {
       "experimentId": "intro-style",
       "sample": {
-        "control": 9,
-        "variant": 11,
+        "control": 10,
+        "variant": 10,
         "total": 20
       },
       "outcomeMetrics": {
@@ -367,8 +367,8 @@
     {
       "experimentId": "cta-placement",
       "sample": {
-        "control": 9,
-        "variant": 11,
+        "control": 10,
+        "variant": 10,
         "total": 20
       },
       "outcomeMetrics": {
@@ -381,6 +381,6 @@
     }
   ],
   "history": {
-    "previousUpdatedAt": "2026-09-27T12:24:34.839Z"
+    "previousUpdatedAt": "2026-09-27T17:15:16.964Z"
   }
 }
