@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-27T07:05:15.939Z",
+  "generatedAt": "2026-09-27T16:03:49.372Z",
   "policy": {
     "privacyFirst": true,
     "noPersonalTracking": true,
@@ -10,7 +10,7 @@
     "totalArticles": 27,
     "averageEditorialScore": 76,
     "editorialReviewCount": 18,
-    "refreshCandidates": 1
+    "refreshCandidates": 2
   },
   "categoryMix": [
     {
@@ -57,7 +57,7 @@
   "recommendations": [
     "Prioritize missing categories: Innovation, Product Launches.",
     "18 article(s) are in editorial review; improve them before treating them as growth winners.",
-    "1 older/incomplete article(s) are refresh candidates."
+    "2 older/incomplete article(s) are refresh candidates."
   ],
   "recentArticles": [
     {

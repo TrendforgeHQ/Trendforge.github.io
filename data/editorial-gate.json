@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T04:46:35.136Z",
+  "generatedAt": "2026-09-27T16:02:42.588Z",
   "provider": "Groq",
   "editorial": {
     "passed": true,
@@ -22,8 +22,8 @@
       "noHighSimilaritySource": true
     },
     "metrics": {
-      "normalizedLength": 3940,
-      "sentenceCount": 28,
+      "normalizedLength": 2861,
+      "sentenceCount": 20,
       "maxSourceSimilarity": 0,
       "maxCommonPhrase": 0
     }
@@ -37,7 +37,7 @@
   "primarySourceCount": 0,
   "grounding": {
     "sourceCount": 2,
-    "usablePassages": 58,
+    "usablePassages": 43,
     "primarySourceCount": 0
   }
 }
