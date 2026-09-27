@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T16:02:42.588Z",
+  "generatedAt": "2026-09-27T20:39:54.387Z",
   "provider": "Groq",
   "editorial": {
     "passed": true,
@@ -22,8 +22,8 @@
       "noHighSimilaritySource": true
     },
     "metrics": {
-      "normalizedLength": 2861,
-      "sentenceCount": 20,
+      "normalizedLength": 4377,
+      "sentenceCount": 28,
       "maxSourceSimilarity": 0,
       "maxCommonPhrase": 0
     }
@@ -31,13 +31,15 @@
   "semanticDuplicateCheck": "passed",
   "sourceRelationshipCheck": "passed",
   "verifiedEvidenceDomains": [
-    "finance.yahoo.com",
-    "247wallst.com"
+    "wired.com",
+    "bbc.com",
+    "theverge.com",
+    "techbuzz.ai"
   ],
   "primarySourceCount": 0,
   "grounding": {
-    "sourceCount": 2,
-    "usablePassages": 43,
+    "sourceCount": 4,
+    "usablePassages": 22,
     "primarySourceCount": 0
   }
 }

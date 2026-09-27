@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "title": "In 5 Years, One of These Cryptocurrencies Could Be Worth More Than Bitcoin - Yahoo Finance",
+  "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
   "mode": "bounded",
   "wordBudget": {
     "min": 425,
@@ -9,7 +9,7 @@
   },
   "h2Budget": {
     "preferredMin": 2,
-    "preferredMax": 3
+    "preferredMax": 4
   },
   "atomicClaimBudget": 18,
   "allowedFactIds": [
@@ -19,12 +19,8 @@
     "F4",
     "F5",
     "F6",
-    "F7",
     "F8",
-    "F9",
-    "F10",
     "F11",
-    "F12",
     "F13",
     "F14",
     "F15",
@@ -34,28 +30,7 @@
     "F19",
     "F20",
     "F21",
-    "F22",
-    "F23",
-    "F24",
-    "F25",
-    "F26",
-    "F27",
-    "F28",
-    "F29",
-    "F30",
-    "F31",
-    "F32",
-    "F33",
-    "F34",
-    "F35",
-    "F36",
-    "F37",
-    "F38",
-    "F39",
-    "F40",
-    "F41",
-    "F42",
-    "F43"
+    "F22"
   ],
   "synthesis": {
     "allowed": true,
@@ -68,12 +43,8 @@
       "F4",
       "F5",
       "F6",
-      "F7",
       "F8",
-      "F9",
-      "F10",
       "F11",
-      "F12",
       "F13",
       "F14",
       "F15",
@@ -83,28 +54,7 @@
       "F19",
       "F20",
       "F21",
-      "F22",
-      "F23",
-      "F24",
-      "F25",
-      "F26",
-      "F27",
-      "F28",
-      "F29",
-      "F30",
-      "F31",
-      "F32",
-      "F33",
-      "F34",
-      "F35",
-      "F36",
-      "F37",
-      "F38",
-      "F39",
-      "F40",
-      "F41",
-      "F42",
-      "F43"
+      "F22"
     ]
   },
   "rules": {
@@ -113,7 +63,7 @@
     "newEntitiesInSynthesis": false,
     "newCausalityInSynthesis": false
   },
-  "generatedAt": "2026-09-27T16:02:42.589Z",
-  "articleTitle": "Five‑Year Horizon: Which Crypto Could Outpace Bitcoin?",
-  "articleSlug": "five-year-horizon-which-crypto-could-outpace-bitcoin"
+  "generatedAt": "2026-09-27T20:39:54.387Z",
+  "articleTitle": "OpenAI agents repeatedly probed UN website, raising new security questions",
+  "articleSlug": "openai-agents-repeatedly-probed-un-website-raising-new-security-questions"
 }
