@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-26T20:25:46.721Z",
+  "generatedAt": "2026-09-27T04:47:15.447Z",
   "status": "pass",
-  "currentGeneratedArticle": null,
-  "currentScore": null,
+  "currentGeneratedArticle": "bitcoin-as-an-exit-asset-ethereum-as-new-rails-diverging-views-from-former-blackrock-execu",
+  "currentScore": 88,
   "identity": {
     "method": "brief.title",
     "rejectedMarker": false
@@ -140,6 +140,23 @@
       "reasons": [
         "evidence confidence needs improvement",
         "source strength/diversity needs improvement"
+      ]
+    },
+    {
+      "slug": "bitcoin-as-an-exit-asset-ethereum-as-new-rails-diverging-views-from-former-blackrock-execu",
+      "title": "Bitcoin as an Exit Asset, Ethereum as New Rails: Diverging Views From Former BlackRock Executive and Bitwise",
+      "category": "Crypto",
+      "score": 88,
+      "decision": "publish_ready",
+      "dimensions": {
+        "evidence": 77,
+        "usefulness": 97,
+        "clarity": 100,
+        "originality": 91,
+        "sourceStrength": 80
+      },
+      "reasons": [
+        "evidence confidence needs improvement"
       ]
     },
     {
