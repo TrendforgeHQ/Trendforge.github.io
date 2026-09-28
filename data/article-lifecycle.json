@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-28T02:35:59.485Z",
+  "generatedAt": "2026-09-28T07:38:18.044Z",
   "policy": {
     "refreshCandidateScore": 75,
     "watchScore": 45,
@@ -12,8 +12,8 @@
   },
   "summary": {
     "articles": 28,
-    "refreshCandidates": 2,
-    "watch": 21,
+    "refreshCandidates": 5,
+    "watch": 18,
     "fresh": 5,
     "stale": 0,
     "duplicateClusters": 0
@@ -24,7 +24,7 @@
       "title": "Anthropic’s CEO Calls for an AI Slow‑Down – What It Means for the Industry",
       "category": "AI",
       "publishedAt": "2026-09-12T20:32:22.309Z",
-      "ageDays": 15.3,
+      "ageDays": 15.5,
       "ageState": "aging",
       "words": 810,
       "sourceCount": 2,
@@ -40,7 +40,7 @@
       "title": "Beyond Obscurity: Navigating the Dual Eras of Drone Threats and AI-Driven Vulnerabilities",
       "category": "Digital Life",
       "publishedAt": "2026-09-13T11:49:56.851Z",
-      "ageDays": 14.6,
+      "ageDays": 14.8,
       "ageState": "aging",
       "words": 851,
       "sourceCount": 2,
@@ -52,29 +52,63 @@
       ]
     },
     {
-      "file": "disney-appoints-first-ever-cto-as-it-pushes-technology-into-every-wing.md",
-      "title": "Disney Appoints First‑Ever CTO as It Pushes Technology into Every Wing",
-      "category": "Technology",
-      "publishedAt": "2026-09-19T03:49:39.936Z",
-      "ageDays": 8.9,
-      "ageState": "watch",
-      "words": 564,
-      "sourceCount": 2,
-      "refreshScore": 65,
-      "status": "watch",
-      "action": "watch",
-      "reasons": [
-        "older than 7 days"
-      ]
-    },
-    {
       "file": "how-to-move-passwords-and-passkeys-between-managers-on-android.md",
       "title": "How to Move Passwords and Passkeys Between Managers on Android",
       "category": "How-To",
       "publishedAt": "2026-09-14T03:19:21.719Z",
-      "ageDays": 14,
-      "ageState": "watch",
+      "ageDays": 14.2,
+      "ageState": "aging",
       "words": 450,
+      "sourceCount": 2,
+      "refreshScore": 82,
+      "status": "refresh_candidate",
+      "action": "refresh-review",
+      "reasons": [
+        "older than 14 days"
+      ]
+    },
+    {
+      "file": "how-to-set-up-a-passkey-for-your-google-account.md",
+      "title": "How to Set Up a Passkey for Your Google Account",
+      "category": "How-To",
+      "publishedAt": "2026-09-14T04:53:59.646Z",
+      "ageDays": 14.1,
+      "ageState": "aging",
+      "words": 373,
+      "sourceCount": 2,
+      "refreshScore": 77,
+      "status": "refresh_candidate",
+      "action": "refresh-review",
+      "reasons": [
+        "older than 14 days",
+        "content below 450 words"
+      ]
+    },
+    {
+      "file": "how-to-update-android-apps-safely-and-keep-them-current.md",
+      "title": "How to Update Android Apps Safely and Keep Them Current",
+      "category": "How-To",
+      "publishedAt": "2026-09-14T04:13:03.838Z",
+      "ageDays": 14.1,
+      "ageState": "aging",
+      "words": 347,
+      "sourceCount": 2,
+      "refreshScore": 77,
+      "status": "refresh_candidate",
+      "action": "refresh-review",
+      "reasons": [
+        "older than 14 days",
+        "content below 450 words"
+      ]
+    },
+    {
+      "file": "disney-appoints-first-ever-cto-as-it-pushes-technology-into-every-wing.md",
+      "title": "Disney Appoints First‑Ever CTO as It Pushes Technology into Every Wing",
+      "category": "Technology",
+      "publishedAt": "2026-09-19T03:49:39.936Z",
+      "ageDays": 9.2,
+      "ageState": "watch",
+      "words": 564,
       "sourceCount": 2,
       "refreshScore": 65,
       "status": "watch",
@@ -88,7 +122,7 @@
       "title": "Trump Announces U.S. “Permanent Control” Over Greenland Security, Denmark and Greenland to Sign Deal",
       "category": "World",
       "publishedAt": "2026-09-19T07:08:56.449Z",
-      "ageDays": 8.8,
+      "ageDays": 9,
       "ageState": "watch",
       "words": 645,
       "sourceCount": 4,
@@ -104,7 +138,7 @@
       "title": "U.S. Agencies Board Oil Tankers After Cyberattacks Target Navigation and Propulsion Systems",
       "category": "AI",
       "publishedAt": "2026-09-19T05:15:21.452Z",
-      "ageDays": 8.9,
+      "ageDays": 9.1,
       "ageState": "watch",
       "words": 489,
       "sourceCount": 4,
@@ -120,7 +154,7 @@
       "title": "AI doomsday fears: what can ordinary people actually do?",
       "category": "AI",
       "publishedAt": "2026-09-19T20:42:07.386Z",
-      "ageDays": 8.2,
+      "ageDays": 8.5,
       "ageState": "watch",
       "words": 353,
       "sourceCount": 2,
@@ -137,44 +171,10 @@
       "title": "California Governor Orders AI Safety Panel and Considers ‘Kill Switch’",
       "category": "AI",
       "publishedAt": "2026-09-19T02:30:26.449Z",
-      "ageDays": 9,
+      "ageDays": 9.2,
       "ageState": "watch",
       "words": 421,
       "sourceCount": 3,
-      "refreshScore": 61,
-      "status": "watch",
-      "action": "review-completeness",
-      "reasons": [
-        "older than 7 days",
-        "content below 450 words"
-      ]
-    },
-    {
-      "file": "how-to-set-up-a-passkey-for-your-google-account.md",
-      "title": "How to Set Up a Passkey for Your Google Account",
-      "category": "How-To",
-      "publishedAt": "2026-09-14T04:53:59.646Z",
-      "ageDays": 13.9,
-      "ageState": "watch",
-      "words": 373,
-      "sourceCount": 2,
-      "refreshScore": 61,
-      "status": "watch",
-      "action": "review-completeness",
-      "reasons": [
-        "older than 7 days",
-        "content below 450 words"
-      ]
-    },
-    {
-      "file": "how-to-update-android-apps-safely-and-keep-them-current.md",
-      "title": "How to Update Android Apps Safely and Keep Them Current",
-      "category": "How-To",
-      "publishedAt": "2026-09-14T04:13:03.838Z",
-      "ageDays": 13.9,
-      "ageState": "watch",
-      "words": 347,
-      "sourceCount": 2,
       "refreshScore": 61,
       "status": "watch",
       "action": "review-completeness",
@@ -188,7 +188,7 @@
       "title": "Al Gore Says the Real AI Risk Isn’t Data Centers",
       "category": "AI",
       "publishedAt": "2026-09-17T07:41:26.386Z",
-      "ageDays": 10.8,
+      "ageDays": 11,
       "ageState": "watch",
       "words": 597,
       "sourceCount": 1,
@@ -204,7 +204,7 @@
       "title": "Apple Eyes 2029 AI Server With M‑Series Ultra Chips",
       "category": "Technology",
       "publishedAt": "2026-09-17T08:51:48.854Z",
-      "ageDays": 10.7,
+      "ageDays": 10.9,
       "ageState": "watch",
       "words": 459,
       "sourceCount": 1,
@@ -220,7 +220,7 @@
       "title": "Exclusive: Paying for frontier AI models buys 4-month head start at 5x the cost",
       "category": "Technology",
       "publishedAt": "2026-09-16T09:01:41.744Z",
-      "ageDays": 11.7,
+      "ageDays": 11.9,
       "ageState": "watch",
       "words": 540,
       "sourceCount": 1,
@@ -236,7 +236,7 @@
       "title": "JPMorgan’s $266,000 Bitcoin Valuation vs. $81,000 Market Price: What the Numbers Mean",
       "category": "Crypto",
       "publishedAt": "2026-09-19T04:59:08.454Z",
-      "ageDays": 8.9,
+      "ageDays": 9.1,
       "ageState": "watch",
       "words": 548,
       "sourceCount": 1,
@@ -252,7 +252,7 @@
       "title": "AI Co‑Founders: How Gusto, Insight Partners, and Leland Are Reshaping Startup Hiring at Disrupt 2026",
       "category": "AI",
       "publishedAt": "2026-09-17T09:11:07.530Z",
-      "ageDays": 10.7,
+      "ageDays": 10.9,
       "ageState": "watch",
       "words": 375,
       "sourceCount": 1,
@@ -269,7 +269,7 @@
       "title": "Bitcoin Returns Above $80K, Coinbase Stock Jumps 11.5% Amid SEC Exemption",
       "category": "Crypto",
       "publishedAt": "2026-09-19T14:45:41.829Z",
-      "ageDays": 8.5,
+      "ageDays": 8.7,
       "ageState": "watch",
       "words": 423,
       "sourceCount": 1,
@@ -286,7 +286,7 @@
       "title": "CFTC Sends Crypto Rule Draft to White House for Review",
       "category": "Crypto",
       "publishedAt": "2026-09-19T05:13:39.960Z",
-      "ageDays": 8.9,
+      "ageDays": 9.1,
       "ageState": "watch",
       "words": 411,
       "sourceCount": 1,
@@ -303,7 +303,7 @@
       "title": "Comp AI raises $34M Series A to build agentic security and compliance platform",
       "category": "AI",
       "publishedAt": "2026-09-17T11:43:31.038Z",
-      "ageDays": 10.6,
+      "ageDays": 10.8,
       "ageState": "watch",
       "words": 374,
       "sourceCount": 1,
@@ -320,7 +320,7 @@
       "title": "Iranian Strikes Wipe Out Amazon Cloud Data in Bahrain, UAE",
       "category": "Technology",
       "publishedAt": "2026-09-17T09:55:20.528Z",
-      "ageDays": 10.7,
+      "ageDays": 10.9,
       "ageState": "watch",
       "words": 381,
       "sourceCount": 1,
@@ -337,7 +337,7 @@
       "title": "The Apple Watch Series 12 is the start of a new wearable era",
       "category": "Digital Life",
       "publishedAt": "2026-09-17T17:01:14.943Z",
-      "ageDays": 10.4,
+      "ageDays": 10.6,
       "ageState": "watch",
       "words": 397,
       "sourceCount": 1,
@@ -354,7 +354,7 @@
       "title": "Bitcoin as an Exit Asset, Ethereum as New Rails: Diverging Views From Former BlackRock Executive and Bitwise",
       "category": "Crypto",
       "publishedAt": "2026-09-27T04:46:35.135Z",
-      "ageDays": 0.9,
+      "ageDays": 1.1,
       "ageState": "fresh",
       "words": 627,
       "sourceCount": 2,
@@ -368,7 +368,7 @@
       "title": "Google’s First Orbital AI Data Center Test Launches on October 1",
       "category": "Technology",
       "publishedAt": "2026-09-25T15:12:10.057Z",
-      "ageDays": 2.5,
+      "ageDays": 2.7,
       "ageState": "fresh",
       "words": 507,
       "sourceCount": 4,
@@ -382,7 +382,7 @@
       "title": "Microsoft Eyes $10 B+ Investment in Middle East Tech, AI, and Digital Resilience",
       "category": "Technology",
       "publishedAt": "2026-09-24T02:15:33.773Z",
-      "ageDays": 4,
+      "ageDays": 4.2,
       "ageState": "fresh",
       "words": 529,
       "sourceCount": 4,
@@ -396,7 +396,7 @@
       "title": "Aligning Public Finance With Technology Readiness in Clean Energy",
       "category": "Technology",
       "publishedAt": "2026-09-21T07:49:33.878Z",
-      "ageDays": 6.8,
+      "ageDays": 7,
       "ageState": "fresh",
       "words": 335,
       "sourceCount": 2,
@@ -412,7 +412,7 @@
       "title": "Jim Cramer Recommends Two AI Stocks That Have Risen Over 1,400% Since 2023",
       "category": "AI",
       "publishedAt": "2026-09-26T10:32:59.089Z",
-      "ageDays": 1.7,
+      "ageDays": 1.9,
       "ageState": "fresh",
       "words": 307,
       "sourceCount": 3,
@@ -428,7 +428,7 @@
       "title": "Meta’s Connect 2026 Unveils New Glasses and a Rumored Mixed‑Reality Headset",
       "category": "Digital Life",
       "publishedAt": "2026-09-24T06:37:38.171Z",
-      "ageDays": 3.8,
+      "ageDays": 4,
       "ageState": "fresh",
       "words": 301,
       "sourceCount": 2,
@@ -444,7 +444,7 @@
       "title": "Meta’s Muse Now Shows Its Entire Filesystem to Users",
       "category": "Digital Life",
       "publishedAt": "2026-09-25T20:56:22.716Z",
-      "ageDays": 2.2,
+      "ageDays": 2.4,
       "ageState": "fresh",
       "words": 386,
       "sourceCount": 2,
@@ -460,7 +460,7 @@
       "title": "OpenAI Slows AI Training After Hugging Face Breach",
       "category": "Digital Life",
       "publishedAt": "2026-09-28T02:35:05.561Z",
-      "ageDays": 0,
+      "ageDays": 0.2,
       "ageState": "fresh",
       "words": 350,
       "sourceCount": 2,
@@ -478,7 +478,7 @@
       "title": "Anthropic’s CEO Calls for an AI Slow‑Down – What It Means for the Industry",
       "category": "AI",
       "publishedAt": "2026-09-12T20:32:22.309Z",
-      "ageDays": 15.3,
+      "ageDays": 15.5,
       "ageState": "aging",
       "words": 810,
       "sourceCount": 2,
@@ -495,7 +495,7 @@
       "title": "Beyond Obscurity: Navigating the Dual Eras of Drone Threats and AI-Driven Vulnerabilities",
       "category": "Digital Life",
       "publishedAt": "2026-09-13T11:49:56.851Z",
-      "ageDays": 14.6,
+      "ageDays": 14.8,
       "ageState": "aging",
       "words": 851,
       "sourceCount": 2,
@@ -506,6 +506,59 @@
         "older than 14 days"
       ],
       "priority": 2
+    },
+    {
+      "file": "how-to-move-passwords-and-passkeys-between-managers-on-android.md",
+      "title": "How to Move Passwords and Passkeys Between Managers on Android",
+      "category": "How-To",
+      "publishedAt": "2026-09-14T03:19:21.719Z",
+      "ageDays": 14.2,
+      "ageState": "aging",
+      "words": 450,
+      "sourceCount": 2,
+      "refreshScore": 82,
+      "status": "refresh_candidate",
+      "action": "refresh-review",
+      "reasons": [
+        "older than 14 days"
+      ],
+      "priority": 3
+    },
+    {
+      "file": "how-to-set-up-a-passkey-for-your-google-account.md",
+      "title": "How to Set Up a Passkey for Your Google Account",
+      "category": "How-To",
+      "publishedAt": "2026-09-14T04:53:59.646Z",
+      "ageDays": 14.1,
+      "ageState": "aging",
+      "words": 373,
+      "sourceCount": 2,
+      "refreshScore": 77,
+      "status": "refresh_candidate",
+      "action": "refresh-review",
+      "reasons": [
+        "older than 14 days",
+        "content below 450 words"
+      ],
+      "priority": 4
+    },
+    {
+      "file": "how-to-update-android-apps-safely-and-keep-them-current.md",
+      "title": "How to Update Android Apps Safely and Keep Them Current",
+      "category": "How-To",
+      "publishedAt": "2026-09-14T04:13:03.838Z",
+      "ageDays": 14.1,
+      "ageState": "aging",
+      "words": 347,
+      "sourceCount": 2,
+      "refreshScore": 77,
+      "status": "refresh_candidate",
+      "action": "refresh-review",
+      "reasons": [
+        "older than 14 days",
+        "content below 450 words"
+      ],
+      "priority": 5
     }
   ],
   "watchQueue": [
@@ -514,7 +567,7 @@
       "title": "Disney Appoints First‑Ever CTO as It Pushes Technology into Every Wing",
       "category": "Technology",
       "publishedAt": "2026-09-19T03:49:39.936Z",
-      "ageDays": 8.9,
+      "ageDays": 9.2,
       "ageState": "watch",
       "words": 564,
       "sourceCount": 2,
@@ -527,14 +580,14 @@
       "priority": 1
     },
     {
-      "file": "how-to-move-passwords-and-passkeys-between-managers-on-android.md",
-      "title": "How to Move Passwords and Passkeys Between Managers on Android",
-      "category": "How-To",
-      "publishedAt": "2026-09-14T03:19:21.719Z",
-      "ageDays": 14,
+      "file": "trump-announces-u-s-permanent-control-over-greenland-security-denmark-and-greenland-to-sig.md",
+      "title": "Trump Announces U.S. “Permanent Control” Over Greenland Security, Denmark and Greenland to Sign Deal",
+      "category": "World",
+      "publishedAt": "2026-09-19T07:08:56.449Z",
+      "ageDays": 9,
       "ageState": "watch",
-      "words": 450,
-      "sourceCount": 2,
+      "words": 645,
+      "sourceCount": 4,
       "refreshScore": 65,
       "status": "watch",
       "action": "watch",
@@ -544,13 +597,13 @@
       "priority": 2
     },
     {
-      "file": "trump-announces-u-s-permanent-control-over-greenland-security-denmark-and-greenland-to-sig.md",
-      "title": "Trump Announces U.S. “Permanent Control” Over Greenland Security, Denmark and Greenland to Sign Deal",
-      "category": "World",
-      "publishedAt": "2026-09-19T07:08:56.449Z",
-      "ageDays": 8.8,
+      "file": "u-s-agencies-board-oil-tankers-after-cyberattacks-target-navigation-and-propulsion-systems.md",
+      "title": "U.S. Agencies Board Oil Tankers After Cyberattacks Target Navigation and Propulsion Systems",
+      "category": "AI",
+      "publishedAt": "2026-09-19T05:15:21.452Z",
+      "ageDays": 9.1,
       "ageState": "watch",
-      "words": 645,
+      "words": 489,
       "sourceCount": 4,
       "refreshScore": 65,
       "status": "watch",
@@ -561,28 +614,11 @@
       "priority": 3
     },
     {
-      "file": "u-s-agencies-board-oil-tankers-after-cyberattacks-target-navigation-and-propulsion-systems.md",
-      "title": "U.S. Agencies Board Oil Tankers After Cyberattacks Target Navigation and Propulsion Systems",
-      "category": "AI",
-      "publishedAt": "2026-09-19T05:15:21.452Z",
-      "ageDays": 8.9,
-      "ageState": "watch",
-      "words": 489,
-      "sourceCount": 4,
-      "refreshScore": 65,
-      "status": "watch",
-      "action": "watch",
-      "reasons": [
-        "older than 7 days"
-      ],
-      "priority": 4
-    },
-    {
       "file": "ai-doomsday-fears-what-can-ordinary-people-actually-do.md",
       "title": "AI doomsday fears: what can ordinary people actually do?",
       "category": "AI",
       "publishedAt": "2026-09-19T20:42:07.386Z",
-      "ageDays": 8.2,
+      "ageDays": 8.5,
       "ageState": "watch",
       "words": 353,
       "sourceCount": 2,
@@ -593,14 +629,14 @@
         "older than 7 days",
         "content below 450 words"
       ],
-      "priority": 5
+      "priority": 4
     },
     {
       "file": "california-governor-orders-ai-safety-panel-and-considers-kill-switch.md",
       "title": "California Governor Orders AI Safety Panel and Considers ‘Kill Switch’",
       "category": "AI",
       "publishedAt": "2026-09-19T02:30:26.449Z",
-      "ageDays": 9,
+      "ageDays": 9.2,
       "ageState": "watch",
       "words": 421,
       "sourceCount": 3,
@@ -611,52 +647,67 @@
         "older than 7 days",
         "content below 450 words"
       ],
-      "priority": 6
-    },
-    {
-      "file": "how-to-set-up-a-passkey-for-your-google-account.md",
-      "title": "How to Set Up a Passkey for Your Google Account",
-      "category": "How-To",
-      "publishedAt": "2026-09-14T04:53:59.646Z",
-      "ageDays": 13.9,
-      "ageState": "watch",
-      "words": 373,
-      "sourceCount": 2,
-      "refreshScore": 61,
-      "status": "watch",
-      "action": "review-completeness",
-      "reasons": [
-        "older than 7 days",
-        "content below 450 words"
-      ],
-      "priority": 7
-    },
-    {
-      "file": "how-to-update-android-apps-safely-and-keep-them-current.md",
-      "title": "How to Update Android Apps Safely and Keep Them Current",
-      "category": "How-To",
-      "publishedAt": "2026-09-14T04:13:03.838Z",
-      "ageDays": 13.9,
-      "ageState": "watch",
-      "words": 347,
-      "sourceCount": 2,
-      "refreshScore": 61,
-      "status": "watch",
-      "action": "review-completeness",
-      "reasons": [
-        "older than 7 days",
-        "content below 450 words"
-      ],
-      "priority": 8
+      "priority": 5
     },
     {
       "file": "al-gore-says-the-real-ai-risk-isn-t-data-centers.md",
       "title": "Al Gore Says the Real AI Risk Isn’t Data Centers",
       "category": "AI",
       "publishedAt": "2026-09-17T07:41:26.386Z",
-      "ageDays": 10.8,
+      "ageDays": 11,
       "ageState": "watch",
       "words": 597,
+      "sourceCount": 1,
+      "refreshScore": 59,
+      "status": "watch",
+      "action": "watch",
+      "reasons": [
+        "older than 7 days"
+      ],
+      "priority": 6
+    },
+    {
+      "file": "apple-eyes-2029-ai-server-with-m-series-ultra-chips.md",
+      "title": "Apple Eyes 2029 AI Server With M‑Series Ultra Chips",
+      "category": "Technology",
+      "publishedAt": "2026-09-17T08:51:48.854Z",
+      "ageDays": 10.9,
+      "ageState": "watch",
+      "words": 459,
+      "sourceCount": 1,
+      "refreshScore": 59,
+      "status": "watch",
+      "action": "watch",
+      "reasons": [
+        "older than 7 days"
+      ],
+      "priority": 7
+    },
+    {
+      "file": "exclusive-paying-for-frontier-ai-models-buys-4-month-head-start-at-5x-the-cost.md",
+      "title": "Exclusive: Paying for frontier AI models buys 4-month head start at 5x the cost",
+      "category": "Technology",
+      "publishedAt": "2026-09-16T09:01:41.744Z",
+      "ageDays": 11.9,
+      "ageState": "watch",
+      "words": 540,
+      "sourceCount": 1,
+      "refreshScore": 59,
+      "status": "watch",
+      "action": "watch",
+      "reasons": [
+        "older than 7 days"
+      ],
+      "priority": 8
+    },
+    {
+      "file": "jpmorgan-s-266-000-bitcoin-valuation-vs-81-000-market-price-what-the-numbers-mean.md",
+      "title": "JPMorgan’s $266,000 Bitcoin Valuation vs. $81,000 Market Price: What the Numbers Mean",
+      "category": "Crypto",
+      "publishedAt": "2026-09-19T04:59:08.454Z",
+      "ageDays": 9.1,
+      "ageState": "watch",
+      "words": 548,
       "sourceCount": 1,
       "refreshScore": 59,
       "status": "watch",
@@ -667,64 +718,67 @@
       "priority": 9
     },
     {
-      "file": "apple-eyes-2029-ai-server-with-m-series-ultra-chips.md",
-      "title": "Apple Eyes 2029 AI Server With M‑Series Ultra Chips",
-      "category": "Technology",
-      "publishedAt": "2026-09-17T08:51:48.854Z",
-      "ageDays": 10.7,
-      "ageState": "watch",
-      "words": 459,
-      "sourceCount": 1,
-      "refreshScore": 59,
-      "status": "watch",
-      "action": "watch",
-      "reasons": [
-        "older than 7 days"
-      ],
-      "priority": 10
-    },
-    {
-      "file": "exclusive-paying-for-frontier-ai-models-buys-4-month-head-start-at-5x-the-cost.md",
-      "title": "Exclusive: Paying for frontier AI models buys 4-month head start at 5x the cost",
-      "category": "Technology",
-      "publishedAt": "2026-09-16T09:01:41.744Z",
-      "ageDays": 11.7,
-      "ageState": "watch",
-      "words": 540,
-      "sourceCount": 1,
-      "refreshScore": 59,
-      "status": "watch",
-      "action": "watch",
-      "reasons": [
-        "older than 7 days"
-      ],
-      "priority": 11
-    },
-    {
-      "file": "jpmorgan-s-266-000-bitcoin-valuation-vs-81-000-market-price-what-the-numbers-mean.md",
-      "title": "JPMorgan’s $266,000 Bitcoin Valuation vs. $81,000 Market Price: What the Numbers Mean",
-      "category": "Crypto",
-      "publishedAt": "2026-09-19T04:59:08.454Z",
-      "ageDays": 8.9,
-      "ageState": "watch",
-      "words": 548,
-      "sourceCount": 1,
-      "refreshScore": 59,
-      "status": "watch",
-      "action": "watch",
-      "reasons": [
-        "older than 7 days"
-      ],
-      "priority": 12
-    },
-    {
       "file": "ai-co-founders-how-gusto-insight-partners-and-leland-are-reshaping-startup-hiring-at-disru.md",
       "title": "AI Co‑Founders: How Gusto, Insight Partners, and Leland Are Reshaping Startup Hiring at Disrupt 2026",
       "category": "AI",
       "publishedAt": "2026-09-17T09:11:07.530Z",
-      "ageDays": 10.7,
+      "ageDays": 10.9,
       "ageState": "watch",
       "words": 375,
+      "sourceCount": 1,
+      "refreshScore": 54,
+      "status": "watch",
+      "action": "review-completeness",
+      "reasons": [
+        "older than 7 days",
+        "content below 450 words"
+      ],
+      "priority": 10
+    },
+    {
+      "file": "bitcoin-returns-above-80k-coinbase-stock-jumps-11-5-amid-sec-exemption.md",
+      "title": "Bitcoin Returns Above $80K, Coinbase Stock Jumps 11.5% Amid SEC Exemption",
+      "category": "Crypto",
+      "publishedAt": "2026-09-19T14:45:41.829Z",
+      "ageDays": 8.7,
+      "ageState": "watch",
+      "words": 423,
+      "sourceCount": 1,
+      "refreshScore": 54,
+      "status": "watch",
+      "action": "review-completeness",
+      "reasons": [
+        "older than 7 days",
+        "content below 450 words"
+      ],
+      "priority": 11
+    },
+    {
+      "file": "cftc-sends-crypto-rule-draft-to-white-house-for-review.md",
+      "title": "CFTC Sends Crypto Rule Draft to White House for Review",
+      "category": "Crypto",
+      "publishedAt": "2026-09-19T05:13:39.960Z",
+      "ageDays": 9.1,
+      "ageState": "watch",
+      "words": 411,
+      "sourceCount": 1,
+      "refreshScore": 54,
+      "status": "watch",
+      "action": "review-completeness",
+      "reasons": [
+        "older than 7 days",
+        "content below 450 words"
+      ],
+      "priority": 12
+    },
+    {
+      "file": "comp-ai-raises-34m-series-a-to-build-agentic-security-and-compliance-platform.md",
+      "title": "Comp AI raises $34M Series A to build agentic security and compliance platform",
+      "category": "AI",
+      "publishedAt": "2026-09-17T11:43:31.038Z",
+      "ageDays": 10.8,
+      "ageState": "watch",
+      "words": 374,
       "sourceCount": 1,
       "refreshScore": 54,
       "status": "watch",
@@ -736,13 +790,13 @@
       "priority": 13
     },
     {
-      "file": "bitcoin-returns-above-80k-coinbase-stock-jumps-11-5-amid-sec-exemption.md",
-      "title": "Bitcoin Returns Above $80K, Coinbase Stock Jumps 11.5% Amid SEC Exemption",
-      "category": "Crypto",
-      "publishedAt": "2026-09-19T14:45:41.829Z",
-      "ageDays": 8.5,
+      "file": "iranian-strikes-wipe-out-amazon-cloud-data-in-bahrain-uae.md",
+      "title": "Iranian Strikes Wipe Out Amazon Cloud Data in Bahrain, UAE",
+      "category": "Technology",
+      "publishedAt": "2026-09-17T09:55:20.528Z",
+      "ageDays": 10.9,
       "ageState": "watch",
-      "words": 423,
+      "words": 381,
       "sourceCount": 1,
       "refreshScore": 54,
       "status": "watch",
@@ -754,13 +808,13 @@
       "priority": 14
     },
     {
-      "file": "cftc-sends-crypto-rule-draft-to-white-house-for-review.md",
-      "title": "CFTC Sends Crypto Rule Draft to White House for Review",
-      "category": "Crypto",
-      "publishedAt": "2026-09-19T05:13:39.960Z",
-      "ageDays": 8.9,
+      "file": "the-apple-watch-series-12-is-the-start-of-a-new-wearable-era.md",
+      "title": "The Apple Watch Series 12 is the start of a new wearable era",
+      "category": "Digital Life",
+      "publishedAt": "2026-09-17T17:01:14.943Z",
+      "ageDays": 10.6,
       "ageState": "watch",
-      "words": 411,
+      "words": 397,
       "sourceCount": 1,
       "refreshScore": 54,
       "status": "watch",
@@ -772,65 +826,11 @@
       "priority": 15
     },
     {
-      "file": "comp-ai-raises-34m-series-a-to-build-agentic-security-and-compliance-platform.md",
-      "title": "Comp AI raises $34M Series A to build agentic security and compliance platform",
-      "category": "AI",
-      "publishedAt": "2026-09-17T11:43:31.038Z",
-      "ageDays": 10.6,
-      "ageState": "watch",
-      "words": 374,
-      "sourceCount": 1,
-      "refreshScore": 54,
-      "status": "watch",
-      "action": "review-completeness",
-      "reasons": [
-        "older than 7 days",
-        "content below 450 words"
-      ],
-      "priority": 16
-    },
-    {
-      "file": "iranian-strikes-wipe-out-amazon-cloud-data-in-bahrain-uae.md",
-      "title": "Iranian Strikes Wipe Out Amazon Cloud Data in Bahrain, UAE",
-      "category": "Technology",
-      "publishedAt": "2026-09-17T09:55:20.528Z",
-      "ageDays": 10.7,
-      "ageState": "watch",
-      "words": 381,
-      "sourceCount": 1,
-      "refreshScore": 54,
-      "status": "watch",
-      "action": "review-completeness",
-      "reasons": [
-        "older than 7 days",
-        "content below 450 words"
-      ],
-      "priority": 17
-    },
-    {
-      "file": "the-apple-watch-series-12-is-the-start-of-a-new-wearable-era.md",
-      "title": "The Apple Watch Series 12 is the start of a new wearable era",
-      "category": "Digital Life",
-      "publishedAt": "2026-09-17T17:01:14.943Z",
-      "ageDays": 10.4,
-      "ageState": "watch",
-      "words": 397,
-      "sourceCount": 1,
-      "refreshScore": 54,
-      "status": "watch",
-      "action": "review-completeness",
-      "reasons": [
-        "older than 7 days",
-        "content below 450 words"
-      ],
-      "priority": 18
-    },
-    {
       "file": "bitcoin-as-an-exit-asset-ethereum-as-new-rails-diverging-views-from-former-blackrock-execu.md",
       "title": "Bitcoin as an Exit Asset, Ethereum as New Rails: Diverging Views From Former BlackRock Executive and Bitwise",
       "category": "Crypto",
       "publishedAt": "2026-09-27T04:46:35.135Z",
-      "ageDays": 0.9,
+      "ageDays": 1.1,
       "ageState": "fresh",
       "words": 627,
       "sourceCount": 2,
@@ -838,14 +838,14 @@
       "status": "watch",
       "action": "watch",
       "reasons": [],
-      "priority": 19
+      "priority": 16
     },
     {
       "file": "google-s-first-orbital-ai-data-center-test-launches-on-october-1.md",
       "title": "Google’s First Orbital AI Data Center Test Launches on October 1",
       "category": "Technology",
       "publishedAt": "2026-09-25T15:12:10.057Z",
-      "ageDays": 2.5,
+      "ageDays": 2.7,
       "ageState": "fresh",
       "words": 507,
       "sourceCount": 4,
@@ -853,14 +853,14 @@
       "status": "watch",
       "action": "watch",
       "reasons": [],
-      "priority": 20
+      "priority": 17
     },
     {
       "file": "microsoft-eyes-10-b-investment-in-middle-east-tech-ai-and-digital-resilience.md",
       "title": "Microsoft Eyes $10 B+ Investment in Middle East Tech, AI, and Digital Resilience",
       "category": "Technology",
       "publishedAt": "2026-09-24T02:15:33.773Z",
-      "ageDays": 4,
+      "ageDays": 4.2,
       "ageState": "fresh",
       "words": 529,
       "sourceCount": 4,
@@ -868,7 +868,7 @@
       "status": "watch",
       "action": "watch",
       "reasons": [],
-      "priority": 21
+      "priority": 18
     }
   ],
   "duplicateClusters": []
