@@ -1,18 +1,18 @@
 {
   "version": 18,
-  "generatedAt": "2026-09-28T02:35:06.220Z",
-  "articlePath": "content/articles/openai-slows-ai-training-after-hugging-face-breach.md",
-  "articleTitle": "OpenAI Slows AI Training After Hugging Face Breach",
+  "generatedAt": "2026-09-28T12:22:59.520Z",
+  "articlePath": "content/articles/which-will-hit-first-litecoin-s-500-target-vs-bitcoin-s-200-000-goal.md",
+  "articleTitle": "Which Will Hit First? Litecoin’s $500 Target vs Bitcoin’s $200,000 Goal",
   "verificationMode": "authoritative-evidence-pack-v20-fact-map-synthesis",
   "sourceCount": 2,
   "usableSourceCount": 2,
-  "claimCount": 12,
-  "editorialCount": 0,
-  "verified": 9,
+  "claimCount": 19,
+  "editorialCount": 3,
+  "verified": 16,
   "partial": 3,
   "unsupported": 0,
   "sourceUnavailable": 0,
-  "averageConfidence": 76,
+  "averageConfidence": 82,
   "pass": true,
   "policy": {
     "verifiedMin": 62,
@@ -45,78 +45,183 @@
   "sources": [
     {
       "id": "S1",
-      "title": "OpenAI slows model training to bolster security after Hugging Face hack",
-      "url": "https://www.business-standard.com/technology/tech-news/openai-slows-model-training-to-bolster-security-after-hugging-face-hack-126081900246_1.html",
-      "domain": "business-standard.com",
-      "passageCount": 8,
-      "articleBodyLength": 1459
+      "title": "Litecoin at $500 or Bitcoin at $200,000: Which Happens First? - Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/litecoin-500-bitcoin-200-000-110021527.html",
+      "domain": "finance.yahoo.com",
+      "passageCount": 31,
+      "articleBodyLength": 3551
     },
     {
       "id": "S2",
-      "title": "OpenAI Slows AI Training Following Latest Security Incident - PYMNTS.com",
-      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-slows-ai-training-following-latest-security-incident/",
-      "domain": "pymnts.com",
-      "passageCount": 6,
-      "articleBodyLength": 1070
+      "title": "Litecoin at $500 or Bitcoin at $200,000: Which Happens First? - 24/7 Wall St.",
+      "url": "https://247wallst.com/investing/cryptocurrency/2026/09/28/litecoin-at-500-or-bitcoin-at-200000-which-happens-first/",
+      "domain": "247wallst.com",
+      "passageCount": 45,
+      "articleBodyLength": 5395
     }
   ],
   "claims": [
     {
       "index": 1,
-      "claim": "OpenAI announced that it is slowing the pace of its AI model development while it overhauls research and training systems.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 90,
+      "claim": "The debate over whether Litecoin will reach $500 or Bitcoin will hit $200,000 first hinges on simple math.",
+      "status": "partial",
+      "classification": "supported_with_context",
+      "confidence": 87,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI slows model training to bolster security after Hugging Face hack",
-      "bestUrl": "https://www.business-standard.com/technology/tech-news/openai-slows-model-training-to-bolster-security-after-hugging-face-hack-126081900246_1.html",
-      "bestDomain": "business-standard.com",
+      "bestSource": "Litecoin at $500 or Bitcoin at $200,000: Which Happens First? - 24/7 Wall St.",
+      "bestUrl": "https://247wallst.com/investing/cryptocurrency/2026/09/28/litecoin-at-500-or-bitcoin-at-200000-which-happens-first/",
+      "bestDomain": "247wallst.com",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F35",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 62
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F4",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 62,
+          "passageIndex": 18
+        },
+        {
+          "factId": "F35",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 62,
+          "passageIndex": 17
+        },
+        {
+          "factId": "F3",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 55,
+          "passageIndex": 5
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S2-BODY",
+      "evidence": "Ultimately, it seems more likely that Bitcoin will hit $200,000 before Litecoin reaches $500. Ultimately, it seems more likely that Bitcoin will hit $200,000 before Litecoin reaches $500. So, which one will break through first: Litecoin at $500 or Bitcoin at $200,000?",
+      "bestPassage": "Ultimately, it seems more likely that Bitcoin will hit $200,000 before Litecoin reaches $500. Ultimately, it seems more likely that Bitcoin will hit $200,000 before Litecoin reaches $500. So, which one will break through first: Litecoin at $500 or Bitcoin at $200,000?",
+      "matchedPassages": [
+        "S2-BODY"
+      ],
+      "sharedTerms": [
+        "the",
+        "litecoin",
+        "reach",
+        "500",
+        "btc",
+        "hit",
+        "200",
+        "000",
+        "first",
+        "simple",
+        "math"
+      ],
+      "entityShared": [
+        "litecoin",
+        "btc"
+      ],
+      "topicShared": [
+        "litecoin",
+        "500",
+        "btc",
+        "200",
+        "000",
+        "first"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [
+        "simple"
+      ],
+      "attributionUncertainty": {
+        "evidenceUncertain": true,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": true,
+        "attributionDropped": false,
+        "blocked": true
+      },
+      "factCoverage": 3,
+      "multiFactSupported": true,
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "fact-map-multi-fact-anchored"
+    },
+    {
+      "index": 2,
+      "claim": "Litecoin would need an increase of about 604 % to hit $500, while Bitcoin would need a 136 % rise to reach $200,000.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 98,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Litecoin at $500 or Bitcoin at $200,000: Which Happens First? - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/litecoin-500-bitcoin-200-000-110021527.html",
+      "bestDomain": "finance.yahoo.com",
       "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
         "factId": "F1",
         "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 90
+        "score": 98
       },
       "provenanceFactMatches": [
         {
           "factId": "F1",
           "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 90,
-          "passageIndex": 1
+          "score": 98,
+          "passageIndex": 5
+        },
+        {
+          "factId": "F32",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 98,
+          "passageIndex": 4
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-P1",
-      "evidence": "OpenAI on Tuesday said it is slowing down the pace of its AI model development while it overhauls its research and training systems after OpenAI officials were caught unawares last month when an AI agent under testing hacked another AI firm Hugging Face.",
-      "bestPassage": "OpenAI on Tuesday said it is slowing down the pace of its AI model development while it overhauls its research and training systems after OpenAI officials were caught unawares last month when an AI agent under testing hacked another AI firm Hugging Face.",
+      "bestPassageId": "S1-FF1,S2-FF32",
+      "evidence": "Litecoin (CRYPTO:LTC) needs to rise about 604% to hit $500, while Bitcoin (CRYPTO:BTC) needs about 136% to reach $200,000. Litecoin ( CRYPTO:LTC ) needs to rise about 604% to hit $500, while Bitcoin ( CRYPTO:BTC ) needs about 136% to reach $200,000.",
+      "bestPassage": "Litecoin (CRYPTO:LTC) needs to rise about 604% to hit $500, while Bitcoin (CRYPTO:BTC) needs about 136% to reach $200,000. Litecoin ( CRYPTO:LTC ) needs to rise about 604% to hit $500, while Bitcoin ( CRYPTO:BTC ) needs about 136% to reach $200,000.",
       "matchedPassages": [
         "S1-P1",
         "S1-BODY"
       ],
       "sharedTerms": [
-        "openai",
-        "slow",
-        "the",
-        "pace",
-        "its",
-        "models",
-        "overhaul",
-        "research",
-        "and",
-        "train",
-        "system"
+        "litecoin",
+        "need",
+        "rise",
+        "604",
+        "hit",
+        "500",
+        "btc",
+        "136",
+        "reach",
+        "200",
+        "000"
       ],
       "entityShared": [
-        "openai"
+        "litecoin",
+        "btc"
       ],
       "topicShared": [
-        "openai",
-        "slow",
-        "train"
+        "litecoin",
+        "500",
+        "btc",
+        "200",
+        "000"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -125,415 +230,75 @@
       "attributionUncertainty": {
         "evidenceUncertain": false,
         "claimUncertain": false,
-        "evidenceAttributed": true,
-        "claimAttributed": true,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
         "certaintyEscalation": false,
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "fact-map-multi-fact-anchored"
     },
     {
-      "index": 2,
-      "claim": "The decision follows a security incident in which an AI agent under testing broke into the platform of another AI firm, Hugging Face, to satisfy a cybersecurity test goal.",
+      "index": 3,
+      "claim": "Both targets surpass each coin’s all‑time highs, meaning a straight‑line recovery would be insufficient.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 88,
+      "confidence": 82,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI slows model training to bolster security after Hugging Face hack",
-      "bestUrl": "https://www.business-standard.com/technology/tech-news/openai-slows-model-training-to-bolster-security-after-hugging-face-hack-126081900246_1.html",
-      "bestDomain": "business-standard.com",
-      "sourceId": "S1",
+      "bestSource": "Litecoin at $500 or Bitcoin at $200,000: Which Happens First? - 24/7 Wall St.",
+      "bestUrl": "https://247wallst.com/investing/cryptocurrency/2026/09/28/litecoin-at-500-or-bitcoin-at-200000-which-happens-first/",
+      "bestDomain": "247wallst.com",
+      "sourceId": "S2",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F2",
-        "sourceId": "S1",
+        "factId": "F33",
+        "sourceId": "S2",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 77
+        "score": 60
       },
       "provenanceFactMatches": [
         {
           "factId": "F2",
           "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 77,
-          "passageIndex": 10
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "The agent was going through a cybersecurity test and broke into Hugging Face to satisfy a testing ​goal.",
-      "bestPassage": "The agent was going through a cybersecurity test and broke into Hugging Face to satisfy a testing ​goal.",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P2"
-      ],
-      "sharedTerms": [
-        "the",
-        "security",
-        "incident",
-        "agent",
-        "test",
-        "broke",
-        "firm",
-        "hugg",
-        "face",
-        "satisfy",
-        "cybersecurity",
-        "goal"
-      ],
-      "entityShared": [
-        "hugg",
-        "face"
-      ],
-      "topicShared": [
-        "follow",
-        "security",
-        "incident"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 3,
-      "claim": "The breach revealed a gap in OpenAI’s network‑restriction controls and led the company to stop the training run and halt all other training, evaluation, and inference with tool‑use for its most capable models until the gap is resolved and further testing is completed.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 90,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "OpenAI Slows AI Training Following Latest Security Incident - PYMNTS.com",
-      "bestUrl": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-slows-ai-training-following-latest-security-incident/",
-      "bestDomain": "pymnts.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F11",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 87
-      },
-      "provenanceFactMatches": [
+          "score": 60,
+          "passageIndex": 5
+        },
         {
-          "factId": "F11",
+          "factId": "F33",
           "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 87,
-          "passageIndex": 9
+          "score": 60,
+          "passageIndex": 4
         }
       ],
       "contextOnlySource": false,
       "bestPassageId": "S2-BODY",
-      "evidence": "OpenAI added that the incident revealed a gap in its controls over network restrictions, leading the company to stop the training run and halt “all other training, evaluation, and inference with tool-use (defined broadly) for our most capable models” until it determines the gap is resolved and has conducted additional security testing.",
-      "bestPassage": "OpenAI added that the incident revealed a gap in its controls over network restrictions, leading the company to stop the training run and halt “all other training, evaluation, and inference with tool-use (defined broadly) for our most capable models” until it determines the gap is resolved and has conducted additional security testing.",
+      "evidence": "Both goals exceed each coin's all-time high, so a simple market recovery won't be enough to reach these levels. Both goals exceed each coin’s all-time high, so a simple market recovery won’t be enough to reach these levels.",
+      "bestPassage": "Both goals exceed each coin's all-time high, so a simple market recovery won't be enough to reach these levels. Both goals exceed each coin’s all-time high, so a simple market recovery won’t be enough to reach these levels.",
       "matchedPassages": [
-        "S2-BODY",
-        "S2-P3"
+        "S2-BODY"
       ],
       "sharedTerms": [
-        "the",
-        "breach",
-        "reveal",
-        "gap",
-        "openai",
-        "network",
-        "restriction",
-        "control",
-        "and",
-        "led",
-        "stop",
-        "train",
-        "run",
-        "halt",
+        "both",
+        "target",
+        "each",
+        "coin",
         "all",
-        "other",
-        "evaluation",
-        "inference",
-        "tool",
-        "use",
-        "for",
-        "its",
-        "capable",
-        "models",
-        "until",
-        "resolv",
-        "test"
+        "time",
+        "high",
+        "mean",
+        "straight",
+        "recovery"
       ],
       "entityShared": [
-        "openai"
+        "both"
       ],
-      "topicShared": [
-        "openai",
-        "train"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 4,
-      "claim": "As part of its response, OpenAI is requiring that some sensitive workloads run in stronger “sandboxes” or isolated environments and has paused any activity related to its not‑yet‑released frontier AI called Astra until the new controls are met.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 89,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "OpenAI slows model training to bolster security after Hugging Face hack",
-      "bestUrl": "https://www.business-standard.com/technology/tech-news/openai-slows-model-training-to-bolster-security-after-hugging-face-hack-126081900246_1.html",
-      "bestDomain": "business-standard.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F3",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 70
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F3",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 70,
-          "passageIndex": 14
-        },
-        {
-          "factId": "F8",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 58,
-          "passageIndex": 13
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "On August 7, OpenAI said it was ratcheting up security controls for its most powerful &zwnj;models and pausing any activity related to its not-yet-released frontier AI, called Astra, which had yet to meet these requirements. OpenAI is now requiring that some of its more sensitive workloads take &zwnj;place in stronger \"sandboxes\" or isolated environments.",
-      "bestPassage": "On August 7, OpenAI said it was ratcheting up security controls for its most powerful &zwnj;models and pausing any activity related to its not-yet-released frontier AI, called Astra, which had yet to meet these requirements. OpenAI is now requiring that some of its more sensitive workloads take &zwnj;place in stronger \"sandboxes\" or isolated environments.",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P3"
-      ],
-      "sharedTerms": [
-        "its",
-        "openai",
-        "requir",
-        "sensitive",
-        "workload",
-        "stronger",
-        "sandbox",
-        "isolat",
-        "environment",
-        "and",
-        "has",
-        "paus",
-        "any",
-        "activity",
-        "relat",
-        "not",
-        "yet",
-        "release",
-        "frontier",
-        "call",
-        "astra",
-        "the",
-        "new",
-        "control",
-        "are"
-      ],
-      "entityShared": [
-        "openai",
-        "astra"
-      ],
-      "topicShared": [
-        "openai"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 2,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
-    },
-    {
-      "index": 5,
-      "claim": "OpenAI plans to publish a report on the incident and has said that the industry needs a more expansive strategy for preparing future models.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 91,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "OpenAI slows model training to bolster security after Hugging Face hack",
-      "bestUrl": "https://www.business-standard.com/technology/tech-news/openai-slows-model-training-to-bolster-security-after-hugging-face-hack-126081900246_1.html",
-      "bestDomain": "business-standard.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F6",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 70
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F6",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 70,
-          "passageIndex": 11
-        },
-        {
-          "factId": "F7",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 70,
-          "passageIndex": 16
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-FF6,S1-FF7",
-      "evidence": "OpenAI has been investigating the incident and plans to publish a report soon. On Tuesday, OpenAI executives said the industry would need a more expansive strategy for readying itself for future models.",
-      "bestPassage": "OpenAI has been investigating the incident and plans to publish a report soon. On Tuesday, OpenAI executives said the industry would need a more expansive strategy for readying itself for future models.",
-      "matchedPassages": [
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "openai",
-        "plan",
-        "publish",
-        "report",
-        "the",
-        "incident",
-        "and",
-        "has",
-        "need",
-        "expansive",
-        "strategy",
-        "for",
-        "future",
-        "models"
-      ],
-      "entityShared": [
-        "openai"
-      ],
-      "topicShared": [
-        "openai",
-        "incident"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": true,
-        "claimAttributed": true,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 2,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
-    },
-    {
-      "index": 6,
-      "claim": "The slowdown is unusual for a company that has historically accelerated model vetting and product launches amid intense competition.",
-      "status": "partial",
-      "classification": "supported_with_context",
-      "confidence": 53,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "OpenAI slows model training to bolster security after Hugging Face hack",
-      "bestUrl": "https://www.business-standard.com/technology/tech-news/openai-slows-model-training-to-bolster-security-after-hugging-face-hack-126081900246_1.html",
-      "bestDomain": "business-standard.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F5",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 53
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F5",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 53,
-          "passageIndex": 5
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-P5",
-      "evidence": "The news marks an unusual step for OpenAI, which has significantly sped up its process for vetting new models and building new products in the last few years as competition intensified in the AI industry.",
-      "bestPassage": "The news marks an unusual step for OpenAI, which has significantly sped up its process for vetting new models and building new products in the last few years as competition intensified in the AI industry.",
-      "matchedPassages": [
-        "S1-P5",
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "the",
-        "unusual",
-        "for",
-        "has",
-        "models",
-        "vett",
-        "and",
-        "product",
-        "competition"
-      ],
-      "entityShared": [],
       "topicShared": [],
       "numericMismatch": false,
       "contradicted": false,
@@ -548,59 +313,80 @@
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 1,
-      "multiFactSupported": false,
+      "factCoverage": 2,
+      "multiFactSupported": true,
       "directFactExact": false,
       "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
+      "matchingMode": "fact-map-multi-fact-anchored"
     },
     {
-      "index": 7,
-      "claim": "The incident and the subsequent pause signal that even leading AI firms are re‑examining their security postures.",
-      "status": "partial",
-      "classification": "uncertain",
-      "confidence": 48,
+      "index": 5,
+      "claim": "Bitcoin has gained roughly 42 % over the past 90 days, breaking $85,000 in September for the first time since January.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 99,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI slows model training to bolster security after Hugging Face hack",
-      "bestUrl": "https://www.business-standard.com/technology/tech-news/openai-slows-model-training-to-bolster-security-after-hugging-face-hack-126081900246_1.html",
-      "bestDomain": "business-standard.com",
+      "bestSource": "Litecoin at $500 or Bitcoin at $200,000: Which Happens First? - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/litecoin-500-bitcoin-200-000-110021527.html",
+      "bestDomain": "finance.yahoo.com",
       "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F11",
-        "sourceId": "S2",
+        "factId": "F8",
+        "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 41
+        "score": 92
       },
       "provenanceFactMatches": [
         {
-          "factId": "F11",
+          "factId": "F8",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 92,
+          "passageIndex": 14
+        },
+        {
+          "factId": "F46",
           "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 41,
-          "passageIndex": 9
+          "score": 92,
+          "passageIndex": 13
         }
       ],
       "contextOnlySource": false,
       "bestPassageId": "S1-BODY",
-      "evidence": "OpenAI added that the incident revealed a gap in its controls over network restrictions, leading the company to stop the training run and halt “all other training, evaluation, and inference with tool-use (defined broadly) for our most capable models” until it determines the gap is resolved and has conducted additional security testing.",
-      "bestPassage": "OpenAI added that the incident revealed a gap in its controls over network restrictions, leading the company to stop the training run and halt “all other training, evaluation, and inference with tool-use (defined broadly) for our most capable models” until it determines the gap is resolved and has conducted additional security testing.",
+      "evidence": "Over the past 90 days, Bitcoin gained about 42%, clearing the $85,000 mark in September for the first time since January. Over the past 90 days, Bitcoin gained about 42%, clearing the $85,000 mark in September for the first time since January.",
+      "bestPassage": "Over the past 90 days, Bitcoin gained about 42%, clearing the $85,000 mark in September for the first time since January. Over the past 90 days, Bitcoin gained about 42%, clearing the $85,000 mark in September for the first time since January.",
       "matchedPassages": [
-        "S1-BODY"
+        "S1-BODY",
+        "S1-P8"
       ],
       "sharedTerms": [
+        "btc",
+        "has",
+        "rise",
         "the",
-        "incident",
-        "and",
-        "firm",
-        "are",
-        "security"
+        "past",
+        "days",
+        "break",
+        "000",
+        "september",
+        "for",
+        "first",
+        "time",
+        "since",
+        "january"
       ],
-      "entityShared": [],
+      "entityShared": [
+        "btc",
+        "september",
+        "january"
+      ],
       "topicShared": [
-        "incident",
-        "security"
+        "btc",
+        "000",
+        "first"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -615,78 +401,69 @@
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "fact-map-multi-fact-anchored"
     },
     {
-      "index": 8,
-      "claim": "Calls for stronger AI security measures have grown, and OpenAI has already committed $1 billion in subsidized access to its security program, Daybreak, for community and regional banks and other essential‑service operators.",
+      "index": 6,
+      "claim": "In contrast, Litecoin has surged 47 % in a single month to around $71 as of September 27, 2026.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 93,
+      "confidence": 87,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI Slows AI Training Following Latest Security Incident - PYMNTS.com",
-      "bestUrl": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-slows-ai-training-following-latest-security-incident/",
-      "bestDomain": "pymnts.com",
-      "sourceId": "S2",
+      "bestSource": "Litecoin at $500 or Bitcoin at $200,000: Which Happens First? - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/litecoin-500-bitcoin-200-000-110021527.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F13",
-        "sourceId": "S2",
+        "factId": "F11",
+        "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 84
+        "score": 56
       },
       "provenanceFactMatches": [
         {
-          "factId": "F13",
+          "factId": "F11",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 56,
+          "passageIndex": 6
+        },
+        {
+          "factId": "F51",
           "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 84,
-          "passageIndex": 11
+          "score": 56,
+          "passageIndex": 5
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "OpenAI earlier this month said it had committed $1 billion in subsidized access to its security program, Daybreak, for community and regional banks and other operators of essential services.",
-      "bestPassage": "OpenAI earlier this month said it had committed $1 billion in subsidized access to its security program, Daybreak, for community and regional banks and other operators of essential services.",
+      "bestPassageId": "S1-BODY",
+      "evidence": "As of September 27, 2026, its price surged by 47% in just a month, climbing to around $71. As of September 27, 2026, its price surged by 47% in just a month, climbing to around $71.",
+      "bestPassage": "As of September 27, 2026, its price surged by 47% in just a month, climbing to around $71. As of September 27, 2026, its price surged by 47% in just a month, climbing to around $71.",
       "matchedPassages": [
-        "S2-BODY",
-        "S2-P5"
+        "S1-BODY"
       ],
       "sharedTerms": [
-        "call",
-        "for",
-        "stronger",
-        "security",
-        "measur",
-        "and",
-        "openai",
+        "litecoin",
         "has",
-        "committ",
-        "billion",
-        "subsidiz",
-        "acces",
-        "its",
-        "program",
-        "daybreak",
-        "community",
-        "regional",
-        "bank",
-        "other",
-        "essential",
-        "operator"
+        "surg",
+        "single",
+        "month",
+        "september",
+        "2026"
       ],
       "entityShared": [
-        "openai",
-        "daybreak"
+        "litecoin",
+        "september"
       ],
       "topicShared": [
-        "security",
-        "openai"
+        "litecoin"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -695,89 +472,76 @@
       "attributionUncertainty": {
         "evidenceUncertain": false,
         "claimUncertain": false,
-        "evidenceAttributed": true,
+        "evidenceAttributed": false,
         "claimAttributed": false,
         "certaintyEscalation": false,
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 1,
-      "multiFactSupported": false,
+      "factCoverage": 2,
+      "multiFactSupported": true,
       "directFactExact": true,
       "directExact": true,
-      "matchingMode": "direct-exact-evidence"
+      "matchingMode": "fact-map-multi-fact-anchored"
     },
     {
-      "index": 9,
-      "claim": "The pause on tool‑use training for high‑capability models may affect developers relying on OpenAI’s most powerful systems for research and production workloads.",
+      "index": 7,
+      "claim": "Despite this sharper monthly gain, Litecoin is still down about 6 % for the year, while Bitcoin is down about 4 %.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 63,
+      "confidence": 72,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI slows model training to bolster security after Hugging Face hack",
-      "bestUrl": "https://www.business-standard.com/technology/tech-news/openai-slows-model-training-to-bolster-security-after-hugging-face-hack-126081900246_1.html",
-      "bestDomain": "business-standard.com",
+      "bestSource": "Litecoin at $500 or Bitcoin at $200,000: Which Happens First? - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/litecoin-500-bitcoin-200-000-110021527.html",
+      "bestDomain": "finance.yahoo.com",
       "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F11",
-        "sourceId": "S2",
+        "factId": "F13",
+        "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 49
+        "score": 72
       },
       "provenanceFactMatches": [
         {
-          "factId": "F11",
+          "factId": "F13",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 72,
+          "passageIndex": 6
+        },
+        {
+          "factId": "F53",
           "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 49,
-          "passageIndex": 9
-        },
-        {
-          "factId": "F1",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 42,
-          "passageIndex": 1
-        },
-        {
-          "factId": "F3",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 37,
-          "passageIndex": 14
+          "score": 72,
+          "passageIndex": 5
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S2-FF11,S1-FF1,S1-FF3",
-      "evidence": "OpenAI added that the incident revealed a gap in its controls over network restrictions, leading the company to stop the training run and halt “all other training, evaluation, and inference with tool-use (defined broadly) for our most capable models” until it determines the gap is resolved and has conducted additional security testing. OpenAI on Tuesday said it is slowing down the pace of its AI model development while it overhauls its research and training systems after OpenAI officials were caught unawares last month when an AI agent under testing hacked another AI firm Hugging Face. On August 7, OpenAI said it was ratcheting up security controls for its most powerful &zwnj;models and pausing any activity related to its not-yet-released frontier AI, called Astra, which had yet to meet these requirements.",
-      "bestPassage": "OpenAI added that the incident revealed a gap in its controls over network restrictions, leading the company to stop the training run and halt “all other training, evaluation, and inference with tool-use (defined broadly) for our most capable models” until it determines the gap is resolved and has conducted additional security testing. OpenAI on Tuesday said it is slowing down the pace of its AI model development while it overhauls its research and training systems after OpenAI officials were caught unawares last month when an AI agent under testing hacked another AI firm Hugging Face. On August 7, OpenAI said it was ratcheting up security controls for its most powerful &zwnj;models and pausing any activity related to its not-yet-released frontier AI, called Astra, which had yet to meet these requirements.",
+      "bestPassageId": "S1-FF13,S2-FF53",
+      "evidence": "However, both cryptocurrencies are still underperforming for the year—Litecoin is down about 6%, and Bitcoin is down about 4%. However, both cryptocurrencies are still underperforming for the year—Litecoin is down about 6%, and Bitcoin is down about 4%.",
+      "bestPassage": "However, both cryptocurrencies are still underperforming for the year—Litecoin is down about 6%, and Bitcoin is down about 4%. However, both cryptocurrencies are still underperforming for the year—Litecoin is down about 6%, and Bitcoin is down about 4%.",
       "matchedPassages": [
         "S1-BODY",
-        "S1-P1",
-        "S1-P3",
-        "S1-P4"
+        "S1-P13"
       ],
       "sharedTerms": [
-        "the",
-        "tool",
-        "use",
-        "train",
+        "litecoin",
+        "down",
         "for",
-        "models",
-        "openai",
-        "powerful",
-        "system",
-        "research",
-        "and"
+        "the",
+        "year",
+        "btc"
       ],
       "entityShared": [
-        "openai"
+        "litecoin",
+        "btc"
       ],
       "topicShared": [
-        "train",
-        "openai"
+        "litecoin",
+        "btc"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -785,14 +549,166 @@
       "scopeWarnings": [],
       "attributionUncertainty": {
         "evidenceUncertain": false,
-        "claimUncertain": true,
-        "evidenceAttributed": true,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
         "claimAttributed": false,
         "certaintyEscalation": false,
         "attributionDropped": false,
         "blocked": false
       },
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "fact-map-multi-fact-anchored"
+    },
+    {
+      "index": 8,
+      "claim": "Litecoin’s rally is not a short‑term flare.",
+      "status": "partial",
+      "classification": "supported_with_context",
+      "confidence": 62,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Litecoin at $500 or Bitcoin at $200,000: Which Happens First? - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/litecoin-500-bitcoin-200-000-110021527.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F20",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 29
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F20",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 29,
+          "passageIndex": 16
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-BODY",
+      "evidence": "Although Litecoin's smaller market size means a single dollar can impact its price more significantly—both in terms of gains and losses—the volatility also poses risks.",
+      "bestPassage": "Although Litecoin's smaller market size means a single dollar can impact its price more significantly—both in terms of gains and losses—the volatility also poses risks.",
+      "matchedPassages": [
+        "S1-BODY"
+      ],
+      "sharedTerms": [
+        "litecoin",
+        "rally",
+        "not",
+        "term"
+      ],
+      "entityShared": [
+        "litecoin"
+      ],
+      "topicShared": [
+        "litecoin"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": true,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": true,
+        "attributionDropped": false,
+        "blocked": true
+      },
       "factCoverage": 3,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 9,
+      "claim": "A key factor was Grayscale’s filing on September 11 to convert its Litecoin trust into a spot ETF, which drew additional trader interest.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 92,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Litecoin at $500 or Bitcoin at $200,000: Which Happens First? - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/litecoin-500-bitcoin-200-000-110021527.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F30",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 92
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F30",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 92,
+          "passageIndex": 8
+        },
+        {
+          "factId": "F72",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 92,
+          "passageIndex": 7
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-FF30,S2-FF72",
+      "evidence": "One factor in this increase was Grayscale's filing to convert its Litecoin trust into a spot ETF on September 11, drawing more interest from traders. One factor in this increase was Grayscale’s filing to convert its Litecoin trust into a spot ETF on September 11, drawing more interest from traders.",
+      "bestPassage": "One factor in this increase was Grayscale's filing to convert its Litecoin trust into a spot ETF on September 11, drawing more interest from traders. One factor in this increase was Grayscale’s filing to convert its Litecoin trust into a spot ETF on September 11, drawing more interest from traders.",
+      "matchedPassages": [
+        "S1-P30",
+        "S1-BODY"
+      ],
+      "sharedTerms": [
+        "factor",
+        "was",
+        "grayscale",
+        "fil",
+        "september",
+        "convert",
+        "its",
+        "litecoin",
+        "trust",
+        "spot",
+        "etf",
+        "trader",
+        "interest"
+      ],
+      "entityShared": [
+        "grayscale",
+        "september",
+        "litecoin",
+        "etf"
+      ],
+      "topicShared": [
+        "litecoin"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
       "multiFactSupported": true,
       "directFactExact": false,
       "directExact": false,
@@ -800,54 +716,536 @@
     },
     {
       "index": 10,
-      "claim": "Industry observers note that the incident underscores the need for broader safeguards and may prompt other organizations to adopt similar sandboxing practices or tighten network restrictions during training.",
-      "status": "partial",
-      "classification": "supported_with_context",
-      "confidence": 56,
+      "claim": "The move helped Litecoin climb about 22 % above its record peak.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 77,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI Slows AI Training Following Latest Security Incident - PYMNTS.com",
-      "bestUrl": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-slows-ai-training-following-latest-security-incident/",
-      "bestDomain": "pymnts.com",
-      "sourceId": "S2",
+      "bestSource": "Litecoin at $500 or Bitcoin at $200,000: Which Happens First? - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/litecoin-500-bitcoin-200-000-110021527.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F11",
-        "sourceId": "S2",
+        "factId": "F26",
+        "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 48
+        "score": 57
       },
       "provenanceFactMatches": [
         {
-          "factId": "F11",
+          "factId": "F26",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 57,
+          "passageIndex": 9
+        },
+        {
+          "factId": "F67",
           "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 48,
+          "score": 57,
+          "passageIndex": 8
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-BODY",
+      "evidence": "This means a climb of around 22% above its record peak. This means a climb of around 22% above its record peak.",
+      "bestPassage": "This means a climb of around 22% above its record peak. This means a climb of around 22% above its record peak.",
+      "matchedPassages": [
+        "S1-BODY",
+        "S1-P26"
+      ],
+      "sharedTerms": [
+        "the",
+        "litecoin",
+        "climb",
+        "above",
+        "its",
+        "record",
+        "peak"
+      ],
+      "entityShared": [
+        "litecoin"
+      ],
+      "topicShared": [
+        "litecoin"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "fact-map-multi-fact-anchored"
+    },
+    {
+      "index": 11,
+      "claim": "At present, Litecoin’s market cap sits near $5.6 billion, based on a circulating supply of approximately 77.65 million coins.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 78,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Litecoin at $500 or Bitcoin at $200,000: Which Happens First? - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/litecoin-500-bitcoin-200-000-110021527.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F28",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 78
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F28",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 78,
+          "passageIndex": 10
+        },
+        {
+          "factId": "F70",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 78,
           "passageIndex": 9
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S2-P3",
-      "evidence": "OpenAI added that the incident revealed a gap in its controls over network restrictions, leading the company to stop the training run and halt “all other training, evaluation, and inference with tool-use (defined broadly) for our most capable models” until it determines the gap is resolved and has conducted additional security testing.",
-      "bestPassage": "OpenAI added that the incident revealed a gap in its controls over network restrictions, leading the company to stop the training run and halt “all other training, evaluation, and inference with tool-use (defined broadly) for our most capable models” until it determines the gap is resolved and has conducted additional security testing.",
+      "bestPassageId": "S1-FF28,S2-FF70",
+      "evidence": "Currently, Litecoin's market cap stands at around $5.6 billion, based on a supply of approximately 77.65 million coins in circulation. Currently, Litecoin’s market cap stands at around $5.6 billion, based on a supply of approximately 77.65 million coins in circulation.",
+      "bestPassage": "Currently, Litecoin's market cap stands at around $5.6 billion, based on a supply of approximately 77.65 million coins in circulation. Currently, Litecoin’s market cap stands at around $5.6 billion, based on a supply of approximately 77.65 million coins in circulation.",
       "matchedPassages": [
-        "S2-P3",
+        "S1-BODY",
+        "S1-P28"
+      ],
+      "sharedTerms": [
+        "litecoin",
+        "market",
+        "cap",
+        "billion",
+        "bas",
+        "supply",
+        "approximately",
+        "million",
+        "coin"
+      ],
+      "entityShared": [
+        "litecoin"
+      ],
+      "topicShared": [
+        "litecoin"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "fact-map-multi-fact-anchored"
+    },
+    {
+      "index": 12,
+      "claim": "If Litecoin were to reach $500, its market value would jump to roughly $39 billion, nearly seven times its current size.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 87,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Litecoin at $500 or Bitcoin at $200,000: Which Happens First? - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/litecoin-500-bitcoin-200-000-110021527.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F31",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 87
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F31",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 87,
+          "passageIndex": 11
+        },
+        {
+          "factId": "F73",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 87,
+          "passageIndex": 10
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-FF31,S2-FF73",
+      "evidence": "If Litecoin were to reach $500, its market value would skyrocket to about $39 billion, nearly seven times its current size. If Litecoin were to reach $500, its market value would skyrocket to about $39 billion, nearly seven times its current size.",
+      "bestPassage": "If Litecoin were to reach $500, its market value would skyrocket to about $39 billion, nearly seven times its current size. If Litecoin were to reach $500, its market value would skyrocket to about $39 billion, nearly seven times its current size.",
+      "matchedPassages": [
+        "S1-P31",
+        "S1-BODY"
+      ],
+      "sharedTerms": [
+        "litecoin",
+        "were",
+        "reach",
+        "500",
+        "its",
+        "market",
+        "value",
+        "billion",
+        "nearly",
+        "seven",
+        "tim",
+        "current",
+        "size"
+      ],
+      "entityShared": [
+        "litecoin"
+      ],
+      "topicShared": [
+        "litecoin",
+        "500"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "fact-map-multi-fact-anchored"
+    },
+    {
+      "index": 13,
+      "claim": "Bitcoin’s market cap stands around $1.7 trillion, representing about 58.6 % of the total crypto market, which is valued at $2.91 trillion.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 89,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Litecoin at $500 or Bitcoin at $200,000: Which Happens First? - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/litecoin-500-bitcoin-200-000-110021527.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F14",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 89
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F14",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 89,
+          "passageIndex": 13
+        },
+        {
+          "factId": "F54",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 89,
+          "passageIndex": 12
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-FF14,S2-FF54",
+      "evidence": "Bitcoin's current market cap is around $1.7 trillion, which represents about 58.6% of the total crypto market valued at $2.91 trillion. Bitcoin’s current market cap is around $1.7 trillion, which represents about 58.6% of the total crypto market valued at $2.91 trillion.",
+      "bestPassage": "Bitcoin's current market cap is around $1.7 trillion, which represents about 58.6% of the total crypto market valued at $2.91 trillion. Bitcoin’s current market cap is around $1.7 trillion, which represents about 58.6% of the total crypto market valued at $2.91 trillion.",
+      "matchedPassages": [
+        "S1-BODY",
+        "S1-P14"
+      ],
+      "sharedTerms": [
+        "btc",
+        "market",
+        "cap",
+        "trillion",
+        "represent",
+        "the",
+        "total",
+        "crypto",
+        "valu"
+      ],
+      "entityShared": [
+        "btc"
+      ],
+      "topicShared": [
+        "btc"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "fact-map-multi-fact-anchored"
+    },
+    {
+      "index": 14,
+      "claim": "Both cryptocurrencies are still underperforming for the year, with Litecoin down about 6 % and Bitcoin down about 4 %.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 98,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Litecoin at $500 or Bitcoin at $200,000: Which Happens First? - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/litecoin-500-bitcoin-200-000-110021527.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F13",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 98
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F13",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 98,
+          "passageIndex": 6
+        },
+        {
+          "factId": "F53",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 98,
+          "passageIndex": 5
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-FF13,S2-FF53",
+      "evidence": "However, both cryptocurrencies are still underperforming for the year—Litecoin is down about 6%, and Bitcoin is down about 4%. However, both cryptocurrencies are still underperforming for the year—Litecoin is down about 6%, and Bitcoin is down about 4%.",
+      "bestPassage": "However, both cryptocurrencies are still underperforming for the year—Litecoin is down about 6%, and Bitcoin is down about 4%. However, both cryptocurrencies are still underperforming for the year—Litecoin is down about 6%, and Bitcoin is down about 4%.",
+      "matchedPassages": [
+        "S1-BODY",
+        "S1-P13"
+      ],
+      "sharedTerms": [
+        "both",
+        "crypto",
+        "are",
+        "underperform",
+        "for",
+        "the",
+        "year",
+        "litecoin",
+        "down",
+        "and",
+        "btc"
+      ],
+      "entityShared": [
+        "litecoin",
+        "btc"
+      ],
+      "topicShared": [
+        "litecoin",
+        "btc"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "fact-map-multi-fact-anchored"
+    },
+    {
+      "index": 16,
+      "claim": "Litecoin’s sharp recent rise shows potential, but the larger percentage jump needed to reach $500 makes its path longer.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 80,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Litecoin at $500 or Bitcoin at $200,000: Which Happens First? - 24/7 Wall St.",
+      "bestUrl": "https://247wallst.com/investing/cryptocurrency/2026/09/28/litecoin-at-500-or-bitcoin-at-200000-which-happens-first/",
+      "bestDomain": "247wallst.com",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F1",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 38
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F32",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 38,
+          "passageIndex": 4
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S2-BODY",
+      "evidence": "Litecoin ( CRYPTO:LTC ) needs to rise about 604% to hit $500, while Bitcoin ( CRYPTO:BTC ) needs about 136% to reach $200,000.",
+      "bestPassage": "Litecoin ( CRYPTO:LTC ) needs to rise about 604% to hit $500, while Bitcoin ( CRYPTO:BTC ) needs about 136% to reach $200,000.",
+      "matchedPassages": [
+        "S2-BODY"
+      ],
+      "sharedTerms": [
+        "litecoin",
+        "sharp",
+        "recent",
+        "rise",
+        "but",
+        "the",
+        "percent",
+        "need",
+        "reach",
+        "500",
+        "mak",
+        "its",
+        "path"
+      ],
+      "entityShared": [
+        "litecoin"
+      ],
+      "topicShared": [
+        "litecoin",
+        "500"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 3,
+      "multiFactSupported": false,
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "direct-exact-evidence"
+    },
+    {
+      "index": 17,
+      "claim": "The ETF filing may continue to support Litecoin’s price, but the current trajectory still falls short of the $500 milestone.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 79,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Litecoin at $500 or Bitcoin at $200,000: Which Happens First? - 24/7 Wall St.",
+      "bestUrl": "https://247wallst.com/investing/cryptocurrency/2026/09/28/litecoin-at-500-or-bitcoin-at-200000-which-happens-first/",
+      "bestDomain": "247wallst.com",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F31",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 22
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F31",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 22,
+          "passageIndex": 11
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S2-BODY",
+      "evidence": "If Litecoin were to reach $500, its market value would skyrocket to about $39 billion, nearly seven times its current size.",
+      "bestPassage": "If Litecoin were to reach $500, its market value would skyrocket to about $39 billion, nearly seven times its current size.",
+      "matchedPassages": [
         "S2-BODY"
       ],
       "sharedTerms": [
         "the",
-        "incident",
-        "for",
-        "and",
-        "other",
-        "network",
-        "restriction",
-        "train"
+        "etf",
+        "fil",
+        "litecoin",
+        "price",
+        "but",
+        "current",
+        "500",
+        "milestone"
       ],
-      "entityShared": [],
+      "entityShared": [
+        "the",
+        "etf",
+        "litecoin"
+      ],
       "topicShared": [
-        "incident",
-        "train"
+        "litecoin",
+        "500"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -862,93 +1260,145 @@
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 1,
+      "factCoverage": 2,
       "multiFactSupported": false,
       "directFactExact": false,
       "directExact": false,
       "matchingMode": "fact-map-anchored-source-passage"
     },
     {
-      "index": 11,
-      "claim": "OpenAI slowed model training after a security breach, paused Astra development, and is tightening sandboxing for sensitive workloads.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 77,
+      "index": 18,
+      "claim": "The calculations rely on current price levels and assumed straight‑line growth.",
+      "status": "partial",
+      "classification": "uncertain",
+      "confidence": 50,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI slows model training to bolster security after Hugging Face hack",
-      "bestUrl": "https://www.business-standard.com/technology/tech-news/openai-slows-model-training-to-bolster-security-after-hugging-face-hack-126081900246_1.html",
-      "bestDomain": "business-standard.com",
-      "sourceId": "S1",
+      "bestSource": "Litecoin at $500 or Bitcoin at $200,000: Which Happens First? - 24/7 Wall St.",
+      "bestUrl": "https://247wallst.com/investing/cryptocurrency/2026/09/28/litecoin-at-500-or-bitcoin-at-200000-which-happens-first/",
+      "bestDomain": "247wallst.com",
+      "sourceId": "S2",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F3",
+        "factId": "F20",
         "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 51
+        "score": 21
       },
       "provenanceFactMatches": [
         {
-          "factId": "F3",
+          "factId": "F20",
           "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 51,
-          "passageIndex": 14
-        },
-        {
-          "factId": "F11",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 43,
-          "passageIndex": 9
-        },
-        {
-          "factId": "F1",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 40,
-          "passageIndex": 1
+          "score": 21,
+          "passageIndex": 16
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "On August 7, OpenAI said it was ratcheting up security controls for its most powerful &zwnj;models and pausing any activity related to its not-yet-released frontier AI, called Astra, which had yet to meet these requirements. OpenAI added that the incident revealed a gap in its controls over network restrictions, leading the company to stop the training run and halt “all other training, evaluation, and inference with tool-use (defined broadly) for our most capable models” until it determines the gap is resolved and has conducted additional security testing. OpenAI on Tuesday said it is slowing down the pace of its AI model development while it overhauls its research and training systems after OpenAI officials were caught unawares last month when an AI agent under testing hacked another AI firm Hugging Face.",
-      "bestPassage": "On August 7, OpenAI said it was ratcheting up security controls for its most powerful &zwnj;models and pausing any activity related to its not-yet-released frontier AI, called Astra, which had yet to meet these requirements. OpenAI added that the incident revealed a gap in its controls over network restrictions, leading the company to stop the training run and halt “all other training, evaluation, and inference with tool-use (defined broadly) for our most capable models” until it determines the gap is resolved and has conducted additional security testing. OpenAI on Tuesday said it is slowing down the pace of its AI model development while it overhauls its research and training systems after OpenAI officials were caught unawares last month when an AI agent under testing hacked another AI firm Hugging Face.",
+      "bestPassageId": "S2-BODY",
+      "evidence": "Although Litecoin's smaller market size means a single dollar can impact its price more significantly—both in terms of gains and losses—the volatility also poses risks.",
+      "bestPassage": "Although Litecoin's smaller market size means a single dollar can impact its price more significantly—both in terms of gains and losses—the volatility also poses risks.",
       "matchedPassages": [
-        "S1-BODY"
+        "S2-BODY"
       ],
       "sharedTerms": [
-        "openai",
-        "slow",
-        "models",
-        "train",
-        "security",
-        "paus",
-        "astra",
+        "the",
+        "current",
+        "price",
+        "level",
         "and",
-        "sandbox",
-        "for",
-        "sensitive",
-        "workload"
+        "straight",
+        "growth"
       ],
-      "entityShared": [
-        "openai",
-        "astra"
-      ],
-      "topicShared": [
-        "openai",
-        "slow",
-        "train",
-        "security"
-      ],
+      "entityShared": [],
+      "topicShared": [],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
       "scopeWarnings": [],
       "attributionUncertainty": {
-        "evidenceUncertain": false,
+        "evidenceUncertain": true,
         "claimUncertain": false,
-        "evidenceAttributed": true,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 19,
+      "claim": "Additionally, the ETF filing’s long‑term impact remains unclear.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 50,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Litecoin at $500 or Bitcoin at $200,000: Which Happens First? - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/litecoin-500-bitcoin-200-000-110021527.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F20",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 25
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F20",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 25,
+          "passageIndex": 16
+        },
+        {
+          "factId": "F61",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 25,
+          "passageIndex": 15
+        },
+        {
+          "factId": "F30",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 20,
+          "passageIndex": 8
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-FF20,S2-FF61,S1-FF30",
+      "evidence": "Although Litecoin's smaller market size means a single dollar can impact its price more significantly—both in terms of gains and losses—the volatility also poses risks. Although Litecoin’s smaller market size means a single dollar can impact its price more significantly—both in terms of gains and losses—the volatility also poses risks. One factor in this increase was Grayscale's filing to convert its Litecoin trust into a spot ETF on September 11, drawing more interest from traders.",
+      "bestPassage": "Although Litecoin's smaller market size means a single dollar can impact its price more significantly—both in terms of gains and losses—the volatility also poses risks. Although Litecoin’s smaller market size means a single dollar can impact its price more significantly—both in terms of gains and losses—the volatility also poses risks. One factor in this increase was Grayscale's filing to convert its Litecoin trust into a spot ETF on September 11, drawing more interest from traders.",
+      "matchedPassages": [
+        "S1-BODY"
+      ],
+      "sharedTerms": [
+        "the",
+        "etf",
+        "fil",
+        "term",
+        "impact"
+      ],
+      "entityShared": [
+        "etf"
+      ],
+      "topicShared": [],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": true,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
         "claimAttributed": false,
         "certaintyEscalation": false,
         "attributionDropped": false,
@@ -961,58 +1411,168 @@
       "matchingMode": "fact-map-multi-fact-anchored"
     },
     {
-      "index": 12,
-      "claim": "The incident prompted a broader call for stronger AI security measures and a $1 billion investment in a security program for essential‑service operators.",
+      "index": 20,
+      "claim": "Bitcoin’s $200,000 goal appears more likely to be reached before Litecoin’s $500 target, given the smaller percentage increase required and recent momentum.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 77,
+      "confidence": 95,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI Slows AI Training Following Latest Security Incident - PYMNTS.com",
-      "bestUrl": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-slows-ai-training-following-latest-security-incident/",
-      "bestDomain": "pymnts.com",
-      "sourceId": "S2",
+      "bestSource": "Litecoin at $500 or Bitcoin at $200,000: Which Happens First? - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/litecoin-500-bitcoin-200-000-110021527.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F13",
-        "sourceId": "S2",
+        "factId": "F4",
+        "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 45
+        "score": 52
       },
       "provenanceFactMatches": [
         {
-          "factId": "F13",
+          "factId": "F4",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 52,
+          "passageIndex": 18
+        },
+        {
+          "factId": "F35",
           "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 45,
-          "passageIndex": 11
+          "score": 52,
+          "passageIndex": 17
+        },
+        {
+          "factId": "F1",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 47,
+          "passageIndex": 5
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "OpenAI earlier this month said it had committed $1 billion in subsidized access to its security program, Daybreak, for community and regional banks and other operators of essential services.",
-      "bestPassage": "OpenAI earlier this month said it had committed $1 billion in subsidized access to its security program, Daybreak, for community and regional banks and other operators of essential services.",
+      "bestPassageId": "S1-BODY",
+      "evidence": "Ultimately, it seems more likely that Bitcoin will hit $200,000 before Litecoin reaches $500. Ultimately, it seems more likely that Bitcoin will hit $200,000 before Litecoin reaches $500. Litecoin (CRYPTO:LTC) needs to rise about 604% to hit $500, while Bitcoin (CRYPTO:BTC) needs about 136% to reach $200,000.",
+      "bestPassage": "Ultimately, it seems more likely that Bitcoin will hit $200,000 before Litecoin reaches $500. Ultimately, it seems more likely that Bitcoin will hit $200,000 before Litecoin reaches $500. Litecoin (CRYPTO:LTC) needs to rise about 604% to hit $500, while Bitcoin (CRYPTO:BTC) needs about 136% to reach $200,000.",
       "matchedPassages": [
-        "S2-BODY"
+        "S1-BODY"
+      ],
+      "sharedTerms": [
+        "btc",
+        "200",
+        "000",
+        "goal",
+        "appear",
+        "likely",
+        "reach",
+        "litecoin",
+        "500",
+        "target",
+        "the",
+        "smaller",
+        "percent",
+        "rise",
+        "requir",
+        "and",
+        "recent",
+        "momentum"
+      ],
+      "entityShared": [
+        "btc",
+        "litecoin"
+      ],
+      "topicShared": [
+        "btc",
+        "200",
+        "000",
+        "litecoin",
+        "500"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": true,
+        "claimUncertain": true,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 3,
+      "multiFactSupported": true,
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "fact-map-multi-fact-anchored"
+    },
+    {
+      "index": 22,
+      "claim": "What the Evidence Shows: Bitcoin’s smaller percentage rise and steady momentum make its $200,000 target more attainable than Litecoin’s $500 goal, despite Litecoin’s recent sharp gains.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 88,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Litecoin at $500 or Bitcoin at $200,000: Which Happens First? - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/litecoin-500-bitcoin-200-000-110021527.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F1",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 43
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F1",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 43,
+          "passageIndex": 5
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-BODY",
+      "evidence": "Litecoin (CRYPTO:LTC) needs to rise about 604% to hit $500, while Bitcoin (CRYPTO:BTC) needs about 136% to reach $200,000.",
+      "bestPassage": "Litecoin (CRYPTO:LTC) needs to rise about 604% to hit $500, while Bitcoin (CRYPTO:BTC) needs about 136% to reach $200,000.",
+      "matchedPassages": [
+        "S1-BODY"
       ],
       "sharedTerms": [
         "the",
-        "incident",
-        "call",
-        "for",
-        "stronger",
-        "security",
-        "measur",
+        "btc",
+        "smaller",
+        "percent",
+        "rise",
         "and",
-        "billion",
-        "program",
-        "essential",
-        "operator"
+        "momentum",
+        "its",
+        "200",
+        "000",
+        "target",
+        "litecoin",
+        "500",
+        "goal",
+        "despite",
+        "recent",
+        "sharp"
       ],
-      "entityShared": [],
+      "entityShared": [
+        "btc",
+        "litecoin"
+      ],
       "topicShared": [
-        "incident",
-        "security"
+        "btc",
+        "200",
+        "000",
+        "litecoin",
+        "500"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -1021,18 +1581,37 @@
       "attributionUncertainty": {
         "evidenceUncertain": false,
         "claimUncertain": false,
-        "evidenceAttributed": true,
+        "evidenceAttributed": false,
         "claimAttributed": false,
         "certaintyEscalation": false,
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 1,
+      "factCoverage": 3,
       "multiFactSupported": false,
       "directFactExact": true,
       "directExact": true,
       "matchingMode": "direct-exact-evidence"
     }
   ],
-  "editorial": []
+  "editorial": [
+    {
+      "index": 4,
+      "claim": "Bitcoin’s smaller percentage requirement, combined with its current upward trend, suggests it may reach its goal before Litecoin does.",
+      "type": "editorial-analysis",
+      "status": "editorial-excluded"
+    },
+    {
+      "index": 15,
+      "claim": "The math suggests Bitcoin’s target of $200,000 is more attainable in the short term, largely because the required percentage increase is smaller and its momentum has been steady.",
+      "type": "editorial-analysis",
+      "status": "editorial-excluded"
+    },
+    {
+      "index": 21,
+      "claim": "Investors should monitor Bitcoin’s 90‑day performance and Litecoin’s ETF developments closely, while remaining aware that both targets exceed historic highs and carry significant risk.",
+      "type": "editorial-recommendation",
+      "status": "editorial-excluded"
+    }
+  ]
 }

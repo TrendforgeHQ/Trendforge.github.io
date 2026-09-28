@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-27T16:03:42.793Z",
-  "runId": "36331544511",
-  "articlePath": "content/articles/five-year-horizon-which-crypto-could-outpace-bitcoin.md",
-  "provider": "surgical-delete-fallback",
-  "previousTitle": "Five‑Year Horizon: Which Crypto Could Outpace Bitcoin?",
-  "newTitle": "Five‑Year Horizon: Which Crypto Could Outpace Bitcoin?",
-  "briefTitle": "In 5 Years, One of These Cryptocurrencies Could Be Worth More Than Bitcoin - Yahoo Finance",
+  "generatedAt": "2026-09-28T12:22:58.901Z",
+  "runId": "36421100926",
+  "articlePath": "content/articles/which-will-hit-first-litecoin-s-500-target-vs-bitcoin-s-200-000-goal.md",
+  "provider": "Groq",
+  "previousTitle": "Which Will Hit First? Litecoin’s $500 Target vs Bitcoin’s $200,000 Goal",
+  "newTitle": "Which Will Hit First? Litecoin’s $500 Target vs Bitcoin’s $200,000 Goal",
+  "briefTitle": "Litecoin at $500 or Bitcoin at $200,000: Which Happens First? - Yahoo Finance",
   "evidenceClaims": 20,
-  "failedClaims": 9,
-  "evidenceChars": 8716,
-  "mode": "atomic-sentence-repair-v12-surgical-fingerprint-rewrite-narrow-delete-isolated-recovery",
+  "failedClaims": 1,
+  "evidenceChars": 1035,
+  "mode": "atomic-sentence-repair-v12-primary-fingerprint-rewrite-narrow-delete-isolated-recovery",
   "repairOrder": [
     "rewrite",
     "narrow",
@@ -18,15 +18,15 @@
   "maxProviderAttempts": 4,
   "maxRecoveryPasses": 1,
   "recoveryWaitMs": 15000,
-  "providerAttempts": 0,
-  "appliedRepairs": 9,
+  "providerAttempts": 4,
+  "appliedRepairs": 1,
   "rewriteOrNarrowRepairs": 0,
-  "deletedSentences": 9,
+  "deletedSentences": 1,
   "wordCountValidation": {
-    "before": 444,
-    "after": 271,
+    "before": 458,
+    "after": 443,
     "minimum": 425,
     "depthMode": "bounded",
-    "preservedFloor": false
+    "preservedFloor": true
   }
 }

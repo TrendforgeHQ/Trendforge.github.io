@@ -1,32 +1,32 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-28T07:38:18.099Z",
+  "generatedAt": "2026-09-28T12:23:09.443Z",
   "policy": {
     "privacyFirst": true,
     "noPersonalTracking": true,
     "noPaidTrafficRequired": true
   },
   "summary": {
-    "totalArticles": 28,
+    "totalArticles": 29,
     "averageEditorialScore": 76,
-    "editorialReviewCount": 18,
+    "editorialReviewCount": 19,
     "refreshCandidates": 5
   },
   "categoryMix": [
     {
       "category": "AI",
       "count": 8,
-      "share": 28.6
+      "share": 27.6
     },
     {
       "category": "Technology",
       "count": 7,
-      "share": 25
+      "share": 24.1
     },
     {
       "category": "How-To",
       "count": 3,
-      "share": 10.7
+      "share": 10.3
     },
     {
       "category": "Innovation",
@@ -41,12 +41,12 @@
     {
       "category": "Digital Life",
       "count": 5,
-      "share": 17.9
+      "share": 17.2
     },
     {
       "category": "Crypto",
-      "count": 4,
-      "share": 14.3
+      "count": 5,
+      "share": 17.2
     }
   ],
   "missingCategories": [
@@ -56,10 +56,15 @@
   "overrepresentedCategories": [],
   "recommendations": [
     "Prioritize missing categories: Innovation, Product Launches.",
-    "18 article(s) are in editorial review; improve them before treating them as growth winners.",
+    "19 article(s) are in editorial review; improve them before treating them as growth winners.",
     "5 older/incomplete article(s) are refresh candidates."
   ],
   "recentArticles": [
+    {
+      "title": "Which Will Hit First? Litecoin’s $500 Target vs Bitcoin’s $200,000 Goal",
+      "category": "Crypto",
+      "publishedAt": "2026-09-28T12:22:41.590Z"
+    },
     {
       "title": "OpenAI Slows AI Training After Hugging Face Breach",
       "category": "Digital Life",
@@ -104,11 +109,6 @@
       "title": "AI doomsday fears: what can ordinary people actually do?",
       "category": "AI",
       "publishedAt": "2026-09-19T20:42:07.386Z"
-    },
-    {
-      "title": "Bitcoin Returns Above $80K, Coinbase Stock Jumps 11.5% Amid SEC Exemption",
-      "category": "Crypto",
-      "publishedAt": "2026-09-19T14:45:41.829Z"
     }
   ]
 }

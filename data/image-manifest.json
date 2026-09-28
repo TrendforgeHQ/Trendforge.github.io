@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "generatedAt": "2026-09-28T02:35:14.935Z",
+  "generatedAt": "2026-09-28T12:23:08.295Z",
   "model": "@cf/black-forest-labs/flux-1-schnell",
   "width": 1024,
   "height": 576,
@@ -9,69 +9,65 @@
   "skipped": 0,
   "failed": 0,
   "images": {
-    "openai-slows-ai-training-after-hugging-face-breach": {
+    "which-will-hit-first-litecoin-s-500-target-vs-bitcoin-s-200-000-goal": {
       "status": "generated",
-      "image": "/Trendforge/images/articles/openai-slows-ai-training-after-hugging-face-breach.1024x576.png",
+      "image": "/Trendforge/images/articles/which-will-hit-first-litecoin-s-500-target-vs-bitcoin-s-200-000-goal.1024x576.png",
       "generatedBy": "@cf/black-forest-labs/flux-1-schnell",
       "width": 1024,
       "height": 576,
       "steps": 4,
-      "elapsedMs": 1710,
-      "bytes": 802628,
+      "elapsedMs": 2117,
+      "bytes": 539940,
       "visualBrief": {
         "version": 2,
-        "mode": "investment-infrastructure",
-        "primarySubject": "OpenAI regional digital infrastructure investment, represented through concrete cloud, connectivity, and AI infrastructure",
-        "scene": "A realistic commissioned editorial photograph of concrete regional digital infrastructure such as a modern data-center environment, high-capacity network equipment, or secure cloud infrastructure, visually tied to the investment story rather than generic finance imagery.",
+        "mode": "editorial-photography",
+        "primarySubject": "the most concrete physical subject, event, organization, or action explicitly described by the story, centered on which, will, first, litecoin",
+        "scene": "A commissioned technology-publication photograph of that concrete subject or event, not a category-level representation.",
         "supportingElements": [
-          "subtle regional geographic context without maps or invented labels",
-          "one restrained human scale element only when useful"
+          "only contextual elements that directly explain the story"
         ],
-        "composition": "Documentary wide frame with one dominant infrastructure subject, realistic materials, restrained depth of field, and clear visual hierarchy.",
-        "company": "OpenAI",
+        "composition": "One hero subject with one or two supporting elements, natural editorial lighting and strong negative space.",
+        "company": null,
         "namedPerson": null,
-        "category": "Digital Life",
+        "category": "Crypto",
         "storyAnchors": [
-          "openai",
-          "slows",
-          "training",
-          "hugging",
-          "face",
-          "breach",
-          "slowed",
-          "model"
+          "which",
+          "will",
+          "first",
+          "litecoin",
+          "target",
+          "bitcoin",
+          "goal",
+          "look"
         ],
         "avoid": [
           "generic office imagery",
           "random tablet or laptop",
           "generic futuristic technology",
           "glowing holograms, floating code, HUDs and neon sci-fi effects",
-          "prominent readable text or fake headlines",
-          "generic stock-market trading screens",
-          "coins, cash piles, oversized dollar symbols",
-          "generic office handshake",
-          "abstract financial graphs as the main subject"
+          "prominent readable text or fake headlines"
         ]
       },
       "relevance": {
-        "passed": false,
+        "passed": true,
         "anchors": [
-          "openai",
-          "slows",
-          "training",
-          "hugging",
-          "face",
-          "breach",
-          "slowed",
-          "model"
+          "which",
+          "will",
+          "first",
+          "litecoin",
+          "target",
+          "bitcoin",
+          "goal",
+          "look"
         ],
         "matchedAnchors": [
-          "openai"
+          "which",
+          "will",
+          "first",
+          "litecoin"
         ],
-        "entityMatches": [
-          "openai"
-        ],
-        "score": 0.125
+        "entityMatches": [],
+        "score": 0.5
       },
       "promptLength": 1900
     }

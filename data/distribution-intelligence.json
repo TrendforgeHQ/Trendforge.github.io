@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-28T07:38:18.152Z",
+  "generatedAt": "2026-09-28T12:23:09.494Z",
   "policy": {
     "privacyFirst": true,
     "no_scraping": true,
@@ -16,6 +16,38 @@
     "Direct"
   ],
   "articlePlans": [
+    {
+      "slug": "which-will-hit-first-litecoin-s-500-target-vs-bitcoin-s-200-000-goal",
+      "title": "Which Will Hit First? Litecoin’s $500 Target vs Bitcoin’s $200,000 Goal",
+      "category": "Crypto",
+      "channels": [
+        {
+          "channel": "Google Search",
+          "action": "publish and keep canonical/indexable",
+          "reason": "organic discovery"
+        },
+        {
+          "channel": "Newsletter",
+          "action": "include when relevant",
+          "reason": "subscriber retention"
+        },
+        {
+          "channel": "RSS",
+          "action": "make available through feed",
+          "reason": "reader-controlled distribution"
+        },
+        {
+          "channel": "Social",
+          "action": "share a concise human-written excerpt",
+          "reason": "additional discovery"
+        },
+        {
+          "channel": "Direct",
+          "action": "link from related articles",
+          "reason": "internal discovery"
+        }
+      ]
+    },
     {
       "slug": "u-s-agencies-board-oil-tankers-after-cyberattacks-target-navigation-and-propulsion-systems",
       "title": "U.S. Agencies Board Oil Tankers After Cyberattacks Target Navigation and Propulsion Systems",
@@ -596,38 +628,6 @@
       "slug": "california-governor-orders-ai-safety-panel-and-considers-kill-switch",
       "title": "California Governor Orders AI Safety Panel and Considers ‘Kill Switch’",
       "category": "AI",
-      "channels": [
-        {
-          "channel": "Google Search",
-          "action": "publish and keep canonical/indexable",
-          "reason": "organic discovery"
-        },
-        {
-          "channel": "Newsletter",
-          "action": "include when relevant",
-          "reason": "subscriber retention"
-        },
-        {
-          "channel": "RSS",
-          "action": "make available through feed",
-          "reason": "reader-controlled distribution"
-        },
-        {
-          "channel": "Social",
-          "action": "share a concise human-written excerpt",
-          "reason": "additional discovery"
-        },
-        {
-          "channel": "Direct",
-          "action": "link from related articles",
-          "reason": "internal discovery"
-        }
-      ]
-    },
-    {
-      "slug": "bitcoin-returns-above-80k-coinbase-stock-jumps-11-5-amid-sec-exemption",
-      "title": "Bitcoin Returns Above $80K, Coinbase Stock Jumps 11.5% Amid SEC Exemption",
-      "category": "Crypto",
       "channels": [
         {
           "channel": "Google Search",

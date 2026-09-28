@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-28T02:35:09.277Z",
+  "generatedAt": "2026-09-28T12:23:02.178Z",
   "status": "pass",
-  "currentGeneratedArticle": "openai-slows-ai-training-after-hugging-face-breach",
-  "currentScore": 82,
+  "currentGeneratedArticle": "which-will-hit-first-litecoin-s-500-target-vs-bitcoin-s-200-000-goal",
+  "currentScore": 89,
   "identity": {
     "method": "brief.title",
     "rejectedMarker": false
@@ -453,14 +453,14 @@
       "slug": "openai-slows-ai-training-after-hugging-face-breach",
       "title": "OpenAI Slows AI Training After Hugging Face Breach",
       "category": "Digital Life",
-      "score": 82,
-      "decision": "publish_ready",
+      "score": 75,
+      "decision": "review",
       "dimensions": {
-        "evidence": 76,
+        "evidence": 75,
         "usefulness": 84,
         "clarity": 79,
         "originality": 100,
-        "sourceStrength": 79
+        "sourceStrength": 41
       },
       "reasons": [
         "evidence confidence needs improvement",
@@ -509,19 +509,34 @@
       "slug": "u-s-agencies-board-oil-tankers-after-cyberattacks-target-navigation-and-propulsion-systems",
       "title": "U.S. Agencies Board Oil Tankers After Cyberattacks Target Navigation and Propulsion Systems",
       "category": "AI",
-      "score": 83,
+      "score": 81,
       "decision": "publish_ready",
       "dimensions": {
         "evidence": 75,
         "usefulness": 97,
         "clarity": 100,
-        "originality": 100,
+        "originality": 88,
         "sourceStrength": 50
       },
       "reasons": [
         "evidence confidence needs improvement",
         "source strength/diversity needs improvement"
       ]
+    },
+    {
+      "slug": "which-will-hit-first-litecoin-s-500-target-vs-bitcoin-s-200-000-goal",
+      "title": "Which Will Hit First? Litecoin’s $500 Target vs Bitcoin’s $200,000 Goal",
+      "category": "Crypto",
+      "score": 89,
+      "decision": "publish_ready",
+      "dimensions": {
+        "evidence": 83,
+        "usefulness": 97,
+        "clarity": 100,
+        "originality": 80,
+        "sourceStrength": 82
+      },
+      "reasons": []
     }
   ]
 }

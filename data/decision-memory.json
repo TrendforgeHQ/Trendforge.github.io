@@ -1,187 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-28T02:35:03.675Z",
+  "updatedAt": "2026-09-28T12:22:39.595Z",
   "decisions": [
-    {
-      "timestamp": "2026-09-25T15:12:08.057Z",
-      "title": "Meta Unveils AI-Powered Handheld Device 'Muse Charm' for December 2026 Launch - KuCoin",
-      "category": "Product Launches",
-      "decision": "review",
-      "score": 72,
-      "adaptivePriority": 88,
-      "confidence": 74
-    },
-    {
-      "timestamp": "2026-09-25T15:12:08.057Z",
-      "title": "Faraday Future Founder and Global CEO YT Jia Weekly Investor Update: Shares Details from FF’s 919 FF EAI Robotics “Four-Core Full-Stack AI” Ecosystem New Product Series Launch; Four Industry Productivity Solutions, Nine New EAI Devices Unveiled - Business Wire",
-      "category": "Product Launches",
-      "decision": "review",
-      "score": 69,
-      "adaptivePriority": 85,
-      "confidence": 70
-    },
-    {
-      "timestamp": "2026-09-25T15:12:08.057Z",
-      "title": "Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test",
-      "category": "Digital Life",
-      "decision": "review",
-      "score": 72,
-      "adaptivePriority": 80,
-      "confidence": 91
-    },
-    {
-      "timestamp": "2026-09-25T15:12:08.057Z",
-      "title": "Agents can now set up your website’s security with Turnstile Spin - Cloudflare Blog",
-      "category": "Digital Life",
-      "decision": "review",
-      "score": 71,
-      "adaptivePriority": 79,
-      "confidence": 91
-    },
-    {
-      "timestamp": "2026-09-25T15:12:08.057Z",
-      "title": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office",
-      "category": "Digital Life",
-      "decision": "review",
-      "score": 71,
-      "adaptivePriority": 79,
-      "confidence": 88
-    },
-    {
-      "timestamp": "2026-09-25T15:12:08.057Z",
-      "title": "Best Banks: Ensuring Privacy And Security Wins Customer Trust - Investor's Business Daily",
-      "category": "Digital Life",
-      "decision": "review",
-      "score": 70,
-      "adaptivePriority": 78,
-      "confidence": 85
-    },
-    {
-      "timestamp": "2026-09-25T15:12:08.057Z",
-      "title": "Guest Post: Quantum Investment May Start With Post-Quantum Security - The Quantum Insider",
-      "category": "Digital Life",
-      "decision": "review",
-      "score": 70,
-      "adaptivePriority": 78,
-      "confidence": 87
-    },
-    {
-      "timestamp": "2026-09-25T15:12:08.057Z",
-      "title": "Shin Bet takes over Gadi Eisenkot security after police recommend armed protection - The Jerusalem Post",
-      "category": "Digital Life",
-      "decision": "review",
-      "score": 70,
-      "adaptivePriority": 78,
-      "confidence": 89
-    },
-    {
-      "timestamp": "2026-09-25T15:12:08.057Z",
-      "title": "Ridge Security warns of high-severity TDengine vulnerability that can disrupt industrial telemetry and monitoring - Industrial Cyber",
-      "category": "Digital Life",
-      "decision": "review",
-      "score": 70,
-      "adaptivePriority": 78,
-      "confidence": 85
-    },
-    {
-      "timestamp": "2026-09-25T15:12:08.057Z",
-      "title": "Fake payroll desktop apps hand attackers a route to company paychecks - Help Net Security",
-      "category": "Digital Life",
-      "decision": "review",
-      "score": 70,
-      "adaptivePriority": 78,
-      "confidence": 87
-    },
-    {
-      "timestamp": "2026-09-25T15:12:08.057Z",
-      "title": "Innovation, Invention and Impact: NJIT Undergrads Present Summer Research - NJIT News",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 62,
-      "adaptivePriority": 78,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-09-25T15:12:08.057Z",
-      "title": "Mastercard Tackles SME Security Gap with Built In Protection - Cyber Magazine",
-      "category": "Digital Life",
-      "decision": "review",
-      "score": 69,
-      "adaptivePriority": 77,
-      "confidence": 84
-    },
-    {
-      "timestamp": "2026-09-25T15:12:08.057Z",
-      "title": "Taiwan Should Set the Standard for Industrial AI Security - Just Security",
-      "category": "Digital Life",
-      "decision": "review",
-      "score": 69,
-      "adaptivePriority": 77,
-      "confidence": 84
-    },
-    {
-      "timestamp": "2026-09-25T15:12:08.057Z",
-      "title": "Kaspersky reaffirms security with successful SOC 2 Type II audit - msspalert.com",
-      "category": "Digital Life",
-      "decision": "review",
-      "score": 69,
-      "adaptivePriority": 77,
-      "confidence": 84
-    },
-    {
-      "timestamp": "2026-09-25T15:12:08.057Z",
-      "title": "Insta360 conquered 360 cameras — now it’s eyeing glasses",
-      "category": "Digital Life",
-      "decision": "review",
-      "score": 69,
-      "adaptivePriority": 77,
-      "confidence": 93
-    },
-    {
-      "timestamp": "2026-09-25T15:12:08.057Z",
-      "title": "Introducing Meta VR Glasses, A New Era for Virtual Reality - meta.com",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 61,
-      "adaptivePriority": 77,
-      "confidence": 69
-    },
-    {
-      "timestamp": "2026-09-25T15:12:08.057Z",
-      "title": "Your Bank’s Security Experience May Be Driving Customers Away - The Financial Brand",
-      "category": "Digital Life",
-      "decision": "review",
-      "score": 68,
-      "adaptivePriority": 76,
-      "confidence": 84
-    },
-    {
-      "timestamp": "2026-09-25T15:12:08.057Z",
-      "title": "Anker's SoloCam S220 solar security 2-cam pack + HomeBase 3 is down at $199 for today only ($121 off), more - 9to5Toys",
-      "category": "Digital Life",
-      "decision": "review",
-      "score": 68,
-      "adaptivePriority": 76,
-      "confidence": 85
-    },
-    {
-      "timestamp": "2026-09-25T15:12:08.057Z",
-      "title": "Bill to allow politicians to spend campaign cash on security spurs warnings of misuse - New Jersey Monitor",
-      "category": "Digital Life",
-      "decision": "review",
-      "score": 68,
-      "adaptivePriority": 76,
-      "confidence": 85
-    },
-    {
-      "timestamp": "2026-09-25T15:12:08.057Z",
-      "title": "CISA Releases Its 2026 Election Infrastructure Security Plan - The Presidential Prayer Team",
-      "category": "Digital Life",
-      "decision": "review",
-      "score": 68,
-      "adaptivePriority": 76,
-      "confidence": 85
-    },
     {
       "timestamp": "2026-09-25T15:48:05.028Z",
       "title": "Meta Unveils AI-Powered Handheld Device 'Muse Charm' for December 2026 Launch - KuCoin",
@@ -1801,6 +1621,186 @@
       "score": 56,
       "adaptivePriority": 72,
       "confidence": 59
+    },
+    {
+      "timestamp": "2026-09-28T12:22:39.595Z",
+      "title": "Innovation, Invention and Impact: NJIT Undergrads Present Summer Research - NJIT News",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 62,
+      "adaptivePriority": 78,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-09-28T12:22:39.595Z",
+      "title": "‘HomePad’ to launch next month with these new features: report - 9to5Mac",
+      "category": "Product Launches",
+      "decision": "hold",
+      "score": 62,
+      "adaptivePriority": 78,
+      "confidence": 68
+    },
+    {
+      "timestamp": "2026-09-28T12:22:39.595Z",
+      "title": "Research, innovation and invention top priority for prosperity, Minister Pun says - The Rising Nepal",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-09-28T12:22:39.595Z",
+      "title": "America's true innovation advantage: we don't just invent technologies — we reinvent how innovation works - Fortune",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-09-28T12:22:39.595Z",
+      "title": "NLR Battery Innovation Awarded NASA’s Invention of the Year - cleantechnica.com",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-09-28T12:22:39.595Z",
+      "title": "Opinion: Why Canada’s health Innovation bottleneck is adoption, not invention - uwaterloo.ca",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-09-28T12:22:39.595Z",
+      "title": "A History of Invention and Innovation - Boston University",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-09-28T12:22:39.595Z",
+      "title": "Apple unveils iPhone Duo - Apple",
+      "category": "Product Launches",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 63
+    },
+    {
+      "timestamp": "2026-09-28T12:22:39.595Z",
+      "title": "From Edison’s Invention Factory to the new architecture of innovation - science.org",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-09-28T12:22:39.595Z",
+      "title": "Innovation beyond invention will bring novel medicines to Europe’s patients - pharmaphorum",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-09-28T12:22:39.595Z",
+      "title": "Palo Alto Networks joins UAH Invention to Innovation Center as Corporate Innovation Partner | Newswise - Newswise",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-09-28T12:22:39.595Z",
+      "title": "Malaysian Brothers Win Highest Invention Award at WYIE 2026 for AI Education Innovation - sme.asia",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-09-28T12:22:39.595Z",
+      "title": "Introducing Claude Opus 5.5 - Anthropic",
+      "category": "Product Launches",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 68
+    },
+    {
+      "timestamp": "2026-09-28T12:22:39.595Z",
+      "title": "Apple unveils $2,000 iPhone Duo, its first foldable smartphone - Fortune",
+      "category": "Product Launches",
+      "decision": "hold",
+      "score": 57,
+      "adaptivePriority": 73,
+      "confidence": 57
+    },
+    {
+      "timestamp": "2026-09-28T12:22:39.595Z",
+      "title": "A new Apple's HomePad could finally launch soon – here's what we know - Macworld",
+      "category": "Product Launches",
+      "decision": "hold",
+      "score": 57,
+      "adaptivePriority": 73,
+      "confidence": 62
+    },
+    {
+      "timestamp": "2026-09-28T12:22:39.595Z",
+      "title": "Who’s liable when AI agents go rogue? - MIT Technology Review",
+      "category": "Technology",
+      "decision": "review",
+      "score": 72,
+      "adaptivePriority": 72,
+      "confidence": 91
+    },
+    {
+      "timestamp": "2026-09-28T12:22:39.595Z",
+      "title": "Best New Product Launch Email Templates to Use in 2026 - Designmodo",
+      "category": "Product Launches",
+      "decision": "hold",
+      "score": 56,
+      "adaptivePriority": 72,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-09-28T12:22:39.595Z",
+      "title": "From invention to impact: Hong Kong Science Fair gives young innovators a wider stage - South China Morning Post",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 56,
+      "adaptivePriority": 72,
+      "confidence": 59
+    },
+    {
+      "timestamp": "2026-09-28T12:22:39.595Z",
+      "title": "Challenges of protecting innovation in an artificial (intelligence) world - McAfee & Taft",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 56,
+      "adaptivePriority": 72,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-09-28T12:22:39.595Z",
+      "title": "China has invented a whole new way to do innovation - Noahpinion",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 56,
+      "adaptivePriority": 72,
+      "confidence": 60
     }
   ],
   "categoryStats": {
@@ -1825,7 +1825,7 @@
       "queuedCount": 0
     },
     "Digital Life": {
-      "publishedCount": 4,
+      "publishedCount": 5,
       "queuedCount": 0
     },
     "Crypto": {
@@ -1834,7 +1834,6 @@
     }
   },
   "recentTopics": [
-    "bitcoin price suddenly rockets past 80k leaving 180m in shorts liquidated - cryptopotato",
     "bitcoin surges 5 to top 80 000 as investors look past clarity act s failure - yahoo finance",
     "why is bitcoin us dollar stock climbing today - investing com",
     "bitcoin blasts past 80k and a fresh short squeeze is on - decrypt",
@@ -1933,6 +1932,7 @@
     "nlr battery innovation awarded nasa s invention of the year - cleantechnica com",
     "apple unveils iphone duo - apple",
     "a new apple s homepad could finally launch soon here s what we know - macworld",
-    "a history of invention and innovation - bu edu"
+    "a history of invention and innovation - bu edu",
+    "innovation beyond invention will bring novel medicines to europe s patients - pharmaphorum"
   ]
 }
