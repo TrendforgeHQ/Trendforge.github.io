@@ -2,33 +2,14 @@
   "version": 10,
   "providers": {
     "Groq": {
-      "failures": 75,
-      "quotaBlockedUntil": 0,
-      "lastStatus": 200,
-      "lastError": null,
-      "lastClass": "success",
+      "failures": 76,
+      "quotaBlockedUntil": 1790635709917,
+      "lastStatus": 429,
+      "lastError": "429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2bey814e17a788bb067zxjk` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 3389, Requested 5052. Please try again in 3.3075s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+      "lastClass": "rate_limit",
       "successes": 73,
       "lastSuccessAt": "2026-09-28T12:22:58.900Z",
       "history": [
-        {
-          "at": 1790369782701,
-          "ok": true,
-          "class": "success",
-          "status": 200,
-          "latencyMs": 1175,
-          "usage": {
-            "queue_time": 0.093412611,
-            "prompt_tokens": 4742,
-            "prompt_time": 0.238344913,
-            "completion_tokens": 579,
-            "completion_time": 0.601683196,
-            "total_tokens": 5321,
-            "total_time": 0.840028109,
-            "completion_tokens_details": {
-              "reasoning_tokens": 30
-            }
-          }
-        },
         {
           "at": 1790418779079,
           "ok": true,
@@ -324,6 +305,12 @@
               "reasoning_tokens": 63
             }
           }
+        },
+        {
+          "at": 1790635701917,
+          "ok": false,
+          "class": "rate_limit",
+          "status": 429
         }
       ],
       "lastLatencyMs": 514,
@@ -341,11 +328,11 @@
       }
     },
     "Gemini": {
-      "failures": 46,
-      "quotaBlockedUntil": 1790454446061,
+      "failures": 47,
+      "quotaBlockedUntil": 1790635731242,
       "lastStatus": 200,
-      "lastError": "Invalid repair structured output",
-      "lastClass": "error",
+      "lastError": "Invalid structured output",
+      "lastClass": "transient",
       "history": [
         {
           "at": 1789926372551,
@@ -442,6 +429,12 @@
           "ok": false,
           "class": "error",
           "status": 200
+        },
+        {
+          "at": 1790635701242,
+          "ok": false,
+          "class": "transient",
+          "status": 200
         }
       ]
     },
@@ -460,26 +453,14 @@
       "lastClass": "error"
     },
     "OpenRouter": {
-      "failures": 63,
-      "quotaBlockedUntil": 1790525021732,
+      "failures": 65,
+      "quotaBlockedUntil": 1790635718466,
       "lastStatus": 429,
       "lastError": "429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-31b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false,\"provider_error_code\":\"429\",\"limit_source\":\"upstream_provider_shared_pool\",\"remedy_hint\":\"Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or rou",
       "lastClass": "rate_limit",
       "successes": 2,
       "lastSuccessAt": "2026-09-17T17:01:23.899Z",
       "history": [
-        {
-          "at": 1789936067907,
-          "ok": false,
-          "class": "transient",
-          "status": 200
-        },
-        {
-          "at": 1789986391806,
-          "ok": false,
-          "class": "transient",
-          "status": 0
-        },
         {
           "at": 1789987706942,
           "ok": false,
@@ -587,42 +568,30 @@
           "ok": false,
           "class": "rate_limit",
           "status": 429
+        },
+        {
+          "at": 1790635692498,
+          "ok": false,
+          "class": "rate_limit",
+          "status": 429
+        },
+        {
+          "at": 1790635710466,
+          "ok": false,
+          "class": "rate_limit",
+          "status": 429
         }
       ]
     },
     "Cohere": {
-      "failures": 84,
+      "failures": 88,
       "quotaBlockedUntil": 0,
       "lastStatus": 422,
-      "lastError": "422: {\"error_type\":\"INVALID_TOOL_GENERATION\",\"id\":\"69272afe-78cc-4c6f-abe5-f0a872f9d326\",\"message\":\"your request resulted in an invalid tool generation. Try updating the messages or tool definitions\"}",
+      "lastError": "422: {\"error_type\":\"INVALID_TOOL_GENERATION\",\"id\":\"f7888de8-9d00-40cf-9b43-cf0598352bd8\",\"message\":\"your request resulted in an invalid tool generation. Try updating the messages or tool definitions\"}",
       "lastClass": "error",
       "successes": 13,
       "lastSuccessAt": "2026-09-27T16:02:47.110Z",
       "history": [
-        {
-          "at": 1790016956721,
-          "ok": false,
-          "class": "error",
-          "status": 200
-        },
-        {
-          "at": 1790016963430,
-          "ok": false,
-          "class": "error",
-          "status": 200
-        },
-        {
-          "at": 1790016986421,
-          "ok": false,
-          "class": "error",
-          "status": 200
-        },
-        {
-          "at": 1790020660741,
-          "ok": false,
-          "class": "transient",
-          "status": 200
-        },
         {
           "at": 1790020698007,
           "ok": false,
@@ -730,6 +699,30 @@
           "ok": false,
           "class": "error",
           "status": 422
+        },
+        {
+          "at": 1790635686171,
+          "ok": false,
+          "class": "error",
+          "status": 422
+        },
+        {
+          "at": 1790635692243,
+          "ok": false,
+          "class": "error",
+          "status": 422
+        },
+        {
+          "at": 1790635709737,
+          "ok": false,
+          "class": "error",
+          "status": 422
+        },
+        {
+          "at": 1790635718687,
+          "ok": false,
+          "class": "error",
+          "status": 422
         }
       ],
       "lastLatencyMs": 3754,
@@ -747,5 +740,5 @@
     }
   },
   "rotationCursor": 0,
-  "updatedAt": "2026-09-28T12:22:58.900Z"
+  "updatedAt": "2026-09-28T22:48:38.687Z"
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-28T12:23:02.179Z",
+  "generatedAt": "2026-09-28T22:48:42.270Z",
   "queue": [
     {
       "slug": "anthropic-s-ceo-calls-for-an-ai-slow-down-what-it-means-for-the-industry",
@@ -85,6 +85,24 @@
         "usefulness": 95,
         "clarity": 100,
         "originality": 83,
+        "sourceStrength": 41
+      },
+      "reasons": [
+        "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
+      ]
+    },
+    {
+      "slug": "which-will-hit-first-litecoin-s-500-target-vs-bitcoin-s-200-000-goal",
+      "title": "Which Will Hit First? Litecoin’s $500 Target vs Bitcoin’s $200,000 Goal",
+      "category": "Crypto",
+      "score": 78,
+      "decision": "review",
+      "dimensions": {
+        "evidence": 75,
+        "usefulness": 97,
+        "clarity": 100,
+        "originality": 80,
         "sourceStrength": 41
       },
       "reasons": [
