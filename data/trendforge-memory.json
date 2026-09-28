@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-28T14:24:58.695Z",
+  "updatedAt": "2026-09-28T23:28:43.182Z",
   "policy": {
     "recordsOperationalHistory": true,
     "influencesDecisions": false,
@@ -4838,159 +4838,109 @@
           "inCooldown": false
         }
       }
+    },
+    {
+      "recordedAt": "2026-09-28T23:28:43.182Z",
+      "workflowRun": "36498197725",
+      "workflowSha": "bbcc401280d2f6be281ae566074de241876b9943",
+      "decisions": {
+        "total": 230,
+        "publishCandidates": 0,
+        "review": 48,
+        "hold": 182,
+        "reject": 0,
+        "strongEvidenceReady": 31,
+        "singleSourceVerifiedReady": 71
+      },
+      "evidence": {
+        "candidates": 230,
+        "passed": 97,
+        "blocked": 17,
+        "strong": 26,
+        "singleSource": 71
+      },
+      "claims": {
+        "title": "",
+        "claimCount": 0,
+        "verified": 0,
+        "partial": 0,
+        "unsupported": 0,
+        "averageConfidence": 0,
+        "pass": false
+      },
+      "editorial": {
+        "status": "pass",
+        "articleCount": 29,
+        "averageScore": 76
+      },
+      "lifecycle": {
+        "articles": 29,
+        "refreshCandidates": 5,
+        "watch": 20,
+        "fresh": 4,
+        "stale": 0,
+        "duplicateClusters": 0
+      },
+      "growth": {
+        "totalArticles": 29,
+        "averageEditorialScore": 76,
+        "editorialReviewCount": 20,
+        "refreshCandidates": 5
+      },
+      "distribution": {
+        "articlesPlanned": 20,
+        "externalPostingPerformed": false
+      },
+      "monetization": {
+        "readyForAdSenseFoundation": false
+      },
+      "providers": {
+        "Groq": {
+          "failures": 76,
+          "successes": 73,
+          "lastStatus": 429,
+          "lastClass": "rate_limit",
+          "inCooldown": false
+        },
+        "Gemini": {
+          "failures": 47,
+          "successes": 0,
+          "lastStatus": 200,
+          "lastClass": "transient",
+          "inCooldown": false
+        },
+        "OpenAI": {
+          "failures": 3,
+          "successes": 0,
+          "lastStatus": 429,
+          "lastClass": "quota",
+          "inCooldown": false
+        },
+        "Cerebras": {
+          "failures": 7,
+          "successes": 0,
+          "lastStatus": 402,
+          "lastClass": "error",
+          "inCooldown": false
+        },
+        "OpenRouter": {
+          "failures": 65,
+          "successes": 2,
+          "lastStatus": 429,
+          "lastClass": "rate_limit",
+          "inCooldown": false
+        },
+        "Cohere": {
+          "failures": 88,
+          "successes": 13,
+          "lastStatus": 422,
+          "lastClass": "error",
+          "inCooldown": false
+        }
+      }
     }
   ],
   "topics": [
-    {
-      "key": "https://www.theverge.com/tech/996341/bose-ultra-open-earbuds-second-gen-wireless-sport",
-      "title": "Bose’s next open earbuds have more bass, more volume, and more battery life",
-      "category": "Digital Life",
-      "lastSeenAt": "2026-09-17T17:14:25.185Z",
-      "decision": "review",
-      "score": 71,
-      "confidence": 93,
-      "evidenceLevel": "single-source-verified"
-    },
-    {
-      "key": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZTlqYXBUY2FCN2dqVzlPSXZpUXFSWXU4MjBjeVREZkttdHFfaFpUR3dnQjZsblBXUEJ5bEE0R1I2YXJ3WVViOGtrb00zdjd1RzlUanhqLXNjQVZRZEJGT0pmSEZQb0FzUnkxNmdaSDE4R25KQXJJZk1tZmZWcEhMRTRqT2xNelc2ZlJYRHl6TnFXUHhiY0dhME1yU2JOS0tDR29iMnlfV1B3Q3pERkFIbFN5LXdyTHVDc21oazdYYW43NVlu?oc=5",
-      "title": "Remarks at a UN Security Council Briefing on the Political and Humanitarian Situations in Syria - United States Mission to the United Nations (.gov)",
-      "category": "Digital Life",
-      "lastSeenAt": "2026-09-17T17:14:25.185Z",
-      "decision": "review",
-      "score": 70,
-      "confidence": 85,
-      "evidenceLevel": "none"
-    },
-    {
-      "key": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQlVoOHNQQ2Q2aF8zYXJjSnFiUk14UU5pZmZFUF94b0F1cXFISDdGRkJQMDB1WVNFQWkyMFBjdmZldFJXRVRPZUtYa1JDSTVOU3ZyUV9nY1dwd1lXTmtyWUxGVkZUWDBZVnd5MDFoZk9HNEJUVmFheGZkd3RsUHRCTHJyeV85aUlxZTA0T2lSbDZ3Ykp1dzhWUVFQdXoycXFlT29v?oc=5",
-      "title": "Remarks Before a UN Security Council Meeting on Nonproliferation and Iran - United States Mission to the United Nations (.gov)",
-      "category": "Digital Life",
-      "lastSeenAt": "2026-09-17T17:14:25.185Z",
-      "decision": "review",
-      "score": 70,
-      "confidence": 85,
-      "evidenceLevel": "none"
-    },
-    {
-      "key": "https://www.theverge.com/tech/996826/microsoft-xbox-disc-to-digital-history-notepad",
-      "title": "Xbox’s clever disc-to-digital feature was 15 years in the making",
-      "category": "Digital Life",
-      "lastSeenAt": "2026-09-17T17:14:25.185Z",
-      "decision": "review",
-      "score": 70,
-      "confidence": 93,
-      "evidenceLevel": "single-source-verified"
-    },
-    {
-      "key": "https://www.theverge.com/tech/996453/camp-snap-110d-digital-camera-retro-horizontal-kodak-100-film",
-      "title": "Camp Snap’s 110D gives slim retro film cameras a digital upgrade",
-      "category": "Digital Life",
-      "lastSeenAt": "2026-09-17T17:14:25.185Z",
-      "decision": "review",
-      "score": 70,
-      "confidence": 93,
-      "evidenceLevel": "single-source-verified"
-    },
-    {
-      "key": "https://www.theverge.com/ai-artificial-intelligence/996775/ai-is-feared-globally-as-the-destroyer-of-jobs",
-      "title": "AI is feared globally as the destroyer of jobs",
-      "category": "Digital Life",
-      "lastSeenAt": "2026-09-17T17:14:25.185Z",
-      "decision": "review",
-      "score": 70,
-      "confidence": 93,
-      "evidenceLevel": "single-source-verified"
-    },
-    {
-      "key": "https://www.theverge.com/entertainment/996505/spotify-fresh-finds-forward",
-      "title": "Spotify’s Fresh Finds Forward gives artists free studio time and more",
-      "category": "Digital Life",
-      "lastSeenAt": "2026-09-17T17:14:25.185Z",
-      "decision": "review",
-      "score": 70,
-      "confidence": 93,
-      "evidenceLevel": "single-source-verified"
-    },
-    {
-      "key": "https://www.theverge.com/entertainment/996831/grand-theft-auto-6-soundtrack",
-      "title": "Grand Theft Auto VI’s soundtrack will feature 34 brand-new tracks",
-      "category": "Digital Life",
-      "lastSeenAt": "2026-09-17T17:14:25.185Z",
-      "decision": "review",
-      "score": 70,
-      "confidence": 93,
-      "evidenceLevel": "single-source-verified"
-    },
-    {
-      "key": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5xN3JfdDd0QTJXN1A0LVlhT2Y4NVBjSjdVYkhWM2RSb2pubzQ3N1VBTndaOUNwTllZTWpUNTFKakJ1dWtKaERPY19mZU5Hd2lxdmVmcFhTUXpQT08zNHZ1Nk5XTnVnQzJqWlNmU2FLMTNsRVlEd0V3?oc=5",
-      "title": "Safety and security at Wake Forest - Inside WFU",
-      "category": "Digital Life",
-      "lastSeenAt": "2026-09-17T17:14:25.185Z",
-      "decision": "review",
-      "score": 69,
-      "confidence": 84,
-      "evidenceLevel": "none"
-    },
-    {
-      "key": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaDY0VjZZbzRlUTFEblBHcC1YZ1pYUTFFa1FkdjlFQ1RTWkg1UlUxdS1nQkdhUjl0Zm9TSlNsb2pjYUtEVTlGV0ZGWnlxOEJWUUV2dHFOeWJTanV2WHYxQUoxa09JRHY4cUhJZDloaHBGQ0xDY1UzcDROZjMzMjBMSzVBUVJlU1pZREM0TXVvbGlGaW43SHc?oc=5",
-      "title": "Android's hidden privacy tools caught things I never would have noticed on my own - Android Police",
-      "category": "Digital Life",
-      "lastSeenAt": "2026-09-17T17:14:25.185Z",
-      "decision": "review",
-      "score": 69,
-      "confidence": 85,
-      "evidenceLevel": "none"
-    },
-    {
-      "key": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSWFjR0hTYWRlSGJodzhySVVTNTB5Smh0aVl1VFB6Z2Z0ZmpuZUphMTBpS3Q5MXdDbG5manplVVNLRUxCbkVDOEpOb3U0VjNwVFl0WlpnQko3RkFlM0x2MER6UER6ZmxUUlE5MnIzU2VCOXZLaDNHMFBJMVpUMUUtZlVwTUlMT0lrRjlwM2RRMA?oc=5",
-      "title": "Rational Security: The “Worlds Colliding” Edition - Lawfare",
-      "category": "Digital Life",
-      "lastSeenAt": "2026-09-17T17:14:25.185Z",
-      "decision": "review",
-      "score": 68,
-      "confidence": 84,
-      "evidenceLevel": "none"
-    },
-    {
-      "key": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS0ZsMlBxQUQ1NE9hUkxvYzVBRi1mWHoyMG5iWnlfS0E2X2twSHlNTlc5VGdsVExtNWtqZzZjYU5JblZXTDdvOWdGdWloSHp2eXRINk1QTnVfZW1VMWl4U2RrNHZUMW15TmMwYVltYzRURWpCdV9wMmNpd04yeXZGa19EN2JSTHZTb2k5Rmxyb1U1cDdBMHZoU3NrU3ZJQ0gyNXFrM28wd0RkdFpfWE5aZWdqVURRXzliNnVSdDN4NW0?oc=5",
-      "title": "Davids, Schmidt Introduce Bipartisan Bill to Help Kansas Families Build Financial Security for Children - Representative Sharice Davids | (.gov)",
-      "category": "Digital Life",
-      "lastSeenAt": "2026-09-17T17:14:25.185Z",
-      "decision": "review",
-      "score": 68,
-      "confidence": 84,
-      "evidenceLevel": "none"
-    },
-    {
-      "key": "https://www.theverge.com/tech/996860/lunacy-audio-nova-ai-music-plugin-vst",
-      "title": "Lunacy Audio Nova is a place to build and sell your own AI-powered music plug-ins",
-      "category": "Digital Life",
-      "lastSeenAt": "2026-09-17T17:14:25.185Z",
-      "decision": "review",
-      "score": 68,
-      "confidence": 91,
-      "evidenceLevel": "single-source-verified"
-    },
-    {
-      "key": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQY2U3dGVFZlZYV2U2Z3dTT1p4Q2JZcmE0UXgwNEc4QXpDM1QwN19vc1hTeGN2M092bVVBWFdxczZUS3VieGFiQy1nLWFlX3UzLTRDR1RYcDI4NVJTaGYzWWY2ZkJ6RW90OGdSczRPMWhqODNfRTdkMzhseGdaZW50X1VkNVFwMzFjbDhvZC13bktKc1NSZl9V?oc=5",
-      "title": "The SEC and CFTC Say They Will Write Crypto Rules Without Congress. What Atkins and Selig Can Actually Do for XRP and Bitcoin. - Yahoo Finance",
-      "category": "Crypto",
-      "lastSeenAt": "2026-09-18T11:45:18.380Z",
-      "decision": "review",
-      "score": 74,
-      "confidence": 81,
-      "evidenceLevel": "none"
-    },
-    {
-      "key": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTFotaThtdF9WV1ZVdFFkTTFrWlNoX0hLcW5ySlBIQ2Ywdk55UEphcHNiTmpsS2hLRVR6QW5RcE4xY21aT2d0T3lwNC1pMXV4NEZBeUk1cElDNTZrY1JqRjJFeXlXSkg5VXRxQjBiVGFIVU03Z0tyNlhRZXpUcUQzMFl30gGHAUFVX3lxTFBBbmdXWmZxZVR4VGVvVnFsRTFseFFDb05XVi1BM1c5MUJNdXBjeHZfRGhIUXVRSFprMDdWWlUwZ2xlbFYwWnN3Y255aEFBNy1JbDI2THlFLWVPTndjZkVHN0NCSEl1S29rc05Bdm42NjZYM0o4a0xLU0FtRTVqQjBkLXpBTk15Zw?oc=5",
-      "title": "Crypto shifts focus to Trump regulators after coming up short in Senate - The Hill",
-      "category": "Crypto",
-      "lastSeenAt": "2026-09-18T11:45:18.380Z",
-      "decision": "review",
-      "score": 73,
-      "confidence": 83,
-      "evidenceLevel": "none"
-    },
     {
       "key": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTFpnSVRpQURpejN2NGtHOGg2MVVicUFEZXFITUdjc01sT09MeW9Ma0RRNlMzbktuNGlodF9wOEgyekNDcVBGcVBrWVh6RVYyUEdrc0VIUE1xZHlMT0RWMlZad1lBdkNpUUFOTHhjeWs4VlQ1bzRvM3dnelMtTUE3R1h3OEZ3aC1jTFNnMHo3RjR4c2taOUVkdFl2ZVhnNDNBbEZzLVRsVko4dlNwbVFiY3ZZTWs1bGZpOG9HcEdfbWZCSDFrMG5ybXk5d2I?oc=5",
       "title": "Clarity Act Hopes Remain, But Crypto 'Can't Wait For Congress Anymore' - Investor's Business Daily",
@@ -5065,7 +5015,7 @@
       "key": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMENfMjlBQ2RaRzZ2anFzZmtuZzdHLVViN2dlanlyMzFyYjYwNU9hU3BmdkxtZ09LYWlJd3g1eWZsNEtWQVg3V2w4VWVESVpCUFk2dlVPVFlFUG1xUjhyTGJScXZfY2hEYjZxbnFpVHdnLXcyeDMtQUNJSFRzLVMxZUdNMzdjUFZteGlWMzhxeVVDczJENEtGd1hZQXJwNWJP?oc=5",
       "title": "Challenges of protecting innovation in an artificial (intelligence) world - McAfee & Taft",
       "category": "Innovation",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 56,
       "confidence": 60,
@@ -5085,17 +5035,17 @@
       "key": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORmIwOGdHeHlHbG1SbWpUandXeXlOLThYZXhfV3pFR3BTNmpTbndSSlE2OGhhZmJ4dFU2V05fdWpkblQzdWFvN3VUQ2hBNm1PZDNaQnh1ZV9SU2gwX0QxNEdIRTJXb2hwSVhPRXNRLXFOa21jNDZsbGpzQ1BjZkotTjNjdnVIZGZmRWRqNU0zWEZXcVk0VGdJYnduZk9MNjFLRjlUQzhyejZ5TjFZMm16QmJ5ejhzQzBzYl9XMGlnZFVxU3cwOEZ2VW5BMW0zQlVpZk5fZ3FB?oc=5",
       "title": "Leaders at Davos 2026 on how we can deploy innovation and technology at scale and responsibly - The World Economic Forum",
       "category": "Innovation",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
-      "score": 55,
+      "score": 58,
       "confidence": 58,
       "evidenceLevel": "none"
     },
     {
       "key": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT0Q2OWJjRkhxV1MtVkNZXzc0eVpVTlpHSF9ady1TWmdkRjJ5RGZPNkw0TTI5NTlwTUNlU1FCRGh6Qy1tcEl1QjJ4LTJ0SGFGZmg2R3F2dGpCNHRnbGVCZi1nZktqeUhqZ3ViUUwyc1NXQ2xwZzdUNUFXbXBzV2tVLVhMTlQ?oc=5",
-      "title": "6 recent scientific breakthroughs and discoveries - theweek.com",
+      "title": "6 recent scientific breakthroughs and discoveries - The Week",
       "category": "Innovation",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 55,
       "confidence": 60,
@@ -5235,7 +5185,7 @@
       "key": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZVUxTW01MHAtYk5NU3BqRU92OVRBUTAwenV3elJGaEVvSU44V1FpVFE3ZzBNQnp2NWJSQ1ZKTVBleFNGcmJ3MU1mZ2U4N3BNc0E0RkU1elpYSGNxTzZfZHBUUElrWkhCZnFwNElPNEVKN0NyRFBEWEo3dzlFV3pnbGoyTVBJeUM1VjhaTGdWTUZ6Qkt4cXpRQXdn?oc=5",
       "title": "China is the real winner from Europe’s war on food innovation - euractiv.com",
       "category": "Innovation",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 54,
       "confidence": 57,
@@ -5755,7 +5705,7 @@
       "key": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4aDVWTV9VN3ZUSF9CemZCNXNrWktncnBiOWF4cjRqOUxqcURLMUFWYm1DY3VxM0kwbk5tM1VEYkl1aXFibVFzMHpEUWNvbTBaejBkSk1LV2NzOW5MLXpKMVZuM0xvUnJ2?oc=5",
       "title": "Best New Product Launch Email Templates to Use in 2026 - Designmodo",
       "category": "Product Launches",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 56,
       "confidence": 58,
@@ -5835,9 +5785,9 @@
       "key": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNeUVfUEpNOHJvWFo1NUhJWjJTcnE0NXZ3VS13SFExeG1hWjY5a3d0WFZ0X1ZrTTM1TUVUUDVvNzMya1ZzZEtwWkhmejljWjgyekVMU2tMRjdWMjgwNDdNSDVlWmVjTHl0SUlTX2QyMDA5THJwekFEaktwNkl2djMzZThaMl81SmV4M01ERndRdkRzSHhqcHoxeUNzcmhSRzVwc2VhZXljMXVRSDZseExHbmo5MHU2QVZiOGpnbTM0UzM0TjVlLXhQQnRIVUdIMGJPazNCTlM5WXFzNUNDdVE?oc=5",
       "title": "News | The University of Alabama in Huntsville - The University of Alabama in Huntsville",
       "category": "Innovation",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
-      "score": 53,
+      "score": 54,
       "confidence": 60,
       "evidenceLevel": "none"
     },
@@ -5875,7 +5825,7 @@
       "key": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPR08yYzN5SDdENWJmT1BXQUZYU3RwdDBydGt1OFdZNE9PaUx3bVg1eGtZbGRlVktRdlQ3bFFFbFc2TmoySW5YQ2tMTzluWnZJeENIWkRYdGQ0MDlxbDdUNG9oWTBkSEhNMFZnUlQtNEVZNjFqbEttMEhQdWtRNE5Kd2pOOGdCbmN4WEdlZTAwaTh6eUw3UXZnWFMwTFA?oc=5",
       "title": "The Netherlands take a step towards establishing a Dutch Darpa - Science|Business",
       "category": "Innovation",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 52,
       "confidence": 60,
@@ -6115,7 +6065,7 @@
       "key": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNX2ZIZm96WTJEd0VmOHpDRlh5NXhvNjRwSVhQTHR2U3JIRjJ6QVdqRjgtYkxMaFRvVzRVTkxDMDcxV1FOOXpYeDhaMGU1M3h6NlBUR2p2Y054d1I5enVQR1JwbnRVN3RHSHJRVVFWcjNfcFNqTU9OWmFyajNRWWM3XzJyb1hCNm10dFVTRGdxaUMtd19lZVc3SURLMGZMQVRILUdfbUVXZVRNUQ?oc=5",
       "title": "Army invention identifies bio-materials for future military technology - army.mil",
       "category": "Innovation",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 52,
       "confidence": 57,
@@ -6883,9 +6833,9 @@
     },
     {
       "key": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWF9ydjNUVE54eS1wSUNDdVphNl9reDBUUzI4YnNjamRDYU1mUEVUUk8zRGk3b3p3aXZIck5UTUwtSlUtNzhvMERDTTVQWUZtU3Zqd255OC0xa19XQm0xN0V2bXpYT3pHZnVfd2k1NGVhRFVrakEySVhwTFRJR0JqLUhkTVdaNEgwUk13RG5KajdCRXlEc0Nub3pwY0F2YUEzS3g1S3VKX3RuZXM3R0N1UXQwRG1iQjZvZDJ3RWtSdmlNaTjSAcMBQVVfeXFMUFhfcnYzVFROeHktcElDQ3VaYTZfa3gwVFMyOGJzY2pkQ2FNZlBFVFJPM0RpN296d2l2SHJOVE1MLUpVLTc4bzBEQ001UFlGbVN2andueTgtMWtfV0JtMTdFdm16WE96R2Z1X3dpNTRlYURVa2pBMklYcExUSUdCai1IZE1XWjRIMFJNd0RuSmo3QkV5RHNDbm96cGNBdmFBM0t4NUt1Sl90bmVzN0dDdVF0MERtYkI2b2Qyd0VrUnZpTWk4?oc=5",
-      "title": "Palo Alto Networks joins UAH Invention to Innovation Center as Corporate Innovation Partner | Newswise - Newswise",
+      "title": "Palo Alto Networks joins UAH Invention to Innovation Center as Corporate Innovation Partner | Newswise - newswise.com",
       "category": "Innovation",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 58,
       "confidence": 58,
@@ -6973,12 +6923,12 @@
     },
     {
       "key": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWXMtc3pvVUw0a0JZTEItd01kUGtHMFlrZmhQa2VsVzVjVzczV3BCN0hmMVJRVHg5Q0NNUkxyd1RzbzI3NktrVkZJcERZOHRuVnlWZzZQbGllall6OFd5Mjd1dUlJRUNQM1pGS1FoRjJDMGZOb3lZOWstdU5LUzJFdzRDX1hTUzJaR1dsN193V3pWR255Smc?oc=5",
-      "title": "‘HomePad’ to launch next month with these new features: report - 9to5Mac",
+      "title": "‘HomePad’ to launch next month with these new features: report - 9to5mac.com",
       "category": "Product Launches",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
-      "score": 62,
-      "confidence": 68,
+      "score": 54,
+      "confidence": 64,
       "evidenceLevel": "single-source-verified"
     },
     {
@@ -8255,10 +8205,10 @@
       "key": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SldKWWgzNDExSThTZW9MRTQ5WHE3VFRZMl9oSjIzaVhuZEZaY1ZSUTFxZTJFaFpUanlncTQySUg5SlRGVnNkQXZ0S3IxLWJScXNkLXY2Z3Jzbk5WR0UwSFp0NmUxN3c?oc=5",
       "title": "Introducing GPT-6 Sol and Luna - OpenAI",
       "category": "Product Launches",
-      "lastSeenAt": "2026-09-27T17:14:43.183Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
-      "score": 55,
-      "confidence": 64,
+      "score": 52,
+      "confidence": 61,
       "evidenceLevel": "none"
     },
     {
@@ -8555,7 +8505,7 @@
       "key": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kRFFhNDJrSUZUWmtDYnlqaXBCemhTVkdJb093MnRhZWpXQU9zenZsSG9zQWhMbXExWGUyZEd3eE9NRktQdkFncE9VQ2o3OWswdU05clNqcVltV1ZHOHFUd0dXeng0SnVlUFlZNy1Lb2dkRE9iQXc?oc=5",
       "title": "ChatGPT Ads expands to Southeast Asia and Taiwan - OpenAI",
       "category": "Product Launches",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 52,
       "confidence": 61,
@@ -8595,7 +8545,7 @@
       "key": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xbTN1a0tOdm9kT0JxbVBHMU9XYUhpUjd0MHNFYm8yd2pRMnhjdEYzdjF3ckZEY1V0a2ZQTXlyRUhteVozMlhDbVQ3Mm1KWlRYbUVF?oc=5",
       "title": "Introducing Claude Opus 5.5 - Anthropic",
       "category": "Product Launches",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 58,
       "confidence": 68,
@@ -8735,7 +8685,7 @@
       "key": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMU92d1ViQjB2aWplMWtWMW1GVHFVcVE0eUVjMXEzclR1OW5KRThjeE1xTFM2YjRtcGZJb2l4QWliSURJY0ZOdlpLcFVQaFF1QU14NFlOMi1SVTI2cXZrRmlmdTZWc1BjZFFmd3Q1cnNDcmlPRGx4a3FnbHZ2ankxUDBOTTZTeWIzN19FY1ZtLWdTSTdnbWlTOEdUSndRdWxhMW5LT0dQZnRyMWYxbkNFMVVMRDVRNDNMUkwzY0o3Nzd0a0ozVFlPbA?oc=5",
       "title": "Electronics Major Arduino Opens Edge AI Invention Lab at IIT Delhi for Hands-On AI Learning - analyticsindiamag.com",
       "category": "Innovation",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 55,
       "confidence": 60,
@@ -8773,11 +8723,11 @@
     },
     {
       "key": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNM0tDWlNLeG1ubFpLUkF2YkNuNzZTVXJEcElndks0UWJmOGFzVmpxbU0yTHo2am82QS01UEVVUndDMTY0U2dIUjdWV21RbER2dEpKQ21UaXY2ZDZSQURHZW56ejVKb01ySk5UaFcxcXNwVW1ZUndJb1czUk5kQ0lpcXg2Q0k2aFQ1MXZRWVZkQmM3OGM?oc=5",
-      "title": "Apple unveils $2,000 iPhone Duo, its first foldable smartphone - Fortune",
+      "title": "Apple unveils $2,000 iPhone Duo, its first foldable smartphone - fortune.com",
       "category": "Product Launches",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
-      "score": 57,
+      "score": 60,
       "confidence": 57,
       "evidenceLevel": "none"
     },
@@ -8915,7 +8865,7 @@
       "key": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUjRHeTZUSnUyXzZYN3VDYW9LNWZsTU8xOUdkeGVRU3A5NUxjb1h1bWJlWTBVaUhDREhtUzI5MTBubWVZbUtzZ1ZXVUZkVUFrM3RkVFp3dFh3UWhmWC1sc1JsbUg4STgzRlcwMXRZUGR5TVN5bkt3RFdsX3FGZ3g1NDNRTlFRVlFEbG9ac1hFWUNlTXhXd1Nud3duRFBFd2RMU3VQNlNKWjZyRlBsUlJsUHNqYWZ1ZEE?oc=5",
       "title": "The latest iPhone, Apple Watch, and AirPods lineups arrive in stores worldwide - Apple",
       "category": "Product Launches",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 55,
       "confidence": 62,
@@ -9195,7 +9145,7 @@
       "key": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVVNzbDZ0MFJxOE5lM2RGaVI2YVNabjAtTHpXQjBqbllLQXFnUWt2NTNKVV8taDY0ajh0bVR5aG1Mb2lBSEFhRFhtNmh5MDEyX09RY01LakRwQXk2WnVtdEltZ1lMSTlTQlBSXzR2ZWt1MjRDQk9jVXFkM2dyNGNGWVFfa3lLRWIwazJIbFhKX2Vjd29qc1lsSA?oc=5",
       "title": "Innovation, Invention and Impact: NJIT Undergrads Present Summer Research - NJIT News",
       "category": "Innovation",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 62,
       "confidence": 60,
@@ -9205,7 +9155,7 @@
       "key": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1rVG5TTXdNYjFEOURLeWluRmNkSHZBYnM5Z2xKY19QTUttZmdzRUVzVnpQTVREVTZPTFRkSTBMYXlXak1udlhIeng4Z25hZmo3?oc=5",
       "title": "Research, innovation and invention top priority for prosperity, Minister Pun says - The Rising Nepal",
       "category": "Innovation",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 60,
       "confidence": 58,
@@ -9333,9 +9283,9 @@
     },
     {
       "key": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5FbS1YRWluaTQ3NDY0VlZCazcxZ2RVOWRYdUt3S1JkQndoQ1U3blFHQVotcW8wNWk5TEZlSDQ4V3lua2huckVPM0FINzd3M2UxMEVFQUI3ejc3ZEk4WkFfeA?oc=5",
-      "title": "From Edison’s Invention Factory to the new architecture of innovation - science.org",
+      "title": "From Edison’s Invention Factory to the new architecture of innovation - Science | AAAS",
       "category": "Innovation",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 58,
       "confidence": 58,
@@ -9343,9 +9293,9 @@
     },
     {
       "key": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQUM4WGNTX0syZ01wenpzWmZCRmVtckdYSV9ZTk1PVnNTZE5seUFKSHJTNEFPR09GY2dyU3hZUmxBdjVQZTd0ZjhRZ2JYbXB4c2FvQlQtdnEtQlYzY20tVVV1Z0NhOVROdlQySHNIbGlLZlNkOFFCODhGeVVmeFppUm5JcHl0T2dKZ3Zv?oc=5",
-      "title": "Opinion: Why Canada’s health Innovation bottleneck is adoption, not invention - uwaterloo.ca",
+      "title": "Opinion: Why Canada’s health Innovation bottleneck is adoption, not invention - University of Waterloo",
       "category": "Innovation",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 60,
       "confidence": 60,
@@ -9355,7 +9305,7 @@
       "key": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZ2RFUmVmRTktYzJ2U1JfSDZkbUlrWGZINklMTFFreWRBeGRXcndDRjlIeUg1QmE0RTFlRWpEVnp4ZlgtN0gtLVNxUjU3aFc5Ung1d19XcHB6dUJ5SlRBcEt2UTgzWGo1bkpYRmFKV1VvTzlKS0ItQTVCMUhabkpYOXlQa2xydkEzWnBQS2ZpajA?oc=5",
       "title": "A History of Invention and Innovation - Boston University",
       "category": "Innovation",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 60,
       "confidence": 60,
@@ -9365,7 +9315,7 @@
       "key": "https://news.google.com/rss/articles/CBMickFVX3lxTFBOa2owd25HUm1tY193ZzIxWlVJZjJuaElKN1V1djFzaWlFX0piTzR0YjU3akdQQXcydDNXUDNoX0RSUUw1TXpJRFRIZnRxVWxVOWozRmN0c0hOTDZXejNFLVhuTTd4clhaQXJtTDhDM3djZw?oc=5",
       "title": "Apple unveils iPhone Duo - Apple",
       "category": "Product Launches",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 58,
       "confidence": 63,
@@ -9383,9 +9333,9 @@
     },
     {
       "key": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdjlFdlN6cXhuRFUybHJiWS1XY1A4Rk9KaUhIMjcyRXY2bDFkYWtIUjRWM3ZUY29xNWlseFZpUEJwcXRwTm93cWQ4VUxEclJNa29iclBWc2Z3Z1hyejJVOWhZLWRiMER0dXg0aEZQa1BjVzFLaEw3SlIxUDJUaW1xVWhIdGJWbm5IbXpJakhTQjMwUk1EQmszdThqS0N0b1FTRTEtM0J5Ujk?oc=5",
-      "title": "Malaysian Brothers Win Highest Invention Award at WYIE 2026 for AI Education Innovation - sme.asia",
+      "title": "Malaysian Brothers Win Highest Invention Award at WYIE 2026 for AI Education Innovation - SME & Entrepreneurship Magazine",
       "category": "Innovation",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 58,
       "confidence": 58,
@@ -9395,7 +9345,7 @@
       "key": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLWpnZVlpcElablcwOEszaWhVOTAxZHNyUFFEY1NsRVhJSTJiTUcxemZLSk1vSUxKVExKN2RKc0hvendSb1B4SDhfbVdNb0lOMnpaQ3B3MGEyTE5hZ1VYR1dQdTc3aFNUUHc1Vl85M1k2a0o1bjV1Qjk1eWdKZm9tSWFseWNmWUlmN0RV?oc=5",
       "title": "Apple Launching Seven New Products This Month - MacRumors",
       "category": "Product Launches",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 54,
       "confidence": 57,
@@ -9415,7 +9365,7 @@
       "key": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kb0NwNTBkV2laNEljU2VPTlk5ZFV1bm5RR29wN2RVYklkcGdHSlJOdWptR3ZnRzF3anJzdFE3bHJadXI5Y0t3T25LektaQUVodmRKZkFfUk04dmd3S2ZZNko1TEg2Mnp5WVMtUE1R?oc=5",
       "title": "5 Apple product launches we still expect to see in 2026 - Mashable",
       "category": "Product Launches",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 54,
       "confidence": 57,
@@ -9465,7 +9415,7 @@
       "key": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeGNzcmIteUo2YXdxbHlGS1k0YTlQRThCNXFpQUFZYkowNUZsamdReWQ4WmYxSVU2RXd6UUhXLWNUZUxkdW1SUFdiUlhIUzVlMF9UMWx2ZUJuWl9hdk1uU2tYck1uaVp1WlFkRmNuOFpFQTRfalpnYWZxbjN0RW5WLTZXZ3lPN3VmTlRla1Q0d0pJVWVINVVkcWdzQ2xISWhMc2tHWGVNc2xZM0NCbzVZ?oc=5",
       "title": "Innovation beyond invention will bring novel medicines to Europe’s patients - pharmaphorum",
       "category": "Innovation",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 58,
       "confidence": 58,
@@ -9475,7 +9425,7 @@
       "key": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcVNBYnFyaE4wRmxyUzM1RnVpMjUwUmVfc1MyQVJUaUVqX2dtc0ZMdzJQemlaWHVMRHY4RjBEbVhFdWtyUFhuV21pREtMZ3pnMkJnbG03UnlNQTdnMFliTmRlRzVMODRlNVFWVnpXRXpZYU5raXZIbjhMUGNBOFBCdk1hMEhyMmRyUzVfTXVDeFJ4UQ?oc=5",
       "title": "Apple debuts iPhone 18 Pro and iPhone 18 Pro Max - Apple",
       "category": "Product Launches",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 55,
       "confidence": 63,
@@ -9595,7 +9545,7 @@
       "key": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5qc1RMZjRsdXEtUEpYbk5oNklKNlBHTloyM0NNV2lTU0h6b2UtbnQxd1JfckxiU09sRWZWQ3kzYTJueTBTV0RtN2NNOUpuSzZsckduRS1ZQzRKVThXZWRCa0F3dXpKLTBLeGR2ODZIaHpWbUU?oc=5",
       "title": "Introducing Ondo Intelligent Portfolios - Ondo Finance",
       "category": "Product Launches",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 53,
       "confidence": 61,
@@ -9643,9 +9593,9 @@
     },
     {
       "key": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOTBGUXpac3JGbGhmY1pTczMwRmdIQjRUYWJlZG9hTWlaQ2R3YldmN3dQZmZObnY3SXVoenoxZVNSa3ZQQ3JscEN2alJXUGxpRHA0RkNkNW1CNHVGckUyWkttdHZmVHdtWGVKZVp3ajdRUkdsNnFfc3BJeHF6OEtpeWVtMWFlYXJfVFA4aVB0UjV5UHVZN1pldzVWU05WbVR3QVNvaWpic0Q?oc=5",
-      "title": "America's true innovation advantage: we don't just invent technologies — we reinvent how innovation works - Fortune",
+      "title": "America's true innovation advantage: we don't just invent technologies — we reinvent how innovation works - fortune.com",
       "category": "Innovation",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 60,
       "confidence": 60,
@@ -9655,7 +9605,7 @@
       "key": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOaWlLQndiYXEzcWRjNnFRaDl1QUlMOFh6MWp2R21WX1dkZkV5RzE5enNTRm9FSmpxVGhfdEtiMU9Xd05FWEFBbm9QLVZGbGRyYlBVWXdhMG05R0dvaGZyZUtQcFNKdmRUdEFQcWcyOGFkckozNURNa2lhU3E4VlltOHI1aExtOXhxb19GNlE5S0dfNi1rQ1QtVFhMSG1WWEtXWVB2cllYa3gzVlZPaVI4OWpuYnlYRzJaUUVFSzFIZlJMR1lnVWgxLW1TZWw3dzFzNVRZbi1NV0NQWVNDbHlvc0tScmhWVWZ0SlMwRHU1N0NQVGxyN1hHb1RSTTI5V2Jl?oc=5",
       "title": "From invention to impact: Hong Kong Science Fair gives young innovators a wider stage - South China Morning Post",
       "category": "Innovation",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 56,
       "confidence": 59,
@@ -9715,30 +9665,30 @@
       "key": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLTVMVzBocmRINk1yNmRPX3RrRUFUeUd5N2s1ejYwam83ZFV5WXpfaFVFUGtNLVRKM1J5eFg5T3RBZzFOVTlFZ3BYRElXRFpRank0N2VlcFN5clpxUG02ZzFLWG1MTTBLcXBCU3I0a3FFNEFtWXVxUkJPZ1RVWkc4dDJHMlNCTHZfUHRJb09sWnpqVFNsdHpqRHVibFk3cG1jUXkxQW9TTjdxcFRk?oc=5",
       "title": "Nvidia Releases Software It Says Can Prevent AI Agents From Going Rogue - WSJ",
       "category": "Technology",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "review",
-      "score": 71,
-      "confidence": 84,
-      "evidenceLevel": "none"
+      "score": 70,
+      "confidence": 80,
+      "evidenceLevel": "strong"
     },
     {
       "key": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
       "title": "Who’s liable when AI agents go rogue?",
       "category": "Technology",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "review",
-      "score": 71,
-      "confidence": 91,
+      "score": 70,
+      "confidence": 87,
       "evidenceLevel": "strong"
     },
     {
       "key": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByemZLQzYtX2tZdXZsUnlBLWdkS1hESk9Ja0lsdFpOSlhYeGJWZ2NhY0c1UFhobWpKZmFEMWRIRERDLUpfajRHV1V1NEtWTUZHY2xvcFROWTNVQm5wNm9xWkM3U3BkQUx4U18yRmgtNA?oc=5",
       "title": "Marketing Attribution Software: A Practical Buyer's Guide - thekeyword.co",
       "category": "How-To",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "review",
-      "score": 71,
-      "confidence": 87,
+      "score": 67,
+      "confidence": 83,
       "evidenceLevel": "none"
     },
     {
@@ -9755,7 +9705,7 @@
       "key": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ1NSRWpVRFRPdXJvZno4ZXktVlFFWUxuSi1JNlExQjVWbzZ1VFF2S0dFSE41czUwNHFHV05xVXQzVmVZal9lVWp3d1BVRjVnQVcxNzh0dzVfbmtpN3VxWi1TSEhQM0pGcGVMSnpHcTRZOWxvRFVRRVk4VmJfZ3drV2h0WjYwUjlrZDhLdW9kaUJlUjIxVHdxVDZmbEpMNTk2dTBPcGlkTWJ0dXVPTmtwdGNNRW1nU1M5S3RfQg?oc=5",
       "title": "Apple introduces AirPods 5 with best-in-class open-ear Active Noise Cancellation - Apple",
       "category": "Product Launches",
-      "lastSeenAt": "2026-09-28T14:24:58.695Z",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
       "decision": "hold",
       "score": 52,
       "confidence": 62,
@@ -9840,6 +9790,156 @@
       "score": 48,
       "confidence": 56,
       "evidenceLevel": "none"
+    },
+    {
+      "key": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAxdzBTN1hGTnNfZXZNWUU1MjhzQnpHUndjNkNYMGZiRGc1TDR5NExfTmtrbkFvZU5Fakp1eG1CVVFOZ0tpYzJ2aFVVY1pCSFY4Vl80Tkhqbkp3blMyejJkUXdpTVlBZWdzd2VKdVdR?oc=5",
+      "title": "NVIDIA Launches Open Agent Safety Platform to Secure Agents From Testing to Deployment - NVIDIA Newsroom",
+      "category": "Technology",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
+      "decision": "review",
+      "score": 66,
+      "confidence": 83,
+      "evidenceLevel": "strong"
+    },
+    {
+      "key": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeE5pYlhNQlB4elQxZ0J0WjY5dXl2UVQtYTBxYXQ5UUZYOVN1NjJsUzJfNHR5NEdRUnRubzlWeE1uaERFNnhRXzZaN1lublVpMjM0aExSZ1dtNFdsTGp6YlBtTlV1V3VzRGJuOUJadEo0YU90UGlqN0lRYzdtZFNWMTNYb1daSVlDbVREM3Q3cU1qSUo5Wm95d3M4YWtwdw?oc=5",
+      "title": "Apple October 2026 Rumors: iPad mini 8, Apple TV 4K, HomePod mini 2—and Why iPad 12 May Wait - zeera wireless",
+      "category": "Product Launches",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
+      "decision": "review",
+      "score": 71,
+      "confidence": 81,
+      "evidenceLevel": "none"
+    },
+    {
+      "key": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNQXNGNkttczZMRXFMdmF2b0llR2lROVRPTF90MVFRZlljNGlRWVBrQmxHaUUtQzhGdUZzTzVDRU5BS1BGY0xOalRoQmQ5b0pqajhpM0JtR3VoWk5hdU85a01aRHNRT2V4SVRiQ1hlS2w5S0Z5eXh3ZUV2SG5ReEdHbGdkWkNFWVA4dE4xZkJkZkRaSDJQc0h0VkJXb1FoWi1oSVdSRWN1Vm5TNDZxRnNlVkpqOG0wckxFdTFBelFvanA3ank1alh3bDNOQkdqMHZXQTlXX3I1SkFmbG5kZ3l6YlB0YXI5U2RZNVlQTG93bWF3YnVDY1JaSA?oc=5",
+      "title": "Fact Check Team: Rogue AI agents raise cybersecurity concerns. Here's what we know - National News Desk",
+      "category": "AI",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
+      "decision": "review",
+      "score": 77,
+      "confidence": 85,
+      "evidenceLevel": "none"
+    },
+    {
+      "key": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
+      "title": "Nvidia launches new platform for reining in rogue AI agents",
+      "category": "AI",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
+      "decision": "review",
+      "score": 76,
+      "confidence": 84,
+      "evidenceLevel": "strong"
+    },
+    {
+      "key": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWlFEeGZad0JTSzliMHJSdTllN3VaR08zVFFfRHMxTkpJOWR1TC1jT2dqQW1Hci1XTkRaQ3VvbzduMlJac0Q1VEkzbFN5NzAyVDdFWFU3bGRZVTZpUWkwWTdmSEJmYUpRYWhLWmRhei1tRUNCb0FSdkFqVV8wRndpRHp1bzFMSUpkU3loMGJUTjR5akwyenBQMkYxV3hzWW1tOU1PVHpR?oc=5",
+      "title": "NLR Battery Innovation Awarded NASA’s Invention of the Year - nlr.gov",
+      "category": "Innovation",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
+      "decision": "hold",
+      "score": 60,
+      "confidence": 60,
+      "evidenceLevel": "none"
+    },
+    {
+      "key": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLUs1WDRHbkRJcDEzM0tsZ1BWNlZzS2pMVm94RkllS3hiR0Q2UUlPTnc0SVZUcGRCMUVoNDhvTjVKdkhuajJ3RXR2WnJRS2xoRTFwNUREV09yc0dFMjc2YVpCY0RTMW1JbXdDOGpXY283UFVBcG1YRlh6UzBaS0lPOEYwck9UanNBM1dDdXRvVjhQNWtNR1NJWENoemNqNmtHMi1zZWt5UFZwdw?oc=5",
+      "title": "Nvidia unveils security platform to stop AI agents from going rogue - AP News",
+      "category": "AI",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
+      "decision": "review",
+      "score": 75,
+      "confidence": 83,
+      "evidenceLevel": "strong"
+    },
+    {
+      "key": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
+      "title": "When can we say AI made a scientific discovery?",
+      "category": "Technology",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
+      "decision": "review",
+      "score": 72,
+      "confidence": 96,
+      "evidenceLevel": "strong"
+    },
+    {
+      "key": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQV0FMWXdiTUJ4Tm1Rd2ljV3RlMDBxY3huSW1rUnY5VFhKMEdhVXhfMjU0LUhNeGdseW1BTF83U1hvTWwxRG54LUZhWENPLUZLV2liTVlUNE1TNlo3M0VRR29McXpPZURPRmE0YkV3bjJvNEtpZVZwSDJaNE9NajM2Sm90SzBlZWJyWnY2S19ScGRCZmRvUmlVRWdUbGdoTW9j0gGmAUFVX3lxTE9aMFViOXdveDVjOFp0X043NFkwV1QxbzRjVnBBNy1sV2tRSWUyUWwtekVDLVVBdGhmVkM2MUlVcW9mMkRPMnI3emZJeTFPSndiTjJJbW1teE9RQ1BPMHpzaW5GdUMzWkRyU1ZSOFlyc1E1UWttbFlfRG4tZ3l4eTN2dGMzM3haRGtDTWNBWmtvbTNkVTBEb3F3blpoY2djYlNwakJDelE?oc=5",
+      "title": "When can we say AI made a scientific discovery? - MIT Technology Review",
+      "category": "Technology",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
+      "decision": "review",
+      "score": 71,
+      "confidence": 91,
+      "evidenceLevel": "single-source-verified"
+    },
+    {
+      "key": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9IWlhtTWdOZG5QSUtfcjZHLWNIX29ITlQza3B1LTVJWHdaUWJtR3BLRVZsclBpczRMb2lsUHYwYnNLaVZZOEhMLXFabU1LVmFrNDlFR2Z0R0ZVVXlNNFVSaTIxMjh2RExOQVkzRURKZ3pIcmlWN0JkU1hXUm5GUQ?oc=5",
+      "title": "Patent push aimed at improving innovation - chinadaily.com.cn",
+      "category": "Innovation",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
+      "decision": "hold",
+      "score": 55,
+      "confidence": 60,
+      "evidenceLevel": "none"
+    },
+    {
+      "key": "https://techcrunch.com/2026/09/28/fbi-reportedly-declares-cyber-security-incident-after-hackers-steal-agents-personal-data/",
+      "title": "FBI reportedly declares &#8216;cyber security incident&#8217; after hackers steal agents&#8217; personal data",
+      "category": "AI",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
+      "decision": "review",
+      "score": 70,
+      "confidence": 88,
+      "evidenceLevel": "single-source-verified"
+    },
+    {
+      "key": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUDkyb1NvUERpcGJyVXVTRXNCUm51V2VpWklMaXJ5cGhSN1R1SDhYcGY4dUJycm9SUkVBalFJX0RQbGliOU9NajBPV2lHOXVxUTNhWXh2U0RKOFJ5dmhtSlRrMlNMN0xfT0FtWDBNcF9UbERyVGdSNktSOFlWSkRoWS0wcUdtMmF1NjVnYXBaQlVvNXlJZVE?oc=5",
+      "title": "Exploring artificial intelligence at Inaugural Gulf Coast AI Summit - WXXV News 25",
+      "category": "AI",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
+      "decision": "review",
+      "score": 69,
+      "confidence": 87,
+      "evidenceLevel": "none"
+    },
+    {
+      "key": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSVVKYUduVmhRT3ZnMUwtNHFwS0F1Q0tnSDJLZ3JZYXNHNXN2TEdNOVV2bTZ5ZzFmYnpDR01pVGVJdDlhQkFDZEt0UFBSUGdCdGFoRlRRUkFZSEN3QU9CNnhJVFRiWmNYRklvWUlyd1lGLVFlUjRIZlJKemVoa3pwX1pnVzB5Zw?oc=5",
+      "title": "Boeing flags 737 Max software glitch - CNBC",
+      "category": "Technology",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
+      "decision": "review",
+      "score": 69,
+      "confidence": 95,
+      "evidenceLevel": "strong"
+    },
+    {
+      "key": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+      "title": "Shopify opens checkout to browser-based AI agents",
+      "category": "AI",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
+      "decision": "review",
+      "score": 68,
+      "confidence": 90,
+      "evidenceLevel": "strong"
+    },
+    {
+      "key": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMFNkQmpvTmdlZER6dDF6NXlNZ2x2WnpicUlHeDBvRjNRUzlaZy01OUI5Sm91YV9DRUh0Qmk4TzNwTTQ1alBveEdGOHNHcy0wa1pqR0lsZVR2dUxoQ3R1V1FnZTJuZG9MS1d3OWs3eTgxb0ZmUl96dGNiWkhzMk1wN3oyV0xFYjVrdGtIQ1Vzb0l0SWdBWlZEalo3WmxNbVpxNjJoX1dR?oc=5",
+      "title": "AI godfathers warn of runaway ‘intelligence explosion’ - theguardian.com",
+      "category": "AI",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
+      "decision": "review",
+      "score": 67,
+      "confidence": 93,
+      "evidenceLevel": "single-source-verified"
+    },
+    {
+      "key": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+      "title": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
+      "category": "AI",
+      "lastSeenAt": "2026-09-28T23:28:43.182Z",
+      "decision": "review",
+      "score": 66,
+      "confidence": 88,
+      "evidenceLevel": "strong"
     }
   ],
   "articles": [
@@ -10027,14 +10127,14 @@
     "World": 1
   },
   "sources": {
-    "evidenceCandidates": 229,
-    "passed": 58,
-    "blocked": 24,
-    "strong": 14,
-    "singleSource": 44
+    "evidenceCandidates": 230,
+    "passed": 97,
+    "blocked": 17,
+    "strong": 26,
+    "singleSource": 71
   },
   "decisionMemory": {
     "records": 200,
-    "updatedAt": "2026-09-28T12:22:39.595Z"
+    "updatedAt": "2026-09-28T22:47:58.391Z"
   }
 }
