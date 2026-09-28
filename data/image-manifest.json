@@ -1,12 +1,79 @@
 {
   "version": 3,
-  "generatedAt": "2026-09-27T20:40:02.681Z",
+  "generatedAt": "2026-09-28T02:35:14.935Z",
   "model": "@cf/black-forest-labs/flux-1-schnell",
   "width": 1024,
   "height": 576,
   "steps": 4,
-  "generated": 0,
+  "generated": 1,
   "skipped": 0,
   "failed": 0,
-  "images": {}
+  "images": {
+    "openai-slows-ai-training-after-hugging-face-breach": {
+      "status": "generated",
+      "image": "/Trendforge/images/articles/openai-slows-ai-training-after-hugging-face-breach.1024x576.png",
+      "generatedBy": "@cf/black-forest-labs/flux-1-schnell",
+      "width": 1024,
+      "height": 576,
+      "steps": 4,
+      "elapsedMs": 1710,
+      "bytes": 802628,
+      "visualBrief": {
+        "version": 2,
+        "mode": "investment-infrastructure",
+        "primarySubject": "OpenAI regional digital infrastructure investment, represented through concrete cloud, connectivity, and AI infrastructure",
+        "scene": "A realistic commissioned editorial photograph of concrete regional digital infrastructure such as a modern data-center environment, high-capacity network equipment, or secure cloud infrastructure, visually tied to the investment story rather than generic finance imagery.",
+        "supportingElements": [
+          "subtle regional geographic context without maps or invented labels",
+          "one restrained human scale element only when useful"
+        ],
+        "composition": "Documentary wide frame with one dominant infrastructure subject, realistic materials, restrained depth of field, and clear visual hierarchy.",
+        "company": "OpenAI",
+        "namedPerson": null,
+        "category": "Digital Life",
+        "storyAnchors": [
+          "openai",
+          "slows",
+          "training",
+          "hugging",
+          "face",
+          "breach",
+          "slowed",
+          "model"
+        ],
+        "avoid": [
+          "generic office imagery",
+          "random tablet or laptop",
+          "generic futuristic technology",
+          "glowing holograms, floating code, HUDs and neon sci-fi effects",
+          "prominent readable text or fake headlines",
+          "generic stock-market trading screens",
+          "coins, cash piles, oversized dollar symbols",
+          "generic office handshake",
+          "abstract financial graphs as the main subject"
+        ]
+      },
+      "relevance": {
+        "passed": false,
+        "anchors": [
+          "openai",
+          "slows",
+          "training",
+          "hugging",
+          "face",
+          "breach",
+          "slowed",
+          "model"
+        ],
+        "matchedAnchors": [
+          "openai"
+        ],
+        "entityMatches": [
+          "openai"
+        ],
+        "score": 0.125
+      },
+      "promptLength": 1900
+    }
+  }
 }

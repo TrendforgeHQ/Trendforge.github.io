@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-27T20:40:03.818Z",
+  "generatedAt": "2026-09-28T02:35:15.996Z",
   "policy": {
     "privacyFirst": true,
     "noPersonalTracking": true,
     "noPaidTrafficRequired": true
   },
   "summary": {
-    "totalArticles": 27,
+    "totalArticles": 28,
     "averageEditorialScore": 76,
     "editorialReviewCount": 18,
     "refreshCandidates": 2
@@ -16,17 +16,17 @@
     {
       "category": "AI",
       "count": 8,
-      "share": 29.6
+      "share": 28.6
     },
     {
       "category": "Technology",
       "count": 7,
-      "share": 25.9
+      "share": 25
     },
     {
       "category": "How-To",
       "count": 3,
-      "share": 11.1
+      "share": 10.7
     },
     {
       "category": "Innovation",
@@ -40,13 +40,13 @@
     },
     {
       "category": "Digital Life",
-      "count": 4,
-      "share": 14.8
+      "count": 5,
+      "share": 17.9
     },
     {
       "category": "Crypto",
       "count": 4,
-      "share": 14.8
+      "share": 14.3
     }
   ],
   "missingCategories": [
@@ -60,6 +60,11 @@
     "2 older/incomplete article(s) are refresh candidates."
   ],
   "recentArticles": [
+    {
+      "title": "OpenAI Slows AI Training After Hugging Face Breach",
+      "category": "Digital Life",
+      "publishedAt": "2026-09-28T02:35:05.561Z"
+    },
     {
       "title": "Bitcoin as an Exit Asset, Ethereum as New Rails: Diverging Views From Former BlackRock Executive and Bitwise",
       "category": "Crypto",
@@ -104,11 +109,6 @@
       "title": "Bitcoin Returns Above $80K, Coinbase Stock Jumps 11.5% Amid SEC Exemption",
       "category": "Crypto",
       "publishedAt": "2026-09-19T14:45:41.829Z"
-    },
-    {
-      "title": "Trump Announces U.S. “Permanent Control” Over Greenland Security, Denmark and Greenland to Sign Deal",
-      "category": "World",
-      "publishedAt": "2026-09-19T07:08:56.449Z"
     }
   ]
 }

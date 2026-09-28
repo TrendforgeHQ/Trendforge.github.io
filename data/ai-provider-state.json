@@ -7,15 +7,9 @@
       "lastStatus": 200,
       "lastError": null,
       "lastClass": "success",
-      "successes": 69,
-      "lastSuccessAt": "2026-09-27T20:39:54.371Z",
+      "successes": 70,
+      "lastSuccessAt": "2026-09-28T02:35:05.547Z",
       "history": [
-        {
-          "at": 1790057331813,
-          "ok": false,
-          "class": "rate_limit",
-          "status": 429
-        },
         {
           "at": 1790057355686,
           "ok": true,
@@ -311,19 +305,38 @@
               "reasoning_tokens": 17
             }
           }
+        },
+        {
+          "at": 1790562905546,
+          "ok": true,
+          "class": "success",
+          "status": 200,
+          "latencyMs": 1264,
+          "usage": {
+            "queue_time": 0.125512834,
+            "prompt_tokens": 4835,
+            "prompt_time": 0.324709835,
+            "completion_tokens": 537,
+            "completion_time": 0.567481223,
+            "total_tokens": 5372,
+            "total_time": 0.892191058,
+            "completion_tokens_details": {
+              "reasoning_tokens": 41
+            }
+          }
         }
       ],
-      "lastLatencyMs": 1651,
+      "lastLatencyMs": 1264,
       "lastUsage": {
-        "queue_time": 0.175531749,
-        "prompt_tokens": 5065,
-        "prompt_time": 0.305639737,
-        "completion_tokens": 958,
-        "completion_time": 0.993553559,
-        "total_tokens": 6023,
-        "total_time": 1.2991932959999999,
+        "queue_time": 0.125512834,
+        "prompt_tokens": 4835,
+        "prompt_time": 0.324709835,
+        "completion_tokens": 537,
+        "completion_time": 0.567481223,
+        "total_tokens": 5372,
+        "total_time": 0.892191058,
         "completion_tokens_details": {
-          "reasoning_tokens": 17
+          "reasoning_tokens": 41
         }
       }
     },
@@ -734,5 +747,5 @@
     }
   },
   "rotationCursor": 0,
-  "updatedAt": "2026-09-27T20:39:55.319Z"
+  "updatedAt": "2026-09-28T02:35:05.547Z"
 }

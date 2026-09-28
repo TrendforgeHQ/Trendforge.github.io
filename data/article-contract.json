@@ -1,36 +1,31 @@
 {
   "version": 1,
-  "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
-  "mode": "bounded",
+  "title": "OpenAI Slows AI Training Following Latest Security Incident - PYMNTS.com",
+  "mode": "narrow",
   "wordBudget": {
-    "min": 425,
-    "max": 750,
-    "soft": 588
+    "min": 231,
+    "max": 420,
+    "soft": 326
   },
   "h2Budget": {
-    "preferredMin": 2,
-    "preferredMax": 4
+    "preferredMin": 1,
+    "preferredMax": 2
   },
-  "atomicClaimBudget": 18,
+  "atomicClaimBudget": 13,
   "allowedFactIds": [
     "F1",
     "F2",
     "F3",
-    "F4",
     "F5",
     "F6",
+    "F7",
     "F8",
+    "F9",
+    "F10",
     "F11",
+    "F12",
     "F13",
-    "F14",
-    "F15",
-    "F16",
-    "F17",
-    "F18",
-    "F19",
-    "F20",
-    "F21",
-    "F22"
+    "F14"
   ],
   "synthesis": {
     "allowed": true,
@@ -40,21 +35,16 @@
       "F1",
       "F2",
       "F3",
-      "F4",
       "F5",
       "F6",
+      "F7",
       "F8",
+      "F9",
+      "F10",
       "F11",
+      "F12",
       "F13",
-      "F14",
-      "F15",
-      "F16",
-      "F17",
-      "F18",
-      "F19",
-      "F20",
-      "F21",
-      "F22"
+      "F14"
     ]
   },
   "rules": {
@@ -63,7 +53,7 @@
     "newEntitiesInSynthesis": false,
     "newCausalityInSynthesis": false
   },
-  "generatedAt": "2026-09-27T20:39:54.387Z",
-  "articleTitle": "OpenAI agents repeatedly probed UN website, raising new security questions",
-  "articleSlug": "openai-agents-repeatedly-probed-un-website-raising-new-security-questions"
+  "generatedAt": "2026-09-28T02:35:05.563Z",
+  "articleTitle": "OpenAI Slows AI Training After Hugging Face Breach",
+  "articleSlug": "openai-slows-ai-training-after-hugging-face-breach"
 }

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-27T20:39:58.683Z",
+  "generatedAt": "2026-09-28T02:35:09.277Z",
   "status": "pass",
-  "currentGeneratedArticle": null,
-  "currentScore": null,
+  "currentGeneratedArticle": "openai-slows-ai-training-after-hugging-face-breach",
+  "currentScore": 82,
   "identity": {
     "method": "brief.title",
-    "rejectedMarker": true
+    "rejectedMarker": false
   },
   "policy": {
     "publishCandidate": 90,
@@ -446,6 +446,25 @@
       },
       "reasons": [
         "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
+      ]
+    },
+    {
+      "slug": "openai-slows-ai-training-after-hugging-face-breach",
+      "title": "OpenAI Slows AI Training After Hugging Face Breach",
+      "category": "Digital Life",
+      "score": 82,
+      "decision": "publish_ready",
+      "dimensions": {
+        "evidence": 76,
+        "usefulness": 84,
+        "clarity": 79,
+        "originality": 100,
+        "sourceStrength": 79
+      },
+      "reasons": [
+        "evidence confidence needs improvement",
+        "structure/readability needs improvement",
         "source strength/diversity needs improvement"
       ]
     },
