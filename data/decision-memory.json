@@ -1,187 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-28T22:47:58.391Z",
+  "updatedAt": "2026-09-29T03:17:42.154Z",
   "decisions": [
-    {
-      "timestamp": "2026-09-25T20:56:20.955Z",
-      "title": "Meta Unveils AI-Powered Handheld Device 'Muse Charm' for December 2026 Launch - KuCoin",
-      "category": "Product Launches",
-      "decision": "review",
-      "score": 73,
-      "adaptivePriority": 89,
-      "confidence": 71
-    },
-    {
-      "timestamp": "2026-09-25T20:56:20.955Z",
-      "title": "Faraday Future Founder and Global CEO YT Jia Weekly Investor Update: Shares Details from FF’s 919 FF EAI Robotics “Four-Core Full-Stack AI” Ecosystem New Product Series Launch; Four Industry Productivity Solutions, Nine New EAI Devices Unveiled - Business Wire",
-      "category": "Product Launches",
-      "decision": "review",
-      "score": 68,
-      "adaptivePriority": 84,
-      "confidence": 70
-    },
-    {
-      "timestamp": "2026-09-25T20:56:20.955Z",
-      "title": "Innovation, Invention and Impact: NJIT Undergrads Present Summer Research - NJIT News",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 62,
-      "adaptivePriority": 78,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-09-25T20:56:20.955Z",
-      "title": "‘HomePad’ to launch next month with these new features: report - 9to5Mac",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 62,
-      "adaptivePriority": 78,
-      "confidence": 68
-    },
-    {
-      "timestamp": "2026-09-25T20:56:20.955Z",
-      "title": "Research, innovation and invention top priority for prosperity, Minister Pun says - The Rising Nepal",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 58
-    },
-    {
-      "timestamp": "2026-09-25T20:56:20.955Z",
-      "title": "America's true innovation advantage: we don't just invent technologies — we reinvent how innovation works - Fortune",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-09-25T20:56:20.955Z",
-      "title": "From Edison’s Invention Factory to the new architecture of innovation - science.org",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-09-25T20:56:20.955Z",
-      "title": "NLR Battery Innovation Awarded NASA’s Invention of the Year - CleanTechnica",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-09-25T20:56:20.955Z",
-      "title": "Opinion: Why Canada’s health Innovation bottleneck is adoption, not invention - University of Waterloo",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-09-25T20:56:20.955Z",
-      "title": "A History of Invention and Innovation - Boston University",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-09-25T20:56:20.955Z",
-      "title": "ChatGPT Ads expands to Southeast Asia and Taiwan - OpenAI",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 69
-    },
-    {
-      "timestamp": "2026-09-25T20:56:20.955Z",
-      "title": "Introducing GPT-6 Sol and Luna - OpenAI",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 69
-    },
-    {
-      "timestamp": "2026-09-25T20:56:20.955Z",
-      "title": "Introducing Claude Opus 5.5 - Anthropic",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 59,
-      "adaptivePriority": 75,
-      "confidence": 73
-    },
-    {
-      "timestamp": "2026-09-25T20:56:20.955Z",
-      "title": "OpenAI hack on Australian government reveals anxiety at heart of global artificial intelligence dilemma - The Guardian",
-      "category": "AI",
-      "decision": "review",
-      "score": 74,
-      "adaptivePriority": 74,
-      "confidence": 93
-    },
-    {
-      "timestamp": "2026-09-25T20:56:20.955Z",
-      "title": "Bitget Hack Pushes North Korean Crypto Haul Past $1 Billion - Bloomberg.com",
-      "category": "Crypto",
-      "decision": "review",
-      "score": 74,
-      "adaptivePriority": 74,
-      "confidence": 91
-    },
-    {
-      "timestamp": "2026-09-25T20:56:20.955Z",
-      "title": "Bitcoin ETFs Flipped From $5.8 Billion in Outflows to $800 Million in Inflows. Is Now the Time to Buy Bitcoin? - Yahoo Finance",
-      "category": "Crypto",
-      "decision": "review",
-      "score": 74,
-      "adaptivePriority": 74,
-      "confidence": 91
-    },
-    {
-      "timestamp": "2026-09-25T20:56:20.955Z",
-      "title": "Everything We Announced at Meta Connect 2026 - meta.com",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 58,
-      "adaptivePriority": 74,
-      "confidence": 63
-    },
-    {
-      "timestamp": "2026-09-25T20:56:20.955Z",
-      "title": "Apple unveils iPhone Duo - Apple",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 58,
-      "adaptivePriority": 74,
-      "confidence": 63
-    },
-    {
-      "timestamp": "2026-09-25T20:56:20.955Z",
-      "title": "Innovation beyond invention will bring novel medicines to Europe’s patients - pharmaphorum",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 58,
-      "adaptivePriority": 74,
-      "confidence": 58
-    },
-    {
-      "timestamp": "2026-09-25T20:56:20.955Z",
-      "title": "From Invention to Impact: How India’s Deep Tech Startups Are Building an Innovation Economy Rooted in IP - ciiblog.in",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 58,
-      "adaptivePriority": 74,
-      "confidence": 58
-    },
     {
       "timestamp": "2026-09-26T10:32:57.323Z",
       "title": "Faraday Future Founder and Global CEO YT Jia Weekly Investor Update: Shares Details from FF’s 919 FF EAI Robotics “Four-Core Full-Stack AI” Ecosystem New Product Series Launch; Four Industry Productivity Solutions, Nine New EAI Devices Unveiled - Business Wire",
@@ -1801,6 +1621,186 @@
       "score": 72,
       "adaptivePriority": 72,
       "confidence": 96
+    },
+    {
+      "timestamp": "2026-09-29T03:17:42.154Z",
+      "title": "NVIDIA Launches Open Agent Safety Platform to Secure Agents From Testing to Deployment - NVIDIA Newsroom",
+      "category": "Product Launches",
+      "decision": "review",
+      "score": 73,
+      "adaptivePriority": 89,
+      "confidence": 83
+    },
+    {
+      "timestamp": "2026-09-29T03:17:42.154Z",
+      "title": "Apple October 2026 Rumors: iPad mini 8, Apple TV 4K, HomePod mini 2—and Why iPad 12 May Wait - zeera wireless",
+      "category": "Product Launches",
+      "decision": "review",
+      "score": 66,
+      "adaptivePriority": 82,
+      "confidence": 74
+    },
+    {
+      "timestamp": "2026-09-29T03:17:42.154Z",
+      "title": "Innovation, Invention and Impact: NJIT Undergrads Present Summer Research - NJIT News",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 62,
+      "adaptivePriority": 78,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-09-29T03:17:42.154Z",
+      "title": "Research, innovation and invention top priority for prosperity, Minister Pun says - The Rising Nepal",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-09-29T03:17:42.154Z",
+      "title": "America's true innovation advantage: we don't just invent technologies — we reinvent how innovation works - Fortune",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-09-29T03:17:42.154Z",
+      "title": "NLR Battery Innovation Awarded NASA’s Invention of the Year - nlr.gov",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-09-29T03:17:42.154Z",
+      "title": "Opinion: Why Canada’s health Innovation bottleneck is adoption, not invention - University of Waterloo",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-09-29T03:17:42.154Z",
+      "title": "A History of Invention and Innovation - Boston University",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-09-29T03:17:42.154Z",
+      "title": "Nvidia unveils security platform to stop AI agents from going rogue - AP News",
+      "category": "AI",
+      "decision": "review",
+      "score": 75,
+      "adaptivePriority": 75,
+      "confidence": 83
+    },
+    {
+      "timestamp": "2026-09-29T03:17:42.154Z",
+      "title": "Nvidia launches new platform for reining in rogue AI agents",
+      "category": "AI",
+      "decision": "review",
+      "score": 74,
+      "adaptivePriority": 74,
+      "confidence": 86
+    },
+    {
+      "timestamp": "2026-09-29T03:17:42.154Z",
+      "title": "From Edison’s Invention Factory to the new architecture of innovation - Science | AAAS",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-09-29T03:17:42.154Z",
+      "title": "Innovation beyond invention will bring novel medicines to Europe’s patients - pharmaphorum",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-09-29T03:17:42.154Z",
+      "title": "Palo Alto Networks joins UAH Invention to Innovation Center as Corporate Innovation Partner | Newswise - Newswise",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-09-29T03:17:42.154Z",
+      "title": "Malaysian Brothers Win Highest Invention Award at WYIE 2026 for AI Education Innovation - SME & Entrepreneurship Magazine",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-09-29T03:17:42.154Z",
+      "title": "Leaders at Davos 2026 on how we can deploy innovation and technology at scale and responsibly - The World Economic Forum",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-09-29T03:17:42.154Z",
+      "title": "Introducing Claude Opus 5.5 - Anthropic",
+      "category": "Product Launches",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 68
+    },
+    {
+      "timestamp": "2026-09-29T03:17:42.154Z",
+      "title": "Fact Check Team: Rogue AI agents raise cybersecurity concerns. Here's what we know - The National Desk",
+      "category": "AI",
+      "decision": "review",
+      "score": 73,
+      "adaptivePriority": 73,
+      "confidence": 81
+    },
+    {
+      "timestamp": "2026-09-29T03:17:42.154Z",
+      "title": "Apple unveils $2,000 iPhone Duo, its first foldable smartphone - Fortune",
+      "category": "Product Launches",
+      "decision": "hold",
+      "score": 57,
+      "adaptivePriority": 73,
+      "confidence": 57
+    },
+    {
+      "timestamp": "2026-09-29T03:17:42.154Z",
+      "title": "Best New Product Launch Email Templates to Use in 2026 - designmodo.com",
+      "category": "Product Launches",
+      "decision": "hold",
+      "score": 56,
+      "adaptivePriority": 72,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-09-29T03:17:42.154Z",
+      "title": "From invention to impact: Hong Kong Science Fair gives young innovators a wider stage - South China Morning Post",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 56,
+      "adaptivePriority": 72,
+      "confidence": 59
     }
   ],
   "categoryStats": {
@@ -1834,7 +1834,6 @@
     }
   },
   "recentTopics": [
-    "why is crypto up today bitcoin tops 80 000 as ethereum xrp and dogecoin rise up to 7 - finance magnates",
     "blockchain developers are racing to protect against the quantum threat here s what it means for bitcoin and ethereum investors - finance yahoo com",
     "bitcoin strategy stock coinbase surge why cryptos are rallying against all odds - barron s",
     "bitcoin and ethereum prices today friday september 18 2026 crypto prices rise as investors move past clarity s failure - finance yahoo com",
@@ -1933,6 +1932,7 @@
     "fact check team rogue ai agents raise cybersecurity concerns here s what we know - national news desk",
     "nvidia launches new platform for reining in rogue ai agents",
     "apple unveils 2 000 iphone duo its first foldable smartphone - fortune com",
-    "america s true innovation advantage we don t just invent technologies we reinvent how innovation works - fortune com"
+    "america s true innovation advantage we don t just invent technologies we reinvent how innovation works - fortune com",
+    "nvidia unveils security platform to stop ai agents from going rogue - ap news"
   ]
 }
