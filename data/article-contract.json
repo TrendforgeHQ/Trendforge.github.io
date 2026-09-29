@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "title": "Nvidia’s Answer to Rogue Agents Is an Open-Source AI Security System - WIRED",
+  "title": "Breaking News: OpenAI said it would not release its newest artificial intelligence model over safety concerns raised by its researchers. - facebook.com",
   "mode": "rich",
   "wordBudget": {
     "min": 540,
@@ -31,8 +31,11 @@
     "F16",
     "F17",
     "F18",
+    "F19",
+    "F20",
     "F21",
     "F22",
+    "F23",
     "F24",
     "F25",
     "F26",
@@ -41,20 +44,7 @@
     "F29",
     "F30",
     "F31",
-    "F32",
-    "F33",
-    "F34",
-    "F35",
-    "F36",
-    "F37",
-    "F38",
-    "F39",
-    "F40",
-    "F41",
-    "F42",
-    "F43",
-    "F44",
-    "F45"
+    "F32"
   ],
   "synthesis": {
     "allowed": true,
@@ -79,8 +69,11 @@
       "F16",
       "F17",
       "F18",
+      "F19",
+      "F20",
       "F21",
       "F22",
+      "F23",
       "F24",
       "F25",
       "F26",
@@ -89,20 +82,7 @@
       "F29",
       "F30",
       "F31",
-      "F32",
-      "F33",
-      "F34",
-      "F35",
-      "F36",
-      "F37",
-      "F38",
-      "F39",
-      "F40",
-      "F41",
-      "F42",
-      "F43",
-      "F44",
-      "F45"
+      "F32"
     ]
   },
   "rules": {
@@ -111,7 +91,7 @@
     "newEntitiesInSynthesis": false,
     "newCausalityInSynthesis": false
   },
-  "generatedAt": "2026-09-29T03:17:44.462Z",
-  "articleTitle": "Nvidia Unveils Open‑Source Safety Platform to Keep Rogue AI Agents In Check",
-  "articleSlug": "nvidia-unveils-open-source-safety-platform-to-keep-rogue-ai-agents-in-check"
+  "generatedAt": "2026-09-29T07:01:07.123Z",
+  "articleTitle": "OpenAI Delays Release of GPT‑6.1 Astra Over Safety Concerns",
+  "articleSlug": "openai-delays-release-of-gpt-6-1-astra-over-safety-concerns"
 }
