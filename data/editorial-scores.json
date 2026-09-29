@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-29T11:51:44.203Z",
+  "generatedAt": "2026-09-29T17:20:33.308Z",
   "status": "pass",
-  "currentGeneratedArticle": "shopify-enables-browser-based-ai-agents-to-complete-checkout",
-  "currentScore": 91,
+  "currentGeneratedArticle": "fairphone-unveils-fairbuds-2-repairable-earbuds-on-october-14",
+  "currentScore": 88,
   "identity": {
     "method": "brief.title",
     "rejectedMarker": false
@@ -269,6 +269,21 @@
       ]
     },
     {
+      "slug": "fairphone-unveils-fairbuds-2-repairable-earbuds-on-october-14",
+      "title": "Fairphone Unveils Fairbuds 2 Repairable Earbuds on October 14",
+      "category": "Digital Life",
+      "score": 88,
+      "decision": "publish_ready",
+      "dimensions": {
+        "evidence": 84,
+        "usefulness": 91,
+        "clarity": 100,
+        "originality": 83,
+        "sourceStrength": 80
+      },
+      "reasons": []
+    },
+    {
       "slug": "google-s-first-orbital-ai-data-center-test-launches-on-october-1",
       "title": "Google’s First Orbital AI Data Center Test Launches on October 1",
       "category": "Technology",
@@ -492,17 +507,18 @@
       "slug": "shopify-enables-browser-based-ai-agents-to-complete-checkout",
       "title": "Shopify Enables Browser‑Based AI Agents to Complete Checkout",
       "category": "AI",
-      "score": 91,
-      "decision": "publish_candidate",
+      "score": 83,
+      "decision": "publish_ready",
       "dimensions": {
-        "evidence": 78,
+        "evidence": 75,
         "usefulness": 97,
         "clarity": 100,
         "originality": 100,
-        "sourceStrength": 87
+        "sourceStrength": 50
       },
       "reasons": [
-        "evidence confidence needs improvement"
+        "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
       ]
     },
     {

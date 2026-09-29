@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "title": "Shopify opens checkout to browser-based AI agents",
-  "mode": "bounded",
+  "title": "Fairphone’s next repairable wireless earbuds will launch on October 14th",
+  "mode": "narrow",
   "wordBudget": {
-    "min": 425,
-    "max": 750,
-    "soft": 588
+    "min": 220,
+    "max": 349,
+    "soft": 285
   },
   "h2Budget": {
-    "preferredMin": 2,
-    "preferredMax": 4
+    "preferredMin": 1,
+    "preferredMax": 2
   },
-  "atomicClaimBudget": 18,
+  "atomicClaimBudget": 10,
   "allowedFactIds": [
     "F1",
     "F2",
@@ -22,36 +22,11 @@
     "F7",
     "F8",
     "F9",
-    "F10",
-    "F11",
-    "F12",
-    "F13",
-    "F14",
-    "F15",
-    "F16",
-    "F17",
-    "F18",
-    "F19",
-    "F20",
-    "F21",
-    "F22",
-    "F23",
-    "F24",
-    "F25",
-    "F26",
-    "F27",
-    "F28",
-    "F29",
-    "F30",
-    "F31",
-    "F32",
-    "F33",
-    "F34",
-    "F35"
+    "F10"
   ],
   "synthesis": {
     "allowed": true,
-    "maxWords": 100,
+    "maxWords": 60,
     "maxStatements": 3,
     "allowedFactIds": [
       "F1",
@@ -63,32 +38,7 @@
       "F7",
       "F8",
       "F9",
-      "F10",
-      "F11",
-      "F12",
-      "F13",
-      "F14",
-      "F15",
-      "F16",
-      "F17",
-      "F18",
-      "F19",
-      "F20",
-      "F21",
-      "F22",
-      "F23",
-      "F24",
-      "F25",
-      "F26",
-      "F27",
-      "F28",
-      "F29",
-      "F30",
-      "F31",
-      "F32",
-      "F33",
-      "F34",
-      "F35"
+      "F10"
     ]
   },
   "rules": {
@@ -97,7 +47,7 @@
     "newEntitiesInSynthesis": false,
     "newCausalityInSynthesis": false
   },
-  "generatedAt": "2026-09-29T11:51:17.153Z",
-  "articleTitle": "Shopify Enables Browser‑Based AI Agents to Complete Checkout",
-  "articleSlug": "shopify-enables-browser-based-ai-agents-to-complete-checkout"
+  "generatedAt": "2026-09-29T17:19:46.372Z",
+  "articleTitle": "Fairphone Unveils Fairbuds 2 Repairable Earbuds on October 14",
+  "articleSlug": "fairphone-unveils-fairbuds-2-repairable-earbuds-on-october-14"
 }

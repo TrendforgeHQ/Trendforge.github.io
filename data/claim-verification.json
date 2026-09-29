@@ -1,18 +1,18 @@
 {
   "version": 18,
-  "generatedAt": "2026-09-29T11:51:40.577Z",
-  "articlePath": "content/articles/shopify-enables-browser-based-ai-agents-to-complete-checkout.md",
-  "articleTitle": "Shopify Enables Browser‑Based AI Agents to Complete Checkout",
+  "generatedAt": "2026-09-29T17:20:29.717Z",
+  "articlePath": "content/articles/fairphone-unveils-fairbuds-2-repairable-earbuds-on-october-14.md",
+  "articleTitle": "Fairphone Unveils Fairbuds 2 Repairable Earbuds on October 14",
   "verificationMode": "authoritative-evidence-pack-v20-fact-map-synthesis",
-  "sourceCount": 4,
-  "usableSourceCount": 4,
-  "claimCount": 18,
-  "editorialCount": 1,
-  "verified": 16,
-  "partial": 2,
+  "sourceCount": 2,
+  "usableSourceCount": 2,
+  "claimCount": 8,
+  "editorialCount": 2,
+  "verified": 8,
+  "partial": 0,
   "unsupported": 0,
   "sourceUnavailable": 0,
-  "averageConfidence": 74,
+  "averageConfidence": 78,
   "pass": true,
   "policy": {
     "verifiedMin": 62,
@@ -40,571 +40,154 @@
     "partialClaimsNonBlocking": true,
     "modifierEvidenceSufficiency": true,
     "markdownAwareSegmentation": true,
-    "citationAwareSegmentation": true,
-    "genericSentenceInitialCompatibility": true,
-    "strictEntitySupportForNamedEntities": true,
-    "factMapProvenanceRequired": true,
-    "compatibilityRescueRequiresCoreFact": true
+    "citationAwareSegmentation": true
   },
   "sources": [
     {
       "id": "S1",
-      "title": "Shopify opens checkout to browser-based AI agents",
-      "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
-      "domain": "techcrunch.com",
-      "passageCount": 8,
-      "articleBodyLength": 1531
+      "title": "Fairphone’s next repairable wireless earbuds will launch on October 14th",
+      "url": "https://www.theverge.com/tech/1001859/fairphone-fairbuds-2-wireless-earbuds-repairable-modular-price-release",
+      "domain": "theverge.com",
+      "passageCount": 2,
+      "articleBodyLength": 388
     },
     {
       "id": "S2",
-      "title": "Shopify opens checkout to browser-based AI agents - Yahoo Tech",
-      "url": "https://tech.yahoo.com/ai/deals/articles/shopify-opens-checkout-browser-based-193357081.html",
-      "domain": "tech.yahoo.com",
-      "passageCount": 9,
-      "articleBodyLength": 1507
-    },
-    {
-      "id": "S3",
-      "title": "Shopify enables browser-based AI agents to complete purchases - Crypto Briefing",
-      "url": "https://cryptobriefing.com/shopify-webmcp-ai-agents-checkout/",
-      "domain": "cryptobriefing.com",
-      "passageCount": 9,
-      "articleBodyLength": 1352
-    },
-    {
-      "id": "S4",
-      "title": "Shopify Opens Every Storefront to AI Agents With New WebMCP Tools - Startup Fortune",
-      "url": "https://startupfortune.com/shopify-opens-every-storefront-to-ai-agents-with-new-webmcp-tools/",
-      "domain": "startupfortune.com",
-      "passageCount": 9,
-      "articleBodyLength": 1355
+      "title": "Fairphone to unveil repairable Fairbuds 2 earbuds on October 14 — The Verge - UA.NEWS",
+      "url": "https://ua.news/en/technologies/fairphone-predstavit-remontopridatni-navushniki-fairbuds-2-14-zhovtnia-the-verge",
+      "domain": "ua.news",
+      "passageCount": 8,
+      "articleBodyLength": 835
     }
   ],
   "claims": [
     {
       "index": 1,
-      "claim": "Shopify has extended its Web Model Context Protocol (WebMCP) to the checkout phase of the shopping journey.",
+      "claim": "Fairphone has announced that the Fairbuds 2 will debut on October 14, beginning sales in Europe at €119 before a U.S. launch at $119.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 77,
+      "confidence": 85,
       "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Shopify opens checkout to browser-based AI agents",
-      "bestUrl": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
-      "bestDomain": "techcrunch.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F21",
-        "sourceId": "S3",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 46
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F21",
-          "sourceId": "S3",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 46,
-          "passageIndex": 4
-        },
-        {
-          "factId": "F4",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 42,
-          "passageIndex": 6
-        },
-        {
-          "factId": "F12",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 42,
-          "passageIndex": 14
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S3-FF21,S1-FF4,S2-FF12",
-      "evidence": "The tools Shopify has exposed through WebMCP include functions like search_catalog, update_cart, and proceed_to_checkout. Shopify already offers a hosted Model Context Protocol (MCP) server, which allows agents to work server-to-server. Shopify already offers a hosted Model Context Protocol (MCP) server, which allows agents to work server-to-server.",
-      "bestPassage": "The tools Shopify has exposed through WebMCP include functions like search_catalog, update_cart, and proceed_to_checkout. Shopify already offers a hosted Model Context Protocol (MCP) server, which allows agents to work server-to-server. Shopify already offers a hosted Model Context Protocol (MCP) server, which allows agents to work server-to-server.",
-      "matchedPassages": [
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "shopify",
-        "has",
-        "models",
-        "context",
-        "protocol",
-        "webmcp",
-        "the",
-        "checkout"
-      ],
-      "entityShared": [
-        "shopify",
-        "models",
-        "context",
-        "protocol",
-        "webmcp"
-      ],
-      "topicShared": [
-        "shopify",
-        "checkout"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 3,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored",
-      "initialStatus": "verified"
-    },
-    {
-      "index": 2,
-      "claim": "The new tools – get_checkout, update_checkout, and complete_checkout – let an AI agent inspect a checkout screen, modify details such as shipping address or delivery option, and submit the transaction once the buyer authorizes it.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 76,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Shopify opens checkout to browser-based AI agents - Yahoo Tech",
-      "bestUrl": "https://tech.yahoo.com/ai/deals/articles/shopify-opens-checkout-browser-based-193357081.html",
-      "bestDomain": "tech.yahoo.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F17",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 70
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F17",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 70,
-          "passageIndex": 12
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "This update introduces three new tools — get_checkout, update_checkout, and complete_checkout — that allow agents to inspect a checkout, change things like the customer's address or delivery option, and then place an order after the buyer authorizes it.",
-      "bestPassage": "This update introduces three new tools — get_checkout, update_checkout, and complete_checkout — that allow agents to inspect a checkout, change things like the customer's address or delivery option, and then place an order after the buyer authorizes it.",
-      "matchedPassages": [
-        "S2-BODY",
-        "S2-P9"
-      ],
-      "sharedTerms": [
-        "the",
-        "new",
-        "tool",
-        "get",
-        "checkout",
-        "and",
-        "complete",
-        "agent",
-        "inspect",
-        "screen",
-        "addres",
-        "delivery",
-        "option",
-        "submit",
-        "transaction",
-        "buyer",
-        "authoriz"
-      ],
-      "entityShared": [],
-      "topicShared": [
-        "checkout",
-        "agent"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage",
-      "initialStatus": "verified"
-    },
-    {
-      "index": 3,
-      "claim": "The update removes the need for agents to rely on screenshots or page scraping, offering a structured API instead.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 65,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Shopify opens checkout to browser-based AI agents",
-      "bestUrl": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
-      "bestDomain": "techcrunch.com",
+      "eventDate": "2026-10-14T00:00:00.000Z",
+      "bestSource": "Fairphone’s next repairable wireless earbuds will launch on October 14th",
+      "bestUrl": "https://www.theverge.com/tech/1001859/fairphone-fairbuds-2-wireless-earbuds-repairable-modular-price-release",
+      "bestDomain": "theverge.com",
       "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
         "factId": "F2",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 46
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F2",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 46,
-          "passageIndex": 3
-        },
-        {
-          "factId": "F10",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 46,
-          "passageIndex": 11
-        },
-        {
-          "factId": "F5",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 37,
-          "passageIndex": 8
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-FF2,S2-FF10,S1-FF5",
-      "evidence": "The addition of WebMCP support for checkout, including Shop Pay, means these agents can now read the checkout screen, update it, and submit the transaction with the buyer&#8217;s authorization, without relying on screenshots or scraping web pages, the company said. The addition of WebMCP support for checkout, including Shop Pay, means these agents can now read the checkout screen, update it, and submit the transaction with the buyer's authorization, without relying on screenshots or scraping web pages, the company said. &#8220;If your agent is operating in the buyer’s browser, use WebMCP tools provided on storefront and checkout to efficiently complete order placement, instead of navigating HTML built for humans,&#8221; Greenberg wrote on X. &#8220;These WebMCP tools provide structured and efficient APIs, purposely designed — via UCP — to ensure accurate commerce facts, required disclosures, and handoff requirements.&#8221;",
-      "bestPassage": "The addition of WebMCP support for checkout, including Shop Pay, means these agents can now read the checkout screen, update it, and submit the transaction with the buyer&#8217;s authorization, without relying on screenshots or scraping web pages, the company said. The addition of WebMCP support for checkout, including Shop Pay, means these agents can now read the checkout screen, update it, and submit the transaction with the buyer's authorization, without relying on screenshots or scraping web pages, the company said. &#8220;If your agent is operating in the buyer’s browser, use WebMCP tools provided on storefront and checkout to efficiently complete order placement, instead of navigating HTML built for humans,&#8221; Greenberg wrote on X. &#8220;These WebMCP tools provide structured and efficient APIs, purposely designed — via UCP — to ensure accurate commerce facts, required disclosures, and handoff requirements.&#8221;",
-      "matchedPassages": [
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "the",
-        "for",
-        "agent",
-        "rely",
-        "screenshot",
-        "scrap",
-        "structur",
-        "instead"
-      ],
-      "entityShared": [],
-      "topicShared": [
-        "agent"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": false,
-        "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": true,
-        "blocked": true
-      },
-      "factCoverage": 3,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "semantic-context-generic-entity-compatible",
-      "initialStatus": "unsupported",
-      "entityGateCompatibility": "generic-sentence-initial-word-not-a-named-entity",
-      "compatibilityRescue": {
-        "method": "core-fact-map-semantic-compatibility",
-        "initialStatus": "unsupported",
-        "sourceRole": "DIRECT_REPORTING",
-        "factId": "F2",
-        "reason": "strict lexical evidence matched a mapped core fact and passed all hard mismatch checks"
-      }
-    },
-    {
-      "index": 4,
-      "claim": "WebMCP operates inside the shopper’s own browser session.When a browser‑based agent such as Muse or Instinct is present in a Chromium‑based browser on a Liquid storefront or Hydrogen developer preview, it can call the newly exposed WebMCP commands against the live storefront.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 92,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Shopify Opens Every Storefront to AI Agents With New WebMCP Tools - Startup Fortune",
-      "bestUrl": "https://startupfortune.com/shopify-opens-every-storefront-to-ai-agents-with-new-webmcp-tools/",
-      "bestDomain": "startupfortune.com",
-      "sourceId": "S4",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F33",
-        "sourceId": "S4",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 59
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F19",
-          "sourceId": "S3",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 61,
-          "passageIndex": 3
-        },
-        {
-          "factId": "F33",
-          "sourceId": "S4",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 59,
-          "passageIndex": 4
-        },
-        {
-          "factId": "F28",
-          "sourceId": "S4",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 50,
-          "passageIndex": 3
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S4-BODY",
-      "evidence": "On August 5, the company activated native WebMCP support across all Liquid storefronts and the Hydrogen developer preview, letting browser-based AI agents handle everything from product searches to checkout, no merchant setup required. WebMCP operates inside the shopper's own browser session, registering your storefront's functions directly with the browser the way a page registers a click handler. Shopify's August 5 changelog announced WebMCP support for Liquid and Hydrogen storefronts, and its developer documentation says Shopify provides WebMCP tools on every Liquid storefront and storefronts built with the Hydrogen developer preview.",
-      "bestPassage": "On August 5, the company activated native WebMCP support across all Liquid storefronts and the Hydrogen developer preview, letting browser-based AI agents handle everything from product searches to checkout, no merchant setup required. WebMCP operates inside the shopper's own browser session, registering your storefront's functions directly with the browser the way a page registers a click handler. Shopify's August 5 changelog announced WebMCP support for Liquid and Hydrogen storefronts, and its developer documentation says Shopify provides WebMCP tools on every Liquid storefront and storefronts built with the Hydrogen developer preview.",
-      "matchedPassages": [
-        "S4-BODY"
-      ],
-      "sharedTerms": [
-        "webmcp",
-        "operat",
-        "inside",
-        "the",
-        "shopper",
-        "own",
-        "browser",
-        "session",
-        "bas",
-        "agent",
-        "chromium",
-        "liquid",
-        "storefront",
-        "hydrogen",
-        "developer",
-        "preview",
-        "can",
-        "call",
-        "expos",
-        "command",
-        "against",
-        "live"
-      ],
-      "entityShared": [
-        "webmcp",
-        "chromium",
-        "liquid",
-        "hydrogen"
-      ],
-      "topicShared": [
-        "browser",
-        "bas",
-        "agent"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": true,
-        "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 3,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored",
-      "initialStatus": "verified"
-    },
-    {
-      "index": 5,
-      "claim": "Shopify already hosts a Model Context Protocol (MCP) server for server‑to‑server agent interactions, and the new checkout tools leverage the same Universal Commerce Protocol (UCP) that powers catalog search and cart building.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 94,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Shopify opens checkout to browser-based AI agents - Yahoo Tech",
-      "bestUrl": "https://tech.yahoo.com/ai/deals/articles/shopify-opens-checkout-browser-based-193357081.html",
-      "bestDomain": "tech.yahoo.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F12",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 67
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F4",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 67,
-          "passageIndex": 6
-        },
-        {
-          "factId": "F12",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 67,
-          "passageIndex": 14
-        },
-        {
-          "factId": "F13",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 65,
-          "passageIndex": 14
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "Shopify already offers a hosted Model Context Protocol (MCP) server, which allows agents to work server-to-server. Shopify already offers a hosted Model Context Protocol (MCP) server, which allows agents to work server-to-server. Both leverage Shopify's Universal Commerce Protocol (UCP), which provides a common way to search for and discover products, build carts, and check out.",
-      "bestPassage": "Shopify already offers a hosted Model Context Protocol (MCP) server, which allows agents to work server-to-server. Shopify already offers a hosted Model Context Protocol (MCP) server, which allows agents to work server-to-server. Both leverage Shopify's Universal Commerce Protocol (UCP), which provides a common way to search for and discover products, build carts, and check out.",
-      "matchedPassages": [
-        "S2-BODY"
-      ],
-      "sharedTerms": [
-        "shopify",
-        "host",
-        "models",
-        "context",
-        "protocol",
-        "mcp",
-        "server",
-        "for",
-        "agent",
-        "and",
-        "the",
-        "new",
-        "checkout",
-        "tool",
-        "leverage",
-        "universal",
-        "commerce",
-        "ucp",
-        "search",
-        "cart",
-        "build"
-      ],
-      "entityShared": [
-        "shopify",
-        "models",
-        "context",
-        "protocol",
-        "mcp",
-        "universal",
-        "commerce",
-        "ucp"
-      ],
-      "topicShared": [
-        "shopify",
-        "agent",
-        "checkout"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 3,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored",
-      "initialStatus": "verified"
-    },
-    {
-      "index": 6,
-      "claim": "The agent receives accurate commerce data, required disclosures, and handoff information before it can place an order.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 75,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Shopify opens checkout to browser-based AI agents",
-      "bestUrl": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
-      "bestDomain": "techcrunch.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F5",
         "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
         "score": 66
       },
       "provenanceFactMatches": [
         {
-          "factId": "F5",
+          "factId": "F2",
           "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
           "score": 66,
-          "passageIndex": 8
+          "passageIndex": 4
         }
       ],
       "contextOnlySource": false,
       "bestPassageId": "S1-BODY",
-      "evidence": "&#8220;If your agent is operating in the buyer’s browser, use WebMCP tools provided on storefront and checkout to efficiently complete order placement, instead of navigating HTML built for humans,&#8221; Greenberg wrote on X. &#8220;These WebMCP tools provide structured and efficient APIs, purposely designed — via UCP — to ensure accurate commerce facts, required disclosures, and handoff requirements.&#8221;",
-      "bestPassage": "&#8220;If your agent is operating in the buyer’s browser, use WebMCP tools provided on storefront and checkout to efficiently complete order placement, instead of navigating HTML built for humans,&#8221; Greenberg wrote on X. &#8220;These WebMCP tools provide structured and efficient APIs, purposely designed — via UCP — to ensure accurate commerce facts, required disclosures, and handoff requirements.&#8221;",
+      "evidence": "Fairphone says the Fairbuds 2 will launch in Europe first for €119, followed by a US release where they’ll be available for $119.",
+      "bestPassage": "Fairphone says the Fairbuds 2 will launch in Europe first for €119, followed by a US release where they’ll be available for $119.",
       "matchedPassages": [
         "S1-BODY",
-        "S1-P5"
+        "S1-P2"
+      ],
+      "sharedTerms": [
+        "fairphone",
+        "has",
+        "the",
+        "fairbud",
+        "debut",
+        "europe",
+        "119",
+        "launch"
+      ],
+      "entityShared": [
+        "fairphone",
+        "fairbud",
+        "europe"
+      ],
+      "topicShared": [
+        "fairphone",
+        "october",
+        "launch"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": true,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "direct-exact-evidence"
+    },
+    {
+      "index": 2,
+      "claim": "The company revealed the plan after leaks of a major redesign appeared earlier in the month and an official teaser was posted to X yesterday.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 80,
+      "temporalWarning": null,
+      "eventDate": "2026-10-14T00:00:00.000Z",
+      "bestSource": "Fairphone’s next repairable wireless earbuds will launch on October 14th",
+      "bestUrl": "https://www.theverge.com/tech/1001859/fairphone-fairbuds-2-wireless-earbuds-repairable-modular-price-release",
+      "bestDomain": "theverge.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F1",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 80
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F1",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 80,
+          "passageIndex": 1
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-P1",
+      "evidence": "Following leaks revealing a major redesign earlier this month and an official teaser posted to X yesterday, Fairphone has shared some exclusive details with The Verge about the first follow-up to its Fairbuds wireless earbuds that debuted over two years ago.",
+      "bestPassage": "Following leaks revealing a major redesign earlier this month and an official teaser posted to X yesterday, Fairphone has shared some exclusive details with The Verge about the first follow-up to its Fairbuds wireless earbuds that debuted over two years ago.",
+      "matchedPassages": [
+        "S1-P1",
+        "S1-BODY"
       ],
       "sharedTerms": [
         "the",
-        "agent",
-        "accurate",
-        "commerce",
-        "requir",
-        "disclosur",
+        "reveal",
+        "leak",
+        "major",
+        "redesign",
+        "earlier",
+        "month",
         "and",
-        "handoff",
-        "can",
-        "order"
+        "official",
+        "teaser",
+        "post",
+        "yesterday"
       ],
       "entityShared": [],
-      "topicShared": [
-        "agent"
-      ],
+      "topicShared": [],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
@@ -612,880 +195,303 @@
       "attributionUncertainty": {
         "evidenceUncertain": false,
         "claimUncertain": true,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage",
-      "initialStatus": "verified"
-    },
-    {
-      "index": 7,
-      "claim": "The change positions Shopify opposite to retailers like Amazon that block AI‑driven purchases on their platforms.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 81,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Shopify opens checkout to browser-based AI agents - Yahoo Tech",
-      "bestUrl": "https://tech.yahoo.com/ai/deals/articles/shopify-opens-checkout-browser-based-193357081.html",
-      "bestDomain": "tech.yahoo.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F11",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 75
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F3",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 75,
-          "passageIndex": 1
-        },
-        {
-          "factId": "F11",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 75,
-          "passageIndex": 9
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-FF3,S2-FF11",
-      "evidence": "While some retailers, like Amazon (and Adidas , apparently!), are blocking AI agents from making purchases on users&#8217; behalf on their respective platforms, e-commerce platform Shopify has moved in the other direction. While some retailers, like Amazon (and Adidas , apparently!), are blocking AI agents from making purchases on users' behalf on their respective platforms, e-commerce platform Shopify has moved in the other direction.",
-      "bestPassage": "While some retailers, like Amazon (and Adidas , apparently!), are blocking AI agents from making purchases on users&#8217; behalf on their respective platforms, e-commerce platform Shopify has moved in the other direction. While some retailers, like Amazon (and Adidas , apparently!), are blocking AI agents from making purchases on users' behalf on their respective platforms, e-commerce platform Shopify has moved in the other direction.",
-      "matchedPassages": [
-        "S2-BODY",
-        "S2-P3"
-      ],
-      "sharedTerms": [
-        "the",
-        "shopify",
-        "retailer",
-        "like",
-        "amazon",
-        "block",
-        "purchas",
-        "platform"
-      ],
-      "entityShared": [
-        "shopify",
-        "amazon"
-      ],
-      "topicShared": [
-        "shopify"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 2,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored",
-      "initialStatus": "verified"
-    },
-    {
-      "index": 8,
-      "claim": "By allowing agents to finish checkout inside the buyer’s browser, Shopify expands the scope of agentic commerce while still requiring buyer consent before payment is submitted.",
-      "status": "partial",
-      "classification": "supported_with_context",
-      "confidence": 76,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Shopify opens checkout to browser-based AI agents",
-      "bestUrl": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
-      "bestDomain": "techcrunch.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F22",
-        "sourceId": "S3",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 47
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F22",
-          "sourceId": "S3",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 47,
-          "passageIndex": 13
-        },
-        {
-          "factId": "F5",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 46,
-          "passageIndex": 8
-        },
-        {
-          "factId": "F35",
-          "sourceId": "S4",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 39,
-          "passageIndex": 5
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S3-FF22,S1-FF5,S4-FF35",
-      "evidence": "By explicitly blocking AI agents from handling payment credentials and requiring buyer consent before order finalization, Shopify has drawn a clear line that regulators and consumers can both understand. &#8220;If your agent is operating in the buyer’s browser, use WebMCP tools provided on storefront and checkout to efficiently complete order placement, instead of navigating HTML built for humans,&#8221; Greenberg wrote on X. &#8220;These WebMCP tools provide structured and efficient APIs, purposely designed — via UCP — to ensure accurate commerce facts, required disclosures, and handoff requirements.&#8221; OpenAI launched Instant Checkout on September 29, 2025, with Etsy sellers live in ChatGPT and more than a million Shopify merchants announced as coming soon, built on the Agentic Commerce Protocol it developed with Stripe.",
-      "bestPassage": "By explicitly blocking AI agents from handling payment credentials and requiring buyer consent before order finalization, Shopify has drawn a clear line that regulators and consumers can both understand. &#8220;If your agent is operating in the buyer’s browser, use WebMCP tools provided on storefront and checkout to efficiently complete order placement, instead of navigating HTML built for humans,&#8221; Greenberg wrote on X. &#8220;These WebMCP tools provide structured and efficient APIs, purposely designed — via UCP — to ensure accurate commerce facts, required disclosures, and handoff requirements.&#8221; OpenAI launched Instant Checkout on September 29, 2025, with Etsy sellers live in ChatGPT and more than a million Shopify merchants announced as coming soon, built on the Agentic Commerce Protocol it developed with Stripe.",
-      "matchedPassages": [
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "agent",
-        "checkout",
-        "the",
-        "buyer",
-        "browser",
-        "shopify",
-        "agentic",
-        "commerce",
-        "requir",
-        "consent",
-        "payment"
-      ],
-      "entityShared": [
-        "shopify"
-      ],
-      "topicShared": [
-        "agent",
-        "checkout",
-        "browser",
-        "shopify"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": false,
         "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": true,
-        "attributionDropped": true,
-        "blocked": true
-      },
-      "factCoverage": 3,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored",
-      "initialStatus": "partial"
-    },
-    {
-      "index": 9,
-      "claim": "The rollout is active for all eligible merchants, and the company’s staff product manager confirmed the feature is being released broadly.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 73,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Shopify opens checkout to browser-based AI agents",
-      "bestUrl": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
-      "bestDomain": "techcrunch.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F8",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 63
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F8",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 63,
-          "passageIndex": 5
-        },
-        {
-          "factId": "F16",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 63,
-          "passageIndex": 13
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "The feature is rolling out to all eligible Shopify merchants, said Gil Greenberg , a staff product manager who works on agentic commerce at Shopify, in a post on X . The feature is rolling out to all eligible Shopify merchants, said Gil Greenberg , a staff product manager who works on agentic commerce at Shopify, in a post on X .",
-      "bestPassage": "The feature is rolling out to all eligible Shopify merchants, said Gil Greenberg , a staff product manager who works on agentic commerce at Shopify, in a post on X . The feature is rolling out to all eligible Shopify merchants, said Gil Greenberg , a staff product manager who works on agentic commerce at Shopify, in a post on X .",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P8"
-      ],
-      "sharedTerms": [
-        "the",
-        "for",
-        "all",
-        "eligible",
-        "merchant",
-        "and",
-        "staff",
-        "product",
-        "manager",
-        "feature"
-      ],
-      "entityShared": [],
-      "topicShared": [],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 2,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored",
-      "initialStatus": "verified"
-    },
-    {
-      "index": 10,
-      "claim": "Top AI agents already have direct agreements with Shopify.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 75,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Shopify opens checkout to browser-based AI agents",
-      "bestUrl": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
-      "bestDomain": "techcrunch.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F6",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 73
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F6",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 73,
-          "passageIndex": 7
-        },
-        {
-          "factId": "F14",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 73,
-          "passageIndex": 15
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-FF6,S2-FF14",
-      "evidence": "Top AI agents like Muse and Instinct already have direct partnerships with Shopify for agentic commerce. Top AI agents like Muse and Instinct already have direct partnerships with Shopify for agentic commerce.",
-      "bestPassage": "Top AI agents like Muse and Instinct already have direct partnerships with Shopify for agentic commerce. Top AI agents like Muse and Instinct already have direct partnerships with Shopify for agentic commerce.",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P6"
-      ],
-      "sharedTerms": [
-        "top",
-        "agent",
-        "direct",
-        "shopify"
-      ],
-      "entityShared": [
-        "top",
-        "shopify"
-      ],
-      "topicShared": [
-        "agent",
-        "shopify"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 2,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored",
-      "initialStatus": "verified"
-    },
-    {
-      "index": 11,
-      "claim": "Muse and Instinct, for example, were announced as partners today.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 75,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Shopify opens checkout to browser-based AI agents",
-      "bestUrl": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
-      "bestDomain": "techcrunch.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F6",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 63
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F6",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 63,
-          "passageIndex": 7
-        },
-        {
-          "factId": "F14",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 63,
-          "passageIndex": 15
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "Top AI agents like Muse and Instinct already have direct partnerships with Shopify for agentic commerce. Top AI agents like Muse and Instinct already have direct partnerships with Shopify for agentic commerce.",
-      "bestPassage": "Top AI agents like Muse and Instinct already have direct partnerships with Shopify for agentic commerce. Top AI agents like Muse and Instinct already have direct partnerships with Shopify for agentic commerce.",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P6"
-      ],
-      "sharedTerms": [
-        "muse",
-        "and",
-        "instinct",
-        "for",
-        "announce",
-        "partner"
-      ],
-      "entityShared": [
-        "muse",
-        "instinct"
-      ],
-      "topicShared": [],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
         "claimAttributed": true,
         "certaintyEscalation": false,
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 2,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored",
-      "initialStatus": "verified"
-    },
-    {
-      "index": 12,
-      "claim": "These partnerships give agents early access to the new checkout tools and integrate them into existing commerce workflows.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 58,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Shopify Opens Every Storefront to AI Agents With New WebMCP Tools - Startup Fortune",
-      "bestUrl": "https://startupfortune.com/shopify-opens-every-storefront-to-ai-agents-with-new-webmcp-tools/",
-      "bestDomain": "startupfortune.com",
-      "sourceId": "S4",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F5",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 38
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F5",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 38,
-          "passageIndex": 8
-        },
-        {
-          "factId": "F17",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 38,
-          "passageIndex": 12
-        },
-        {
-          "factId": "F32",
-          "sourceId": "S4",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 37,
-          "passageIndex": 6
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S4-BODY",
-      "evidence": "&#8220;If your agent is operating in the buyer’s browser, use WebMCP tools provided on storefront and checkout to efficiently complete order placement, instead of navigating HTML built for humans,&#8221; Greenberg wrote on X. &#8220;These WebMCP tools provide structured and efficient APIs, purposely designed — via UCP — to ensure accurate commerce facts, required disclosures, and handoff requirements.&#8221; This update introduces three new tools — get_checkout, update_checkout, and complete_checkout — that allow agents to inspect a checkout, change things like the customer's address or delivery option, and then place an order after the buyer authorizes it. The storefront just exposes its own tools, and whichever agent shows up in the browser calls them directly against the live store.",
-      "bestPassage": "&#8220;If your agent is operating in the buyer’s browser, use WebMCP tools provided on storefront and checkout to efficiently complete order placement, instead of navigating HTML built for humans,&#8221; Greenberg wrote on X. &#8220;These WebMCP tools provide structured and efficient APIs, purposely designed — via UCP — to ensure accurate commerce facts, required disclosures, and handoff requirements.&#8221; This update introduces three new tools — get_checkout, update_checkout, and complete_checkout — that allow agents to inspect a checkout, change things like the customer's address or delivery option, and then place an order after the buyer authorizes it. The storefront just exposes its own tools, and whichever agent shows up in the browser calls them directly against the live store.",
-      "matchedPassages": [
-        "S4-BODY",
-        "S4-P6"
-      ],
-      "sharedTerms": [
-        "agent",
-        "the",
-        "new",
-        "checkout",
-        "tool",
-        "and",
-        "them",
-        "commerce"
-      ],
-      "entityShared": [],
-      "topicShared": [
-        "agent",
-        "checkout"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 3,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored",
-      "initialStatus": "verified"
-    },
-    {
-      "index": 13,
-      "claim": "Shopify’s announcement specifies that the feature is rolling out to all eligible merchants, but it does not detail which merchants are considered eligible or the exact timeline for full availability.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 62,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Shopify opens checkout to browser-based AI agents",
-      "bestUrl": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
-      "bestDomain": "techcrunch.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F8",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 62
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F8",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 62,
-          "passageIndex": 5
-        },
-        {
-          "factId": "F16",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 62,
-          "passageIndex": 13
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-FF8,S2-FF16",
-      "evidence": "The feature is rolling out to all eligible Shopify merchants, said Gil Greenberg , a staff product manager who works on agentic commerce at Shopify, in a post on X . The feature is rolling out to all eligible Shopify merchants, said Gil Greenberg , a staff product manager who works on agentic commerce at Shopify, in a post on X .",
-      "bestPassage": "The feature is rolling out to all eligible Shopify merchants, said Gil Greenberg , a staff product manager who works on agentic commerce at Shopify, in a post on X . The feature is rolling out to all eligible Shopify merchants, said Gil Greenberg , a staff product manager who works on agentic commerce at Shopify, in a post on X .",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P8"
-      ],
-      "sharedTerms": [
-        "shopify",
-        "the",
-        "feature",
-        "roll",
-        "out",
-        "all",
-        "eligible",
-        "merchant"
-      ],
-      "entityShared": [
-        "shopify"
-      ],
-      "topicShared": [
-        "shopify"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 2,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored",
-      "initialStatus": "verified"
-    },
-    {
-      "index": 14,
-      "claim": "While the new tools prevent agents from handling payment credentials directly, the system still requires explicit buyer authorization before order finalization.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 77,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Shopify enables browser-based AI agents to complete purchases - Crypto Briefing",
-      "bestUrl": "https://cryptobriefing.com/shopify-webmcp-ai-agents-checkout/",
-      "bestDomain": "cryptobriefing.com",
-      "sourceId": "S3",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F22",
-        "sourceId": "S3",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 64
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F22",
-          "sourceId": "S3",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 64,
-          "passageIndex": 13
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S3-BODY",
-      "evidence": "By explicitly blocking AI agents from handling payment credentials and requiring buyer consent before order finalization, Shopify has drawn a clear line that regulators and consumers can both understand.",
-      "bestPassage": "By explicitly blocking AI agents from handling payment credentials and requiring buyer consent before order finalization, Shopify has drawn a clear line that regulators and consumers can both understand.",
-      "matchedPassages": [
-        "S3-BODY",
-        "S3-P5"
-      ],
-      "sharedTerms": [
-        "the",
-        "new",
-        "tool",
-        "agent",
-        "handl",
-        "payment",
-        "credential",
-        "directly",
-        "requir",
-        "buyer",
-        "order",
-        "finalization"
-      ],
-      "entityShared": [],
-      "topicShared": [
-        "agent"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
       "factCoverage": 1,
       "multiFactSupported": false,
       "directFactExact": false,
       "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage",
-      "initialStatus": "verified"
+      "matchingMode": "fact-map-anchored-source-passage"
     },
     {
-      "index": 15,
-      "claim": "The extent to which different storefronts or developer previews will support the tools remains unreported.",
-      "status": "partial",
-      "classification": "uncertain",
-      "confidence": 51,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Shopify enables browser-based AI agents to complete purchases - Crypto Briefing",
-      "bestUrl": "https://cryptobriefing.com/shopify-webmcp-ai-agents-checkout/",
-      "bestDomain": "cryptobriefing.com",
-      "sourceId": "S3",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F28",
-        "sourceId": "S4",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 48
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F28",
-          "sourceId": "S4",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 48,
-          "passageIndex": 3
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S3-BODY",
-      "evidence": "Shopify's August 5 changelog announced WebMCP support for Liquid and Hydrogen storefronts, and its developer documentation says Shopify provides WebMCP tools on every Liquid storefront and storefronts built with the Hydrogen developer preview.",
-      "bestPassage": "Shopify's August 5 changelog announced WebMCP support for Liquid and Hydrogen storefronts, and its developer documentation says Shopify provides WebMCP tools on every Liquid storefront and storefronts built with the Hydrogen developer preview.",
-      "matchedPassages": [
-        "S3-BODY",
-        "S3-P2"
-      ],
-      "sharedTerms": [
-        "the",
-        "storefront",
-        "developer",
-        "preview",
-        "support",
-        "tool"
-      ],
-      "entityShared": [],
-      "topicShared": [],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 2,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage",
-      "initialStatus": "partial"
-    },
-    {
-      "index": 16,
-      "claim": "As more merchants adopt the WebMCP checkout tools, developers will need to update agent code to use the new get_checkout, update_checkout, and complete_checkout commands.",
+      "index": 3,
+      "claim": "The earbuds keep the repair‑able modular concept of the original Fairbuds.Seven fully replaceable parts will be available, building on the original Fairbuds' modular design.",
       "status": "verified",
       "classification": "supported",
       "confidence": 75,
       "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Shopify opens checkout to browser-based AI agents - Yahoo Tech",
-      "bestUrl": "https://tech.yahoo.com/ai/deals/articles/shopify-opens-checkout-browser-based-193357081.html",
-      "bestDomain": "tech.yahoo.com",
+      "eventDate": "2026-10-14T00:00:00.000Z",
+      "bestSource": "Fairphone to unveil repairable Fairbuds 2 earbuds on October 14 — The Verge - UA.NEWS",
+      "bestUrl": "https://ua.news/en/technologies/fairphone-predstavit-remontopridatni-navushniki-fairbuds-2-14-zhovtnia-the-verge",
+      "bestDomain": "ua.news",
       "sourceId": "S2",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F17",
+        "factId": "F5",
         "sourceId": "S2",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 64
+        "score": 46
       },
       "provenanceFactMatches": [
         {
-          "factId": "F17",
+          "factId": "F5",
           "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 64,
-          "passageIndex": 12
-        },
-        {
-          "factId": "F5",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 52,
-          "passageIndex": 8
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-FF17,S1-FF5",
-      "evidence": "This update introduces three new tools — get_checkout, update_checkout, and complete_checkout — that allow agents to inspect a checkout, change things like the customer's address or delivery option, and then place an order after the buyer authorizes it. &#8220;If your agent is operating in the buyer’s browser, use WebMCP tools provided on storefront and checkout to efficiently complete order placement, instead of navigating HTML built for humans,&#8221; Greenberg wrote on X. &#8220;These WebMCP tools provide structured and efficient APIs, purposely designed — via UCP — to ensure accurate commerce facts, required disclosures, and handoff requirements.&#8221;",
-      "bestPassage": "This update introduces three new tools — get_checkout, update_checkout, and complete_checkout — that allow agents to inspect a checkout, change things like the customer's address or delivery option, and then place an order after the buyer authorizes it. &#8220;If your agent is operating in the buyer’s browser, use WebMCP tools provided on storefront and checkout to efficiently complete order placement, instead of navigating HTML built for humans,&#8221; Greenberg wrote on X. &#8220;These WebMCP tools provide structured and efficient APIs, purposely designed — via UCP — to ensure accurate commerce facts, required disclosures, and handoff requirements.&#8221;",
-      "matchedPassages": [
-        "S2-BODY",
-        "S2-P9"
-      ],
-      "sharedTerms": [
-        "the",
-        "webmcp",
-        "checkout",
-        "tool",
-        "agent",
-        "use",
-        "new",
-        "get",
-        "and",
-        "complete"
-      ],
-      "entityShared": [
-        "webmcp"
-      ],
-      "topicShared": [
-        "checkout",
-        "agent"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 2,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored",
-      "initialStatus": "verified"
-    },
-    {
-      "index": 18,
-      "claim": "Shopify’s WebMCP checkout rollout gives AI agents a structured path to complete purchases inside the buyer’s browser, a clear shift from other e‑commerce platforms that restrict such activity.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 79,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Shopify opens checkout to browser-based AI agents",
-      "bestUrl": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
-      "bestDomain": "techcrunch.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F5",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 55
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F5",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 55,
-          "passageIndex": 8
-        },
-        {
-          "factId": "F23",
-          "sourceId": "S3",
           "sourceRole": "DIRECT_REPORTING",
           "score": 46,
           "passageIndex": 2
         },
         {
           "factId": "F3",
-          "sourceId": "S1",
+          "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
           "score": 43,
+          "passageIndex": 1
+        },
+        {
+          "factId": "F4",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 42,
           "passageIndex": 1
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-FF5,S3-FF23,S1-FF3",
-      "evidence": "&#8220;If your agent is operating in the buyer’s browser, use WebMCP tools provided on storefront and checkout to efficiently complete order placement, instead of navigating HTML built for humans,&#8221; Greenberg wrote on X. &#8220;These WebMCP tools provide structured and efficient APIs, purposely designed — via UCP — to ensure accurate commerce facts, required disclosures, and handoff requirements.&#8221; The e-commerce giant&#039;s WebMCP rollout lets AI agents search catalogs, manage carts, and finalize orders directly in a shopper&#039;s browser session. While some retailers, like Amazon (and Adidas , apparently!), are blocking AI agents from making purchases on users&#8217; behalf on their respective platforms, e-commerce platform Shopify has moved in the other direction.",
-      "bestPassage": "&#8220;If your agent is operating in the buyer’s browser, use WebMCP tools provided on storefront and checkout to efficiently complete order placement, instead of navigating HTML built for humans,&#8221; Greenberg wrote on X. &#8220;These WebMCP tools provide structured and efficient APIs, purposely designed — via UCP — to ensure accurate commerce facts, required disclosures, and handoff requirements.&#8221; The e-commerce giant&#039;s WebMCP rollout lets AI agents search catalogs, manage carts, and finalize orders directly in a shopper&#039;s browser session. While some retailers, like Amazon (and Adidas , apparently!), are blocking AI agents from making purchases on users&#8217; behalf on their respective platforms, e-commerce platform Shopify has moved in the other direction.",
+      "bestPassageId": "S2-FF5,S2-FF3,S2-FF4",
+      "evidence": "The original Fairbuds were among the first wireless earbuds designed with replaceable components. Fairphone will unveil the Fairbuds 2 wireless earbuds on October 14, retaining the repairable modular design of the previous model. As The Verge reports , the new product will have seven fully replaceable modular parts.",
+      "bestPassage": "The original Fairbuds were among the first wireless earbuds designed with replaceable components. Fairphone will unveil the Fairbuds 2 wireless earbuds on October 14, retaining the repairable modular design of the previous model. As The Verge reports , the new product will have seven fully replaceable modular parts.",
       "matchedPassages": [
-        "S1-BODY"
+        "S2-BODY"
       ],
       "sharedTerms": [
-        "shopify",
-        "webmcp",
-        "checkout",
-        "rollout",
-        "agent",
-        "structur",
-        "complete",
-        "purchas",
         "the",
-        "buyer",
-        "browser",
-        "other",
-        "commerce",
-        "platform"
+        "earbud",
+        "modular",
+        "original",
+        "fairbud",
+        "seven",
+        "fully",
+        "replaceable",
+        "part",
+        "design"
       ],
       "entityShared": [
-        "shopify",
-        "webmcp"
+        "fairbud"
       ],
       "topicShared": [
-        "shopify",
-        "checkout",
-        "agent",
-        "browser"
+        "earbud"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 3,
+      "multiFactSupported": true,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-multi-fact-anchored"
+    },
+    {
+      "index": 5,
+      "claim": "The Fairbuds 2 adds support for Sony’s high‑quality adaptive LDAC Bluetooth codec.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 98,
+      "temporalWarning": null,
+      "eventDate": "2026-10-14T00:00:00.000Z",
+      "bestSource": "Fairphone to unveil repairable Fairbuds 2 earbuds on October 14 — The Verge - UA.NEWS",
+      "bestUrl": "https://ua.news/en/technologies/fairphone-predstavit-remontopridatni-navushniki-fairbuds-2-14-zhovtnia-the-verge",
+      "bestDomain": "ua.news",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F9",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 89
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F9",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 89,
+          "passageIndex": 4
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S2-BODY",
+      "evidence": "The new earbuds will also support Sony’s high-quality adaptive LDAC Bluetooth codec.",
+      "bestPassage": "The new earbuds will also support Sony’s high-quality adaptive LDAC Bluetooth codec.",
+      "matchedPassages": [
+        "S2-BODY",
+        "S2-P7"
+      ],
+      "sharedTerms": [
+        "the",
+        "fairbud",
+        "support",
+        "for",
+        "sony",
+        "high",
+        "quality",
+        "adaptive",
+        "ldac",
+        "bluetooth",
+        "codec"
+      ],
+      "entityShared": [
+        "the",
+        "fairbud",
+        "sony",
+        "ldac",
+        "bluetooth"
+      ],
+      "topicShared": [],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 6,
+      "claim": "The initial Fairbuds model could use only SBC and AAC codecs, so the new version offers a noticeable improvement in audio quality.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 83,
+      "temporalWarning": null,
+      "eventDate": "2026-10-14T00:00:00.000Z",
+      "bestSource": "Fairphone to unveil repairable Fairbuds 2 earbuds on October 14 — The Verge - UA.NEWS",
+      "bestUrl": "https://ua.news/en/technologies/fairphone-predstavit-remontopridatni-navushniki-fairbuds-2-14-zhovtnia-the-verge",
+      "bestDomain": "ua.news",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F10",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 60
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F10",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 60,
+          "passageIndex": 4
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S2-BODY",
+      "evidence": "The first version of Fairbuds worked only with SBC and AAC codecs.",
+      "bestPassage": "The first version of Fairbuds worked only with SBC and AAC codecs.",
+      "matchedPassages": [
+        "S2-BODY",
+        "S2-P8"
+      ],
+      "sharedTerms": [
+        "the",
+        "fairbud",
+        "models",
+        "sbc",
+        "and",
+        "aac",
+        "codec",
+        "new",
+        "version",
+        "quality"
+      ],
+      "entityShared": [
+        "fairbud",
+        "sbc",
+        "aac"
+      ],
+      "topicShared": [],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": true,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 7,
+      "claim": "At launch, the original Fairbuds sold for €149, roughly $162 at the time.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 84,
+      "temporalWarning": null,
+      "eventDate": "2026-10-14T00:00:00.000Z",
+      "bestSource": "Fairphone to unveil repairable Fairbuds 2 earbuds on October 14 — The Verge - UA.NEWS",
+      "bestUrl": "https://ua.news/en/technologies/fairphone-predstavit-remontopridatni-navushniki-fairbuds-2-14-zhovtnia-the-verge",
+      "bestDomain": "ua.news",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F8",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 58
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F8",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 58,
+          "passageIndex": 5
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S2-BODY",
+      "evidence": "At the start of sales in 2024, Fairbuds cost €149, or approximately $162 at the time.",
+      "bestPassage": "At the start of sales in 2024, Fairbuds cost €149, or approximately $162 at the time.",
+      "matchedPassages": [
+        "S2-BODY"
+      ],
+      "sharedTerms": [
+        "the",
+        "original",
+        "fairbud",
+        "sold",
+        "for",
+        "149",
+        "162",
+        "time"
+      ],
+      "entityShared": [
+        "fairbud"
+      ],
+      "topicShared": [
+        "launch"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -1500,86 +506,139 @@
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 3,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored",
-      "initialStatus": "verified"
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "direct-exact-evidence"
     },
     {
-      "index": 19,
-      "claim": "The move is supported by existing agent partnerships and leverages Shopify’s UCP framework, but full merchant coverage and practical enforcement details are still unfolding.Developers and merchants can use the new WebMCP commands without additional merchant setup.",
+      "index": 8,
+      "claim": "The new earbuds are priced lower, at €119 in Europe and $119 in the U.S., making them more affordable while maintaining the modular ethos.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 63,
+      "confidence": 59,
       "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Shopify enables browser-based AI agents to complete purchases - Crypto Briefing",
-      "bestUrl": "https://cryptobriefing.com/shopify-webmcp-ai-agents-checkout/",
-      "bestDomain": "cryptobriefing.com",
-      "sourceId": "S3",
+      "eventDate": "2026-10-14T00:00:00.000Z",
+      "bestSource": "Fairphone to unveil repairable Fairbuds 2 earbuds on October 14 — The Verge - UA.NEWS",
+      "bestUrl": "https://ua.news/en/technologies/fairphone-predstavit-remontopridatni-navushniki-fairbuds-2-14-zhovtnia-the-verge",
+      "bestDomain": "ua.news",
+      "sourceId": "S2",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F19",
-        "sourceId": "S3",
+        "factId": "F7",
+        "sourceId": "S2",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 43
+        "score": 33
       },
       "provenanceFactMatches": [
         {
-          "factId": "F19",
-          "sourceId": "S3",
+          "factId": "F7",
+          "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 43,
-          "passageIndex": 3
-        },
-        {
-          "factId": "F24",
-          "sourceId": "S3",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 38,
-          "passageIndex": 11
-        },
-        {
-          "factId": "F28",
-          "sourceId": "S4",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 38,
-          "passageIndex": 3
+          "score": 33,
+          "passageIndex": 5
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S3-FF19,S3-FF24,S4-FF28",
-      "evidence": "On August 5, the company activated native WebMCP support across all Liquid storefronts and the Hydrogen developer preview, letting browser-based AI agents handle everything from product searches to checkout, no merchant setup required. This builds on infrastructure Shopify had already been developing around MCP and UCP protocols, extending its existing compliance and security frameworks to cover these new agent-driven interactions. Shopify's August 5 changelog announced WebMCP support for Liquid and Hydrogen storefronts, and its developer documentation says Shopify provides WebMCP tools on every Liquid storefront and storefronts built with the Hydrogen developer preview.",
-      "bestPassage": "On August 5, the company activated native WebMCP support across all Liquid storefronts and the Hydrogen developer preview, letting browser-based AI agents handle everything from product searches to checkout, no merchant setup required. This builds on infrastructure Shopify had already been developing around MCP and UCP protocols, extending its existing compliance and security frameworks to cover these new agent-driven interactions. Shopify's August 5 changelog announced WebMCP support for Liquid and Hydrogen storefronts, and its developer documentation says Shopify provides WebMCP tools on every Liquid storefront and storefronts built with the Hydrogen developer preview.",
+      "bestPassageId": "S2-BODY",
+      "evidence": "In Europe, Fairbuds 2 will be sold for €119, and the model will later be released in the United States at a price of $119.",
+      "bestPassage": "In Europe, Fairbuds 2 will be sold for €119, and the model will later be released in the United States at a price of $119.",
       "matchedPassages": [
-        "S3-BODY",
-        "S3-P2"
+        "S2-BODY"
       ],
       "sharedTerms": [
         "the",
-        "support",
-        "exist",
-        "agent",
-        "and",
-        "shopify",
-        "ucp",
-        "framework",
-        "merchant",
-        "developer",
         "new",
-        "webmcp",
-        "setup"
+        "earbud",
+        "119",
+        "europe",
+        "and",
+        "modular"
       ],
       "entityShared": [
-        "shopify",
-        "ucp",
-        "webmcp"
+        "europe"
       ],
       "topicShared": [
-        "agent",
-        "shopify"
+        "earbud"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": false,
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "direct-exact-evidence"
+    },
+    {
+      "index": 9,
+      "claim": "Consumers interested in repair‑friendly audio gear can note that Fairbuds 2 will launch on October 14 and will be priced at €119 in Europe and $119 in the U.S.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 61,
+      "temporalWarning": null,
+      "eventDate": "2026-10-14T00:00:00.000Z",
+      "bestSource": "Fairphone to unveil repairable Fairbuds 2 earbuds on October 14 — The Verge - UA.NEWS",
+      "bestUrl": "https://ua.news/en/technologies/fairphone-predstavit-remontopridatni-navushniki-fairbuds-2-14-zhovtnia-the-verge",
+      "bestDomain": "ua.news",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F7",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 55
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F7",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 55,
+          "passageIndex": 5
+        },
+        {
+          "factId": "F2",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 52,
+          "passageIndex": 4
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S2-FF7,S1-FF2",
+      "evidence": "In Europe, Fairbuds 2 will be sold for €119, and the model will later be released in the United States at a price of $119. Fairphone says the Fairbuds 2 will launch in Europe first for €119, followed by a US release where they’ll be available for $119.",
+      "bestPassage": "In Europe, Fairbuds 2 will be sold for €119, and the model will later be released in the United States at a price of $119. Fairphone says the Fairbuds 2 will launch in Europe first for €119, followed by a US release where they’ll be available for $119.",
+      "matchedPassages": [
+        "S2-BODY",
+        "S2-P5"
+      ],
+      "sharedTerms": [
+        "fairbud",
+        "launch",
+        "and",
+        "119",
+        "europe",
+        "the"
+      ],
+      "entityShared": [
+        "fairbud",
+        "europe"
+      ],
+      "topicShared": [
+        "launch",
+        "october"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -1594,19 +653,24 @@
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 3,
+      "factCoverage": 2,
       "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored",
-      "initialStatus": "verified"
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "fact-map-multi-fact-anchored"
     }
   ],
   "editorial": [
     {
-      "index": 17,
-      "claim": "Observers should monitor how the requirement for buyer consent is enforced in practice and whether any regulatory guidance emerges around agent‑driven checkout flows.",
-      "type": "editorial-recommendation",
+      "index": 4,
+      "claim": "This continuity reinforces Fairphone’s focus on sustainability.",
+      "type": "editorial-analysis",
+      "status": "editorial-excluded"
+    },
+    {
+      "index": 10,
+      "claim": "The addition of LDAC suggests a better listening experience, especially for users of Sony devices.The Fairbuds 2 will launch in Europe on October 14 at €119 and later in the U.S. at $119.",
+      "type": "editorial-analysis",
       "status": "editorial-excluded"
     }
   ]

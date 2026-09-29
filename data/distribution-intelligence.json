@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-29T11:51:51.478Z",
+  "generatedAt": "2026-09-29T17:20:42.269Z",
   "policy": {
     "privacyFirst": true,
     "no_scraping": true,
@@ -561,6 +561,38 @@
       ]
     },
     {
+      "slug": "fairphone-unveils-fairbuds-2-repairable-earbuds-on-october-14",
+      "title": "Fairphone Unveils Fairbuds 2 Repairable Earbuds on October 14",
+      "category": "Digital Life",
+      "channels": [
+        {
+          "channel": "Google Search",
+          "action": "publish and keep canonical/indexable",
+          "reason": "organic discovery"
+        },
+        {
+          "channel": "Newsletter",
+          "action": "include when relevant",
+          "reason": "subscriber retention"
+        },
+        {
+          "channel": "RSS",
+          "action": "make available through feed",
+          "reason": "reader-controlled distribution"
+        },
+        {
+          "channel": "Social",
+          "action": "share a concise human-written excerpt",
+          "reason": "additional discovery"
+        },
+        {
+          "channel": "Direct",
+          "action": "link from related articles",
+          "reason": "internal discovery"
+        }
+      ]
+    },
+    {
       "slug": "exclusive-paying-for-frontier-ai-models-buys-4-month-head-start-at-5x-the-cost",
       "title": "Exclusive: Paying for frontier AI models buys 4-month head start at 5x the cost",
       "category": "Technology",
@@ -596,38 +628,6 @@
       "slug": "disney-appoints-first-ever-cto-as-it-pushes-technology-into-every-wing",
       "title": "Disney Appoints First‑Ever CTO as It Pushes Technology into Every Wing",
       "category": "Technology",
-      "channels": [
-        {
-          "channel": "Google Search",
-          "action": "publish and keep canonical/indexable",
-          "reason": "organic discovery"
-        },
-        {
-          "channel": "Newsletter",
-          "action": "include when relevant",
-          "reason": "subscriber retention"
-        },
-        {
-          "channel": "RSS",
-          "action": "make available through feed",
-          "reason": "reader-controlled distribution"
-        },
-        {
-          "channel": "Social",
-          "action": "share a concise human-written excerpt",
-          "reason": "additional discovery"
-        },
-        {
-          "channel": "Direct",
-          "action": "link from related articles",
-          "reason": "internal discovery"
-        }
-      ]
-    },
-    {
-      "slug": "comp-ai-raises-34m-series-a-to-build-agentic-security-and-compliance-platform",
-      "title": "Comp AI raises $34M Series A to build agentic security and compliance platform",
-      "category": "AI",
       "channels": [
         {
           "channel": "Google Search",

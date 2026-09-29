@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-29T11:51:51.425Z",
+  "generatedAt": "2026-09-29T17:20:42.214Z",
   "policy": {
     "privacyFirst": true,
     "noPersonalTracking": true,
     "noPaidTrafficRequired": true
   },
   "summary": {
-    "totalArticles": 31,
+    "totalArticles": 32,
     "averageEditorialScore": 76,
     "editorialReviewCount": 21,
     "refreshCandidates": 5
@@ -16,17 +16,17 @@
     {
       "category": "AI",
       "count": 10,
-      "share": 32.3
+      "share": 31.3
     },
     {
       "category": "Technology",
       "count": 7,
-      "share": 22.6
+      "share": 21.9
     },
     {
       "category": "How-To",
       "count": 3,
-      "share": 9.7
+      "share": 9.4
     },
     {
       "category": "Innovation",
@@ -40,13 +40,13 @@
     },
     {
       "category": "Digital Life",
-      "count": 5,
-      "share": 16.1
+      "count": 6,
+      "share": 18.8
     },
     {
       "category": "Crypto",
       "count": 5,
-      "share": 16.1
+      "share": 15.6
     }
   ],
   "missingCategories": [
@@ -60,6 +60,11 @@
     "5 older/incomplete article(s) are refresh candidates."
   ],
   "recentArticles": [
+    {
+      "title": "Fairphone Unveils Fairbuds 2 Repairable Earbuds on October 14",
+      "category": "Digital Life",
+      "publishedAt": "2026-09-29T17:19:46.371Z"
+    },
     {
       "title": "Shopify Enables Browser‑Based AI Agents to Complete Checkout",
       "category": "AI",
@@ -104,11 +109,6 @@
       "title": "Meta’s Connect 2026 Unveils New Glasses and a Rumored Mixed‑Reality Headset",
       "category": "Digital Life",
       "publishedAt": "2026-09-24T06:37:38.171Z"
-    },
-    {
-      "title": "Microsoft Eyes $10 B+ Investment in Middle East Tech, AI, and Digital Resilience",
-      "category": "Technology",
-      "publishedAt": "2026-09-24T02:15:33.773Z"
     }
   ]
 }

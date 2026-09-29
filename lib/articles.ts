@@ -493,6 +493,38 @@ export const articles: Article[] = [
     "imageGeneratedBy": "Cloudflare FLUX.1 Schnell"
   },
   {
+    "slug": "fairphone-unveils-fairbuds-2-repairable-earbuds-on-october-14",
+    "title": "Fairphone Unveils Fairbuds 2 Repairable Earbuds on October 14",
+    "description": "Fairphone is set to release its first follow‑up to the Fairbuds, retaining modular design, dropping price and adding LDAC codec support. The new earbuds launch in Europe on October 14 for €119 and will later arrive in the United States for $119. The announcement follows leaks and a teaser posted to X.",
+    "category": "Digital Life",
+    "date": "2026-09-29",
+    "publishedAt": "2026-09-29T17:19:46.371Z",
+    "author": "Tejendra Pal Singh",
+    "readTime": "2 min read",
+    "content": [
+      "## New Design and Release Plan\nFairphone has announced that the Fairbuds 2 will debut on October 14, beginning sales in Europe at €119 before a U.S. launch at $119. The company revealed the plan after leaks of a major redesign appeared earlier in the month and an official teaser was posted to X yesterday.",
+      "## Modular Architecture Returns\nThe earbuds keep the repair‑able modular concept of the original Fairbuds.Seven fully replaceable parts will be available, building on the original Fairbuds' modular design. This continuity reinforces Fairphone’s focus on sustainability.",
+      "## Codec Upgrade\nThe Fairbuds 2 adds support for Sony’s high‑quality adaptive LDAC Bluetooth codec. The initial Fairbuds model could use only SBC and AAC codecs, so the new version offers a noticeable improvement in audio quality.",
+      "## Pricing Context\nAt launch, the original Fairbuds sold for €149, roughly $162 at the time. The new earbuds are priced lower, at €119 in Europe and $119 in the U.S., making them more affordable while maintaining the modular ethos.",
+      "## What Readers Should Watch\nConsumers interested in repair‑friendly audio gear can note that Fairbuds 2 will launch on October 14 and will be priced at €119 in Europe and $119 in the U.S. The addition of LDAC suggests a better listening experience, especially for users of Sony devices.The Fairbuds 2 will launch in Europe on October 14 at €119 and later in the U.S. at $119."
+    ],
+    "sources": [
+      {
+        "title": "Fairphone’s next repairable wireless earbuds will launch on October 14th",
+        "url": "https://www.theverge.com/tech/1001859/fairphone-fairbuds-2-wireless-earbuds-repairable-modular-price-release"
+      },
+      {
+        "title": "Fairphone to unveil repairable Fairbuds 2 earbuds on October 14 — The Verge - UA.NEWS",
+        "url": "https://ua.news/en/technologies/fairphone-predstavit-remontopridatni-navushniki-fairbuds-2-14-zhovtnia-the-verge"
+      }
+    ],
+    "image": "/Trendforge/images/articles/fairphone-unveils-fairbuds-2-repairable-earbuds-on-october-14.1024x576.png",
+    "imageAlt": "Editorial image for Fairphone Unveils Fairbuds 2 Repairable Earbuds on October 14",
+    "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
+    "imageLicense": "Model-generated",
+    "imageGeneratedBy": "Cloudflare FLUX.1 Schnell"
+  },
+  {
     "slug": "google-s-first-orbital-ai-data-center-test-launches-on-october-1",
     "title": "Google’s First Orbital AI Data Center Test Launches on October 1",
     "description": "Google is launching a small experimental satellite, Project Suncatcher, to try out AI chips in space. The mission will test heat management, limited run time, and the feasibility of a future constellation.",
