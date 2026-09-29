@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-29T07:02:02.654Z",
+  "generatedAt": "2026-09-29T09:08:27.021Z",
   "queue": [
     {
       "slug": "anthropic-s-ceo-calls-for-an-ai-slow-down-what-it-means-for-the-industry",
@@ -148,24 +148,6 @@
       ]
     },
     {
-      "slug": "meta-s-connect-2026-unveils-new-glasses-and-a-rumored-mixed-reality-headset",
-      "title": "Meta’s Connect 2026 Unveils New Glasses and a Rumored Mixed‑Reality Headset",
-      "category": "Digital Life",
-      "score": 75,
-      "decision": "review",
-      "dimensions": {
-        "evidence": 75,
-        "usefulness": 84,
-        "clarity": 90,
-        "originality": 89,
-        "sourceStrength": 41
-      },
-      "reasons": [
-        "evidence confidence needs improvement",
-        "source strength/diversity needs improvement"
-      ]
-    },
-    {
       "slug": "openai-slows-ai-training-after-hugging-face-breach",
       "title": "OpenAI Slows AI Training After Hugging Face Breach",
       "category": "Digital Life",
@@ -181,6 +163,25 @@
       "reasons": [
         "evidence confidence needs improvement",
         "structure/readability needs improvement",
+        "source strength/diversity needs improvement"
+      ]
+    },
+    {
+      "slug": "meta-s-connect-2026-unveils-new-glasses-and-a-rumored-mixed-reality-headset",
+      "title": "Meta’s Connect 2026 Unveils New Glasses and a Rumored Mixed‑Reality Headset",
+      "category": "Digital Life",
+      "score": 73,
+      "decision": "review",
+      "dimensions": {
+        "evidence": 75,
+        "usefulness": 84,
+        "clarity": 90,
+        "originality": 78,
+        "sourceStrength": 41
+      },
+      "reasons": [
+        "evidence confidence needs improvement",
+        "topic/title similarity is high",
         "source strength/diversity needs improvement"
       ]
     },

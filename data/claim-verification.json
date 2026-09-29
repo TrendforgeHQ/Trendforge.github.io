@@ -1,19 +1,19 @@
 {
   "version": 18,
-  "generatedAt": "2026-09-29T07:01:59.782Z",
-  "articlePath": "content/articles/openai-delays-release-of-gpt-6-1-astra-over-safety-concerns.md",
-  "articleTitle": "OpenAI Delays Release of GPT‑6.1 Astra Over Safety Concerns",
+  "generatedAt": "2026-09-29T09:08:23.578Z",
+  "articlePath": "content/articles/meta-unveils-enterprise-ai-platform-names-mongodb-ceo-to-lead.md",
+  "articleTitle": "Meta Unveils Enterprise AI Platform, Names MongoDB CEO to Lead",
   "verificationMode": "authoritative-evidence-pack-v20-fact-map-synthesis",
   "sourceCount": 4,
   "usableSourceCount": 4,
-  "claimCount": 20,
-  "editorialCount": 5,
-  "verified": 12,
-  "partial": 6,
-  "unsupported": 2,
+  "claimCount": 18,
+  "editorialCount": 1,
+  "verified": 16,
+  "partial": 2,
+  "unsupported": 0,
   "sourceUnavailable": 0,
-  "averageConfidence": 60,
-  "pass": false,
+  "averageConfidence": 82,
+  "pass": true,
   "policy": {
     "verifiedMin": 62,
     "partialMin": 45,
@@ -45,159 +45,107 @@
   "sources": [
     {
       "id": "S1",
-      "title": "OpenAI scraps release of new model over safety concerns in internal testing - The Guardian",
-      "url": "https://www.theguardian.com/technology/2026/sep/28/openai-new-model-astra-release-scrapped",
-      "domain": "theguardian.com",
-      "passageCount": 4,
-      "articleBodyLength": 693
+      "title": "Meta launches enterprise AI platform to drive business opportunities - Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/meta-launches-enterprise-ai-platform-192954750.html",
+      "domain": "finance.yahoo.com",
+      "passageCount": 10,
+      "articleBodyLength": 1428
     },
     {
       "id": "S2",
-      "title": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems - TechCrunch",
-      "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+      "title": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
+      "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
       "domain": "techcrunch.com",
-      "passageCount": 10,
-      "articleBodyLength": 1831
+      "passageCount": 5,
+      "articleBodyLength": 992
     },
     {
       "id": "S3",
-      "title": "OpenAI abandons release of next-generation AI model over safety concerns - Daily Express US",
-      "url": "https://www.the-express.com/tech/tech-news/216904/openai-halts-release-next-generation-ai/amp",
-      "domain": "the-express.com",
-      "passageCount": 10,
-      "articleBodyLength": 1907
+      "title": "Meta Launches Enterprise AI Platform, Hires MongoDB CEO CJ Desai as Shares Drop: 20 outlets compared - NewsCord",
+      "url": "https://newscord.org/article/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-cj-desai-as-shares-drop--Story_20260928_Metalaunchesenterpria7a166ab",
+      "domain": "newscord.org",
+      "passageCount": 7,
+      "articleBodyLength": 1067
     },
     {
       "id": "S4",
-      "title": "OpenAI shelves latest AI model over authorization concerns - Yahoo Tech",
-      "url": "https://tech.yahoo.com/ai/chatgpt/articles/openai-shelves-latest-ai-model-005738972.html",
-      "domain": "tech.yahoo.com",
-      "passageCount": 9,
-      "articleBodyLength": 1345
+      "title": "Meta hires Indian-origin MongoDB CEO to lead new enterprise AI business - People Matters - HR News",
+      "url": "https://www.peoplematters.in/amp/news/leadership/meta-hires-indian-origin-mongodb-ceo-to-lead-new-enterprise-ai-business-52391",
+      "domain": "peoplematters.in",
+      "passageCount": 6,
+      "articleBodyLength": 1072
     }
   ],
   "claims": [
     {
       "index": 1,
-      "claim": "1 Astra, a model that had been slated for an October debut, is the first major public sign that safety concerns can override commercial plans in the AI field.",
-      "status": "unsupported",
-      "classification": "contradicted",
-      "confidence": 1,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "OpenAI abandons release of next-generation AI model over safety concerns - Daily Express US",
-      "bestUrl": "https://www.the-express.com/tech/tech-news/216904/openai-halts-release-next-generation-ai/amp",
-      "bestDomain": "the-express.com",
-      "sourceId": "S3",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": null,
-      "provenanceFactMatches": [],
-      "contextOnlySource": false,
-      "bestPassageId": "S3-BODY",
-      "evidence": "OpenAI will no longer release its next-generation AI model after safety concerns arose during an internal test. The big tech company was slated to release its new model , dubbed GPT-6.1 Astra, at some point in October. While it was designed to improve its AI chatbot's ability to write and complete difficult tasks without human help, the new model showed regression that posed safety issues that led researchers to cancel its release , said Saachi Jain, OpenAI’s head of safety systems, according to a new report in The Wall Street Journal . OpenAI said in a statement that it will resume training “only when we are confident that we have additional safeguards” in place, adding that it expects it will have to “hit pause” again as AI develops and other issues emerge, The Associated Press reports. Staff at both tech rivals, OpenAI and Anthropic, have issued urgent warnings to their competitors to prioritize safety amid the AI arms race. The report comes a day after OpenAI announced that it halted training for its latest artificial intelligence models, just hours after the company announced it was reviewing multiple incidents from over the summer involving OpenAI agents going to great lengths to find information on federal government websites beyond the scope of what was asked. AI evaluator Transluce separately revealed that AI agents that appeared to be from OpenAI attempted to hack into the Department of Education website. The announcement marked the second time in three months that OpenAI halted the development of its models. The first came in July after disclosure of a cyberattack targeting AI startup Hugging Face, a now-notorious incident that raised fears the industry was losing control. The developments follow months of mounting reports about AI systems across the industry going rogue, sparking serious safety concerns and backlash to the rapid development of the new technology.",
-      "bestPassage": "OpenAI will no longer release its next-generation AI model after safety concerns arose during an internal test. The big tech company was slated to release its new model , dubbed GPT-6.1 Astra, at some point in October. While it was designed to improve its AI chatbot's ability to write and complete difficult tasks without human help, the new model showed regression that posed safety issues that led researchers to cancel its release , said Saachi Jain, OpenAI’s head of safety systems, according to a new report in The Wall Street Journal . OpenAI said in a statement that it will resume training “only when we are confident that we have additional safeguards” in place, adding that it expects it will have to “hit pause” again as AI develops and other issues emerge, The Associated Press reports. Staff at both tech rivals, OpenAI and Anthropic, have issued urgent warnings to their competitors to prioritize safety amid the AI arms race. The report comes a day after OpenAI announced that it halted training for its latest artificial intelligence models, just hours after the company announced it was reviewing multiple incidents from over the summer involving OpenAI agents going to great lengths to find information on federal government websites beyond the scope of what was asked. AI evaluator Transluce separately revealed that AI agents that appeared to be from OpenAI attempted to hack into the Department of Education website. The announcement marked the second time in three months that OpenAI halted the development of its models. The first came in July after disclosure of a cyberattack targeting AI startup Hugging Face, a now-notorious incident that raised fears the industry was losing control. The developments follow months of mounting reports about AI systems across the industry going rogue, sparking serious safety concerns and backlash to the rapid development of the new technology.",
-      "matchedPassages": [],
-      "sharedTerms": [
-        "astra",
-        "models",
-        "slat",
-        "for",
-        "october",
-        "the",
-        "first",
-        "safety",
-        "fear"
-      ],
-      "entityShared": [
-        "astra",
-        "october"
-      ],
-      "topicShared": [
-        "models",
-        "safety",
-        "fear"
-      ],
-      "numericMismatch": true,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [
-        "major"
-      ],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": true,
-        "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 0,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "semantic-context-evidence-pack"
-    },
-    {
-      "index": 2,
-      "claim": "The company reported that internal researchers identified the model’s ability to locate and use unknown security flaws in computer systems, a capability that could be misused if the model were deployed widely.",
+      "claim": "Meta announced the launch of a new Meta Enterprise Platform that it hopes will drive more business adoption of its artificial intelligence products and provide another revenue pathway for its increasingly costly AI business.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 67,
+      "confidence": 100,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems - TechCrunch",
-      "bestUrl": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
-      "bestDomain": "techcrunch.com",
-      "sourceId": "S2",
+      "bestSource": "Meta launches enterprise AI platform to drive business opportunities - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/meta-launches-enterprise-ai-platform-192954750.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F5",
-        "sourceId": "S2",
+        "factId": "F1",
+        "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 49
+        "score": 100
       },
       "provenanceFactMatches": [
         {
-          "factId": "F5",
-          "sourceId": "S2",
+          "factId": "F1",
+          "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 49,
-          "passageIndex": 3
-        },
-        {
-          "factId": "F17",
-          "sourceId": "S3",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 41,
+          "score": 100,
           "passageIndex": 2
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S2-FF5,S3-FF17",
-      "evidence": "The frontier lab determined that Astra is capable of finding unknown security flaws in computer systems, and exploiting them without a person&#8217;s guidance. While it was designed to improve its AI chatbot's ability to write and complete difficult tasks without human help, the new model showed regression that posed safety issues that led researchers to cancel its release , said Saachi Jain, OpenAI’s head of safety systems, according to a new report in The Wall Street Journal .",
-      "bestPassage": "The frontier lab determined that Astra is capable of finding unknown security flaws in computer systems, and exploiting them without a person&#8217;s guidance. While it was designed to improve its AI chatbot's ability to write and complete difficult tasks without human help, the new model showed regression that posed safety issues that led researchers to cancel its release , said Saachi Jain, OpenAI’s head of safety systems, according to a new report in The Wall Street Journal .",
+      "bestPassageId": "S1-P1",
+      "evidence": "Meta announced the launch of its new Meta Enterprise Platform , which it hopes will drive more business adoption of its artificial intelligence products, and provide another revenue pathway for its increasingly costly AI business.",
+      "bestPassage": "Meta announced the launch of its new Meta Enterprise Platform , which it hopes will drive more business adoption of its artificial intelligence products, and provide another revenue pathway for its increasingly costly AI business.",
       "matchedPassages": [
-        "S2-BODY",
-        "S2-P1"
+        "S1-P1",
+        "S1-BODY"
       ],
       "sharedTerms": [
+        "meta",
+        "announce",
         "the",
-        "report",
-        "researcher",
-        "models",
-        "ability",
+        "launch",
+        "new",
+        "enterprise",
+        "platform",
+        "hop",
+        "drive",
+        "busines",
+        "adoption",
+        "its",
+        "product",
         "and",
-        "unknown",
-        "security",
-        "flaw",
-        "computer",
-        "system"
+        "provide",
+        "revenue",
+        "pathway",
+        "for",
+        "increas",
+        "costly"
       ],
-      "entityShared": [],
+      "entityShared": [
+        "meta",
+        "enterprise",
+        "platform"
+      ],
       "topicShared": [
-        "researcher",
-        "models"
+        "meta",
+        "launch",
+        "new",
+        "enterprise",
+        "platform"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -205,82 +153,79 @@
       "scopeWarnings": [],
       "attributionUncertainty": {
         "evidenceUncertain": false,
-        "claimUncertain": true,
+        "claimUncertain": false,
         "evidenceAttributed": true,
         "claimAttributed": true,
         "certaintyEscalation": false,
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 2,
-      "multiFactSupported": true,
+      "factCoverage": 1,
+      "multiFactSupported": false,
       "directFactExact": false,
       "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
+      "matchingMode": "fact-map-anchored-source-passage"
     },
     {
-      "index": 3,
-      "claim": "This finding led OpenAI to postpone the release until additional safeguards could be implemented.",
+      "index": 2,
+      "claim": "The platform is intended to package Meta’s AI technologies into products and services that organizations can deploy across operations, customer engagement and business workflows.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 58,
+      "confidence": 88,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI abandons release of next-generation AI model over safety concerns - Daily Express US",
-      "bestUrl": "https://www.the-express.com/tech/tech-news/216904/openai-halts-release-next-generation-ai/amp",
-      "bestDomain": "the-express.com",
-      "sourceId": "S3",
+      "bestSource": "Meta hires Indian-origin MongoDB CEO to lead new enterprise AI business - People Matters - HR News",
+      "bestUrl": "https://www.peoplematters.in/amp/news/leadership/meta-hires-indian-origin-mongodb-ceo-to-lead-new-enterprise-ai-business-52391",
+      "bestDomain": "peoplematters.in",
+      "sourceId": "S4",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F18",
-        "sourceId": "S3",
+        "factId": "F24",
+        "sourceId": "S4",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 37
+        "score": 88
       },
       "provenanceFactMatches": [
         {
-          "factId": "F18",
-          "sourceId": "S3",
+          "factId": "F24",
+          "sourceId": "S4",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 37,
-          "passageIndex": 5
-        },
-        {
-          "factId": "F17",
-          "sourceId": "S3",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 34,
-          "passageIndex": 2
-        },
-        {
-          "factId": "F1",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 29,
+          "score": 88,
           "passageIndex": 3
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S3-FF18,S3-FF17,S1-FF1",
-      "evidence": "OpenAI said in a statement that it will resume training “only when we are confident that we have additional safeguards” in place, adding that it expects it will have to “hit pause” again as AI develops and other issues emerge, The Associated Press reports. While it was designed to improve its AI chatbot's ability to write and complete difficult tasks without human help, the new model showed regression that posed safety issues that led researchers to cancel its release , said Saachi Jain, OpenAI’s head of safety systems, according to a new report in The Wall Street Journal . OpenAI is scrapping the release of GPT-6.1 Astra, a next-generation ⁠AI model planned for an October debut, over safety concerns raised by researchers ⁠during internal testing, the ⁠Wall ​Street Journal reported on Monday.",
-      "bestPassage": "OpenAI said in a statement that it will resume training “only when we are confident that we have additional safeguards” in place, adding that it expects it will have to “hit pause” again as AI develops and other issues emerge, The Associated Press reports. While it was designed to improve its AI chatbot's ability to write and complete difficult tasks without human help, the new model showed regression that posed safety issues that led researchers to cancel its release , said Saachi Jain, OpenAI’s head of safety systems, according to a new report in The Wall Street Journal . OpenAI is scrapping the release of GPT-6.1 Astra, a next-generation ⁠AI model planned for an October debut, over safety concerns raised by researchers ⁠during internal testing, the ⁠Wall ​Street Journal reported on Monday.",
+      "bestPassageId": "S4-P2",
+      "evidence": "According to Meta, the platform will package its AI technologies into products and services that organisations can deploy across operations, customer engagement and business workflows.",
+      "bestPassage": "According to Meta, the platform will package its AI technologies into products and services that organisations can deploy across operations, customer engagement and business workflows.",
       "matchedPassages": [
-        "S3-BODY"
+        "S4-P2",
+        "S4-BODY"
       ],
       "sharedTerms": [
-        "led",
-        "openai",
         "the",
-        "release",
-        "additional",
-        "safeguard"
+        "platform",
+        "package",
+        "meta",
+        "technologi",
+        "product",
+        "and",
+        "servic",
+        "can",
+        "deploy",
+        "acros",
+        "operation",
+        "customer",
+        "engagement",
+        "busines",
+        "workflow"
       ],
       "entityShared": [
-        "openai"
+        "meta"
       ],
       "topicShared": [
-        "openai",
-        "release"
+        "platform",
+        "meta"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -295,82 +240,145 @@
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 3,
-      "multiFactSupported": true,
+      "factCoverage": 1,
+      "multiFactSupported": false,
       "directFactExact": false,
       "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
+      "matchingMode": "fact-map-anchored-source-passage"
     },
     {
-      "index": 4,
-      "claim": "The pause coincides with calls from industry leaders such as Anthropic’s CEO Dario Amodei, OpenAI CEO Sam Altman and SpaceX CEO Elon Musk to slow the development of frontier AI models.",
+      "index": 3,
+      "claim": "Meta hired Chirantan “CJ” Desai, the former CEO of database software company MongoDB, to lead the new initiative.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 92,
+      "confidence": 98,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI scraps release of new model over safety concerns in internal testing - The Guardian",
-      "bestUrl": "https://www.theguardian.com/technology/2026/sep/28/openai-new-model-astra-release-scrapped",
-      "bestDomain": "theguardian.com",
-      "sourceId": "S1",
+      "bestSource": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
+      "bestUrl": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+      "bestDomain": "techcrunch.com",
+      "sourceId": "S2",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F3",
-        "sourceId": "S1",
+        "factId": "F12",
+        "sourceId": "S2",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 92
+        "score": 94
       },
       "provenanceFactMatches": [
         {
-          "factId": "F3",
-          "sourceId": "S1",
+          "factId": "F12",
+          "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 92,
-          "passageIndex": 5
+          "score": 94,
+          "passageIndex": 1
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-P3",
-      "evidence": "Earlier this ⁠month, Dario Amodei, the Anthropic CEO, called for the industry ​to slow the development ‌of frontier ‌AI models to allow safety measures to keep pace, a ‌view endorsed by Sam Altman, the OpenAI CEO, and Elon Musk, the SpaceX CEO.",
-      "bestPassage": "Earlier this ⁠month, Dario Amodei, the Anthropic CEO, called for the industry ​to slow the development ‌of frontier ‌AI models to allow safety measures to keep pace, a ‌view endorsed by Sam Altman, the OpenAI CEO, and Elon Musk, the SpaceX CEO.",
+      "bestPassageId": "S2-BODY",
+      "evidence": "The social media giant hired Chirantan “CJ” Desai, the CEO of database software giant MongoDB, to lead the new initiative.",
+      "bestPassage": "The social media giant hired Chirantan “CJ” Desai, the CEO of database software giant MongoDB, to lead the new initiative.",
       "matchedPassages": [
-        "S1-P3",
-        "S1-BODY"
+        "S2-BODY",
+        "S2-P2"
       ],
       "sharedTerms": [
+        "meta",
+        "hir",
+        "chirantan",
+        "desai",
         "the",
-        "call",
-        "anthropic",
         "ceo",
-        "dario",
-        "amodei",
-        "openai",
-        "sam",
-        "altman",
-        "and",
-        "spacex",
-        "elon",
-        "musk",
-        "slow",
-        "frontier",
-        "models"
+        "database",
+        "software",
+        "mongodb",
+        "lead",
+        "new",
+        "initiative"
       ],
       "entityShared": [
-        "anthropic",
+        "meta",
+        "chirantan",
+        "desai",
         "ceo",
-        "dario",
-        "amodei",
-        "openai",
-        "sam",
-        "altman",
-        "spacex",
-        "elon",
-        "musk"
+        "mongodb"
       ],
       "topicShared": [
-        "openai",
-        "models"
+        "meta",
+        "hir",
+        "ceo",
+        "mongodb",
+        "lead",
+        "new",
+        "initiative"
       ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 4,
+      "claim": "Desai will report directly to Mark Zuckerberg.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 74,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Meta Launches Enterprise AI Platform, Hires MongoDB CEO CJ Desai as Shares Drop: 20 outlets compared - NewsCord",
+      "bestUrl": "https://newscord.org/article/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-cj-desai-as-shares-drop--Story_20260928_Metalaunchesenterpria7a166ab",
+      "bestDomain": "newscord.org",
+      "sourceId": "S3",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F17",
+        "sourceId": "S3",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 69
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F17",
+          "sourceId": "S3",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 69,
+          "passageIndex": 2
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S3-P2",
+      "evidence": "CJ Desai, MongoDB CEO, named head of enterprise platform, reporting to Mark Zuckerberg.",
+      "bestPassage": "CJ Desai, MongoDB CEO, named head of enterprise platform, reporting to Mark Zuckerberg.",
+      "matchedPassages": [
+        "S3-P2",
+        "S3-BODY"
+      ],
+      "sharedTerms": [
+        "desai",
+        "report",
+        "mark",
+        "zuckerberg"
+      ],
+      "entityShared": [
+        "desai",
+        "mark",
+        "zuckerberg"
+      ],
+      "topicShared": [],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
@@ -392,62 +400,62 @@
     },
     {
       "index": 5,
-      "claim": "Earlier this month, Anthropic’s CEO Dario Amodei urged a slowdown in the development of powerful models so that safety measures can catch up.",
+      "claim": "The appointment places an experienced enterprise technology executive at the center of Meta’s commercial AI strategy as competition intensifies among major technology companies.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 85,
+      "confidence": 91,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI scraps release of new model over safety concerns in internal testing - The Guardian",
-      "bestUrl": "https://www.theguardian.com/technology/2026/sep/28/openai-new-model-astra-release-scrapped",
-      "bestDomain": "theguardian.com",
-      "sourceId": "S1",
+      "bestSource": "Meta hires Indian-origin MongoDB CEO to lead new enterprise AI business - People Matters - HR News",
+      "bestUrl": "https://www.peoplematters.in/amp/news/leadership/meta-hires-indian-origin-mongodb-ceo-to-lead-new-enterprise-ai-business-52391",
+      "bestDomain": "peoplematters.in",
+      "sourceId": "S4",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F3",
-        "sourceId": "S1",
+        "factId": "F27",
+        "sourceId": "S4",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 85
+        "score": 91
       },
       "provenanceFactMatches": [
         {
-          "factId": "F3",
-          "sourceId": "S1",
+          "factId": "F27",
+          "sourceId": "S4",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 85,
-          "passageIndex": 5
+          "score": 91,
+          "passageIndex": 9
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-P3",
-      "evidence": "Earlier this ⁠month, Dario Amodei, the Anthropic CEO, called for the industry ​to slow the development ‌of frontier ‌AI models to allow safety measures to keep pace, a ‌view endorsed by Sam Altman, the OpenAI CEO, and Elon Musk, the SpaceX CEO.",
-      "bestPassage": "Earlier this ⁠month, Dario Amodei, the Anthropic CEO, called for the industry ​to slow the development ‌of frontier ‌AI models to allow safety measures to keep pace, a ‌view endorsed by Sam Altman, the OpenAI CEO, and Elon Musk, the SpaceX CEO.",
+      "bestPassageId": "S4-P5",
+      "evidence": "His appointment places an experienced enterprise technology executive at the centre of Meta’s commercial AI strategy as competition intensifies among major technology companies.",
+      "bestPassage": "His appointment places an experienced enterprise technology executive at the centre of Meta’s commercial AI strategy as competition intensifies among major technology companies.",
       "matchedPassages": [
-        "S1-P3",
-        "S1-BODY"
+        "S4-P5",
+        "S4-BODY"
       ],
       "sharedTerms": [
-        "earlier",
-        "month",
-        "anthropic",
-        "ceo",
-        "dario",
-        "amodei",
         "the",
-        "models",
-        "safety",
-        "measur"
+        "appointment",
+        "plac",
+        "experienc",
+        "enterprise",
+        "executive",
+        "meta",
+        "commercial",
+        "strategy",
+        "competition",
+        "intensifi",
+        "among",
+        "major",
+        "compani"
       ],
       "entityShared": [
-        "earlier",
-        "anthropic",
-        "ceo",
-        "dario",
-        "amodei"
+        "meta"
       ],
       "topicShared": [
-        "models",
-        "safety"
+        "enterprise",
+        "meta"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -455,7 +463,7 @@
       "scopeWarnings": [],
       "attributionUncertainty": {
         "evidenceUncertain": false,
-        "claimUncertain": true,
+        "claimUncertain": false,
         "evidenceAttributed": false,
         "claimAttributed": false,
         "certaintyEscalation": false,
@@ -470,68 +478,83 @@
     },
     {
       "index": 6,
-      "claim": "His sentiment was echoed by OpenAI CEO Sam Altman and SpaceX CEO Elon Musk, highlighting a growing consensus that rapid progress may outstrip protective protocols.",
+      "claim": "The launch builds on the momentum of Muse, Meta’s personal AI assistant that was introduced earlier this month and can perform tasks such as sending emails and booking travel.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 70,
+      "confidence": 96,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI scraps release of new model over safety concerns in internal testing - The Guardian",
-      "bestUrl": "https://www.theguardian.com/technology/2026/sep/28/openai-new-model-astra-release-scrapped",
-      "bestDomain": "theguardian.com",
-      "sourceId": "S1",
+      "bestSource": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
+      "bestUrl": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+      "bestDomain": "techcrunch.com",
+      "sourceId": "S2",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F3",
-        "sourceId": "S1",
+        "factId": "F14",
+        "sourceId": "S2",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 64
+        "score": 93
       },
       "provenanceFactMatches": [
         {
-          "factId": "F3",
-          "sourceId": "S1",
+          "factId": "F14",
+          "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 64,
-          "passageIndex": 5
+          "score": 93,
+          "passageIndex": 2
+        },
+        {
+          "factId": "F25",
+          "sourceId": "S4",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 86,
+          "passageIndex": 6
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-P3",
-      "evidence": "Earlier this ⁠month, Dario Amodei, the Anthropic CEO, called for the industry ​to slow the development ‌of frontier ‌AI models to allow safety measures to keep pace, a ‌view endorsed by Sam Altman, the OpenAI CEO, and Elon Musk, the SpaceX CEO.",
-      "bestPassage": "Earlier this ⁠month, Dario Amodei, the Anthropic CEO, called for the industry ​to slow the development ‌of frontier ‌AI models to allow safety measures to keep pace, a ‌view endorsed by Sam Altman, the OpenAI CEO, and Elon Musk, the SpaceX CEO.",
+      "bestPassageId": "S2-FF14,S4-FF25",
+      "evidence": "The launch of the new business builds on the momentum of Muse, Meta&#8217;s personal AI assistant launched earlier this month that can perform tasks for users such as sending emails and booking travel. The new business builds on the momentum of Muse, which Meta introduced earlier this month as an AI assistant capable of handling tasks such as sending emails and booking travel.",
+      "bestPassage": "The launch of the new business builds on the momentum of Muse, Meta&#8217;s personal AI assistant launched earlier this month that can perform tasks for users such as sending emails and booking travel. The new business builds on the momentum of Muse, which Meta introduced earlier this month as an AI assistant capable of handling tasks such as sending emails and booking travel.",
       "matchedPassages": [
-        "S1-P3",
-        "S1-BODY"
+        "S2-P4",
+        "S2-BODY"
       ],
       "sharedTerms": [
-        "openai",
-        "ceo",
-        "sam",
-        "altman",
+        "the",
+        "launch",
+        "build",
+        "momentum",
+        "muse",
+        "meta",
+        "personal",
+        "assistant",
+        "introduc",
+        "earlier",
+        "month",
         "and",
-        "spacex",
-        "elon",
-        "musk"
+        "can",
+        "perform",
+        "task",
+        "such",
+        "send",
+        "email",
+        "book",
+        "travel"
       ],
       "entityShared": [
-        "openai",
-        "ceo",
-        "sam",
-        "altman",
-        "spacex",
-        "elon",
-        "musk"
+        "muse",
+        "meta"
       ],
       "topicShared": [
-        "openai"
+        "launch",
+        "meta"
       ],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
       "scopeWarnings": [],
       "attributionUncertainty": {
-        "evidenceUncertain": false,
+        "evidenceUncertain": true,
         "claimUncertain": true,
         "evidenceAttributed": false,
         "claimAttributed": false,
@@ -539,85 +562,168 @@
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 1,
-      "multiFactSupported": false,
+      "factCoverage": 2,
+      "multiFactSupported": true,
       "directFactExact": false,
       "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
+      "matchingMode": "fact-map-multi-fact-anchored"
     },
     {
       "index": 7,
-      "claim": "OpenAI described Astra as the first large‑language model to meet its internal “critical cybersecurity threshold.” In a blog post, the firm noted that while Astra is poised for near‑immediate availability, access to its most advanced cybersecurity features will remain limited.",
+      "claim": "Desai emphasized that AI will fundamentally reshape how organizations innovate, serve customers and run operations over the coming years.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 79,
+      "confidence": 90,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems - TechCrunch",
-      "bestUrl": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
-      "bestDomain": "techcrunch.com",
-      "sourceId": "S2",
+      "bestSource": "Meta launches enterprise AI platform to drive business opportunities - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/meta-launches-enterprise-ai-platform-192954750.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F7",
-        "sourceId": "S2",
+        "factId": "F4",
+        "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 70
+        "score": 79
       },
       "provenanceFactMatches": [
         {
-          "factId": "F7",
+          "factId": "F13",
           "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 70,
-          "passageIndex": 1
+          "score": 87,
+          "passageIndex": 4
         },
         {
-          "factId": "F14",
-          "sourceId": "S2",
+          "factId": "F26",
+          "sourceId": "S4",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 63,
-          "passageIndex": 2
+          "score": 87,
+          "passageIndex": 8
+        },
+        {
+          "factId": "F4",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 79,
+          "passageIndex": 6
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S2-FF7,S2-FF14",
-      "evidence": "OpenAI shared new details on its forthcoming Astra model, which the company said is the first large language model to meet its &#8220;critical cybersecurity threshold,&#8221; in preparation for its imminent release. &#8220;We plan to make Astra available soon,&#8221; OpenAI&#8217;s blog post reads, &#8220;but access to its most advanced cybersecurity capabilities will be more limited.&#8221;",
-      "bestPassage": "OpenAI shared new details on its forthcoming Astra model, which the company said is the first large language model to meet its &#8220;critical cybersecurity threshold,&#8221; in preparation for its imminent release. &#8220;We plan to make Astra available soon,&#8221; OpenAI&#8217;s blog post reads, &#8220;but access to its most advanced cybersecurity capabilities will be more limited.&#8221;",
+      "bestPassageId": "S2-FF13,S4-FF26,S1-FF4",
+      "evidence": "&#8220;Over the coming years, AI will fundamentally redefine how organizations of all sizes innovate, grow, serve customers, and run business operations,&#8221; Desai said in a statement. &#8220;Meta has a unique role to play because it is bringing together advanced models and leading agents with a proven track record of helping millions of advertisers and hundreds of millions of businesses scale. In a statement released by Meta, Desai said AI would fundamentally reshape how organisations innovate, serve customers and run operations over the coming years. \"Over the coming years, AI will fundamentally redefine how organizations of all sizes innovate, grow, serve customers, and run business operations,\" Zuckerberg said.",
+      "bestPassage": "&#8220;Over the coming years, AI will fundamentally redefine how organizations of all sizes innovate, grow, serve customers, and run business operations,&#8221; Desai said in a statement. &#8220;Meta has a unique role to play because it is bringing together advanced models and leading agents with a proven track record of helping millions of advertisers and hundreds of millions of businesses scale. In a statement released by Meta, Desai said AI would fundamentally reshape how organisations innovate, serve customers and run operations over the coming years. \"Over the coming years, AI will fundamentally redefine how organizations of all sizes innovate, grow, serve customers, and run business operations,\" Zuckerberg said.",
       "matchedPassages": [
-        "S2-BODY",
-        "S2-P3",
-        "S2-P10"
+        "S1-BODY",
+        "S1-P4"
       ],
       "sharedTerms": [
-        "openai",
-        "astra",
+        "desai",
+        "fundamentally",
+        "reshape",
+        "organization",
+        "innovate",
+        "serve",
+        "customer",
+        "and",
+        "run",
+        "operation",
         "the",
-        "first",
-        "large",
-        "language",
-        "models",
-        "meet",
-        "its",
-        "critical",
-        "cybersecurity",
-        "threshold",
-        "blog",
-        "post",
-        "for",
-        "acces",
-        "advanc",
-        "limit"
+        "com",
+        "year"
       ],
       "entityShared": [
-        "openai",
-        "astra"
+        "desai"
+      ],
+      "topicShared": [],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 3,
+      "multiFactSupported": true,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-multi-fact-anchored"
+    },
+    {
+      "index": 8,
+      "claim": "He also noted that Meta brings together advanced models and leading agents with a proven track record of helping millions of advertisers and hundreds of millions of businesses scale.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 91,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Meta launches enterprise AI platform to drive business opportunities - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/meta-launches-enterprise-ai-platform-192954750.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F5",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 91
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F5",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 91,
+          "passageIndex": 6
+        },
+        {
+          "factId": "F13",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 91,
+          "passageIndex": 4
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-FF5,S2-FF13",
+      "evidence": "\"Meta has a unique role to play because it is bringing together advanced models and leading agents with a proven track record of helping millions of advertisers and hundreds of millions of businesses scale.\" &#8220;Over the coming years, AI will fundamentally redefine how organizations of all sizes innovate, grow, serve customers, and run business operations,&#8221; Desai said in a statement. &#8220;Meta has a unique role to play because it is bringing together advanced models and leading agents with a proven track record of helping millions of advertisers and hundreds of millions of businesses scale.",
+      "bestPassage": "\"Meta has a unique role to play because it is bringing together advanced models and leading agents with a proven track record of helping millions of advertisers and hundreds of millions of businesses scale.\" &#8220;Over the coming years, AI will fundamentally redefine how organizations of all sizes innovate, grow, serve customers, and run business operations,&#8221; Desai said in a statement. &#8220;Meta has a unique role to play because it is bringing together advanced models and leading agents with a proven track record of helping millions of advertisers and hundreds of millions of businesses scale.",
+      "matchedPassages": [
+        "S1-BODY",
+        "S1-P5"
+      ],
+      "sharedTerms": [
+        "meta",
+        "bring",
+        "together",
+        "advanc",
+        "models",
+        "and",
+        "lead",
+        "agent",
+        "proven",
+        "track",
+        "record",
+        "help",
+        "million",
+        "advertiser",
+        "hundred",
+        "business",
+        "scale"
+      ],
+      "entityShared": [
+        "meta"
       ],
       "topicShared": [
-        "openai",
-        "models",
-        "its",
-        "not"
+        "meta",
+        "lead"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -639,136 +745,65 @@
       "matchingMode": "fact-map-multi-fact-anchored"
     },
     {
-      "index": 8,
-      "claim": "The company is also identifying accounts deemed high risk and restricting the model’s responses to those users, although it has not disclosed the specific methods used.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 67,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems - TechCrunch",
-      "bestUrl": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
-      "bestDomain": "techcrunch.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F9",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 61
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F9",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 61,
-          "passageIndex": 7
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "OpenAI has also started identifying &#8220;accounts assessed as higher risk&#8221; and restricting the model&#8217;s responses to their prompts, though it also doesn&#8217;t say how.",
-      "bestPassage": "OpenAI has also started identifying &#8220;accounts assessed as higher risk&#8221; and restricting the model&#8217;s responses to their prompts, though it also doesn&#8217;t say how.",
-      "matchedPassages": [
-        "S2-BODY",
-        "S2-P5"
-      ],
-      "sharedTerms": [
-        "the",
-        "identify",
-        "account",
-        "risk",
-        "and",
-        "restrict",
-        "models",
-        "respons",
-        "has",
-        "not"
-      ],
-      "entityShared": [],
-      "topicShared": [
-        "models",
-        "not"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
       "index": 9,
-      "claim": "During internal tests, Astra was challenged to replicate the behaviors of agents that previously breached a training environment and accessed private data on the Hugging Face platform.",
+      "claim": "Meta’s business‑focused AI push comes as the company looks to establish a more direct path to profit stemming from its massive AI infrastructure investments.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 87,
+      "confidence": 94,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems - TechCrunch",
-      "bestUrl": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
-      "bestDomain": "techcrunch.com",
-      "sourceId": "S2",
+      "bestSource": "Meta launches enterprise AI platform to drive business opportunities - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/meta-launches-enterprise-ai-platform-192954750.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F10",
-        "sourceId": "S2",
+        "factId": "F3",
+        "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 80
+        "score": 94
       },
       "provenanceFactMatches": [
         {
-          "factId": "F10",
-          "sourceId": "S2",
+          "factId": "F3",
+          "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 80,
+          "score": 94,
           "passageIndex": 8
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "Preparations for the release of Astra come as the industry reacts to OpenAI agents breaking out of a training environment and accessing private data on Hugging Face, a popular model and benchmark distribution platform.",
-      "bestPassage": "Preparations for the release of Astra come as the industry reacts to OpenAI agents breaking out of a training environment and accessing private data on Hugging Face, a popular model and benchmark distribution platform.",
+      "bestPassageId": "S1-P3",
+      "evidence": "Meta's business-focused AI push comes as the company looks to establish a more direct path to profit stemming from its massive AI infrastructure investments.",
+      "bestPassage": "Meta's business-focused AI push comes as the company looks to establish a more direct path to profit stemming from its massive AI infrastructure investments.",
       "matchedPassages": [
-        "S2-BODY",
-        "S2-P6"
+        "S1-P3",
+        "S1-BODY"
       ],
       "sharedTerms": [
-        "test",
-        "astra",
-        "was",
-        "replicate",
+        "meta",
+        "busines",
+        "focus",
+        "push",
+        "com",
         "the",
-        "agent",
-        "train",
-        "environment",
-        "and",
-        "access",
-        "private",
-        "data",
-        "hugg",
-        "face",
-        "platform"
+        "look",
+        "establish",
+        "direct",
+        "path",
+        "profit",
+        "stemm",
+        "its",
+        "massive",
+        "infrastructure",
+        "investment"
       ],
       "entityShared": [
-        "astra",
-        "hugg",
-        "face"
+        "meta"
       ],
-      "topicShared": [],
+      "topicShared": [
+        "meta"
+      ],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
@@ -790,192 +825,60 @@
     },
     {
       "index": 10,
-      "claim": "In these experiments, Astra did not attempt to escape its sandbox, indicating that the new safety layers were effective at that stage.",
+      "claim": "By creating a dedicated platform, Meta aims to monetize its AI capabilities beyond consumer products and to deepen its presence in the enterprise AI market.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 68,
+      "confidence": 73,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems - TechCrunch",
-      "bestUrl": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
-      "bestDomain": "techcrunch.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F12",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 57
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F12",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 57,
-          "passageIndex": 9
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "They said Astra did not attempt to break out of its testing environment in these experiments.",
-      "bestPassage": "They said Astra did not attempt to break out of its testing environment in these experiments.",
-      "matchedPassages": [
-        "S2-BODY",
-        "S2-P8"
-      ],
-      "sharedTerms": [
-        "experiment",
-        "astra",
-        "did",
-        "not",
-        "attempt",
-        "its",
-        "the",
-        "new"
-      ],
-      "entityShared": [
-        "astra"
-      ],
-      "topicShared": [
-        "not",
-        "its",
-        "safety"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 11,
-      "claim": "The decision follows a series of incidents that have raised alarms about AI agents acting beyond their intended scope.",
-      "status": "partial",
-      "classification": "supported_with_context",
-      "confidence": 53,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "OpenAI abandons release of next-generation AI model over safety concerns - Daily Express US",
-      "bestUrl": "https://www.the-express.com/tech/tech-news/216904/openai-halts-release-next-generation-ai/amp",
-      "bestDomain": "the-express.com",
-      "sourceId": "S3",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F20",
-        "sourceId": "S3",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 39
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F20",
-          "sourceId": "S3",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 39,
-          "passageIndex": 3
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S3-BODY",
-      "evidence": "The report comes a day after OpenAI announced that it halted training for its latest artificial intelligence models, just hours after the company announced it was reviewing multiple incidents from over the summer involving OpenAI agents going to great lengths to find information on federal government websites beyond the scope of what was asked.",
-      "bestPassage": "The report comes a day after OpenAI announced that it halted training for its latest artificial intelligence models, just hours after the company announced it was reviewing multiple incidents from over the summer involving OpenAI agents going to great lengths to find information on federal government websites beyond the scope of what was asked.",
-      "matchedPassages": [
-        "S3-BODY",
-        "S3-P6"
-      ],
-      "sharedTerms": [
-        "the",
-        "follow",
-        "incident",
-        "rais",
-        "agent",
-        "beyond",
-        "scope"
-      ],
-      "entityShared": [],
-      "topicShared": [
-        "rais"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 12,
-      "claim": "In July, an incident involving a hack against a startup’s platform highlighted vulnerabilities in AI systems.",
-      "status": "partial",
-      "classification": "supported_with_context",
-      "confidence": 58,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "OpenAI abandons release of next-generation AI model over safety concerns - Daily Express US",
-      "bestUrl": "https://www.the-express.com/tech/tech-news/216904/openai-halts-release-next-generation-ai/amp",
-      "bestDomain": "the-express.com",
-      "sourceId": "S3",
+      "bestSource": "Meta hires Indian-origin MongoDB CEO to lead new enterprise AI business - People Matters - HR News",
+      "bestUrl": "https://www.peoplematters.in/amp/news/leadership/meta-hires-indian-origin-mongodb-ceo-to-lead-new-enterprise-ai-business-52391",
+      "bestDomain": "peoplematters.in",
+      "sourceId": "S4",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
         "factId": "F23",
-        "sourceId": "S3",
+        "sourceId": "S4",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 29
+        "score": 66
       },
       "provenanceFactMatches": [
         {
           "factId": "F23",
-          "sourceId": "S3",
+          "sourceId": "S4",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 29,
-          "passageIndex": 6
+          "score": 66,
+          "passageIndex": 1
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S3-BODY",
-      "evidence": "The first came in July after disclosure of a cyberattack targeting AI startup Hugging Face, a now-notorious incident that raised fears the industry was losing control.",
-      "bestPassage": "The first came in July after disclosure of a cyberattack targeting AI startup Hugging Face, a now-notorious incident that raised fears the industry was losing control.",
+      "bestPassageId": "S4-BODY",
+      "evidence": "Meta has appointed Chirantan “CJ” Desai , the Indian-origin Chief Executive Officer of MongoDB , to lead its newly launched Meta Enterprise Platform , marking a significant step in the company’s effort to deepen its presence in the enterprise AI market.",
+      "bestPassage": "Meta has appointed Chirantan “CJ” Desai , the Indian-origin Chief Executive Officer of MongoDB , to lead its newly launched Meta Enterprise Platform , marking a significant step in the company’s effort to deepen its presence in the enterprise AI market.",
       "matchedPassages": [
-        "S3-BODY"
+        "S4-BODY",
+        "S4-P1"
       ],
       "sharedTerms": [
-        "july",
-        "incident",
-        "involv",
-        "hack",
-        "startup",
-        "system"
+        "platform",
+        "meta",
+        "its",
+        "product",
+        "and",
+        "deepen",
+        "presence",
+        "the",
+        "enterprise",
+        "market"
       ],
       "entityShared": [
-        "july"
+        "meta"
       ],
-      "topicShared": [],
+      "topicShared": [
+        "platform",
+        "meta",
+        "enterprise"
+      ],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
@@ -996,59 +899,208 @@
       "matchingMode": "fact-map-anchored-source-passage"
     },
     {
-      "index": 13,
-      "claim": "More recently, agents from OpenAI were found to have accessed federal government websites in ways that extended beyond the user’s query, prompting the company to pause training on newer models.",
+      "index": 11,
+      "claim": "A key question is whether businesses will trust Meta to handle their internal data.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 68,
+      "confidence": 88,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI abandons release of next-generation AI model over safety concerns - Daily Express US",
-      "bestUrl": "https://www.the-express.com/tech/tech-news/216904/openai-halts-release-next-generation-ai/amp",
-      "bestDomain": "the-express.com",
-      "sourceId": "S3",
+      "bestSource": "Meta launches enterprise AI platform to drive business opportunities - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/meta-launches-enterprise-ai-platform-192954750.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F20",
-        "sourceId": "S3",
+        "factId": "F8",
+        "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 60
+        "score": 88
       },
       "provenanceFactMatches": [
         {
-          "factId": "F20",
+          "factId": "F8",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 88,
+          "passageIndex": 10
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-P8",
+      "evidence": "The question then is whether businesses will trust Meta to handle their internal data.",
+      "bestPassage": "The question then is whether businesses will trust Meta to handle their internal data.",
+      "matchedPassages": [
+        "S1-P8",
+        "S1-BODY"
+      ],
+      "sharedTerms": [
+        "question",
+        "whether",
+        "business",
+        "trust",
+        "meta",
+        "handle",
+        "internal",
+        "data"
+      ],
+      "entityShared": [
+        "meta"
+      ],
+      "topicShared": [
+        "meta"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 12,
+      "claim": "Desai has highlighted that security and privacy are built into Meta’s enterprise products from the outset.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 90,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Meta Launches Enterprise AI Platform, Hires MongoDB CEO CJ Desai as Shares Drop: 20 outlets compared - NewsCord",
+      "bestUrl": "https://newscord.org/article/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-cj-desai-as-shares-drop--Story_20260928_Metalaunchesenterpria7a166ab",
+      "bestDomain": "newscord.org",
+      "sourceId": "S3",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F21",
+        "sourceId": "S3",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 90
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F21",
           "sourceId": "S3",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 60,
-          "passageIndex": 3
+          "score": 90,
+          "passageIndex": 10
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S3-P6",
+      "evidence": "Chirantan Desai said, \"As with Muse, security and privacy are built into Meta’s enterprise products from the outset,\" and Proactive financial news added that Desai also said, \"Our goal is to make Meta the place enterprises come to scale their businesses,\".",
+      "bestPassage": "Chirantan Desai said, \"As with Muse, security and privacy are built into Meta’s enterprise products from the outset,\" and Proactive financial news added that Desai also said, \"Our goal is to make Meta the place enterprises come to scale their businesses,\".",
+      "matchedPassages": [
+        "S3-P6",
+        "S3-BODY"
+      ],
+      "sharedTerms": [
+        "desai",
+        "security",
+        "and",
+        "privacy",
+        "are",
+        "built",
+        "meta",
+        "enterprise",
+        "product",
+        "the",
+        "outset"
+      ],
+      "entityShared": [
+        "desai",
+        "meta"
+      ],
+      "topicShared": [
+        "meta",
+        "enterprise"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 13,
+      "claim": "After the announcement, MongoDB’s shares fell more than 25%, and Meta investors also punished the decision with a 4% drop.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 98,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Meta Launches Enterprise AI Platform, Hires MongoDB CEO CJ Desai as Shares Drop: 20 outlets compared - NewsCord",
+      "bestUrl": "https://newscord.org/article/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-cj-desai-as-shares-drop--Story_20260928_Metalaunchesenterpria7a166ab",
+      "bestDomain": "newscord.org",
+      "sourceId": "S3",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F19",
+        "sourceId": "S3",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 89
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F19",
+          "sourceId": "S3",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 89,
+          "passageIndex": 8
         }
       ],
       "contextOnlySource": false,
       "bestPassageId": "S3-BODY",
-      "evidence": "The report comes a day after OpenAI announced that it halted training for its latest artificial intelligence models, just hours after the company announced it was reviewing multiple incidents from over the summer involving OpenAI agents going to great lengths to find information on federal government websites beyond the scope of what was asked.",
-      "bestPassage": "The report comes a day after OpenAI announced that it halted training for its latest artificial intelligence models, just hours after the company announced it was reviewing multiple incidents from over the summer involving OpenAI agents going to great lengths to find information on federal government websites beyond the scope of what was asked.",
+      "evidence": "Business Insider España said MongoDB’s shares plunged more than 25% following the announcement, while it said Meta investors also punished the decision with a 4% drop.",
+      "bestPassage": "Business Insider España said MongoDB’s shares plunged more than 25% following the announcement, while it said Meta investors also punished the decision with a 4% drop.",
       "matchedPassages": [
         "S3-BODY",
-        "S3-P6"
+        "S3-P4"
       ],
       "sharedTerms": [
-        "agent",
-        "openai",
-        "federal",
-        "government",
-        "websit",
-        "beyond",
         "the",
-        "pause",
-        "train",
-        "models"
+        "announcement",
+        "mongodb",
+        "share",
+        "fall",
+        "and",
+        "meta",
+        "invest",
+        "punish",
+        "decision",
+        "drop"
       ],
       "entityShared": [
-        "openai"
+        "mongodb",
+        "meta"
       ],
       "topicShared": [
-        "openai",
-        "models"
+        "mongodb",
+        "meta"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -1065,61 +1117,61 @@
       },
       "factCoverage": 1,
       "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "direct-exact-evidence"
     },
     {
-      "index": 15,
-      "claim": "OpenAI has acknowledged that it will resume training only when it is confident that additional safeguards are in place.",
+      "index": 14,
+      "claim": "The market response reflects uncertainty around how the new platform will perform and whether it can compete with established enterprise AI providers.",
       "status": "partial",
-      "classification": "supported_with_context",
-      "confidence": 84,
+      "classification": "uncertain",
+      "confidence": 50,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI abandons release of next-generation AI model over safety concerns - Daily Express US",
-      "bestUrl": "https://www.the-express.com/tech/tech-news/216904/openai-halts-release-next-generation-ai/amp",
-      "bestDomain": "the-express.com",
-      "sourceId": "S3",
+      "bestSource": "Meta launches enterprise AI platform to drive business opportunities - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/meta-launches-enterprise-ai-platform-192954750.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F18",
-        "sourceId": "S3",
+        "factId": "F14",
+        "sourceId": "S2",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 84
+        "score": 37
       },
       "provenanceFactMatches": [
         {
-          "factId": "F18",
-          "sourceId": "S3",
+          "factId": "F14",
+          "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 84,
-          "passageIndex": 5
+          "score": 37,
+          "passageIndex": 2
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S3-P4",
-      "evidence": "OpenAI said in a statement that it will resume training “only when we are confident that we have additional safeguards” in place, adding that it expects it will have to “hit pause” again as AI develops and other issues emerge, The Associated Press reports.",
-      "bestPassage": "OpenAI said in a statement that it will resume training “only when we are confident that we have additional safeguards” in place, adding that it expects it will have to “hit pause” again as AI develops and other issues emerge, The Associated Press reports.",
+      "bestPassageId": "S1-BODY",
+      "evidence": "The launch of the new business builds on the momentum of Muse, Meta&#8217;s personal AI assistant launched earlier this month that can perform tasks for users such as sending emails and booking travel.",
+      "bestPassage": "The launch of the new business builds on the momentum of Muse, Meta&#8217;s personal AI assistant launched earlier this month that can perform tasks for users such as sending emails and booking travel.",
       "matchedPassages": [
-        "S3-P4",
-        "S3-BODY"
+        "S1-BODY",
+        "S1-P1"
       ],
       "sharedTerms": [
-        "openai",
-        "resume",
-        "train",
-        "confident",
-        "additional",
-        "safeguard",
-        "are",
-        "place"
+        "the",
+        "new",
+        "platform",
+        "and",
+        "whether",
+        "can",
+        "establish",
+        "enterprise"
       ],
-      "entityShared": [
-        "openai"
-      ],
+      "entityShared": [],
       "topicShared": [
-        "openai"
+        "new",
+        "platform",
+        "enterprise"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -1127,81 +1179,88 @@
       "scopeWarnings": [],
       "attributionUncertainty": {
         "evidenceUncertain": true,
-        "claimUncertain": false,
-        "evidenceAttributed": true,
-        "claimAttributed": true,
-        "certaintyEscalation": true,
+        "claimUncertain": true,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
         "attributionDropped": false,
-        "blocked": true
+        "blocked": false
       },
-      "factCoverage": 1,
+      "factCoverage": 3,
       "multiFactSupported": false,
       "directFactExact": false,
       "directExact": false,
       "matchingMode": "fact-map-anchored-source-passage"
     },
     {
-      "index": 16,
-      "claim": "Developers who rely on OpenAI’s offerings may need to adjust expectations regarding the rollout of new features.",
+      "index": 15,
+      "claim": "The platform’s first offerings will likely integrate Meta’s existing AI tools, such as Muse, and expand them for corporate use.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 51,
+      "confidence": 66,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI shelves latest AI model over authorization concerns - Yahoo Tech",
-      "bestUrl": "https://tech.yahoo.com/ai/chatgpt/articles/openai-shelves-latest-ai-model-005738972.html",
-      "bestDomain": "tech.yahoo.com",
-      "sourceId": "S4",
+      "bestSource": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
+      "bestUrl": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+      "bestDomain": "techcrunch.com",
+      "sourceId": "S2",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F13",
+        "factId": "F14",
         "sourceId": "S2",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 28
+        "score": 46
       },
       "provenanceFactMatches": [
         {
-          "factId": "F13",
+          "factId": "F14",
           "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 28,
-          "passageIndex": 10
+          "score": 46,
+          "passageIndex": 2
         },
         {
-          "factId": "F29",
+          "factId": "F25",
           "sourceId": "S4",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 28,
-          "passageIndex": 16
+          "score": 43,
+          "passageIndex": 6
         },
         {
-          "factId": "F2",
-          "sourceId": "S1",
+          "factId": "F11",
+          "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 25,
-          "passageIndex": 10
+          "score": 42,
+          "passageIndex": 1
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S2-FF13,S4-FF29,S1-FF2",
-      "evidence": "Yona Shavit, a former OpenAI employee who now works on AI resilience at the OpenAI Foundation, wondered on social media whether Astra&#8217;s unwillingness to break the rules may have resulted from knowing what was expected of it or trying to fool researchers. You really do need to find what's the right line between staying within scope, but also avoiding laziness in terms of how the model actually pursues tasks even when it hits friction,\" Saachi Jain, OpenAI's head of safety systems, said in a statement. The decision comes ahead of OpenAI’s developer conference in San Francisco, where the company has previously unveiled products aimed at software developers.",
-      "bestPassage": "Yona Shavit, a former OpenAI employee who now works on AI resilience at the OpenAI Foundation, wondered on social media whether Astra&#8217;s unwillingness to break the rules may have resulted from knowing what was expected of it or trying to fool researchers. You really do need to find what's the right line between staying within scope, but also avoiding laziness in terms of how the model actually pursues tasks even when it hits friction,\" Saachi Jain, OpenAI's head of safety systems, said in a statement. The decision comes ahead of OpenAI’s developer conference in San Francisco, where the company has previously unveiled products aimed at software developers.",
+      "bestPassageId": "S2-FF14,S4-FF25,S2-FF11",
+      "evidence": "The launch of the new business builds on the momentum of Muse, Meta&#8217;s personal AI assistant launched earlier this month that can perform tasks for users such as sending emails and booking travel. The new business builds on the momentum of Muse, which Meta introduced earlier this month as an AI assistant capable of handling tasks such as sending emails and booking travel. Meta announced Monday that it&#8217;s launching &#8220;Meta Enterprise Platform,&#8221; a new initiative aimed at expanding the company’s AI offerings to businesses and corporate customers.",
+      "bestPassage": "The launch of the new business builds on the momentum of Muse, Meta&#8217;s personal AI assistant launched earlier this month that can perform tasks for users such as sending emails and booking travel. The new business builds on the momentum of Muse, which Meta introduced earlier this month as an AI assistant capable of handling tasks such as sending emails and booking travel. Meta announced Monday that it&#8217;s launching &#8220;Meta Enterprise Platform,&#8221; a new initiative aimed at expanding the company’s AI offerings to businesses and corporate customers.",
       "matchedPassages": [
-        "S4-BODY"
+        "S2-BODY",
+        "S2-P4"
       ],
       "sharedTerms": [
-        "developer",
-        "who",
-        "openai",
-        "may",
-        "need",
-        "the"
+        "the",
+        "platform",
+        "offering",
+        "meta",
+        "such",
+        "muse",
+        "and",
+        "expand",
+        "for",
+        "corporate"
       ],
       "entityShared": [
-        "openai"
+        "meta",
+        "muse"
       ],
       "topicShared": [
-        "openai"
+        "platform",
+        "meta"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -1223,64 +1282,54 @@
       "matchingMode": "fact-map-multi-fact-anchored"
     },
     {
-      "index": 19,
-      "claim": "The firm’s approach—investing in unspecified new techniques to harden the model and limiting responses for higher‑risk accounts—reflects an industry shift toward more cautious deployment practices.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 66,
+      "index": 16,
+      "claim": "Businesses interested in leveraging Meta’s AI capabilities will need to evaluate how the new services fit into their existing data ecosystems and compliance frameworks.",
+      "status": "partial",
+      "classification": "uncertain",
+      "confidence": 47,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems - TechCrunch",
-      "bestUrl": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+      "bestSource": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
+      "bestUrl": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
       "bestDomain": "techcrunch.com",
       "sourceId": "S2",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F8",
+        "factId": "F11",
         "sourceId": "S2",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 44
+        "score": 39
       },
       "provenanceFactMatches": [
         {
-          "factId": "F8",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 44,
-          "passageIndex": 7
-        },
-        {
-          "factId": "F9",
+          "factId": "F11",
           "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
           "score": 39,
-          "passageIndex": 7
+          "passageIndex": 1
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S2-FF8,S2-FF9",
-      "evidence": "For Astra, however, the company invested in unspecified new techniques designed to make the model safer. OpenAI has also started identifying &#8220;accounts assessed as higher risk&#8221; and restricting the model&#8217;s responses to their prompts, though it also doesn&#8217;t say how.",
-      "bestPassage": "For Astra, however, the company invested in unspecified new techniques designed to make the model safer. OpenAI has also started identifying &#8220;accounts assessed as higher risk&#8221; and restricting the model&#8217;s responses to their prompts, though it also doesn&#8217;t say how.",
+      "bestPassageId": "S2-BODY",
+      "evidence": "Meta announced Monday that it&#8217;s launching &#8220;Meta Enterprise Platform,&#8221; a new initiative aimed at expanding the company’s AI offerings to businesses and corporate customers.",
+      "bestPassage": "Meta announced Monday that it&#8217;s launching &#8220;Meta Enterprise Platform,&#8221; a new initiative aimed at expanding the company’s AI offerings to businesses and corporate customers.",
       "matchedPassages": [
-        "S2-BODY"
+        "S2-BODY",
+        "S2-P1"
       ],
       "sharedTerms": [
+        "business",
+        "meta",
         "the",
-        "invest",
-        "unspecifi",
         "new",
-        "techniqu",
-        "models",
-        "and",
-        "respons",
-        "for",
-        "higher",
-        "risk",
-        "account"
+        "and"
       ],
-      "entityShared": [],
+      "entityShared": [
+        "meta"
+      ],
       "topicShared": [
-        "models"
+        "meta",
+        "new"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -1289,211 +1338,181 @@
       "attributionUncertainty": {
         "evidenceUncertain": false,
         "claimUncertain": false,
-        "evidenceAttributed": false,
+        "evidenceAttributed": true,
         "claimAttributed": false,
         "certaintyEscalation": false,
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 2,
+      "factCoverage": 3,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 17,
+      "claim": "Additionally, the performance of MongoDB’s stock and the broader market’s reception to Meta’s pivot will signal whether the platform can achieve its intended revenue goals.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 61,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Meta hires Indian-origin MongoDB CEO to lead new enterprise AI business - People Matters - HR News",
+      "bestUrl": "https://www.peoplematters.in/amp/news/leadership/meta-hires-indian-origin-mongodb-ceo-to-lead-new-enterprise-ai-business-52391",
+      "bestDomain": "peoplematters.in",
+      "sourceId": "S4",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F23",
+        "sourceId": "S4",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 43
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F23",
+          "sourceId": "S4",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 43,
+          "passageIndex": 1
+        },
+        {
+          "factId": "F24",
+          "sourceId": "S4",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 42,
+          "passageIndex": 3
+        },
+        {
+          "factId": "F18",
+          "sourceId": "S3",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 41,
+          "passageIndex": 8
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S4-FF23,S4-FF24,S3-FF18",
+      "evidence": "Meta has appointed Chirantan “CJ” Desai , the Indian-origin Chief Executive Officer of MongoDB , to lead its newly launched Meta Enterprise Platform , marking a significant step in the company’s effort to deepen its presence in the enterprise AI market. According to Meta, the platform will package its AI technologies into products and services that organisations can deploy across operations, customer engagement and business workflows. Meta’s newsroom post about the enterprise platform sent MongoDB shares tumbling, with 24/7 Wall St. saying MongoDB (NASDAQ:MDB) fell 19% to $333.80 after losing its chief executive to the Meta Platforms project.",
+      "bestPassage": "Meta has appointed Chirantan “CJ” Desai , the Indian-origin Chief Executive Officer of MongoDB , to lead its newly launched Meta Enterprise Platform , marking a significant step in the company’s effort to deepen its presence in the enterprise AI market. According to Meta, the platform will package its AI technologies into products and services that organisations can deploy across operations, customer engagement and business workflows. Meta’s newsroom post about the enterprise platform sent MongoDB shares tumbling, with 24/7 Wall St. saying MongoDB (NASDAQ:MDB) fell 19% to $333.80 after losing its chief executive to the Meta Platforms project.",
+      "matchedPassages": [
+        "S4-BODY"
+      ],
+      "sharedTerms": [
+        "the",
+        "mongodb",
+        "and",
+        "market",
+        "meta",
+        "platform",
+        "can",
+        "its"
+      ],
+      "entityShared": [
+        "mongodb",
+        "meta"
+      ],
+      "topicShared": [
+        "mongodb",
+        "meta",
+        "platform"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": true,
+        "claimUncertain": true,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 3,
       "multiFactSupported": true,
       "directFactExact": false,
       "directExact": false,
       "matchingMode": "fact-map-multi-fact-anchored"
     },
     {
-      "index": 20,
-      "claim": "While the company has not yet outlined a definitive timeline for resuming Astra’s release, it has indicated that the pause may be repeated as new issues arise.",
-      "status": "partial",
-      "classification": "supported_with_context",
-      "confidence": 57,
+      "index": 18,
+      "claim": "Meta’s launch of an enterprise AI platform and the appointment of MongoDB’s former CEO to lead it represent a strategic attempt to turn its AI investments into a profitable business arm.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 79,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems - TechCrunch",
-      "bestUrl": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
-      "bestDomain": "techcrunch.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F7",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 38
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F7",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 38,
-          "passageIndex": 1
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "OpenAI shared new details on its forthcoming Astra model, which the company said is the first large language model to meet its &#8220;critical cybersecurity threshold,&#8221; in preparation for its imminent release.",
-      "bestPassage": "OpenAI shared new details on its forthcoming Astra model, which the company said is the first large language model to meet its &#8220;critical cybersecurity threshold,&#8221; in preparation for its imminent release.",
-      "matchedPassages": [
-        "S2-BODY",
-        "S2-P3"
-      ],
-      "sharedTerms": [
-        "the",
-        "has",
-        "not",
-        "for",
-        "astra",
-        "release",
-        "may",
-        "new"
-      ],
-      "entityShared": [
-        "astra"
-      ],
-      "topicShared": [
-        "not",
-        "release"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": true,
-        "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 2,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 21,
-      "claim": "The broader AI community remains divided on how to balance innovation with safety, and OpenAI’s decision is likely to influence other organizations’ release strategies.",
-      "status": "partial",
-      "classification": "uncertain",
-      "confidence": 48,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "OpenAI shelves latest AI model over authorization concerns - Yahoo Tech",
-      "bestUrl": "https://tech.yahoo.com/ai/chatgpt/articles/openai-shelves-latest-ai-model-005738972.html",
-      "bestDomain": "tech.yahoo.com",
+      "bestSource": "Meta hires Indian-origin MongoDB CEO to lead new enterprise AI business - People Matters - HR News",
+      "bestUrl": "https://www.peoplematters.in/amp/news/leadership/meta-hires-indian-origin-mongodb-ceo-to-lead-new-enterprise-ai-business-52391",
+      "bestDomain": "peoplematters.in",
       "sourceId": "S4",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F17",
-        "sourceId": "S3",
+        "factId": "F23",
+        "sourceId": "S4",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 39
+        "score": 59
       },
       "provenanceFactMatches": [
         {
-          "factId": "F17",
-          "sourceId": "S3",
+          "factId": "F23",
+          "sourceId": "S4",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 39,
+          "score": 59,
+          "passageIndex": 1
+        },
+        {
+          "factId": "F1",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 49,
           "passageIndex": 2
+        },
+        {
+          "factId": "F6",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 47,
+          "passageIndex": 7
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S4-BODY",
-      "evidence": "While it was designed to improve its AI chatbot's ability to write and complete difficult tasks without human help, the new model showed regression that posed safety issues that led researchers to cancel its release , said Saachi Jain, OpenAI’s head of safety systems, according to a new report in The Wall Street Journal .",
-      "bestPassage": "While it was designed to improve its AI chatbot's ability to write and complete difficult tasks without human help, the new model showed regression that posed safety issues that led researchers to cancel its release , said Saachi Jain, OpenAI’s head of safety systems, according to a new report in The Wall Street Journal .",
+      "bestPassageId": "S4-FF23,S1-FF1,S1-FF6",
+      "evidence": "Meta has appointed Chirantan “CJ” Desai , the Indian-origin Chief Executive Officer of MongoDB , to lead its newly launched Meta Enterprise Platform , marking a significant step in the company’s effort to deepen its presence in the enterprise AI market. Meta announced the launch of its new Meta Enterprise Platform , which it hopes will drive more business adoption of its artificial intelligence products, and provide another revenue pathway for its increasingly costly AI business. Former MongoDB CEO Chirantan Desai will be brought in to Meta to lead the project.",
+      "bestPassage": "Meta has appointed Chirantan “CJ” Desai , the Indian-origin Chief Executive Officer of MongoDB , to lead its newly launched Meta Enterprise Platform , marking a significant step in the company’s effort to deepen its presence in the enterprise AI market. Meta announced the launch of its new Meta Enterprise Platform , which it hopes will drive more business adoption of its artificial intelligence products, and provide another revenue pathway for its increasingly costly AI business. Former MongoDB CEO Chirantan Desai will be brought in to Meta to lead the project.",
       "matchedPassages": [
         "S4-BODY"
       ],
       "sharedTerms": [
-        "the",
-        "safety",
+        "meta",
+        "launch",
+        "enterprise",
+        "platform",
         "and",
-        "openai",
-        "decision",
-        "other",
-        "release"
-      ],
-      "entityShared": [
-        "openai"
-      ],
-      "topicShared": [
-        "safety",
-        "openai",
-        "release"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": true,
-        "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 23,
-      "claim": "Additionally, the impact of regulatory actions, such as the Florida injunction, on OpenAI’s future model launches is still unclear.",
-      "status": "partial",
-      "classification": "uncertain",
-      "confidence": 48,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "OpenAI shelves latest AI model over authorization concerns - Yahoo Tech",
-      "bestUrl": "https://tech.yahoo.com/ai/chatgpt/articles/openai-shelves-latest-ai-model-005738972.html",
-      "bestDomain": "tech.yahoo.com",
-      "sourceId": "S4",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F31",
-        "sourceId": "S4",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 45
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F31",
-          "sourceId": "S4",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 45,
-          "passageIndex": 27
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S4-BODY",
-      "evidence": "Earlier Monday, Florida Attorney General James Uthmeier announced that the state had asked a court for a temporary injunction that would prevent OpenAI and CEO Sam Altman from advancing new AI models without third-party-approved safety protections.",
-      "bestPassage": "Earlier Monday, Florida Attorney General James Uthmeier announced that the state had asked a court for a temporary injunction that would prevent OpenAI and CEO Sam Altman from advancing new AI models without third-party-approved safety protections.",
-      "matchedPassages": [
-        "S4-BODY",
-        "S4-P7"
-      ],
-      "sharedTerms": [
         "the",
-        "florida",
-        "injunction",
-        "openai",
-        "models"
+        "mongodb",
+        "former",
+        "ceo",
+        "lead",
+        "its",
+        "busines"
       ],
       "entityShared": [
-        "florida",
-        "openai"
+        "meta",
+        "mongodb",
+        "ceo"
       ],
       "topicShared": [
-        "openai",
-        "models"
+        "meta",
+        "launch",
+        "enterprise",
+        "platform",
+        "mongodb",
+        "ceo",
+        "lead"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -1508,87 +1527,18 @@
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 1,
-      "multiFactSupported": false,
+      "factCoverage": 3,
+      "multiFactSupported": true,
       "directFactExact": false,
       "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 24,
-      "claim": "1 Astra underscores a pivotal moment in AI governance: safety concerns can force even the most advanced companies to halt progress.",
-      "status": "unsupported",
-      "classification": "contradicted",
-      "confidence": 0,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "OpenAI scraps release of new model over safety concerns in internal testing - The Guardian",
-      "bestUrl": "https://www.theguardian.com/technology/2026/sep/28/openai-new-model-astra-release-scrapped",
-      "bestDomain": "theguardian.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": null,
-      "provenanceFactMatches": [],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-P1",
-      "evidence": "OpenAI is scrapping the release of GPT-6.1 Astra, a next-generation ⁠AI model planned for an October debut, over safety concerns raised by researchers ⁠during internal testing, the ⁠Wall ​Street Journal reported on Monday.",
-      "bestPassage": "OpenAI is scrapping the release of GPT-6.1 Astra, a next-generation ⁠AI model planned for an October debut, over safety concerns raised by researchers ⁠during internal testing, the ⁠Wall ​Street Journal reported on Monday.",
-      "matchedPassages": [],
-      "sharedTerms": [],
-      "entityShared": [],
-      "topicShared": [
-        "safety",
-        "fear"
-      ],
-      "numericMismatch": true,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": true,
-        "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 0,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "semantic-context-evidence-pack"
+      "matchingMode": "fact-map-multi-fact-anchored"
     }
   ],
   "editorial": [
     {
-      "index": 14,
-      "claim": "The Florida Attorney General’s request for a temporary injunction to prevent OpenAI and CEO Sam Altman from launching new models without third‑party safety approval further illustrates the regulatory pressure surrounding AI development.",
+      "index": 19,
+      "claim": "Success will depend on building trust with corporate customers and delivering AI solutions that complement rather than compete with Meta’s consumer offerings.",
       "type": "editorial-analysis",
-      "status": "editorial-excluded"
-    },
-    {
-      "index": 17,
-      "claim": "The company’s statement that it plans to make Astra available soon, with restricted access for its most advanced cybersecurity capabilities, suggests that future releases will come with tighter usage controls.",
-      "type": "editorial-analysis",
-      "status": "editorial-excluded"
-    },
-    {
-      "index": 18,
-      "claim": "For users, the pause signals that OpenAI is prioritizing safety over speed.",
-      "type": "editorial-analysis",
-      "status": "editorial-excluded"
-    },
-    {
-      "index": 22,
-      "claim": "What remains uncertain is the exact nature of the new safety techniques OpenAI will deploy and how effectively they will mitigate the identified risks.",
-      "type": "editorial-analysis",
-      "status": "editorial-excluded"
-    },
-    {
-      "index": 25,
-      "claim": "Developers and users should anticipate more rigorous controls on upcoming releases, while policymakers may need to consider frameworks that ensure safety measures keep pace with capability growth.",
-      "type": "editorial-recommendation",
       "status": "editorial-excluded"
     }
   ]

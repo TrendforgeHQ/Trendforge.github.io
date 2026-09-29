@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "title": "Breaking News: OpenAI said it would not release its newest artificial intelligence model over safety concerns raised by its researchers. - facebook.com",
-  "mode": "rich",
+  "title": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
+  "mode": "bounded",
   "wordBudget": {
-    "min": 540,
-    "max": 900,
-    "soft": 720
+    "min": 425,
+    "max": 750,
+    "soft": 588
   },
   "h2Budget": {
-    "preferredMin": 3,
-    "preferredMax": 5
+    "preferredMin": 2,
+    "preferredMax": 4
   },
   "atomicClaimBudget": 18,
   "allowedFactIds": [
@@ -40,11 +40,7 @@
     "F25",
     "F26",
     "F27",
-    "F28",
-    "F29",
-    "F30",
-    "F31",
-    "F32"
+    "F28"
   ],
   "synthesis": {
     "allowed": true,
@@ -78,11 +74,7 @@
       "F25",
       "F26",
       "F27",
-      "F28",
-      "F29",
-      "F30",
-      "F31",
-      "F32"
+      "F28"
     ]
   },
   "rules": {
@@ -91,7 +83,7 @@
     "newEntitiesInSynthesis": false,
     "newCausalityInSynthesis": false
   },
-  "generatedAt": "2026-09-29T07:01:07.123Z",
-  "articleTitle": "OpenAI Delays Release of GPT‑6.1 Astra Over Safety Concerns",
-  "articleSlug": "openai-delays-release-of-gpt-6-1-astra-over-safety-concerns"
+  "generatedAt": "2026-09-29T09:07:59.734Z",
+  "articleTitle": "Meta Unveils Enterprise AI Platform, Names MongoDB CEO to Lead",
+  "articleSlug": "meta-unveils-enterprise-ai-platform-names-mongodb-ceo-to-lead"
 }

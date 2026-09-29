@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T07:01:07.123Z",
+  "generatedAt": "2026-09-29T09:07:59.734Z",
   "provider": "Groq",
   "editorial": {
     "passed": true,
@@ -22,8 +22,8 @@
       "noHighSimilaritySource": true
     },
     "metrics": {
-      "normalizedLength": 4319,
-      "sentenceCount": 26,
+      "normalizedLength": 3409,
+      "sentenceCount": 21,
       "maxSourceSimilarity": 0,
       "maxCommonPhrase": 0
     }
@@ -31,15 +31,15 @@
   "semanticDuplicateCheck": "passed",
   "sourceRelationshipCheck": "passed",
   "verifiedEvidenceDomains": [
-    "theguardian.com",
+    "finance.yahoo.com",
     "techcrunch.com",
-    "the-express.com",
-    "tech.yahoo.com"
+    "newscord.org",
+    "peoplematters.in"
   ],
   "primarySourceCount": 0,
   "grounding": {
     "sourceCount": 4,
-    "usablePassages": 33,
+    "usablePassages": 28,
     "primarySourceCount": 0
   }
 }

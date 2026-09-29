@@ -1,187 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-29T07:01:04.490Z",
+  "updatedAt": "2026-09-29T09:07:14.335Z",
   "decisions": [
-    {
-      "timestamp": "2026-09-26T15:23:58.091Z",
-      "title": "Faraday Future Founder and Global CEO YT Jia Weekly Investor Update: Shares Details from FF’s 919 FF EAI Robotics “Four-Core Full-Stack AI” Ecosystem New Product Series Launch; Four Industry Productivity Solutions, Nine New EAI Devices Unveiled - Business Wire",
-      "category": "Product Launches",
-      "decision": "review",
-      "score": 68,
-      "adaptivePriority": 84,
-      "confidence": 70
-    },
-    {
-      "timestamp": "2026-09-26T15:23:58.091Z",
-      "title": "Everything We Announced at Meta Connect 2026 - meta.com",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 62,
-      "adaptivePriority": 78,
-      "confidence": 70
-    },
-    {
-      "timestamp": "2026-09-26T15:23:58.091Z",
-      "title": "Innovation, Invention and Impact: NJIT Undergrads Present Summer Research - NJIT News",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 62,
-      "adaptivePriority": 78,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-09-26T15:23:58.091Z",
-      "title": "‘HomePad’ to launch next month with these new features: report - 9to5Mac",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 61,
-      "adaptivePriority": 77,
-      "confidence": 68
-    },
-    {
-      "timestamp": "2026-09-26T15:23:58.091Z",
-      "title": "Research, innovation and invention top priority for prosperity, Minister Pun says - The Rising Nepal",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 58
-    },
-    {
-      "timestamp": "2026-09-26T15:23:58.091Z",
-      "title": "America's true innovation advantage: we don't just invent technologies — we reinvent how innovation works - Fortune",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-09-26T15:23:58.091Z",
-      "title": "From Edison’s Invention Factory to the new architecture of innovation - Science | AAAS",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-09-26T15:23:58.091Z",
-      "title": "NLR Battery Innovation Awarded NASA’s Invention of the Year - cleantechnica.com",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-09-26T15:23:58.091Z",
-      "title": "Opinion: Why Canada’s health Innovation bottleneck is adoption, not invention - University of Waterloo",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-09-26T15:23:58.091Z",
-      "title": "A History of Invention and Innovation - Boston University",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-09-26T15:23:58.091Z",
-      "title": "Introducing GPT-6 Sol and Luna - OpenAI",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 69
-    },
-    {
-      "timestamp": "2026-09-26T15:23:58.091Z",
-      "title": "Apple unveils iPhone Duo - Apple",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 58,
-      "adaptivePriority": 74,
-      "confidence": 63
-    },
-    {
-      "timestamp": "2026-09-26T15:23:58.091Z",
-      "title": "Innovation beyond invention will bring novel medicines to Europe’s patients - pharmaphorum.com",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 58,
-      "adaptivePriority": 74,
-      "confidence": 58
-    },
-    {
-      "timestamp": "2026-09-26T15:23:58.091Z",
-      "title": "From Invention to Impact: How India’s Deep Tech Startups Are Building an Innovation Economy Rooted in IP - ciiblog.in",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 58,
-      "adaptivePriority": 74,
-      "confidence": 58
-    },
-    {
-      "timestamp": "2026-09-26T15:23:58.091Z",
-      "title": "Malaysian Brothers Win Highest Invention Award at WYIE 2026 for AI Education Innovation - SME & Entrepreneurship Magazine",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 58,
-      "adaptivePriority": 74,
-      "confidence": 58
-    },
-    {
-      "timestamp": "2026-09-26T15:23:58.091Z",
-      "title": "Introducing Claude Opus 5.5 - Anthropic",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 58,
-      "adaptivePriority": 74,
-      "confidence": 68
-    },
-    {
-      "timestamp": "2026-09-26T15:23:58.091Z",
-      "title": "Introducing Meta VR Glasses, A New Era for Virtual Reality - meta.com",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 57,
-      "adaptivePriority": 73,
-      "confidence": 63
-    },
-    {
-      "timestamp": "2026-09-26T15:23:58.091Z",
-      "title": "Best New Product Launch Email Templates to Use in 2026 - Designmodo",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 57,
-      "adaptivePriority": 73,
-      "confidence": 58
-    },
-    {
-      "timestamp": "2026-09-26T15:23:58.091Z",
-      "title": "Adobe comes to Gemini and expands what you can do in Claude - Adobe",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 57,
-      "adaptivePriority": 73,
-      "confidence": 66
-    },
-    {
-      "timestamp": "2026-09-26T15:23:58.091Z",
-      "title": "The new Mac mini and Mac Studio are available today - Apple",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 57,
-      "adaptivePriority": 73,
-      "confidence": 67
-    },
     {
       "timestamp": "2026-09-26T20:24:57.629Z",
       "title": "Faraday Future Founder and Global CEO YT Jia Weekly Investor Update: Shares Details from FF’s 919 FF EAI Robotics “Four-Core Full-Stack AI” Ecosystem New Product Series Launch; Four Industry Productivity Solutions, Nine New EAI Devices Unveiled - businesswire.com",
@@ -1801,6 +1621,186 @@
       "score": 56,
       "adaptivePriority": 72,
       "confidence": 58
+    },
+    {
+      "timestamp": "2026-09-29T09:07:14.335Z",
+      "title": "NVIDIA Launches Open Agent Safety Platform to Secure Agents From Testing to Deployment - NVIDIA Newsroom",
+      "category": "Product Launches",
+      "decision": "review",
+      "score": 72,
+      "adaptivePriority": 88,
+      "confidence": 81
+    },
+    {
+      "timestamp": "2026-09-29T09:07:14.335Z",
+      "title": "Breaking News: OpenAI said it would not release its newest artificial intelligence model over safety concerns raised by its researchers. - facebook.com",
+      "category": "AI",
+      "decision": "review",
+      "score": 78,
+      "adaptivePriority": 78,
+      "confidence": 86
+    },
+    {
+      "timestamp": "2026-09-29T09:07:14.335Z",
+      "title": "Innovation, Invention and Impact: NJIT Undergrads Present Summer Research - NJIT News",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 62,
+      "adaptivePriority": 78,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-09-29T09:07:14.335Z",
+      "title": "OpenAI cancels release of new artificial intelligence model over safety concerns - France 24",
+      "category": "AI",
+      "decision": "review",
+      "score": 76,
+      "adaptivePriority": 76,
+      "confidence": 81
+    },
+    {
+      "timestamp": "2026-09-29T09:07:14.335Z",
+      "title": "Research, innovation and invention top priority for prosperity, Minister Pun says - The Rising Nepal",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-09-29T09:07:14.335Z",
+      "title": "America's true innovation advantage: we don't just invent technologies — we reinvent how innovation works - Fortune",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-09-29T09:07:14.335Z",
+      "title": "NLR Battery Innovation Awarded NASA’s Invention of the Year - CleanTechnica",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-09-29T09:07:14.335Z",
+      "title": "Opinion: Why Canada’s health Innovation bottleneck is adoption, not invention - University of Waterloo",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-09-29T09:07:14.335Z",
+      "title": "A History of Invention and Innovation - Boston University",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-09-29T09:07:14.335Z",
+      "title": "OpenAI holds off on releasing new model over safety concerns, saying it \"didn't quite meet the bar\" - cbsnews.com",
+      "category": "AI",
+      "decision": "review",
+      "score": 75,
+      "adaptivePriority": 75,
+      "confidence": 86
+    },
+    {
+      "timestamp": "2026-09-29T09:07:14.335Z",
+      "title": "OpenAI reportedly ditches model over safety concerns",
+      "category": "AI",
+      "decision": "review",
+      "score": 74,
+      "adaptivePriority": 74,
+      "confidence": 86
+    },
+    {
+      "timestamp": "2026-09-29T09:07:14.335Z",
+      "title": "From Edison’s Invention Factory to the new architecture of innovation - Science | AAAS",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-09-29T09:07:14.335Z",
+      "title": "Innovation beyond invention will bring novel medicines to Europe’s patients - pharmaphorum",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-09-29T09:07:14.335Z",
+      "title": "Palo Alto Networks joins UAH Invention to Innovation Center as Corporate Innovation Partner | Newswise - Newswise",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-09-29T09:07:14.335Z",
+      "title": "Malaysian Brothers Win Highest Invention Award at WYIE 2026 for AI Education Innovation - SME & Entrepreneurship Magazine",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-09-29T09:07:14.335Z",
+      "title": "Leaders at Davos 2026 on how we can deploy innovation and technology at scale and responsibly - The World Economic Forum",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-09-29T09:07:14.335Z",
+      "title": "Introducing Claude Opus 5.5 - anthropic.com",
+      "category": "Product Launches",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 68
+    },
+    {
+      "timestamp": "2026-09-29T09:07:14.335Z",
+      "title": "Apple unveils $2,000 iPhone Duo, its first foldable smartphone - Fortune",
+      "category": "Product Launches",
+      "decision": "hold",
+      "score": 57,
+      "adaptivePriority": 73,
+      "confidence": 57
+    },
+    {
+      "timestamp": "2026-09-29T09:07:14.335Z",
+      "title": "Best New Product Launch Email Templates to Use in 2026 - Designmodo",
+      "category": "Product Launches",
+      "decision": "hold",
+      "score": 56,
+      "adaptivePriority": 72,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-09-29T09:07:14.335Z",
+      "title": "From invention to impact: Hong Kong Science Fair gives young innovators a wider stage - South China Morning Post",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 56,
+      "adaptivePriority": 72,
+      "confidence": 59
     }
   ],
   "categoryStats": {
@@ -1834,8 +1834,6 @@
     }
   },
   "recentTopics": [
-    "bitcoin and ethereum prices today friday september 18 2026 crypto prices rise as investors move past clarity s failure - finance yahoo com",
-    "why ethereum jumped 5 8 today - finance yahoo com",
     "why bitcoin is up today - fool com",
     "md regulators can assess 5 9m fine against crypto promoter judge rules - maryland daily record",
     "bitcoin price surges over 81 000 despite clarity act fail and interest rate hike - bitcoin magazine",
@@ -1933,6 +1931,8 @@
     "america s true innovation advantage we don t just invent technologies we reinvent how innovation works - fortune com",
     "nvidia unveils security platform to stop ai agents from going rogue - ap news",
     "openai holds off on releasing new model over safety concerns saying it didn t quite meet the bar - cbs news",
-    "breaking news openai said it would not release its newest artificial intelligence model over safety concerns raised by its researchers - facebook com"
+    "breaking news openai said it would not release its newest artificial intelligence model over safety concerns raised by its researchers - facebook com",
+    "openai cancels release of new artificial intelligence model over safety concerns - france 24",
+    "openai holds off on releasing new model over safety concerns saying it didn t quite meet the bar - cbsnews com"
   ]
 }

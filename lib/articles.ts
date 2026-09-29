@@ -818,6 +818,50 @@ export const articles: Article[] = [
     "imageGeneratedBy": "Cloudflare FLUX.1 Schnell"
   },
   {
+    "slug": "meta-unveils-enterprise-ai-platform-names-mongodb-ceo-to-lead",
+    "title": "Meta Unveils Enterprise AI Platform, Names MongoDB CEO to Lead",
+    "description": "Meta launches a new business‑focused AI platform and brings MongoDB’s CEO, CJ Desai, to head the effort, aiming to monetize its AI investments and expand its enterprise reach.",
+    "category": "AI",
+    "date": "2026-09-29",
+    "publishedAt": "2026-09-29T09:07:59.733Z",
+    "author": "Tejendra Pal Singh",
+    "readTime": "3 min read",
+    "content": [
+      "## Meta’s New Enterprise‑Focused AI Offering\nMeta announced the launch of a new Meta Enterprise Platform that it hopes will drive more business adoption of its artificial intelligence products and provide another revenue pathway for its increasingly costly AI business. The platform is intended to package Meta’s AI technologies into products and services that organizations can deploy across operations, customer engagement and business workflows.",
+      "## Leadership Change: MongoDB’s CJ Desai at the Helm\nMeta hired Chirantan “CJ” Desai, the former CEO of database software company MongoDB, to lead the new initiative. Desai will report directly to Mark Zuckerberg. The appointment places an experienced enterprise technology executive at the center of Meta’s commercial AI strategy as competition intensifies among major technology companies.",
+      "## Building on Recent AI Momentum\nThe launch builds on the momentum of Muse, Meta’s personal AI assistant that was introduced earlier this month and can perform tasks such as sending emails and booking travel. Desai emphasized that AI will fundamentally reshape how organizations innovate, serve customers and run operations over the coming years. He also noted that Meta brings together advanced models and leading agents with a proven track record of helping millions of advertisers and hundreds of millions of businesses scale.",
+      "## Why the Move Matters\nMeta’s business‑focused AI push comes as the company looks to establish a more direct path to profit stemming from its massive AI infrastructure investments. By creating a dedicated platform, Meta aims to monetize its AI capabilities beyond consumer products and to deepen its presence in the enterprise AI market.",
+      "## Trust and Data Privacy Concerns\nA key question is whether businesses will trust Meta to handle their internal data. Desai has highlighted that security and privacy are built into Meta’s enterprise products from the outset.",
+      "## Market Reactions and Share Price Impact\nAfter the announcement, MongoDB’s shares fell more than 25%, and Meta investors also punished the decision with a 4% drop. The market response reflects uncertainty around how the new platform will perform and whether it can compete with established enterprise AI providers.",
+      "## Next Steps for Meta and Its Customers\nThe platform’s first offerings will likely integrate Meta’s existing AI tools, such as Muse, and expand them for corporate use. Businesses interested in leveraging Meta’s AI capabilities will need to evaluate how the new services fit into their existing data ecosystems and compliance frameworks.",
+      "## What to Watch Moving Forward\n Additionally, the performance of MongoDB’s stock and the broader market’s reception to Meta’s pivot will signal whether the platform can achieve its intended revenue goals.",
+      "## Key Takeaway\nMeta’s launch of an enterprise AI platform and the appointment of MongoDB’s former CEO to lead it represent a strategic attempt to turn its AI investments into a profitable business arm. Success will depend on building trust with corporate customers and delivering AI solutions that complement rather than compete with Meta’s consumer offerings."
+    ],
+    "sources": [
+      {
+        "title": "Meta launches enterprise AI platform to drive business opportunities - Yahoo Finance",
+        "url": "https://finance.yahoo.com/technology/ai/articles/meta-launches-enterprise-ai-platform-192954750.html"
+      },
+      {
+        "title": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
+        "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/"
+      },
+      {
+        "title": "Meta Launches Enterprise AI Platform, Hires MongoDB CEO CJ Desai as Shares Drop: 20 outlets compared - NewsCord",
+        "url": "https://newscord.org/article/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-cj-desai-as-shares-drop--Story_20260928_Metalaunchesenterpria7a166ab"
+      },
+      {
+        "title": "Meta hires Indian-origin MongoDB CEO to lead new enterprise AI business - People Matters - HR News",
+        "url": "https://www.peoplematters.in/amp/news/leadership/meta-hires-indian-origin-mongodb-ceo-to-lead-new-enterprise-ai-business-52391"
+      }
+    ],
+    "image": "/Trendforge/images/articles/meta-unveils-enterprise-ai-platform-names-mongodb-ceo-to-lead.1024x576.png",
+    "imageAlt": "Editorial image for Meta Unveils Enterprise AI Platform, Names MongoDB CEO to Lead",
+    "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
+    "imageLicense": "Model-generated",
+    "imageGeneratedBy": "Cloudflare FLUX.1 Schnell"
+  },
+  {
     "slug": "microsoft-eyes-10-b-investment-in-middle-east-tech-ai-and-digital-resilience",
     "title": "Microsoft Eyes $10 B+ Investment in Middle East Tech, AI, and Digital Resilience",
     "description": "Microsoft has announced a new regional framework that will channel more than $10 B into technology, cloud and AI infrastructure, digital resilience programs and workforce development across Kuwait, Qatar, Saudi Arabia and the United Arab Emirates through 2030.",

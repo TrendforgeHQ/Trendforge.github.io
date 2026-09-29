@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-29T07:02:02.653Z",
+  "generatedAt": "2026-09-29T09:08:27.020Z",
   "status": "pass",
-  "currentGeneratedArticle": null,
-  "currentScore": null,
+  "currentGeneratedArticle": "meta-unveils-enterprise-ai-platform-names-mongodb-ceo-to-lead",
+  "currentScore": 89,
   "identity": {
     "method": "brief.title",
-    "rejectedMarker": true
+    "rejectedMarker": false
   },
   "policy": {
     "publishCandidate": 90,
@@ -399,17 +399,18 @@
       "slug": "meta-s-connect-2026-unveils-new-glasses-and-a-rumored-mixed-reality-headset",
       "title": "Meta’s Connect 2026 Unveils New Glasses and a Rumored Mixed‑Reality Headset",
       "category": "Digital Life",
-      "score": 75,
+      "score": 73,
       "decision": "review",
       "dimensions": {
         "evidence": 75,
         "usefulness": 84,
         "clarity": 90,
-        "originality": 89,
+        "originality": 78,
         "sourceStrength": 41
       },
       "reasons": [
         "evidence confidence needs improvement",
+        "topic/title similarity is high",
         "source strength/diversity needs improvement"
       ]
     },
@@ -429,6 +430,23 @@
       "reasons": [
         "evidence confidence needs improvement",
         "source strength/diversity needs improvement"
+      ]
+    },
+    {
+      "slug": "meta-unveils-enterprise-ai-platform-names-mongodb-ceo-to-lead",
+      "title": "Meta Unveils Enterprise AI Platform, Names MongoDB CEO to Lead",
+      "category": "AI",
+      "score": 89,
+      "decision": "publish_ready",
+      "dimensions": {
+        "evidence": 84,
+        "usefulness": 97,
+        "clarity": 100,
+        "originality": 71,
+        "sourceStrength": 91
+      },
+      "reasons": [
+        "topic/title similarity is high"
       ]
     },
     {
