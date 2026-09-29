@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-29T09:08:33.970Z",
+  "generatedAt": "2026-09-29T11:51:51.478Z",
   "policy": {
     "privacyFirst": true,
     "no_scraping": true,
@@ -116,6 +116,38 @@
       "slug": "the-apple-watch-series-12-is-the-start-of-a-new-wearable-era",
       "title": "The Apple Watch Series 12 is the start of a new wearable era",
       "category": "Digital Life",
+      "channels": [
+        {
+          "channel": "Google Search",
+          "action": "publish and keep canonical/indexable",
+          "reason": "organic discovery"
+        },
+        {
+          "channel": "Newsletter",
+          "action": "include when relevant",
+          "reason": "subscriber retention"
+        },
+        {
+          "channel": "RSS",
+          "action": "make available through feed",
+          "reason": "reader-controlled distribution"
+        },
+        {
+          "channel": "Social",
+          "action": "share a concise human-written excerpt",
+          "reason": "additional discovery"
+        },
+        {
+          "channel": "Direct",
+          "action": "link from related articles",
+          "reason": "internal discovery"
+        }
+      ]
+    },
+    {
+      "slug": "shopify-enables-browser-based-ai-agents-to-complete-checkout",
+      "title": "Shopify Enables Browser‑Based AI Agents to Complete Checkout",
+      "category": "AI",
       "channels": [
         {
           "channel": "Google Search",
@@ -596,38 +628,6 @@
       "slug": "comp-ai-raises-34m-series-a-to-build-agentic-security-and-compliance-platform",
       "title": "Comp AI raises $34M Series A to build agentic security and compliance platform",
       "category": "AI",
-      "channels": [
-        {
-          "channel": "Google Search",
-          "action": "publish and keep canonical/indexable",
-          "reason": "organic discovery"
-        },
-        {
-          "channel": "Newsletter",
-          "action": "include when relevant",
-          "reason": "subscriber retention"
-        },
-        {
-          "channel": "RSS",
-          "action": "make available through feed",
-          "reason": "reader-controlled distribution"
-        },
-        {
-          "channel": "Social",
-          "action": "share a concise human-written excerpt",
-          "reason": "additional discovery"
-        },
-        {
-          "channel": "Direct",
-          "action": "link from related articles",
-          "reason": "internal discovery"
-        }
-      ]
-    },
-    {
-      "slug": "cftc-sends-crypto-rule-draft-to-white-house-for-review",
-      "title": "CFTC Sends Crypto Rule Draft to White House for Review",
-      "category": "Crypto",
       "channels": [
         {
           "channel": "Google Search",

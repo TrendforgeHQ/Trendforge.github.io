@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "generatedAt": "2026-09-29T09:08:32.740Z",
+  "generatedAt": "2026-09-29T11:51:50.251Z",
   "model": "@cf/black-forest-labs/flux-1-schnell",
   "width": 1024,
   "height": 576,
@@ -9,37 +9,36 @@
   "skipped": 0,
   "failed": 0,
   "images": {
-    "meta-unveils-enterprise-ai-platform-names-mongodb-ceo-to-lead": {
+    "shopify-enables-browser-based-ai-agents-to-complete-checkout": {
       "status": "generated",
-      "image": "/Trendforge/images/articles/meta-unveils-enterprise-ai-platform-names-mongodb-ceo-to-lead.1024x576.png",
+      "image": "/Trendforge/images/articles/shopify-enables-browser-based-ai-agents-to-complete-checkout.1024x576.png",
       "generatedBy": "@cf/black-forest-labs/flux-1-schnell",
       "width": 1024,
       "height": 576,
       "steps": 4,
-      "elapsedMs": 1779,
-      "bytes": 1130347,
+      "elapsedMs": 1955,
+      "bytes": 690650,
       "visualBrief": {
         "version": 2,
-        "mode": "investment-infrastructure",
-        "primarySubject": "Meta regional digital infrastructure investment, represented through concrete cloud, connectivity, and AI infrastructure",
-        "scene": "A realistic commissioned editorial photograph of concrete regional digital infrastructure such as a modern data-center environment, high-capacity network equipment, or secure cloud infrastructure, visually tied to the investment story rather than generic finance imagery.",
+        "mode": "conceptual-editorial",
+        "primarySubject": "the specific policy, governance, market, or industry action described by the story, specifically tied to shopify, enables, browser, based",
+        "scene": "A sophisticated editorial photo-illustration or carefully staged metaphor that makes the specific central idea immediately understandable without relying on generic AI symbols.",
         "supportingElements": [
-          "subtle regional geographic context without maps or invented labels",
-          "one restrained human scale element only when useful"
+          "at most one concrete metaphorical object or environmental cue tied directly to the story"
         ],
-        "composition": "Documentary wide frame with one dominant infrastructure subject, realistic materials, restrained depth of field, and clear visual hierarchy.",
-        "company": "Meta",
+        "composition": "One strong metaphor or visual action, restrained editorial treatment, clear hierarchy, no collage of unrelated symbols.",
+        "company": null,
         "namedPerson": null,
         "category": "AI",
         "storyAnchors": [
-          "meta",
-          "unveils",
-          "enterprise",
-          "platform",
-          "names",
-          "mongodb",
-          "lead",
-          "launches"
+          "shopify",
+          "enables",
+          "browser",
+          "based",
+          "agents",
+          "complete",
+          "checkout",
+          "webmcp"
         ],
         "avoid": [
           "generic office imagery",
@@ -47,31 +46,32 @@
           "generic futuristic technology",
           "glowing holograms, floating code, HUDs and neon sci-fi effects",
           "prominent readable text or fake headlines",
-          "generic stock-market trading screens",
-          "coins, cash piles, oversized dollar symbols",
-          "generic office handshake",
-          "abstract financial graphs as the main subject"
+          "generic AI brain",
+          "random server rack",
+          "generic circuit board",
+          "stock-looking technology montage"
         ]
       },
       "relevance": {
-        "passed": false,
+        "passed": true,
         "anchors": [
-          "meta",
-          "unveils",
-          "enterprise",
-          "platform",
-          "names",
-          "mongodb",
-          "lead",
-          "launches"
+          "shopify",
+          "enables",
+          "browser",
+          "based",
+          "agents",
+          "complete",
+          "checkout",
+          "webmcp"
         ],
         "matchedAnchors": [
-          "meta"
+          "shopify",
+          "enables",
+          "browser",
+          "based"
         ],
-        "entityMatches": [
-          "meta"
-        ],
-        "score": 0.125
+        "entityMatches": [],
+        "score": 0.5
       },
       "promptLength": 1900
     }

@@ -1,8 +1,8 @@
 {
   "version": 18,
-  "generatedAt": "2026-09-29T09:08:23.578Z",
-  "articlePath": "content/articles/meta-unveils-enterprise-ai-platform-names-mongodb-ceo-to-lead.md",
-  "articleTitle": "Meta Unveils Enterprise AI Platform, Names MongoDB CEO to Lead",
+  "generatedAt": "2026-09-29T11:51:40.577Z",
+  "articlePath": "content/articles/shopify-enables-browser-based-ai-agents-to-complete-checkout.md",
+  "articleTitle": "Shopify Enables Browser‑Based AI Agents to Complete Checkout",
   "verificationMode": "authoritative-evidence-pack-v20-fact-map-synthesis",
   "sourceCount": 4,
   "usableSourceCount": 4,
@@ -12,7 +12,7 @@
   "partial": 2,
   "unsupported": 0,
   "sourceUnavailable": 0,
-  "averageConfidence": 82,
+  "averageConfidence": 74,
   "pass": true,
   "policy": {
     "verifiedMin": 62,
@@ -40,1146 +40,124 @@
     "partialClaimsNonBlocking": true,
     "modifierEvidenceSufficiency": true,
     "markdownAwareSegmentation": true,
-    "citationAwareSegmentation": true
+    "citationAwareSegmentation": true,
+    "genericSentenceInitialCompatibility": true,
+    "strictEntitySupportForNamedEntities": true,
+    "factMapProvenanceRequired": true,
+    "compatibilityRescueRequiresCoreFact": true
   },
   "sources": [
     {
       "id": "S1",
-      "title": "Meta launches enterprise AI platform to drive business opportunities - Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/meta-launches-enterprise-ai-platform-192954750.html",
-      "domain": "finance.yahoo.com",
-      "passageCount": 10,
-      "articleBodyLength": 1428
+      "title": "Shopify opens checkout to browser-based AI agents",
+      "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+      "domain": "techcrunch.com",
+      "passageCount": 8,
+      "articleBodyLength": 1531
     },
     {
       "id": "S2",
-      "title": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
-      "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
-      "domain": "techcrunch.com",
-      "passageCount": 5,
-      "articleBodyLength": 992
+      "title": "Shopify opens checkout to browser-based AI agents - Yahoo Tech",
+      "url": "https://tech.yahoo.com/ai/deals/articles/shopify-opens-checkout-browser-based-193357081.html",
+      "domain": "tech.yahoo.com",
+      "passageCount": 9,
+      "articleBodyLength": 1507
     },
     {
       "id": "S3",
-      "title": "Meta Launches Enterprise AI Platform, Hires MongoDB CEO CJ Desai as Shares Drop: 20 outlets compared - NewsCord",
-      "url": "https://newscord.org/article/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-cj-desai-as-shares-drop--Story_20260928_Metalaunchesenterpria7a166ab",
-      "domain": "newscord.org",
-      "passageCount": 7,
-      "articleBodyLength": 1067
+      "title": "Shopify enables browser-based AI agents to complete purchases - Crypto Briefing",
+      "url": "https://cryptobriefing.com/shopify-webmcp-ai-agents-checkout/",
+      "domain": "cryptobriefing.com",
+      "passageCount": 9,
+      "articleBodyLength": 1352
     },
     {
       "id": "S4",
-      "title": "Meta hires Indian-origin MongoDB CEO to lead new enterprise AI business - People Matters - HR News",
-      "url": "https://www.peoplematters.in/amp/news/leadership/meta-hires-indian-origin-mongodb-ceo-to-lead-new-enterprise-ai-business-52391",
-      "domain": "peoplematters.in",
-      "passageCount": 6,
-      "articleBodyLength": 1072
+      "title": "Shopify Opens Every Storefront to AI Agents With New WebMCP Tools - Startup Fortune",
+      "url": "https://startupfortune.com/shopify-opens-every-storefront-to-ai-agents-with-new-webmcp-tools/",
+      "domain": "startupfortune.com",
+      "passageCount": 9,
+      "articleBodyLength": 1355
     }
   ],
   "claims": [
     {
       "index": 1,
-      "claim": "Meta announced the launch of a new Meta Enterprise Platform that it hopes will drive more business adoption of its artificial intelligence products and provide another revenue pathway for its increasingly costly AI business.",
+      "claim": "Shopify has extended its Web Model Context Protocol (WebMCP) to the checkout phase of the shopping journey.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 100,
+      "confidence": 77,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Meta launches enterprise AI platform to drive business opportunities - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/meta-launches-enterprise-ai-platform-192954750.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F1",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 100
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F1",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 100,
-          "passageIndex": 2
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-P1",
-      "evidence": "Meta announced the launch of its new Meta Enterprise Platform , which it hopes will drive more business adoption of its artificial intelligence products, and provide another revenue pathway for its increasingly costly AI business.",
-      "bestPassage": "Meta announced the launch of its new Meta Enterprise Platform , which it hopes will drive more business adoption of its artificial intelligence products, and provide another revenue pathway for its increasingly costly AI business.",
-      "matchedPassages": [
-        "S1-P1",
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "meta",
-        "announce",
-        "the",
-        "launch",
-        "new",
-        "enterprise",
-        "platform",
-        "hop",
-        "drive",
-        "busines",
-        "adoption",
-        "its",
-        "product",
-        "and",
-        "provide",
-        "revenue",
-        "pathway",
-        "for",
-        "increas",
-        "costly"
-      ],
-      "entityShared": [
-        "meta",
-        "enterprise",
-        "platform"
-      ],
-      "topicShared": [
-        "meta",
-        "launch",
-        "new",
-        "enterprise",
-        "platform"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": true,
-        "claimAttributed": true,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 2,
-      "claim": "The platform is intended to package Meta’s AI technologies into products and services that organizations can deploy across operations, customer engagement and business workflows.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 88,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Meta hires Indian-origin MongoDB CEO to lead new enterprise AI business - People Matters - HR News",
-      "bestUrl": "https://www.peoplematters.in/amp/news/leadership/meta-hires-indian-origin-mongodb-ceo-to-lead-new-enterprise-ai-business-52391",
-      "bestDomain": "peoplematters.in",
-      "sourceId": "S4",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F24",
-        "sourceId": "S4",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 88
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F24",
-          "sourceId": "S4",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 88,
-          "passageIndex": 3
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S4-P2",
-      "evidence": "According to Meta, the platform will package its AI technologies into products and services that organisations can deploy across operations, customer engagement and business workflows.",
-      "bestPassage": "According to Meta, the platform will package its AI technologies into products and services that organisations can deploy across operations, customer engagement and business workflows.",
-      "matchedPassages": [
-        "S4-P2",
-        "S4-BODY"
-      ],
-      "sharedTerms": [
-        "the",
-        "platform",
-        "package",
-        "meta",
-        "technologi",
-        "product",
-        "and",
-        "servic",
-        "can",
-        "deploy",
-        "acros",
-        "operation",
-        "customer",
-        "engagement",
-        "busines",
-        "workflow"
-      ],
-      "entityShared": [
-        "meta"
-      ],
-      "topicShared": [
-        "platform",
-        "meta"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": true,
-        "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 3,
-      "claim": "Meta hired Chirantan “CJ” Desai, the former CEO of database software company MongoDB, to lead the new initiative.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 98,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
-      "bestUrl": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+      "bestSource": "Shopify opens checkout to browser-based AI agents",
+      "bestUrl": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
       "bestDomain": "techcrunch.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F12",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 94
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F12",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 94,
-          "passageIndex": 1
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "The social media giant hired Chirantan “CJ” Desai, the CEO of database software giant MongoDB, to lead the new initiative.",
-      "bestPassage": "The social media giant hired Chirantan “CJ” Desai, the CEO of database software giant MongoDB, to lead the new initiative.",
-      "matchedPassages": [
-        "S2-BODY",
-        "S2-P2"
-      ],
-      "sharedTerms": [
-        "meta",
-        "hir",
-        "chirantan",
-        "desai",
-        "the",
-        "ceo",
-        "database",
-        "software",
-        "mongodb",
-        "lead",
-        "new",
-        "initiative"
-      ],
-      "entityShared": [
-        "meta",
-        "chirantan",
-        "desai",
-        "ceo",
-        "mongodb"
-      ],
-      "topicShared": [
-        "meta",
-        "hir",
-        "ceo",
-        "mongodb",
-        "lead",
-        "new",
-        "initiative"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 4,
-      "claim": "Desai will report directly to Mark Zuckerberg.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 74,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Meta Launches Enterprise AI Platform, Hires MongoDB CEO CJ Desai as Shares Drop: 20 outlets compared - NewsCord",
-      "bestUrl": "https://newscord.org/article/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-cj-desai-as-shares-drop--Story_20260928_Metalaunchesenterpria7a166ab",
-      "bestDomain": "newscord.org",
-      "sourceId": "S3",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F17",
-        "sourceId": "S3",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 69
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F17",
-          "sourceId": "S3",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 69,
-          "passageIndex": 2
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S3-P2",
-      "evidence": "CJ Desai, MongoDB CEO, named head of enterprise platform, reporting to Mark Zuckerberg.",
-      "bestPassage": "CJ Desai, MongoDB CEO, named head of enterprise platform, reporting to Mark Zuckerberg.",
-      "matchedPassages": [
-        "S3-P2",
-        "S3-BODY"
-      ],
-      "sharedTerms": [
-        "desai",
-        "report",
-        "mark",
-        "zuckerberg"
-      ],
-      "entityShared": [
-        "desai",
-        "mark",
-        "zuckerberg"
-      ],
-      "topicShared": [],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 5,
-      "claim": "The appointment places an experienced enterprise technology executive at the center of Meta’s commercial AI strategy as competition intensifies among major technology companies.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 91,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Meta hires Indian-origin MongoDB CEO to lead new enterprise AI business - People Matters - HR News",
-      "bestUrl": "https://www.peoplematters.in/amp/news/leadership/meta-hires-indian-origin-mongodb-ceo-to-lead-new-enterprise-ai-business-52391",
-      "bestDomain": "peoplematters.in",
-      "sourceId": "S4",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F27",
-        "sourceId": "S4",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 91
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F27",
-          "sourceId": "S4",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 91,
-          "passageIndex": 9
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S4-P5",
-      "evidence": "His appointment places an experienced enterprise technology executive at the centre of Meta’s commercial AI strategy as competition intensifies among major technology companies.",
-      "bestPassage": "His appointment places an experienced enterprise technology executive at the centre of Meta’s commercial AI strategy as competition intensifies among major technology companies.",
-      "matchedPassages": [
-        "S4-P5",
-        "S4-BODY"
-      ],
-      "sharedTerms": [
-        "the",
-        "appointment",
-        "plac",
-        "experienc",
-        "enterprise",
-        "executive",
-        "meta",
-        "commercial",
-        "strategy",
-        "competition",
-        "intensifi",
-        "among",
-        "major",
-        "compani"
-      ],
-      "entityShared": [
-        "meta"
-      ],
-      "topicShared": [
-        "enterprise",
-        "meta"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 6,
-      "claim": "The launch builds on the momentum of Muse, Meta’s personal AI assistant that was introduced earlier this month and can perform tasks such as sending emails and booking travel.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 96,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
-      "bestUrl": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
-      "bestDomain": "techcrunch.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F14",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 93
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F14",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 93,
-          "passageIndex": 2
-        },
-        {
-          "factId": "F25",
-          "sourceId": "S4",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 86,
-          "passageIndex": 6
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-FF14,S4-FF25",
-      "evidence": "The launch of the new business builds on the momentum of Muse, Meta&#8217;s personal AI assistant launched earlier this month that can perform tasks for users such as sending emails and booking travel. The new business builds on the momentum of Muse, which Meta introduced earlier this month as an AI assistant capable of handling tasks such as sending emails and booking travel.",
-      "bestPassage": "The launch of the new business builds on the momentum of Muse, Meta&#8217;s personal AI assistant launched earlier this month that can perform tasks for users such as sending emails and booking travel. The new business builds on the momentum of Muse, which Meta introduced earlier this month as an AI assistant capable of handling tasks such as sending emails and booking travel.",
-      "matchedPassages": [
-        "S2-P4",
-        "S2-BODY"
-      ],
-      "sharedTerms": [
-        "the",
-        "launch",
-        "build",
-        "momentum",
-        "muse",
-        "meta",
-        "personal",
-        "assistant",
-        "introduc",
-        "earlier",
-        "month",
-        "and",
-        "can",
-        "perform",
-        "task",
-        "such",
-        "send",
-        "email",
-        "book",
-        "travel"
-      ],
-      "entityShared": [
-        "muse",
-        "meta"
-      ],
-      "topicShared": [
-        "launch",
-        "meta"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": true,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 2,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
-    },
-    {
-      "index": 7,
-      "claim": "Desai emphasized that AI will fundamentally reshape how organizations innovate, serve customers and run operations over the coming years.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 90,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Meta launches enterprise AI platform to drive business opportunities - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/meta-launches-enterprise-ai-platform-192954750.html",
-      "bestDomain": "finance.yahoo.com",
       "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F4",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 79
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F13",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 87,
-          "passageIndex": 4
-        },
-        {
-          "factId": "F26",
-          "sourceId": "S4",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 87,
-          "passageIndex": 8
-        },
-        {
-          "factId": "F4",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 79,
-          "passageIndex": 6
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-FF13,S4-FF26,S1-FF4",
-      "evidence": "&#8220;Over the coming years, AI will fundamentally redefine how organizations of all sizes innovate, grow, serve customers, and run business operations,&#8221; Desai said in a statement. &#8220;Meta has a unique role to play because it is bringing together advanced models and leading agents with a proven track record of helping millions of advertisers and hundreds of millions of businesses scale. In a statement released by Meta, Desai said AI would fundamentally reshape how organisations innovate, serve customers and run operations over the coming years. \"Over the coming years, AI will fundamentally redefine how organizations of all sizes innovate, grow, serve customers, and run business operations,\" Zuckerberg said.",
-      "bestPassage": "&#8220;Over the coming years, AI will fundamentally redefine how organizations of all sizes innovate, grow, serve customers, and run business operations,&#8221; Desai said in a statement. &#8220;Meta has a unique role to play because it is bringing together advanced models and leading agents with a proven track record of helping millions of advertisers and hundreds of millions of businesses scale. In a statement released by Meta, Desai said AI would fundamentally reshape how organisations innovate, serve customers and run operations over the coming years. \"Over the coming years, AI will fundamentally redefine how organizations of all sizes innovate, grow, serve customers, and run business operations,\" Zuckerberg said.",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P4"
-      ],
-      "sharedTerms": [
-        "desai",
-        "fundamentally",
-        "reshape",
-        "organization",
-        "innovate",
-        "serve",
-        "customer",
-        "and",
-        "run",
-        "operation",
-        "the",
-        "com",
-        "year"
-      ],
-      "entityShared": [
-        "desai"
-      ],
-      "topicShared": [],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 3,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
-    },
-    {
-      "index": 8,
-      "claim": "He also noted that Meta brings together advanced models and leading agents with a proven track record of helping millions of advertisers and hundreds of millions of businesses scale.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 91,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Meta launches enterprise AI platform to drive business opportunities - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/meta-launches-enterprise-ai-platform-192954750.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F5",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 91
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F5",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 91,
-          "passageIndex": 6
-        },
-        {
-          "factId": "F13",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 91,
-          "passageIndex": 4
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-FF5,S2-FF13",
-      "evidence": "\"Meta has a unique role to play because it is bringing together advanced models and leading agents with a proven track record of helping millions of advertisers and hundreds of millions of businesses scale.\" &#8220;Over the coming years, AI will fundamentally redefine how organizations of all sizes innovate, grow, serve customers, and run business operations,&#8221; Desai said in a statement. &#8220;Meta has a unique role to play because it is bringing together advanced models and leading agents with a proven track record of helping millions of advertisers and hundreds of millions of businesses scale.",
-      "bestPassage": "\"Meta has a unique role to play because it is bringing together advanced models and leading agents with a proven track record of helping millions of advertisers and hundreds of millions of businesses scale.\" &#8220;Over the coming years, AI will fundamentally redefine how organizations of all sizes innovate, grow, serve customers, and run business operations,&#8221; Desai said in a statement. &#8220;Meta has a unique role to play because it is bringing together advanced models and leading agents with a proven track record of helping millions of advertisers and hundreds of millions of businesses scale.",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P5"
-      ],
-      "sharedTerms": [
-        "meta",
-        "bring",
-        "together",
-        "advanc",
-        "models",
-        "and",
-        "lead",
-        "agent",
-        "proven",
-        "track",
-        "record",
-        "help",
-        "million",
-        "advertiser",
-        "hundred",
-        "business",
-        "scale"
-      ],
-      "entityShared": [
-        "meta"
-      ],
-      "topicShared": [
-        "meta",
-        "lead"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": true,
-        "claimAttributed": true,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 2,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
-    },
-    {
-      "index": 9,
-      "claim": "Meta’s business‑focused AI push comes as the company looks to establish a more direct path to profit stemming from its massive AI infrastructure investments.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 94,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Meta launches enterprise AI platform to drive business opportunities - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/meta-launches-enterprise-ai-platform-192954750.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F3",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 94
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F3",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 94,
-          "passageIndex": 8
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-P3",
-      "evidence": "Meta's business-focused AI push comes as the company looks to establish a more direct path to profit stemming from its massive AI infrastructure investments.",
-      "bestPassage": "Meta's business-focused AI push comes as the company looks to establish a more direct path to profit stemming from its massive AI infrastructure investments.",
-      "matchedPassages": [
-        "S1-P3",
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "meta",
-        "busines",
-        "focus",
-        "push",
-        "com",
-        "the",
-        "look",
-        "establish",
-        "direct",
-        "path",
-        "profit",
-        "stemm",
-        "its",
-        "massive",
-        "infrastructure",
-        "investment"
-      ],
-      "entityShared": [
-        "meta"
-      ],
-      "topicShared": [
-        "meta"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 10,
-      "claim": "By creating a dedicated platform, Meta aims to monetize its AI capabilities beyond consumer products and to deepen its presence in the enterprise AI market.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 73,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Meta hires Indian-origin MongoDB CEO to lead new enterprise AI business - People Matters - HR News",
-      "bestUrl": "https://www.peoplematters.in/amp/news/leadership/meta-hires-indian-origin-mongodb-ceo-to-lead-new-enterprise-ai-business-52391",
-      "bestDomain": "peoplematters.in",
-      "sourceId": "S4",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F23",
-        "sourceId": "S4",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 66
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F23",
-          "sourceId": "S4",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 66,
-          "passageIndex": 1
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S4-BODY",
-      "evidence": "Meta has appointed Chirantan “CJ” Desai , the Indian-origin Chief Executive Officer of MongoDB , to lead its newly launched Meta Enterprise Platform , marking a significant step in the company’s effort to deepen its presence in the enterprise AI market.",
-      "bestPassage": "Meta has appointed Chirantan “CJ” Desai , the Indian-origin Chief Executive Officer of MongoDB , to lead its newly launched Meta Enterprise Platform , marking a significant step in the company’s effort to deepen its presence in the enterprise AI market.",
-      "matchedPassages": [
-        "S4-BODY",
-        "S4-P1"
-      ],
-      "sharedTerms": [
-        "platform",
-        "meta",
-        "its",
-        "product",
-        "and",
-        "deepen",
-        "presence",
-        "the",
-        "enterprise",
-        "market"
-      ],
-      "entityShared": [
-        "meta"
-      ],
-      "topicShared": [
-        "platform",
-        "meta",
-        "enterprise"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 11,
-      "claim": "A key question is whether businesses will trust Meta to handle their internal data.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 88,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Meta launches enterprise AI platform to drive business opportunities - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/meta-launches-enterprise-ai-platform-192954750.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F8",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 88
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F8",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 88,
-          "passageIndex": 10
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-P8",
-      "evidence": "The question then is whether businesses will trust Meta to handle their internal data.",
-      "bestPassage": "The question then is whether businesses will trust Meta to handle their internal data.",
-      "matchedPassages": [
-        "S1-P8",
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "question",
-        "whether",
-        "business",
-        "trust",
-        "meta",
-        "handle",
-        "internal",
-        "data"
-      ],
-      "entityShared": [
-        "meta"
-      ],
-      "topicShared": [
-        "meta"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 12,
-      "claim": "Desai has highlighted that security and privacy are built into Meta’s enterprise products from the outset.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 90,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Meta Launches Enterprise AI Platform, Hires MongoDB CEO CJ Desai as Shares Drop: 20 outlets compared - NewsCord",
-      "bestUrl": "https://newscord.org/article/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-cj-desai-as-shares-drop--Story_20260928_Metalaunchesenterpria7a166ab",
-      "bestDomain": "newscord.org",
-      "sourceId": "S3",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
         "factId": "F21",
         "sourceId": "S3",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 90
+        "score": 46
       },
       "provenanceFactMatches": [
         {
           "factId": "F21",
           "sourceId": "S3",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 90,
-          "passageIndex": 10
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S3-P6",
-      "evidence": "Chirantan Desai said, \"As with Muse, security and privacy are built into Meta’s enterprise products from the outset,\" and Proactive financial news added that Desai also said, \"Our goal is to make Meta the place enterprises come to scale their businesses,\".",
-      "bestPassage": "Chirantan Desai said, \"As with Muse, security and privacy are built into Meta’s enterprise products from the outset,\" and Proactive financial news added that Desai also said, \"Our goal is to make Meta the place enterprises come to scale their businesses,\".",
-      "matchedPassages": [
-        "S3-P6",
-        "S3-BODY"
-      ],
-      "sharedTerms": [
-        "desai",
-        "security",
-        "and",
-        "privacy",
-        "are",
-        "built",
-        "meta",
-        "enterprise",
-        "product",
-        "the",
-        "outset"
-      ],
-      "entityShared": [
-        "desai",
-        "meta"
-      ],
-      "topicShared": [
-        "meta",
-        "enterprise"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 13,
-      "claim": "After the announcement, MongoDB’s shares fell more than 25%, and Meta investors also punished the decision with a 4% drop.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 98,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Meta Launches Enterprise AI Platform, Hires MongoDB CEO CJ Desai as Shares Drop: 20 outlets compared - NewsCord",
-      "bestUrl": "https://newscord.org/article/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-cj-desai-as-shares-drop--Story_20260928_Metalaunchesenterpria7a166ab",
-      "bestDomain": "newscord.org",
-      "sourceId": "S3",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F19",
-        "sourceId": "S3",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 89
-      },
-      "provenanceFactMatches": [
+          "score": 46,
+          "passageIndex": 4
+        },
         {
-          "factId": "F19",
-          "sourceId": "S3",
+          "factId": "F4",
+          "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 89,
-          "passageIndex": 8
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S3-BODY",
-      "evidence": "Business Insider España said MongoDB’s shares plunged more than 25% following the announcement, while it said Meta investors also punished the decision with a 4% drop.",
-      "bestPassage": "Business Insider España said MongoDB’s shares plunged more than 25% following the announcement, while it said Meta investors also punished the decision with a 4% drop.",
-      "matchedPassages": [
-        "S3-BODY",
-        "S3-P4"
-      ],
-      "sharedTerms": [
-        "the",
-        "announcement",
-        "mongodb",
-        "share",
-        "fall",
-        "and",
-        "meta",
-        "invest",
-        "punish",
-        "decision",
-        "drop"
-      ],
-      "entityShared": [
-        "mongodb",
-        "meta"
-      ],
-      "topicShared": [
-        "mongodb",
-        "meta"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": true,
-        "claimAttributed": true,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": true,
-      "directExact": true,
-      "matchingMode": "direct-exact-evidence"
-    },
-    {
-      "index": 14,
-      "claim": "The market response reflects uncertainty around how the new platform will perform and whether it can compete with established enterprise AI providers.",
-      "status": "partial",
-      "classification": "uncertain",
-      "confidence": 50,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Meta launches enterprise AI platform to drive business opportunities - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/meta-launches-enterprise-ai-platform-192954750.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F14",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 37
-      },
-      "provenanceFactMatches": [
+          "score": 42,
+          "passageIndex": 6
+        },
         {
-          "factId": "F14",
+          "factId": "F12",
           "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 37,
-          "passageIndex": 2
+          "score": 42,
+          "passageIndex": 14
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "The launch of the new business builds on the momentum of Muse, Meta&#8217;s personal AI assistant launched earlier this month that can perform tasks for users such as sending emails and booking travel.",
-      "bestPassage": "The launch of the new business builds on the momentum of Muse, Meta&#8217;s personal AI assistant launched earlier this month that can perform tasks for users such as sending emails and booking travel.",
+      "bestPassageId": "S3-FF21,S1-FF4,S2-FF12",
+      "evidence": "The tools Shopify has exposed through WebMCP include functions like search_catalog, update_cart, and proceed_to_checkout. Shopify already offers a hosted Model Context Protocol (MCP) server, which allows agents to work server-to-server. Shopify already offers a hosted Model Context Protocol (MCP) server, which allows agents to work server-to-server.",
+      "bestPassage": "The tools Shopify has exposed through WebMCP include functions like search_catalog, update_cart, and proceed_to_checkout. Shopify already offers a hosted Model Context Protocol (MCP) server, which allows agents to work server-to-server. Shopify already offers a hosted Model Context Protocol (MCP) server, which allows agents to work server-to-server.",
       "matchedPassages": [
-        "S1-BODY",
-        "S1-P1"
+        "S1-BODY"
       ],
       "sharedTerms": [
+        "shopify",
+        "has",
+        "models",
+        "context",
+        "protocol",
+        "webmcp",
         "the",
-        "new",
-        "platform",
-        "and",
-        "whether",
-        "can",
-        "establish",
-        "enterprise"
+        "checkout"
       ],
-      "entityShared": [],
+      "entityShared": [
+        "shopify",
+        "models",
+        "context",
+        "protocol",
+        "webmcp"
+      ],
       "topicShared": [
-        "new",
-        "platform",
-        "enterprise"
+        "shopify",
+        "checkout"
       ],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
       "scopeWarnings": [],
       "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": true,
+        "evidenceUncertain": false,
+        "claimUncertain": false,
         "evidenceAttributed": false,
         "claimAttributed": false,
         "certaintyEscalation": false,
@@ -1187,149 +165,71 @@
         "blocked": false
       },
       "factCoverage": 3,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 15,
-      "claim": "The platform’s first offerings will likely integrate Meta’s existing AI tools, such as Muse, and expand them for corporate use.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 66,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
-      "bestUrl": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
-      "bestDomain": "techcrunch.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F14",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 46
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F14",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 46,
-          "passageIndex": 2
-        },
-        {
-          "factId": "F25",
-          "sourceId": "S4",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 43,
-          "passageIndex": 6
-        },
-        {
-          "factId": "F11",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 42,
-          "passageIndex": 1
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-FF14,S4-FF25,S2-FF11",
-      "evidence": "The launch of the new business builds on the momentum of Muse, Meta&#8217;s personal AI assistant launched earlier this month that can perform tasks for users such as sending emails and booking travel. The new business builds on the momentum of Muse, which Meta introduced earlier this month as an AI assistant capable of handling tasks such as sending emails and booking travel. Meta announced Monday that it&#8217;s launching &#8220;Meta Enterprise Platform,&#8221; a new initiative aimed at expanding the company’s AI offerings to businesses and corporate customers.",
-      "bestPassage": "The launch of the new business builds on the momentum of Muse, Meta&#8217;s personal AI assistant launched earlier this month that can perform tasks for users such as sending emails and booking travel. The new business builds on the momentum of Muse, which Meta introduced earlier this month as an AI assistant capable of handling tasks such as sending emails and booking travel. Meta announced Monday that it&#8217;s launching &#8220;Meta Enterprise Platform,&#8221; a new initiative aimed at expanding the company’s AI offerings to businesses and corporate customers.",
-      "matchedPassages": [
-        "S2-BODY",
-        "S2-P4"
-      ],
-      "sharedTerms": [
-        "the",
-        "platform",
-        "offering",
-        "meta",
-        "such",
-        "muse",
-        "and",
-        "expand",
-        "for",
-        "corporate"
-      ],
-      "entityShared": [
-        "meta",
-        "muse"
-      ],
-      "topicShared": [
-        "platform",
-        "meta"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": true,
-        "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 3,
       "multiFactSupported": true,
       "directFactExact": false,
       "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
+      "matchingMode": "fact-map-multi-fact-anchored",
+      "initialStatus": "verified"
     },
     {
-      "index": 16,
-      "claim": "Businesses interested in leveraging Meta’s AI capabilities will need to evaluate how the new services fit into their existing data ecosystems and compliance frameworks.",
-      "status": "partial",
-      "classification": "uncertain",
-      "confidence": 47,
+      "index": 2,
+      "claim": "The new tools – get_checkout, update_checkout, and complete_checkout – let an AI agent inspect a checkout screen, modify details such as shipping address or delivery option, and submit the transaction once the buyer authorizes it.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 76,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
-      "bestUrl": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
-      "bestDomain": "techcrunch.com",
+      "bestSource": "Shopify opens checkout to browser-based AI agents - Yahoo Tech",
+      "bestUrl": "https://tech.yahoo.com/ai/deals/articles/shopify-opens-checkout-browser-based-193357081.html",
+      "bestDomain": "tech.yahoo.com",
       "sourceId": "S2",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F11",
+        "factId": "F17",
         "sourceId": "S2",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 39
+        "score": 70
       },
       "provenanceFactMatches": [
         {
-          "factId": "F11",
+          "factId": "F17",
           "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 39,
-          "passageIndex": 1
+          "score": 70,
+          "passageIndex": 12
         }
       ],
       "contextOnlySource": false,
       "bestPassageId": "S2-BODY",
-      "evidence": "Meta announced Monday that it&#8217;s launching &#8220;Meta Enterprise Platform,&#8221; a new initiative aimed at expanding the company’s AI offerings to businesses and corporate customers.",
-      "bestPassage": "Meta announced Monday that it&#8217;s launching &#8220;Meta Enterprise Platform,&#8221; a new initiative aimed at expanding the company’s AI offerings to businesses and corporate customers.",
+      "evidence": "This update introduces three new tools — get_checkout, update_checkout, and complete_checkout — that allow agents to inspect a checkout, change things like the customer's address or delivery option, and then place an order after the buyer authorizes it.",
+      "bestPassage": "This update introduces three new tools — get_checkout, update_checkout, and complete_checkout — that allow agents to inspect a checkout, change things like the customer's address or delivery option, and then place an order after the buyer authorizes it.",
       "matchedPassages": [
         "S2-BODY",
-        "S2-P1"
+        "S2-P9"
       ],
       "sharedTerms": [
-        "business",
-        "meta",
         "the",
         "new",
-        "and"
+        "tool",
+        "get",
+        "checkout",
+        "and",
+        "complete",
+        "agent",
+        "inspect",
+        "screen",
+        "addres",
+        "delivery",
+        "option",
+        "submit",
+        "transaction",
+        "buyer",
+        "authoriz"
       ],
-      "entityShared": [
-        "meta"
-      ],
+      "entityShared": [],
       "topicShared": [
-        "meta",
-        "new"
+        "checkout",
+        "agent"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -1338,85 +238,81 @@
       "attributionUncertainty": {
         "evidenceUncertain": false,
         "claimUncertain": false,
-        "evidenceAttributed": true,
+        "evidenceAttributed": false,
         "claimAttributed": false,
         "certaintyEscalation": false,
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 3,
+      "factCoverage": 1,
       "multiFactSupported": false,
       "directFactExact": false,
       "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
+      "matchingMode": "fact-map-anchored-source-passage",
+      "initialStatus": "verified"
     },
     {
-      "index": 17,
-      "claim": "Additionally, the performance of MongoDB’s stock and the broader market’s reception to Meta’s pivot will signal whether the platform can achieve its intended revenue goals.",
+      "index": 3,
+      "claim": "The update removes the need for agents to rely on screenshots or page scraping, offering a structured API instead.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 61,
+      "confidence": 65,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Meta hires Indian-origin MongoDB CEO to lead new enterprise AI business - People Matters - HR News",
-      "bestUrl": "https://www.peoplematters.in/amp/news/leadership/meta-hires-indian-origin-mongodb-ceo-to-lead-new-enterprise-ai-business-52391",
-      "bestDomain": "peoplematters.in",
-      "sourceId": "S4",
+      "bestSource": "Shopify opens checkout to browser-based AI agents",
+      "bestUrl": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+      "bestDomain": "techcrunch.com",
+      "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F23",
-        "sourceId": "S4",
+        "factId": "F2",
+        "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 43
+        "score": 46
       },
       "provenanceFactMatches": [
         {
-          "factId": "F23",
-          "sourceId": "S4",
+          "factId": "F2",
+          "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 43,
-          "passageIndex": 1
-        },
-        {
-          "factId": "F24",
-          "sourceId": "S4",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 42,
+          "score": 46,
           "passageIndex": 3
         },
         {
-          "factId": "F18",
-          "sourceId": "S3",
+          "factId": "F10",
+          "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 41,
+          "score": 46,
+          "passageIndex": 11
+        },
+        {
+          "factId": "F5",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 37,
           "passageIndex": 8
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S4-FF23,S4-FF24,S3-FF18",
-      "evidence": "Meta has appointed Chirantan “CJ” Desai , the Indian-origin Chief Executive Officer of MongoDB , to lead its newly launched Meta Enterprise Platform , marking a significant step in the company’s effort to deepen its presence in the enterprise AI market. According to Meta, the platform will package its AI technologies into products and services that organisations can deploy across operations, customer engagement and business workflows. Meta’s newsroom post about the enterprise platform sent MongoDB shares tumbling, with 24/7 Wall St. saying MongoDB (NASDAQ:MDB) fell 19% to $333.80 after losing its chief executive to the Meta Platforms project.",
-      "bestPassage": "Meta has appointed Chirantan “CJ” Desai , the Indian-origin Chief Executive Officer of MongoDB , to lead its newly launched Meta Enterprise Platform , marking a significant step in the company’s effort to deepen its presence in the enterprise AI market. According to Meta, the platform will package its AI technologies into products and services that organisations can deploy across operations, customer engagement and business workflows. Meta’s newsroom post about the enterprise platform sent MongoDB shares tumbling, with 24/7 Wall St. saying MongoDB (NASDAQ:MDB) fell 19% to $333.80 after losing its chief executive to the Meta Platforms project.",
+      "bestPassageId": "S1-FF2,S2-FF10,S1-FF5",
+      "evidence": "The addition of WebMCP support for checkout, including Shop Pay, means these agents can now read the checkout screen, update it, and submit the transaction with the buyer&#8217;s authorization, without relying on screenshots or scraping web pages, the company said. The addition of WebMCP support for checkout, including Shop Pay, means these agents can now read the checkout screen, update it, and submit the transaction with the buyer's authorization, without relying on screenshots or scraping web pages, the company said. &#8220;If your agent is operating in the buyer’s browser, use WebMCP tools provided on storefront and checkout to efficiently complete order placement, instead of navigating HTML built for humans,&#8221; Greenberg wrote on X. &#8220;These WebMCP tools provide structured and efficient APIs, purposely designed — via UCP — to ensure accurate commerce facts, required disclosures, and handoff requirements.&#8221;",
+      "bestPassage": "The addition of WebMCP support for checkout, including Shop Pay, means these agents can now read the checkout screen, update it, and submit the transaction with the buyer&#8217;s authorization, without relying on screenshots or scraping web pages, the company said. The addition of WebMCP support for checkout, including Shop Pay, means these agents can now read the checkout screen, update it, and submit the transaction with the buyer's authorization, without relying on screenshots or scraping web pages, the company said. &#8220;If your agent is operating in the buyer’s browser, use WebMCP tools provided on storefront and checkout to efficiently complete order placement, instead of navigating HTML built for humans,&#8221; Greenberg wrote on X. &#8220;These WebMCP tools provide structured and efficient APIs, purposely designed — via UCP — to ensure accurate commerce facts, required disclosures, and handoff requirements.&#8221;",
       "matchedPassages": [
-        "S4-BODY"
+        "S1-BODY"
       ],
       "sharedTerms": [
         "the",
-        "mongodb",
-        "and",
-        "market",
-        "meta",
-        "platform",
-        "can",
-        "its"
+        "for",
+        "agent",
+        "rely",
+        "screenshot",
+        "scrap",
+        "structur",
+        "instead"
       ],
-      "entityShared": [
-        "mongodb",
-        "meta"
-      ],
+      "entityShared": [],
       "topicShared": [
-        "mongodb",
-        "meta",
-        "platform"
+        "agent"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -1424,95 +320,855 @@
       "scopeWarnings": [],
       "attributionUncertainty": {
         "evidenceUncertain": true,
-        "claimUncertain": true,
+        "claimUncertain": false,
         "evidenceAttributed": true,
         "claimAttributed": false,
         "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
+        "attributionDropped": true,
+        "blocked": true
       },
       "factCoverage": 3,
       "multiFactSupported": true,
       "directFactExact": false,
       "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
+      "matchingMode": "semantic-context-generic-entity-compatible",
+      "initialStatus": "unsupported",
+      "entityGateCompatibility": "generic-sentence-initial-word-not-a-named-entity",
+      "compatibilityRescue": {
+        "method": "core-fact-map-semantic-compatibility",
+        "initialStatus": "unsupported",
+        "sourceRole": "DIRECT_REPORTING",
+        "factId": "F2",
+        "reason": "strict lexical evidence matched a mapped core fact and passed all hard mismatch checks"
+      }
     },
     {
-      "index": 18,
-      "claim": "Meta’s launch of an enterprise AI platform and the appointment of MongoDB’s former CEO to lead it represent a strategic attempt to turn its AI investments into a profitable business arm.",
+      "index": 4,
+      "claim": "WebMCP operates inside the shopper’s own browser session.When a browser‑based agent such as Muse or Instinct is present in a Chromium‑based browser on a Liquid storefront or Hydrogen developer preview, it can call the newly exposed WebMCP commands against the live storefront.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 79,
+      "confidence": 92,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Meta hires Indian-origin MongoDB CEO to lead new enterprise AI business - People Matters - HR News",
-      "bestUrl": "https://www.peoplematters.in/amp/news/leadership/meta-hires-indian-origin-mongodb-ceo-to-lead-new-enterprise-ai-business-52391",
-      "bestDomain": "peoplematters.in",
+      "bestSource": "Shopify Opens Every Storefront to AI Agents With New WebMCP Tools - Startup Fortune",
+      "bestUrl": "https://startupfortune.com/shopify-opens-every-storefront-to-ai-agents-with-new-webmcp-tools/",
+      "bestDomain": "startupfortune.com",
       "sourceId": "S4",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F23",
+        "factId": "F33",
         "sourceId": "S4",
         "sourceRole": "DIRECT_REPORTING",
         "score": 59
       },
       "provenanceFactMatches": [
         {
-          "factId": "F23",
+          "factId": "F19",
+          "sourceId": "S3",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 61,
+          "passageIndex": 3
+        },
+        {
+          "factId": "F33",
           "sourceId": "S4",
           "sourceRole": "DIRECT_REPORTING",
           "score": 59,
-          "passageIndex": 1
+          "passageIndex": 4
         },
         {
-          "factId": "F1",
-          "sourceId": "S1",
+          "factId": "F28",
+          "sourceId": "S4",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 49,
-          "passageIndex": 2
-        },
-        {
-          "factId": "F6",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 47,
-          "passageIndex": 7
+          "score": 50,
+          "passageIndex": 3
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S4-FF23,S1-FF1,S1-FF6",
-      "evidence": "Meta has appointed Chirantan “CJ” Desai , the Indian-origin Chief Executive Officer of MongoDB , to lead its newly launched Meta Enterprise Platform , marking a significant step in the company’s effort to deepen its presence in the enterprise AI market. Meta announced the launch of its new Meta Enterprise Platform , which it hopes will drive more business adoption of its artificial intelligence products, and provide another revenue pathway for its increasingly costly AI business. Former MongoDB CEO Chirantan Desai will be brought in to Meta to lead the project.",
-      "bestPassage": "Meta has appointed Chirantan “CJ” Desai , the Indian-origin Chief Executive Officer of MongoDB , to lead its newly launched Meta Enterprise Platform , marking a significant step in the company’s effort to deepen its presence in the enterprise AI market. Meta announced the launch of its new Meta Enterprise Platform , which it hopes will drive more business adoption of its artificial intelligence products, and provide another revenue pathway for its increasingly costly AI business. Former MongoDB CEO Chirantan Desai will be brought in to Meta to lead the project.",
+      "bestPassageId": "S4-BODY",
+      "evidence": "On August 5, the company activated native WebMCP support across all Liquid storefronts and the Hydrogen developer preview, letting browser-based AI agents handle everything from product searches to checkout, no merchant setup required. WebMCP operates inside the shopper's own browser session, registering your storefront's functions directly with the browser the way a page registers a click handler. Shopify's August 5 changelog announced WebMCP support for Liquid and Hydrogen storefronts, and its developer documentation says Shopify provides WebMCP tools on every Liquid storefront and storefronts built with the Hydrogen developer preview.",
+      "bestPassage": "On August 5, the company activated native WebMCP support across all Liquid storefronts and the Hydrogen developer preview, letting browser-based AI agents handle everything from product searches to checkout, no merchant setup required. WebMCP operates inside the shopper's own browser session, registering your storefront's functions directly with the browser the way a page registers a click handler. Shopify's August 5 changelog announced WebMCP support for Liquid and Hydrogen storefronts, and its developer documentation says Shopify provides WebMCP tools on every Liquid storefront and storefronts built with the Hydrogen developer preview.",
       "matchedPassages": [
         "S4-BODY"
       ],
       "sharedTerms": [
-        "meta",
-        "launch",
-        "enterprise",
-        "platform",
-        "and",
+        "webmcp",
+        "operat",
+        "inside",
         "the",
-        "mongodb",
-        "former",
-        "ceo",
-        "lead",
-        "its",
-        "busines"
+        "shopper",
+        "own",
+        "browser",
+        "session",
+        "bas",
+        "agent",
+        "chromium",
+        "liquid",
+        "storefront",
+        "hydrogen",
+        "developer",
+        "preview",
+        "can",
+        "call",
+        "expos",
+        "command",
+        "against",
+        "live"
       ],
       "entityShared": [
-        "meta",
-        "mongodb",
-        "ceo"
+        "webmcp",
+        "chromium",
+        "liquid",
+        "hydrogen"
       ],
       "topicShared": [
-        "meta",
-        "launch",
-        "enterprise",
-        "platform",
-        "mongodb",
-        "ceo",
-        "lead"
+        "browser",
+        "bas",
+        "agent"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": true,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 3,
+      "multiFactSupported": true,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-multi-fact-anchored",
+      "initialStatus": "verified"
+    },
+    {
+      "index": 5,
+      "claim": "Shopify already hosts a Model Context Protocol (MCP) server for server‑to‑server agent interactions, and the new checkout tools leverage the same Universal Commerce Protocol (UCP) that powers catalog search and cart building.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 94,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Shopify opens checkout to browser-based AI agents - Yahoo Tech",
+      "bestUrl": "https://tech.yahoo.com/ai/deals/articles/shopify-opens-checkout-browser-based-193357081.html",
+      "bestDomain": "tech.yahoo.com",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F12",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 67
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F4",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 67,
+          "passageIndex": 6
+        },
+        {
+          "factId": "F12",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 67,
+          "passageIndex": 14
+        },
+        {
+          "factId": "F13",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 65,
+          "passageIndex": 14
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S2-BODY",
+      "evidence": "Shopify already offers a hosted Model Context Protocol (MCP) server, which allows agents to work server-to-server. Shopify already offers a hosted Model Context Protocol (MCP) server, which allows agents to work server-to-server. Both leverage Shopify's Universal Commerce Protocol (UCP), which provides a common way to search for and discover products, build carts, and check out.",
+      "bestPassage": "Shopify already offers a hosted Model Context Protocol (MCP) server, which allows agents to work server-to-server. Shopify already offers a hosted Model Context Protocol (MCP) server, which allows agents to work server-to-server. Both leverage Shopify's Universal Commerce Protocol (UCP), which provides a common way to search for and discover products, build carts, and check out.",
+      "matchedPassages": [
+        "S2-BODY"
+      ],
+      "sharedTerms": [
+        "shopify",
+        "host",
+        "models",
+        "context",
+        "protocol",
+        "mcp",
+        "server",
+        "for",
+        "agent",
+        "and",
+        "the",
+        "new",
+        "checkout",
+        "tool",
+        "leverage",
+        "universal",
+        "commerce",
+        "ucp",
+        "search",
+        "cart",
+        "build"
+      ],
+      "entityShared": [
+        "shopify",
+        "models",
+        "context",
+        "protocol",
+        "mcp",
+        "universal",
+        "commerce",
+        "ucp"
+      ],
+      "topicShared": [
+        "shopify",
+        "agent",
+        "checkout"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 3,
+      "multiFactSupported": true,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-multi-fact-anchored",
+      "initialStatus": "verified"
+    },
+    {
+      "index": 6,
+      "claim": "The agent receives accurate commerce data, required disclosures, and handoff information before it can place an order.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 75,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Shopify opens checkout to browser-based AI agents",
+      "bestUrl": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+      "bestDomain": "techcrunch.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F5",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 66
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F5",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 66,
+          "passageIndex": 8
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-BODY",
+      "evidence": "&#8220;If your agent is operating in the buyer’s browser, use WebMCP tools provided on storefront and checkout to efficiently complete order placement, instead of navigating HTML built for humans,&#8221; Greenberg wrote on X. &#8220;These WebMCP tools provide structured and efficient APIs, purposely designed — via UCP — to ensure accurate commerce facts, required disclosures, and handoff requirements.&#8221;",
+      "bestPassage": "&#8220;If your agent is operating in the buyer’s browser, use WebMCP tools provided on storefront and checkout to efficiently complete order placement, instead of navigating HTML built for humans,&#8221; Greenberg wrote on X. &#8220;These WebMCP tools provide structured and efficient APIs, purposely designed — via UCP — to ensure accurate commerce facts, required disclosures, and handoff requirements.&#8221;",
+      "matchedPassages": [
+        "S1-BODY",
+        "S1-P5"
+      ],
+      "sharedTerms": [
+        "the",
+        "agent",
+        "accurate",
+        "commerce",
+        "requir",
+        "disclosur",
+        "and",
+        "handoff",
+        "can",
+        "order"
+      ],
+      "entityShared": [],
+      "topicShared": [
+        "agent"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": true,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage",
+      "initialStatus": "verified"
+    },
+    {
+      "index": 7,
+      "claim": "The change positions Shopify opposite to retailers like Amazon that block AI‑driven purchases on their platforms.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 81,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Shopify opens checkout to browser-based AI agents - Yahoo Tech",
+      "bestUrl": "https://tech.yahoo.com/ai/deals/articles/shopify-opens-checkout-browser-based-193357081.html",
+      "bestDomain": "tech.yahoo.com",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F11",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 75
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F3",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 75,
+          "passageIndex": 1
+        },
+        {
+          "factId": "F11",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 75,
+          "passageIndex": 9
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-FF3,S2-FF11",
+      "evidence": "While some retailers, like Amazon (and Adidas , apparently!), are blocking AI agents from making purchases on users&#8217; behalf on their respective platforms, e-commerce platform Shopify has moved in the other direction. While some retailers, like Amazon (and Adidas , apparently!), are blocking AI agents from making purchases on users' behalf on their respective platforms, e-commerce platform Shopify has moved in the other direction.",
+      "bestPassage": "While some retailers, like Amazon (and Adidas , apparently!), are blocking AI agents from making purchases on users&#8217; behalf on their respective platforms, e-commerce platform Shopify has moved in the other direction. While some retailers, like Amazon (and Adidas , apparently!), are blocking AI agents from making purchases on users' behalf on their respective platforms, e-commerce platform Shopify has moved in the other direction.",
+      "matchedPassages": [
+        "S2-BODY",
+        "S2-P3"
+      ],
+      "sharedTerms": [
+        "the",
+        "shopify",
+        "retailer",
+        "like",
+        "amazon",
+        "block",
+        "purchas",
+        "platform"
+      ],
+      "entityShared": [
+        "shopify",
+        "amazon"
+      ],
+      "topicShared": [
+        "shopify"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-multi-fact-anchored",
+      "initialStatus": "verified"
+    },
+    {
+      "index": 8,
+      "claim": "By allowing agents to finish checkout inside the buyer’s browser, Shopify expands the scope of agentic commerce while still requiring buyer consent before payment is submitted.",
+      "status": "partial",
+      "classification": "supported_with_context",
+      "confidence": 76,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Shopify opens checkout to browser-based AI agents",
+      "bestUrl": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+      "bestDomain": "techcrunch.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F22",
+        "sourceId": "S3",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 47
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F22",
+          "sourceId": "S3",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 47,
+          "passageIndex": 13
+        },
+        {
+          "factId": "F5",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 46,
+          "passageIndex": 8
+        },
+        {
+          "factId": "F35",
+          "sourceId": "S4",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 39,
+          "passageIndex": 5
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S3-FF22,S1-FF5,S4-FF35",
+      "evidence": "By explicitly blocking AI agents from handling payment credentials and requiring buyer consent before order finalization, Shopify has drawn a clear line that regulators and consumers can both understand. &#8220;If your agent is operating in the buyer’s browser, use WebMCP tools provided on storefront and checkout to efficiently complete order placement, instead of navigating HTML built for humans,&#8221; Greenberg wrote on X. &#8220;These WebMCP tools provide structured and efficient APIs, purposely designed — via UCP — to ensure accurate commerce facts, required disclosures, and handoff requirements.&#8221; OpenAI launched Instant Checkout on September 29, 2025, with Etsy sellers live in ChatGPT and more than a million Shopify merchants announced as coming soon, built on the Agentic Commerce Protocol it developed with Stripe.",
+      "bestPassage": "By explicitly blocking AI agents from handling payment credentials and requiring buyer consent before order finalization, Shopify has drawn a clear line that regulators and consumers can both understand. &#8220;If your agent is operating in the buyer’s browser, use WebMCP tools provided on storefront and checkout to efficiently complete order placement, instead of navigating HTML built for humans,&#8221; Greenberg wrote on X. &#8220;These WebMCP tools provide structured and efficient APIs, purposely designed — via UCP — to ensure accurate commerce facts, required disclosures, and handoff requirements.&#8221; OpenAI launched Instant Checkout on September 29, 2025, with Etsy sellers live in ChatGPT and more than a million Shopify merchants announced as coming soon, built on the Agentic Commerce Protocol it developed with Stripe.",
+      "matchedPassages": [
+        "S1-BODY"
+      ],
+      "sharedTerms": [
+        "agent",
+        "checkout",
+        "the",
+        "buyer",
+        "browser",
+        "shopify",
+        "agentic",
+        "commerce",
+        "requir",
+        "consent",
+        "payment"
+      ],
+      "entityShared": [
+        "shopify"
+      ],
+      "topicShared": [
+        "agent",
+        "checkout",
+        "browser",
+        "shopify"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": true,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": true,
+        "attributionDropped": true,
+        "blocked": true
+      },
+      "factCoverage": 3,
+      "multiFactSupported": true,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-multi-fact-anchored",
+      "initialStatus": "partial"
+    },
+    {
+      "index": 9,
+      "claim": "The rollout is active for all eligible merchants, and the company’s staff product manager confirmed the feature is being released broadly.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 73,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Shopify opens checkout to browser-based AI agents",
+      "bestUrl": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+      "bestDomain": "techcrunch.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F8",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 63
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F8",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 63,
+          "passageIndex": 5
+        },
+        {
+          "factId": "F16",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 63,
+          "passageIndex": 13
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-BODY",
+      "evidence": "The feature is rolling out to all eligible Shopify merchants, said Gil Greenberg , a staff product manager who works on agentic commerce at Shopify, in a post on X . The feature is rolling out to all eligible Shopify merchants, said Gil Greenberg , a staff product manager who works on agentic commerce at Shopify, in a post on X .",
+      "bestPassage": "The feature is rolling out to all eligible Shopify merchants, said Gil Greenberg , a staff product manager who works on agentic commerce at Shopify, in a post on X . The feature is rolling out to all eligible Shopify merchants, said Gil Greenberg , a staff product manager who works on agentic commerce at Shopify, in a post on X .",
+      "matchedPassages": [
+        "S1-BODY",
+        "S1-P8"
+      ],
+      "sharedTerms": [
+        "the",
+        "for",
+        "all",
+        "eligible",
+        "merchant",
+        "and",
+        "staff",
+        "product",
+        "manager",
+        "feature"
+      ],
+      "entityShared": [],
+      "topicShared": [],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-multi-fact-anchored",
+      "initialStatus": "verified"
+    },
+    {
+      "index": 10,
+      "claim": "Top AI agents already have direct agreements with Shopify.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 75,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Shopify opens checkout to browser-based AI agents",
+      "bestUrl": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+      "bestDomain": "techcrunch.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F6",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 73
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F6",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 73,
+          "passageIndex": 7
+        },
+        {
+          "factId": "F14",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 73,
+          "passageIndex": 15
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-FF6,S2-FF14",
+      "evidence": "Top AI agents like Muse and Instinct already have direct partnerships with Shopify for agentic commerce. Top AI agents like Muse and Instinct already have direct partnerships with Shopify for agentic commerce.",
+      "bestPassage": "Top AI agents like Muse and Instinct already have direct partnerships with Shopify for agentic commerce. Top AI agents like Muse and Instinct already have direct partnerships with Shopify for agentic commerce.",
+      "matchedPassages": [
+        "S1-BODY",
+        "S1-P6"
+      ],
+      "sharedTerms": [
+        "top",
+        "agent",
+        "direct",
+        "shopify"
+      ],
+      "entityShared": [
+        "top",
+        "shopify"
+      ],
+      "topicShared": [
+        "agent",
+        "shopify"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-multi-fact-anchored",
+      "initialStatus": "verified"
+    },
+    {
+      "index": 11,
+      "claim": "Muse and Instinct, for example, were announced as partners today.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 75,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Shopify opens checkout to browser-based AI agents",
+      "bestUrl": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+      "bestDomain": "techcrunch.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F6",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 63
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F6",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 63,
+          "passageIndex": 7
+        },
+        {
+          "factId": "F14",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 63,
+          "passageIndex": 15
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-BODY",
+      "evidence": "Top AI agents like Muse and Instinct already have direct partnerships with Shopify for agentic commerce. Top AI agents like Muse and Instinct already have direct partnerships with Shopify for agentic commerce.",
+      "bestPassage": "Top AI agents like Muse and Instinct already have direct partnerships with Shopify for agentic commerce. Top AI agents like Muse and Instinct already have direct partnerships with Shopify for agentic commerce.",
+      "matchedPassages": [
+        "S1-BODY",
+        "S1-P6"
+      ],
+      "sharedTerms": [
+        "muse",
+        "and",
+        "instinct",
+        "for",
+        "announce",
+        "partner"
+      ],
+      "entityShared": [
+        "muse",
+        "instinct"
+      ],
+      "topicShared": [],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": true,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-multi-fact-anchored",
+      "initialStatus": "verified"
+    },
+    {
+      "index": 12,
+      "claim": "These partnerships give agents early access to the new checkout tools and integrate them into existing commerce workflows.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 58,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Shopify Opens Every Storefront to AI Agents With New WebMCP Tools - Startup Fortune",
+      "bestUrl": "https://startupfortune.com/shopify-opens-every-storefront-to-ai-agents-with-new-webmcp-tools/",
+      "bestDomain": "startupfortune.com",
+      "sourceId": "S4",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F5",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 38
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F5",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 38,
+          "passageIndex": 8
+        },
+        {
+          "factId": "F17",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 38,
+          "passageIndex": 12
+        },
+        {
+          "factId": "F32",
+          "sourceId": "S4",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 37,
+          "passageIndex": 6
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S4-BODY",
+      "evidence": "&#8220;If your agent is operating in the buyer’s browser, use WebMCP tools provided on storefront and checkout to efficiently complete order placement, instead of navigating HTML built for humans,&#8221; Greenberg wrote on X. &#8220;These WebMCP tools provide structured and efficient APIs, purposely designed — via UCP — to ensure accurate commerce facts, required disclosures, and handoff requirements.&#8221; This update introduces three new tools — get_checkout, update_checkout, and complete_checkout — that allow agents to inspect a checkout, change things like the customer's address or delivery option, and then place an order after the buyer authorizes it. The storefront just exposes its own tools, and whichever agent shows up in the browser calls them directly against the live store.",
+      "bestPassage": "&#8220;If your agent is operating in the buyer’s browser, use WebMCP tools provided on storefront and checkout to efficiently complete order placement, instead of navigating HTML built for humans,&#8221; Greenberg wrote on X. &#8220;These WebMCP tools provide structured and efficient APIs, purposely designed — via UCP — to ensure accurate commerce facts, required disclosures, and handoff requirements.&#8221; This update introduces three new tools — get_checkout, update_checkout, and complete_checkout — that allow agents to inspect a checkout, change things like the customer's address or delivery option, and then place an order after the buyer authorizes it. The storefront just exposes its own tools, and whichever agent shows up in the browser calls them directly against the live store.",
+      "matchedPassages": [
+        "S4-BODY",
+        "S4-P6"
+      ],
+      "sharedTerms": [
+        "agent",
+        "the",
+        "new",
+        "checkout",
+        "tool",
+        "and",
+        "them",
+        "commerce"
+      ],
+      "entityShared": [],
+      "topicShared": [
+        "agent",
+        "checkout"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 3,
+      "multiFactSupported": true,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-multi-fact-anchored",
+      "initialStatus": "verified"
+    },
+    {
+      "index": 13,
+      "claim": "Shopify’s announcement specifies that the feature is rolling out to all eligible merchants, but it does not detail which merchants are considered eligible or the exact timeline for full availability.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 62,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Shopify opens checkout to browser-based AI agents",
+      "bestUrl": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+      "bestDomain": "techcrunch.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F8",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 62
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F8",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 62,
+          "passageIndex": 5
+        },
+        {
+          "factId": "F16",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 62,
+          "passageIndex": 13
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-FF8,S2-FF16",
+      "evidence": "The feature is rolling out to all eligible Shopify merchants, said Gil Greenberg , a staff product manager who works on agentic commerce at Shopify, in a post on X . The feature is rolling out to all eligible Shopify merchants, said Gil Greenberg , a staff product manager who works on agentic commerce at Shopify, in a post on X .",
+      "bestPassage": "The feature is rolling out to all eligible Shopify merchants, said Gil Greenberg , a staff product manager who works on agentic commerce at Shopify, in a post on X . The feature is rolling out to all eligible Shopify merchants, said Gil Greenberg , a staff product manager who works on agentic commerce at Shopify, in a post on X .",
+      "matchedPassages": [
+        "S1-BODY",
+        "S1-P8"
+      ],
+      "sharedTerms": [
+        "shopify",
+        "the",
+        "feature",
+        "roll",
+        "out",
+        "all",
+        "eligible",
+        "merchant"
+      ],
+      "entityShared": [
+        "shopify"
+      ],
+      "topicShared": [
+        "shopify"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -1527,18 +1183,430 @@
         "attributionDropped": false,
         "blocked": false
       },
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-multi-fact-anchored",
+      "initialStatus": "verified"
+    },
+    {
+      "index": 14,
+      "claim": "While the new tools prevent agents from handling payment credentials directly, the system still requires explicit buyer authorization before order finalization.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 77,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Shopify enables browser-based AI agents to complete purchases - Crypto Briefing",
+      "bestUrl": "https://cryptobriefing.com/shopify-webmcp-ai-agents-checkout/",
+      "bestDomain": "cryptobriefing.com",
+      "sourceId": "S3",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F22",
+        "sourceId": "S3",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 64
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F22",
+          "sourceId": "S3",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 64,
+          "passageIndex": 13
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S3-BODY",
+      "evidence": "By explicitly blocking AI agents from handling payment credentials and requiring buyer consent before order finalization, Shopify has drawn a clear line that regulators and consumers can both understand.",
+      "bestPassage": "By explicitly blocking AI agents from handling payment credentials and requiring buyer consent before order finalization, Shopify has drawn a clear line that regulators and consumers can both understand.",
+      "matchedPassages": [
+        "S3-BODY",
+        "S3-P5"
+      ],
+      "sharedTerms": [
+        "the",
+        "new",
+        "tool",
+        "agent",
+        "handl",
+        "payment",
+        "credential",
+        "directly",
+        "requir",
+        "buyer",
+        "order",
+        "finalization"
+      ],
+      "entityShared": [],
+      "topicShared": [
+        "agent"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": true,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage",
+      "initialStatus": "verified"
+    },
+    {
+      "index": 15,
+      "claim": "The extent to which different storefronts or developer previews will support the tools remains unreported.",
+      "status": "partial",
+      "classification": "uncertain",
+      "confidence": 51,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Shopify enables browser-based AI agents to complete purchases - Crypto Briefing",
+      "bestUrl": "https://cryptobriefing.com/shopify-webmcp-ai-agents-checkout/",
+      "bestDomain": "cryptobriefing.com",
+      "sourceId": "S3",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F28",
+        "sourceId": "S4",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 48
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F28",
+          "sourceId": "S4",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 48,
+          "passageIndex": 3
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S3-BODY",
+      "evidence": "Shopify's August 5 changelog announced WebMCP support for Liquid and Hydrogen storefronts, and its developer documentation says Shopify provides WebMCP tools on every Liquid storefront and storefronts built with the Hydrogen developer preview.",
+      "bestPassage": "Shopify's August 5 changelog announced WebMCP support for Liquid and Hydrogen storefronts, and its developer documentation says Shopify provides WebMCP tools on every Liquid storefront and storefronts built with the Hydrogen developer preview.",
+      "matchedPassages": [
+        "S3-BODY",
+        "S3-P2"
+      ],
+      "sharedTerms": [
+        "the",
+        "storefront",
+        "developer",
+        "preview",
+        "support",
+        "tool"
+      ],
+      "entityShared": [],
+      "topicShared": [],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage",
+      "initialStatus": "partial"
+    },
+    {
+      "index": 16,
+      "claim": "As more merchants adopt the WebMCP checkout tools, developers will need to update agent code to use the new get_checkout, update_checkout, and complete_checkout commands.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 75,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Shopify opens checkout to browser-based AI agents - Yahoo Tech",
+      "bestUrl": "https://tech.yahoo.com/ai/deals/articles/shopify-opens-checkout-browser-based-193357081.html",
+      "bestDomain": "tech.yahoo.com",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F17",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 64
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F17",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 64,
+          "passageIndex": 12
+        },
+        {
+          "factId": "F5",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 52,
+          "passageIndex": 8
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S2-FF17,S1-FF5",
+      "evidence": "This update introduces three new tools — get_checkout, update_checkout, and complete_checkout — that allow agents to inspect a checkout, change things like the customer's address or delivery option, and then place an order after the buyer authorizes it. &#8220;If your agent is operating in the buyer’s browser, use WebMCP tools provided on storefront and checkout to efficiently complete order placement, instead of navigating HTML built for humans,&#8221; Greenberg wrote on X. &#8220;These WebMCP tools provide structured and efficient APIs, purposely designed — via UCP — to ensure accurate commerce facts, required disclosures, and handoff requirements.&#8221;",
+      "bestPassage": "This update introduces three new tools — get_checkout, update_checkout, and complete_checkout — that allow agents to inspect a checkout, change things like the customer's address or delivery option, and then place an order after the buyer authorizes it. &#8220;If your agent is operating in the buyer’s browser, use WebMCP tools provided on storefront and checkout to efficiently complete order placement, instead of navigating HTML built for humans,&#8221; Greenberg wrote on X. &#8220;These WebMCP tools provide structured and efficient APIs, purposely designed — via UCP — to ensure accurate commerce facts, required disclosures, and handoff requirements.&#8221;",
+      "matchedPassages": [
+        "S2-BODY",
+        "S2-P9"
+      ],
+      "sharedTerms": [
+        "the",
+        "webmcp",
+        "checkout",
+        "tool",
+        "agent",
+        "use",
+        "new",
+        "get",
+        "and",
+        "complete"
+      ],
+      "entityShared": [
+        "webmcp"
+      ],
+      "topicShared": [
+        "checkout",
+        "agent"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-multi-fact-anchored",
+      "initialStatus": "verified"
+    },
+    {
+      "index": 18,
+      "claim": "Shopify’s WebMCP checkout rollout gives AI agents a structured path to complete purchases inside the buyer’s browser, a clear shift from other e‑commerce platforms that restrict such activity.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 79,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Shopify opens checkout to browser-based AI agents",
+      "bestUrl": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+      "bestDomain": "techcrunch.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F5",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 55
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F5",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 55,
+          "passageIndex": 8
+        },
+        {
+          "factId": "F23",
+          "sourceId": "S3",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 46,
+          "passageIndex": 2
+        },
+        {
+          "factId": "F3",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 43,
+          "passageIndex": 1
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-FF5,S3-FF23,S1-FF3",
+      "evidence": "&#8220;If your agent is operating in the buyer’s browser, use WebMCP tools provided on storefront and checkout to efficiently complete order placement, instead of navigating HTML built for humans,&#8221; Greenberg wrote on X. &#8220;These WebMCP tools provide structured and efficient APIs, purposely designed — via UCP — to ensure accurate commerce facts, required disclosures, and handoff requirements.&#8221; The e-commerce giant&#039;s WebMCP rollout lets AI agents search catalogs, manage carts, and finalize orders directly in a shopper&#039;s browser session. While some retailers, like Amazon (and Adidas , apparently!), are blocking AI agents from making purchases on users&#8217; behalf on their respective platforms, e-commerce platform Shopify has moved in the other direction.",
+      "bestPassage": "&#8220;If your agent is operating in the buyer’s browser, use WebMCP tools provided on storefront and checkout to efficiently complete order placement, instead of navigating HTML built for humans,&#8221; Greenberg wrote on X. &#8220;These WebMCP tools provide structured and efficient APIs, purposely designed — via UCP — to ensure accurate commerce facts, required disclosures, and handoff requirements.&#8221; The e-commerce giant&#039;s WebMCP rollout lets AI agents search catalogs, manage carts, and finalize orders directly in a shopper&#039;s browser session. While some retailers, like Amazon (and Adidas , apparently!), are blocking AI agents from making purchases on users&#8217; behalf on their respective platforms, e-commerce platform Shopify has moved in the other direction.",
+      "matchedPassages": [
+        "S1-BODY"
+      ],
+      "sharedTerms": [
+        "shopify",
+        "webmcp",
+        "checkout",
+        "rollout",
+        "agent",
+        "structur",
+        "complete",
+        "purchas",
+        "the",
+        "buyer",
+        "browser",
+        "other",
+        "commerce",
+        "platform"
+      ],
+      "entityShared": [
+        "shopify",
+        "webmcp"
+      ],
+      "topicShared": [
+        "shopify",
+        "checkout",
+        "agent",
+        "browser"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
       "factCoverage": 3,
       "multiFactSupported": true,
       "directFactExact": false,
       "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
+      "matchingMode": "fact-map-multi-fact-anchored",
+      "initialStatus": "verified"
+    },
+    {
+      "index": 19,
+      "claim": "The move is supported by existing agent partnerships and leverages Shopify’s UCP framework, but full merchant coverage and practical enforcement details are still unfolding.Developers and merchants can use the new WebMCP commands without additional merchant setup.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 63,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Shopify enables browser-based AI agents to complete purchases - Crypto Briefing",
+      "bestUrl": "https://cryptobriefing.com/shopify-webmcp-ai-agents-checkout/",
+      "bestDomain": "cryptobriefing.com",
+      "sourceId": "S3",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F19",
+        "sourceId": "S3",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 43
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F19",
+          "sourceId": "S3",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 43,
+          "passageIndex": 3
+        },
+        {
+          "factId": "F24",
+          "sourceId": "S3",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 38,
+          "passageIndex": 11
+        },
+        {
+          "factId": "F28",
+          "sourceId": "S4",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 38,
+          "passageIndex": 3
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S3-FF19,S3-FF24,S4-FF28",
+      "evidence": "On August 5, the company activated native WebMCP support across all Liquid storefronts and the Hydrogen developer preview, letting browser-based AI agents handle everything from product searches to checkout, no merchant setup required. This builds on infrastructure Shopify had already been developing around MCP and UCP protocols, extending its existing compliance and security frameworks to cover these new agent-driven interactions. Shopify's August 5 changelog announced WebMCP support for Liquid and Hydrogen storefronts, and its developer documentation says Shopify provides WebMCP tools on every Liquid storefront and storefronts built with the Hydrogen developer preview.",
+      "bestPassage": "On August 5, the company activated native WebMCP support across all Liquid storefronts and the Hydrogen developer preview, letting browser-based AI agents handle everything from product searches to checkout, no merchant setup required. This builds on infrastructure Shopify had already been developing around MCP and UCP protocols, extending its existing compliance and security frameworks to cover these new agent-driven interactions. Shopify's August 5 changelog announced WebMCP support for Liquid and Hydrogen storefronts, and its developer documentation says Shopify provides WebMCP tools on every Liquid storefront and storefronts built with the Hydrogen developer preview.",
+      "matchedPassages": [
+        "S3-BODY",
+        "S3-P2"
+      ],
+      "sharedTerms": [
+        "the",
+        "support",
+        "exist",
+        "agent",
+        "and",
+        "shopify",
+        "ucp",
+        "framework",
+        "merchant",
+        "developer",
+        "new",
+        "webmcp",
+        "setup"
+      ],
+      "entityShared": [
+        "shopify",
+        "ucp",
+        "webmcp"
+      ],
+      "topicShared": [
+        "agent",
+        "shopify"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": true,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 3,
+      "multiFactSupported": true,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-multi-fact-anchored",
+      "initialStatus": "verified"
     }
   ],
   "editorial": [
     {
-      "index": 19,
-      "claim": "Success will depend on building trust with corporate customers and delivering AI solutions that complement rather than compete with Meta’s consumer offerings.",
-      "type": "editorial-analysis",
+      "index": 17,
+      "claim": "Observers should monitor how the requirement for buyer consent is enforced in practice and whether any regulatory guidance emerges around agent‑driven checkout flows.",
+      "type": "editorial-recommendation",
       "status": "editorial-excluded"
     }
   ]

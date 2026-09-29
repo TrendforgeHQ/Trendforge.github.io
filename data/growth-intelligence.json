@@ -1,32 +1,32 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-29T09:08:33.916Z",
+  "generatedAt": "2026-09-29T11:51:51.425Z",
   "policy": {
     "privacyFirst": true,
     "noPersonalTracking": true,
     "noPaidTrafficRequired": true
   },
   "summary": {
-    "totalArticles": 30,
+    "totalArticles": 31,
     "averageEditorialScore": 76,
-    "editorialReviewCount": 20,
+    "editorialReviewCount": 21,
     "refreshCandidates": 5
   },
   "categoryMix": [
     {
       "category": "AI",
-      "count": 9,
-      "share": 30
+      "count": 10,
+      "share": 32.3
     },
     {
       "category": "Technology",
       "count": 7,
-      "share": 23.3
+      "share": 22.6
     },
     {
       "category": "How-To",
       "count": 3,
-      "share": 10
+      "share": 9.7
     },
     {
       "category": "Innovation",
@@ -41,12 +41,12 @@
     {
       "category": "Digital Life",
       "count": 5,
-      "share": 16.7
+      "share": 16.1
     },
     {
       "category": "Crypto",
       "count": 5,
-      "share": 16.7
+      "share": 16.1
     }
   ],
   "missingCategories": [
@@ -56,10 +56,15 @@
   "overrepresentedCategories": [],
   "recommendations": [
     "Prioritize missing categories: Innovation, Product Launches.",
-    "20 article(s) are in editorial review; improve them before treating them as growth winners.",
+    "21 article(s) are in editorial review; improve them before treating them as growth winners.",
     "5 older/incomplete article(s) are refresh candidates."
   ],
   "recentArticles": [
+    {
+      "title": "Shopify Enables Browser‑Based AI Agents to Complete Checkout",
+      "category": "AI",
+      "publishedAt": "2026-09-29T11:51:17.152Z"
+    },
     {
       "title": "Meta Unveils Enterprise AI Platform, Names MongoDB CEO to Lead",
       "category": "AI",
@@ -104,11 +109,6 @@
       "title": "Microsoft Eyes $10 B+ Investment in Middle East Tech, AI, and Digital Resilience",
       "category": "Technology",
       "publishedAt": "2026-09-24T02:15:33.773Z"
-    },
-    {
-      "title": "Aligning Public Finance With Technology Readiness in Clean Energy",
-      "category": "Technology",
-      "publishedAt": "2026-09-21T07:49:33.878Z"
     }
   ]
 }

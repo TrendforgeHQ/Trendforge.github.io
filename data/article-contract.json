@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "title": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
+  "title": "Shopify opens checkout to browser-based AI agents",
   "mode": "bounded",
   "wordBudget": {
     "min": 425,
@@ -40,7 +40,14 @@
     "F25",
     "F26",
     "F27",
-    "F28"
+    "F28",
+    "F29",
+    "F30",
+    "F31",
+    "F32",
+    "F33",
+    "F34",
+    "F35"
   ],
   "synthesis": {
     "allowed": true,
@@ -74,7 +81,14 @@
       "F25",
       "F26",
       "F27",
-      "F28"
+      "F28",
+      "F29",
+      "F30",
+      "F31",
+      "F32",
+      "F33",
+      "F34",
+      "F35"
     ]
   },
   "rules": {
@@ -83,7 +97,7 @@
     "newEntitiesInSynthesis": false,
     "newCausalityInSynthesis": false
   },
-  "generatedAt": "2026-09-29T09:07:59.734Z",
-  "articleTitle": "Meta Unveils Enterprise AI Platform, Names MongoDB CEO to Lead",
-  "articleSlug": "meta-unveils-enterprise-ai-platform-names-mongodb-ceo-to-lead"
+  "generatedAt": "2026-09-29T11:51:17.153Z",
+  "articleTitle": "Shopify Enables Browser‑Based AI Agents to Complete Checkout",
+  "articleSlug": "shopify-enables-browser-based-ai-agents-to-complete-checkout"
 }

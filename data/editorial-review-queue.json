@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-29T09:08:27.021Z",
+  "generatedAt": "2026-09-29T11:51:44.204Z",
   "queue": [
     {
       "slug": "anthropic-s-ceo-calls-for-an-ai-slow-down-what-it-means-for-the-industry",
@@ -53,6 +53,25 @@
       },
       "reasons": [
         "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
+      ]
+    },
+    {
+      "slug": "meta-unveils-enterprise-ai-platform-names-mongodb-ceo-to-lead",
+      "title": "Meta Unveils Enterprise AI Platform, Names MongoDB CEO to Lead",
+      "category": "AI",
+      "score": 79,
+      "decision": "review",
+      "dimensions": {
+        "evidence": 75,
+        "usefulness": 97,
+        "clarity": 100,
+        "originality": 71,
+        "sourceStrength": 50
+      },
+      "reasons": [
+        "evidence confidence needs improvement",
+        "topic/title similarity is high",
         "source strength/diversity needs improvement"
       ]
     },
