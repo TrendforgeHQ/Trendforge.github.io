@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-29T03:18:49.156Z",
+  "generatedAt": "2026-09-29T03:19:40.010Z",
   "policy": {
     "refreshCandidateScore": 75,
     "watchScore": 45,
@@ -320,7 +320,7 @@
       "title": "Comp AI raises $34M Series A to build agentic security and compliance platform",
       "category": "AI",
       "publishedAt": "2026-09-17T11:43:31.038Z",
-      "ageDays": 11.6,
+      "ageDays": 11.7,
       "ageState": "watch",
       "words": 374,
       "sourceCount": 1,
@@ -809,7 +809,7 @@
       "title": "Comp AI raises $34M Series A to build agentic security and compliance platform",
       "category": "AI",
       "publishedAt": "2026-09-17T11:43:31.038Z",
-      "ageDays": 11.6,
+      "ageDays": 11.7,
       "ageState": "watch",
       "words": 374,
       "sourceCount": 1,
