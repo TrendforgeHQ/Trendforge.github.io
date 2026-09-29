@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-28T23:29:17.908Z",
+  "updatedAt": "2026-09-29T06:08:57.262Z",
   "mode": "shadow",
   "policy": {
     "advisoryOnly": true,
@@ -14,7 +14,7 @@
     "noWinnerBeforeMinimumSample": true
   },
   "sample": {
-    "runs": 49,
+    "runs": 50,
     "topics": 500,
     "articles": 29
   },
@@ -88,26 +88,6 @@
   "assignments": {
     "headline-style": [
       {
-        "key": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSmd6ZU9QY01td1dpR0xacEdSSy1EbzZEbHlZelU3VTl4OXFIVU55WE9teDE5eG9jLVoyTnUzc1dyWkFYZENYcVI2MUZvYmZuUUNsZzZlSkRiMVhWd042WGllbFlDaGJrRVdERWdjVzl3MEpqcG5LbVpsWUlPcDJRRllGYkZ4amExbFdwdVlWYmo0bkg2cEE?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZkdhTEVFOG5vZTEtY3VpaGhicUdoNUJTZDdZdFBqWE44NG1QYjlLMTZPOUpJc0lSV1hPeGtIWVJCZFUxVW5MSURkWFF0bjlmaXVDeUxRb3B1YldxMjlaZDNuclByWnFPRUc4X0pYWlBtbldGYjBaRXIyb0FTTFV1MjlJcmFiT2ZvcU1pNDhqR3ZwXzR6dFRhbUhJMmNDNDJBRDdJQ0ZaREZwTUpwU3ZDQWVfeEJTLXJsNEkxMlgyQTM2SHM?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYnFNWHlVME9tcXFtZkJMX1Z6RnIxT0x4bFRtbU4waEVKLXhWemdiNlc5SGdpZUc3a0lWNV9XYkdfdW5pVmJNMmlnU1B4UHhmRnRRWkxDajNWdTBxamxOMlZmTjlPYnI3V1c0aVhoNkZIRVpTOU9FOWFVTEVKanFrZERoWC1INHpMUkdQZml2QlhMclFINzM1Vw?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeEZWWXV2Wi1QbThINUpvMVZZTkRFa3A1QlpvWnpKclVaYl9sMmY0dXItUF8tc1dXZXlMQ1NpUTIzbTByQ3FIMmlDUExjZ3had3BzbW9waFBwVUVNTUpMdnZ2aENvdHBmaGJURHlCNGt6TWVGVE5na2N2RE9DZ243aW54d0ZCckJMa3FNTVJaSUc3dDVYRmNod0hsOHJLY2M?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBkSzF3UlMxcWo0MVFPSDM0WHJwSGkzdkgyWmdJOE91Wks1cjNQNFZMS2JEUUNYYmUwcDR5cW5xdVlvMjVhcTM4YWhQNTJqOVhzR3ZOaA?oc=5",
-        "bucket": "variant"
-      },
-      {
         "key": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAxdzBTN1hGTnNfZXZNWUU1MjhzQnpHUndjNkNYMGZiRGc1TDR5NExfTmtrbkFvZU5Fakp1eG1CVVFOZ0tpYzJ2aFVVY1pCSFY4Vl80Tkhqbkp3blMyejJkUXdpTVlBZWdzd2VKdVdR?oc=5",
         "bucket": "variant"
       },
@@ -165,31 +145,31 @@
       },
       {
         "key": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS2xzX1VzSVZPUTQ4eVBOSFhJTHBnQS1CZFpMV044emxhV1NVX0d4dVZfWjFoODhPbGlySGZ5LWUtWS1VTE8yekxJYkVTRlFXQTk4WUdJNFBsUmVhLVRVZnVKenJaWndmYjRDNlVKWk9qd0RyVklWb1R6VVNOSEwyamlTbmxHQ2dGaW9OelctM3g1NG8?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORGNBNGRXVmhjbjdpVjV0M1dJRDdBRThrLVJqcnlHeEpUNThyY0VGX2VybDZtZnJOaFE1QkQ3NWpiNngxMHJLYUJidnhVSE10WmFSZ2FXUkVVeGRlWUprRjBxdXBhTzNodF9WZGFkVGpQUW81X0EwSzFsVnBRaTZKWlo2clBzWWhPSVBiUzl3NXlTMFYwNElSMlRrWlhta3BfOHczUdIBqgFBVV95cUxOSG9WaTFjT281VllzZlN5YmFtbVpHRlFJdlBGLTE1VHFWX25kM0tIbjFOLXlIN1JycS12RVpNTGo5YXRHZ0Y3YnlteGY0aWJfY09UUnR0OXhaZ3VnWkE3ZWFSS1dpLXJLd0pXeFlYNjlZMkpPWEdPanJfeV9JU2dpcGY1OFE3N3dsRF9sRFhteW1XSkZsM0lldnZ6MlVHZXhGUWFEXzdlNGIwZw?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWlFKWXBVa3hxd2dhS055NnNxUURlSDhXT29pdG1hbGF2S0JQM0tQcmNtd19ITW13enBMOVYzTl91aFlEek1PamlGMHE4ZWY2STZDSFBMdy1fTUhMblQ3cGJ2VEpUVW4wb1hCUFFOcXFrMVBpb2t2ZGZuYWNJMUdXT3lDOHpiT29VX3psMDJWVGRSRDdqTVpra2tiNTY?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeGtXeHQ5Vk9uTEdFYktZeEFBdi0ycy1EaWxtRlVUR0d0QXktSkhIUkdKZnM3ZzlnbC1wS3ExcjQyM0JyM0RtWTZjSVV3Y3duX2dMVVpjOERQUVQ5eUQ0enZjUFY5cUNoNXhfUWZoaEsyRWJwd1VLYmpWRFhCVFd3X1NQLS11bzJxaEFxOW9aOFUtX00z?oc=5",
         "bucket": "control"
       }
     ],
     "intro-style": [
       {
-        "key": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSmd6ZU9QY01td1dpR0xacEdSSy1EbzZEbHlZelU3VTl4OXFIVU55WE9teDE5eG9jLVoyTnUzc1dyWkFYZENYcVI2MUZvYmZuUUNsZzZlSkRiMVhWd042WGllbFlDaGJrRVdERWdjVzl3MEpqcG5LbVpsWUlPcDJRRllGYkZ4amExbFdwdVlWYmo0bkg2cEE?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZkdhTEVFOG5vZTEtY3VpaGhicUdoNUJTZDdZdFBqWE44NG1QYjlLMTZPOUpJc0lSV1hPeGtIWVJCZFUxVW5MSURkWFF0bjlmaXVDeUxRb3B1YldxMjlaZDNuclByWnFPRUc4X0pYWlBtbldGYjBaRXIyb0FTTFV1MjlJcmFiT2ZvcU1pNDhqR3ZwXzR6dFRhbUhJMmNDNDJBRDdJQ0ZaREZwTUpwU3ZDQWVfeEJTLXJsNEkxMlgyQTM2SHM?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYnFNWHlVME9tcXFtZkJMX1Z6RnIxT0x4bFRtbU4waEVKLXhWemdiNlc5SGdpZUc3a0lWNV9XYkdfdW5pVmJNMmlnU1B4UHhmRnRRWkxDajNWdTBxamxOMlZmTjlPYnI3V1c0aVhoNkZIRVpTOU9FOWFVTEVKanFrZERoWC1INHpMUkdQZml2QlhMclFINzM1Vw?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeEZWWXV2Wi1QbThINUpvMVZZTkRFa3A1QlpvWnpKclVaYl9sMmY0dXItUF8tc1dXZXlMQ1NpUTIzbTByQ3FIMmlDUExjZ3had3BzbW9waFBwVUVNTUpMdnZ2aENvdHBmaGJURHlCNGt6TWVGVE5na2N2RE9DZ243aW54d0ZCckJMa3FNTVJaSUc3dDVYRmNod0hsOHJLY2M?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBkSzF3UlMxcWo0MVFPSDM0WHJwSGkzdkgyWmdJOE91Wks1cjNQNFZMS2JEUUNYYmUwcDR5cW5xdVlvMjVhcTM4YWhQNTJqOVhzR3ZOaA?oc=5",
-        "bucket": "variant"
-      },
-      {
         "key": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAxdzBTN1hGTnNfZXZNWUU1MjhzQnpHUndjNkNYMGZiRGc1TDR5NExfTmtrbkFvZU5Fakp1eG1CVVFOZ0tpYzJ2aFVVY1pCSFY4Vl80Tkhqbkp3blMyejJkUXdpTVlBZWdzd2VKdVdR?oc=5",
         "bucket": "variant"
       },
@@ -247,31 +227,31 @@
       },
       {
         "key": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS2xzX1VzSVZPUTQ4eVBOSFhJTHBnQS1CZFpMV044emxhV1NVX0d4dVZfWjFoODhPbGlySGZ5LWUtWS1VTE8yekxJYkVTRlFXQTk4WUdJNFBsUmVhLVRVZnVKenJaWndmYjRDNlVKWk9qd0RyVklWb1R6VVNOSEwyamlTbmxHQ2dGaW9OelctM3g1NG8?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORGNBNGRXVmhjbjdpVjV0M1dJRDdBRThrLVJqcnlHeEpUNThyY0VGX2VybDZtZnJOaFE1QkQ3NWpiNngxMHJLYUJidnhVSE10WmFSZ2FXUkVVeGRlWUprRjBxdXBhTzNodF9WZGFkVGpQUW81X0EwSzFsVnBRaTZKWlo2clBzWWhPSVBiUzl3NXlTMFYwNElSMlRrWlhta3BfOHczUdIBqgFBVV95cUxOSG9WaTFjT281VllzZlN5YmFtbVpHRlFJdlBGLTE1VHFWX25kM0tIbjFOLXlIN1JycS12RVpNTGo5YXRHZ0Y3YnlteGY0aWJfY09UUnR0OXhaZ3VnWkE3ZWFSS1dpLXJLd0pXeFlYNjlZMkpPWEdPanJfeV9JU2dpcGY1OFE3N3dsRF9sRFhteW1XSkZsM0lldnZ6MlVHZXhGUWFEXzdlNGIwZw?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWlFKWXBVa3hxd2dhS055NnNxUURlSDhXT29pdG1hbGF2S0JQM0tQcmNtd19ITW13enBMOVYzTl91aFlEek1PamlGMHE4ZWY2STZDSFBMdy1fTUhMblQ3cGJ2VEpUVW4wb1hCUFFOcXFrMVBpb2t2ZGZuYWNJMUdXT3lDOHpiT29VX3psMDJWVGRSRDdqTVpra2tiNTY?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeGtXeHQ5Vk9uTEdFYktZeEFBdi0ycy1EaWxtRlVUR0d0QXktSkhIUkdKZnM3ZzlnbC1wS3ExcjQyM0JyM0RtWTZjSVV3Y3duX2dMVVpjOERQUVQ5eUQ0enZjUFY5cUNoNXhfUWZoaEsyRWJwd1VLYmpWRFhCVFd3X1NQLS11bzJxaEFxOW9aOFUtX00z?oc=5",
         "bucket": "control"
       }
     ],
     "cta-placement": [
       {
-        "key": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSmd6ZU9QY01td1dpR0xacEdSSy1EbzZEbHlZelU3VTl4OXFIVU55WE9teDE5eG9jLVoyTnUzc1dyWkFYZENYcVI2MUZvYmZuUUNsZzZlSkRiMVhWd042WGllbFlDaGJrRVdERWdjVzl3MEpqcG5LbVpsWUlPcDJRRllGYkZ4amExbFdwdVlWYmo0bkg2cEE?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZkdhTEVFOG5vZTEtY3VpaGhicUdoNUJTZDdZdFBqWE44NG1QYjlLMTZPOUpJc0lSV1hPeGtIWVJCZFUxVW5MSURkWFF0bjlmaXVDeUxRb3B1YldxMjlaZDNuclByWnFPRUc4X0pYWlBtbldGYjBaRXIyb0FTTFV1MjlJcmFiT2ZvcU1pNDhqR3ZwXzR6dFRhbUhJMmNDNDJBRDdJQ0ZaREZwTUpwU3ZDQWVfeEJTLXJsNEkxMlgyQTM2SHM?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYnFNWHlVME9tcXFtZkJMX1Z6RnIxT0x4bFRtbU4waEVKLXhWemdiNlc5SGdpZUc3a0lWNV9XYkdfdW5pVmJNMmlnU1B4UHhmRnRRWkxDajNWdTBxamxOMlZmTjlPYnI3V1c0aVhoNkZIRVpTOU9FOWFVTEVKanFrZERoWC1INHpMUkdQZml2QlhMclFINzM1Vw?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeEZWWXV2Wi1QbThINUpvMVZZTkRFa3A1QlpvWnpKclVaYl9sMmY0dXItUF8tc1dXZXlMQ1NpUTIzbTByQ3FIMmlDUExjZ3had3BzbW9waFBwVUVNTUpMdnZ2aENvdHBmaGJURHlCNGt6TWVGVE5na2N2RE9DZ243aW54d0ZCckJMa3FNTVJaSUc3dDVYRmNod0hsOHJLY2M?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBkSzF3UlMxcWo0MVFPSDM0WHJwSGkzdkgyWmdJOE91Wks1cjNQNFZMS2JEUUNYYmUwcDR5cW5xdVlvMjVhcTM4YWhQNTJqOVhzR3ZOaA?oc=5",
-        "bucket": "variant"
-      },
-      {
         "key": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAxdzBTN1hGTnNfZXZNWUU1MjhzQnpHUndjNkNYMGZiRGc1TDR5NExfTmtrbkFvZU5Fakp1eG1CVVFOZ0tpYzJ2aFVVY1pCSFY4Vl80Tkhqbkp3blMyejJkUXdpTVlBZWdzd2VKdVdR?oc=5",
         "bucket": "variant"
       },
@@ -329,6 +309,26 @@
       },
       {
         "key": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS2xzX1VzSVZPUTQ4eVBOSFhJTHBnQS1CZFpMV044emxhV1NVX0d4dVZfWjFoODhPbGlySGZ5LWUtWS1VTE8yekxJYkVTRlFXQTk4WUdJNFBsUmVhLVRVZnVKenJaWndmYjRDNlVKWk9qd0RyVklWb1R6VVNOSEwyamlTbmxHQ2dGaW9OelctM3g1NG8?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORGNBNGRXVmhjbjdpVjV0M1dJRDdBRThrLVJqcnlHeEpUNThyY0VGX2VybDZtZnJOaFE1QkQ3NWpiNngxMHJLYUJidnhVSE10WmFSZ2FXUkVVeGRlWUprRjBxdXBhTzNodF9WZGFkVGpQUW81X0EwSzFsVnBRaTZKWlo2clBzWWhPSVBiUzl3NXlTMFYwNElSMlRrWlhta3BfOHczUdIBqgFBVV95cUxOSG9WaTFjT281VllzZlN5YmFtbVpHRlFJdlBGLTE1VHFWX25kM0tIbjFOLXlIN1JycS12RVpNTGo5YXRHZ0Y3YnlteGY0aWJfY09UUnR0OXhaZ3VnWkE3ZWFSS1dpLXJLd0pXeFlYNjlZMkpPWEdPanJfeV9JU2dpcGY1OFE3N3dsRF9sRFhteW1XSkZsM0lldnZ6MlVHZXhGUWFEXzdlNGIwZw?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWlFKWXBVa3hxd2dhS055NnNxUURlSDhXT29pdG1hbGF2S0JQM0tQcmNtd19ITW13enBMOVYzTl91aFlEek1PamlGMHE4ZWY2STZDSFBMdy1fTUhMblQ3cGJ2VEpUVW4wb1hCUFFOcXFrMVBpb2t2ZGZuYWNJMUdXT3lDOHpiT29VX3psMDJWVGRSRDdqTVpra2tiNTY?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeGtXeHQ5Vk9uTEdFYktZeEFBdi0ycy1EaWxtRlVUR0d0QXktSkhIUkdKZnM3ZzlnbC1wS3ExcjQyM0JyM0RtWTZjSVV3Y3duX2dMVVpjOERQUVQ5eUQ0enZjUFY5cUNoNXhfUWZoaEsyRWJwd1VLYmpWRFhCVFd3X1NQLS11bzJxaEFxOW9aOFUtX00z?oc=5",
         "bucket": "control"
       }
     ]
@@ -337,13 +337,13 @@
     {
       "experimentId": "headline-style",
       "sample": {
-        "control": 7,
-        "variant": 13,
+        "control": 10,
+        "variant": 10,
         "total": 20
       },
       "outcomeMetrics": {
         "editorialScore": null,
-        "claimConfidence": 65,
+        "claimConfidence": 66,
         "evidencePassRate": 27
       },
       "conclusion": "insufficient-data",
@@ -352,13 +352,13 @@
     {
       "experimentId": "intro-style",
       "sample": {
-        "control": 7,
-        "variant": 13,
+        "control": 10,
+        "variant": 10,
         "total": 20
       },
       "outcomeMetrics": {
         "editorialScore": null,
-        "claimConfidence": 65,
+        "claimConfidence": 66,
         "evidencePassRate": 27
       },
       "conclusion": "insufficient-data",
@@ -367,13 +367,13 @@
     {
       "experimentId": "cta-placement",
       "sample": {
-        "control": 7,
-        "variant": 13,
+        "control": 10,
+        "variant": 10,
         "total": 20
       },
       "outcomeMetrics": {
         "editorialScore": null,
-        "claimConfidence": 65,
+        "claimConfidence": 66,
         "evidencePassRate": 27
       },
       "conclusion": "insufficient-data",
@@ -381,6 +381,6 @@
     }
   ],
   "history": {
-    "previousUpdatedAt": "2026-09-28T14:25:41.771Z"
+    "previousUpdatedAt": "2026-09-28T23:29:17.908Z"
   }
 }
