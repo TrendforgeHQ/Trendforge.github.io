@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-30T03:01:46.190Z",
+  "generatedAt": "2026-09-30T11:38:18.359Z",
   "queue": [
     {
       "slug": "anthropic-s-ceo-calls-for-an-ai-slow-down-what-it-means-for-the-industry",
@@ -185,25 +185,6 @@
       ]
     },
     {
-      "slug": "openai-slows-ai-training-after-hugging-face-breach",
-      "title": "OpenAI Slows AI Training After Hugging Face Breach",
-      "category": "Digital Life",
-      "score": 75,
-      "decision": "review",
-      "dimensions": {
-        "evidence": 75,
-        "usefulness": 84,
-        "clarity": 79,
-        "originality": 100,
-        "sourceStrength": 41
-      },
-      "reasons": [
-        "evidence confidence needs improvement",
-        "structure/readability needs improvement",
-        "source strength/diversity needs improvement"
-      ]
-    },
-    {
       "slug": "meta-s-connect-2026-unveils-new-glasses-and-a-rumored-mixed-reality-headset",
       "title": "Meta’s Connect 2026 Unveils New Glasses and a Rumored Mixed‑Reality Headset",
       "category": "Digital Life",
@@ -219,6 +200,43 @@
       "reasons": [
         "evidence confidence needs improvement",
         "topic/title similarity is high",
+        "source strength/diversity needs improvement"
+      ]
+    },
+    {
+      "slug": "openai-unveils-dots-a-persistent-ai-assistant-with-a-new-premium-tier",
+      "title": "OpenAI Unveils Dots, a Persistent AI Assistant with a New Premium Tier",
+      "category": "AI",
+      "score": 73,
+      "decision": "review",
+      "dimensions": {
+        "evidence": 75,
+        "usefulness": 84,
+        "clarity": 82,
+        "originality": 86,
+        "sourceStrength": 41
+      },
+      "reasons": [
+        "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
+      ]
+    },
+    {
+      "slug": "openai-slows-ai-training-after-hugging-face-breach",
+      "title": "OpenAI Slows AI Training After Hugging Face Breach",
+      "category": "Digital Life",
+      "score": 72,
+      "decision": "review",
+      "dimensions": {
+        "evidence": 75,
+        "usefulness": 84,
+        "clarity": 79,
+        "originality": 83,
+        "sourceStrength": 41
+      },
+      "reasons": [
+        "evidence confidence needs improvement",
+        "structure/readability needs improvement",
         "source strength/diversity needs improvement"
       ]
     },

@@ -1,12 +1,79 @@
 {
   "version": 3,
-  "generatedAt": "2026-09-30T03:01:51.794Z",
+  "generatedAt": "2026-09-30T11:38:24.968Z",
   "model": "@cf/black-forest-labs/flux-1-schnell",
   "width": 1024,
   "height": 576,
   "steps": 4,
-  "generated": 0,
+  "generated": 1,
   "skipped": 0,
   "failed": 0,
-  "images": {}
+  "images": {
+    "openai-unveils-dots-a-persistent-ai-assistant-with-a-new-premium-tier": {
+      "status": "generated",
+      "image": "/Trendforge/images/articles/openai-unveils-dots-a-persistent-ai-assistant-with-a-new-premium-tier.1024x576.png",
+      "generatedBy": "@cf/black-forest-labs/flux-1-schnell",
+      "width": 1024,
+      "height": 576,
+      "steps": 4,
+      "elapsedMs": 2899,
+      "bytes": 565595,
+      "visualBrief": {
+        "version": 2,
+        "mode": "investment-infrastructure",
+        "primarySubject": "OpenAI regional digital infrastructure investment, represented through concrete cloud, connectivity, and AI infrastructure",
+        "scene": "A realistic commissioned editorial photograph of concrete regional digital infrastructure such as a modern data-center environment, high-capacity network equipment, or secure cloud infrastructure, visually tied to the investment story rather than generic finance imagery.",
+        "supportingElements": [
+          "subtle regional geographic context without maps or invented labels",
+          "one restrained human scale element only when useful"
+        ],
+        "composition": "Documentary wide frame with one dominant infrastructure subject, realistic materials, restrained depth of field, and clear visual hierarchy.",
+        "company": "OpenAI",
+        "namedPerson": null,
+        "category": "AI",
+        "storyAnchors": [
+          "openai",
+          "unveils",
+          "dots",
+          "persistent",
+          "assistant",
+          "premium",
+          "tier",
+          "introduced"
+        ],
+        "avoid": [
+          "generic office imagery",
+          "random tablet or laptop",
+          "generic futuristic technology",
+          "glowing holograms, floating code, HUDs and neon sci-fi effects",
+          "prominent readable text or fake headlines",
+          "generic stock-market trading screens",
+          "coins, cash piles, oversized dollar symbols",
+          "generic office handshake",
+          "abstract financial graphs as the main subject"
+        ]
+      },
+      "relevance": {
+        "passed": false,
+        "anchors": [
+          "openai",
+          "unveils",
+          "dots",
+          "persistent",
+          "assistant",
+          "premium",
+          "tier",
+          "introduced"
+        ],
+        "matchedAnchors": [
+          "openai"
+        ],
+        "entityMatches": [
+          "openai"
+        ],
+        "score": 0.125
+      },
+      "promptLength": 1900
+    }
+  }
 }

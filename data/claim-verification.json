@@ -1,19 +1,19 @@
 {
   "version": 18,
-  "generatedAt": "2026-09-30T03:01:43.876Z",
-  "articlePath": "content/articles/iraq-faces-a-tightrope-as-us-troops-pull-out-and-militias-face-disarmament-deadline.md",
-  "articleTitle": "Iraq Faces a Tightrope as US Troops Pull Out and Militias Face Disarmament Deadline",
+  "generatedAt": "2026-09-30T11:38:14.923Z",
+  "articlePath": "content/articles/openai-unveils-dots-a-persistent-ai-assistant-with-a-new-premium-tier.md",
+  "articleTitle": "OpenAI Unveils Dots, a Persistent AI Assistant with a New Premium Tier",
   "verificationMode": "authoritative-evidence-pack-v20-fact-map-synthesis",
   "sourceCount": 2,
   "usableSourceCount": 2,
-  "claimCount": 22,
-  "editorialCount": 2,
-  "verified": 17,
-  "partial": 4,
-  "unsupported": 1,
+  "claimCount": 14,
+  "editorialCount": 1,
+  "verified": 11,
+  "partial": 3,
+  "unsupported": 0,
   "sourceUnavailable": 0,
-  "averageConfidence": 79,
-  "pass": false,
+  "averageConfidence": 74,
+  "pass": true,
   "policy": {
     "verifiedMin": 62,
     "partialMin": 45,
@@ -45,126 +45,245 @@
   "sources": [
     {
       "id": "S1",
-      "title": "Iraq’s High-Stakes Calculus on Corruption and Militia Disarmament - Middle East Council on Global Affairs",
-      "url": "https://mecouncil.org/publication/iraqs-high-stakes-calculus-on-corruption-and-militia-disarmament/",
-      "domain": "mecouncil.org",
-      "passageCount": 23,
-      "articleBodyLength": 4947
+      "title": "OpenAI Launches AI Agent 'Dots', While Reportedly Seeking A $30B Funding Bridge At $1.4 Trillion Valuation - Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/openai-launches-ai-agent-dots-202733483.html",
+      "domain": "finance.yahoo.com",
+      "passageCount": 6,
+      "articleBodyLength": 995
     },
     {
       "id": "S2",
-      "title": "Iraq begins high-stakes security balancing act as US troops withdraw - Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/29/iraq-begins-high-stakes-security-balancing-act-as-us-troops-withdraw",
-      "domain": "aljazeera.com",
-      "passageCount": 15,
-      "articleBodyLength": 2504
+      "title": "OpenAI launches Dots, its bubbly agentic avatar",
+      "url": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+      "domain": "techcrunch.com",
+      "passageCount": 13,
+      "articleBodyLength": 1790
     }
   ],
   "claims": [
     {
       "index": 1,
-      "claim": "S. forces that had been stationed in Iraq since 2014 begin their final withdrawal, the country’s newly elected leadership faces a sharp pivot.",
-      "status": "unsupported",
-      "classification": "contradicted",
-      "confidence": 0,
+      "claim": "OpenAI announced a broad product expansion that includes a new persistent virtual assistant called Dots, an updated AI model, and a $500‑per‑month subscription tier.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 88,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Iraq’s High-Stakes Calculus on Corruption and Militia Disarmament - Middle East Council on Global Affairs",
-      "bestUrl": "https://mecouncil.org/publication/iraqs-high-stakes-calculus-on-corruption-and-militia-disarmament/",
-      "bestDomain": "mecouncil.org",
+      "bestSource": "OpenAI Launches AI Agent 'Dots', While Reportedly Seeking A $30B Funding Bridge At $1.4 Trillion Valuation - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/openai-launches-ai-agent-dots-202733483.html",
+      "bestDomain": "finance.yahoo.com",
       "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": null,
-      "provenanceFactMatches": [],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-P1",
-      "evidence": "Key Takeaways Reform as Survival Strategy, Not Substance: Iraq&#8217;s anti-corruption crackdown and militia disarmament deadline function less as coherent reform and more as a survival strategy for the Coordination Framework, aimed at satisfying Washington without confronting Iran-aligned power centers.",
-      "bestPassage": "Key Takeaways Reform as Survival Strategy, Not Substance: Iraq&#8217;s anti-corruption crackdown and militia disarmament deadline function less as coherent reform and more as a survival strategy for the Coordination Framework, aimed at satisfying Washington without confronting Iran-aligned power centers.",
-      "matchedPassages": [],
-      "sharedTerms": [],
-      "entityShared": [],
-      "topicShared": [
-        "iraq",
-        "begin"
+      "coreFactMatch": {
+        "factId": "F2",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 82
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F2",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 82,
+          "passageIndex": 4
+        }
       ],
-      "numericMismatch": true,
+      "contextOnlySource": false,
+      "bestPassageId": "S1-BODY",
+      "evidence": "OpenAI announced a major expansion of its product line on Tuesday, introducing a digital assistant named Dots, an updated artificial intelligence model, and a premium $500-per-month subscription tier.",
+      "bestPassage": "OpenAI announced a major expansion of its product line on Tuesday, introducing a digital assistant named Dots, an updated artificial intelligence model, and a premium $500-per-month subscription tier.",
+      "matchedPassages": [
+        "S1-BODY",
+        "S1-P2"
+      ],
+      "sharedTerms": [
+        "openai",
+        "announce",
+        "product",
+        "expansion",
+        "persistent",
+        "virtual",
+        "assistant",
+        "dots",
+        "updat",
+        "models",
+        "and",
+        "500",
+        "per",
+        "month",
+        "subscription",
+        "tier"
+      ],
+      "entityShared": [
+        "openai",
+        "dots"
+      ],
+      "topicShared": [
+        "openai",
+        "dots"
+      ],
+      "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
       "scopeWarnings": [],
       "attributionUncertainty": {
         "evidenceUncertain": false,
         "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
+        "evidenceAttributed": true,
+        "claimAttributed": true,
         "certaintyEscalation": false,
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 0,
+      "factCoverage": 1,
       "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "semantic-context-evidence-pack"
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "direct-exact-evidence"
     },
     {
       "index": 2,
-      "claim": "The government has set a September 30 deadline for all armed groups to hand over weapons to state control, a date chosen to match the end of the U.S.‑led anti‑ISIS coalition.",
+      "claim": "Dots can operate computer systems, execute cross‑platform workflows, debug software, perform analytical research, draft documents, and build software, according to the company’s developer conference.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 86,
+      "confidence": 89,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Iraq’s High-Stakes Calculus on Corruption and Militia Disarmament - Middle East Council on Global Affairs",
-      "bestUrl": "https://mecouncil.org/publication/iraqs-high-stakes-calculus-on-corruption-and-militia-disarmament/",
-      "bestDomain": "mecouncil.org",
+      "bestSource": "OpenAI Launches AI Agent 'Dots', While Reportedly Seeking A $30B Funding Bridge At $1.4 Trillion Valuation - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/openai-launches-ai-agent-dots-202733483.html",
+      "bestDomain": "finance.yahoo.com",
       "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F7",
+        "factId": "F4",
         "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 81
+        "score": 77
       },
       "provenanceFactMatches": [
         {
-          "factId": "F7",
+          "factId": "F4",
           "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 81,
-          "passageIndex": 6
+          "score": 77,
+          "passageIndex": 9
+        },
+        {
+          "factId": "F3",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 65,
+          "passageIndex": 1
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "1 In parallel, Baghdad has set a September 30 deadline for all armed factions to surrender weapons to state control, timed explicitly to coincide with the withdrawal of the US-led anti-ISIS coalition.",
-      "bestPassage": "1 In parallel, Baghdad has set a September 30 deadline for all armed factions to surrender weapons to state control, timed explicitly to coincide with the withdrawal of the US-led anti-ISIS coalition.",
+      "bestPassageId": "S1-FF4,S1-FF3",
+      "evidence": "Dots can operate computer systems, perform analytical research, draft documents, and build software, OpenAI said at its developer conference. OpenAI launched \"Dots,\" a persistent virtual assistant that can operate computers, execute cross-platform workflows, and debug software autonomously.",
+      "bestPassage": "Dots can operate computer systems, perform analytical research, draft documents, and build software, OpenAI said at its developer conference. OpenAI launched \"Dots,\" a persistent virtual assistant that can operate computers, execute cross-platform workflows, and debug software autonomously.",
       "matchedPassages": [
         "S1-BODY",
-        "S1-P7"
+        "S1-P4"
+      ],
+      "sharedTerms": [
+        "dots",
+        "can",
+        "operate",
+        "computer",
+        "system",
+        "execute",
+        "cros",
+        "platform",
+        "workflow",
+        "debug",
+        "software",
+        "perform",
+        "analytical",
+        "research",
+        "draft",
+        "document",
+        "and",
+        "build",
+        "developer",
+        "conference"
+      ],
+      "entityShared": [
+        "dots"
+      ],
+      "topicShared": [
+        "dots"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": true,
+        "claimUncertain": true,
+        "evidenceAttributed": true,
+        "claimAttributed": true,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-multi-fact-anchored"
+    },
+    {
+      "index": 3,
+      "claim": "The assistant is designed to run independently of any specific hardware or interface, pursuing user‑defined goals continuously in the background with minimal oversight.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 78,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "OpenAI launches Dots, its bubbly agentic avatar",
+      "bestUrl": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+      "bestDomain": "techcrunch.com",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F18",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 78
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F18",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 78,
+          "passageIndex": 2
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S2-P12",
+      "evidence": "Unlike Codex or ChatGPT, Dots are meant to operate independent of any specific hardware or interface, pursuing user-defined goals continuously in the background with minimal oversight.",
+      "bestPassage": "Unlike Codex or ChatGPT, Dots are meant to operate independent of any specific hardware or interface, pursuing user-defined goals continuously in the background with minimal oversight.",
+      "matchedPassages": [
+        "S2-P12",
+        "S2-BODY"
       ],
       "sharedTerms": [
         "the",
-        "government",
-        "has",
-        "set",
-        "september",
-        "deadline",
-        "for",
-        "all",
-        "arm",
-        "group",
-        "weapon",
-        "state",
-        "control",
-        "led",
-        "anti",
-        "isis",
-        "coalition"
+        "any",
+        "specific",
+        "hardware",
+        "interface",
+        "pursu",
+        "user",
+        "defin",
+        "goal",
+        "continuously",
+        "background",
+        "minimal",
+        "oversight"
       ],
-      "entityShared": [
-        "september",
-        "isis"
-      ],
+      "entityShared": [],
       "topicShared": [],
       "numericMismatch": false,
       "contradicted": false,
@@ -187,70 +306,66 @@
     },
     {
       "index": 4,
-      "claim": "The anti‑corruption campaign and the militia disarmament deadline are framed by experts as a survival strategy for the Coordination Framework rather than substantive reform.",
+      "claim": "Users can start a primary Dot, give it a name, and add additional Dots that specialize in particular tasks.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 87,
+      "confidence": 79,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Iraq’s High-Stakes Calculus on Corruption and Militia Disarmament - Middle East Council on Global Affairs",
-      "bestUrl": "https://mecouncil.org/publication/iraqs-high-stakes-calculus-on-corruption-and-militia-disarmament/",
-      "bestDomain": "mecouncil.org",
-      "sourceId": "S1",
+      "bestSource": "OpenAI launches Dots, its bubbly agentic avatar",
+      "bestUrl": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+      "bestDomain": "techcrunch.com",
+      "sourceId": "S2",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F1",
-        "sourceId": "S1",
+        "factId": "F7",
+        "sourceId": "S2",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 82
+        "score": 72
       },
       "provenanceFactMatches": [
         {
-          "factId": "F1",
-          "sourceId": "S1",
+          "factId": "F7",
+          "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 82,
-          "passageIndex": 1
+          "score": 72,
+          "passageIndex": 3
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "Key Takeaways Reform as Survival Strategy, Not Substance: Iraq&#8217;s anti-corruption crackdown and militia disarmament deadline function less as coherent reform and more as a survival strategy for the Coordination Framework, aimed at satisfying Washington without confronting Iran-aligned power centers.",
-      "bestPassage": "Key Takeaways Reform as Survival Strategy, Not Substance: Iraq&#8217;s anti-corruption crackdown and militia disarmament deadline function less as coherent reform and more as a survival strategy for the Coordination Framework, aimed at satisfying Washington without confronting Iran-aligned power centers.",
+      "bestPassageId": "S2-BODY",
+      "evidence": "&#8220;Today, you can start with your primary dot, give it a name, and make it your own,&#8221; OpenAI said in its announcement post. &#8220;Over time, we envision teams of Dots working together on your behalf.&#8221;",
+      "bestPassage": "&#8220;Today, you can start with your primary dot, give it a name, and make it your own,&#8221; OpenAI said in its announcement post. &#8220;Over time, we envision teams of Dots working together on your behalf.&#8221;",
       "matchedPassages": [
-        "S1-BODY",
-        "S1-P1"
+        "S2-BODY",
+        "S2-P1"
       ],
       "sharedTerms": [
-        "the",
-        "anti",
-        "corruption",
+        "user",
+        "can",
+        "start",
+        "primary",
+        "dot",
+        "give",
+        "name",
         "and",
-        "militia",
-        "disarmament",
-        "deadline",
-        "are",
-        "survival",
-        "strategy",
-        "for",
-        "coordination",
-        "framework",
-        "rather",
-        "reform"
+        "dots"
       ],
       "entityShared": [
-        "coordination",
-        "framework"
+        "user",
+        "dots"
       ],
-      "topicShared": [],
+      "topicShared": [
+        "dots"
+      ],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
       "scopeWarnings": [],
       "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
+        "evidenceUncertain": true,
+        "claimUncertain": true,
+        "evidenceAttributed": true,
         "claimAttributed": false,
         "certaintyEscalation": false,
         "attributionDropped": false,
@@ -264,59 +379,70 @@
     },
     {
       "index": 5,
-      "claim": "The Framework seeks to satisfy Washington’s expectations without confronting Iranian‑aligned power centers.",
+      "claim": "Integration is already underway with Microsoft’s Agent 365 security controls, and Dots will be available through ChatGPT for Pro and Business Premium users in eligible markets.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 98,
+      "confidence": 96,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Iraq’s High-Stakes Calculus on Corruption and Militia Disarmament - Middle East Council on Global Affairs",
-      "bestUrl": "https://mecouncil.org/publication/iraqs-high-stakes-calculus-on-corruption-and-militia-disarmament/",
-      "bestDomain": "mecouncil.org",
-      "sourceId": "S1",
+      "bestSource": "OpenAI launches Dots, its bubbly agentic avatar",
+      "bestUrl": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+      "bestDomain": "techcrunch.com",
+      "sourceId": "S2",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F1",
-        "sourceId": "S1",
+        "factId": "F17",
+        "sourceId": "S2",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 77
+        "score": 82
       },
       "provenanceFactMatches": [
         {
-          "factId": "F1",
-          "sourceId": "S1",
+          "factId": "F17",
+          "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 77,
-          "passageIndex": 1
+          "score": 82,
+          "passageIndex": 4
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "Key Takeaways Reform as Survival Strategy, Not Substance: Iraq&#8217;s anti-corruption crackdown and militia disarmament deadline function less as coherent reform and more as a survival strategy for the Coordination Framework, aimed at satisfying Washington without confronting Iran-aligned power centers.",
-      "bestPassage": "Key Takeaways Reform as Survival Strategy, Not Substance: Iraq&#8217;s anti-corruption crackdown and militia disarmament deadline function less as coherent reform and more as a survival strategy for the Coordination Framework, aimed at satisfying Washington without confronting Iran-aligned power centers.",
+      "bestPassageId": "S2-BODY",
+      "evidence": "Dots will be available starting Tuesday in ChatGPT, for Pro and Business Premium users in eligible markets.",
+      "bestPassage": "Dots will be available starting Tuesday in ChatGPT, for Pro and Business Premium users in eligible markets.",
       "matchedPassages": [
-        "S1-BODY",
-        "S1-P1"
+        "S2-BODY",
+        "S2-P11"
       ],
       "sharedTerms": [
-        "the",
-        "framework",
-        "seek",
-        "satisfy",
-        "washington",
-        "without",
-        "confront",
-        "iranian",
-        "align",
-        "power",
-        "center"
+        "microsoft",
+        "agent",
+        "365",
+        "security",
+        "control",
+        "and",
+        "dots",
+        "available",
+        "chatgpt",
+        "for",
+        "pro",
+        "busines",
+        "premium",
+        "user",
+        "eligible",
+        "market"
       ],
       "entityShared": [
-        "framework",
-        "washington",
-        "iranian"
+        "microsoft",
+        "agent",
+        "dots",
+        "chatgpt",
+        "pro",
+        "busines",
+        "premium"
       ],
-      "topicShared": [],
+      "topicShared": [
+        "dots"
+      ],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
@@ -338,60 +464,56 @@
     },
     {
       "index": 6,
-      "claim": "Analysts note that while some parliamentary factions show partial willingness, hard‑line groups designated by the U.S. refuse to comply, indicating that the outcome will be ambiguous rather than decisive.",
+      "claim": "In addition to the agent, OpenAI restructured its subscription plans.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 80,
+      "confidence": 72,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Iraq’s High-Stakes Calculus on Corruption and Militia Disarmament - Middle East Council on Global Affairs",
-      "bestUrl": "https://mecouncil.org/publication/iraqs-high-stakes-calculus-on-corruption-and-militia-disarmament/",
-      "bestDomain": "mecouncil.org",
+      "bestSource": "OpenAI Launches AI Agent 'Dots', While Reportedly Seeking A $30B Funding Bridge At $1.4 Trillion Valuation - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/openai-launches-ai-agent-dots-202733483.html",
+      "bestDomain": "finance.yahoo.com",
       "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F2",
+        "factId": "F5",
         "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 63
+        "score": 69
       },
       "provenanceFactMatches": [
         {
-          "factId": "F2",
+          "factId": "F5",
           "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 63,
-          "passageIndex": 5
+          "score": 69,
+          "passageIndex": 11
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "Compliance is already fractured: parliamentary-linked factions show partial willingness, while hardline, US-designated groups refuse outright, pointing toward an ambiguous outcome rather than real resolution.",
-      "bestPassage": "Compliance is already fractured: parliamentary-linked factions show partial willingness, while hardline, US-designated groups refuse outright, pointing toward an ambiguous outcome rather than real resolution.",
+      "bestPassageId": "S1-P5",
+      "evidence": "Alongside the autonomous agent, OpenAI introduced a $500 monthly subscription tier with faster processing and expanded usage limits, while restructuring its standard $200 plan.",
+      "bestPassage": "Alongside the autonomous agent, OpenAI introduced a $500 monthly subscription tier with faster processing and expanded usage limits, while restructuring its standard $200 plan.",
       "matchedPassages": [
-        "S1-BODY",
-        "S1-P2"
+        "S1-P5",
+        "S1-BODY"
       ],
       "sharedTerms": [
-        "analyst",
-        "note",
-        "parliamentary",
-        "faction",
-        "show",
-        "partial",
-        "willingnes",
-        "group",
-        "designat",
         "the",
-        "refuse",
-        "outcome",
-        "ambiguou",
-        "rather"
+        "agent",
+        "openai",
+        "restructur",
+        "its",
+        "subscription",
+        "plan"
       ],
       "entityShared": [
-        "analyst"
+        "openai"
       ],
-      "topicShared": [],
+      "topicShared": [
+        "openai",
+        "its"
+      ],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
@@ -413,878 +535,53 @@
     },
     {
       "index": 7,
-      "claim": "The September 30 target is a cosmetic disarmament process at best.Compliance is already fractured, with parliamentary‑linked factions showing partial willingness and hard‑line US‑designated groups refusing outright.",
+      "claim": "The new $500 tier offers faster processing and expanded usage limits, while the standard plan was adjusted from $200.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 89,
+      "confidence": 77,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Iraq’s High-Stakes Calculus on Corruption and Militia Disarmament - Middle East Council on Global Affairs",
-      "bestUrl": "https://mecouncil.org/publication/iraqs-high-stakes-calculus-on-corruption-and-militia-disarmament/",
-      "bestDomain": "mecouncil.org",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F2",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 68
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F2",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 68,
-          "passageIndex": 5
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "Compliance is already fractured: parliamentary-linked factions show partial willingness, while hardline, US-designated groups refuse outright, pointing toward an ambiguous outcome rather than real resolution.",
-      "bestPassage": "Compliance is already fractured: parliamentary-linked factions show partial willingness, while hardline, US-designated groups refuse outright, pointing toward an ambiguous outcome rather than real resolution.",
-      "matchedPassages": [
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "the",
-        "september",
-        "target",
-        "cosmetic",
-        "disarmament",
-        "proces",
-        "compliance",
-        "fractur",
-        "parliamentary",
-        "link",
-        "faction",
-        "show",
-        "partial",
-        "willingnes",
-        "and",
-        "designat",
-        "group",
-        "outright"
-      ],
-      "entityShared": [
-        "september",
-        "compliance"
-      ],
-      "topicShared": [],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 8,
-      "claim": "A pathway is needed that explains whether fighters will be integrated into the Iraqi Security Forces, demobilised formally, or receive structured payouts.",
-      "status": "partial",
-      "classification": "supported_with_context",
-      "confidence": 85,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Iraq’s High-Stakes Calculus on Corruption and Militia Disarmament - Middle East Council on Global Affairs",
-      "bestUrl": "https://mecouncil.org/publication/iraqs-high-stakes-calculus-on-corruption-and-militia-disarmament/",
-      "bestDomain": "mecouncil.org",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F11",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 81
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F11",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 81,
-          "passageIndex": 26
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "This should also include clarity on what happens to fighters and weapons after surrender, whether through integration into the Iraqi Security Forces, formal demobilization, or structured payout schemes, since the absence of such a pathway is likely to undermine compliance in practice.",
-      "bestPassage": "This should also include clarity on what happens to fighters and weapons after surrender, whether through integration into the Iraqi Security Forces, formal demobilization, or structured payout schemes, since the absence of such a pathway is likely to undermine compliance in practice.",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P11"
-      ],
-      "sharedTerms": [
-        "pathway",
-        "need",
-        "whether",
-        "fighter",
-        "the",
-        "iraqi",
-        "security",
-        "forc",
-        "structur",
-        "payout"
-      ],
-      "entityShared": [
-        "iraqi",
-        "security",
-        "forc"
-      ],
-      "topicShared": [
-        "security"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": true,
-        "attributionDropped": false,
-        "blocked": true
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 9,
-      "claim": "The absence of such a plan could erode trust and undermine the promise of disarmament.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 64,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Iraq’s High-Stakes Calculus on Corruption and Militia Disarmament - Middle East Council on Global Affairs",
-      "bestUrl": "https://mecouncil.org/publication/iraqs-high-stakes-calculus-on-corruption-and-militia-disarmament/",
-      "bestDomain": "mecouncil.org",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F11",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 54
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F11",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 54,
-          "passageIndex": 26
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "This should also include clarity on what happens to fighters and weapons after surrender, whether through integration into the Iraqi Security Forces, formal demobilization, or structured payout schemes, since the absence of such a pathway is likely to undermine compliance in practice.",
-      "bestPassage": "This should also include clarity on what happens to fighters and weapons after surrender, whether through integration into the Iraqi Security Forces, formal demobilization, or structured payout schemes, since the absence of such a pathway is likely to undermine compliance in practice.",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P11"
-      ],
-      "sharedTerms": [
-        "the",
-        "absence",
-        "such",
-        "and",
-        "undermine",
-        "disarmament"
-      ],
-      "entityShared": [],
-      "topicShared": [],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": true,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 10,
-      "claim": "The U.S. withdrawal opens a window for pro‑Iran militias to exploit gaps in Iraq’s defensive posture.",
-      "status": "partial",
-      "classification": "supported_with_context",
-      "confidence": 73,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Iraq begins high-stakes security balancing act as US troops withdraw - Al Jazeera",
-      "bestUrl": "https://www.aljazeera.com/news/2026/9/29/iraq-begins-high-stakes-security-balancing-act-as-us-troops-withdraw",
-      "bestDomain": "aljazeera.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F34",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 50
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F34",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 50,
-          "passageIndex": 28
-        },
-        {
-          "factId": "F1",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 45,
-          "passageIndex": 1
-        },
-        {
-          "factId": "F33",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 45,
-          "passageIndex": 7
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "“This is one area where there will be vulnerabilities because it is clear that the pro-Iran militias have been willing to use drones and rockets and missiles against Iraqi targets inside Iraq, and as of right now, the Iraqi military doesn’t really have a way to defend against that,” he said. Key Takeaways Reform as Survival Strategy, Not Substance: Iraq&#8217;s anti-corruption crackdown and militia disarmament deadline function less as coherent reform and more as a survival strategy for the Coordination Framework, aimed at satisfying Washington without confronting Iran-aligned power centers. Indeed, the US withdrawal appears to be part of a strategy by al-Zaidi to “politically weaken” influential militias , including those linked to Iran, according to Douglas Silliman, the former US ambassador to Iraq and Kuwait.",
-      "bestPassage": "“This is one area where there will be vulnerabilities because it is clear that the pro-Iran militias have been willing to use drones and rockets and missiles against Iraqi targets inside Iraq, and as of right now, the Iraqi military doesn’t really have a way to defend against that,” he said. Key Takeaways Reform as Survival Strategy, Not Substance: Iraq&#8217;s anti-corruption crackdown and militia disarmament deadline function less as coherent reform and more as a survival strategy for the Coordination Framework, aimed at satisfying Washington without confronting Iran-aligned power centers. Indeed, the US withdrawal appears to be part of a strategy by al-Zaidi to “politically weaken” influential militias , including those linked to Iran, according to Douglas Silliman, the former US ambassador to Iraq and Kuwait.",
-      "matchedPassages": [
-        "S2-BODY",
-        "S2-P11"
-      ],
-      "sharedTerms": [
-        "the",
-        "withdrawal",
-        "for",
-        "pro",
-        "iran",
-        "militia",
-        "iraq"
-      ],
-      "entityShared": [
-        "the",
-        "iran",
-        "iraq"
-      ],
-      "topicShared": [
-        "iraq"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": false,
-        "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": true,
-        "blocked": true
-      },
-      "factCoverage": 3,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
-    },
-    {
-      "index": 11,
-      "claim": "Former ambassador Douglas Silliman warned that the Iraqi military lacks the means to counter drones, rockets, and missiles that could be launched from Iraqi territory against Gulf infrastructure.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 81,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Iraq begins high-stakes security balancing act as US troops withdraw - Al Jazeera",
-      "bestUrl": "https://www.aljazeera.com/news/2026/9/29/iraq-begins-high-stakes-security-balancing-act-as-us-troops-withdraw",
-      "bestDomain": "aljazeera.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F34",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 60
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F34",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 60,
-          "passageIndex": 28
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "“This is one area where there will be vulnerabilities because it is clear that the pro-Iran militias have been willing to use drones and rockets and missiles against Iraqi targets inside Iraq, and as of right now, the Iraqi military doesn’t really have a way to defend against that,” he said.",
-      "bestPassage": "“This is one area where there will be vulnerabilities because it is clear that the pro-Iran militias have been willing to use drones and rockets and missiles against Iraqi targets inside Iraq, and as of right now, the Iraqi military doesn’t really have a way to defend against that,” he said.",
-      "matchedPassages": [
-        "S2-BODY"
-      ],
-      "sharedTerms": [
-        "former",
-        "ambassador",
-        "dougla",
-        "silliman",
-        "the",
-        "iraqi",
-        "military",
-        "dron",
-        "rocket",
-        "and",
-        "missil",
-        "against"
-      ],
-      "entityShared": [
-        "dougla",
-        "silliman",
-        "iraqi"
-      ],
-      "topicShared": [],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": true,
-        "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 12,
-      "claim": "The risk is heightened by past incidents linking Iraqi‑based groups to attacks on regional targets.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 85,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Iraq’s High-Stakes Calculus on Corruption and Militia Disarmament - Middle East Council on Global Affairs",
-      "bestUrl": "https://mecouncil.org/publication/iraqs-high-stakes-calculus-on-corruption-and-militia-disarmament/",
-      "bestDomain": "mecouncil.org",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F22",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 56
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F22",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 56,
-          "passageIndex": 27
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "This engagement should be paired with close monitoring of cross-border security risks, particularly given prior incidents linking Iraq-based groups to attacks on Gulf infrastructure.",
-      "bestPassage": "This engagement should be paired with close monitoring of cross-border security risks, particularly given prior incidents linking Iraq-based groups to attacks on Gulf infrastructure.",
-      "matchedPassages": [
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "the",
-        "risk",
-        "incident",
-        "link",
-        "iraqi",
-        "bas",
-        "group",
-        "attack",
-        "regional",
-        "target"
-      ],
-      "entityShared": [
-        "iraqi"
-      ],
-      "topicShared": [],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 13,
-      "claim": "Monitoring cross‑border threats will be essential to avoid a new cycle of strikes on Iraqi soil.",
-      "status": "partial",
-      "classification": "supported_with_context",
-      "confidence": 89,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Iraq’s High-Stakes Calculus on Corruption and Militia Disarmament - Middle East Council on Global Affairs",
-      "bestUrl": "https://mecouncil.org/publication/iraqs-high-stakes-calculus-on-corruption-and-militia-disarmament/",
-      "bestDomain": "mecouncil.org",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F3",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 46
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F3",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 46,
-          "passageIndex": 5
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "A cosmetic disarmament process risks renewed attacks on US and Gulf targets and could trigger a fresh cycle of strikes on Iraqi soil.",
-      "bestPassage": "A cosmetic disarmament process risks renewed attacks on US and Gulf targets and could trigger a fresh cycle of strikes on Iraqi soil.",
-      "matchedPassages": [
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "monitor",
-        "cros",
-        "border",
-        "threat",
-        "avoid",
-        "new",
-        "cycle",
-        "strik",
-        "iraqi",
-        "soil"
-      ],
-      "entityShared": [
-        "iraqi"
-      ],
-      "topicShared": [],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": true,
-        "attributionDropped": false,
-        "blocked": true
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 14,
-      "claim": "How Washington interprets Baghdad’s actions will shape future sanctions.",
-      "status": "partial",
-      "classification": "supported_with_context",
-      "confidence": 78,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Iraq’s High-Stakes Calculus on Corruption and Militia Disarmament - Middle East Council on Global Affairs",
-      "bestUrl": "https://mecouncil.org/publication/iraqs-high-stakes-calculus-on-corruption-and-militia-disarmament/",
-      "bestDomain": "mecouncil.org",
+      "bestSource": "OpenAI Launches AI Agent 'Dots', While Reportedly Seeking A $30B Funding Bridge At $1.4 Trillion Valuation - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/openai-launches-ai-agent-dots-202733483.html",
+      "bestDomain": "finance.yahoo.com",
       "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
         "factId": "F5",
         "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 73
+        "score": 77
       },
       "provenanceFactMatches": [
         {
           "factId": "F5",
           "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 73,
-          "passageIndex": 5
+          "score": 77,
+          "passageIndex": 11
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-P5",
-      "evidence": "Internationally, how Washington reads Baghdad&#8217;s actions will shape sanctions policy and test whether Iraq can maintain sovereignty between the US and Iran — or become the next flashpoint between them.",
-      "bestPassage": "Internationally, how Washington reads Baghdad&#8217;s actions will shape sanctions policy and test whether Iraq can maintain sovereignty between the US and Iran — or become the next flashpoint between them.",
-      "matchedPassages": [
-        "S1-P5",
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "washington",
-        "baghdad",
-        "action",
-        "shape",
-        "sanction"
-      ],
-      "entityShared": [
-        "washington",
-        "baghdad"
-      ],
-      "topicShared": [],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": true,
-        "attributionDropped": false,
-        "blocked": true
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 15,
-      "claim": "The U.S. may adjust its stance based on whether Iraq can maintain sovereignty between U.S. and Iranian interests or becomes another flashpoint.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 79,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Iraq’s High-Stakes Calculus on Corruption and Militia Disarmament - Middle East Council on Global Affairs",
-      "bestUrl": "https://mecouncil.org/publication/iraqs-high-stakes-calculus-on-corruption-and-militia-disarmament/",
-      "bestDomain": "mecouncil.org",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F5",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 65
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F5",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 65,
-          "passageIndex": 5
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "Internationally, how Washington reads Baghdad&#8217;s actions will shape sanctions policy and test whether Iraq can maintain sovereignty between the US and Iran — or become the next flashpoint between them.",
-      "bestPassage": "Internationally, how Washington reads Baghdad&#8217;s actions will shape sanctions policy and test whether Iraq can maintain sovereignty between the US and Iran — or become the next flashpoint between them.",
+      "bestPassageId": "S1-FF5",
+      "evidence": "Alongside the autonomous agent, OpenAI introduced a $500 monthly subscription tier with faster processing and expanded usage limits, while restructuring its standard $200 plan.",
+      "bestPassage": "Alongside the autonomous agent, OpenAI introduced a $500 monthly subscription tier with faster processing and expanded usage limits, while restructuring its standard $200 plan.",
       "matchedPassages": [
         "S1-BODY",
         "S1-P5"
       ],
       "sharedTerms": [
         "the",
-        "bas",
-        "whether",
-        "iraq",
-        "can",
-        "maintain",
-        "sovereignty",
+        "500",
+        "tier",
+        "faster",
+        "process",
         "and",
-        "iranian",
-        "flashpoint"
-      ],
-      "entityShared": [
-        "iraq",
-        "iranian"
-      ],
-      "topicShared": [
-        "iraq"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": true,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 16,
-      "claim": "The U.S. still offers non‑binding security support, but confidence in Iraq’s ability to defend itself remains mixed.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 77,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Iraq begins high-stakes security balancing act as US troops withdraw - Al Jazeera",
-      "bestUrl": "https://www.aljazeera.com/news/2026/9/29/iraq-begins-high-stakes-security-balancing-act-as-us-troops-withdraw",
-      "bestDomain": "aljazeera.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F29",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 49
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F29",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 49,
-          "passageIndex": 21
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "The deal pledges continued, if non-binding, US security support for Iraq.",
-      "bestPassage": "The deal pledges continued, if non-binding, US security support for Iraq.",
-      "matchedPassages": [
-        "S2-BODY"
-      ],
-      "sharedTerms": [
-        "the",
-        "non",
-        "bind",
-        "security",
-        "support",
-        "but",
-        "iraq",
-        "defend",
-        "remain"
-      ],
-      "entityShared": [
-        "the",
-        "iraq"
-      ],
-      "topicShared": [
-        "security",
-        "iraq"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 17,
-      "claim": "The first visit of the U.S. envoy Tom Barrack to Iraq in his new role included meetings with Prime Minister Ali al‑Zaidi and Kurdish leaders in Erbil, including KRG Prime Minister Masrour Barzani.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 100,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Iraq’s High-Stakes Calculus on Corruption and Militia Disarmament - Middle East Council on Global Affairs",
-      "bestUrl": "https://mecouncil.org/publication/iraqs-high-stakes-calculus-on-corruption-and-militia-disarmament/",
-      "bestDomain": "mecouncil.org",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F9",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 91
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F9",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 91,
-          "passageIndex": 10
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "The visit, Barrack&#8217;s first to Iraq in his envoy role, also took him to Erbil for talks with Kurdish leaders, including KRG Prime Minister Masrour Barzani, on advancing trade and energy investment and supporting the federal government.",
-      "bestPassage": "The visit, Barrack&#8217;s first to Iraq in his envoy role, also took him to Erbil for talks with Kurdish leaders, including KRG Prime Minister Masrour Barzani, on advancing trade and energy investment and supporting the federal government.",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P9"
-      ],
-      "sharedTerms": [
-        "the",
-        "first",
-        "visit",
-        "envoy",
-        "tom",
-        "barrack",
-        "iraq",
-        "his",
-        "new",
-        "role",
-        "includ",
-        "prime",
-        "minister",
-        "ali",
-        "zaidi",
-        "and",
-        "kurdish",
-        "leader",
-        "erbil",
-        "krg",
-        "masrour",
-        "barzani"
-      ],
-      "entityShared": [
-        "tom",
-        "barrack",
-        "iraq",
-        "prime",
-        "minister",
-        "ali",
-        "zaidi",
-        "kurdish",
-        "erbil",
-        "krg",
-        "masrour",
-        "barzani"
-      ],
-      "topicShared": [
-        "iraq"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 18,
-      "claim": "These talks aim to advance trade, energy investment, and federal support.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 79,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Iraq’s High-Stakes Calculus on Corruption and Militia Disarmament - Middle East Council on Global Affairs",
-      "bestUrl": "https://mecouncil.org/publication/iraqs-high-stakes-calculus-on-corruption-and-militia-disarmament/",
-      "bestDomain": "mecouncil.org",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F9",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 63
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F9",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 63,
-          "passageIndex": 10
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "The visit, Barrack&#8217;s first to Iraq in his envoy role, also took him to Erbil for talks with Kurdish leaders, including KRG Prime Minister Masrour Barzani, on advancing trade and energy investment and supporting the federal government.",
-      "bestPassage": "The visit, Barrack&#8217;s first to Iraq in his envoy role, also took him to Erbil for talks with Kurdish leaders, including KRG Prime Minister Masrour Barzani, on advancing trade and energy investment and supporting the federal government.",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P9"
-      ],
-      "sharedTerms": [
-        "talk",
-        "aim",
-        "trade",
-        "energy",
-        "invest",
-        "and",
-        "federal",
-        "support"
+        "expand",
+        "usage",
+        "limit",
+        "standard",
+        "plan",
+        "200"
       ],
       "entityShared": [],
       "topicShared": [],
@@ -1303,151 +600,59 @@
       },
       "factCoverage": 1,
       "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "direct-exact-evidence"
     },
     {
-      "index": 19,
-      "claim": "Analysts argue that the real test lies in the day‑to‑day implementation of the disarmament plan and the monitoring of security risks.",
+      "index": 8,
+      "claim": "These changes come as the company seeks a $30 billion bridge round that targets a $1.4 trillion pre‑money valuation.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 75,
+      "confidence": 77,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Iraq’s High-Stakes Calculus on Corruption and Militia Disarmament - Middle East Council on Global Affairs",
-      "bestUrl": "https://mecouncil.org/publication/iraqs-high-stakes-calculus-on-corruption-and-militia-disarmament/",
-      "bestDomain": "mecouncil.org",
+      "bestSource": "OpenAI Launches AI Agent 'Dots', While Reportedly Seeking A $30B Funding Bridge At $1.4 Trillion Valuation - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/openai-launches-ai-agent-dots-202733483.html",
+      "bestDomain": "finance.yahoo.com",
       "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F18",
+        "factId": "F1",
         "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 34
+        "score": 77
       },
       "provenanceFactMatches": [
         {
-          "factId": "F18",
+          "factId": "F1",
           "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 34,
-          "passageIndex": 12
-        },
-        {
-          "factId": "F30",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 27,
-          "passageIndex": 25
-        },
-        {
-          "factId": "F22",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 24,
-          "passageIndex": 27
+          "score": 77,
+          "passageIndex": 2
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "Analysts note the real test begins now that he&#8217;s back in Baghdad, with any gains remaining &#8220;opportunities rather than guarantees.&#8221; 9 “There are real capabilities and real experience in the Iraqi security forces. This engagement should be paired with close monitoring of cross-border security risks, particularly given prior incidents linking Iraq-based groups to attacks on Gulf infrastructure.",
-      "bestPassage": "Analysts note the real test begins now that he&#8217;s back in Baghdad, with any gains remaining &#8220;opportunities rather than guarantees.&#8221; 9 “There are real capabilities and real experience in the Iraqi security forces. This engagement should be paired with close monitoring of cross-border security risks, particularly given prior incidents linking Iraq-based groups to attacks on Gulf infrastructure.",
-      "matchedPassages": [
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "analyst",
-        "the",
-        "real",
-        "test",
-        "disarmament",
-        "and",
-        "monitor",
-        "security",
-        "risk"
-      ],
-      "entityShared": [
-        "analyst"
-      ],
-      "topicShared": [
-        "security"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 3,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
-    },
-    {
-      "index": 20,
-      "claim": "Iraq’s current dilemma is the outcome of two decades of institutional erosion, sectarian bargaining, and external patronage.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 87,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Iraq’s High-Stakes Calculus on Corruption and Militia Disarmament - Middle East Council on Global Affairs",
-      "bestUrl": "https://mecouncil.org/publication/iraqs-high-stakes-calculus-on-corruption-and-militia-disarmament/",
-      "bestDomain": "mecouncil.org",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F14",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 79
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F14",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 79,
-          "passageIndex": 30
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "It is the outcome of two decades of institutional erosion, sectarian bargaining, and external patronage, layered slowly enough that each step seemed manageable even as the cumulative effect reshaped the state itself.",
-      "bestPassage": "It is the outcome of two decades of institutional erosion, sectarian bargaining, and external patronage, layered slowly enough that each step seemed manageable even as the cumulative effect reshaped the state itself.",
+      "bestPassageId": "S1-FF1",
+      "evidence": "OpenAI is seeking a $30 billion bridge round targeting a $1.4 trillion pre-money valuation, Bloomberg reported.",
+      "bestPassage": "OpenAI is seeking a $30 billion bridge round targeting a $1.4 trillion pre-money valuation, Bloomberg reported.",
       "matchedPassages": [
         "S1-BODY",
-        "S1-P14"
+        "S1-P1"
       ],
       "sharedTerms": [
-        "iraq",
-        "the",
-        "outcome",
-        "two",
-        "decad",
-        "institutional",
-        "erosion",
-        "sectarian",
-        "bargain",
-        "and",
-        "external",
-        "patronage"
+        "seek",
+        "billion",
+        "bridge",
+        "round",
+        "target",
+        "trillion",
+        "pre",
+        "money",
+        "valuation"
       ],
-      "entityShared": [
-        "iraq"
-      ],
-      "topicShared": [
-        "iraq"
-      ],
+      "entityShared": [],
+      "topicShared": [],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
@@ -1455,7 +660,7 @@
       "attributionUncertainty": {
         "evidenceUncertain": false,
         "claimUncertain": false,
-        "evidenceAttributed": false,
+        "evidenceAttributed": true,
         "claimAttributed": false,
         "certaintyEscalation": false,
         "attributionDropped": false,
@@ -1463,136 +668,71 @@
       },
       "factCoverage": 1,
       "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "direct-exact-evidence"
     },
     {
-      "index": 21,
-      "claim": "Reversing that trajectory will not happen with a single deadline, a single high‑profile visit, or a single change of government.",
+      "index": 9,
+      "claim": "The funding effort follows OpenAI’s decision to delay its anticipated IPO beyond 2026 to focus on AI safety standards and regulatory navigation.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 94,
+      "confidence": 89,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Iraq’s High-Stakes Calculus on Corruption and Militia Disarmament - Middle East Council on Global Affairs",
-      "bestUrl": "https://mecouncil.org/publication/iraqs-high-stakes-calculus-on-corruption-and-militia-disarmament/",
-      "bestDomain": "mecouncil.org",
+      "bestSource": "OpenAI Launches AI Agent 'Dots', While Reportedly Seeking A $30B Funding Bridge At $1.4 Trillion Valuation - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/openai-launches-ai-agent-dots-202733483.html",
+      "bestDomain": "finance.yahoo.com",
       "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F15",
+        "factId": "F6",
         "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
         "score": 89
       },
       "provenanceFactMatches": [
         {
-          "factId": "F15",
+          "factId": "F6",
           "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
           "score": 89,
-          "passageIndex": 30
+          "passageIndex": 7
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "Reversing that trajectory will not be accomplished through a single disarmament deadline, a single high-profile visit, or a single change of government.",
-      "bestPassage": "Reversing that trajectory will not be accomplished through a single disarmament deadline, a single high-profile visit, or a single change of government.",
+      "bestPassageId": "S1-FF6",
+      "evidence": "The product launches and financing efforts follow OpenAI's decision to delay its anticipated initial public offering (IPO) beyond 2026 to prioritize AI safety standards and navigate heightened regulatory concerns.",
+      "bestPassage": "The product launches and financing efforts follow OpenAI's decision to delay its anticipated initial public offering (IPO) beyond 2026 to prioritize AI safety standards and navigate heightened regulatory concerns.",
       "matchedPassages": [
-        "S1-BODY",
-        "S1-P15"
-      ],
-      "sharedTerms": [
-        "revers",
-        "trajectory",
-        "not",
-        "happen",
-        "single",
-        "deadline",
-        "high",
-        "profile",
-        "visit",
-        "change",
-        "government"
-      ],
-      "entityShared": [
-        "revers"
-      ],
-      "topicShared": [
-        "high"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 22,
-      "claim": "It will require patience, consistency, and long‑term investment—attributes that allowed the problem to take root.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 86,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Iraq’s High-Stakes Calculus on Corruption and Militia Disarmament - Middle East Council on Global Affairs",
-      "bestUrl": "https://mecouncil.org/publication/iraqs-high-stakes-calculus-on-corruption-and-militia-disarmament/",
-      "bestDomain": "mecouncil.org",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F16",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 86
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F16",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 86,
-          "passageIndex": 30
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-P16",
-      "evidence": "It will require the same patience, consistency, and long-term investment that allowed the problem to take root in the first place.",
-      "bestPassage": "It will require the same patience, consistency, and long-term investment that allowed the problem to take root in the first place.",
-      "matchedPassages": [
-        "S1-P16",
+        "S1-P6",
         "S1-BODY"
       ],
       "sharedTerms": [
-        "require",
-        "patience",
-        "consistency",
-        "and",
-        "long",
-        "term",
-        "invest",
-        "allow",
         "the",
-        "problem",
-        "take",
-        "root"
+        "effort",
+        "follow",
+        "openai",
+        "decision",
+        "delay",
+        "its",
+        "anticipat",
+        "ipo",
+        "beyond",
+        "2026",
+        "safety",
+        "standard",
+        "and",
+        "regulatory"
       ],
-      "entityShared": [],
-      "topicShared": [],
+      "entityShared": [
+        "openai",
+        "ipo"
+      ],
+      "topicShared": [
+        "openai",
+        "its"
+      ],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
@@ -1608,73 +748,71 @@
       },
       "factCoverage": 1,
       "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "direct-exact-evidence"
     },
     {
-      "index": 24,
-      "claim": "The government’s ability to navigate the end of the U.S. coalition and to prevent a resurgence of cross‑border attacks will determine whether Iraq can maintain its sovereignty amid regional pressures.",
+      "index": 10,
+      "claim": "The launch of Dots marks a pivot toward autonomous, always‑on agents that can operate across platforms and handle complex, ongoing tasks.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 75,
+      "confidence": 66,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Iraq’s High-Stakes Calculus on Corruption and Militia Disarmament - Middle East Council on Global Affairs",
-      "bestUrl": "https://mecouncil.org/publication/iraqs-high-stakes-calculus-on-corruption-and-militia-disarmament/",
-      "bestDomain": "mecouncil.org",
+      "bestSource": "OpenAI Launches AI Agent 'Dots', While Reportedly Seeking A $30B Funding Bridge At $1.4 Trillion Valuation - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/openai-launches-ai-agent-dots-202733483.html",
+      "bestDomain": "finance.yahoo.com",
       "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F5",
+        "factId": "F3",
         "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 46
+        "score": 44
       },
       "provenanceFactMatches": [
         {
-          "factId": "F5",
+          "factId": "F3",
           "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 46,
-          "passageIndex": 5
+          "score": 44,
+          "passageIndex": 1
         },
         {
-          "factId": "F26",
+          "factId": "F11",
           "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
           "score": 41,
-          "passageIndex": 10
+          "passageIndex": 1
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "Internationally, how Washington reads Baghdad&#8217;s actions will shape sanctions policy and test whether Iraq can maintain sovereignty between the US and Iran — or become the next flashpoint between them. How the Iraqi government navigates the end of the US-led coalition’s deployment, dubbed “Operation Inherent Resolve”, will have wide-ranging implications for the future security of Iraq.",
-      "bestPassage": "Internationally, how Washington reads Baghdad&#8217;s actions will shape sanctions policy and test whether Iraq can maintain sovereignty between the US and Iran — or become the next flashpoint between them. How the Iraqi government navigates the end of the US-led coalition’s deployment, dubbed “Operation Inherent Resolve”, will have wide-ranging implications for the future security of Iraq.",
+      "bestPassageId": "S1-FF3,S2-FF11",
+      "evidence": "OpenAI launched \"Dots,\" a persistent virtual assistant that can operate computers, execute cross-platform workflows, and debug software autonomously. The company describes Dots as &#8220;remarkably capable, always-on agents built to handle everything.&#8221;",
+      "bestPassage": "OpenAI launched \"Dots,\" a persistent virtual assistant that can operate computers, execute cross-platform workflows, and debug software autonomously. The company describes Dots as &#8220;remarkably capable, always-on agents built to handle everything.&#8221;",
       "matchedPassages": [
-        "S1-BODY"
+        "S1-BODY",
+        "S1-P3"
       ],
       "sharedTerms": [
         "the",
-        "government",
-        "coalition",
-        "and",
-        "cros",
-        "border",
-        "attack",
-        "whether",
-        "iraq",
+        "launch",
+        "dots",
+        "alway",
+        "agent",
         "can",
-        "maintain",
-        "sovereignty",
-        "amid",
-        "regional"
+        "operate",
+        "platform",
+        "and",
+        "handle"
       ],
       "entityShared": [
-        "iraq"
+        "dots"
       ],
       "topicShared": [
-        "iraq"
+        "launch",
+        "dots"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -1694,19 +832,307 @@
       "directFactExact": false,
       "directExact": false,
       "matchingMode": "fact-map-multi-fact-anchored"
+    },
+    {
+      "index": 11,
+      "claim": "By bundling capabilities previously available through tools like Codex, OpenAI aims to streamline agentic workflows for developers and enterprises.",
+      "status": "partial",
+      "classification": "supported_with_context",
+      "confidence": 59,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "OpenAI launches Dots, its bubbly agentic avatar",
+      "bestUrl": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+      "bestDomain": "techcrunch.com",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F16",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 27
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F16",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 27,
+          "passageIndex": 8
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S2-BODY",
+      "evidence": "Much of this functionality was already possible through Codex and similar agentic harnesses — but Dots bundles together those features in a new package with a focus on independent agentic actions.",
+      "bestPassage": "Much of this functionality was already possible through Codex and similar agentic harnesses — but Dots bundles together those features in a new package with a focus on independent agentic actions.",
+      "matchedPassages": [
+        "S2-BODY"
+      ],
+      "sharedTerms": [
+        "bundl",
+        "available",
+        "tool",
+        "codex",
+        "openai",
+        "agentic",
+        "for",
+        "developer",
+        "and"
+      ],
+      "entityShared": [
+        "codex",
+        "openai"
+      ],
+      "topicShared": [
+        "openai",
+        "agentic"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": true,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 3,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 13,
+      "claim": "Future updates may expand Dot interactivity to Slack, Teams, and text messaging, as well as broader market availability.",
+      "status": "partial",
+      "classification": "supported_with_context",
+      "confidence": 56,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "OpenAI launches Dots, its bubbly agentic avatar",
+      "bestUrl": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+      "bestDomain": "techcrunch.com",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F19",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 37
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F19",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 37,
+          "passageIndex": 6
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S2-BODY",
+      "evidence": "Users can message Dots through Slack, Teams, and other organizational platforms, with text message support coming soon.",
+      "bestPassage": "Users can message Dots through Slack, Teams, and other organizational platforms, with text message support coming soon.",
+      "matchedPassages": [
+        "S2-BODY",
+        "S2-P13"
+      ],
+      "sharedTerms": [
+        "dot",
+        "slack",
+        "team",
+        "and",
+        "text",
+        "market"
+      ],
+      "entityShared": [
+        "slack",
+        "team"
+      ],
+      "topicShared": [],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": true,
+        "claimUncertain": true,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 14,
+      "claim": "The current state reflects OpenAI’s commitment to expanding its product ecosystem while maintaining a cautious approach to regulatory compliance and long‑term growth.",
+      "status": "partial",
+      "classification": "uncertain",
+      "confidence": 48,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "OpenAI Launches AI Agent 'Dots', While Reportedly Seeking A $30B Funding Bridge At $1.4 Trillion Valuation - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/openai-launches-ai-agent-dots-202733483.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F6",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 40
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F6",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 40,
+          "passageIndex": 7
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-BODY",
+      "evidence": "The product launches and financing efforts follow OpenAI's decision to delay its anticipated initial public offering (IPO) beyond 2026 to prioritize AI safety standards and navigate heightened regulatory concerns.",
+      "bestPassage": "The product launches and financing efforts follow OpenAI's decision to delay its anticipated initial public offering (IPO) beyond 2026 to prioritize AI safety standards and navigate heightened regulatory concerns.",
+      "matchedPassages": [
+        "S1-BODY",
+        "S1-P6",
+        "S1-P5"
+      ],
+      "sharedTerms": [
+        "the",
+        "openai",
+        "expand",
+        "its",
+        "product",
+        "regulatory",
+        "and"
+      ],
+      "entityShared": [
+        "openai"
+      ],
+      "topicShared": [
+        "openai",
+        "its"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 15,
+      "claim": "What the evidence shows is that OpenAI is simultaneously scaling its product line, pricing, and financing strategy, positioning Dots as a central component of its future AI services.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 63,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "OpenAI Launches AI Agent 'Dots', While Reportedly Seeking A $30B Funding Bridge At $1.4 Trillion Valuation - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/openai-launches-ai-agent-dots-202733483.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F2",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 49
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F2",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 49,
+          "passageIndex": 4
+        },
+        {
+          "factId": "F6",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 40,
+          "passageIndex": 7
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-FF2,S1-FF6",
+      "evidence": "OpenAI announced a major expansion of its product line on Tuesday, introducing a digital assistant named Dots, an updated artificial intelligence model, and a premium $500-per-month subscription tier. The product launches and financing efforts follow OpenAI's decision to delay its anticipated initial public offering (IPO) beyond 2026 to prioritize AI safety standards and navigate heightened regulatory concerns.",
+      "bestPassage": "OpenAI announced a major expansion of its product line on Tuesday, introducing a digital assistant named Dots, an updated artificial intelligence model, and a premium $500-per-month subscription tier. The product launches and financing efforts follow OpenAI's decision to delay its anticipated initial public offering (IPO) beyond 2026 to prioritize AI safety standards and navigate heightened regulatory concerns.",
+      "matchedPassages": [
+        "S1-BODY",
+        "S1-P2"
+      ],
+      "sharedTerms": [
+        "the",
+        "openai",
+        "its",
+        "product",
+        "line",
+        "and",
+        "financ",
+        "dots"
+      ],
+      "entityShared": [
+        "openai",
+        "dots"
+      ],
+      "topicShared": [
+        "openai",
+        "its",
+        "dots"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-multi-fact-anchored"
     }
   ],
   "editorial": [
     {
-      "index": 3,
-      "claim": "The move signals an attempt to present Iraq as a sovereign state capable of managing its own security while still courting U.S. goodwill.",
+      "index": 12,
+      "claim": "The introduction of a higher‑priced tier suggests the company is targeting power users and organizations that require intensive usage, while the continued development of a bridge round indicates a strategic emphasis on capital and safety over immediate public market entry.",
       "type": "editorial-analysis",
-      "status": "editorial-excluded"
-    },
-    {
-      "index": 23,
-      "claim": "Observers should look for concrete, monitorable benchmarks that go beyond rhetoric: verified weapons handover, transparent militia payrolls, and a clear post‑surrender plan for fighters.",
-      "type": "editorial-recommendation",
       "status": "editorial-excluded"
     }
   ]

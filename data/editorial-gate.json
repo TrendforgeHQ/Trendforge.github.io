@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T03:01:16.622Z",
+  "generatedAt": "2026-09-30T11:38:14.112Z",
   "provider": "Groq",
   "editorial": {
     "passed": true,
@@ -22,8 +22,8 @@
       "noHighSimilaritySource": true
     },
     "metrics": {
-      "normalizedLength": 3692,
-      "sentenceCount": 31,
+      "normalizedLength": 2346,
+      "sentenceCount": 15,
       "maxSourceSimilarity": 0,
       "maxCommonPhrase": 0
     }
@@ -31,13 +31,13 @@
   "semanticDuplicateCheck": "passed",
   "sourceRelationshipCheck": "passed",
   "verifiedEvidenceDomains": [
-    "mecouncil.org",
-    "aljazeera.com"
+    "finance.yahoo.com",
+    "techcrunch.com"
   ],
   "primarySourceCount": 0,
   "grounding": {
     "sourceCount": 2,
-    "usablePassages": 38,
+    "usablePassages": 19,
     "primarySourceCount": 0
   }
 }

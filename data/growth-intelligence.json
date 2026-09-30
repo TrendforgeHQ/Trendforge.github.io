@@ -1,32 +1,32 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-30T07:27:57.996Z",
+  "generatedAt": "2026-09-30T11:38:26.002Z",
   "policy": {
     "privacyFirst": true,
     "noPersonalTracking": true,
     "noPaidTrafficRequired": true
   },
   "summary": {
-    "totalArticles": 32,
+    "totalArticles": 33,
     "averageEditorialScore": 76,
-    "editorialReviewCount": 22,
-    "refreshCandidates": 5
+    "editorialReviewCount": 23,
+    "refreshCandidates": 6
   },
   "categoryMix": [
     {
       "category": "AI",
-      "count": 10,
-      "share": 31.3
+      "count": 11,
+      "share": 33.3
     },
     {
       "category": "Technology",
       "count": 7,
-      "share": 21.9
+      "share": 21.2
     },
     {
       "category": "How-To",
       "count": 3,
-      "share": 9.4
+      "share": 9.1
     },
     {
       "category": "Innovation",
@@ -41,12 +41,12 @@
     {
       "category": "Digital Life",
       "count": 6,
-      "share": 18.8
+      "share": 18.2
     },
     {
       "category": "Crypto",
       "count": 5,
-      "share": 15.6
+      "share": 15.2
     }
   ],
   "missingCategories": [
@@ -56,10 +56,15 @@
   "overrepresentedCategories": [],
   "recommendations": [
     "Prioritize missing categories: Innovation, Product Launches.",
-    "22 article(s) are in editorial review; improve them before treating them as growth winners.",
-    "5 older/incomplete article(s) are refresh candidates."
+    "23 article(s) are in editorial review; improve them before treating them as growth winners.",
+    "6 older/incomplete article(s) are refresh candidates."
   ],
   "recentArticles": [
+    {
+      "title": "OpenAI Unveils Dots, a Persistent AI Assistant with a New Premium Tier",
+      "category": "AI",
+      "publishedAt": "2026-09-30T11:38:14.111Z"
+    },
     {
       "title": "Fairphone Unveils Fairbuds 2 Repairable Earbuds on October 14",
       "category": "Digital Life",
@@ -104,11 +109,6 @@
       "title": "Google’s First Orbital AI Data Center Test Launches on October 1",
       "category": "Technology",
       "publishedAt": "2026-09-25T15:12:10.057Z"
-    },
-    {
-      "title": "Meta’s Connect 2026 Unveils New Glasses and a Rumored Mixed‑Reality Headset",
-      "category": "Digital Life",
-      "publishedAt": "2026-09-24T06:37:38.171Z"
     }
   ]
 }
