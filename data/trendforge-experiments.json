@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-30T05:55:51.468Z",
+  "updatedAt": "2026-09-30T12:58:40.602Z",
   "mode": "shadow",
   "policy": {
     "advisoryOnly": true,
@@ -14,9 +14,9 @@
     "noWinnerBeforeMinimumSample": true
   },
   "sample": {
-    "runs": 53,
+    "runs": 54,
     "topics": 500,
-    "articles": 32
+    "articles": 33
   },
   "learningInput": {
     "version": 2,
@@ -88,50 +88,6 @@
   "assignments": {
     "headline-style": [
       {
-        "key": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NNEJZLVdXbVpQUUZiamdYbVBRZ1dLeFN4WV9WQVROY2Jjc3NjOFI4RDVQMkhRTlZ0LWw1Zy13Y3Jld01BaVRqamxBWDNlLWo3QlRIaTd5WDdkeXItWkE?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM29pT0FKQlhBR0tPNHE3YmQ0ak1MMHdRN2dzNXMwVUNJMWJMcUFzTW82aUtUVDN6TXlOQmU1YVlZNHNtRzREVlRHX0sxR3BZUi1YSVZYblRvcWM2TlVmN3NZSk5HSlZSWV94cmV0bE5GRmQ1Vk5NZ0NwUFVBX3dmWmpLUURTU1lPOWJ3UmxVb1RoTmhRVmZ1dmpPUjFyNWpDQUE?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOFZpVjN1dVE2MkV3Y3NXaEhfTzlLVlJ2Szd3dzdlTmlXODVJRUZsblR2SVFQNFhFUmd1eTNFTDQ4LUhMMEdIT3l2TW5Gb1l6blNWQXBGZDBCX3FzUU1LSGQ1RGZFZjVJMzYxU3Bod0lxX1ExUDZKOHMtUkprR3VJV251MlNHMTNOX2pIc3hUZU9Sal9R?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://www.theverge.com/tech/1002107/apple-ceo-john-ternus-product-launch-strategy",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOODZMSWtBVDVkTDJ3Z0t5UHpmSGI2cXBBRVprYmFqTmMzeXBJWWF4bE1JN3Z6S2xnNkJtMnJzUUR2NjM0Y0Noc0VDSE5ieE1RMWFkSzU5WXdUVkdJYkJJV1l6NTFlUlZGNkdiS1NIVzIzaGo3X3RWNU9zLUZtZ0tkUzBiZW11WnZQYktMM18yRHpRc2tFVjR6a0FYcEY3dzItSFVCMQ?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://www.theverge.com/news/1002099/xbox-mythic-achievement-announcement-feature",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVmk2SUNuWUtCdlhrYzdaVVZESjBsMUlKd2J6cHoyMmJaY0luQTh1c19MRzJZMU1TSGpVTzYxRHZscU5TbFRFaVF0WWFNNHhQSkIzV3RUWEt1dUhKTDFBdG9PVy1NU0V0ZjVYVXduNkZuUUJJc21MTzM5OHkwb05BSVp5ZDVVZmMxVGNERzdyeTRUMzk1cC1sNHoxdFBwc2g1azNlM0NKd29OWlU2NkRaazVpbHl5ZnlzZXFydm1Wa2c4UTBFUnZyZVQteFdGbThibXVLdkIxSnhiRXNoOWc?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRW52SnVvUDJIMzZobWpaZGV1ajdjZUxNMTU0WWtaVkM1XzhEMG1LbGJjckIxaS0wOUtpNF9KWmdXZ0ROSmtGN0FxVWtlVDJSUFNtbWJORnpGM3BaOWJyZmxaUHU3MlZaTnYyTTVZazUyNTg2QzMybTF1WTF2dk50TjhKWVRRT3l6YnJzeGpXb1NPVHNWSzVLclJ6WTI2dw?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MVUVlaTV5ZFFBUnVJMFZDWTJIRGg5R20zQXpKU0tENk5PMXR0TEZ0N2VqRXpsOHdrazZKYS1QaUFNZ2tzN0c4Tnk0UjBjRmtFX0RjRw?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeFpRbF9Oclh5QWFrb3FtNHZpOUFSSVRBRFRlVmZIMjNpQzduYlMyR0xMbzNpeHJ2aHFlZGFKbFQzX0Y3OFVCbWtTX2V2R3JyODZyTXM2US1aNnpYaTQ1OHI0ODBzVGRmMUxwbzBfZW5lMXppXzBmMWhlcUdOYzVIdzdNaVV2YTFCRGlYSUFLN1c5cmdITFk3MnFUUTV5T2ZLRzlGdzNIc0h0VzBGTEhr?oc=5",
-        "bucket": "control"
-      },
-      {
         "key": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZVUxTW01MHAtYk5NU3BqRU92OVRBUTAwenV3elJGaEVvSU44V1FpVFE3ZzBNQnp2NWJSQ1ZKTVBleFNGcmJ3MU1mZ2U4N3BNc0E0RkU1elpYSGNxTzZfZHBUUElrWkhCZnFwNElPNEVKN0NyRFBEWEo3dzlFV3pnbGoyTVBJeUM1VjhaTGdWTUZ6Qkt4cXpRQXdn?oc=5",
         "bucket": "control"
       },
@@ -166,54 +122,54 @@
       {
         "key": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
         "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYWtfNktxNlhINDRvdjNUeW9fTG5GazIyQmVfbnFzOWVsa2EwVXBVWTRMS0tYUE1vNjlMd2k5ZHlmVTMzdlFxQ0tuN2lSX0liTU96d1NJcGRNUHctM2tzOTZIdjBpN0w4QWh1OFd0Wjlab0Y4YklTRnB5TG1vOC1VanczbHFUWndfdk5vR1daVUJlQlZ1LUc5alg3WC0wbzZJTnpWUFA0UnE1LUN3VDZpeGZweUdXZVE?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVmszS2FVUEdhSXpxSVpMV0RuekNCbkExbWlUZDU0ckwtaGNfUkw1MjJEX01OTklia3JwamViXzdIRzQzMVMydGhJdnFKMXd0UG90ODM0UEF0WWd1S1pvSnFWLWJnanpDWjB6Z3E2azZpYTI2UlR4YzNaOXp4THI3YXl4bXZadWJGUzgwM25n?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUTJlSnAtVVB5RjROMm9USTN6eERGSWhWM1FXdHJyc19YMS16MzdWdG1YQ1NiTGdvMk95c0JkYVNEaVRrYWRyYWllQl9MMV9YYm9qZTBGZEhxZ1JWdWFJRkZPS3k4YTR6UlBnbFBFaDRJV0FSNDBfYzdVSmVuT2lOYWJ3Y1JrNjJjeU9fMS0tSjRVdw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWnVNNmtpOGR2U0dEUWo4Sy1tWWRaLVpUNUlhZkdNSmFNbnhYYVFfR2pOb2NWR3Z1SVotaWpIaGpOS25hNXRMZEgxRnU2NEwzYllETWpTamFMUDFTYWhJalYyWENLQmlHbmNFUTRSUXNYaDBJcGxpZTNtNi1jeVFHZVA2cmN5MUo3ZlVIUFhINnlHdk1fZzlmT1RHOTh3SWlQczRzZnJNVmdiaWJYby1DSHRCejEwWWFGOEF4YXloeVdndjVlR01MdUhB?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWVE3NUU4cjJyaVNfcGdwNThPd0ZLVktndS1ta2N2VVNQY1ctUGFWNVhpcUxmdElJX0JtajA0VjBPQ3RFTV9icHpkVnBaSkZqOHNjNFdmSUFYVVNrZWRidzB6ekFvUDlhRzZZaDN2UzdYSHFSQm1zVU50MS0xT1N3VFdKMGUtVEZMcHNZdA?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQS0lBdDlWcUllYUNvQW1vSnRKeFV1UEoxdElHMlhFUi1KdXViQ2U4Sno5Y3Z2WU9BZEFzR2QtcFktQnVaeVpGRmNCSk5wMGdsSUlDX0VWd3FjWDEyQXpFbWtnS1g4SUJNQ3RiQlFoNFZCd0Z1YmNRVlJvdXl3Zm4tV2JYN1k1RWRLeVBPTWU4ZWx3NFZ1aWVUMzZhVm55anA4dl9zcWF5UmJzVzA?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNDVzRWtESUZGXzBPN1pkU1dDb1RkYm9OMUZiRUxqODhFY3BNOHFSM01ZUmFNTmVPdWltWWdSZ1RZNXFieEFYcV94VG02STl2MW5Ea0wxSDJKVUk0WUFsdFE1QXVzOVN5RGM0bW1QRVFaVEVNT1o4TERObEhwc21qMUcyX01PVGRhdFFob002dkZyVWc?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSFM5UlBwRFF6Z3hmZUVKcDh2WlBUSzBLQ0trQ3dORENNUFFUTlNyZ2NYODB5eTZ3Q2RTY2V1ekZzVnJlWmFZNWhrWEFqVm9waXlpN0wwZEYySU51SWtFUXFKbl9HMGxxS0hzdkRWYlFvSWNzZnpqd2V6MUVVV2hyYmowQ3NhRE5FRUszRFhuSWMyYkZqazB0T3pEQQ?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZm1YdGNKc1NFNUd3NXhnN3hhd1pLTEdvaFhtUi1TLVpzMmJCWFRFeXJLRC05WURLelhqX3Fmdmp6LVQ4eHRzUEd3Z2JQeHRCTnpYTVpNaGY2aEp2UGlBdFp1WmtlbFlVTzVuNmY2eUgtOWlCMDZ1TGtLSEV2YlE1Yk1VakFRaVlqYmg1TDY3R0F2YzhPUmI4?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRGhCQkl6Q09zbnhrcl8tSWxJY2xETXlfa0JhNVc1VXdXWmc1SUJEMUNNRFZSOURiVXllWW5tMnp5UWJKTlZHRnFDY0lybDVaelRKWjZBTS1oOTRCdDRYakZnZEpVV1BkTzBZWlgtMjhxMlhWb05LeG1mSGdiWHFTV3lsdEc3djhMcHdHajZPMA?oc=5",
+        "bucket": "variant"
       }
     ],
     "intro-style": [
       {
-        "key": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NNEJZLVdXbVpQUUZiamdYbVBRZ1dLeFN4WV9WQVROY2Jjc3NjOFI4RDVQMkhRTlZ0LWw1Zy13Y3Jld01BaVRqamxBWDNlLWo3QlRIaTd5WDdkeXItWkE?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM29pT0FKQlhBR0tPNHE3YmQ0ak1MMHdRN2dzNXMwVUNJMWJMcUFzTW82aUtUVDN6TXlOQmU1YVlZNHNtRzREVlRHX0sxR3BZUi1YSVZYblRvcWM2TlVmN3NZSk5HSlZSWV94cmV0bE5GRmQ1Vk5NZ0NwUFVBX3dmWmpLUURTU1lPOWJ3UmxVb1RoTmhRVmZ1dmpPUjFyNWpDQUE?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOFZpVjN1dVE2MkV3Y3NXaEhfTzlLVlJ2Szd3dzdlTmlXODVJRUZsblR2SVFQNFhFUmd1eTNFTDQ4LUhMMEdIT3l2TW5Gb1l6blNWQXBGZDBCX3FzUU1LSGQ1RGZFZjVJMzYxU3Bod0lxX1ExUDZKOHMtUkprR3VJV251MlNHMTNOX2pIc3hUZU9Sal9R?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://www.theverge.com/tech/1002107/apple-ceo-john-ternus-product-launch-strategy",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOODZMSWtBVDVkTDJ3Z0t5UHpmSGI2cXBBRVprYmFqTmMzeXBJWWF4bE1JN3Z6S2xnNkJtMnJzUUR2NjM0Y0Noc0VDSE5ieE1RMWFkSzU5WXdUVkdJYkJJV1l6NTFlUlZGNkdiS1NIVzIzaGo3X3RWNU9zLUZtZ0tkUzBiZW11WnZQYktMM18yRHpRc2tFVjR6a0FYcEY3dzItSFVCMQ?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://www.theverge.com/news/1002099/xbox-mythic-achievement-announcement-feature",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVmk2SUNuWUtCdlhrYzdaVVZESjBsMUlKd2J6cHoyMmJaY0luQTh1c19MRzJZMU1TSGpVTzYxRHZscU5TbFRFaVF0WWFNNHhQSkIzV3RUWEt1dUhKTDFBdG9PVy1NU0V0ZjVYVXduNkZuUUJJc21MTzM5OHkwb05BSVp5ZDVVZmMxVGNERzdyeTRUMzk1cC1sNHoxdFBwc2g1azNlM0NKd29OWlU2NkRaazVpbHl5ZnlzZXFydm1Wa2c4UTBFUnZyZVQteFdGbThibXVLdkIxSnhiRXNoOWc?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRW52SnVvUDJIMzZobWpaZGV1ajdjZUxNMTU0WWtaVkM1XzhEMG1LbGJjckIxaS0wOUtpNF9KWmdXZ0ROSmtGN0FxVWtlVDJSUFNtbWJORnpGM3BaOWJyZmxaUHU3MlZaTnYyTTVZazUyNTg2QzMybTF1WTF2dk50TjhKWVRRT3l6YnJzeGpXb1NPVHNWSzVLclJ6WTI2dw?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MVUVlaTV5ZFFBUnVJMFZDWTJIRGg5R20zQXpKU0tENk5PMXR0TEZ0N2VqRXpsOHdrazZKYS1QaUFNZ2tzN0c4Tnk0UjBjRmtFX0RjRw?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeFpRbF9Oclh5QWFrb3FtNHZpOUFSSVRBRFRlVmZIMjNpQzduYlMyR0xMbzNpeHJ2aHFlZGFKbFQzX0Y3OFVCbWtTX2V2R3JyODZyTXM2US1aNnpYaTQ1OHI0ODBzVGRmMUxwbzBfZW5lMXppXzBmMWhlcUdOYzVIdzdNaVV2YTFCRGlYSUFLN1c5cmdITFk3MnFUUTV5T2ZLRzlGdzNIc0h0VzBGTEhr?oc=5",
-        "bucket": "control"
-      },
-      {
         "key": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZVUxTW01MHAtYk5NU3BqRU92OVRBUTAwenV3elJGaEVvSU44V1FpVFE3ZzBNQnp2NWJSQ1ZKTVBleFNGcmJ3MU1mZ2U4N3BNc0E0RkU1elpYSGNxTzZfZHBUUElrWkhCZnFwNElPNEVKN0NyRFBEWEo3dzlFV3pnbGoyTVBJeUM1VjhaTGdWTUZ6Qkt4cXpRQXdn?oc=5",
         "bucket": "control"
       },
@@ -248,54 +204,54 @@
       {
         "key": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
         "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYWtfNktxNlhINDRvdjNUeW9fTG5GazIyQmVfbnFzOWVsa2EwVXBVWTRMS0tYUE1vNjlMd2k5ZHlmVTMzdlFxQ0tuN2lSX0liTU96d1NJcGRNUHctM2tzOTZIdjBpN0w4QWh1OFd0Wjlab0Y4YklTRnB5TG1vOC1VanczbHFUWndfdk5vR1daVUJlQlZ1LUc5alg3WC0wbzZJTnpWUFA0UnE1LUN3VDZpeGZweUdXZVE?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVmszS2FVUEdhSXpxSVpMV0RuekNCbkExbWlUZDU0ckwtaGNfUkw1MjJEX01OTklia3JwamViXzdIRzQzMVMydGhJdnFKMXd0UG90ODM0UEF0WWd1S1pvSnFWLWJnanpDWjB6Z3E2azZpYTI2UlR4YzNaOXp4THI3YXl4bXZadWJGUzgwM25n?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUTJlSnAtVVB5RjROMm9USTN6eERGSWhWM1FXdHJyc19YMS16MzdWdG1YQ1NiTGdvMk95c0JkYVNEaVRrYWRyYWllQl9MMV9YYm9qZTBGZEhxZ1JWdWFJRkZPS3k4YTR6UlBnbFBFaDRJV0FSNDBfYzdVSmVuT2lOYWJ3Y1JrNjJjeU9fMS0tSjRVdw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWnVNNmtpOGR2U0dEUWo4Sy1tWWRaLVpUNUlhZkdNSmFNbnhYYVFfR2pOb2NWR3Z1SVotaWpIaGpOS25hNXRMZEgxRnU2NEwzYllETWpTamFMUDFTYWhJalYyWENLQmlHbmNFUTRSUXNYaDBJcGxpZTNtNi1jeVFHZVA2cmN5MUo3ZlVIUFhINnlHdk1fZzlmT1RHOTh3SWlQczRzZnJNVmdiaWJYby1DSHRCejEwWWFGOEF4YXloeVdndjVlR01MdUhB?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWVE3NUU4cjJyaVNfcGdwNThPd0ZLVktndS1ta2N2VVNQY1ctUGFWNVhpcUxmdElJX0JtajA0VjBPQ3RFTV9icHpkVnBaSkZqOHNjNFdmSUFYVVNrZWRidzB6ekFvUDlhRzZZaDN2UzdYSHFSQm1zVU50MS0xT1N3VFdKMGUtVEZMcHNZdA?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQS0lBdDlWcUllYUNvQW1vSnRKeFV1UEoxdElHMlhFUi1KdXViQ2U4Sno5Y3Z2WU9BZEFzR2QtcFktQnVaeVpGRmNCSk5wMGdsSUlDX0VWd3FjWDEyQXpFbWtnS1g4SUJNQ3RiQlFoNFZCd0Z1YmNRVlJvdXl3Zm4tV2JYN1k1RWRLeVBPTWU4ZWx3NFZ1aWVUMzZhVm55anA4dl9zcWF5UmJzVzA?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNDVzRWtESUZGXzBPN1pkU1dDb1RkYm9OMUZiRUxqODhFY3BNOHFSM01ZUmFNTmVPdWltWWdSZ1RZNXFieEFYcV94VG02STl2MW5Ea0wxSDJKVUk0WUFsdFE1QXVzOVN5RGM0bW1QRVFaVEVNT1o4TERObEhwc21qMUcyX01PVGRhdFFob002dkZyVWc?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSFM5UlBwRFF6Z3hmZUVKcDh2WlBUSzBLQ0trQ3dORENNUFFUTlNyZ2NYODB5eTZ3Q2RTY2V1ekZzVnJlWmFZNWhrWEFqVm9waXlpN0wwZEYySU51SWtFUXFKbl9HMGxxS0hzdkRWYlFvSWNzZnpqd2V6MUVVV2hyYmowQ3NhRE5FRUszRFhuSWMyYkZqazB0T3pEQQ?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZm1YdGNKc1NFNUd3NXhnN3hhd1pLTEdvaFhtUi1TLVpzMmJCWFRFeXJLRC05WURLelhqX3Fmdmp6LVQ4eHRzUEd3Z2JQeHRCTnpYTVpNaGY2aEp2UGlBdFp1WmtlbFlVTzVuNmY2eUgtOWlCMDZ1TGtLSEV2YlE1Yk1VakFRaVlqYmg1TDY3R0F2YzhPUmI4?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRGhCQkl6Q09zbnhrcl8tSWxJY2xETXlfa0JhNVc1VXdXWmc1SUJEMUNNRFZSOURiVXllWW5tMnp5UWJKTlZHRnFDY0lybDVaelRKWjZBTS1oOTRCdDRYakZnZEpVV1BkTzBZWlgtMjhxMlhWb05LeG1mSGdiWHFTV3lsdEc3djhMcHdHajZPMA?oc=5",
+        "bucket": "variant"
       }
     ],
     "cta-placement": [
       {
-        "key": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NNEJZLVdXbVpQUUZiamdYbVBRZ1dLeFN4WV9WQVROY2Jjc3NjOFI4RDVQMkhRTlZ0LWw1Zy13Y3Jld01BaVRqamxBWDNlLWo3QlRIaTd5WDdkeXItWkE?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM29pT0FKQlhBR0tPNHE3YmQ0ak1MMHdRN2dzNXMwVUNJMWJMcUFzTW82aUtUVDN6TXlOQmU1YVlZNHNtRzREVlRHX0sxR3BZUi1YSVZYblRvcWM2TlVmN3NZSk5HSlZSWV94cmV0bE5GRmQ1Vk5NZ0NwUFVBX3dmWmpLUURTU1lPOWJ3UmxVb1RoTmhRVmZ1dmpPUjFyNWpDQUE?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOFZpVjN1dVE2MkV3Y3NXaEhfTzlLVlJ2Szd3dzdlTmlXODVJRUZsblR2SVFQNFhFUmd1eTNFTDQ4LUhMMEdIT3l2TW5Gb1l6blNWQXBGZDBCX3FzUU1LSGQ1RGZFZjVJMzYxU3Bod0lxX1ExUDZKOHMtUkprR3VJV251MlNHMTNOX2pIc3hUZU9Sal9R?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://www.theverge.com/tech/1002107/apple-ceo-john-ternus-product-launch-strategy",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOODZMSWtBVDVkTDJ3Z0t5UHpmSGI2cXBBRVprYmFqTmMzeXBJWWF4bE1JN3Z6S2xnNkJtMnJzUUR2NjM0Y0Noc0VDSE5ieE1RMWFkSzU5WXdUVkdJYkJJV1l6NTFlUlZGNkdiS1NIVzIzaGo3X3RWNU9zLUZtZ0tkUzBiZW11WnZQYktMM18yRHpRc2tFVjR6a0FYcEY3dzItSFVCMQ?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://www.theverge.com/news/1002099/xbox-mythic-achievement-announcement-feature",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVmk2SUNuWUtCdlhrYzdaVVZESjBsMUlKd2J6cHoyMmJaY0luQTh1c19MRzJZMU1TSGpVTzYxRHZscU5TbFRFaVF0WWFNNHhQSkIzV3RUWEt1dUhKTDFBdG9PVy1NU0V0ZjVYVXduNkZuUUJJc21MTzM5OHkwb05BSVp5ZDVVZmMxVGNERzdyeTRUMzk1cC1sNHoxdFBwc2g1azNlM0NKd29OWlU2NkRaazVpbHl5ZnlzZXFydm1Wa2c4UTBFUnZyZVQteFdGbThibXVLdkIxSnhiRXNoOWc?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRW52SnVvUDJIMzZobWpaZGV1ajdjZUxNMTU0WWtaVkM1XzhEMG1LbGJjckIxaS0wOUtpNF9KWmdXZ0ROSmtGN0FxVWtlVDJSUFNtbWJORnpGM3BaOWJyZmxaUHU3MlZaTnYyTTVZazUyNTg2QzMybTF1WTF2dk50TjhKWVRRT3l6YnJzeGpXb1NPVHNWSzVLclJ6WTI2dw?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MVUVlaTV5ZFFBUnVJMFZDWTJIRGg5R20zQXpKU0tENk5PMXR0TEZ0N2VqRXpsOHdrazZKYS1QaUFNZ2tzN0c4Tnk0UjBjRmtFX0RjRw?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeFpRbF9Oclh5QWFrb3FtNHZpOUFSSVRBRFRlVmZIMjNpQzduYlMyR0xMbzNpeHJ2aHFlZGFKbFQzX0Y3OFVCbWtTX2V2R3JyODZyTXM2US1aNnpYaTQ1OHI0ODBzVGRmMUxwbzBfZW5lMXppXzBmMWhlcUdOYzVIdzdNaVV2YTFCRGlYSUFLN1c5cmdITFk3MnFUUTV5T2ZLRzlGdzNIc0h0VzBGTEhr?oc=5",
-        "bucket": "control"
-      },
-      {
         "key": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZVUxTW01MHAtYk5NU3BqRU92OVRBUTAwenV3elJGaEVvSU44V1FpVFE3ZzBNQnp2NWJSQ1ZKTVBleFNGcmJ3MU1mZ2U4N3BNc0E0RkU1elpYSGNxTzZfZHBUUElrWkhCZnFwNElPNEVKN0NyRFBEWEo3dzlFV3pnbGoyTVBJeUM1VjhaTGdWTUZ6Qkt4cXpRQXdn?oc=5",
         "bucket": "control"
       },
@@ -330,6 +286,50 @@
       {
         "key": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
         "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYWtfNktxNlhINDRvdjNUeW9fTG5GazIyQmVfbnFzOWVsa2EwVXBVWTRMS0tYUE1vNjlMd2k5ZHlmVTMzdlFxQ0tuN2lSX0liTU96d1NJcGRNUHctM2tzOTZIdjBpN0w4QWh1OFd0Wjlab0Y4YklTRnB5TG1vOC1VanczbHFUWndfdk5vR1daVUJlQlZ1LUc5alg3WC0wbzZJTnpWUFA0UnE1LUN3VDZpeGZweUdXZVE?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVmszS2FVUEdhSXpxSVpMV0RuekNCbkExbWlUZDU0ckwtaGNfUkw1MjJEX01OTklia3JwamViXzdIRzQzMVMydGhJdnFKMXd0UG90ODM0UEF0WWd1S1pvSnFWLWJnanpDWjB6Z3E2azZpYTI2UlR4YzNaOXp4THI3YXl4bXZadWJGUzgwM25n?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUTJlSnAtVVB5RjROMm9USTN6eERGSWhWM1FXdHJyc19YMS16MzdWdG1YQ1NiTGdvMk95c0JkYVNEaVRrYWRyYWllQl9MMV9YYm9qZTBGZEhxZ1JWdWFJRkZPS3k4YTR6UlBnbFBFaDRJV0FSNDBfYzdVSmVuT2lOYWJ3Y1JrNjJjeU9fMS0tSjRVdw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWnVNNmtpOGR2U0dEUWo4Sy1tWWRaLVpUNUlhZkdNSmFNbnhYYVFfR2pOb2NWR3Z1SVotaWpIaGpOS25hNXRMZEgxRnU2NEwzYllETWpTamFMUDFTYWhJalYyWENLQmlHbmNFUTRSUXNYaDBJcGxpZTNtNi1jeVFHZVA2cmN5MUo3ZlVIUFhINnlHdk1fZzlmT1RHOTh3SWlQczRzZnJNVmdiaWJYby1DSHRCejEwWWFGOEF4YXloeVdndjVlR01MdUhB?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWVE3NUU4cjJyaVNfcGdwNThPd0ZLVktndS1ta2N2VVNQY1ctUGFWNVhpcUxmdElJX0JtajA0VjBPQ3RFTV9icHpkVnBaSkZqOHNjNFdmSUFYVVNrZWRidzB6ekFvUDlhRzZZaDN2UzdYSHFSQm1zVU50MS0xT1N3VFdKMGUtVEZMcHNZdA?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQS0lBdDlWcUllYUNvQW1vSnRKeFV1UEoxdElHMlhFUi1KdXViQ2U4Sno5Y3Z2WU9BZEFzR2QtcFktQnVaeVpGRmNCSk5wMGdsSUlDX0VWd3FjWDEyQXpFbWtnS1g4SUJNQ3RiQlFoNFZCd0Z1YmNRVlJvdXl3Zm4tV2JYN1k1RWRLeVBPTWU4ZWx3NFZ1aWVUMzZhVm55anA4dl9zcWF5UmJzVzA?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNDVzRWtESUZGXzBPN1pkU1dDb1RkYm9OMUZiRUxqODhFY3BNOHFSM01ZUmFNTmVPdWltWWdSZ1RZNXFieEFYcV94VG02STl2MW5Ea0wxSDJKVUk0WUFsdFE1QXVzOVN5RGM0bW1QRVFaVEVNT1o4TERObEhwc21qMUcyX01PVGRhdFFob002dkZyVWc?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSFM5UlBwRFF6Z3hmZUVKcDh2WlBUSzBLQ0trQ3dORENNUFFUTlNyZ2NYODB5eTZ3Q2RTY2V1ekZzVnJlWmFZNWhrWEFqVm9waXlpN0wwZEYySU51SWtFUXFKbl9HMGxxS0hzdkRWYlFvSWNzZnpqd2V6MUVVV2hyYmowQ3NhRE5FRUszRFhuSWMyYkZqazB0T3pEQQ?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZm1YdGNKc1NFNUd3NXhnN3hhd1pLTEdvaFhtUi1TLVpzMmJCWFRFeXJLRC05WURLelhqX3Fmdmp6LVQ4eHRzUEd3Z2JQeHRCTnpYTVpNaGY2aEp2UGlBdFp1WmtlbFlVTzVuNmY2eUgtOWlCMDZ1TGtLSEV2YlE1Yk1VakFRaVlqYmg1TDY3R0F2YzhPUmI4?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRGhCQkl6Q09zbnhrcl8tSWxJY2xETXlfa0JhNVc1VXdXWmc1SUJEMUNNRFZSOURiVXllWW5tMnp5UWJKTlZHRnFDY0lybDVaelRKWjZBTS1oOTRCdDRYakZnZEpVV1BkTzBZWlgtMjhxMlhWb05LeG1mSGdiWHFTV3lsdEc3djhMcHdHajZPMA?oc=5",
+        "bucket": "variant"
       }
     ]
   },
@@ -337,8 +337,8 @@
     {
       "experimentId": "headline-style",
       "sample": {
-        "control": 11,
-        "variant": 9,
+        "control": 10,
+        "variant": 10,
         "total": 20
       },
       "outcomeMetrics": {
@@ -352,8 +352,8 @@
     {
       "experimentId": "intro-style",
       "sample": {
-        "control": 11,
-        "variant": 9,
+        "control": 10,
+        "variant": 10,
         "total": 20
       },
       "outcomeMetrics": {
@@ -367,8 +367,8 @@
     {
       "experimentId": "cta-placement",
       "sample": {
-        "control": 11,
-        "variant": 9,
+        "control": 10,
+        "variant": 10,
         "total": 20
       },
       "outcomeMetrics": {
@@ -381,6 +381,6 @@
     }
   ],
   "history": {
-    "previousUpdatedAt": "2026-09-29T22:34:44.868Z"
+    "previousUpdatedAt": "2026-09-30T05:55:51.468Z"
   }
 }
