@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-30T11:38:18.359Z",
+  "generatedAt": "2026-09-30T17:18:07.472Z",
   "status": "pass",
-  "currentGeneratedArticle": null,
-  "currentScore": null,
+  "currentGeneratedArticle": "president-trump-s-ai-pledge-misspells-united-states",
+  "currentScore": 92,
   "identity": {
     "method": "brief.title",
     "rejectedMarker": false
@@ -523,6 +523,21 @@
         "evidence confidence needs improvement",
         "source strength/diversity needs improvement"
       ]
+    },
+    {
+      "slug": "president-trump-s-ai-pledge-misspells-united-states",
+      "title": "President Trump’s AI pledge misspells United States",
+      "category": "AI",
+      "score": 92,
+      "decision": "publish_candidate",
+      "dimensions": {
+        "evidence": 92,
+        "usefulness": 95,
+        "clarity": 100,
+        "originality": 83,
+        "sourceStrength": 86
+      },
+      "reasons": []
     },
     {
       "slug": "shopify-enables-browser-based-ai-agents-to-complete-checkout",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T11:38:14.112Z",
+  "generatedAt": "2026-09-30T17:18:02.793Z",
   "provider": "Groq",
   "editorial": {
     "passed": true,
@@ -22,8 +22,8 @@
       "noHighSimilaritySource": true
     },
     "metrics": {
-      "normalizedLength": 2346,
-      "sentenceCount": 15,
+      "normalizedLength": 2418,
+      "sentenceCount": 13,
       "maxSourceSimilarity": 0,
       "maxCommonPhrase": 0
     }
@@ -31,13 +31,13 @@
   "semanticDuplicateCheck": "passed",
   "sourceRelationshipCheck": "passed",
   "verifiedEvidenceDomains": [
-    "finance.yahoo.com",
-    "techcrunch.com"
+    "techcrunch.com",
+    "newrepublic.com"
   ],
-  "primarySourceCount": 0,
+  "primarySourceCount": 1,
   "grounding": {
     "sourceCount": 2,
-    "usablePassages": 19,
-    "primarySourceCount": 0
+    "usablePassages": 12,
+    "primarySourceCount": 1
   }
 }

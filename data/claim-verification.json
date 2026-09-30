@@ -1,18 +1,18 @@
 {
   "version": 18,
-  "generatedAt": "2026-09-30T11:38:14.923Z",
-  "articlePath": "content/articles/openai-unveils-dots-a-persistent-ai-assistant-with-a-new-premium-tier.md",
-  "articleTitle": "OpenAI Unveils Dots, a Persistent AI Assistant with a New Premium Tier",
+  "generatedAt": "2026-09-30T17:18:04.540Z",
+  "articlePath": "content/articles/president-trump-s-ai-pledge-misspells-united-states.md",
+  "articleTitle": "President Trump’s AI pledge misspells United States",
   "verificationMode": "authoritative-evidence-pack-v20-fact-map-synthesis",
   "sourceCount": 2,
   "usableSourceCount": 2,
-  "claimCount": 14,
+  "claimCount": 9,
   "editorialCount": 1,
-  "verified": 11,
-  "partial": 3,
+  "verified": 9,
+  "partial": 0,
   "unsupported": 0,
   "sourceUnavailable": 0,
-  "averageConfidence": 74,
+  "averageConfidence": 89,
   "pass": true,
   "policy": {
     "verifiedMin": 62,
@@ -45,83 +45,103 @@
   "sources": [
     {
       "id": "S1",
-      "title": "OpenAI Launches AI Agent 'Dots', While Reportedly Seeking A $30B Funding Bridge At $1.4 Trillion Valuation - Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/openai-launches-ai-agent-dots-202733483.html",
-      "domain": "finance.yahoo.com",
+      "title": "Pledge signed by President Trump and top AI leaders misspells the United States",
+      "url": "https://techcrunch.com/2026/09/30/pledge-signed-by-president-trump-and-top-ai-leaders-misspells-the-united-states/",
+      "domain": "techcrunch.com",
       "passageCount": 6,
-      "articleBodyLength": 995
+      "articleBodyLength": 1037
     },
     {
       "id": "S2",
-      "title": "OpenAI launches Dots, its bubbly agentic avatar",
-      "url": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
-      "domain": "techcrunch.com",
-      "passageCount": 13,
-      "articleBodyLength": 1790
+      "title": "Only Trump Would Spell United States Wrong in an Executive Order - The New Republic",
+      "url": "https://newrepublic.com/post/216015/trump-spells-united-states-wrong-executive-order-ai",
+      "domain": "newrepublic.com",
+      "passageCount": 6,
+      "articleBodyLength": 832
     }
   ],
   "claims": [
     {
       "index": 1,
-      "claim": "OpenAI announced a broad product expansion that includes a new persistent virtual assistant called Dots, an updated AI model, and a $500‑per‑month subscription tier.",
+      "claim": "On Tuesday, President Donald Trump and top AI leaders announced a signed pledge called a “Joint Commitment on Frontier Responsibilities,” a voluntary promise to implement more controls and safety measures as the rapid development of artificial intelligence continues.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 88,
+      "confidence": 100,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI Launches AI Agent 'Dots', While Reportedly Seeking A $30B Funding Bridge At $1.4 Trillion Valuation - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/openai-launches-ai-agent-dots-202733483.html",
-      "bestDomain": "finance.yahoo.com",
+      "bestSource": "Pledge signed by President Trump and top AI leaders misspells the United States",
+      "bestUrl": "https://techcrunch.com/2026/09/30/pledge-signed-by-president-trump-and-top-ai-leaders-misspells-the-united-states/",
+      "bestDomain": "techcrunch.com",
       "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F2",
+        "factId": "F6",
         "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 82
+        "score": 100
       },
       "provenanceFactMatches": [
         {
-          "factId": "F2",
+          "factId": "F6",
           "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 82,
-          "passageIndex": 4
+          "score": 100,
+          "passageIndex": 2
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "OpenAI announced a major expansion of its product line on Tuesday, introducing a digital assistant named Dots, an updated artificial intelligence model, and a premium $500-per-month subscription tier.",
-      "bestPassage": "OpenAI announced a major expansion of its product line on Tuesday, introducing a digital assistant named Dots, an updated artificial intelligence model, and a premium $500-per-month subscription tier.",
+      "bestPassageId": "S1-P6",
+      "evidence": "On Tuesday, President Donald Trump and top AI leaders announced a signed pledge called a “Joint Commitment on Frontier Responsibilities” — a voluntary promise to implement more controls and safety measures as the rapid development of artificial intelligence continues.",
+      "bestPassage": "On Tuesday, President Donald Trump and top AI leaders announced a signed pledge called a “Joint Commitment on Frontier Responsibilities” — a voluntary promise to implement more controls and safety measures as the rapid development of artificial intelligence continues.",
       "matchedPassages": [
-        "S1-BODY",
-        "S1-P2"
+        "S1-P6",
+        "S1-BODY"
       ],
       "sharedTerms": [
-        "openai",
-        "announce",
-        "product",
-        "expansion",
-        "persistent",
-        "virtual",
-        "assistant",
-        "dots",
-        "updat",
-        "models",
+        "tuesday",
+        "president",
+        "donald",
+        "trump",
         "and",
-        "500",
-        "per",
-        "month",
-        "subscription",
-        "tier"
+        "top",
+        "leader",
+        "announce",
+        "sign",
+        "pledge",
+        "call",
+        "joint",
+        "commitment",
+        "frontier",
+        "responsibiliti",
+        "voluntary",
+        "promise",
+        "implement",
+        "control",
+        "safety",
+        "measur",
+        "the",
+        "rapid",
+        "continu"
       ],
       "entityShared": [
-        "openai",
-        "dots"
+        "tuesday",
+        "president",
+        "donald",
+        "trump",
+        "joint",
+        "commitment",
+        "frontier",
+        "responsibiliti"
       ],
       "topicShared": [
-        "openai",
-        "dots"
+        "president",
+        "trump",
+        "and",
+        "top",
+        "leader",
+        "sign",
+        "pledge",
+        "the"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -138,80 +158,161 @@
       },
       "factCoverage": 1,
       "multiFactSupported": false,
-      "directFactExact": true,
-      "directExact": true,
-      "matchingMode": "direct-exact-evidence"
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
     },
     {
       "index": 2,
-      "claim": "Dots can operate computer systems, execute cross‑platform workflows, debug software, perform analytical research, draft documents, and build software, according to the company’s developer conference.",
+      "claim": "The pledge is part of an executive order signed by Trump that replaces the phrase “artificial intelligence” with “super intelligence,” reaffirming what Trump said in his U.N. address.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 89,
+      "confidence": 86,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI Launches AI Agent 'Dots', While Reportedly Seeking A $30B Funding Bridge At $1.4 Trillion Valuation - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/openai-launches-ai-agent-dots-202733483.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
+      "bestSource": "Only Trump Would Spell United States Wrong in an Executive Order - The New Republic",
+      "bestUrl": "https://newrepublic.com/post/216015/trump-spells-united-states-wrong-executive-order-ai",
+      "bestDomain": "newrepublic.com",
+      "sourceId": "S2",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F4",
-        "sourceId": "S1",
+        "factId": "F7",
+        "sourceId": "S2",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 77
+        "score": 86
       },
       "provenanceFactMatches": [
         {
-          "factId": "F4",
-          "sourceId": "S1",
+          "factId": "F7",
+          "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 77,
-          "passageIndex": 9
-        },
-        {
-          "factId": "F3",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 65,
-          "passageIndex": 1
+          "score": 86,
+          "passageIndex": 3
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-FF4,S1-FF3",
-      "evidence": "Dots can operate computer systems, perform analytical research, draft documents, and build software, OpenAI said at its developer conference. OpenAI launched \"Dots,\" a persistent virtual assistant that can operate computers, execute cross-platform workflows, and debug software autonomously.",
-      "bestPassage": "Dots can operate computer systems, perform analytical research, draft documents, and build software, OpenAI said at its developer conference. OpenAI launched \"Dots,\" a persistent virtual assistant that can operate computers, execute cross-platform workflows, and debug software autonomously.",
+      "bestPassageId": "S2-P1",
+      "evidence": "The accord is part of an executive order signed by Trump replacing the use of the phrase “artificial intelligence” with “super intelligence,” reaffirming what Trump said in his U.N.",
+      "bestPassage": "The accord is part of an executive order signed by Trump replacing the use of the phrase “artificial intelligence” with “super intelligence,” reaffirming what Trump said in his U.N.",
       "matchedPassages": [
-        "S1-BODY",
-        "S1-P4"
+        "S2-P1",
+        "S2-BODY"
       ],
       "sharedTerms": [
-        "dots",
-        "can",
-        "operate",
-        "computer",
-        "system",
-        "execute",
-        "cros",
-        "platform",
-        "workflow",
-        "debug",
-        "software",
-        "perform",
-        "analytical",
-        "research",
-        "draft",
-        "document",
-        "and",
-        "build",
-        "developer",
-        "conference"
+        "the",
+        "part",
+        "executive",
+        "order",
+        "sign",
+        "trump",
+        "replac",
+        "phrase",
+        "super",
+        "reaffirm",
+        "his"
       ],
       "entityShared": [
-        "dots"
+        "trump"
       ],
       "topicShared": [
-        "dots"
+        "the",
+        "pledge",
+        "sign",
+        "trump"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": true,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 3,
+      "claim": "Under the president’s signature, the text reads “President of the Unites States,” a misspelling that appears right beneath the president’s signature, while other signatories and their companies are spelled correctly.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 99,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Pledge signed by President Trump and top AI leaders misspells the United States",
+      "bestUrl": "https://techcrunch.com/2026/09/30/pledge-signed-by-president-trump-and-top-ai-leaders-misspells-the-united-states/",
+      "bestDomain": "techcrunch.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F2",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 76
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F2",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 76,
+          "passageIndex": 3
+        },
+        {
+          "factId": "F11",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 65,
+          "passageIndex": 2
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-FF2,S2-FF11",
+      "evidence": "The spelling error appears right beneath the president’s signature, though the other signatories and their companies are spelled correctly. But under the president’s signature, the text reads “President of the Unites States.”",
+      "bestPassage": "The spelling error appears right beneath the president’s signature, though the other signatories and their companies are spelled correctly. But under the president’s signature, the text reads “President of the Unites States.”",
+      "matchedPassages": [
+        "S1-BODY",
+        "S1-P2"
+      ],
+      "sharedTerms": [
+        "the",
+        "president",
+        "signature",
+        "text",
+        "read",
+        "unit",
+        "stat",
+        "appear",
+        "right",
+        "beneath",
+        "other",
+        "signatori",
+        "and",
+        "compani",
+        "are",
+        "spell",
+        "correctly"
+      ],
+      "entityShared": [
+        "president",
+        "unit",
+        "stat"
+      ],
+      "topicShared": [
+        "the",
+        "president",
+        "unit",
+        "stat",
+        "misspell",
+        "and"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -220,8 +321,8 @@
       "attributionUncertainty": {
         "evidenceUncertain": true,
         "claimUncertain": true,
-        "evidenceAttributed": true,
-        "claimAttributed": true,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
         "certaintyEscalation": false,
         "attributionDropped": false,
         "blocked": false
@@ -233,58 +334,73 @@
       "matchingMode": "fact-map-multi-fact-anchored"
     },
     {
-      "index": 3,
-      "claim": "The assistant is designed to run independently of any specific hardware or interface, pursuing user‑defined goals continuously in the background with minimal oversight.",
+      "index": 4,
+      "claim": "The misspelling of “United States” in a formal government document draws ridicule and raises questions about the document’s drafting process.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 78,
+      "confidence": 57,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI launches Dots, its bubbly agentic avatar",
-      "bestUrl": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+      "bestSource": "Pledge signed by President Trump and top AI leaders misspells the United States",
+      "bestUrl": "https://techcrunch.com/2026/09/30/pledge-signed-by-president-trump-and-top-ai-leaders-misspells-the-united-states/",
       "bestDomain": "techcrunch.com",
-      "sourceId": "S2",
+      "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F18",
-        "sourceId": "S2",
+        "factId": "F1",
+        "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 78
+        "score": 40
       },
       "provenanceFactMatches": [
         {
-          "factId": "F18",
+          "factId": "F1",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 40,
+          "passageIndex": 3
+        },
+        {
+          "factId": "F9",
           "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 78,
-          "passageIndex": 2
+          "score": 35,
+          "passageIndex": 1
+        },
+        {
+          "factId": "F10",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 35,
+          "passageIndex": 5
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S2-P12",
-      "evidence": "Unlike Codex or ChatGPT, Dots are meant to operate independent of any specific hardware or interface, pursuing user-defined goals continuously in the background with minimal oversight.",
-      "bestPassage": "Unlike Codex or ChatGPT, Dots are meant to operate independent of any specific hardware or interface, pursuing user-defined goals continuously in the background with minimal oversight.",
+      "bestPassageId": "S1-FF1,S2-FF9,S2-FF10",
+      "evidence": "But there seems to be a catch — namely that the “United States” was misspelled as “Unites States” in a photo of the signed agreement the president shared to Truth Social. President Trump’s accord on “super intelligence” signed with tech leaders in the White House Tuesday contains a glaring error—“United States” is misspelled. Misspelling “United States” only increases that ridicule.",
+      "bestPassage": "But there seems to be a catch — namely that the “United States” was misspelled as “Unites States” in a photo of the signed agreement the president shared to Truth Social. President Trump’s accord on “super intelligence” signed with tech leaders in the White House Tuesday contains a glaring error—“United States” is misspelled. Misspelling “United States” only increases that ridicule.",
       "matchedPassages": [
-        "S2-P12",
-        "S2-BODY"
+        "S1-BODY",
+        "S1-P1"
       ],
       "sharedTerms": [
         "the",
-        "any",
-        "specific",
-        "hardware",
-        "interface",
-        "pursu",
-        "user",
-        "defin",
-        "goal",
-        "continuously",
-        "background",
-        "minimal",
-        "oversight"
+        "misspell",
+        "unit",
+        "stat",
+        "ridicule"
       ],
-      "entityShared": [],
-      "topicShared": [],
+      "entityShared": [
+        "unit",
+        "stat"
+      ],
+      "topicShared": [
+        "the",
+        "misspell",
+        "unit",
+        "stat",
+        "and"
+      ],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
@@ -298,150 +414,85 @@
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 1,
-      "multiFactSupported": false,
+      "factCoverage": 3,
+      "multiFactSupported": true,
       "directFactExact": false,
       "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
+      "matchingMode": "fact-map-multi-fact-anchored"
     },
     {
-      "index": 4,
-      "claim": "Users can start a primary Dot, give it a name, and add additional Dots that specialize in particular tasks.",
+      "index": 5,
+      "claim": "The error is noted by Gizmodo reporter Matt Novak, who was one of the first to point out the snafu, and the White House has been contacted for comment.The misspelling of “United States” in the document has been reported to increase ridicule of the accord.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 79,
+      "confidence": 86,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI launches Dots, its bubbly agentic avatar",
-      "bestUrl": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+      "bestSource": "Pledge signed by President Trump and top AI leaders misspells the United States",
+      "bestUrl": "https://techcrunch.com/2026/09/30/pledge-signed-by-president-trump-and-top-ai-leaders-misspells-the-united-states/",
       "bestDomain": "techcrunch.com",
-      "sourceId": "S2",
+      "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F7",
-        "sourceId": "S2",
+        "factId": "F3",
+        "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 72
+        "score": 79
       },
       "provenanceFactMatches": [
         {
-          "factId": "F7",
-          "sourceId": "S2",
+          "factId": "F3",
+          "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 72,
+          "score": 79,
           "passageIndex": 3
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "&#8220;Today, you can start with your primary dot, give it a name, and make it your own,&#8221; OpenAI said in its announcement post. &#8220;Over time, we envision teams of Dots working together on your behalf.&#8221;",
-      "bestPassage": "&#8220;Today, you can start with your primary dot, give it a name, and make it your own,&#8221; OpenAI said in its announcement post. &#8220;Over time, we envision teams of Dots working together on your behalf.&#8221;",
+      "bestPassageId": "S1-BODY",
+      "evidence": "Gizmodo reporter Matt Novak was one of the first to point out the snafu, and we’ve reached out to the White House for comment.",
+      "bestPassage": "Gizmodo reporter Matt Novak was one of the first to point out the snafu, and we’ve reached out to the White House for comment.",
       "matchedPassages": [
-        "S2-BODY",
-        "S2-P1"
+        "S1-BODY",
+        "S1-P3"
       ],
       "sharedTerms": [
-        "user",
-        "can",
-        "start",
-        "primary",
-        "dot",
-        "give",
-        "name",
+        "the",
+        "error",
+        "gizmodo",
+        "reporter",
+        "matt",
+        "novak",
+        "was",
+        "one",
+        "first",
+        "point",
+        "out",
+        "snafu",
         "and",
-        "dots"
-      ],
-      "entityShared": [
-        "user",
-        "dots"
-      ],
-      "topicShared": [
-        "dots"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": true,
-        "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 5,
-      "claim": "Integration is already underway with Microsoft’s Agent 365 security controls, and Dots will be available through ChatGPT for Pro and Business Premium users in eligible markets.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 96,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "OpenAI launches Dots, its bubbly agentic avatar",
-      "bestUrl": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
-      "bestDomain": "techcrunch.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F17",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 82
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F17",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 82,
-          "passageIndex": 4
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "Dots will be available starting Tuesday in ChatGPT, for Pro and Business Premium users in eligible markets.",
-      "bestPassage": "Dots will be available starting Tuesday in ChatGPT, for Pro and Business Premium users in eligible markets.",
-      "matchedPassages": [
-        "S2-BODY",
-        "S2-P11"
-      ],
-      "sharedTerms": [
-        "microsoft",
-        "agent",
-        "365",
-        "security",
-        "control",
-        "and",
-        "dots",
-        "available",
-        "chatgpt",
+        "white",
+        "house",
         "for",
-        "pro",
-        "busines",
-        "premium",
-        "user",
-        "eligible",
-        "market"
+        "comment",
+        "misspell",
+        "unit",
+        "stat"
       ],
       "entityShared": [
-        "microsoft",
-        "agent",
-        "dots",
-        "chatgpt",
-        "pro",
-        "busines",
-        "premium"
+        "gizmodo",
+        "matt",
+        "novak",
+        "white",
+        "house",
+        "unit",
+        "stat"
       ],
       "topicShared": [
-        "dots"
+        "the",
+        "and",
+        "misspell",
+        "unit",
+        "stat"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -451,7 +502,7 @@
         "evidenceUncertain": false,
         "claimUncertain": false,
         "evidenceAttributed": false,
-        "claimAttributed": false,
+        "claimAttributed": true,
         "certaintyEscalation": false,
         "attributionDropped": false,
         "blocked": false
@@ -464,55 +515,74 @@
     },
     {
       "index": 6,
-      "claim": "In addition to the agent, OpenAI restructured its subscription plans.",
+      "claim": "The accord followed calls by OpenAI’s Sam Altman, Amodei, and Elon Musk for a deceleration of AI advancements, which President Trump and Huang rejected.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 72,
+      "confidence": 96,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI Launches AI Agent 'Dots', While Reportedly Seeking A $30B Funding Bridge At $1.4 Trillion Valuation - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/openai-launches-ai-agent-dots-202733483.html",
-      "bestDomain": "finance.yahoo.com",
+      "bestSource": "Pledge signed by President Trump and top AI leaders misspells the United States",
+      "bestUrl": "https://techcrunch.com/2026/09/30/pledge-signed-by-president-trump-and-top-ai-leaders-misspells-the-united-states/",
+      "bestDomain": "techcrunch.com",
       "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F5",
+        "factId": "F4",
         "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 69
+        "score": 96
       },
       "provenanceFactMatches": [
         {
-          "factId": "F5",
+          "factId": "F4",
           "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 69,
-          "passageIndex": 11
+          "score": 96,
+          "passageIndex": 4
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-P5",
-      "evidence": "Alongside the autonomous agent, OpenAI introduced a $500 monthly subscription tier with faster processing and expanded usage limits, while restructuring its standard $200 plan.",
-      "bestPassage": "Alongside the autonomous agent, OpenAI introduced a $500 monthly subscription tier with faster processing and expanded usage limits, while restructuring its standard $200 plan.",
+      "bestPassageId": "S1-P4",
+      "evidence": "The gathering came just weeks after OpenAI’s Sam Altman, Amodei, and even Elon Musk called for a deceleration of AI advancements, calls that President Trump and Huang rejected.",
+      "bestPassage": "The gathering came just weeks after OpenAI’s Sam Altman, Amodei, and even Elon Musk called for a deceleration of AI advancements, calls that President Trump and Huang rejected.",
       "matchedPassages": [
-        "S1-P5",
+        "S1-P4",
         "S1-BODY"
       ],
       "sharedTerms": [
         "the",
-        "agent",
+        "call",
         "openai",
-        "restructur",
-        "its",
-        "subscription",
-        "plan"
+        "sam",
+        "altman",
+        "amodei",
+        "and",
+        "elon",
+        "musk",
+        "for",
+        "deceleration",
+        "advancement",
+        "president",
+        "trump",
+        "huang",
+        "reject"
       ],
       "entityShared": [
-        "openai"
+        "openai",
+        "sam",
+        "altman",
+        "amodei",
+        "elon",
+        "musk",
+        "president",
+        "trump",
+        "huang"
       ],
       "topicShared": [
-        "openai",
-        "its"
+        "the",
+        "and",
+        "president",
+        "trump"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -535,124 +605,64 @@
     },
     {
       "index": 7,
-      "claim": "The new $500 tier offers faster processing and expanded usage limits, while the standard plan was adjusted from $200.",
+      "claim": "Trump has previously stated that the United States is “the most sophisticated country in the world” and that whoever wins AI wins.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 77,
+      "confidence": 98,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI Launches AI Agent 'Dots', While Reportedly Seeking A $30B Funding Bridge At $1.4 Trillion Valuation - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/openai-launches-ai-agent-dots-202733483.html",
-      "bestDomain": "finance.yahoo.com",
+      "bestSource": "Pledge signed by President Trump and top AI leaders misspells the United States",
+      "bestUrl": "https://techcrunch.com/2026/09/30/pledge-signed-by-president-trump-and-top-ai-leaders-misspells-the-united-states/",
+      "bestDomain": "techcrunch.com",
       "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
         "factId": "F5",
         "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 77
+        "score": 73
       },
       "provenanceFactMatches": [
         {
           "factId": "F5",
           "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 77,
-          "passageIndex": 11
+          "score": 73,
+          "passageIndex": 4
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-FF5",
-      "evidence": "Alongside the autonomous agent, OpenAI introduced a $500 monthly subscription tier with faster processing and expanded usage limits, while restructuring its standard $200 plan.",
-      "bestPassage": "Alongside the autonomous agent, OpenAI introduced a $500 monthly subscription tier with faster processing and expanded usage limits, while restructuring its standard $200 plan.",
+      "bestPassageId": "S1-BODY",
+      "evidence": "“We’re the most sophisticated country in the world, and frankly I want to keep it that way because whoever wins AI, wins,” the president previously said.",
+      "bestPassage": "“We’re the most sophisticated country in the world, and frankly I want to keep it that way because whoever wins AI, wins,” the president previously said.",
       "matchedPassages": [
-        "S1-BODY",
-        "S1-P5"
+        "S1-BODY"
       ],
       "sharedTerms": [
+        "trump",
+        "previously",
+        "stat",
         "the",
-        "500",
-        "tier",
-        "faster",
-        "process",
+        "unit",
+        "sophisticat",
+        "country",
+        "world",
         "and",
-        "expand",
-        "usage",
-        "limit",
-        "standard",
-        "plan",
-        "200"
+        "whoever",
+        "wins"
       ],
-      "entityShared": [],
-      "topicShared": [],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": true,
-      "directExact": true,
-      "matchingMode": "direct-exact-evidence"
-    },
-    {
-      "index": 8,
-      "claim": "These changes come as the company seeks a $30 billion bridge round that targets a $1.4 trillion pre‑money valuation.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 77,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "OpenAI Launches AI Agent 'Dots', While Reportedly Seeking A $30B Funding Bridge At $1.4 Trillion Valuation - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/openai-launches-ai-agent-dots-202733483.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F1",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 77
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F1",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 77,
-          "passageIndex": 2
-        }
+      "entityShared": [
+        "trump",
+        "unit",
+        "stat"
       ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-FF1",
-      "evidence": "OpenAI is seeking a $30 billion bridge round targeting a $1.4 trillion pre-money valuation, Bloomberg reported.",
-      "bestPassage": "OpenAI is seeking a $30 billion bridge round targeting a $1.4 trillion pre-money valuation, Bloomberg reported.",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P1"
+      "topicShared": [
+        "trump",
+        "stat",
+        "the",
+        "unit",
+        "and"
       ],
-      "sharedTerms": [
-        "seek",
-        "billion",
-        "bridge",
-        "round",
-        "target",
-        "trillion",
-        "pre",
-        "money",
-        "valuation"
-      ],
-      "entityShared": [],
-      "topicShared": [],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
@@ -668,151 +678,90 @@
       },
       "factCoverage": 1,
       "multiFactSupported": false,
-      "directFactExact": true,
-      "directExact": true,
-      "matchingMode": "direct-exact-evidence"
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
     },
     {
-      "index": 9,
-      "claim": "The funding effort follows OpenAI’s decision to delay its anticipated IPO beyond 2026 to focus on AI safety standards and regulatory navigation.",
+      "index": 8,
+      "claim": "The executive order also intersects with other legal actions, such as CAIR’s Florida chapter suing DeSantis over an order that stripped the group’s access to state resources, and Defense Secretary Pete Hegseth’s efforts to clear the deck of battle‑tested leaders as he prepares to continue a war effort.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 89,
+      "confidence": 87,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI Launches AI Agent 'Dots', While Reportedly Seeking A $30B Funding Bridge At $1.4 Trillion Valuation - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/openai-launches-ai-agent-dots-202733483.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
+      "bestSource": "Only Trump Would Spell United States Wrong in an Executive Order - The New Republic",
+      "bestUrl": "https://newrepublic.com/post/216015/trump-spells-united-states-wrong-executive-order-ai",
+      "bestDomain": "newrepublic.com",
+      "sourceId": "S2",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F6",
-        "sourceId": "S1",
+        "factId": "F12",
+        "sourceId": "S2",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 89
+        "score": 70
       },
       "provenanceFactMatches": [
         {
-          "factId": "F6",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 89,
-          "passageIndex": 7
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-FF6",
-      "evidence": "The product launches and financing efforts follow OpenAI's decision to delay its anticipated initial public offering (IPO) beyond 2026 to prioritize AI safety standards and navigate heightened regulatory concerns.",
-      "bestPassage": "The product launches and financing efforts follow OpenAI's decision to delay its anticipated initial public offering (IPO) beyond 2026 to prioritize AI safety standards and navigate heightened regulatory concerns.",
-      "matchedPassages": [
-        "S1-P6",
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "the",
-        "effort",
-        "follow",
-        "openai",
-        "decision",
-        "delay",
-        "its",
-        "anticipat",
-        "ipo",
-        "beyond",
-        "2026",
-        "safety",
-        "standard",
-        "and",
-        "regulatory"
-      ],
-      "entityShared": [
-        "openai",
-        "ipo"
-      ],
-      "topicShared": [
-        "openai",
-        "its"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": true,
-      "directExact": true,
-      "matchingMode": "direct-exact-evidence"
-    },
-    {
-      "index": 10,
-      "claim": "The launch of Dots marks a pivot toward autonomous, always‑on agents that can operate across platforms and handle complex, ongoing tasks.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 66,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "OpenAI Launches AI Agent 'Dots', While Reportedly Seeking A $30B Funding Bridge At $1.4 Trillion Valuation - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/openai-launches-ai-agent-dots-202733483.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F3",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 44
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F3",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 44,
-          "passageIndex": 1
-        },
-        {
-          "factId": "F11",
+          "factId": "F12",
           "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 41,
-          "passageIndex": 1
+          "score": 70,
+          "passageIndex": 30
+        },
+        {
+          "factId": "F8",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 68,
+          "passageIndex": 20
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-FF3,S2-FF11",
-      "evidence": "OpenAI launched \"Dots,\" a persistent virtual assistant that can operate computers, execute cross-platform workflows, and debug software autonomously. The company describes Dots as &#8220;remarkably capable, always-on agents built to handle everything.&#8221;",
-      "bestPassage": "OpenAI launched \"Dots,\" a persistent virtual assistant that can operate computers, execute cross-platform workflows, and debug software autonomously. The company describes Dots as &#8220;remarkably capable, always-on agents built to handle everything.&#8221;",
+      "bestPassageId": "S2-FF12,S2-FF8",
+      "evidence": "Defense Secretary Pete Hegseth is doing everything he can to clear the deck of battle-tested leaders as he prepares to drag President Donald Trump’s supposedly “six-week war” into its eighth month. At the time, CAIR’s Florida chapter sued DeSantis, claiming that the order, which stripped the group’s access to state resources, was unconstitutional.",
+      "bestPassage": "Defense Secretary Pete Hegseth is doing everything he can to clear the deck of battle-tested leaders as he prepares to drag President Donald Trump’s supposedly “six-week war” into its eighth month. At the time, CAIR’s Florida chapter sued DeSantis, claiming that the order, which stripped the group’s access to state resources, was unconstitutional.",
       "matchedPassages": [
-        "S1-BODY",
-        "S1-P3"
+        "S2-BODY",
+        "S2-P6"
       ],
       "sharedTerms": [
         "the",
-        "launch",
-        "dots",
-        "alway",
-        "agent",
-        "can",
-        "operate",
-        "platform",
-        "and",
-        "handle"
+        "order",
+        "cair",
+        "florida",
+        "chapter",
+        "desanti",
+        "stripp",
+        "group",
+        "acces",
+        "state",
+        "resourc",
+        "defense",
+        "secretary",
+        "pete",
+        "hegseth",
+        "clear",
+        "deck",
+        "battle",
+        "test",
+        "leader",
+        "prepar",
+        "war"
       ],
       "entityShared": [
-        "dots"
+        "cair",
+        "florida",
+        "desanti",
+        "defense",
+        "secretary",
+        "pete",
+        "hegseth"
       ],
       "topicShared": [
-        "launch",
-        "dots"
+        "the",
+        "and",
+        "leader"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -820,7 +769,7 @@
       "scopeWarnings": [],
       "attributionUncertainty": {
         "evidenceUncertain": true,
-        "claimUncertain": true,
+        "claimUncertain": false,
         "evidenceAttributed": false,
         "claimAttributed": false,
         "certaintyEscalation": false,
@@ -834,279 +783,77 @@
       "matchingMode": "fact-map-multi-fact-anchored"
     },
     {
-      "index": 11,
-      "claim": "By bundling capabilities previously available through tools like Codex, OpenAI aims to streamline agentic workflows for developers and enterprises.",
-      "status": "partial",
-      "classification": "supported_with_context",
-      "confidence": 59,
+      "index": 10,
+      "claim": "The misspelling of “United States” was noted in the signed agreement.The pledge is a voluntary promise to implement more controls and safety measures as AI development continues.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 95,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "OpenAI launches Dots, its bubbly agentic avatar",
-      "bestUrl": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+      "bestSource": "Pledge signed by President Trump and top AI leaders misspells the United States",
+      "bestUrl": "https://techcrunch.com/2026/09/30/pledge-signed-by-president-trump-and-top-ai-leaders-misspells-the-united-states/",
       "bestDomain": "techcrunch.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F16",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 27
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F16",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 27,
-          "passageIndex": 8
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "Much of this functionality was already possible through Codex and similar agentic harnesses — but Dots bundles together those features in a new package with a focus on independent agentic actions.",
-      "bestPassage": "Much of this functionality was already possible through Codex and similar agentic harnesses — but Dots bundles together those features in a new package with a focus on independent agentic actions.",
-      "matchedPassages": [
-        "S2-BODY"
-      ],
-      "sharedTerms": [
-        "bundl",
-        "available",
-        "tool",
-        "codex",
-        "openai",
-        "agentic",
-        "for",
-        "developer",
-        "and"
-      ],
-      "entityShared": [
-        "codex",
-        "openai"
-      ],
-      "topicShared": [
-        "openai",
-        "agentic"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 3,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 13,
-      "claim": "Future updates may expand Dot interactivity to Slack, Teams, and text messaging, as well as broader market availability.",
-      "status": "partial",
-      "classification": "supported_with_context",
-      "confidence": 56,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "OpenAI launches Dots, its bubbly agentic avatar",
-      "bestUrl": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
-      "bestDomain": "techcrunch.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F19",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 37
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F19",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 37,
-          "passageIndex": 6
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "Users can message Dots through Slack, Teams, and other organizational platforms, with text message support coming soon.",
-      "bestPassage": "Users can message Dots through Slack, Teams, and other organizational platforms, with text message support coming soon.",
-      "matchedPassages": [
-        "S2-BODY",
-        "S2-P13"
-      ],
-      "sharedTerms": [
-        "dot",
-        "slack",
-        "team",
-        "and",
-        "text",
-        "market"
-      ],
-      "entityShared": [
-        "slack",
-        "team"
-      ],
-      "topicShared": [],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": true,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 14,
-      "claim": "The current state reflects OpenAI’s commitment to expanding its product ecosystem while maintaining a cautious approach to regulatory compliance and long‑term growth.",
-      "status": "partial",
-      "classification": "uncertain",
-      "confidence": 48,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "OpenAI Launches AI Agent 'Dots', While Reportedly Seeking A $30B Funding Bridge At $1.4 Trillion Valuation - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/openai-launches-ai-agent-dots-202733483.html",
-      "bestDomain": "finance.yahoo.com",
       "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
         "factId": "F6",
         "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 40
+        "score": 72
       },
       "provenanceFactMatches": [
         {
           "factId": "F6",
           "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 40,
-          "passageIndex": 7
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "The product launches and financing efforts follow OpenAI's decision to delay its anticipated initial public offering (IPO) beyond 2026 to prioritize AI safety standards and navigate heightened regulatory concerns.",
-      "bestPassage": "The product launches and financing efforts follow OpenAI's decision to delay its anticipated initial public offering (IPO) beyond 2026 to prioritize AI safety standards and navigate heightened regulatory concerns.",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P6",
-        "S1-P5"
-      ],
-      "sharedTerms": [
-        "the",
-        "openai",
-        "expand",
-        "its",
-        "product",
-        "regulatory",
-        "and"
-      ],
-      "entityShared": [
-        "openai"
-      ],
-      "topicShared": [
-        "openai",
-        "its"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 2,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 15,
-      "claim": "What the evidence shows is that OpenAI is simultaneously scaling its product line, pricing, and financing strategy, positioning Dots as a central component of its future AI services.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 63,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "OpenAI Launches AI Agent 'Dots', While Reportedly Seeking A $30B Funding Bridge At $1.4 Trillion Valuation - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/openai-launches-ai-agent-dots-202733483.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F2",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 49
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F2",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 49,
-          "passageIndex": 4
+          "score": 72,
+          "passageIndex": 2
         },
         {
-          "factId": "F6",
+          "factId": "F1",
           "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 40,
-          "passageIndex": 7
+          "score": 60,
+          "passageIndex": 3
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-FF2,S1-FF6",
-      "evidence": "OpenAI announced a major expansion of its product line on Tuesday, introducing a digital assistant named Dots, an updated artificial intelligence model, and a premium $500-per-month subscription tier. The product launches and financing efforts follow OpenAI's decision to delay its anticipated initial public offering (IPO) beyond 2026 to prioritize AI safety standards and navigate heightened regulatory concerns.",
-      "bestPassage": "OpenAI announced a major expansion of its product line on Tuesday, introducing a digital assistant named Dots, an updated artificial intelligence model, and a premium $500-per-month subscription tier. The product launches and financing efforts follow OpenAI's decision to delay its anticipated initial public offering (IPO) beyond 2026 to prioritize AI safety standards and navigate heightened regulatory concerns.",
+      "bestPassageId": "S1-FF6,S1-FF1",
+      "evidence": "On Tuesday, President Donald Trump and top AI leaders announced a signed pledge called a “Joint Commitment on Frontier Responsibilities” — a voluntary promise to implement more controls and safety measures as the rapid development of artificial intelligence continues. But there seems to be a catch — namely that the “United States” was misspelled as “Unites States” in a photo of the signed agreement the president shared to Truth Social.",
+      "bestPassage": "On Tuesday, President Donald Trump and top AI leaders announced a signed pledge called a “Joint Commitment on Frontier Responsibilities” — a voluntary promise to implement more controls and safety measures as the rapid development of artificial intelligence continues. But there seems to be a catch — namely that the “United States” was misspelled as “Unites States” in a photo of the signed agreement the president shared to Truth Social.",
       "matchedPassages": [
-        "S1-BODY",
-        "S1-P2"
+        "S1-BODY"
       ],
       "sharedTerms": [
         "the",
-        "openai",
-        "its",
-        "product",
-        "line",
+        "misspell",
+        "unit",
+        "stat",
+        "was",
+        "sign",
+        "agreement",
+        "pledge",
+        "voluntary",
+        "promise",
+        "implement",
+        "control",
         "and",
-        "financ",
-        "dots"
+        "safety",
+        "measur",
+        "continu"
       ],
       "entityShared": [
-        "openai",
-        "dots"
+        "unit",
+        "stat"
       ],
       "topicShared": [
-        "openai",
-        "its",
-        "dots"
+        "the",
+        "misspell",
+        "unit",
+        "stat",
+        "sign",
+        "pledge",
+        "and"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -1116,7 +863,7 @@
         "evidenceUncertain": false,
         "claimUncertain": false,
         "evidenceAttributed": true,
-        "claimAttributed": false,
+        "claimAttributed": true,
         "certaintyEscalation": false,
         "attributionDropped": false,
         "blocked": false
@@ -1130,9 +877,9 @@
   ],
   "editorial": [
     {
-      "index": 12,
-      "claim": "The introduction of a higher‑priced tier suggests the company is targeting power users and organizations that require intensive usage, while the continued development of a bridge round indicates a strategic emphasis on capital and safety over immediate public market entry.",
-      "type": "editorial-analysis",
+      "index": 9,
+      "claim": "Observers should note how the misspelling may influence the perception of the pledge’s seriousness and whether future AI governance documents will undergo stricter proofreading.The debate over AI regulation includes calls to decelerate AI advancements, which President Trump and Huang rejected.",
+      "type": "editorial-recommendation",
       "status": "editorial-excluded"
     }
   ]

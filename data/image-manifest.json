@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "generatedAt": "2026-09-30T11:38:24.968Z",
+  "generatedAt": "2026-09-30T17:18:17.254Z",
   "model": "@cf/black-forest-labs/flux-1-schnell",
   "width": 1024,
   "height": 576,
@@ -9,37 +9,37 @@
   "skipped": 0,
   "failed": 0,
   "images": {
-    "openai-unveils-dots-a-persistent-ai-assistant-with-a-new-premium-tier": {
+    "president-trump-s-ai-pledge-misspells-united-states": {
       "status": "generated",
-      "image": "/Trendforge/images/articles/openai-unveils-dots-a-persistent-ai-assistant-with-a-new-premium-tier.1024x576.png",
+      "image": "/Trendforge/images/articles/president-trump-s-ai-pledge-misspells-united-states.1024x576.png",
       "generatedBy": "@cf/black-forest-labs/flux-1-schnell",
       "width": 1024,
       "height": 576,
       "steps": 4,
-      "elapsedMs": 2899,
-      "bytes": 565595,
+      "elapsedMs": 1896,
+      "bytes": 629001,
       "visualBrief": {
         "version": 2,
-        "mode": "investment-infrastructure",
-        "primarySubject": "OpenAI regional digital infrastructure investment, represented through concrete cloud, connectivity, and AI infrastructure",
-        "scene": "A realistic commissioned editorial photograph of concrete regional digital infrastructure such as a modern data-center environment, high-capacity network equipment, or secure cloud infrastructure, visually tied to the investment story rather than generic finance imagery.",
+        "mode": "documentary-person",
+        "primarySubject": "President Trump, the central person named by the story",
+        "scene": "A restrained documentary technology-publication photograph of the central person publicly speaking, being interviewed, or addressing an industry audience in a context that directly matches the article.",
         "supportingElements": [
-          "subtle regional geographic context without maps or invented labels",
-          "one restrained human scale element only when useful"
+          "softly blurred audience or event environment",
+          "minimal event context"
         ],
-        "composition": "Documentary wide frame with one dominant infrastructure subject, realistic materials, restrained depth of field, and clear visual hierarchy.",
-        "company": "OpenAI",
-        "namedPerson": null,
+        "composition": "Medium or medium-wide horizontal frame; subject slightly off-center; back, side, over-the-shoulder, cropped, silhouette, or natural-distance framing so the face is not clearly identifiable.",
+        "company": null,
+        "namedPerson": "President Trump",
         "category": "AI",
         "storyAnchors": [
-          "openai",
-          "unveils",
-          "dots",
-          "persistent",
-          "assistant",
-          "premium",
-          "tier",
-          "introduced"
+          "president",
+          "trump",
+          "pledge",
+          "misspells",
+          "united",
+          "states",
+          "recently",
+          "signed"
         ],
         "avoid": [
           "generic office imagery",
@@ -47,31 +47,31 @@
           "generic futuristic technology",
           "glowing holograms, floating code, HUDs and neon sci-fi effects",
           "prominent readable text or fake headlines",
-          "generic stock-market trading screens",
-          "coins, cash piles, oversized dollar symbols",
-          "generic office handshake",
-          "abstract financial graphs as the main subject"
+          "generic product hero replacing the person",
+          "invented facial likeness",
+          "random consumer electronics as the main subject"
         ]
       },
       "relevance": {
-        "passed": false,
+        "passed": true,
         "anchors": [
-          "openai",
-          "unveils",
-          "dots",
-          "persistent",
-          "assistant",
-          "premium",
-          "tier",
-          "introduced"
+          "president",
+          "trump",
+          "pledge",
+          "misspells",
+          "united",
+          "states",
+          "recently",
+          "signed"
         ],
         "matchedAnchors": [
-          "openai"
+          "president",
+          "trump"
         ],
         "entityMatches": [
-          "openai"
+          "president trump"
         ],
-        "score": 0.125
+        "score": 0.25
       },
       "promptLength": 1900
     }

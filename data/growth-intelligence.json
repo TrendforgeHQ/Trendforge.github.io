@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-30T11:38:26.002Z",
+  "generatedAt": "2026-09-30T17:18:18.150Z",
   "policy": {
     "privacyFirst": true,
     "noPersonalTracking": true,
     "noPaidTrafficRequired": true
   },
   "summary": {
-    "totalArticles": 33,
+    "totalArticles": 34,
     "averageEditorialScore": 76,
     "editorialReviewCount": 23,
     "refreshCandidates": 6
@@ -15,18 +15,18 @@
   "categoryMix": [
     {
       "category": "AI",
-      "count": 11,
-      "share": 33.3
+      "count": 12,
+      "share": 35.3
     },
     {
       "category": "Technology",
       "count": 7,
-      "share": 21.2
+      "share": 20.6
     },
     {
       "category": "How-To",
       "count": 3,
-      "share": 9.1
+      "share": 8.8
     },
     {
       "category": "Innovation",
@@ -41,25 +41,33 @@
     {
       "category": "Digital Life",
       "count": 6,
-      "share": 18.2
+      "share": 17.6
     },
     {
       "category": "Crypto",
       "count": 5,
-      "share": 15.2
+      "share": 14.7
     }
   ],
   "missingCategories": [
     "Innovation",
     "Product Launches"
   ],
-  "overrepresentedCategories": [],
+  "overrepresentedCategories": [
+    "AI"
+  ],
   "recommendations": [
     "Prioritize missing categories: Innovation, Product Launches.",
+    "Reduce short-term concentration in: AI.",
     "23 article(s) are in editorial review; improve them before treating them as growth winners.",
     "6 older/incomplete article(s) are refresh candidates."
   ],
   "recentArticles": [
+    {
+      "title": "President Trump’s AI pledge misspells United States",
+      "category": "AI",
+      "publishedAt": "2026-09-30T17:18:02.792Z"
+    },
     {
       "title": "OpenAI Unveils Dots, a Persistent AI Assistant with a New Premium Tier",
       "category": "AI",
@@ -104,11 +112,6 @@
       "title": "Meta’s Muse Now Shows Its Entire Filesystem to Users",
       "category": "Digital Life",
       "publishedAt": "2026-09-25T20:56:22.716Z"
-    },
-    {
-      "title": "Google’s First Orbital AI Data Center Test Launches on October 1",
-      "category": "Technology",
-      "publishedAt": "2026-09-25T15:12:10.057Z"
     }
   ]
 }

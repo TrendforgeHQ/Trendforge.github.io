@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "title": "OpenAI launches Dots, its bubbly agentic avatar",
+  "title": "Pledge signed by President Trump and top AI leaders misspells the United States",
   "mode": "narrow",
   "wordBudget": {
     "min": 231,
@@ -11,7 +11,7 @@
     "preferredMin": 1,
     "preferredMax": 2
   },
-  "atomicClaimBudget": 18,
+  "atomicClaimBudget": 12,
   "allowedFactIds": [
     "F1",
     "F2",
@@ -24,18 +24,11 @@
     "F9",
     "F10",
     "F11",
-    "F12",
-    "F13",
-    "F14",
-    "F15",
-    "F16",
-    "F17",
-    "F18",
-    "F19"
+    "F12"
   ],
   "synthesis": {
     "allowed": true,
-    "maxWords": 100,
+    "maxWords": 92,
     "maxStatements": 3,
     "allowedFactIds": [
       "F1",
@@ -49,14 +42,7 @@
       "F9",
       "F10",
       "F11",
-      "F12",
-      "F13",
-      "F14",
-      "F15",
-      "F16",
-      "F17",
-      "F18",
-      "F19"
+      "F12"
     ]
   },
   "rules": {
@@ -65,7 +51,7 @@
     "newEntitiesInSynthesis": false,
     "newCausalityInSynthesis": false
   },
-  "generatedAt": "2026-09-30T11:38:14.112Z",
-  "articleTitle": "OpenAI Unveils Dots, a Persistent AI Assistant with a New Premium Tier",
-  "articleSlug": "openai-unveils-dots-a-persistent-ai-assistant-with-a-new-premium-tier"
+  "generatedAt": "2026-09-30T17:18:02.793Z",
+  "articleTitle": "President Trump’s AI pledge misspells United States",
+  "articleSlug": "president-trump-s-ai-pledge-misspells-united-states"
 }
