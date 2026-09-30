@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-30T17:18:07.472Z",
+  "generatedAt": "2026-09-30T21:43:33.285Z",
   "queue": [
     {
       "slug": "anthropic-s-ceo-calls-for-an-ai-slow-down-what-it-means-for-the-industry",
@@ -115,6 +115,24 @@
       "slug": "meta-s-muse-now-shows-its-entire-filesystem-to-users",
       "title": "Meta’s Muse Now Shows Its Entire Filesystem to Users",
       "category": "Digital Life",
+      "score": 78,
+      "decision": "review",
+      "dimensions": {
+        "evidence": 75,
+        "usefulness": 95,
+        "clarity": 100,
+        "originality": 83,
+        "sourceStrength": 41
+      },
+      "reasons": [
+        "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
+      ]
+    },
+    {
+      "slug": "president-trump-s-ai-pledge-misspells-united-states",
+      "title": "President Trump’s AI pledge misspells United States",
+      "category": "AI",
       "score": 78,
       "decision": "review",
       "dimensions": {
