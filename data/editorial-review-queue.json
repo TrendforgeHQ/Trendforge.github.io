@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-29T17:20:33.309Z",
+  "generatedAt": "2026-09-30T03:01:46.190Z",
   "queue": [
     {
       "slug": "anthropic-s-ceo-calls-for-an-ai-slow-down-what-it-means-for-the-industry",
@@ -72,6 +72,24 @@
       "reasons": [
         "evidence confidence needs improvement",
         "topic/title similarity is high",
+        "source strength/diversity needs improvement"
+      ]
+    },
+    {
+      "slug": "fairphone-unveils-fairbuds-2-repairable-earbuds-on-october-14",
+      "title": "Fairphone Unveils Fairbuds 2 Repairable Earbuds on October 14",
+      "category": "Digital Life",
+      "score": 78,
+      "decision": "review",
+      "dimensions": {
+        "evidence": 75,
+        "usefulness": 91,
+        "clarity": 100,
+        "originality": 83,
+        "sourceStrength": 41
+      },
+      "reasons": [
+        "evidence confidence needs improvement",
         "source strength/diversity needs improvement"
       ]
     },

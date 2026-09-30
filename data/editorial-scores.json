@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-29T17:20:33.308Z",
+  "generatedAt": "2026-09-30T03:01:46.190Z",
   "status": "pass",
-  "currentGeneratedArticle": "fairphone-unveils-fairbuds-2-repairable-earbuds-on-october-14",
-  "currentScore": 88,
+  "currentGeneratedArticle": null,
+  "currentScore": null,
   "identity": {
     "method": "brief.title",
-    "rejectedMarker": false
+    "rejectedMarker": true
   },
   "policy": {
     "publishCandidate": 90,
@@ -272,16 +272,19 @@
       "slug": "fairphone-unveils-fairbuds-2-repairable-earbuds-on-october-14",
       "title": "Fairphone Unveils Fairbuds 2 Repairable Earbuds on October 14",
       "category": "Digital Life",
-      "score": 88,
-      "decision": "publish_ready",
+      "score": 78,
+      "decision": "review",
       "dimensions": {
-        "evidence": 84,
+        "evidence": 75,
         "usefulness": 91,
         "clarity": 100,
         "originality": 83,
-        "sourceStrength": 80
+        "sourceStrength": 41
       },
-      "reasons": []
+      "reasons": [
+        "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
+      ]
     },
     {
       "slug": "google-s-first-orbital-ai-data-center-test-launches-on-october-1",

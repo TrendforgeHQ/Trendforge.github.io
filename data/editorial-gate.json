@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T17:19:46.372Z",
+  "generatedAt": "2026-09-30T03:01:16.622Z",
   "provider": "Groq",
   "editorial": {
     "passed": true,
@@ -22,8 +22,8 @@
       "noHighSimilaritySource": true
     },
     "metrics": {
-      "normalizedLength": 1474,
-      "sentenceCount": 12,
+      "normalizedLength": 3692,
+      "sentenceCount": 31,
       "maxSourceSimilarity": 0,
       "maxCommonPhrase": 0
     }
@@ -31,13 +31,13 @@
   "semanticDuplicateCheck": "passed",
   "sourceRelationshipCheck": "passed",
   "verifiedEvidenceDomains": [
-    "theverge.com",
-    "ua.news"
+    "mecouncil.org",
+    "aljazeera.com"
   ],
   "primarySourceCount": 0,
   "grounding": {
     "sourceCount": 2,
-    "usablePassages": 10,
+    "usablePassages": 38,
     "primarySourceCount": 0
   }
 }
