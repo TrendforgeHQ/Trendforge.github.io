@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-01T03:06:16.759Z",
+  "generatedAt": "2026-10-01T07:48:19.180Z",
   "policy": {
     "privacyFirst": true,
     "noPersonalTracking": true,
@@ -10,7 +10,7 @@
     "totalArticles": 34,
     "averageEditorialScore": 76,
     "editorialReviewCount": 24,
-    "refreshCandidates": 6
+    "refreshCandidates": 7
   },
   "categoryMix": [
     {
@@ -60,7 +60,7 @@
     "Prioritize missing categories: Innovation, Product Launches.",
     "Reduce short-term concentration in: AI.",
     "24 article(s) are in editorial review; improve them before treating them as growth winners.",
-    "6 older/incomplete article(s) are refresh candidates."
+    "7 older/incomplete article(s) are refresh candidates."
   ],
   "recentArticles": [
     {
