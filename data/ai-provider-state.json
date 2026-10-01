@@ -2,77 +2,14 @@
   "version": 10,
   "providers": {
     "Groq": {
-      "failures": 89,
-      "quotaBlockedUntil": 0,
-      "lastStatus": 200,
-      "lastError": null,
-      "lastClass": "success",
-      "successes": 96,
-      "lastSuccessAt": "2026-09-30T21:43:29.768Z",
+      "failures": 90,
+      "quotaBlockedUntil": 1790823974903,
+      "lastStatus": 429,
+      "lastError": "429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2bey814e17a788bb067zxjk` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7396, Requested 2120. Please try again in 11.37s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+      "lastClass": "rate_limit",
+      "successes": 99,
+      "lastSuccessAt": "2026-10-01T03:06:06.642Z",
       "history": [
-        {
-          "at": 1790682700183,
-          "ok": true,
-          "class": "success",
-          "status": 200,
-          "latencyMs": 590,
-          "usage": {
-            "queue_time": 0.022266923,
-            "prompt_tokens": 1741,
-            "prompt_time": 0.093755455,
-            "completion_tokens": 385,
-            "completion_time": 0.406175629,
-            "total_tokens": 2126,
-            "total_time": 0.499931084,
-            "completion_tokens_details": {
-              "reasoning_tokens": 239
-            }
-          }
-        },
-        {
-          "at": 1790702361055,
-          "ok": false,
-          "class": "rate_limit",
-          "status": 429
-        },
-        {
-          "at": 1790702386355,
-          "ok": true,
-          "class": "success",
-          "status": 200,
-          "latencyMs": 864,
-          "usage": {
-            "queue_time": 0.045877386,
-            "prompt_tokens": 4178,
-            "prompt_time": 0.22537638,
-            "completion_tokens": 427,
-            "completion_time": 0.464059327,
-            "total_tokens": 4605,
-            "total_time": 0.689435707,
-            "completion_tokens_details": {
-              "reasoning_tokens": 22
-            }
-          }
-        },
-        {
-          "at": 1790702388217,
-          "ok": true,
-          "class": "success",
-          "status": 200,
-          "latencyMs": 965,
-          "usage": {
-            "queue_time": 0.087857305,
-            "prompt_tokens": 1671,
-            "prompt_time": 0.099208402,
-            "completion_tokens": 419,
-            "completion_time": 0.551919467,
-            "total_tokens": 2090,
-            "total_time": 0.651127869,
-            "completion_tokens_details": {
-              "reasoning_tokens": 270
-            }
-          }
-        },
         {
           "at": 1790702403879,
           "ok": true,
@@ -298,19 +235,82 @@
               "reasoning_tokens": 246
             }
           }
+        },
+        {
+          "at": 1790823948381,
+          "ok": true,
+          "class": "success",
+          "status": 200,
+          "latencyMs": 1327,
+          "usage": {
+            "queue_time": 0.08298429,
+            "prompt_tokens": 4682,
+            "prompt_time": 0.391732302,
+            "completion_tokens": 615,
+            "completion_time": 0.626927494,
+            "total_tokens": 5297,
+            "total_time": 1.018659796,
+            "completion_tokens_details": {
+              "reasoning_tokens": 32
+            }
+          }
+        },
+        {
+          "at": 1790823950852,
+          "ok": true,
+          "class": "success",
+          "status": 200,
+          "latencyMs": 1522,
+          "usage": {
+            "queue_time": 0.219031851,
+            "prompt_tokens": 1830,
+            "prompt_time": 0.316065813,
+            "completion_tokens": 711,
+            "completion_time": 0.748131364,
+            "total_tokens": 2541,
+            "total_time": 1.064197177,
+            "completion_tokens_details": {
+              "reasoning_tokens": 632
+            }
+          }
+        },
+        {
+          "at": 1790823966642,
+          "ok": true,
+          "class": "success",
+          "status": 200,
+          "latencyMs": 786,
+          "usage": {
+            "queue_time": 0.241431386,
+            "prompt_tokens": 1869,
+            "prompt_time": 0.131063427,
+            "completion_tokens": 305,
+            "completion_time": 0.320914354,
+            "total_tokens": 2174,
+            "total_time": 0.451977781,
+            "completion_tokens_details": {
+              "reasoning_tokens": 226
+            }
+          }
+        },
+        {
+          "at": 1790823966903,
+          "ok": false,
+          "class": "rate_limit",
+          "status": 429
         }
       ],
-      "lastLatencyMs": 4924,
+      "lastLatencyMs": 786,
       "lastUsage": {
-        "queue_time": 0.08269691,
-        "prompt_tokens": 1541,
-        "prompt_time": 0.077339868,
-        "completion_tokens": 373,
-        "completion_time": 0.525690196,
-        "total_tokens": 1914,
-        "total_time": 0.603030064,
+        "queue_time": 0.241431386,
+        "prompt_tokens": 1869,
+        "prompt_time": 0.131063427,
+        "completion_tokens": 305,
+        "completion_time": 0.320914354,
+        "total_tokens": 2174,
+        "total_time": 0.451977781,
         "completion_tokens_details": {
-          "reasoning_tokens": 246
+          "reasoning_tokens": 226
         }
       }
     },
@@ -591,18 +591,12 @@
     "Cohere": {
       "failures": 113,
       "quotaBlockedUntil": 0,
-      "lastStatus": 422,
-      "lastError": "422: {\"error_type\":\"INVALID_TOOL_GENERATION\",\"id\":\"9bdd7d3c-de04-4186-8802-a1eb495a367a\",\"message\":\"your request resulted in an invalid tool generation. Try updating the messages or tool definitions\"}",
-      "lastClass": "error",
-      "successes": 14,
-      "lastSuccessAt": "2026-09-30T03:01:18.132Z",
+      "lastStatus": 200,
+      "lastError": null,
+      "lastClass": "success",
+      "successes": 15,
+      "lastSuccessAt": "2026-10-01T03:06:07.746Z",
       "history": [
-        {
-          "at": 1790672887548,
-          "ok": false,
-          "class": "error",
-          "status": 422
-        },
         {
           "at": 1790682647558,
           "ok": false,
@@ -728,22 +722,40 @@
           "ok": false,
           "class": "error",
           "status": 422
+        },
+        {
+          "at": 1790823967746,
+          "ok": true,
+          "class": "success",
+          "status": 200,
+          "latencyMs": 841,
+          "usage": {
+            "billed_units": {
+              "input_tokens": 1662,
+              "output_tokens": 161
+            },
+            "tokens": {
+              "input_tokens": 1790,
+              "output_tokens": 164
+            },
+            "cached_tokens": 16
+          }
         }
       ],
-      "lastLatencyMs": 842,
+      "lastLatencyMs": 841,
       "lastUsage": {
         "billed_units": {
-          "input_tokens": 1595,
-          "output_tokens": 118
+          "input_tokens": 1662,
+          "output_tokens": 161
         },
         "tokens": {
-          "input_tokens": 1723,
-          "output_tokens": 121
+          "input_tokens": 1790,
+          "output_tokens": 164
         },
-        "cached_tokens": 0
+        "cached_tokens": 16
       }
     }
   },
   "rotationCursor": 0,
-  "updatedAt": "2026-09-30T21:43:29.768Z"
+  "updatedAt": "2026-10-01T03:06:07.746Z"
 }

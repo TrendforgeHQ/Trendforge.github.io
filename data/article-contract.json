@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "title": "Tom Lee Says the Biggest Crypto Bull Run Ever Is Starting. Here's Why - finance.yahoo.com",
+  "title": "Apple is about to launch its next big entirely new product - The Independent",
   "mode": "narrow",
   "wordBudget": {
     "min": 231,
@@ -21,7 +21,6 @@
     "F6",
     "F7",
     "F8",
-    "F9",
     "F10",
     "F11",
     "F12",
@@ -31,8 +30,7 @@
     "F16",
     "F17",
     "F18",
-    "F19",
-    "F20"
+    "F19"
   ],
   "synthesis": {
     "allowed": true,
@@ -47,7 +45,6 @@
       "F6",
       "F7",
       "F8",
-      "F9",
       "F10",
       "F11",
       "F12",
@@ -57,8 +54,7 @@
       "F16",
       "F17",
       "F18",
-      "F19",
-      "F20"
+      "F19"
     ]
   },
   "rules": {
@@ -67,7 +63,7 @@
     "newEntitiesInSynthesis": false,
     "newCausalityInSynthesis": false
   },
-  "generatedAt": "2026-09-30T21:42:39.538Z",
-  "articleTitle": "Tom Lee Signals the Start of a Major Crypto Bull Run",
-  "articleSlug": "tom-lee-signals-the-start-of-a-major-crypto-bull-run"
+  "generatedAt": "2026-10-01T03:05:48.405Z",
+  "articleTitle": "Apple Prepares to Unveil New Product Line, Powered by Updated Siri",
+  "articleSlug": "apple-prepares-to-unveil-new-product-line-powered-by-updated-siri"
 }
