@@ -1,12 +1,78 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-01T12:07:24.478Z",
+  "generatedAt": "2026-10-01T22:10:43.125Z",
   "model": "@cf/black-forest-labs/flux-1-schnell",
   "width": 1024,
   "height": 576,
   "steps": 4,
-  "generated": 0,
+  "generated": 1,
   "skipped": 0,
   "failed": 0,
-  "images": {}
+  "images": {
+    "apple-stores-get-secret-boxes-ahead-of-october-13-home-tech-launch": {
+      "status": "generated",
+      "image": "/Trendforge/images/articles/apple-stores-get-secret-boxes-ahead-of-october-13-home-tech-launch.1024x576.png",
+      "generatedBy": "@cf/black-forest-labs/flux-1-schnell",
+      "width": 1024,
+      "height": 576,
+      "steps": 4,
+      "elapsedMs": 4374,
+      "bytes": 387517,
+      "visualBrief": {
+        "version": 2,
+        "mode": "editorial-photography",
+        "primarySubject": "the most concrete physical subject, event, organization, or action explicitly described by the story, centered on apple, stores, secret, boxes",
+        "scene": "A commissioned technology-publication photograph of that concrete subject or event, not a category-level representation.",
+        "supportingElements": [
+          "only contextual elements that directly explain the story"
+        ],
+        "composition": "One hero subject with one or two supporting elements, natural editorial lighting and strong negative space.",
+        "company": "Apple",
+        "namedPerson": null,
+        "category": "Product Launches",
+        "storyAnchors": [
+          "apple",
+          "stores",
+          "secret",
+          "boxes",
+          "ahead",
+          "october",
+          "home",
+          "tech"
+        ],
+        "avoid": [
+          "generic office imagery",
+          "random tablet or laptop",
+          "generic futuristic technology",
+          "glowing holograms, floating code, HUDs and neon sci-fi effects",
+          "prominent readable text or fake headlines"
+        ]
+      },
+      "relevance": {
+        "passed": true,
+        "anchors": [
+          "apple",
+          "stores",
+          "secret",
+          "boxes",
+          "ahead",
+          "october",
+          "home",
+          "tech"
+        ],
+        "matchedAnchors": [
+          "apple",
+          "stores",
+          "secret",
+          "boxes",
+          "tech"
+        ],
+        "entityMatches": [
+          "apple"
+        ],
+        "score": 0.625
+      },
+      "promptLength": 1900
+    }
+  }
 }

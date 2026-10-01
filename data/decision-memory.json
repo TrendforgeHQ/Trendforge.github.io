@@ -1,187 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-01T12:06:27.577Z",
+  "updatedAt": "2026-10-01T22:10:27.014Z",
   "decisions": [
-    {
-      "timestamp": "2026-09-29T07:01:04.490Z",
-      "title": "NVIDIA Launches Open Agent Safety Platform to Secure Agents From Testing to Deployment - NVIDIA Newsroom",
-      "category": "Product Launches",
-      "decision": "review",
-      "score": 73,
-      "adaptivePriority": 89,
-      "confidence": 83
-    },
-    {
-      "timestamp": "2026-09-29T07:01:04.490Z",
-      "title": "OpenAI holds off on releasing new model over safety concerns, saying it \"didn't quite meet the bar\" - CBS News",
-      "category": "AI",
-      "decision": "review",
-      "score": 79,
-      "adaptivePriority": 79,
-      "confidence": 90
-    },
-    {
-      "timestamp": "2026-09-29T07:01:04.490Z",
-      "title": "Breaking News: OpenAI said it would not release its newest artificial intelligence model over safety concerns raised by its researchers. - facebook.com",
-      "category": "AI",
-      "decision": "review",
-      "score": 78,
-      "adaptivePriority": 78,
-      "confidence": 86
-    },
-    {
-      "timestamp": "2026-09-29T07:01:04.490Z",
-      "title": "Innovation, Invention and Impact: NJIT Undergrads Present Summer Research - NJIT News",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 62,
-      "adaptivePriority": 78,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-09-29T07:01:04.490Z",
-      "title": "Research, innovation and invention top priority for prosperity, Minister Pun says - The Rising Nepal",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 58
-    },
-    {
-      "timestamp": "2026-09-29T07:01:04.490Z",
-      "title": "America's true innovation advantage: we don't just invent technologies — we reinvent how innovation works - Fortune",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-09-29T07:01:04.490Z",
-      "title": "NLR Battery Innovation Awarded NASA’s Invention of the Year - CleanTechnica",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-09-29T07:01:04.490Z",
-      "title": "Opinion: Why Canada’s health Innovation bottleneck is adoption, not invention - University of Waterloo",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-09-29T07:01:04.490Z",
-      "title": "A History of Invention and Innovation - bu.edu",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-09-29T07:01:04.490Z",
-      "title": "Fact Check Team: Rogue AI agents raise cybersecurity concerns. Here's what we know - National News Desk",
-      "category": "AI",
-      "decision": "review",
-      "score": 74,
-      "adaptivePriority": 74,
-      "confidence": 81
-    },
-    {
-      "timestamp": "2026-09-29T07:01:04.490Z",
-      "title": "OpenAI reportedly ditches model over safety concerns",
-      "category": "AI",
-      "decision": "review",
-      "score": 74,
-      "adaptivePriority": 74,
-      "confidence": 86
-    },
-    {
-      "timestamp": "2026-09-29T07:01:04.490Z",
-      "title": "Nvidia launches new platform for reining in rogue AI agents",
-      "category": "AI",
-      "decision": "review",
-      "score": 74,
-      "adaptivePriority": 74,
-      "confidence": 86
-    },
-    {
-      "timestamp": "2026-09-29T07:01:04.490Z",
-      "title": "From Edison’s Invention Factory to the new architecture of innovation - Science | AAAS",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 58,
-      "adaptivePriority": 74,
-      "confidence": 58
-    },
-    {
-      "timestamp": "2026-09-29T07:01:04.490Z",
-      "title": "Innovation beyond invention will bring novel medicines to Europe’s patients - pharmaphorum",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 58,
-      "adaptivePriority": 74,
-      "confidence": 58
-    },
-    {
-      "timestamp": "2026-09-29T07:01:04.490Z",
-      "title": "Palo Alto Networks joins UAH Invention to Innovation Center as Corporate Innovation Partner | Newswise - Newswise",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 58,
-      "adaptivePriority": 74,
-      "confidence": 58
-    },
-    {
-      "timestamp": "2026-09-29T07:01:04.490Z",
-      "title": "Malaysian Brothers Win Highest Invention Award at WYIE 2026 for AI Education Innovation - SME & Entrepreneurship Magazine",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 58,
-      "adaptivePriority": 74,
-      "confidence": 58
-    },
-    {
-      "timestamp": "2026-09-29T07:01:04.490Z",
-      "title": "Leaders at Davos 2026 on how we can deploy innovation and technology at scale and responsibly - The World Economic Forum",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 58,
-      "adaptivePriority": 74,
-      "confidence": 58
-    },
-    {
-      "timestamp": "2026-09-29T07:01:04.490Z",
-      "title": "Introducing Claude Opus 5.5 - Anthropic",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 58,
-      "adaptivePriority": 74,
-      "confidence": 68
-    },
-    {
-      "timestamp": "2026-09-29T07:01:04.490Z",
-      "title": "Apple unveils $2,000 iPhone Duo, its first foldable smartphone - Fortune",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 57,
-      "adaptivePriority": 73,
-      "confidence": 57
-    },
-    {
-      "timestamp": "2026-09-29T07:01:04.490Z",
-      "title": "Best New Product Launch Email Templates to Use in 2026 - Designmodo",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 56,
-      "adaptivePriority": 72,
-      "confidence": 58
-    },
     {
       "timestamp": "2026-09-29T09:07:14.335Z",
       "title": "NVIDIA Launches Open Agent Safety Platform to Secure Agents From Testing to Deployment - NVIDIA Newsroom",
@@ -1801,6 +1621,186 @@
       "score": 58,
       "adaptivePriority": 74,
       "confidence": 67
+    },
+    {
+      "timestamp": "2026-10-01T22:10:27.014Z",
+      "title": "Apple is ready to launch new smart display and HomePod, report says - Mashable",
+      "category": "Product Launches",
+      "decision": "review",
+      "score": 74,
+      "adaptivePriority": 90,
+      "confidence": 84
+    },
+    {
+      "timestamp": "2026-10-01T22:10:27.014Z",
+      "title": "More evidence emerges of an imminent Apple device launch - Macworld",
+      "category": "Product Launches",
+      "decision": "review",
+      "score": 73,
+      "adaptivePriority": 89,
+      "confidence": 80
+    },
+    {
+      "timestamp": "2026-10-01T22:10:27.014Z",
+      "title": "Apple Stores receive secret ‘Do Not Open’ boxes ahead of October 13 product launch - The Apple Post",
+      "category": "Product Launches",
+      "decision": "review",
+      "score": 72,
+      "adaptivePriority": 88,
+      "confidence": 83
+    },
+    {
+      "timestamp": "2026-10-01T22:10:27.014Z",
+      "title": "Apple Home Hub setup details leak as Apple stores receive confidential boxes - Firstpost",
+      "category": "Product Launches",
+      "decision": "review",
+      "score": 66,
+      "adaptivePriority": 82,
+      "confidence": 74
+    },
+    {
+      "timestamp": "2026-10-01T22:10:27.014Z",
+      "title": "Fire TV launches all-new, faster 4K stick and new remote design - About Amazon",
+      "category": "Product Launches",
+      "decision": "review",
+      "score": 66,
+      "adaptivePriority": 82,
+      "confidence": 74
+    },
+    {
+      "timestamp": "2026-10-01T22:10:27.014Z",
+      "title": "Research, innovation and invention top priority for prosperity, Minister Pun says - The Rising Nepal",
+      "category": "Innovation",
+      "decision": "review",
+      "score": 65,
+      "adaptivePriority": 81,
+      "confidence": 64
+    },
+    {
+      "timestamp": "2026-10-01T22:10:27.014Z",
+      "title": "Leading medical device experts and MDO launch Medtech Innovation Board - Medical Design & Outsourcing",
+      "category": "Product Launches",
+      "decision": "hold",
+      "score": 64,
+      "adaptivePriority": 80,
+      "confidence": 67
+    },
+    {
+      "timestamp": "2026-10-01T22:10:27.014Z",
+      "title": "Meghan Markle drops major Christmas announcement with stunning new picture - hellomagazine.com",
+      "category": "Product Launches",
+      "decision": "hold",
+      "score": 64,
+      "adaptivePriority": 80,
+      "confidence": 74
+    },
+    {
+      "timestamp": "2026-10-01T22:10:27.014Z",
+      "title": "Apple plans to launch new smart-home hub on Oct 13, Bloomberg News reports - Reuters",
+      "category": "Product Launches",
+      "decision": "hold",
+      "score": 63,
+      "adaptivePriority": 79,
+      "confidence": 67
+    },
+    {
+      "timestamp": "2026-10-01T22:10:27.014Z",
+      "title": "Apple’s smart home launch is unfashionably late - Tech Brew",
+      "category": "Product Launches",
+      "decision": "hold",
+      "score": 63,
+      "adaptivePriority": 79,
+      "confidence": 67
+    },
+    {
+      "timestamp": "2026-10-01T22:10:27.014Z",
+      "title": "Innovation, Invention and Impact: NJIT Undergrads Present Summer Research - NJIT News",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 62,
+      "adaptivePriority": 78,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-10-01T22:10:27.014Z",
+      "title": "Apple Is Finally Ready to Enter Its Next Big Category: the Smart Home - Bloomberg.com",
+      "category": "Product Launches",
+      "decision": "hold",
+      "score": 62,
+      "adaptivePriority": 78,
+      "confidence": 74
+    },
+    {
+      "timestamp": "2026-10-01T22:10:27.014Z",
+      "title": "Everything Apple could still launch before the end of 2026 - Macworld",
+      "category": "Product Launches",
+      "decision": "hold",
+      "score": 61,
+      "adaptivePriority": 77,
+      "confidence": 61
+    },
+    {
+      "timestamp": "2026-10-01T22:10:27.014Z",
+      "title": "NVIDIA Launches Open Agent Safety Platform to Secure Agents From Testing to Deployment - NVIDIA Newsroom",
+      "category": "Product Launches",
+      "decision": "hold",
+      "score": 61,
+      "adaptivePriority": 77,
+      "confidence": 68
+    },
+    {
+      "timestamp": "2026-10-01T22:10:27.014Z",
+      "title": "NLR Battery Innovation Awarded NASA’s Invention of the Year - CleanTechnica",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-10-01T22:10:27.014Z",
+      "title": "Opinion: Why Canada’s health Innovation bottleneck is adoption, not invention - University of Waterloo",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-10-01T22:10:27.014Z",
+      "title": "A History of Invention and Innovation - bu.edu",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-10-01T22:10:27.014Z",
+      "title": "From Edison’s Invention Factory to the new architecture of innovation - Science | AAAS",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-10-01T22:10:27.014Z",
+      "title": "Innovation beyond invention will bring novel medicines to Europe’s patients - pharmaphorum",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-10-01T22:10:27.014Z",
+      "title": "Palo Alto Networks joins UAH Invention to Innovation Center as Corporate Innovation Partner | Newswise - newswise.com",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
     }
   ],
   "categoryStats": {
@@ -1834,11 +1834,6 @@
     }
   },
   "recentTopics": [
-    "security researchers used claude to help them hack into openai",
-    "from edison s invention factory to the new architecture of innovation - science org",
-    "from invention to innovation in global governance - unu united nations university",
-    "nlr battery innovation awarded nasa s invention of the year - cleantechnica",
-    "opinion why canada s health innovation bottleneck is adoption not invention - university of waterloo",
     "a history of invention and innovation - boston university",
     "innovation invention and impact njit undergrads present summer research - njit news",
     "research innovation and invention top priority for prosperity minister pun says - risingnepaldaily com",
@@ -1933,6 +1928,11 @@
     "apple is about to launch its next big entirely new product - the independent",
     "apple plans to launch new smart-home hub on oct 13 bloomberg news reports - reuters",
     "apple s smart home launch is unfashionably late - tech brew",
-    "fire tv launches all-new faster 4k stick and new remote design - about amazon"
+    "fire tv launches all-new faster 4k stick and new remote design - about amazon",
+    "apple is ready to launch new smart display and homepod report says - mashable",
+    "more evidence emerges of an imminent apple device launch - macworld",
+    "apple stores receive secret do not open boxes ahead of october 13 product launch - the apple post",
+    "apple home hub setup details leak as apple stores receive confidential boxes - firstpost",
+    "meghan markle drops major christmas announcement with stunning new picture - hellomagazine com"
   ]
 }

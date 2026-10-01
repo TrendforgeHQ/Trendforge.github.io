@@ -3,38 +3,13 @@
   "providers": {
     "Groq": {
       "failures": 91,
-      "quotaBlockedUntil": 1790856419383,
-      "lastStatus": 429,
-      "lastError": "429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2bey814e17a788bb067zxjk` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2836, Requested 5387. Please try again in 1.6725s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
-      "lastClass": "rate_limit",
-      "successes": 99,
-      "lastSuccessAt": "2026-10-01T03:06:06.642Z",
+      "quotaBlockedUntil": 0,
+      "lastStatus": 200,
+      "lastError": null,
+      "lastClass": "success",
+      "successes": 101,
+      "lastSuccessAt": "2026-10-01T22:10:30.740Z",
       "history": [
-        {
-          "at": 1790702404130,
-          "ok": false,
-          "class": "rate_limit",
-          "status": 429
-        },
-        {
-          "at": 1790702429549,
-          "ok": true,
-          "class": "success",
-          "status": 200,
-          "latencyMs": 667,
-          "usage": {
-            "queue_time": 0.021229601,
-            "prompt_tokens": 1710,
-            "prompt_time": 0.115523606,
-            "completion_tokens": 440,
-            "completion_time": 0.469369747,
-            "total_tokens": 2150,
-            "total_time": 0.584893353,
-            "completion_tokens_details": {
-              "reasoning_tokens": 248
-            }
-          }
-        },
         {
           "at": 1790737261565,
           "ok": false,
@@ -285,19 +260,57 @@
           "ok": false,
           "class": "rate_limit",
           "status": 429
+        },
+        {
+          "at": 1790892628804,
+          "ok": true,
+          "class": "success",
+          "status": 200,
+          "latencyMs": 1167,
+          "usage": {
+            "queue_time": 0.063374577,
+            "prompt_tokens": 5017,
+            "prompt_time": 0.297043308,
+            "completion_tokens": 552,
+            "completion_time": 0.591241241,
+            "total_tokens": 5569,
+            "total_time": 0.888284549,
+            "completion_tokens_details": {
+              "reasoning_tokens": 18
+            }
+          }
+        },
+        {
+          "at": 1790892630740,
+          "ok": true,
+          "class": "success",
+          "status": 200,
+          "latencyMs": 945,
+          "usage": {
+            "queue_time": 0.048475332,
+            "prompt_tokens": 1704,
+            "prompt_time": 0.106606955,
+            "completion_tokens": 548,
+            "completion_time": 0.612775527,
+            "total_tokens": 2252,
+            "total_time": 0.719382482,
+            "completion_tokens_details": {
+              "reasoning_tokens": 388
+            }
+          }
         }
       ],
-      "lastLatencyMs": 786,
+      "lastLatencyMs": 945,
       "lastUsage": {
-        "queue_time": 0.241431386,
-        "prompt_tokens": 1869,
-        "prompt_time": 0.131063427,
-        "completion_tokens": 305,
-        "completion_time": 0.320914354,
-        "total_tokens": 2174,
-        "total_time": 0.451977781,
+        "queue_time": 0.048475332,
+        "prompt_tokens": 1704,
+        "prompt_time": 0.106606955,
+        "completion_tokens": 548,
+        "completion_time": 0.612775527,
+        "total_tokens": 2252,
+        "total_time": 0.719382482,
         "completion_tokens_details": {
-          "reasoning_tokens": 226
+          "reasoning_tokens": 388
         }
       }
     },
@@ -744,5 +757,5 @@
     }
   },
   "rotationCursor": 0,
-  "updatedAt": "2026-10-01T12:07:14.489Z"
+  "updatedAt": "2026-10-01T22:10:30.740Z"
 }

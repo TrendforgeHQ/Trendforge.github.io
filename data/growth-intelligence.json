@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-01T12:07:25.636Z",
+  "generatedAt": "2026-10-01T22:10:44.384Z",
   "policy": {
     "privacyFirst": true,
     "noPersonalTracking": true,
     "noPaidTrafficRequired": true
   },
   "summary": {
-    "totalArticles": 34,
+    "totalArticles": 35,
     "averageEditorialScore": 76,
     "editorialReviewCount": 24,
     "refreshCandidates": 8
@@ -16,17 +16,17 @@
     {
       "category": "AI",
       "count": 12,
-      "share": 35.3
+      "share": 34.3
     },
     {
       "category": "Technology",
       "count": 7,
-      "share": 20.6
+      "share": 20
     },
     {
       "category": "How-To",
       "count": 3,
-      "share": 8.8
+      "share": 8.6
     },
     {
       "category": "Innovation",
@@ -35,34 +35,35 @@
     },
     {
       "category": "Product Launches",
-      "count": 0,
-      "share": 0
+      "count": 1,
+      "share": 2.9
     },
     {
       "category": "Digital Life",
       "count": 6,
-      "share": 17.6
+      "share": 17.1
     },
     {
       "category": "Crypto",
       "count": 5,
-      "share": 14.7
+      "share": 14.3
     }
   ],
   "missingCategories": [
-    "Innovation",
-    "Product Launches"
+    "Innovation"
   ],
-  "overrepresentedCategories": [
-    "AI"
-  ],
+  "overrepresentedCategories": [],
   "recommendations": [
-    "Prioritize missing categories: Innovation, Product Launches.",
-    "Reduce short-term concentration in: AI.",
+    "Prioritize missing categories: Innovation.",
     "24 article(s) are in editorial review; improve them before treating them as growth winners.",
     "8 older/incomplete article(s) are refresh candidates."
   ],
   "recentArticles": [
+    {
+      "title": "Apple Stores Get Secret Boxes Ahead of October 13 Home‑Tech Launch",
+      "category": "Product Launches",
+      "publishedAt": "2026-10-01T22:10:28.824Z"
+    },
     {
       "title": "President Trump’s AI pledge misspells United States",
       "category": "AI",
@@ -107,11 +108,6 @@
       "title": "Jim Cramer Recommends Two AI Stocks That Have Risen Over 1,400% Since 2023",
       "category": "AI",
       "publishedAt": "2026-09-26T10:32:59.089Z"
-    },
-    {
-      "title": "Meta’s Muse Now Shows Its Entire Filesystem to Users",
-      "category": "Digital Life",
-      "publishedAt": "2026-09-25T20:56:22.716Z"
     }
   ]
 }
