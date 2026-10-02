@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T03:08:25.224Z",
+  "generatedAt": "2026-10-02T11:37:00.649Z",
   "provider": "Groq",
   "editorial": {
     "passed": true,
@@ -22,8 +22,8 @@
       "noHighSimilaritySource": true
     },
     "metrics": {
-      "normalizedLength": 1990,
-      "sentenceCount": 11,
+      "normalizedLength": 2948,
+      "sentenceCount": 19,
       "maxSourceSimilarity": 0,
       "maxCommonPhrase": 0
     }
@@ -31,13 +31,15 @@
   "semanticDuplicateCheck": "passed",
   "sourceRelationshipCheck": "passed",
   "verifiedEvidenceDomains": [
-    "cryptonews.net",
-    "coindesk.com"
+    "cryptoticker.io",
+    "crypto.news",
+    "coindesk.com",
+    "yellow.com"
   ],
   "primarySourceCount": 0,
   "grounding": {
-    "sourceCount": 2,
-    "usablePassages": 17,
+    "sourceCount": 4,
+    "usablePassages": 25,
     "primarySourceCount": 0
   }
 }

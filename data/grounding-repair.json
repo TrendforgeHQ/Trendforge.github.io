@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-02T03:09:20.205Z",
-  "runId": "36958553921",
-  "articlePath": "content/articles/sec-unveils-new-crypto-custody-framework-to-fill-regulatory-gap.md",
+  "generatedAt": "2026-10-02T11:37:44.647Z",
+  "runId": "37001644164",
+  "articlePath": "content/articles/senate-vote-on-clarity-act-sends-shockwaves-through-crypto-and-banking-sectors.md",
   "provider": "Groq",
-  "previousTitle": "SEC Unveils New Crypto Custody Framework to Fill Regulatory Gap",
-  "newTitle": "SEC Unveils New Crypto Custody Framework to Fill Regulatory Gap",
-  "briefTitle": "SEC maps out crypto custody in new proposal that furthers its digital assets agenda - CoinDesk",
-  "evidenceClaims": 10,
-  "failedClaims": 3,
-  "evidenceChars": 2405,
+  "previousTitle": "Senate Vote on CLARITY Act Sends Shockwaves Through Crypto and Banking Sectors",
+  "newTitle": "Senate Vote on CLARITY Act Sends Shockwaves Through Crypto and Banking Sectors",
+  "briefTitle": "CLARITY Act Could Unlock 11 Crypto Activities for US Banks Under Senate Plan - Bitcoin Foundation",
+  "evidenceClaims": 16,
+  "failedClaims": 2,
+  "evidenceChars": 1175,
   "mode": "atomic-sentence-repair-v12-surgical-fingerprint-rewrite-narrow-delete-isolated-recovery",
   "repairOrder": [
     "rewrite",
@@ -20,13 +20,13 @@
   "recoveryWaitMs": 15000,
   "providerAttempts": 4,
   "appliedRepairs": 3,
-  "rewriteOrNarrowRepairs": 2,
-  "deletedSentences": 1,
+  "rewriteOrNarrowRepairs": 0,
+  "deletedSentences": 3,
   "wordCountValidation": {
-    "before": 302,
-    "after": 281,
-    "minimum": 231,
-    "depthMode": "narrow",
-    "preservedFloor": true
+    "before": 452,
+    "after": 389,
+    "minimum": 425,
+    "depthMode": "bounded",
+    "preservedFloor": false
   }
 }
