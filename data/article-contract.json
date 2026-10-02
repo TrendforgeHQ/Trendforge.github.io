@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "title": "Apple Stores receive secret ‘Do Not Open’ boxes ahead of October 13 product launch - The Apple Post",
+  "title": "SEC maps out crypto custody in new proposal that furthers its digital assets agenda - CoinDesk",
   "mode": "narrow",
   "wordBudget": {
     "min": 231,
@@ -14,7 +14,6 @@
   "atomicClaimBudget": 15,
   "allowedFactIds": [
     "F1",
-    "F2",
     "F3",
     "F4",
     "F5",
@@ -27,7 +26,8 @@
     "F13",
     "F14",
     "F15",
-    "F16"
+    "F16",
+    "F17"
   ],
   "synthesis": {
     "allowed": true,
@@ -35,7 +35,6 @@
     "maxStatements": 3,
     "allowedFactIds": [
       "F1",
-      "F2",
       "F3",
       "F4",
       "F5",
@@ -48,7 +47,8 @@
       "F13",
       "F14",
       "F15",
-      "F16"
+      "F16",
+      "F17"
     ]
   },
   "rules": {
@@ -57,7 +57,7 @@
     "newEntitiesInSynthesis": false,
     "newCausalityInSynthesis": false
   },
-  "generatedAt": "2026-10-01T22:10:28.825Z",
-  "articleTitle": "Apple Stores Get Secret Boxes Ahead of October 13 Home‑Tech Launch",
-  "articleSlug": "apple-stores-get-secret-boxes-ahead-of-october-13-home-tech-launch"
+  "generatedAt": "2026-10-02T03:08:25.225Z",
+  "articleTitle": "SEC Unveils New Crypto Custody Framework to Fill Regulatory Gap",
+  "articleSlug": "sec-unveils-new-crypto-custody-framework-to-fill-regulatory-gap"
 }

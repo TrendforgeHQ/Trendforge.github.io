@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-01T22:10:34.493Z",
+  "generatedAt": "2026-10-02T03:09:23.037Z",
   "queue": [
     {
       "slug": "anthropic-s-ceo-calls-for-an-ai-slow-down-what-it-means-for-the-industry",
@@ -176,6 +176,24 @@
         "usefulness": 87,
         "clarity": 100,
         "originality": 86,
+        "sourceStrength": 41
+      },
+      "reasons": [
+        "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
+      ]
+    },
+    {
+      "slug": "apple-stores-get-secret-boxes-ahead-of-october-13-home-tech-launch",
+      "title": "Apple Stores Get Secret Boxes Ahead of October 13 Home‑Tech Launch",
+      "category": "Product Launches",
+      "score": 76,
+      "decision": "review",
+      "dimensions": {
+        "evidence": 75,
+        "usefulness": 95,
+        "clarity": 85,
+        "originality": 89,
         "sourceStrength": 41
       },
       "reasons": [

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T22:10:28.825Z",
+  "generatedAt": "2026-10-02T03:08:25.224Z",
   "provider": "Groq",
   "editorial": {
     "passed": true,
@@ -22,8 +22,8 @@
       "noHighSimilaritySource": true
     },
     "metrics": {
-      "normalizedLength": 2126,
-      "sentenceCount": 14,
+      "normalizedLength": 1990,
+      "sentenceCount": 11,
       "maxSourceSimilarity": 0,
       "maxCommonPhrase": 0
     }
@@ -31,13 +31,13 @@
   "semanticDuplicateCheck": "passed",
   "sourceRelationshipCheck": "passed",
   "verifiedEvidenceDomains": [
-    "macrumors.com",
-    "theapplepost.com"
+    "cryptonews.net",
+    "coindesk.com"
   ],
   "primarySourceCount": 0,
   "grounding": {
     "sourceCount": 2,
-    "usablePassages": 16,
+    "usablePassages": 17,
     "primarySourceCount": 0
   }
 }

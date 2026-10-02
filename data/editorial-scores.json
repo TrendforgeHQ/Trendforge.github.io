@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-01T22:10:34.492Z",
+  "generatedAt": "2026-10-02T03:09:23.036Z",
   "status": "pass",
-  "currentGeneratedArticle": "apple-stores-get-secret-boxes-ahead-of-october-13-home-tech-launch",
-  "currentScore": 86,
+  "currentGeneratedArticle": null,
+  "currentScore": null,
   "identity": {
     "method": "brief.title",
-    "rejectedMarker": false
+    "rejectedMarker": true
   },
   "policy": {
     "publishCandidate": 90,
@@ -128,16 +128,19 @@
       "slug": "apple-stores-get-secret-boxes-ahead-of-october-13-home-tech-launch",
       "title": "Apple Stores Get Secret Boxes Ahead of October 13 Home‑Tech Launch",
       "category": "Product Launches",
-      "score": 86,
-      "decision": "publish_ready",
+      "score": 76,
+      "decision": "review",
       "dimensions": {
-        "evidence": 80,
+        "evidence": 75,
         "usefulness": 95,
         "clarity": 85,
         "originality": 89,
-        "sourceStrength": 83
+        "sourceStrength": 41
       },
-      "reasons": []
+      "reasons": [
+        "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
+      ]
     },
     {
       "slug": "beyond-obscurity-navigating-the-dual-eras-of-drone-threats-and-ai-driven-vulnerabilities",
