@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-01T22:53:33.253Z",
+  "updatedAt": "2026-10-02T06:07:51.078Z",
   "mode": "shadow",
   "policy": {
     "advisoryOnly": true,
@@ -14,7 +14,7 @@
     "noWinnerBeforeMinimumSample": true
   },
   "sample": {
-    "runs": 58,
+    "runs": 59,
     "topics": 500,
     "articles": 35
   },
@@ -88,248 +88,248 @@
   "assignments": {
     "headline-style": [
       {
-        "key": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQ1lMUGlaMEZRMWpjR0JocVBTd3pmRTB5RnBSc1U5R1c3cTVwQmJTRnd3akdULTNJR1M5ZDk4XzRld29wRnNMRnFUWmhZaXdUMzdReVZ1VjJsT01DMUs1UWNmTUIzaktNcm15YTZ5X21oNmprbW42dG1Fck1qQ29leEE0SnRqeG80cnJlVWdfZkJkTWV6eTNhTTQ0cTVHekJNTkZUTEM5c1ZpNlo5RkkyZDRNU2FTMW9H?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
+        "key": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOS1M3dFdnaHdFNGh3VzJJOXd4TTd1WThPdzNvVGl4WVZpVDVEOFNody0talNRN0pMZ1pMMURTOFdSZ0lwSXRHckdOSTlBclJvS0twMFFXLU5xdWlhTGxfMlpVd2hEQXZJTkhLdFRod3gyejJHTWRiVnFmblg1bTZPWXZXVjl0V1FnQ3hOZDZ1c0h0LWJuRkdmQkV6TmdJWV9Pa3RzU2tTbGdpT3BWbTdpSlNsRHhhOHJNalY4M2tDaEwwNEV1cTF1cHFR?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
+        "key": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPLU1HVTdBaUNwamwwdFB3ZDlFS0FEbG1VRExYeU5vU2k3QzRLNWdpYzFNVjE3LTl3TTZNSXlmUDM3MGVxTVB2RUd3Yzd0M0hTSlpNQmhwdHozUTBlMGdhcVhjZF9pX2RKQ2N5al9OQzVkN2Y5UFFfd0txVGtGbFpFTGVxaklmQlhmUk9TTm9ZZFdFSFZPY05tRE9SSmk2b0hiVG1r?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZHFFdWVGQTl4bU50bUVzdzFoTWxtd0g2QVJwUVdrR2JlNFFVVHpHeWlSa2owVmhCRzc1ZkdDUFZab2RUX0c2NWVSamwwRWtINmJWT3Vid2tSTjNpM01MX1VyNEU0NmVMU1pqUUNMNllqQXRlTXNfSTZuZ19KRlUteGk4Zk4xdS1wM1ZFM3NPU09VTENpeWhsUXB6TGQyVjJfU1h3S2Y4ZmctRjAtTEhjbmpsY013NlNkdUtmTlZ2V3B0ZWc?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVjNNenUtUjhHVU12U04tU28tUVhrbzRnOE1Kczkwd1ItWno1WE1hYVFUMWVIeTFTal9EbFNIR1g1UFJWM0xzR1RmM3dEMlA2VXZzaWRuVzZjX2FJdlpwT0otNnIwYzlSN1JKZWNsSExUTllmMzM1NHQ5bXF5bGpVVzNsaFg?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMVlESi1NRUJxaF9LNmoyMHNlWnl3cWwxUEdraFBJQTUwX0FxejhhbjB3ZHBrSEJkZFgwQXlVMGFlLWU4SmF5OWhNMnl0RU82TmJuZV9DV3dqVXRkZFlPc2N1ZG5oSmRuSVU4ZlR4ZU9neElqUWJLR2Flb0tPTjRhVThyVWljS29oRnR5cm5JSXpZX1hpYUVNZkViMnVWRk9pdVZKSlNMdVdwelhtd0lCWDJKTDF4aWJVWFgycmE2UGZnMHpaQlgyeGtPaFg0TjhOSUE?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNVE9lYUtxSTVQM1UzaVpuclBlRktUV3hZd0d3cTNQd0gyYWg0emw2VkZCMWgxTnJyTHhMc3MybUI1ZVZ1RzNXdXNvVUlkRW5sYUtCeExYRTAxTGNlMTJWZmVBVXh2NGN0Yk1JVXlIWkJVVVlzT0lvdGtLOWg4WmtDMXlpNDVfUTdFQV9ydGRHYXFHT0ZXOE93ZTJDcXpFT2Fnb25xUW5VUTdSMk96V0pUTm9oZ1VMVzBsd3Zha2FIdThUQzc2SU5hazJJWGYySDJzcWxWcmNiYjFNWEFTX2RZa2ZwU04?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTTdMWlZBV0lla3ZBSGJ3WUl0OFRxc3pnV2hJeFBGcDh0T0ktaGlwSTBCRzV1MnJ3bC13V2sxcWE2WHRMWjJxVk1nRVdfZ2xoM01LY21UNFdCeU1RSE1JWHVQcGxRb0lhUEtJX3JkeWhxdS1HcktPSzhhckhVLVJYcGdNMkVHc0hVTVhIYWUwYnNDUm1QUGp4bC0wWGlBYW94eHFvbEx4dG1JWDRQ?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRWJna0VPYzgtRHlEU0hBSlFZMkhDS2N6SHBuenR5NE9ia2VrcUhJZ0JMejNJcHNfYzJHT05zT0VXQk10YUs5cXJiVlNENWt4TV82aUJzWkNIamU2WXZQN2pYbndnRkZab3JzUFdrdXpMV2lVS2gtdWN1bGFKZEdjcVdFNk8zS0RyWTRYczhnMVJVNzhsR19IdEZtdEwxQzdOUHlQdU9jWmZ0WmJ6RWZFcnNRSUNWd053R18ySnJrX21QajQyb0kwR2VwMA?oc=5",
+        "key": "https://www.theverge.com/tech/1003877/apple-security-camera-no-video",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbzU3NnV4NFhNazRXQzVkeTV6VVNBSzUyUE0yM25SWGQtaFM1YkU4Y1htNWMtYXBPcU9pRDZfZUhSQnZyYnpvWWJ5ZGE4T3ZPOEZrN3IzeHBxMURHQlZySUhfQTBrb0FPdUxFSHRjVEd2ZFh2VGVuMjluVDhxYmhDa2hHc3hnV1p6c1hxaDJaa0VCQXQ3NmhackVWSVBJRlpXMzJXQ3Q2UHlhVXFaMDNN?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNmhKaHhNWDVPbmJCcjVMQndWQVlmYjNzUTFDSk5xUklRS2dTM0RZN25RUG5wWFo4S3dsU3Bta3dsdEhraThUVnhCXzZrT3R3OVU0QmVhRWxzMTRSSk5wV2I4bzV4eXQ0VkNXX29nR2hxS0JtZHhBZElUMkdvSW40MlFCbEtGRmxHb095QXhNdS0wNGwwMU5RT0tQazl3SHNHQmt2MA?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQLUN5SkgzcDVVbFpXMF9pOGwyVmFjMWdBQXhSQjV2N3U0SHBQYUIxWkVmamQ3OWQ5VWdubnZnUVVWQWt6bkl1WGdtQWZURFBOUHZHQTI0Yk5qVU1FSDdSdGdNVFcxQXdocmlwNDVDNEg3YXVKOVdYdXN6cmVJM2pHRTczN1I2V0RaZHhzYk5TQkhkaWtrU1VkM1BfSFpBWG9xNzVYb0R3UHBVS2lnZUM3OXBNZw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQa21CaFNIakYxYURwRjZ6MHNfcFNlVmNzRVNqYzJaeHp6cFk2UGhQdTBwMm40T05sdGJRNEhLYlNEdkctWHFPQTNHWE1XOU1KeDM1c1BHM0l5SGxvc3gyaEdwRmowZklkMm55djR4cXhkcEM3ZFVUVFFlRHRNd3otY3AzTTQ0ZnN2UHhlQVhwdVd4RkhuWTNLeU9EVjNoM1dIbGRsXzdnZUE2WHFiVkI5RGRiZzlfenRzTXpPUnFHQm8yenVDclo3N29yMHJrcDBGOTd5dU81WHhuRFpTSkZycUw2Zw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdmVJSzdpaGRlbEt1TjhVRkJwMGFDOGpkQ29kb204VjFHa1JjekFmNmd4R0NnUmNtZnN4NEpoMjh6LWNvX0MxaWQ0ZVJmWlcxMkhkQUw5OFR3TVp2c2xqbUJLVXVFZ05pRXZLZ1piTXBxM2pjZ1h3S0E4TFhJRFRuYTNLTENkeFdSZDBOMS1yV0VmZw?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUnVPRGx3NnlFd2FpYmRJZDEtMzEtdUxXR3A2UGZqSEdndlhCUVFxWlJBVC1mQ0JfdE1Na1pRejhHcWdBejFqOW9TUDIzc1dMVjk0SHM1OVBiek94bXNfNW1CUi1QU0pkVThRS2ZodVJxOUgxTl9vOGk3SUg1amg0RDc1cGJtVFlOY0dMX25LZWFKdjRJVWFMdWV1dkZxZWxmY29ZSjg2MVpCMUJRaGJhWVUzeF9aR1FPUWJoVnpjejZlb3c2MFHSAcsBQVVfeXFMUDd4U0NtejQ3cU9ZeEhkT2FObUZhT2gzNWZUa0J6akNjbVJiRVo1ZkU2Q3VpcExvZHVUbkt2TGU5eFZVRDVEbVhGb1pHYnpVeVlaSE5tYXFqZ0FoemtpVkJsLW80ZDkyZFF5SmcxMzg5S3RqOWh3bnRKRDhDV3ZNUDI3QmNGalJvWVB6N2g5NnB3T2t1UlNHUm1jYUEyRDdPbFVCcGhuZTVhY05QWUFuU0N4VjkyV05Va1FIeUxfZ3JCSDN3aWRDMmZYRTg?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOd3ZRVlZHRC1Zam1LeUd1Zkp3eXlSZktud1c3TzJVdDFrR082Yjdzckd6RGxYelY0RDBHUkNzZ0RNSWtRWkZiNzBoX1N1SmdObk50ajN1UmdUeDBkWmpuZEFzX2E1RXRabVRKbjQtNEhzeVFmNVdSYlNKR2JmUDZqYmhRMA?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObVhsTThJVElEZU1OUTZTMWQ2YW1GX3JUVXBLYkNGZ3lRdEdWdFQ0bW9wNTVreGtFOVZMYjZXLTBwV3E3S0tUQkJUbllYZXZqRDhZUWw4dnVYeGtZU3JUQlBDS0s5SG16QVZSNlQ2bl9DWFE3UGFMZllNWE5FSnBJdnFjLVI3S2FOWXVBSHAzMnAtTmxwUFNRTTVteG8tbGQ3RXgyUjJIX3VHZjNoNmR2Yk9qMUtiNlotMTFxZC130gHDAUFVX3lxTE9Rd3pmeVgxSTRuU29ndW95WFdyRW1kZ3ZOVVJid2x1dVVrYXJDNVVNMUREWHVHZVVvcVdnaDljN3JxRFc1NHRtNl9VdlNqLVhWX0x2Mk1NVmRtbU1vVkRkbG1Oc1hDZ3dNekZaOVlscW0tQ0dKTkxGeHBpXzZHWjVSenlEWENYUDJTUWJkZmIwSjVjT2pkQnNKX1VRRlhDSnBDVTJPaUdpb0dlS25LaG5WRTRXS01DZUdnLU1TUjJWS1l3cw?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQ0Z6TEg4eTctUjMtVzRiNHh1NWY0UGFWUUhiQVA2TzZOUWdqOWozcWV5YUFpVEFDREkxeWdQRlpBSWxhc292b3N1YUEtVnFpSC0tX3NEd2NyLV9laFRyVVVtTHNjRXhmS3J6akxuZm16ZTJpWU82UUpyLXM4M3FoWEwwOE1QQzNwYUdxaGF5R2dDdVV5VEFVcE4wNWI?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNemdrTmotZXRDR1VBNW1LcWQzc3NKSHp6dThaS0JTT2IzRHhkci1aTGhHZHBlNjMyelVLLTR5N0ZEUmxHNGJ3SUV3ZVJzQTN0S0pwUk1uM0U0dFIzcTUycGpGWjQtNGNsZXVHS3hHMXpjRkNqenBMQVc4UV9CcDQyVkdqT1VlMXhfTW9mRlZXQWE?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZUtYMWFvU0NGUFlFVHczWGR2WEg4WkZwVFdrN0Y1YmY4UmRhaklQdkdENG1oWTdtelBKWndOQUZvNHlSd3FqR3VxTGx4ZC1wc3JkUW5CSjhXTG9ueGlyY3B4VTdBdFh3WXRLUm9paWk2c0diYXJGOGFtbF9QLTZ1VHdn?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNkF1Q2FXbWJwU0VuSVZ6a2FZaGNvT3FzcDhWdnpwcnplaHplWGNWMWtNQUlhMzJvZHhVbU1JSHNwdGJpY2ZPU09kMjlwV01sd3dCX2pXampYci1hTEdDQzh5QlBJZFA5VW93NGlNLTVNQWJObGlzRkRtRVdRcGVjQTJJVXFyb2RjVHd2emN4U0o4TnhuWDBNdVVMWDVXUnRWX3RIcXdTa2xJcC1XMUkyQW5uTVg?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYnJ2Yko0b1g3Zjk0MWRKLVlSdElQbUVPLURoekRVdE1sUXBjMjBEUFRIdUVwTmJNQWJBWXFhcHktZkh0VWRoQkFiUXdQQTFlRzNKZUJSRUQxN3RSLUt1OW01QklyUlNmYlplWGpjU3VCTU9PYzFNTGtHSHZWV3ZqOHpTNnNtbE1RLUYwaHlGZE1RcEp1MVE?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRmVFekxvT0hOQ2dvNUpQYUg0bEM1UUFoc3lxX2J3T2hhd2lUSlMtN0ZuNGVjeDlXYmdzU05taC0xQk11Tmxqd196SGw5ZzdEWXJaS3kwaDFXblhuT0NyemJibUxRekdHa3Z1R0RIS0Mwa21MZ1NTWG9EZHJUZU9rSnYxbG02UDFGVkxWVG9wcXdnaEU0cC1xUnhtc1hNQWN0UnVHYmk5S01kb1didlVJQVc1MGZWMUJmTXFr?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNEFEcHd5ZmxxSFlJSVdkRjllUWJnblRldzR1WVRDYmlqaHZFYXFIdnlaZW5TUjVwX2RpZ1RUWWdpczFuc280ZnQ3TFhjWVdndHA2dnMzYUxEMVJuTnRhSmkyZktfTmI1R2lSamgtdVpzbXRwMDE3ZDl6empSSGwtZEd5c3Nna2F6WWdOR0dZTzNKRFlGSkNMLXJEZ3Q5bDg?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMidEFVX3lxTE40cm5WdGRPelBsUmQySHJqanB4UXBvckM1Z3BpRUNRZHU5WmZEb1VLTDlyaVZvRjU1MndRZ1dEZWVaMzZNaHB1TWd1d3hJTWtMVTJWei1waWFBb005X25ONlE0VlpwX2I5clRTcmFtRDhOaWFZ0gF6QVVfeXFMTXNtN1NjS19kck5yNkZRZEozV0o2d2R6dnk4aWpxNHBSWHFXc19xWlQ1Y0ZFY3dURS1BRzRUaW9YWW90ckdSSHMyZnp1WE5EMFVKRlNRVElvQ1hmcWtUR1pKZnFNWEpyUndpTFZ6U3Y0UlB1T09rY1VXVGc?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8wU0FoYVNodWxUTV9VcGxaOGpLYWlFRnVGejFTdWU3cmtkeU1tYjdXNzlPaEdlZ2k3NDk1NW5HbXkxc2JRbWtvam8wdlFKV1hpVlVIel9ieUQ3WVBBV1lMZFV3?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeXJTSzROdXVuYWhJUlVBVEhWTEo2bFVoX3VnOUhKa0hILUtWUEdhS0JBQkpEcmJVbXQ4LWxvTnR0REhIeE1jTExxSXRoTzBBRmhydk5OeHhCSkR0cFRFdHBYaTlUcEdRNUItdkdDeGNxN1h5TkN4NUUxcklnMWFmeFBPNm4wdkdXTF9teS1LSzROSUlHRzB3VVU3ZVhaR0RGV3FmX3Q4RQ?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNeUVfUEpNOHJvWFo1NUhJWjJTcnE0NXZ3VS13SFExeG1hWjY5a3d0WFZ0X1ZrTTM1TUVUUDVvNzMya1ZzZEtwWkhmejljWjgyekVMU2tMRjdWMjgwNDdNSDVlWmVjTHl0SUlTX2QyMDA5THJwekFEaktwNkl2djMzZThaMl81SmV4M01ERndRdkRzSHhqcHoxeUNzcmhSRzVwc2VhZXljMXVRSDZseExHbmo5MHU2QVZiOGpnbTM0UzM0TjVlLXhQQnRIVUdIMGJPazNCTlM5WXFzNUNDdVE?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORmZtWVh3eTFsbXJlcGFlVE5vaXpveEVRMUhVS3FCVXVxOGtMbURqdF9NbTE2dG5UTVh2d1h4VWhuZTJtZEcwYTgxNXZtWngtUGtBdkJmRXNVNVNqbGVFNVpTZ0dXTXRXVzRmNzlwT19JWThITkV3dzU0Ylh2U3V1dWtmV0JPdlhncmw5dDJkb0dqenRMdXRyRGpkOVZaWDJnemhfQ2c1NE01R2VSQ0EtQ2I4ZjZSWEVzX0V2cUIxZkJIX2hO?oc=5",
         "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORF8xblVqWFBKXzg1MVR0bEtZU09ZSWlKVVJaOGh2d1I5OG4tUmNtZThNQmp5VUNyd3QwN1dETk92X3U4Vy01ZkUtRk9wMmdXaHNLdV8xSTFlQ3ExODNxai1GaDRvcWU0WmhoMldZMjdxaGx2YmxjMVV2T2RKSVlMYzAxY0drSVJNMXVWWWtURUJwLURCQVdkVlNKM01ic09SX1p1NWNnd1AwQy05UGJFR2RBcVJaNGJMS0hiX0Q1VkdYNTN0?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcFpoVVFIbWRuYW1BRXZCWGY4LXQ5N2xTZGRjOFNNbHhOTXBmRG5IR3JJVFhLUjBocGU4MnRJVlJPQWR2NWhhbDNNbm1tS1dRMHpfdU9pYjB6SWt2SnN4a180X2w0YTVjdUxGMUd0SklGbXMwUjhMY3pZVjhHaVY0UFNod1ZIdlhhZUE4cWlpLXhrbjFYbk11YjZSeXp5QnN2UGlld0VMYW9ydkxiakwtdWpEMFFCZi1Hbmc?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1IdXhBb19NY2pEc2xDRVJHemRtQ1lSV010RTFVTWpHNlB5S0R1VUNkOGZsb3NiMUd4WmJlVnNvOWtXUFpaNkx4UkpIU00yd2R0LWMtWWQ4c296bkk5SW14aHJVbWRUOWhYZVhqekVqbUYtUFRPZkNjWXZuNU5YaFk?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRVowYXRzVWYyZ1BUdHZLZy05UmMtcGdSVkItdmF4WmxZUzVSQkVpbE5PTG9sS2w1QnpHQmdTWTZvS2s5Z19ILXpZcFVFd29fYkdlNlYyajQ1X3NGUC1Md1BJb3VReHM0eTB5eGg0NzBfZThpTjVpRzRWTXdnemdyUllSdTlPbGp1dE9SVmJzc096cVdDRktBWFM0d2wydWZma1huNE9R?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUkdhZGNReVpJcWxxUzVmZjljcURHdm5oc3ZjMzFWZ3lTd08zUUVISno0QU5LUklld1JSVGc2LVprclc2REVPZW1LN1hveWNpNXhncTlJZjgwMUtvRlJCWHBRUXFLWGVjcXNnNl9mQ0k3VTh0SnBiTmowOFVVZEhseVZLbzM3dkdjaWJNaTZ2aFY2ZmlrTHhscEN6WEpZUlUyVVctWXh5d3hQd9IBrwFBVV95cUxQYVJadHZIVjJjd1dIQUR3cHZiWTZUNzhSMkxVdzV4czFEWDVCajdVNEFPR1ExaERiZE5UbERZNFlwOEoxQkRnMVpfOU1TbTFHcUpGQjNyZHljdWd4aTJTX0lMelRZdUJFSkhYLWlYdk9BdjVfZ21WYzlGN1lYNWJ5Wk1Ud3dFYVRsZ0dGWlVlcW9fckhVcG5teG5JU0RHYzVGNE5NSEkxOHFCT2NlNmFj?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWWFtWW9YMHUyWmxwTUs1VmZnOHZNdnJBNzB6azNFSG84M0FtS2x1SE50TDZMS0ZNS25zQ1lEZnFRdnd3UFhDRXMwLUVXaDZWRW9RZHdfQXdhNjFBdEJSd243SHlselowdWpIZ3RycmRSdUhlaTlDLUVGNjV1a3UwY2llSXpiV0dvVDN2VU1tS3NmbmQzVFNXV2FZcDJzWEI5b05NRW4zRXFPOV9NZnZUMmE5M2sycEtKVUdpNjRkLW90bGtiZnY0LWtvTHRDQQ?oc=5",
-        "bucket": "variant"
       }
     ],
     "intro-style": [
       {
-        "key": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQ1lMUGlaMEZRMWpjR0JocVBTd3pmRTB5RnBSc1U5R1c3cTVwQmJTRnd3akdULTNJR1M5ZDk4XzRld29wRnNMRnFUWmhZaXdUMzdReVZ1VjJsT01DMUs1UWNmTUIzaktNcm15YTZ5X21oNmprbW42dG1Fck1qQ29leEE0SnRqeG80cnJlVWdfZkJkTWV6eTNhTTQ0cTVHekJNTkZUTEM5c1ZpNlo5RkkyZDRNU2FTMW9H?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
+        "key": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOS1M3dFdnaHdFNGh3VzJJOXd4TTd1WThPdzNvVGl4WVZpVDVEOFNody0talNRN0pMZ1pMMURTOFdSZ0lwSXRHckdOSTlBclJvS0twMFFXLU5xdWlhTGxfMlpVd2hEQXZJTkhLdFRod3gyejJHTWRiVnFmblg1bTZPWXZXVjl0V1FnQ3hOZDZ1c0h0LWJuRkdmQkV6TmdJWV9Pa3RzU2tTbGdpT3BWbTdpSlNsRHhhOHJNalY4M2tDaEwwNEV1cTF1cHFR?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
+        "key": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPLU1HVTdBaUNwamwwdFB3ZDlFS0FEbG1VRExYeU5vU2k3QzRLNWdpYzFNVjE3LTl3TTZNSXlmUDM3MGVxTVB2RUd3Yzd0M0hTSlpNQmhwdHozUTBlMGdhcVhjZF9pX2RKQ2N5al9OQzVkN2Y5UFFfd0txVGtGbFpFTGVxaklmQlhmUk9TTm9ZZFdFSFZPY05tRE9SSmk2b0hiVG1r?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZHFFdWVGQTl4bU50bUVzdzFoTWxtd0g2QVJwUVdrR2JlNFFVVHpHeWlSa2owVmhCRzc1ZkdDUFZab2RUX0c2NWVSamwwRWtINmJWT3Vid2tSTjNpM01MX1VyNEU0NmVMU1pqUUNMNllqQXRlTXNfSTZuZ19KRlUteGk4Zk4xdS1wM1ZFM3NPU09VTENpeWhsUXB6TGQyVjJfU1h3S2Y4ZmctRjAtTEhjbmpsY013NlNkdUtmTlZ2V3B0ZWc?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVjNNenUtUjhHVU12U04tU28tUVhrbzRnOE1Kczkwd1ItWno1WE1hYVFUMWVIeTFTal9EbFNIR1g1UFJWM0xzR1RmM3dEMlA2VXZzaWRuVzZjX2FJdlpwT0otNnIwYzlSN1JKZWNsSExUTllmMzM1NHQ5bXF5bGpVVzNsaFg?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMVlESi1NRUJxaF9LNmoyMHNlWnl3cWwxUEdraFBJQTUwX0FxejhhbjB3ZHBrSEJkZFgwQXlVMGFlLWU4SmF5OWhNMnl0RU82TmJuZV9DV3dqVXRkZFlPc2N1ZG5oSmRuSVU4ZlR4ZU9neElqUWJLR2Flb0tPTjRhVThyVWljS29oRnR5cm5JSXpZX1hpYUVNZkViMnVWRk9pdVZKSlNMdVdwelhtd0lCWDJKTDF4aWJVWFgycmE2UGZnMHpaQlgyeGtPaFg0TjhOSUE?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNVE9lYUtxSTVQM1UzaVpuclBlRktUV3hZd0d3cTNQd0gyYWg0emw2VkZCMWgxTnJyTHhMc3MybUI1ZVZ1RzNXdXNvVUlkRW5sYUtCeExYRTAxTGNlMTJWZmVBVXh2NGN0Yk1JVXlIWkJVVVlzT0lvdGtLOWg4WmtDMXlpNDVfUTdFQV9ydGRHYXFHT0ZXOE93ZTJDcXpFT2Fnb25xUW5VUTdSMk96V0pUTm9oZ1VMVzBsd3Zha2FIdThUQzc2SU5hazJJWGYySDJzcWxWcmNiYjFNWEFTX2RZa2ZwU04?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTTdMWlZBV0lla3ZBSGJ3WUl0OFRxc3pnV2hJeFBGcDh0T0ktaGlwSTBCRzV1MnJ3bC13V2sxcWE2WHRMWjJxVk1nRVdfZ2xoM01LY21UNFdCeU1RSE1JWHVQcGxRb0lhUEtJX3JkeWhxdS1HcktPSzhhckhVLVJYcGdNMkVHc0hVTVhIYWUwYnNDUm1QUGp4bC0wWGlBYW94eHFvbEx4dG1JWDRQ?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRWJna0VPYzgtRHlEU0hBSlFZMkhDS2N6SHBuenR5NE9ia2VrcUhJZ0JMejNJcHNfYzJHT05zT0VXQk10YUs5cXJiVlNENWt4TV82aUJzWkNIamU2WXZQN2pYbndnRkZab3JzUFdrdXpMV2lVS2gtdWN1bGFKZEdjcVdFNk8zS0RyWTRYczhnMVJVNzhsR19IdEZtdEwxQzdOUHlQdU9jWmZ0WmJ6RWZFcnNRSUNWd053R18ySnJrX21QajQyb0kwR2VwMA?oc=5",
+        "key": "https://www.theverge.com/tech/1003877/apple-security-camera-no-video",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbzU3NnV4NFhNazRXQzVkeTV6VVNBSzUyUE0yM25SWGQtaFM1YkU4Y1htNWMtYXBPcU9pRDZfZUhSQnZyYnpvWWJ5ZGE4T3ZPOEZrN3IzeHBxMURHQlZySUhfQTBrb0FPdUxFSHRjVEd2ZFh2VGVuMjluVDhxYmhDa2hHc3hnV1p6c1hxaDJaa0VCQXQ3NmhackVWSVBJRlpXMzJXQ3Q2UHlhVXFaMDNN?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNmhKaHhNWDVPbmJCcjVMQndWQVlmYjNzUTFDSk5xUklRS2dTM0RZN25RUG5wWFo4S3dsU3Bta3dsdEhraThUVnhCXzZrT3R3OVU0QmVhRWxzMTRSSk5wV2I4bzV4eXQ0VkNXX29nR2hxS0JtZHhBZElUMkdvSW40MlFCbEtGRmxHb095QXhNdS0wNGwwMU5RT0tQazl3SHNHQmt2MA?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQLUN5SkgzcDVVbFpXMF9pOGwyVmFjMWdBQXhSQjV2N3U0SHBQYUIxWkVmamQ3OWQ5VWdubnZnUVVWQWt6bkl1WGdtQWZURFBOUHZHQTI0Yk5qVU1FSDdSdGdNVFcxQXdocmlwNDVDNEg3YXVKOVdYdXN6cmVJM2pHRTczN1I2V0RaZHhzYk5TQkhkaWtrU1VkM1BfSFpBWG9xNzVYb0R3UHBVS2lnZUM3OXBNZw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQa21CaFNIakYxYURwRjZ6MHNfcFNlVmNzRVNqYzJaeHp6cFk2UGhQdTBwMm40T05sdGJRNEhLYlNEdkctWHFPQTNHWE1XOU1KeDM1c1BHM0l5SGxvc3gyaEdwRmowZklkMm55djR4cXhkcEM3ZFVUVFFlRHRNd3otY3AzTTQ0ZnN2UHhlQVhwdVd4RkhuWTNLeU9EVjNoM1dIbGRsXzdnZUE2WHFiVkI5RGRiZzlfenRzTXpPUnFHQm8yenVDclo3N29yMHJrcDBGOTd5dU81WHhuRFpTSkZycUw2Zw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdmVJSzdpaGRlbEt1TjhVRkJwMGFDOGpkQ29kb204VjFHa1JjekFmNmd4R0NnUmNtZnN4NEpoMjh6LWNvX0MxaWQ0ZVJmWlcxMkhkQUw5OFR3TVp2c2xqbUJLVXVFZ05pRXZLZ1piTXBxM2pjZ1h3S0E4TFhJRFRuYTNLTENkeFdSZDBOMS1yV0VmZw?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUnVPRGx3NnlFd2FpYmRJZDEtMzEtdUxXR3A2UGZqSEdndlhCUVFxWlJBVC1mQ0JfdE1Na1pRejhHcWdBejFqOW9TUDIzc1dMVjk0SHM1OVBiek94bXNfNW1CUi1QU0pkVThRS2ZodVJxOUgxTl9vOGk3SUg1amg0RDc1cGJtVFlOY0dMX25LZWFKdjRJVWFMdWV1dkZxZWxmY29ZSjg2MVpCMUJRaGJhWVUzeF9aR1FPUWJoVnpjejZlb3c2MFHSAcsBQVVfeXFMUDd4U0NtejQ3cU9ZeEhkT2FObUZhT2gzNWZUa0J6akNjbVJiRVo1ZkU2Q3VpcExvZHVUbkt2TGU5eFZVRDVEbVhGb1pHYnpVeVlaSE5tYXFqZ0FoemtpVkJsLW80ZDkyZFF5SmcxMzg5S3RqOWh3bnRKRDhDV3ZNUDI3QmNGalJvWVB6N2g5NnB3T2t1UlNHUm1jYUEyRDdPbFVCcGhuZTVhY05QWUFuU0N4VjkyV05Va1FIeUxfZ3JCSDN3aWRDMmZYRTg?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOd3ZRVlZHRC1Zam1LeUd1Zkp3eXlSZktud1c3TzJVdDFrR082Yjdzckd6RGxYelY0RDBHUkNzZ0RNSWtRWkZiNzBoX1N1SmdObk50ajN1UmdUeDBkWmpuZEFzX2E1RXRabVRKbjQtNEhzeVFmNVdSYlNKR2JmUDZqYmhRMA?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObVhsTThJVElEZU1OUTZTMWQ2YW1GX3JUVXBLYkNGZ3lRdEdWdFQ0bW9wNTVreGtFOVZMYjZXLTBwV3E3S0tUQkJUbllYZXZqRDhZUWw4dnVYeGtZU3JUQlBDS0s5SG16QVZSNlQ2bl9DWFE3UGFMZllNWE5FSnBJdnFjLVI3S2FOWXVBSHAzMnAtTmxwUFNRTTVteG8tbGQ3RXgyUjJIX3VHZjNoNmR2Yk9qMUtiNlotMTFxZC130gHDAUFVX3lxTE9Rd3pmeVgxSTRuU29ndW95WFdyRW1kZ3ZOVVJid2x1dVVrYXJDNVVNMUREWHVHZVVvcVdnaDljN3JxRFc1NHRtNl9VdlNqLVhWX0x2Mk1NVmRtbU1vVkRkbG1Oc1hDZ3dNekZaOVlscW0tQ0dKTkxGeHBpXzZHWjVSenlEWENYUDJTUWJkZmIwSjVjT2pkQnNKX1VRRlhDSnBDVTJPaUdpb0dlS25LaG5WRTRXS01DZUdnLU1TUjJWS1l3cw?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQ0Z6TEg4eTctUjMtVzRiNHh1NWY0UGFWUUhiQVA2TzZOUWdqOWozcWV5YUFpVEFDREkxeWdQRlpBSWxhc292b3N1YUEtVnFpSC0tX3NEd2NyLV9laFRyVVVtTHNjRXhmS3J6akxuZm16ZTJpWU82UUpyLXM4M3FoWEwwOE1QQzNwYUdxaGF5R2dDdVV5VEFVcE4wNWI?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNemdrTmotZXRDR1VBNW1LcWQzc3NKSHp6dThaS0JTT2IzRHhkci1aTGhHZHBlNjMyelVLLTR5N0ZEUmxHNGJ3SUV3ZVJzQTN0S0pwUk1uM0U0dFIzcTUycGpGWjQtNGNsZXVHS3hHMXpjRkNqenBMQVc4UV9CcDQyVkdqT1VlMXhfTW9mRlZXQWE?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZUtYMWFvU0NGUFlFVHczWGR2WEg4WkZwVFdrN0Y1YmY4UmRhaklQdkdENG1oWTdtelBKWndOQUZvNHlSd3FqR3VxTGx4ZC1wc3JkUW5CSjhXTG9ueGlyY3B4VTdBdFh3WXRLUm9paWk2c0diYXJGOGFtbF9QLTZ1VHdn?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNkF1Q2FXbWJwU0VuSVZ6a2FZaGNvT3FzcDhWdnpwcnplaHplWGNWMWtNQUlhMzJvZHhVbU1JSHNwdGJpY2ZPU09kMjlwV01sd3dCX2pXampYci1hTEdDQzh5QlBJZFA5VW93NGlNLTVNQWJObGlzRkRtRVdRcGVjQTJJVXFyb2RjVHd2emN4U0o4TnhuWDBNdVVMWDVXUnRWX3RIcXdTa2xJcC1XMUkyQW5uTVg?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYnJ2Yko0b1g3Zjk0MWRKLVlSdElQbUVPLURoekRVdE1sUXBjMjBEUFRIdUVwTmJNQWJBWXFhcHktZkh0VWRoQkFiUXdQQTFlRzNKZUJSRUQxN3RSLUt1OW01QklyUlNmYlplWGpjU3VCTU9PYzFNTGtHSHZWV3ZqOHpTNnNtbE1RLUYwaHlGZE1RcEp1MVE?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRmVFekxvT0hOQ2dvNUpQYUg0bEM1UUFoc3lxX2J3T2hhd2lUSlMtN0ZuNGVjeDlXYmdzU05taC0xQk11Tmxqd196SGw5ZzdEWXJaS3kwaDFXblhuT0NyemJibUxRekdHa3Z1R0RIS0Mwa21MZ1NTWG9EZHJUZU9rSnYxbG02UDFGVkxWVG9wcXdnaEU0cC1xUnhtc1hNQWN0UnVHYmk5S01kb1didlVJQVc1MGZWMUJmTXFr?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNEFEcHd5ZmxxSFlJSVdkRjllUWJnblRldzR1WVRDYmlqaHZFYXFIdnlaZW5TUjVwX2RpZ1RUWWdpczFuc280ZnQ3TFhjWVdndHA2dnMzYUxEMVJuTnRhSmkyZktfTmI1R2lSamgtdVpzbXRwMDE3ZDl6empSSGwtZEd5c3Nna2F6WWdOR0dZTzNKRFlGSkNMLXJEZ3Q5bDg?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMidEFVX3lxTE40cm5WdGRPelBsUmQySHJqanB4UXBvckM1Z3BpRUNRZHU5WmZEb1VLTDlyaVZvRjU1MndRZ1dEZWVaMzZNaHB1TWd1d3hJTWtMVTJWei1waWFBb005X25ONlE0VlpwX2I5clRTcmFtRDhOaWFZ0gF6QVVfeXFMTXNtN1NjS19kck5yNkZRZEozV0o2d2R6dnk4aWpxNHBSWHFXc19xWlQ1Y0ZFY3dURS1BRzRUaW9YWW90ckdSSHMyZnp1WE5EMFVKRlNRVElvQ1hmcWtUR1pKZnFNWEpyUndpTFZ6U3Y0UlB1T09rY1VXVGc?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8wU0FoYVNodWxUTV9VcGxaOGpLYWlFRnVGejFTdWU3cmtkeU1tYjdXNzlPaEdlZ2k3NDk1NW5HbXkxc2JRbWtvam8wdlFKV1hpVlVIel9ieUQ3WVBBV1lMZFV3?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeXJTSzROdXVuYWhJUlVBVEhWTEo2bFVoX3VnOUhKa0hILUtWUEdhS0JBQkpEcmJVbXQ4LWxvTnR0REhIeE1jTExxSXRoTzBBRmhydk5OeHhCSkR0cFRFdHBYaTlUcEdRNUItdkdDeGNxN1h5TkN4NUUxcklnMWFmeFBPNm4wdkdXTF9teS1LSzROSUlHRzB3VVU3ZVhaR0RGV3FmX3Q4RQ?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNeUVfUEpNOHJvWFo1NUhJWjJTcnE0NXZ3VS13SFExeG1hWjY5a3d0WFZ0X1ZrTTM1TUVUUDVvNzMya1ZzZEtwWkhmejljWjgyekVMU2tMRjdWMjgwNDdNSDVlWmVjTHl0SUlTX2QyMDA5THJwekFEaktwNkl2djMzZThaMl81SmV4M01ERndRdkRzSHhqcHoxeUNzcmhSRzVwc2VhZXljMXVRSDZseExHbmo5MHU2QVZiOGpnbTM0UzM0TjVlLXhQQnRIVUdIMGJPazNCTlM5WXFzNUNDdVE?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORmZtWVh3eTFsbXJlcGFlVE5vaXpveEVRMUhVS3FCVXVxOGtMbURqdF9NbTE2dG5UTVh2d1h4VWhuZTJtZEcwYTgxNXZtWngtUGtBdkJmRXNVNVNqbGVFNVpTZ0dXTXRXVzRmNzlwT19JWThITkV3dzU0Ylh2U3V1dWtmV0JPdlhncmw5dDJkb0dqenRMdXRyRGpkOVZaWDJnemhfQ2c1NE01R2VSQ0EtQ2I4ZjZSWEVzX0V2cUIxZkJIX2hO?oc=5",
         "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORF8xblVqWFBKXzg1MVR0bEtZU09ZSWlKVVJaOGh2d1I5OG4tUmNtZThNQmp5VUNyd3QwN1dETk92X3U4Vy01ZkUtRk9wMmdXaHNLdV8xSTFlQ3ExODNxai1GaDRvcWU0WmhoMldZMjdxaGx2YmxjMVV2T2RKSVlMYzAxY0drSVJNMXVWWWtURUJwLURCQVdkVlNKM01ic09SX1p1NWNnd1AwQy05UGJFR2RBcVJaNGJMS0hiX0Q1VkdYNTN0?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcFpoVVFIbWRuYW1BRXZCWGY4LXQ5N2xTZGRjOFNNbHhOTXBmRG5IR3JJVFhLUjBocGU4MnRJVlJPQWR2NWhhbDNNbm1tS1dRMHpfdU9pYjB6SWt2SnN4a180X2w0YTVjdUxGMUd0SklGbXMwUjhMY3pZVjhHaVY0UFNod1ZIdlhhZUE4cWlpLXhrbjFYbk11YjZSeXp5QnN2UGlld0VMYW9ydkxiakwtdWpEMFFCZi1Hbmc?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1IdXhBb19NY2pEc2xDRVJHemRtQ1lSV010RTFVTWpHNlB5S0R1VUNkOGZsb3NiMUd4WmJlVnNvOWtXUFpaNkx4UkpIU00yd2R0LWMtWWQ4c296bkk5SW14aHJVbWRUOWhYZVhqekVqbUYtUFRPZkNjWXZuNU5YaFk?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRVowYXRzVWYyZ1BUdHZLZy05UmMtcGdSVkItdmF4WmxZUzVSQkVpbE5PTG9sS2w1QnpHQmdTWTZvS2s5Z19ILXpZcFVFd29fYkdlNlYyajQ1X3NGUC1Md1BJb3VReHM0eTB5eGg0NzBfZThpTjVpRzRWTXdnemdyUllSdTlPbGp1dE9SVmJzc096cVdDRktBWFM0d2wydWZma1huNE9R?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUkdhZGNReVpJcWxxUzVmZjljcURHdm5oc3ZjMzFWZ3lTd08zUUVISno0QU5LUklld1JSVGc2LVprclc2REVPZW1LN1hveWNpNXhncTlJZjgwMUtvRlJCWHBRUXFLWGVjcXNnNl9mQ0k3VTh0SnBiTmowOFVVZEhseVZLbzM3dkdjaWJNaTZ2aFY2ZmlrTHhscEN6WEpZUlUyVVctWXh5d3hQd9IBrwFBVV95cUxQYVJadHZIVjJjd1dIQUR3cHZiWTZUNzhSMkxVdzV4czFEWDVCajdVNEFPR1ExaERiZE5UbERZNFlwOEoxQkRnMVpfOU1TbTFHcUpGQjNyZHljdWd4aTJTX0lMelRZdUJFSkhYLWlYdk9BdjVfZ21WYzlGN1lYNWJ5Wk1Ud3dFYVRsZ0dGWlVlcW9fckhVcG5teG5JU0RHYzVGNE5NSEkxOHFCT2NlNmFj?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWWFtWW9YMHUyWmxwTUs1VmZnOHZNdnJBNzB6azNFSG84M0FtS2x1SE50TDZMS0ZNS25zQ1lEZnFRdnd3UFhDRXMwLUVXaDZWRW9RZHdfQXdhNjFBdEJSd243SHlselowdWpIZ3RycmRSdUhlaTlDLUVGNjV1a3UwY2llSXpiV0dvVDN2VU1tS3NmbmQzVFNXV2FZcDJzWEI5b05NRW4zRXFPOV9NZnZUMmE5M2sycEtKVUdpNjRkLW90bGtiZnY0LWtvTHRDQQ?oc=5",
-        "bucket": "variant"
       }
     ],
     "cta-placement": [
       {
-        "key": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQ1lMUGlaMEZRMWpjR0JocVBTd3pmRTB5RnBSc1U5R1c3cTVwQmJTRnd3akdULTNJR1M5ZDk4XzRld29wRnNMRnFUWmhZaXdUMzdReVZ1VjJsT01DMUs1UWNmTUIzaktNcm15YTZ5X21oNmprbW42dG1Fck1qQ29leEE0SnRqeG80cnJlVWdfZkJkTWV6eTNhTTQ0cTVHekJNTkZUTEM5c1ZpNlo5RkkyZDRNU2FTMW9H?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
+        "key": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOS1M3dFdnaHdFNGh3VzJJOXd4TTd1WThPdzNvVGl4WVZpVDVEOFNody0talNRN0pMZ1pMMURTOFdSZ0lwSXRHckdOSTlBclJvS0twMFFXLU5xdWlhTGxfMlpVd2hEQXZJTkhLdFRod3gyejJHTWRiVnFmblg1bTZPWXZXVjl0V1FnQ3hOZDZ1c0h0LWJuRkdmQkV6TmdJWV9Pa3RzU2tTbGdpT3BWbTdpSlNsRHhhOHJNalY4M2tDaEwwNEV1cTF1cHFR?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
+        "key": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPLU1HVTdBaUNwamwwdFB3ZDlFS0FEbG1VRExYeU5vU2k3QzRLNWdpYzFNVjE3LTl3TTZNSXlmUDM3MGVxTVB2RUd3Yzd0M0hTSlpNQmhwdHozUTBlMGdhcVhjZF9pX2RKQ2N5al9OQzVkN2Y5UFFfd0txVGtGbFpFTGVxaklmQlhmUk9TTm9ZZFdFSFZPY05tRE9SSmk2b0hiVG1r?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZHFFdWVGQTl4bU50bUVzdzFoTWxtd0g2QVJwUVdrR2JlNFFVVHpHeWlSa2owVmhCRzc1ZkdDUFZab2RUX0c2NWVSamwwRWtINmJWT3Vid2tSTjNpM01MX1VyNEU0NmVMU1pqUUNMNllqQXRlTXNfSTZuZ19KRlUteGk4Zk4xdS1wM1ZFM3NPU09VTENpeWhsUXB6TGQyVjJfU1h3S2Y4ZmctRjAtTEhjbmpsY013NlNkdUtmTlZ2V3B0ZWc?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVjNNenUtUjhHVU12U04tU28tUVhrbzRnOE1Kczkwd1ItWno1WE1hYVFUMWVIeTFTal9EbFNIR1g1UFJWM0xzR1RmM3dEMlA2VXZzaWRuVzZjX2FJdlpwT0otNnIwYzlSN1JKZWNsSExUTllmMzM1NHQ5bXF5bGpVVzNsaFg?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMVlESi1NRUJxaF9LNmoyMHNlWnl3cWwxUEdraFBJQTUwX0FxejhhbjB3ZHBrSEJkZFgwQXlVMGFlLWU4SmF5OWhNMnl0RU82TmJuZV9DV3dqVXRkZFlPc2N1ZG5oSmRuSVU4ZlR4ZU9neElqUWJLR2Flb0tPTjRhVThyVWljS29oRnR5cm5JSXpZX1hpYUVNZkViMnVWRk9pdVZKSlNMdVdwelhtd0lCWDJKTDF4aWJVWFgycmE2UGZnMHpaQlgyeGtPaFg0TjhOSUE?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNVE9lYUtxSTVQM1UzaVpuclBlRktUV3hZd0d3cTNQd0gyYWg0emw2VkZCMWgxTnJyTHhMc3MybUI1ZVZ1RzNXdXNvVUlkRW5sYUtCeExYRTAxTGNlMTJWZmVBVXh2NGN0Yk1JVXlIWkJVVVlzT0lvdGtLOWg4WmtDMXlpNDVfUTdFQV9ydGRHYXFHT0ZXOE93ZTJDcXpFT2Fnb25xUW5VUTdSMk96V0pUTm9oZ1VMVzBsd3Zha2FIdThUQzc2SU5hazJJWGYySDJzcWxWcmNiYjFNWEFTX2RZa2ZwU04?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTTdMWlZBV0lla3ZBSGJ3WUl0OFRxc3pnV2hJeFBGcDh0T0ktaGlwSTBCRzV1MnJ3bC13V2sxcWE2WHRMWjJxVk1nRVdfZ2xoM01LY21UNFdCeU1RSE1JWHVQcGxRb0lhUEtJX3JkeWhxdS1HcktPSzhhckhVLVJYcGdNMkVHc0hVTVhIYWUwYnNDUm1QUGp4bC0wWGlBYW94eHFvbEx4dG1JWDRQ?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRWJna0VPYzgtRHlEU0hBSlFZMkhDS2N6SHBuenR5NE9ia2VrcUhJZ0JMejNJcHNfYzJHT05zT0VXQk10YUs5cXJiVlNENWt4TV82aUJzWkNIamU2WXZQN2pYbndnRkZab3JzUFdrdXpMV2lVS2gtdWN1bGFKZEdjcVdFNk8zS0RyWTRYczhnMVJVNzhsR19IdEZtdEwxQzdOUHlQdU9jWmZ0WmJ6RWZFcnNRSUNWd053R18ySnJrX21QajQyb0kwR2VwMA?oc=5",
+        "key": "https://www.theverge.com/tech/1003877/apple-security-camera-no-video",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbzU3NnV4NFhNazRXQzVkeTV6VVNBSzUyUE0yM25SWGQtaFM1YkU4Y1htNWMtYXBPcU9pRDZfZUhSQnZyYnpvWWJ5ZGE4T3ZPOEZrN3IzeHBxMURHQlZySUhfQTBrb0FPdUxFSHRjVEd2ZFh2VGVuMjluVDhxYmhDa2hHc3hnV1p6c1hxaDJaa0VCQXQ3NmhackVWSVBJRlpXMzJXQ3Q2UHlhVXFaMDNN?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNmhKaHhNWDVPbmJCcjVMQndWQVlmYjNzUTFDSk5xUklRS2dTM0RZN25RUG5wWFo4S3dsU3Bta3dsdEhraThUVnhCXzZrT3R3OVU0QmVhRWxzMTRSSk5wV2I4bzV4eXQ0VkNXX29nR2hxS0JtZHhBZElUMkdvSW40MlFCbEtGRmxHb095QXhNdS0wNGwwMU5RT0tQazl3SHNHQmt2MA?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQLUN5SkgzcDVVbFpXMF9pOGwyVmFjMWdBQXhSQjV2N3U0SHBQYUIxWkVmamQ3OWQ5VWdubnZnUVVWQWt6bkl1WGdtQWZURFBOUHZHQTI0Yk5qVU1FSDdSdGdNVFcxQXdocmlwNDVDNEg3YXVKOVdYdXN6cmVJM2pHRTczN1I2V0RaZHhzYk5TQkhkaWtrU1VkM1BfSFpBWG9xNzVYb0R3UHBVS2lnZUM3OXBNZw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQa21CaFNIakYxYURwRjZ6MHNfcFNlVmNzRVNqYzJaeHp6cFk2UGhQdTBwMm40T05sdGJRNEhLYlNEdkctWHFPQTNHWE1XOU1KeDM1c1BHM0l5SGxvc3gyaEdwRmowZklkMm55djR4cXhkcEM3ZFVUVFFlRHRNd3otY3AzTTQ0ZnN2UHhlQVhwdVd4RkhuWTNLeU9EVjNoM1dIbGRsXzdnZUE2WHFiVkI5RGRiZzlfenRzTXpPUnFHQm8yenVDclo3N29yMHJrcDBGOTd5dU81WHhuRFpTSkZycUw2Zw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdmVJSzdpaGRlbEt1TjhVRkJwMGFDOGpkQ29kb204VjFHa1JjekFmNmd4R0NnUmNtZnN4NEpoMjh6LWNvX0MxaWQ0ZVJmWlcxMkhkQUw5OFR3TVp2c2xqbUJLVXVFZ05pRXZLZ1piTXBxM2pjZ1h3S0E4TFhJRFRuYTNLTENkeFdSZDBOMS1yV0VmZw?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUnVPRGx3NnlFd2FpYmRJZDEtMzEtdUxXR3A2UGZqSEdndlhCUVFxWlJBVC1mQ0JfdE1Na1pRejhHcWdBejFqOW9TUDIzc1dMVjk0SHM1OVBiek94bXNfNW1CUi1QU0pkVThRS2ZodVJxOUgxTl9vOGk3SUg1amg0RDc1cGJtVFlOY0dMX25LZWFKdjRJVWFMdWV1dkZxZWxmY29ZSjg2MVpCMUJRaGJhWVUzeF9aR1FPUWJoVnpjejZlb3c2MFHSAcsBQVVfeXFMUDd4U0NtejQ3cU9ZeEhkT2FObUZhT2gzNWZUa0J6akNjbVJiRVo1ZkU2Q3VpcExvZHVUbkt2TGU5eFZVRDVEbVhGb1pHYnpVeVlaSE5tYXFqZ0FoemtpVkJsLW80ZDkyZFF5SmcxMzg5S3RqOWh3bnRKRDhDV3ZNUDI3QmNGalJvWVB6N2g5NnB3T2t1UlNHUm1jYUEyRDdPbFVCcGhuZTVhY05QWUFuU0N4VjkyV05Va1FIeUxfZ3JCSDN3aWRDMmZYRTg?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOd3ZRVlZHRC1Zam1LeUd1Zkp3eXlSZktud1c3TzJVdDFrR082Yjdzckd6RGxYelY0RDBHUkNzZ0RNSWtRWkZiNzBoX1N1SmdObk50ajN1UmdUeDBkWmpuZEFzX2E1RXRabVRKbjQtNEhzeVFmNVdSYlNKR2JmUDZqYmhRMA?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObVhsTThJVElEZU1OUTZTMWQ2YW1GX3JUVXBLYkNGZ3lRdEdWdFQ0bW9wNTVreGtFOVZMYjZXLTBwV3E3S0tUQkJUbllYZXZqRDhZUWw4dnVYeGtZU3JUQlBDS0s5SG16QVZSNlQ2bl9DWFE3UGFMZllNWE5FSnBJdnFjLVI3S2FOWXVBSHAzMnAtTmxwUFNRTTVteG8tbGQ3RXgyUjJIX3VHZjNoNmR2Yk9qMUtiNlotMTFxZC130gHDAUFVX3lxTE9Rd3pmeVgxSTRuU29ndW95WFdyRW1kZ3ZOVVJid2x1dVVrYXJDNVVNMUREWHVHZVVvcVdnaDljN3JxRFc1NHRtNl9VdlNqLVhWX0x2Mk1NVmRtbU1vVkRkbG1Oc1hDZ3dNekZaOVlscW0tQ0dKTkxGeHBpXzZHWjVSenlEWENYUDJTUWJkZmIwSjVjT2pkQnNKX1VRRlhDSnBDVTJPaUdpb0dlS25LaG5WRTRXS01DZUdnLU1TUjJWS1l3cw?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQ0Z6TEg4eTctUjMtVzRiNHh1NWY0UGFWUUhiQVA2TzZOUWdqOWozcWV5YUFpVEFDREkxeWdQRlpBSWxhc292b3N1YUEtVnFpSC0tX3NEd2NyLV9laFRyVVVtTHNjRXhmS3J6akxuZm16ZTJpWU82UUpyLXM4M3FoWEwwOE1QQzNwYUdxaGF5R2dDdVV5VEFVcE4wNWI?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNemdrTmotZXRDR1VBNW1LcWQzc3NKSHp6dThaS0JTT2IzRHhkci1aTGhHZHBlNjMyelVLLTR5N0ZEUmxHNGJ3SUV3ZVJzQTN0S0pwUk1uM0U0dFIzcTUycGpGWjQtNGNsZXVHS3hHMXpjRkNqenBMQVc4UV9CcDQyVkdqT1VlMXhfTW9mRlZXQWE?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZUtYMWFvU0NGUFlFVHczWGR2WEg4WkZwVFdrN0Y1YmY4UmRhaklQdkdENG1oWTdtelBKWndOQUZvNHlSd3FqR3VxTGx4ZC1wc3JkUW5CSjhXTG9ueGlyY3B4VTdBdFh3WXRLUm9paWk2c0diYXJGOGFtbF9QLTZ1VHdn?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNkF1Q2FXbWJwU0VuSVZ6a2FZaGNvT3FzcDhWdnpwcnplaHplWGNWMWtNQUlhMzJvZHhVbU1JSHNwdGJpY2ZPU09kMjlwV01sd3dCX2pXampYci1hTEdDQzh5QlBJZFA5VW93NGlNLTVNQWJObGlzRkRtRVdRcGVjQTJJVXFyb2RjVHd2emN4U0o4TnhuWDBNdVVMWDVXUnRWX3RIcXdTa2xJcC1XMUkyQW5uTVg?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYnJ2Yko0b1g3Zjk0MWRKLVlSdElQbUVPLURoekRVdE1sUXBjMjBEUFRIdUVwTmJNQWJBWXFhcHktZkh0VWRoQkFiUXdQQTFlRzNKZUJSRUQxN3RSLUt1OW01QklyUlNmYlplWGpjU3VCTU9PYzFNTGtHSHZWV3ZqOHpTNnNtbE1RLUYwaHlGZE1RcEp1MVE?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRmVFekxvT0hOQ2dvNUpQYUg0bEM1UUFoc3lxX2J3T2hhd2lUSlMtN0ZuNGVjeDlXYmdzU05taC0xQk11Tmxqd196SGw5ZzdEWXJaS3kwaDFXblhuT0NyemJibUxRekdHa3Z1R0RIS0Mwa21MZ1NTWG9EZHJUZU9rSnYxbG02UDFGVkxWVG9wcXdnaEU0cC1xUnhtc1hNQWN0UnVHYmk5S01kb1didlVJQVc1MGZWMUJmTXFr?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNEFEcHd5ZmxxSFlJSVdkRjllUWJnblRldzR1WVRDYmlqaHZFYXFIdnlaZW5TUjVwX2RpZ1RUWWdpczFuc280ZnQ3TFhjWVdndHA2dnMzYUxEMVJuTnRhSmkyZktfTmI1R2lSamgtdVpzbXRwMDE3ZDl6empSSGwtZEd5c3Nna2F6WWdOR0dZTzNKRFlGSkNMLXJEZ3Q5bDg?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMidEFVX3lxTE40cm5WdGRPelBsUmQySHJqanB4UXBvckM1Z3BpRUNRZHU5WmZEb1VLTDlyaVZvRjU1MndRZ1dEZWVaMzZNaHB1TWd1d3hJTWtMVTJWei1waWFBb005X25ONlE0VlpwX2I5clRTcmFtRDhOaWFZ0gF6QVVfeXFMTXNtN1NjS19kck5yNkZRZEozV0o2d2R6dnk4aWpxNHBSWHFXc19xWlQ1Y0ZFY3dURS1BRzRUaW9YWW90ckdSSHMyZnp1WE5EMFVKRlNRVElvQ1hmcWtUR1pKZnFNWEpyUndpTFZ6U3Y0UlB1T09rY1VXVGc?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8wU0FoYVNodWxUTV9VcGxaOGpLYWlFRnVGejFTdWU3cmtkeU1tYjdXNzlPaEdlZ2k3NDk1NW5HbXkxc2JRbWtvam8wdlFKV1hpVlVIel9ieUQ3WVBBV1lMZFV3?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeXJTSzROdXVuYWhJUlVBVEhWTEo2bFVoX3VnOUhKa0hILUtWUEdhS0JBQkpEcmJVbXQ4LWxvTnR0REhIeE1jTExxSXRoTzBBRmhydk5OeHhCSkR0cFRFdHBYaTlUcEdRNUItdkdDeGNxN1h5TkN4NUUxcklnMWFmeFBPNm4wdkdXTF9teS1LSzROSUlHRzB3VVU3ZVhaR0RGV3FmX3Q4RQ?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNeUVfUEpNOHJvWFo1NUhJWjJTcnE0NXZ3VS13SFExeG1hWjY5a3d0WFZ0X1ZrTTM1TUVUUDVvNzMya1ZzZEtwWkhmejljWjgyekVMU2tMRjdWMjgwNDdNSDVlWmVjTHl0SUlTX2QyMDA5THJwekFEaktwNkl2djMzZThaMl81SmV4M01ERndRdkRzSHhqcHoxeUNzcmhSRzVwc2VhZXljMXVRSDZseExHbmo5MHU2QVZiOGpnbTM0UzM0TjVlLXhQQnRIVUdIMGJPazNCTlM5WXFzNUNDdVE?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORmZtWVh3eTFsbXJlcGFlVE5vaXpveEVRMUhVS3FCVXVxOGtMbURqdF9NbTE2dG5UTVh2d1h4VWhuZTJtZEcwYTgxNXZtWngtUGtBdkJmRXNVNVNqbGVFNVpTZ0dXTXRXVzRmNzlwT19JWThITkV3dzU0Ylh2U3V1dWtmV0JPdlhncmw5dDJkb0dqenRMdXRyRGpkOVZaWDJnemhfQ2c1NE01R2VSQ0EtQ2I4ZjZSWEVzX0V2cUIxZkJIX2hO?oc=5",
         "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORF8xblVqWFBKXzg1MVR0bEtZU09ZSWlKVVJaOGh2d1I5OG4tUmNtZThNQmp5VUNyd3QwN1dETk92X3U4Vy01ZkUtRk9wMmdXaHNLdV8xSTFlQ3ExODNxai1GaDRvcWU0WmhoMldZMjdxaGx2YmxjMVV2T2RKSVlMYzAxY0drSVJNMXVWWWtURUJwLURCQVdkVlNKM01ic09SX1p1NWNnd1AwQy05UGJFR2RBcVJaNGJMS0hiX0Q1VkdYNTN0?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcFpoVVFIbWRuYW1BRXZCWGY4LXQ5N2xTZGRjOFNNbHhOTXBmRG5IR3JJVFhLUjBocGU4MnRJVlJPQWR2NWhhbDNNbm1tS1dRMHpfdU9pYjB6SWt2SnN4a180X2w0YTVjdUxGMUd0SklGbXMwUjhMY3pZVjhHaVY0UFNod1ZIdlhhZUE4cWlpLXhrbjFYbk11YjZSeXp5QnN2UGlld0VMYW9ydkxiakwtdWpEMFFCZi1Hbmc?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1IdXhBb19NY2pEc2xDRVJHemRtQ1lSV010RTFVTWpHNlB5S0R1VUNkOGZsb3NiMUd4WmJlVnNvOWtXUFpaNkx4UkpIU00yd2R0LWMtWWQ4c296bkk5SW14aHJVbWRUOWhYZVhqekVqbUYtUFRPZkNjWXZuNU5YaFk?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRVowYXRzVWYyZ1BUdHZLZy05UmMtcGdSVkItdmF4WmxZUzVSQkVpbE5PTG9sS2w1QnpHQmdTWTZvS2s5Z19ILXpZcFVFd29fYkdlNlYyajQ1X3NGUC1Md1BJb3VReHM0eTB5eGg0NzBfZThpTjVpRzRWTXdnemdyUllSdTlPbGp1dE9SVmJzc096cVdDRktBWFM0d2wydWZma1huNE9R?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUkdhZGNReVpJcWxxUzVmZjljcURHdm5oc3ZjMzFWZ3lTd08zUUVISno0QU5LUklld1JSVGc2LVprclc2REVPZW1LN1hveWNpNXhncTlJZjgwMUtvRlJCWHBRUXFLWGVjcXNnNl9mQ0k3VTh0SnBiTmowOFVVZEhseVZLbzM3dkdjaWJNaTZ2aFY2ZmlrTHhscEN6WEpZUlUyVVctWXh5d3hQd9IBrwFBVV95cUxQYVJadHZIVjJjd1dIQUR3cHZiWTZUNzhSMkxVdzV4czFEWDVCajdVNEFPR1ExaERiZE5UbERZNFlwOEoxQkRnMVpfOU1TbTFHcUpGQjNyZHljdWd4aTJTX0lMelRZdUJFSkhYLWlYdk9BdjVfZ21WYzlGN1lYNWJ5Wk1Ud3dFYVRsZ0dGWlVlcW9fckhVcG5teG5JU0RHYzVGNE5NSEkxOHFCT2NlNmFj?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWWFtWW9YMHUyWmxwTUs1VmZnOHZNdnJBNzB6azNFSG84M0FtS2x1SE50TDZMS0ZNS25zQ1lEZnFRdnd3UFhDRXMwLUVXaDZWRW9RZHdfQXdhNjFBdEJSd243SHlselowdWpIZ3RycmRSdUhlaTlDLUVGNjV1a3UwY2llSXpiV0dvVDN2VU1tS3NmbmQzVFNXV2FZcDJzWEI5b05NRW4zRXFPOV9NZnZUMmE5M2sycEtKVUdpNjRkLW90bGtiZnY0LWtvTHRDQQ?oc=5",
-        "bucket": "variant"
       }
     ]
   },
@@ -337,8 +337,8 @@
     {
       "experimentId": "headline-style",
       "sample": {
-        "control": 11,
-        "variant": 9,
+        "control": 14,
+        "variant": 6,
         "total": 20
       },
       "outcomeMetrics": {
@@ -352,8 +352,8 @@
     {
       "experimentId": "intro-style",
       "sample": {
-        "control": 11,
-        "variant": 9,
+        "control": 14,
+        "variant": 6,
         "total": 20
       },
       "outcomeMetrics": {
@@ -367,8 +367,8 @@
     {
       "experimentId": "cta-placement",
       "sample": {
-        "control": 11,
-        "variant": 9,
+        "control": 14,
+        "variant": 6,
         "total": 20
       },
       "outcomeMetrics": {
@@ -381,6 +381,6 @@
     }
   ],
   "history": {
-    "previousUpdatedAt": "2026-10-01T13:51:24.923Z"
+    "previousUpdatedAt": "2026-10-01T22:53:33.253Z"
   }
 }
