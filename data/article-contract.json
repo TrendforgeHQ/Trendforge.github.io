@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "title": "CLARITY Act Could Unlock 11 Crypto Activities for US Banks Under Senate Plan - Bitcoin Foundation",
-  "mode": "bounded",
+  "title": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China - Ars Technica",
+  "mode": "narrow",
   "wordBudget": {
-    "min": 425,
-    "max": 750,
-    "soft": 588
+    "min": 231,
+    "max": 420,
+    "soft": 326
   },
   "h2Budget": {
-    "preferredMin": 2,
-    "preferredMax": 4
+    "preferredMin": 1,
+    "preferredMax": 2
   },
   "atomicClaimBudget": 18,
   "allowedFactIds": [
@@ -30,9 +30,24 @@
     "F15",
     "F16",
     "F17",
+    "F18",
+    "F19",
+    "F20",
+    "F21",
+    "F22",
     "F23",
     "F24",
-    "F25"
+    "F25",
+    "F26",
+    "F27",
+    "F28",
+    "F29",
+    "F30",
+    "F31",
+    "F32",
+    "F33",
+    "F34",
+    "F35"
   ],
   "synthesis": {
     "allowed": true,
@@ -56,9 +71,24 @@
       "F15",
       "F16",
       "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22",
       "F23",
       "F24",
-      "F25"
+      "F25",
+      "F26",
+      "F27",
+      "F28",
+      "F29",
+      "F30",
+      "F31",
+      "F32",
+      "F33",
+      "F34",
+      "F35"
     ]
   },
   "rules": {
@@ -67,7 +97,7 @@
     "newEntitiesInSynthesis": false,
     "newCausalityInSynthesis": false
   },
-  "generatedAt": "2026-10-02T11:37:00.649Z",
-  "articleTitle": "Senate Vote on CLARITY Act Sends Shockwaves Through Crypto and Banking Sectors",
-  "articleSlug": "senate-vote-on-clarity-act-sends-shockwaves-through-crypto-and-banking-sectors"
+  "generatedAt": "2026-10-03T02:55:24.177Z",
+  "articleTitle": "US Arrests CEO Over $300 Million Nvidia Chip Smuggling Scheme",
+  "articleSlug": "us-arrests-ceo-over-300-million-nvidia-chip-smuggling-scheme"
 }

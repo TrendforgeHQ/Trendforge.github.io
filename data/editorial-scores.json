@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-02T17:06:21.038Z",
+  "generatedAt": "2026-10-03T02:56:20.644Z",
   "status": "pass",
   "currentGeneratedArticle": null,
   "currentScore": null,
   "identity": {
     "method": "brief.title",
-    "rejectedMarker": false
+    "rejectedMarker": true
   },
   "policy": {
     "publishCandidate": 90,

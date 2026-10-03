@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-02T11:37:44.647Z",
-  "runId": "37001644164",
-  "articlePath": "content/articles/senate-vote-on-clarity-act-sends-shockwaves-through-crypto-and-banking-sectors.md",
+  "generatedAt": "2026-10-03T02:56:16.344Z",
+  "runId": "37091242166",
+  "articlePath": "content/articles/us-arrests-ceo-over-300-million-nvidia-chip-smuggling-scheme.md",
   "provider": "Groq",
-  "previousTitle": "Senate Vote on CLARITY Act Sends Shockwaves Through Crypto and Banking Sectors",
-  "newTitle": "Senate Vote on CLARITY Act Sends Shockwaves Through Crypto and Banking Sectors",
-  "briefTitle": "CLARITY Act Could Unlock 11 Crypto Activities for US Banks Under Senate Plan - Bitcoin Foundation",
-  "evidenceClaims": 16,
-  "failedClaims": 2,
-  "evidenceChars": 1175,
+  "previousTitle": "US Arrests CEO Over $300 Million Nvidia Chip Smuggling Scheme",
+  "newTitle": "US Arrests CEO Over $300 Million Nvidia Chip Smuggling Scheme",
+  "briefTitle": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China - Ars Technica",
+  "evidenceClaims": 18,
+  "failedClaims": 4,
+  "evidenceChars": 4340,
   "mode": "atomic-sentence-repair-v12-surgical-fingerprint-rewrite-narrow-delete-isolated-recovery",
   "repairOrder": [
     "rewrite",
@@ -19,14 +19,14 @@
   "maxRecoveryPasses": 1,
   "recoveryWaitMs": 15000,
   "providerAttempts": 4,
-  "appliedRepairs": 3,
+  "appliedRepairs": 4,
   "rewriteOrNarrowRepairs": 0,
-  "deletedSentences": 3,
+  "deletedSentences": 4,
   "wordCountValidation": {
-    "before": 452,
-    "after": 389,
-    "minimum": 425,
-    "depthMode": "bounded",
-    "preservedFloor": false
+    "before": 428,
+    "after": 373,
+    "minimum": 231,
+    "depthMode": "narrow",
+    "preservedFloor": true
   }
 }
