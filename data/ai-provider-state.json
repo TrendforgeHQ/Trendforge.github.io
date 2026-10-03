@@ -7,78 +7,9 @@
       "lastStatus": 200,
       "lastError": null,
       "lastClass": "success",
-      "successes": 111,
-      "lastSuccessAt": "2026-10-03T02:56:16.339Z",
+      "successes": 116,
+      "lastSuccessAt": "2026-10-03T10:52:11.111Z",
       "history": [
-        {
-          "at": 1790823966642,
-          "ok": true,
-          "class": "success",
-          "status": 200,
-          "latencyMs": 786,
-          "usage": {
-            "queue_time": 0.241431386,
-            "prompt_tokens": 1869,
-            "prompt_time": 0.131063427,
-            "completion_tokens": 305,
-            "completion_time": 0.320914354,
-            "total_tokens": 2174,
-            "total_time": 0.451977781,
-            "completion_tokens_details": {
-              "reasoning_tokens": 226
-            }
-          }
-        },
-        {
-          "at": 1790823966903,
-          "ok": false,
-          "class": "rate_limit",
-          "status": 429
-        },
-        {
-          "at": 1790856411383,
-          "ok": false,
-          "class": "rate_limit",
-          "status": 429
-        },
-        {
-          "at": 1790892628804,
-          "ok": true,
-          "class": "success",
-          "status": 200,
-          "latencyMs": 1167,
-          "usage": {
-            "queue_time": 0.063374577,
-            "prompt_tokens": 5017,
-            "prompt_time": 0.297043308,
-            "completion_tokens": 552,
-            "completion_time": 0.591241241,
-            "total_tokens": 5569,
-            "total_time": 0.888284549,
-            "completion_tokens_details": {
-              "reasoning_tokens": 18
-            }
-          }
-        },
-        {
-          "at": 1790892630740,
-          "ok": true,
-          "class": "success",
-          "status": 200,
-          "latencyMs": 945,
-          "usage": {
-            "queue_time": 0.048475332,
-            "prompt_tokens": 1704,
-            "prompt_time": 0.106606955,
-            "completion_tokens": 548,
-            "completion_time": 0.612775527,
-            "total_tokens": 2252,
-            "total_time": 0.719382482,
-            "completion_tokens_details": {
-              "reasoning_tokens": 388
-            }
-          }
-        },
         {
           "at": 1790910505208,
           "ok": true,
@@ -298,19 +229,114 @@
               "reasoning_tokens": 167
             }
           }
+        },
+        {
+          "at": 1791024697291,
+          "ok": true,
+          "class": "success",
+          "status": 200,
+          "latencyMs": 1784,
+          "usage": {
+            "queue_time": 0.241955771,
+            "prompt_tokens": 4653,
+            "prompt_time": 0.272784846,
+            "completion_tokens": 646,
+            "completion_time": 0.649669226,
+            "total_tokens": 5299,
+            "total_time": 0.922454072,
+            "completion_tokens_details": {
+              "reasoning_tokens": 87
+            }
+          }
+        },
+        {
+          "at": 1791024699079,
+          "ok": true,
+          "class": "success",
+          "status": 200,
+          "latencyMs": 659,
+          "usage": {
+            "queue_time": 0.201227319,
+            "prompt_tokens": 1418,
+            "prompt_time": 0.091479884,
+            "completion_tokens": 121,
+            "completion_time": 0.13091869,
+            "total_tokens": 1539,
+            "total_time": 0.222398574,
+            "completion_tokens_details": {
+              "reasoning_tokens": 60
+            }
+          }
+        },
+        {
+          "at": 1791024714523,
+          "ok": true,
+          "class": "success",
+          "status": 200,
+          "latencyMs": 435,
+          "usage": {
+            "queue_time": 0.022288379,
+            "prompt_tokens": 1457,
+            "prompt_time": 0.128664459,
+            "completion_tokens": 147,
+            "completion_time": 0.150671718,
+            "total_tokens": 1604,
+            "total_time": 0.279336177,
+            "completion_tokens_details": {
+              "reasoning_tokens": 86
+            }
+          }
+        },
+        {
+          "at": 1791024715084,
+          "ok": true,
+          "class": "success",
+          "status": 200,
+          "latencyMs": 447,
+          "usage": {
+            "queue_time": 0.045491375,
+            "prompt_tokens": 1418,
+            "prompt_time": 0.088232674,
+            "completion_tokens": 125,
+            "completion_time": 0.130073845,
+            "total_tokens": 1543,
+            "total_time": 0.218306519,
+            "completion_tokens_details": {
+              "reasoning_tokens": 64
+            }
+          }
+        },
+        {
+          "at": 1791024731111,
+          "ok": true,
+          "class": "success",
+          "status": 200,
+          "latencyMs": 1018,
+          "usage": {
+            "queue_time": 0.112936318,
+            "prompt_tokens": 1457,
+            "prompt_time": 0.105707214,
+            "completion_tokens": 224,
+            "completion_time": 0.65489571,
+            "total_tokens": 1681,
+            "total_time": 0.760602924,
+            "completion_tokens_details": {
+              "reasoning_tokens": 163
+            }
+          }
         }
       ],
-      "lastLatencyMs": 788,
+      "lastLatencyMs": 1018,
       "lastUsage": {
-        "queue_time": 0.170444727,
-        "prompt_tokens": 2217,
-        "prompt_time": 0.165984009,
-        "completion_tokens": 291,
-        "completion_time": 0.34333392,
-        "total_tokens": 2508,
-        "total_time": 0.509317929,
+        "queue_time": 0.112936318,
+        "prompt_tokens": 1457,
+        "prompt_time": 0.105707214,
+        "completion_tokens": 224,
+        "completion_time": 0.65489571,
+        "total_tokens": 1681,
+        "total_time": 0.760602924,
         "completion_tokens_details": {
-          "reasoning_tokens": 167
+          "reasoning_tokens": 163
         }
       }
     },
@@ -757,5 +783,5 @@
     }
   },
   "rotationCursor": 0,
-  "updatedAt": "2026-10-03T02:56:16.339Z"
+  "updatedAt": "2026-10-03T10:52:11.111Z"
 }
