@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T10:51:37.312Z",
+  "generatedAt": "2026-10-03T15:27:28.523Z",
   "provider": "Groq",
   "editorial": {
     "passed": true,
@@ -22,8 +22,8 @@
       "noHighSimilaritySource": true
     },
     "metrics": {
-      "normalizedLength": 2340,
-      "sentenceCount": 19,
+      "normalizedLength": 2505,
+      "sentenceCount": 20,
       "maxSourceSimilarity": 0,
       "maxCommonPhrase": 0
     }

@@ -2,96 +2,14 @@
   "version": 10,
   "providers": {
     "Groq": {
-      "failures": 96,
+      "failures": 97,
       "quotaBlockedUntil": 0,
       "lastStatus": 200,
       "lastError": null,
       "lastClass": "success",
-      "successes": 116,
-      "lastSuccessAt": "2026-10-03T10:52:11.111Z",
+      "successes": 120,
+      "lastSuccessAt": "2026-10-03T15:28:20.946Z",
       "history": [
-        {
-          "at": 1790910505208,
-          "ok": true,
-          "class": "success",
-          "status": 200,
-          "latencyMs": 1062,
-          "usage": {
-            "queue_time": 0.063775815,
-            "prompt_tokens": 4808,
-            "prompt_time": 0.281962013,
-            "completion_tokens": 488,
-            "completion_time": 0.538484819,
-            "total_tokens": 5296,
-            "total_time": 0.820446832,
-            "completion_tokens_details": {
-              "reasoning_tokens": 16
-            }
-          }
-        },
-        {
-          "at": 1790910506650,
-          "ok": true,
-          "class": "success",
-          "status": 200,
-          "latencyMs": 686,
-          "usage": {
-            "queue_time": 0.118087204,
-            "prompt_tokens": 1596,
-            "prompt_time": 0.106810636,
-            "completion_tokens": 326,
-            "completion_time": 0.350303644,
-            "total_tokens": 1922,
-            "total_time": 0.45711428,
-            "completion_tokens_details": {
-              "reasoning_tokens": 199
-            }
-          }
-        },
-        {
-          "at": 1790910522584,
-          "ok": true,
-          "class": "success",
-          "status": 200,
-          "latencyMs": 925,
-          "usage": {
-            "queue_time": 0.118556587,
-            "prompt_tokens": 1635,
-            "prompt_time": 0.087030032,
-            "completion_tokens": 599,
-            "completion_time": 0.615595682,
-            "total_tokens": 2234,
-            "total_time": 0.702625714,
-            "completion_tokens_details": {
-              "reasoning_tokens": 382
-            }
-          }
-        },
-        {
-          "at": 1790910522781,
-          "ok": false,
-          "class": "rate_limit",
-          "status": 429
-        },
-        {
-          "at": 1790910560202,
-          "ok": true,
-          "class": "success",
-          "status": 200,
-          "latencyMs": 707,
-          "usage": {
-            "queue_time": 0.031593887,
-            "prompt_tokens": 1635,
-            "prompt_time": 0.110346773,
-            "completion_tokens": 431,
-            "completion_time": 0.474662577,
-            "total_tokens": 2066,
-            "total_time": 0.58500935,
-            "completion_tokens_details": {
-              "reasoning_tokens": 235
-            }
-          }
-        },
         {
           "at": 1790941020632,
           "ok": true,
@@ -324,35 +242,111 @@
               "reasoning_tokens": 163
             }
           }
+        },
+        {
+          "at": 1791041248504,
+          "ok": true,
+          "class": "success",
+          "status": 200,
+          "latencyMs": 1486,
+          "usage": {
+            "queue_time": 0.110048131,
+            "prompt_tokens": 4653,
+            "prompt_time": 0.389146262,
+            "completion_tokens": 671,
+            "completion_time": 0.693822357,
+            "total_tokens": 5324,
+            "total_time": 1.082968619,
+            "completion_tokens_details": {
+              "reasoning_tokens": 77
+            }
+          }
+        },
+        {
+          "at": 1791041249828,
+          "ok": true,
+          "class": "success",
+          "status": 200,
+          "latencyMs": 676,
+          "usage": {
+            "queue_time": 0.191381357,
+            "prompt_tokens": 1652,
+            "prompt_time": 0.09778284,
+            "completion_tokens": 251,
+            "completion_time": 0.278086,
+            "total_tokens": 1903,
+            "total_time": 0.37586884,
+            "completion_tokens_details": {
+              "reasoning_tokens": 162
+            }
+          }
+        },
+        {
+          "at": 1791041265450,
+          "ok": true,
+          "class": "success",
+          "status": 200,
+          "latencyMs": 611,
+          "usage": {
+            "queue_time": 0.089767726,
+            "prompt_tokens": 1691,
+            "prompt_time": 0.086001315,
+            "completion_tokens": 328,
+            "completion_time": 0.346188345,
+            "total_tokens": 2019,
+            "total_time": 0.43218966,
+            "completion_tokens_details": {
+              "reasoning_tokens": 218
+            }
+          }
+        },
+        {
+          "at": 1791041265658,
+          "ok": false,
+          "class": "rate_limit",
+          "status": 429
+        },
+        {
+          "at": 1791041300946,
+          "ok": true,
+          "class": "success",
+          "status": 200,
+          "latencyMs": 670,
+          "usage": {
+            "queue_time": 0.127188159,
+            "prompt_tokens": 1691,
+            "prompt_time": 0.115434778,
+            "completion_tokens": 304,
+            "completion_time": 0.336240462,
+            "total_tokens": 1995,
+            "total_time": 0.45167524,
+            "completion_tokens_details": {
+              "reasoning_tokens": 209
+            }
+          }
         }
       ],
-      "lastLatencyMs": 1018,
+      "lastLatencyMs": 670,
       "lastUsage": {
-        "queue_time": 0.112936318,
-        "prompt_tokens": 1457,
-        "prompt_time": 0.105707214,
-        "completion_tokens": 224,
-        "completion_time": 0.65489571,
-        "total_tokens": 1681,
-        "total_time": 0.760602924,
+        "queue_time": 0.127188159,
+        "prompt_tokens": 1691,
+        "prompt_time": 0.115434778,
+        "completion_tokens": 304,
+        "completion_time": 0.336240462,
+        "total_tokens": 1995,
+        "total_time": 0.45167524,
         "completion_tokens_details": {
-          "reasoning_tokens": 163
+          "reasoning_tokens": 209
         }
       }
     },
     "Gemini": {
-      "failures": 59,
+      "failures": 60,
       "quotaBlockedUntil": 1790996280173,
-      "lastStatus": 503,
-      "lastError": "503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
-      "lastClass": "server",
+      "lastStatus": 200,
+      "lastError": "Invalid repair structured output",
+      "lastClass": "error",
       "history": [
-        {
-          "at": 1790013160007,
-          "ok": false,
-          "class": "server",
-          "status": 503
-        },
         {
           "at": 1790013908791,
           "ok": false,
@@ -466,6 +460,12 @@
           "ok": false,
           "class": "server",
           "status": 503
+        },
+        {
+          "at": 1791041285271,
+          "ok": false,
+          "class": "error",
+          "status": 200
         }
       ]
     },
@@ -615,7 +615,7 @@
       ]
     },
     "Cohere": {
-      "failures": 122,
+      "failures": 123,
       "quotaBlockedUntil": 1790960797039,
       "lastStatus": 200,
       "lastError": "Invalid repair structured output",
@@ -623,12 +623,6 @@
       "successes": 15,
       "lastSuccessAt": "2026-10-01T03:06:07.746Z",
       "history": [
-        {
-          "at": 1790737260876,
-          "ok": false,
-          "class": "error",
-          "status": 422
-        },
         {
           "at": 1790737267238,
           "ok": false,
@@ -766,6 +760,12 @@
           "ok": false,
           "class": "error",
           "status": 200
+        },
+        {
+          "at": 1791041276621,
+          "ok": false,
+          "class": "error",
+          "status": 200
         }
       ],
       "lastLatencyMs": 841,
@@ -783,5 +783,5 @@
     }
   },
   "rotationCursor": 0,
-  "updatedAt": "2026-10-03T10:52:11.111Z"
+  "updatedAt": "2026-10-03T15:28:20.946Z"
 }
