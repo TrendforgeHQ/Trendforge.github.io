@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "title": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China - Ars Technica",
+  "title": "These Early Amazon Prime Deals on Video Doorbells and Security Cameras Are Chiming in With Savings - PCMag",
   "mode": "narrow",
   "wordBudget": {
     "min": 231,
@@ -11,7 +11,7 @@
     "preferredMin": 1,
     "preferredMax": 2
   },
-  "atomicClaimBudget": 18,
+  "atomicClaimBudget": 10,
   "allowedFactIds": [
     "F1",
     "F2",
@@ -22,32 +22,7 @@
     "F7",
     "F8",
     "F9",
-    "F10",
-    "F11",
-    "F12",
-    "F13",
-    "F14",
-    "F15",
-    "F16",
-    "F17",
-    "F18",
-    "F19",
-    "F20",
-    "F21",
-    "F22",
-    "F23",
-    "F24",
-    "F25",
-    "F26",
-    "F27",
-    "F28",
-    "F29",
-    "F30",
-    "F31",
-    "F32",
-    "F33",
-    "F34",
-    "F35"
+    "F10"
   ],
   "synthesis": {
     "allowed": true,
@@ -63,32 +38,7 @@
       "F7",
       "F8",
       "F9",
-      "F10",
-      "F11",
-      "F12",
-      "F13",
-      "F14",
-      "F15",
-      "F16",
-      "F17",
-      "F18",
-      "F19",
-      "F20",
-      "F21",
-      "F22",
-      "F23",
-      "F24",
-      "F25",
-      "F26",
-      "F27",
-      "F28",
-      "F29",
-      "F30",
-      "F31",
-      "F32",
-      "F33",
-      "F34",
-      "F35"
+      "F10"
     ]
   },
   "rules": {
@@ -97,7 +47,7 @@
     "newEntitiesInSynthesis": false,
     "newCausalityInSynthesis": false
   },
-  "generatedAt": "2026-10-03T15:27:28.523Z",
-  "articleTitle": "US Arrests Tech CEO Over $300 Million Nvidia Chip Smuggling Scheme",
-  "articleSlug": "us-arrests-tech-ceo-over-300-million-nvidia-chip-smuggling-scheme"
+  "generatedAt": "2026-10-03T20:23:50.581Z",
+  "articleTitle": "Early Prime Day Deals Offer Deep Discounts on Video Doorbells and Security Cameras",
+  "articleSlug": "early-prime-day-deals-offer-deep-discounts-on-video-doorbells-and-security-cameras"
 }

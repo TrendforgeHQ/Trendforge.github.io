@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T15:27:28.523Z",
+  "generatedAt": "2026-10-03T20:23:50.581Z",
   "provider": "Groq",
   "editorial": {
     "passed": true,
@@ -22,8 +22,8 @@
       "noHighSimilaritySource": true
     },
     "metrics": {
-      "normalizedLength": 2505,
-      "sentenceCount": 20,
+      "normalizedLength": 1833,
+      "sentenceCount": 17,
       "maxSourceSimilarity": 0,
       "maxCommonPhrase": 0
     }
@@ -31,12 +31,13 @@
   "semanticDuplicateCheck": "passed",
   "sourceRelationshipCheck": "passed",
   "verifiedEvidenceDomains": [
-    "arstechnica.com"
+    "lifehacker.com",
+    "pcmag.com"
   ],
   "primarySourceCount": 0,
   "grounding": {
-    "sourceCount": 1,
-    "usablePassages": 36,
+    "sourceCount": 2,
+    "usablePassages": 10,
     "primarySourceCount": 0
   }
 }
