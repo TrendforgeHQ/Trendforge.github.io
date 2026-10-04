@@ -1,19 +1,19 @@
 {
   "version": 18,
-  "generatedAt": "2026-10-03T20:24:51.403Z",
-  "articlePath": "content/articles/early-prime-day-deals-offer-deep-discounts-on-video-doorbells-and-security-cameras.md",
-  "articleTitle": "Early Prime Day Deals Offer Deep Discounts on Video Doorbells and Security Cameras",
+  "generatedAt": "2026-10-04T00:35:19.518Z",
+  "articlePath": "content/articles/apple-tightens-mac-disk-access-after-ai-driven-privacy-concerns.md",
+  "articleTitle": "Apple Tightens Mac Disk Access After AI‑Driven Privacy Concerns",
   "verificationMode": "authoritative-evidence-pack-v20-fact-map-synthesis",
-  "sourceCount": 2,
-  "usableSourceCount": 2,
-  "claimCount": 17,
-  "editorialCount": 0,
-  "verified": 13,
-  "partial": 2,
-  "unsupported": 2,
+  "sourceCount": 4,
+  "usableSourceCount": 4,
+  "claimCount": 13,
+  "editorialCount": 2,
+  "verified": 9,
+  "partial": 4,
+  "unsupported": 0,
   "sourceUnavailable": 0,
-  "averageConfidence": 72,
-  "pass": false,
+  "averageConfidence": 78,
+  "pass": true,
   "policy": {
     "verifiedMin": 62,
     "partialMin": 45,
@@ -45,86 +45,103 @@
   "sources": [
     {
       "id": "S1",
-      "title": "I Review Smart Security Cameras, and These Are the Ones You Should Buy Before Prime Day Ends Tonight",
-      "url": "https://lifehacker.com/tech/last-chance-eufy-solocam-security-camera-sale-prime-day-2025",
-      "domain": "lifehacker.com",
-      "passageCount": 5,
-      "articleBodyLength": 1922
+      "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents - TechCrunch",
+      "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+      "domain": "techcrunch.com",
+      "passageCount": 9,
+      "articleBodyLength": 1445
     },
     {
       "id": "S2",
-      "title": "These Early Amazon Prime Deals on Video Doorbells and Security Cameras Are Chiming in With Savings",
-      "url": "https://www.pcmag.com/deals/home-security-camera-video-doorbell-deals-early-prime-day-2026-oct-3",
-      "domain": "pcmag.com",
+      "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+      "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+      "domain": "theverge.com",
+      "passageCount": 3,
+      "articleBodyLength": 613
+    },
+    {
+      "id": "S3",
+      "title": "Apple puts new limits on how apps, including AI agents, gain full access to your Mac",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/apple-puts-new-limits-on-how-apps-including-ai-agents-gain-full-access-to-your-mac/articleshow/134653869.cms",
+      "domain": "timesofindia.indiatimes.com",
       "passageCount": 5,
-      "articleBodyLength": 1221
+      "articleBodyLength": 941
+    },
+    {
+      "id": "S4",
+      "title": "Apple Locks Down Mac Disk Access as AI Agents Pose New Risks",
+      "url": "https://www.techbuzz.ai/articles/apple-locks-down-mac-disk-access-as-ai-agents-pose-new-risks",
+      "domain": "techbuzz.ai",
+      "passageCount": 5,
+      "articleBodyLength": 901
     }
   ],
   "claims": [
     {
       "index": 1,
-      "claim": "Prime Day 2025 ends tonight, and Lifehacker is sharing the best sales based on product reviews, comparisons, and price‑tracking tools before it’s over.",
+      "claim": "Apple announced new restrictions on the macOS \"Full Disk Access\" setting.",
       "status": "verified",
       "classification": "supported",
       "confidence": 100,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "I Review Smart Security Cameras, and These Are the Ones You Should Buy Before Prime Day Ends Tonight",
-      "bestUrl": "https://lifehacker.com/tech/last-chance-eufy-solocam-security-camera-sale-prime-day-2025",
-      "bestDomain": "lifehacker.com",
+      "bestSource": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents - TechCrunch",
+      "bestUrl": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+      "bestDomain": "techcrunch.com",
       "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
         "factId": "F1",
         "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 100
+        "score": 73
       },
       "provenanceFactMatches": [
         {
           "factId": "F1",
           "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 100,
+          "score": 73,
           "passageIndex": 1
+        },
+        {
+          "factId": "F20",
+          "sourceId": "S4",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 61,
+          "passageIndex": 4
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-P1",
-      "evidence": "Prime Day 2025 ends tonight, and Lifehacker is sharing the best sales based on product reviews, comparisons, and price-tracking tools before it&#039;s over.",
-      "bestPassage": "Prime Day 2025 ends tonight, and Lifehacker is sharing the best sales based on product reviews, comparisons, and price-tracking tools before it&#039;s over.",
+      "bestPassageId": "S1-FF1,S4-FF20",
+      "evidence": "Days after a journalist claimed that Meta&#8217;s Muse app on Mac read their private messages &#8212; a claim that Meta disputed &#8212; Apple announced that it&#8217;s introducing additional controls around a setting called &#8220;Full Disk Access&#8221; on macOS. The company announced Friday it's rolling out new restrictions for 'full disk access' permissions, a powerful capability that lets apps read virtually everything on a user's computer.",
+      "bestPassage": "Days after a journalist claimed that Meta&#8217;s Muse app on Mac read their private messages &#8212; a claim that Meta disputed &#8212; Apple announced that it&#8217;s introducing additional controls around a setting called &#8220;Full Disk Access&#8221; on macOS. The company announced Friday it's rolling out new restrictions for 'full disk access' permissions, a powerful capability that lets apps read virtually everything on a user's computer.",
       "matchedPassages": [
-        "S1-P1",
-        "S1-BODY"
+        "S1-BODY",
+        "S1-P1"
       ],
       "sharedTerms": [
-        "prime",
-        "day",
-        "2025",
-        "ends",
-        "tonight",
-        "and",
-        "lifehacker",
-        "shar",
+        "apple",
+        "announce",
+        "new",
+        "restriction",
         "the",
-        "best",
-        "sal",
-        "bas",
-        "product",
-        "review",
-        "comparison",
-        "price",
-        "track",
-        "tool"
+        "maco",
+        "full",
+        "disk",
+        "acces",
+        "sett"
       ],
       "entityShared": [
-        "prime",
-        "day",
-        "lifehacker"
+        "apple",
+        "full",
+        "disk",
+        "acces"
       ],
       "topicShared": [
-        "prime",
-        "and"
+        "apple",
+        "disk",
+        "acces"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -133,6 +150,622 @@
       "attributionUncertainty": {
         "evidenceUncertain": false,
         "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": true,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-multi-fact-anchored"
+    },
+    {
+      "index": 2,
+      "claim": "The changes will only allow apps that truly need this level of access to obtain it after users perform a very explicit action.",
+      "status": "partial",
+      "classification": "supported_with_context",
+      "confidence": 70,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Apple Locks Down Mac Disk Access as AI Agents Pose New Risks",
+      "bestUrl": "https://www.techbuzz.ai/articles/apple-locks-down-mac-disk-access-as-ai-agents-pose-new-risks",
+      "bestDomain": "techbuzz.ai",
+      "sourceId": "S4",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F22",
+        "sourceId": "S4",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 56
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F22",
+          "sourceId": "S4",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 56,
+          "passageIndex": 5
+        },
+        {
+          "factId": "F11",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 49,
+          "passageIndex": 2
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S4-BODY",
+      "evidence": "According to Apple's developer update, the changes aim to 'ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action.' The timing isn't coincidental. In an update on Friday, Apple says it’s rolling out new controls to “ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action.” The change comes just weeks after Inc’s Jason Aten found that Meta’s Muse AI somehow knew the contents of his messages, despite not giving the chatbot explicit permission to access them on his iPhone or Mac.",
+      "bestPassage": "According to Apple's developer update, the changes aim to 'ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action.' The timing isn't coincidental. In an update on Friday, Apple says it’s rolling out new controls to “ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action.” The change comes just weeks after Inc’s Jason Aten found that Meta’s Muse AI somehow knew the contents of his messages, despite not giving the chatbot explicit permission to access them on his iPhone or Mac.",
+      "matchedPassages": [
+        "S4-BODY",
+        "S4-P5"
+      ],
+      "sharedTerms": [
+        "the",
+        "chang",
+        "apps",
+        "level",
+        "acces",
+        "user",
+        "explicit",
+        "action"
+      ],
+      "entityShared": [],
+      "topicShared": [
+        "acces"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": true,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": true,
+        "attributionDropped": true,
+        "blocked": true
+      },
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-multi-fact-anchored"
+    },
+    {
+      "index": 3,
+      "claim": "The move follows earlier reporting that Meta’s Muse AI could read private messages on a user’s Mac without explicit permission.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 92,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Apple puts new limits on how apps, including AI agents, gain full access to your Mac",
+      "bestUrl": "https://timesofindia.indiatimes.com/technology/tech-news/apple-puts-new-limits-on-how-apps-including-ai-agents-gain-full-access-to-your-mac/articleshow/134653869.cms",
+      "bestDomain": "timesofindia.indiatimes.com",
+      "sourceId": "S3",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F14",
+        "sourceId": "S3",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 85
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F14",
+          "sourceId": "S3",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 85,
+          "passageIndex": 6
+        },
+        {
+          "factId": "F11",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 75,
+          "passageIndex": 2
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S3-FF14,S2-FF11",
+      "evidence": "It did point to AI agents, though, warning that the risks of this level of access \"will grow substantially\" as agents become more capable and autonomous.AI agents on the Mac now routinely ask for full system accessThe announcement follows a claim by US columnist Jason Aten that Meta's Muse AI agent read private messages on his Mac mini without his permission. In an update on Friday, Apple says it’s rolling out new controls to “ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action.” The change comes just weeks after Inc’s Jason Aten found that Meta’s Muse AI somehow knew the contents of his messages, despite not giving the chatbot explicit permission to access them on his iPhone or Mac.",
+      "bestPassage": "It did point to AI agents, though, warning that the risks of this level of access \"will grow substantially\" as agents become more capable and autonomous.AI agents on the Mac now routinely ask for full system accessThe announcement follows a claim by US columnist Jason Aten that Meta's Muse AI agent read private messages on his Mac mini without his permission. In an update on Friday, Apple says it’s rolling out new controls to “ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action.” The change comes just weeks after Inc’s Jason Aten found that Meta’s Muse AI somehow knew the contents of his messages, despite not giving the chatbot explicit permission to access them on his iPhone or Mac.",
+      "matchedPassages": [
+        "S3-BODY",
+        "S3-P2"
+      ],
+      "sharedTerms": [
+        "the",
+        "follow",
+        "meta",
+        "muse",
+        "read",
+        "private",
+        "messag",
+        "user",
+        "mac",
+        "without",
+        "explicit",
+        "permission"
+      ],
+      "entityShared": [
+        "meta",
+        "muse",
+        "mac"
+      ],
+      "topicShared": [
+        "mac"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": true,
+        "claimUncertain": true,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-multi-fact-anchored"
+    },
+    {
+      "index": 4,
+      "claim": "The Full Disk Access setting lets an app read files, mail, messages, and browsing history.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 95,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents - TechCrunch",
+      "bestUrl": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+      "bestDomain": "techcrunch.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F3",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 69
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F3",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 69,
+          "passageIndex": 5
+        },
+        {
+          "factId": "F1",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 60,
+          "passageIndex": 1
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-FF3,S1-FF1",
+      "evidence": "This setting, Apple explains, gives an app permission to access files, mail, messages, and even browsing history. Days after a journalist claimed that Meta&#8217;s Muse app on Mac read their private messages &#8212; a claim that Meta disputed &#8212; Apple announced that it&#8217;s introducing additional controls around a setting called &#8220;Full Disk Access&#8221; on macOS.",
+      "bestPassage": "This setting, Apple explains, gives an app permission to access files, mail, messages, and even browsing history. Days after a journalist claimed that Meta&#8217;s Muse app on Mac read their private messages &#8212; a claim that Meta disputed &#8212; Apple announced that it&#8217;s introducing additional controls around a setting called &#8220;Full Disk Access&#8221; on macOS.",
+      "matchedPassages": [
+        "S1-BODY"
+      ],
+      "sharedTerms": [
+        "full",
+        "disk",
+        "acces",
+        "sett",
+        "app",
+        "read",
+        "fil",
+        "mail",
+        "messag",
+        "and",
+        "brows",
+        "history"
+      ],
+      "entityShared": [
+        "full",
+        "disk",
+        "acces"
+      ],
+      "topicShared": [
+        "disk",
+        "acces"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-multi-fact-anchored"
+    },
+    {
+      "index": 5,
+      "claim": "It was originally designed to let backup apps function properly.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 67,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents - TechCrunch",
+      "bestUrl": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+      "bestDomain": "techcrunch.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F2",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 55
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F2",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 55,
+          "passageIndex": 1
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-BODY",
+      "evidence": "The feature was designed to allow backups to function properly, but AI agents have now increased &#8220;the risks associated with this level of access,&#8221; Apple said.",
+      "bestPassage": "The feature was designed to allow backups to function properly, but AI agents have now increased &#8220;the risks associated with this level of access,&#8221; Apple said.",
+      "matchedPassages": [
+        "S1-BODY",
+        "S1-P2"
+      ],
+      "sharedTerms": [
+        "was",
+        "design",
+        "backup",
+        "apps",
+        "function",
+        "properly"
+      ],
+      "entityShared": [],
+      "topicShared": [],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 6,
+      "claim": "Apple said the risks associated with this level of access have increased because desktop AI agents can now control system functions and read personal content.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 94,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents - TechCrunch",
+      "bestUrl": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+      "bestDomain": "techcrunch.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F2",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 70
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F2",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 70,
+          "passageIndex": 1
+        },
+        {
+          "factId": "F14",
+          "sourceId": "S3",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 62,
+          "passageIndex": 6
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-BODY",
+      "evidence": "The feature was designed to allow backups to function properly, but AI agents have now increased &#8220;the risks associated with this level of access,&#8221; Apple said. It did point to AI agents, though, warning that the risks of this level of access \"will grow substantially\" as agents become more capable and autonomous.AI agents on the Mac now routinely ask for full system accessThe announcement follows a claim by US columnist Jason Aten that Meta's Muse AI agent read private messages on his Mac mini without his permission.",
+      "bestPassage": "The feature was designed to allow backups to function properly, but AI agents have now increased &#8220;the risks associated with this level of access,&#8221; Apple said. It did point to AI agents, though, warning that the risks of this level of access \"will grow substantially\" as agents become more capable and autonomous.AI agents on the Mac now routinely ask for full system accessThe announcement follows a claim by US columnist Jason Aten that Meta's Muse AI agent read private messages on his Mac mini without his permission.",
+      "matchedPassages": [
+        "S1-BODY"
+      ],
+      "sharedTerms": [
+        "apple",
+        "the",
+        "risk",
+        "associat",
+        "level",
+        "acces",
+        "rise",
+        "desktop",
+        "agent",
+        "can",
+        "control",
+        "system",
+        "function",
+        "and",
+        "read",
+        "personal",
+        "content"
+      ],
+      "entityShared": [
+        "apple"
+      ],
+      "topicShared": [
+        "apple",
+        "risk",
+        "acces",
+        "rise",
+        "agent"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": true,
+        "evidenceAttributed": true,
+        "claimAttributed": true,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-multi-fact-anchored"
+    },
+    {
+      "index": 7,
+      "claim": "This shift raises questions about the security and trust users place in desktop‑based AI.",
+      "status": "partial",
+      "classification": "supported_with_context",
+      "confidence": 81,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents - TechCrunch",
+      "bestUrl": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+      "bestDomain": "techcrunch.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F5",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 81
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F5",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 81,
+          "passageIndex": 2
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-P5",
+      "evidence": "The report raised questions about the level of security and trust users have in desktop-based AI, which can control things on their systems and read their files and messages.",
+      "bestPassage": "The report raised questions about the level of security and trust users have in desktop-based AI, which can control things on their systems and read their files and messages.",
+      "matchedPassages": [
+        "S1-P5",
+        "S1-BODY"
+      ],
+      "sharedTerms": [
+        "rais",
+        "question",
+        "the",
+        "security",
+        "and",
+        "trust",
+        "user",
+        "desktop",
+        "bas"
+      ],
+      "entityShared": [],
+      "topicShared": [],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": true,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": true,
+        "blocked": true
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 8,
+      "claim": "The setting can bypass normal macOS privacy controls, allowing an app to see content that normally would be protected.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 60,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents - TechCrunch",
+      "bestUrl": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+      "bestDomain": "techcrunch.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F16",
+        "sourceId": "S3",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 45
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F16",
+          "sourceId": "S3",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 45,
+          "passageIndex": 3
+        },
+        {
+          "factId": "F11",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 38,
+          "passageIndex": 2
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S3-FF16,S2-FF11",
+      "evidence": "In a post on its developer website, Apple said the setting exists so backup apps can work properly, and that it largely bypasses the privacy controls built into macOS. In an update on Friday, Apple says it’s rolling out new controls to “ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action.” The change comes just weeks after Inc’s Jason Aten found that Meta’s Muse AI somehow knew the contents of his messages, despite not giving the chatbot explicit permission to access them on his iPhone or Mac.",
+      "bestPassage": "In a post on its developer website, Apple said the setting exists so backup apps can work properly, and that it largely bypasses the privacy controls built into macOS. In an update on Friday, Apple says it’s rolling out new controls to “ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action.” The change comes just weeks after Inc’s Jason Aten found that Meta’s Muse AI somehow knew the contents of his messages, despite not giving the chatbot explicit permission to access them on his iPhone or Mac.",
+      "matchedPassages": [
+        "S1-BODY"
+      ],
+      "sharedTerms": [
+        "the",
+        "sett",
+        "can",
+        "maco",
+        "privacy",
+        "control",
+        "app",
+        "content"
+      ],
+      "entityShared": [],
+      "topicShared": [],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": true,
+        "claimUncertain": true,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-multi-fact-anchored"
+    },
+    {
+      "index": 9,
+      "claim": "Apple emphasized its commitment to ensuring users clearly understand these risks so they can make informed decisions about their data and privacy.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 84,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents - TechCrunch",
+      "bestUrl": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+      "bestDomain": "techcrunch.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F4",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 84
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F4",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 84,
+          "passageIndex": 8
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-P4",
+      "evidence": "We are committed to ensuring users clearly understand these risks before granting such access, so they can make informed decisions about their own data and privacy,&#8221; Apple wrote.",
+      "bestPassage": "We are committed to ensuring users clearly understand these risks before granting such access, so they can make informed decisions about their own data and privacy,&#8221; Apple wrote.",
+      "matchedPassages": [
+        "S1-P4",
+        "S1-BODY"
+      ],
+      "sharedTerms": [
+        "apple",
+        "ensur",
+        "user",
+        "clearly",
+        "understand",
+        "risk",
+        "can",
+        "inform",
+        "decision",
+        "data",
+        "and",
+        "privacy"
+      ],
+      "entityShared": [
+        "apple"
+      ],
+      "topicShared": [
+        "apple",
+        "risk"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": true,
+        "claimUncertain": true,
         "evidenceAttributed": false,
         "claimAttributed": false,
         "certaintyEscalation": false,
@@ -146,736 +779,158 @@
       "matchingMode": "fact-map-anchored-source-passage"
     },
     {
-      "index": 2,
-      "claim": "The article lists several discounted security products that are already available.",
+      "index": 10,
+      "claim": "Apple’s update does not remove the ability for apps to get full disk access, but it makes the permission harder to obtain.Apple says users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 50,
+      "confidence": 78,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "I Review Smart Security Cameras, and These Are the Ones You Should Buy Before Prime Day Ends Tonight",
-      "bestUrl": "https://lifehacker.com/tech/last-chance-eufy-solocam-security-camera-sale-prime-day-2025",
-      "bestDomain": "lifehacker.com",
-      "sourceId": "S1",
+      "bestSource": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+      "bestUrl": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+      "bestDomain": "theverge.com",
+      "sourceId": "S2",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F7",
+        "factId": "F11",
         "sourceId": "S2",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 36
+        "score": 72
       },
       "provenanceFactMatches": [
         {
-          "factId": "F7",
+          "factId": "F11",
           "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 36,
-          "passageIndex": 3
-        },
-        {
-          "factId": "F2",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 27,
-          "passageIndex": 24
-        },
-        {
-          "factId": "F4",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 27,
+          "score": 72,
           "passageIndex": 2
+        },
+        {
+          "factId": "F22",
+          "sourceId": "S4",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 67,
+          "passageIndex": 5
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S2-FF7,S1-FF2,S1-FF4",
-      "evidence": "In particular, video doorbells and security cameras are seeing some hefty discounts at the moment. Our Best Editor-Vetted Early Prime Day Deals Right Now Apple AirPods Pro 3 Noise Cancelling Heart Rate Wireless Earbuds &mdash; $234.00 (List Price $249.00) Sony WH-1000XM5 &mdash; $298.00 (List Price $399.99) Ring Indoor Cam Plus 2K Wired Security Camera (2-Pack, White) &mdash; $59.98 (List Price $119.98) Apple iPad 11\" 128GB A16 WiFi Tablet (Blue, 2025) &mdash; $427.00 (List Price $449.00) Blink Outdoor 4 1080p 3-Camera Kit With Sync Module Core + Doorbell &mdash; $65.99 (List Price $259.98) Ring 2nd Gen 2K Wired Video Doorbell With Chime (2026 Release) &mdash; $49.99 (List Price $114.98) Fire TV Stick 4K Plus Streaming Player With Remote (2025 Model) &mdash; $37.99 (List Price $69.99) Deals are selected by our commerce team Sales are accurate at the time of publication, but prices and inventory are always subject to change.For the past few years, I&#039;ve been putting up and taking down security cameras at a rate that has led neighbors to worry I&#039;m a conspiracy theorist.",
-      "bestPassage": "In particular, video doorbells and security cameras are seeing some hefty discounts at the moment. Our Best Editor-Vetted Early Prime Day Deals Right Now Apple AirPods Pro 3 Noise Cancelling Heart Rate Wireless Earbuds &mdash; $234.00 (List Price $249.00) Sony WH-1000XM5 &mdash; $298.00 (List Price $399.99) Ring Indoor Cam Plus 2K Wired Security Camera (2-Pack, White) &mdash; $59.98 (List Price $119.98) Apple iPad 11\" 128GB A16 WiFi Tablet (Blue, 2025) &mdash; $427.00 (List Price $449.00) Blink Outdoor 4 1080p 3-Camera Kit With Sync Module Core + Doorbell &mdash; $65.99 (List Price $259.98) Ring 2nd Gen 2K Wired Video Doorbell With Chime (2026 Release) &mdash; $49.99 (List Price $114.98) Fire TV Stick 4K Plus Streaming Player With Remote (2025 Model) &mdash; $37.99 (List Price $69.99) Deals are selected by our commerce team Sales are accurate at the time of publication, but prices and inventory are always subject to change.For the past few years, I&#039;ve been putting up and taking down security cameras at a rate that has led neighbors to worry I&#039;m a conspiracy theorist.",
+      "bestPassageId": "S2-BODY",
+      "evidence": "In an update on Friday, Apple says it’s rolling out new controls to “ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action.” The change comes just weeks after Inc’s Jason Aten found that Meta’s Muse AI somehow knew the contents of his messages, despite not giving the chatbot explicit permission to access them on his iPhone or Mac. According to Apple's developer update, the changes aim to 'ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action.' The timing isn't coincidental.",
+      "bestPassage": "In an update on Friday, Apple says it’s rolling out new controls to “ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action.” The change comes just weeks after Inc’s Jason Aten found that Meta’s Muse AI somehow knew the contents of his messages, despite not giving the chatbot explicit permission to access them on his iPhone or Mac. According to Apple's developer update, the changes aim to 'ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action.' The timing isn't coincidental.",
       "matchedPassages": [
-        "S1-BODY"
+        "S2-BODY",
+        "S2-P2"
       ],
       "sharedTerms": [
+        "apple",
+        "not",
         "the",
-        "list",
-        "discount",
-        "security",
-        "are"
+        "for",
+        "full",
+        "disk",
+        "acces",
+        "permission",
+        "says",
+        "user",
+        "who",
+        "genuinely",
+        "wish",
+        "grant",
+        "app",
+        "extraordinary",
+        "level",
+        "can",
+        "explicit",
+        "action"
       ],
-      "entityShared": [],
+      "entityShared": [
+        "apple"
+      ],
       "topicShared": [
-        "security",
-        "are"
+        "apple",
+        "disk",
+        "acces"
       ],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
       "scopeWarnings": [],
       "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
+        "evidenceUncertain": true,
+        "claimUncertain": true,
+        "evidenceAttributed": true,
+        "claimAttributed": true,
         "certaintyEscalation": false,
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 3,
+      "factCoverage": 2,
       "multiFactSupported": true,
       "directFactExact": false,
       "directExact": false,
       "matchingMode": "fact-map-multi-fact-anchored"
     },
     {
-      "index": 3,
-      "claim": "Eufy SoloCam E30, a solar‑powered 2K camera, listed at $149.99 but discounted to $99.98 with code WS7DV27MPDIJ, saving $50.01.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 94,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "I Review Smart Security Cameras, and These Are the Ones You Should Buy Before Prime Day Ends Tonight",
-      "bestUrl": "https://lifehacker.com/tech/last-chance-eufy-solocam-security-camera-sale-prime-day-2025",
-      "bestDomain": "lifehacker.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F3",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 86
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F3",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 86,
-          "passageIndex": 7
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "Use code WS7DV27MPDIJ at Eufy eufy Security eufy SoloCam E30, Solar Powered, 360&deg; Pan, AI Tracking, 2K Clarity, Security Cameras Wireless Outdoor, Camera, Outdoor Camera, HomeBase S380 Compatible, No Monthly Fee $99.98 at Amazon $149.99 Save $50.01 Get Deal Get Deal $99.98 at Amazon $149.99 Save $50.01 Eufy SoloCam S340 $139.99 at Amazon $199.99 Save $60.00 Get Deal Get Deal $139.99 at Amazon $199.99 Save $60.00 SEE 0 MORE I now have a Eufy doorbell, and Eufy cameras dot the inside and outside of my home.",
-      "bestPassage": "Use code WS7DV27MPDIJ at Eufy eufy Security eufy SoloCam E30, Solar Powered, 360&deg; Pan, AI Tracking, 2K Clarity, Security Cameras Wireless Outdoor, Camera, Outdoor Camera, HomeBase S380 Compatible, No Monthly Fee $99.98 at Amazon $149.99 Save $50.01 Get Deal Get Deal $99.98 at Amazon $149.99 Save $50.01 Eufy SoloCam S340 $139.99 at Amazon $199.99 Save $60.00 Get Deal Get Deal $139.99 at Amazon $199.99 Save $60.00 SEE 0 MORE I now have a Eufy doorbell, and Eufy cameras dot the inside and outside of my home.",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P3"
-      ],
-      "sharedTerms": [
-        "eufy",
-        "solocam",
-        "e30",
-        "solar",
-        "power",
-        "camera",
-        "list",
-        "149",
-        "but",
-        "code",
-        "ws7dv27mpdij"
-      ],
-      "entityShared": [
-        "eufy",
-        "solocam",
-        "e30",
-        "ws7dv27mpdij"
-      ],
-      "topicShared": [
-        "camera"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": true,
-      "directExact": true,
-      "matchingMode": "direct-exact-evidence"
-    },
-    {
-      "index": 4,
-      "claim": "Eufy SoloCam S340, normally $199.99, now $139.99, a $60.00 saving.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 82,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "I Review Smart Security Cameras, and These Are the Ones You Should Buy Before Prime Day Ends Tonight",
-      "bestUrl": "https://lifehacker.com/tech/last-chance-eufy-solocam-security-camera-sale-prime-day-2025",
-      "bestDomain": "lifehacker.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F3",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 82
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F3",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 82,
-          "passageIndex": 7
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-FF3",
-      "evidence": "Use code WS7DV27MPDIJ at Eufy eufy Security eufy SoloCam E30, Solar Powered, 360&deg; Pan, AI Tracking, 2K Clarity, Security Cameras Wireless Outdoor, Camera, Outdoor Camera, HomeBase S380 Compatible, No Monthly Fee $99.98 at Amazon $149.99 Save $50.01 Get Deal Get Deal $99.98 at Amazon $149.99 Save $50.01 Eufy SoloCam S340 $139.99 at Amazon $199.99 Save $60.00 Get Deal Get Deal $139.99 at Amazon $199.99 Save $60.00 SEE 0 MORE I now have a Eufy doorbell, and Eufy cameras dot the inside and outside of my home.",
-      "bestPassage": "Use code WS7DV27MPDIJ at Eufy eufy Security eufy SoloCam E30, Solar Powered, 360&deg; Pan, AI Tracking, 2K Clarity, Security Cameras Wireless Outdoor, Camera, Outdoor Camera, HomeBase S380 Compatible, No Monthly Fee $99.98 at Amazon $149.99 Save $50.01 Get Deal Get Deal $99.98 at Amazon $149.99 Save $50.01 Eufy SoloCam S340 $139.99 at Amazon $199.99 Save $60.00 Get Deal Get Deal $139.99 at Amazon $199.99 Save $60.00 SEE 0 MORE I now have a Eufy doorbell, and Eufy cameras dot the inside and outside of my home.",
-      "matchedPassages": [
-        "S1-P3",
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "eufy",
-        "solocam",
-        "s340",
-        "199",
-        "139"
-      ],
-      "entityShared": [
-        "eufy",
-        "solocam",
-        "s340"
-      ],
-      "topicShared": [],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": true,
-      "directExact": true,
-      "matchingMode": "direct-exact-evidence"
-    },
-    {
-      "index": 5,
-      "claim": "Ring Indoor Cam Plus 2‑Pack, $119.98 discounted to $59.98, a 50% reduction.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 84,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "I Review Smart Security Cameras, and These Are the Ones You Should Buy Before Prime Day Ends Tonight",
-      "bestUrl": "https://lifehacker.com/tech/last-chance-eufy-solocam-security-camera-sale-prime-day-2025",
-      "bestDomain": "lifehacker.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": null,
-      "provenanceFactMatches": [],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "Prime Day 2025 ends tonight, and Lifehacker is sharing the best sales based on product reviews, comparisons, and price-tracking tools before it&#039;s over. Our Best Editor-Vetted Early Prime Day Deals Right Now Apple AirPods Pro 3 Noise Cancelling Heart Rate Wireless Earbuds &mdash; $234.00 (List Price $249.00) Sony WH-1000XM5 &mdash; $298.00 (List Price $399.99) Ring Indoor Cam Plus 2K Wired Security Camera (2-Pack, White) &mdash; $59.98 (List Price $119.98) Apple iPad 11\" 128GB A16 WiFi Tablet (Blue, 2025) &mdash; $427.00 (List Price $449.00) Blink Outdoor 4 1080p 3-Camera Kit With Sync Module Core + Doorbell &mdash; $65.99 (List Price $259.98) Ring 2nd Gen 2K Wired Video Doorbell With Chime (2026 Release) &mdash; $49.99 (List Price $114.98) Fire TV Stick 4K Plus Streaming Player With Remote (2025 Model) &mdash; $37.99 (List Price $69.99) Deals are selected by our commerce team Use code WS7DV27MPDIJ at Eufy eufy Security eufy SoloCam E30, Solar Powered, 360&deg; Pan, AI Tracking, 2K Clarity, Security Cameras Wireless Outdoor, Camera, Outdoor Camera, HomeBase S380 Compatible, No Monthly Fee $99.98 at Amazon $149.99 Save $50.01 Get Deal Get Deal $99.98 at Amazon $149.99 Save $50.01 Eufy SoloCam S340 $139.99 at Amazon $199.99 Save $60.00 Get Deal Get Deal $139.99 at Amazon $199.99 Save $60.00 SEE 0 MORE I now have a Eufy doorbell, and Eufy cameras dot the inside and outside of my home. Sales are accurate at the time of publication, but prices and inventory are always subject to change.For the past few years, I&#039;ve been putting up and taking down security cameras at a rate that has led neighbors to worry I&#039;m a conspiracy theorist. Retailers like Walmart, Best Buy, and Home Depot have Prime Day competition sales that are especially useful if you don&rsquo;t have Amazon Prime.Walmart&rsquo;s Prime Day competition sale begins at midnight on July 8 and will include deals up to 50% off.",
-      "bestPassage": "Prime Day 2025 ends tonight, and Lifehacker is sharing the best sales based on product reviews, comparisons, and price-tracking tools before it&#039;s over. Our Best Editor-Vetted Early Prime Day Deals Right Now Apple AirPods Pro 3 Noise Cancelling Heart Rate Wireless Earbuds &mdash; $234.00 (List Price $249.00) Sony WH-1000XM5 &mdash; $298.00 (List Price $399.99) Ring Indoor Cam Plus 2K Wired Security Camera (2-Pack, White) &mdash; $59.98 (List Price $119.98) Apple iPad 11\" 128GB A16 WiFi Tablet (Blue, 2025) &mdash; $427.00 (List Price $449.00) Blink Outdoor 4 1080p 3-Camera Kit With Sync Module Core + Doorbell &mdash; $65.99 (List Price $259.98) Ring 2nd Gen 2K Wired Video Doorbell With Chime (2026 Release) &mdash; $49.99 (List Price $114.98) Fire TV Stick 4K Plus Streaming Player With Remote (2025 Model) &mdash; $37.99 (List Price $69.99) Deals are selected by our commerce team Use code WS7DV27MPDIJ at Eufy eufy Security eufy SoloCam E30, Solar Powered, 360&deg; Pan, AI Tracking, 2K Clarity, Security Cameras Wireless Outdoor, Camera, Outdoor Camera, HomeBase S380 Compatible, No Monthly Fee $99.98 at Amazon $149.99 Save $50.01 Get Deal Get Deal $99.98 at Amazon $149.99 Save $50.01 Eufy SoloCam S340 $139.99 at Amazon $199.99 Save $60.00 Get Deal Get Deal $139.99 at Amazon $199.99 Save $60.00 SEE 0 MORE I now have a Eufy doorbell, and Eufy cameras dot the inside and outside of my home. Sales are accurate at the time of publication, but prices and inventory are always subject to change.For the past few years, I&#039;ve been putting up and taking down security cameras at a rate that has led neighbors to worry I&#039;m a conspiracy theorist. Retailers like Walmart, Best Buy, and Home Depot have Prime Day competition sales that are especially useful if you don&rsquo;t have Amazon Prime.Walmart&rsquo;s Prime Day competition sale begins at midnight on July 8 and will include deals up to 50% off.",
-      "matchedPassages": [
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "ring",
-        "indoor",
-        "cam",
-        "plus",
-        "pack",
-        "119"
-      ],
-      "entityShared": [
-        "ring",
-        "indoor",
-        "cam",
-        "plus",
-        "pack"
-      ],
-      "topicShared": [],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 0,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "semantic-context-evidence-pack"
-    },
-    {
-      "index": 6,
-      "claim": "98 discounted to $49.99, a 56% discount.",
-      "status": "unsupported",
-      "classification": "contradicted",
-      "confidence": 0,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "I Review Smart Security Cameras, and These Are the Ones You Should Buy Before Prime Day Ends Tonight",
-      "bestUrl": "https://lifehacker.com/tech/last-chance-eufy-solocam-security-camera-sale-prime-day-2025",
-      "bestDomain": "lifehacker.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": null,
-      "provenanceFactMatches": [],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-P1",
-      "evidence": "Prime Day 2025 ends tonight, and Lifehacker is sharing the best sales based on product reviews, comparisons, and price-tracking tools before it&#039;s over.",
-      "bestPassage": "Prime Day 2025 ends tonight, and Lifehacker is sharing the best sales based on product reviews, comparisons, and price-tracking tools before it&#039;s over.",
-      "matchedPassages": [],
-      "sharedTerms": [],
-      "entityShared": [],
-      "topicShared": [],
-      "numericMismatch": true,
-      "contradicted": false,
-      "offTopic": true,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 0,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "semantic-context-evidence-pack"
-    },
-    {
-      "index": 7,
-      "claim": "98 discounted to $65.99, a 75% cut.",
-      "status": "unsupported",
-      "classification": "contradicted",
-      "confidence": 0,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "I Review Smart Security Cameras, and These Are the Ones You Should Buy Before Prime Day Ends Tonight",
-      "bestUrl": "https://lifehacker.com/tech/last-chance-eufy-solocam-security-camera-sale-prime-day-2025",
-      "bestDomain": "lifehacker.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": null,
-      "provenanceFactMatches": [],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-P1",
-      "evidence": "Prime Day 2025 ends tonight, and Lifehacker is sharing the best sales based on product reviews, comparisons, and price-tracking tools before it&#039;s over.",
-      "bestPassage": "Prime Day 2025 ends tonight, and Lifehacker is sharing the best sales based on product reviews, comparisons, and price-tracking tools before it&#039;s over.",
-      "matchedPassages": [],
-      "sharedTerms": [],
-      "entityShared": [],
-      "topicShared": [],
-      "numericMismatch": true,
-      "contradicted": false,
-      "offTopic": true,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 0,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "semantic-context-evidence-pack"
-    },
-    {
-      "index": 8,
-      "claim": "SimpliSafe 11‑Piece Home Security System, $333.80 discounted to $192.49, a $141.31 saving.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 92,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "These Early Amazon Prime Deals on Video Doorbells and Security Cameras Are Chiming in With Savings",
-      "bestUrl": "https://www.pcmag.com/deals/home-security-camera-video-doorbell-deals-early-prime-day-2026-oct-3",
-      "bestDomain": "pcmag.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F6",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 92
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F6",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 92,
-          "passageIndex": 6
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-FF6",
-      "evidence": "The Best Early Prime Day Home Security Deals SimpliSafe 11-Piece Home Security System $192.49 at Amazon $333.80 Save $141.31 Get Deal Eufy Security Video Doorbell E340 $119.99 at Amazon $149.99 Save $30.00 Get Deal EufyCam CS35 Camera, 4-Pack $229.99 at Amazon $349.99 Save $120.00 Get Deal Ring Battery Doorbell with Indoor Cam Plus $59.99 at Amazon $159.98 Save $99.99 Get Deal Blink Mini 2K+ Indoor Security Camera $27.99 at Amazon $69.99 Save $42.00 Get Deal SEE -5 MORE SimpliSafe Early Prime Day Deals 11-Piece Home Security System SimpliSafe 11-Piece Home Security System 11-piece set up, 24/7 monitoring, 1536p resolution $192.49 at Amazon $333.80 Save $141.31 Get Deal This SimpliSafe 11-piece home security system comes with a suite of products, including an indoor camera and a doorbell.",
-      "bestPassage": "The Best Early Prime Day Home Security Deals SimpliSafe 11-Piece Home Security System $192.49 at Amazon $333.80 Save $141.31 Get Deal Eufy Security Video Doorbell E340 $119.99 at Amazon $149.99 Save $30.00 Get Deal EufyCam CS35 Camera, 4-Pack $229.99 at Amazon $349.99 Save $120.00 Get Deal Ring Battery Doorbell with Indoor Cam Plus $59.99 at Amazon $159.98 Save $99.99 Get Deal Blink Mini 2K+ Indoor Security Camera $27.99 at Amazon $69.99 Save $42.00 Get Deal SEE -5 MORE SimpliSafe Early Prime Day Deals 11-Piece Home Security System SimpliSafe 11-Piece Home Security System 11-piece set up, 24/7 monitoring, 1536p resolution $192.49 at Amazon $333.80 Save $141.31 Get Deal This SimpliSafe 11-piece home security system comes with a suite of products, including an indoor camera and a doorbell.",
-      "matchedPassages": [
-        "S2-BODY",
-        "S2-P1"
-      ],
-      "sharedTerms": [
-        "simplisafe",
-        "piece",
-        "home",
-        "security",
-        "system",
-        "333",
-        "192",
-        "141"
-      ],
-      "entityShared": [
-        "simplisafe",
-        "piece",
-        "home",
-        "security",
-        "system"
-      ],
-      "topicShared": [
-        "security"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": true,
-      "directExact": true,
-      "matchingMode": "direct-exact-evidence"
-    },
-    {
-      "index": 9,
-      "claim": "Eufy Security Video Doorbell E340, $149.99 discounted to $119.99, a $30.00 saving.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 96,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "These Early Amazon Prime Deals on Video Doorbells and Security Cameras Are Chiming in With Savings",
-      "bestUrl": "https://www.pcmag.com/deals/home-security-camera-video-doorbell-deals-early-prime-day-2026-oct-3",
-      "bestDomain": "pcmag.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F6",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 85
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F6",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 85,
-          "passageIndex": 6
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "The Best Early Prime Day Home Security Deals SimpliSafe 11-Piece Home Security System $192.49 at Amazon $333.80 Save $141.31 Get Deal Eufy Security Video Doorbell E340 $119.99 at Amazon $149.99 Save $30.00 Get Deal EufyCam CS35 Camera, 4-Pack $229.99 at Amazon $349.99 Save $120.00 Get Deal Ring Battery Doorbell with Indoor Cam Plus $59.99 at Amazon $159.98 Save $99.99 Get Deal Blink Mini 2K+ Indoor Security Camera $27.99 at Amazon $69.99 Save $42.00 Get Deal SEE -5 MORE SimpliSafe Early Prime Day Deals 11-Piece Home Security System SimpliSafe 11-Piece Home Security System 11-piece set up, 24/7 monitoring, 1536p resolution $192.49 at Amazon $333.80 Save $141.31 Get Deal This SimpliSafe 11-piece home security system comes with a suite of products, including an indoor camera and a doorbell.",
-      "bestPassage": "The Best Early Prime Day Home Security Deals SimpliSafe 11-Piece Home Security System $192.49 at Amazon $333.80 Save $141.31 Get Deal Eufy Security Video Doorbell E340 $119.99 at Amazon $149.99 Save $30.00 Get Deal EufyCam CS35 Camera, 4-Pack $229.99 at Amazon $349.99 Save $120.00 Get Deal Ring Battery Doorbell with Indoor Cam Plus $59.99 at Amazon $159.98 Save $99.99 Get Deal Blink Mini 2K+ Indoor Security Camera $27.99 at Amazon $69.99 Save $42.00 Get Deal SEE -5 MORE SimpliSafe Early Prime Day Deals 11-Piece Home Security System SimpliSafe 11-Piece Home Security System 11-piece set up, 24/7 monitoring, 1536p resolution $192.49 at Amazon $333.80 Save $141.31 Get Deal This SimpliSafe 11-piece home security system comes with a suite of products, including an indoor camera and a doorbell.",
-      "matchedPassages": [
-        "S2-BODY",
-        "S2-P1"
-      ],
-      "sharedTerms": [
-        "eufy",
-        "security",
-        "video",
-        "doorbell",
-        "e340",
-        "149",
-        "discount",
-        "119"
-      ],
-      "entityShared": [
-        "eufy",
-        "security",
-        "video",
-        "doorbell",
-        "e340"
-      ],
-      "topicShared": [
-        "security",
-        "video",
-        "doorbell"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": true,
-      "directExact": true,
-      "matchingMode": "direct-exact-evidence"
-    },
-    {
-      "index": 10,
-      "claim": "EufyCam CS35 Camera 4‑Pack, $349.99 discounted to $229.99, a $120.00 saving.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 96,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "These Early Amazon Prime Deals on Video Doorbells and Security Cameras Are Chiming in With Savings",
-      "bestUrl": "https://www.pcmag.com/deals/home-security-camera-video-doorbell-deals-early-prime-day-2026-oct-3",
-      "bestDomain": "pcmag.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F6",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 85
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F6",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 85,
-          "passageIndex": 6
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "The Best Early Prime Day Home Security Deals SimpliSafe 11-Piece Home Security System $192.49 at Amazon $333.80 Save $141.31 Get Deal Eufy Security Video Doorbell E340 $119.99 at Amazon $149.99 Save $30.00 Get Deal EufyCam CS35 Camera, 4-Pack $229.99 at Amazon $349.99 Save $120.00 Get Deal Ring Battery Doorbell with Indoor Cam Plus $59.99 at Amazon $159.98 Save $99.99 Get Deal Blink Mini 2K+ Indoor Security Camera $27.99 at Amazon $69.99 Save $42.00 Get Deal SEE -5 MORE SimpliSafe Early Prime Day Deals 11-Piece Home Security System SimpliSafe 11-Piece Home Security System 11-piece set up, 24/7 monitoring, 1536p resolution $192.49 at Amazon $333.80 Save $141.31 Get Deal This SimpliSafe 11-piece home security system comes with a suite of products, including an indoor camera and a doorbell.",
-      "bestPassage": "The Best Early Prime Day Home Security Deals SimpliSafe 11-Piece Home Security System $192.49 at Amazon $333.80 Save $141.31 Get Deal Eufy Security Video Doorbell E340 $119.99 at Amazon $149.99 Save $30.00 Get Deal EufyCam CS35 Camera, 4-Pack $229.99 at Amazon $349.99 Save $120.00 Get Deal Ring Battery Doorbell with Indoor Cam Plus $59.99 at Amazon $159.98 Save $99.99 Get Deal Blink Mini 2K+ Indoor Security Camera $27.99 at Amazon $69.99 Save $42.00 Get Deal SEE -5 MORE SimpliSafe Early Prime Day Deals 11-Piece Home Security System SimpliSafe 11-Piece Home Security System 11-piece set up, 24/7 monitoring, 1536p resolution $192.49 at Amazon $333.80 Save $141.31 Get Deal This SimpliSafe 11-piece home security system comes with a suite of products, including an indoor camera and a doorbell.",
-      "matchedPassages": [
-        "S2-BODY",
-        "S2-P1"
-      ],
-      "sharedTerms": [
-        "eufycam",
-        "cs35",
-        "camera",
-        "pack",
-        "349",
-        "discount",
-        "229",
-        "120"
-      ],
-      "entityShared": [
-        "eufycam",
-        "cs35",
-        "camera",
-        "pack"
-      ],
-      "topicShared": [
-        "camera"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": true,
-      "directExact": true,
-      "matchingMode": "direct-exact-evidence"
-    },
-    {
       "index": 11,
-      "claim": "Blink Mini 2K+ Indoor Security Camera, $69.99 discounted to $27.99, a $42.00 saving.",
+      "claim": "The change is part of a broader industry response to the growing capabilities of AI agents that can access sensitive files.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 90,
+      "confidence": 59,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "These Early Amazon Prime Deals on Video Doorbells and Security Cameras Are Chiming in With Savings",
-      "bestUrl": "https://www.pcmag.com/deals/home-security-camera-video-doorbell-deals-early-prime-day-2026-oct-3",
-      "bestDomain": "pcmag.com",
-      "sourceId": "S2",
+      "bestSource": "Apple Locks Down Mac Disk Access as AI Agents Pose New Risks",
+      "bestUrl": "https://www.techbuzz.ai/articles/apple-locks-down-mac-disk-access-as-ai-agents-pose-new-risks",
+      "bestDomain": "techbuzz.ai",
+      "sourceId": "S4",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F6",
-        "sourceId": "S2",
+        "factId": "F7",
+        "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 82
+        "score": 35
       },
       "provenanceFactMatches": [
-        {
-          "factId": "F6",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 82,
-          "passageIndex": 6
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "The Best Early Prime Day Home Security Deals SimpliSafe 11-Piece Home Security System $192.49 at Amazon $333.80 Save $141.31 Get Deal Eufy Security Video Doorbell E340 $119.99 at Amazon $149.99 Save $30.00 Get Deal EufyCam CS35 Camera, 4-Pack $229.99 at Amazon $349.99 Save $120.00 Get Deal Ring Battery Doorbell with Indoor Cam Plus $59.99 at Amazon $159.98 Save $99.99 Get Deal Blink Mini 2K+ Indoor Security Camera $27.99 at Amazon $69.99 Save $42.00 Get Deal SEE -5 MORE SimpliSafe Early Prime Day Deals 11-Piece Home Security System SimpliSafe 11-Piece Home Security System 11-piece set up, 24/7 monitoring, 1536p resolution $192.49 at Amazon $333.80 Save $141.31 Get Deal This SimpliSafe 11-piece home security system comes with a suite of products, including an indoor camera and a doorbell.",
-      "bestPassage": "The Best Early Prime Day Home Security Deals SimpliSafe 11-Piece Home Security System $192.49 at Amazon $333.80 Save $141.31 Get Deal Eufy Security Video Doorbell E340 $119.99 at Amazon $149.99 Save $30.00 Get Deal EufyCam CS35 Camera, 4-Pack $229.99 at Amazon $349.99 Save $120.00 Get Deal Ring Battery Doorbell with Indoor Cam Plus $59.99 at Amazon $159.98 Save $99.99 Get Deal Blink Mini 2K+ Indoor Security Camera $27.99 at Amazon $69.99 Save $42.00 Get Deal SEE -5 MORE SimpliSafe Early Prime Day Deals 11-Piece Home Security System SimpliSafe 11-Piece Home Security System 11-piece set up, 24/7 monitoring, 1536p resolution $192.49 at Amazon $333.80 Save $141.31 Get Deal This SimpliSafe 11-piece home security system comes with a suite of products, including an indoor camera and a doorbell.",
-      "matchedPassages": [
-        "S2-BODY",
-        "S2-P1"
-      ],
-      "sharedTerms": [
-        "blink",
-        "mini",
-        "indoor",
-        "security",
-        "camera",
-        "discount"
-      ],
-      "entityShared": [
-        "blink",
-        "mini",
-        "indoor",
-        "security",
-        "camera"
-      ],
-      "topicShared": [
-        "security",
-        "camera"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": true,
-      "directExact": true,
-      "matchingMode": "direct-exact-evidence"
-    },
-    {
-      "index": 12,
-      "claim": "The discounts are already active, but Prime members can access the lowest prices.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 54,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "These Early Amazon Prime Deals on Video Doorbells and Security Cameras Are Chiming in With Savings",
-      "bestUrl": "https://www.pcmag.com/deals/home-security-camera-video-doorbell-deals-early-prime-day-2026-oct-3",
-      "bestDomain": "pcmag.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F8",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 33
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F8",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 33,
-          "passageIndex": 5
-        },
-        {
-          "factId": "F4",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 29,
-          "passageIndex": 2
-        },
         {
           "factId": "F7",
-          "sourceId": "S2",
+          "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 21,
-          "passageIndex": 3
+          "score": 35,
+          "passageIndex": 4
+        },
+        {
+          "factId": "F18",
+          "sourceId": "S4",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 35,
+          "passageIndex": 1
+        },
+        {
+          "factId": "F14",
+          "sourceId": "S3",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 32,
+          "passageIndex": 6
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S2-FF8,S1-FF4,S2-FF7",
-      "evidence": "You can still shop and save during Big Deal Days, but if you want to score the best deals, you need to sign up for Prime . Sales are accurate at the time of publication, but prices and inventory are always subject to change.For the past few years, I&#039;ve been putting up and taking down security cameras at a rate that has led neighbors to worry I&#039;m a conspiracy theorist. In particular, video doorbells and security cameras are seeing some hefty discounts at the moment.",
-      "bestPassage": "You can still shop and save during Big Deal Days, but if you want to score the best deals, you need to sign up for Prime . Sales are accurate at the time of publication, but prices and inventory are always subject to change.For the past few years, I&#039;ve been putting up and taking down security cameras at a rate that has led neighbors to worry I&#039;m a conspiracy theorist. In particular, video doorbells and security cameras are seeing some hefty discounts at the moment.",
+      "bestPassageId": "S1-FF7,S4-FF18,S3-FF14",
+      "evidence": "AI agents that run on the desktop allow users to provide their respective apps with greater access to the files, messages, and other personal content on their computers by adjusting macOS settings. Apple just threw up new security barriers around Mac computers, responding to what the company calls 'substantial' risks from AI agents that can dig through user files without explicit permission. It did point to AI agents, though, warning that the risks of this level of access \"will grow substantially\" as agents become more capable and autonomous.AI agents on the Mac now routinely ask for full system accessThe announcement follows a claim by US columnist Jason Aten that Meta's Muse AI agent read private messages on his Mac mini without his permission.",
+      "bestPassage": "AI agents that run on the desktop allow users to provide their respective apps with greater access to the files, messages, and other personal content on their computers by adjusting macOS settings. Apple just threw up new security barriers around Mac computers, responding to what the company calls 'substantial' risks from AI agents that can dig through user files without explicit permission. It did point to AI agents, though, warning that the risks of this level of access \"will grow substantially\" as agents become more capable and autonomous.AI agents on the Mac now routinely ask for full system accessThe announcement follows a claim by US columnist Jason Aten that Meta's Muse AI agent read private messages on his Mac mini without his permission.",
       "matchedPassages": [
-        "S2-BODY",
-        "S2-P3"
+        "S4-BODY"
       ],
       "sharedTerms": [
         "the",
-        "discount",
-        "are",
-        "but",
-        "prime",
+        "grow",
+        "agent",
         "can",
-        "pric"
+        "acces",
+        "fil"
       ],
-      "entityShared": [
-        "prime"
-      ],
+      "entityShared": [],
       "topicShared": [
-        "are",
-        "prime"
+        "agent",
+        "acces"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -897,322 +952,64 @@
       "matchingMode": "fact-map-multi-fact-anchored"
     },
     {
-      "index": 13,
-      "claim": "If you do not have Amazon Prime, retailers such as Walmart, Best Buy, and Home Depot are offering competition sales beginning at midnight on July 8, with up to 50% off.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 92,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "I Review Smart Security Cameras, and These Are the Ones You Should Buy Before Prime Day Ends Tonight",
-      "bestUrl": "https://lifehacker.com/tech/last-chance-eufy-solocam-security-camera-sale-prime-day-2025",
-      "bestDomain": "lifehacker.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F5",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 92
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F5",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 92,
-          "passageIndex": 21
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-FF5",
-      "evidence": "Retailers like Walmart, Best Buy, and Home Depot have Prime Day competition sales that are especially useful if you don&rsquo;t have Amazon Prime.Walmart&rsquo;s Prime Day competition sale begins at midnight on July 8 and will include deals up to 50% off.",
-      "bestPassage": "Retailers like Walmart, Best Buy, and Home Depot have Prime Day competition sales that are especially useful if you don&rsquo;t have Amazon Prime.Walmart&rsquo;s Prime Day competition sale begins at midnight on July 8 and will include deals up to 50% off.",
-      "matchedPassages": [
-        "S1-P5",
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "you",
-        "amazon",
-        "prime",
-        "retailer",
-        "walmart",
-        "best",
-        "buy",
-        "and",
-        "home",
-        "depot",
-        "are",
-        "competition",
-        "sal",
-        "midnight",
-        "july",
-        "off"
-      ],
-      "entityShared": [
-        "amazon",
-        "prime",
-        "walmart",
-        "best",
-        "buy",
-        "home",
-        "depot",
-        "july"
-      ],
-      "topicShared": [
-        "amazon",
-        "prime",
-        "and",
-        "are"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": true,
-      "directExact": true,
-      "matchingMode": "direct-exact-evidence"
-    },
-    {
-      "index": 14,
-      "claim": "The Prime Day competition sale is especially useful for shoppers who miss the Prime window.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 81,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "I Review Smart Security Cameras, and These Are the Ones You Should Buy Before Prime Day Ends Tonight",
-      "bestUrl": "https://lifehacker.com/tech/last-chance-eufy-solocam-security-camera-sale-prime-day-2025",
-      "bestDomain": "lifehacker.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F5",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 67
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F5",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 67,
-          "passageIndex": 21
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "Retailers like Walmart, Best Buy, and Home Depot have Prime Day competition sales that are especially useful if you don&rsquo;t have Amazon Prime.Walmart&rsquo;s Prime Day competition sale begins at midnight on July 8 and will include deals up to 50% off.",
-      "bestPassage": "Retailers like Walmart, Best Buy, and Home Depot have Prime Day competition sales that are especially useful if you don&rsquo;t have Amazon Prime.Walmart&rsquo;s Prime Day competition sale begins at midnight on July 8 and will include deals up to 50% off.",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P5"
-      ],
-      "sharedTerms": [
-        "the",
-        "prime",
-        "day",
-        "competition",
-        "sale",
-        "especially",
-        "useful",
-        "for"
-      ],
-      "entityShared": [
-        "prime",
-        "day"
-      ],
-      "topicShared": [
-        "prime"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 15,
-      "claim": "Prime Day 2025 is ending soon, and the current early deals on video doorbells and security cameras offer significant savings.",
+      "index": 12,
+      "claim": "The announcement comes weeks after a columnist reported that Muse AI somehow knew the contents of his messages on a Mac mini, even though the chatbot was not given explicit permission.",
       "status": "partial",
       "classification": "supported_with_context",
-      "confidence": 80,
+      "confidence": 83,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "I Review Smart Security Cameras, and These Are the Ones You Should Buy Before Prime Day Ends Tonight",
-      "bestUrl": "https://lifehacker.com/tech/last-chance-eufy-solocam-security-camera-sale-prime-day-2025",
-      "bestDomain": "lifehacker.com",
-      "sourceId": "S1",
+      "bestSource": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+      "bestUrl": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+      "bestDomain": "theverge.com",
+      "sourceId": "S2",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F2",
-        "sourceId": "S1",
+        "factId": "F11",
+        "sourceId": "S2",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 60
+        "score": 81
       },
       "provenanceFactMatches": [
         {
-          "factId": "F6",
+          "factId": "F11",
           "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 66,
-          "passageIndex": 6
-        },
-        {
-          "factId": "F2",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 60,
-          "passageIndex": 24
+          "score": 81,
+          "passageIndex": 2
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "The Best Early Prime Day Home Security Deals SimpliSafe 11-Piece Home Security System $192.49 at Amazon $333.80 Save $141.31 Get Deal Eufy Security Video Doorbell E340 $119.99 at Amazon $149.99 Save $30.00 Get Deal EufyCam CS35 Camera, 4-Pack $229.99 at Amazon $349.99 Save $120.00 Get Deal Ring Battery Doorbell with Indoor Cam Plus $59.99 at Amazon $159.98 Save $99.99 Get Deal Blink Mini 2K+ Indoor Security Camera $27.99 at Amazon $69.99 Save $42.00 Get Deal SEE -5 MORE SimpliSafe Early Prime Day Deals 11-Piece Home Security System SimpliSafe 11-Piece Home Security System 11-piece set up, 24/7 monitoring, 1536p resolution $192.49 at Amazon $333.80 Save $141.31 Get Deal This SimpliSafe 11-piece home security system comes with a suite of products, including an indoor camera and a doorbell. Our Best Editor-Vetted Early Prime Day Deals Right Now Apple AirPods Pro 3 Noise Cancelling Heart Rate Wireless Earbuds &mdash; $234.00 (List Price $249.00) Sony WH-1000XM5 &mdash; $298.00 (List Price $399.99) Ring Indoor Cam Plus 2K Wired Security Camera (2-Pack, White) &mdash; $59.98 (List Price $119.98) Apple iPad 11\" 128GB A16 WiFi Tablet (Blue, 2025) &mdash; $427.00 (List Price $449.00) Blink Outdoor 4 1080p 3-Camera Kit With Sync Module Core + Doorbell &mdash; $65.99 (List Price $259.98) Ring 2nd Gen 2K Wired Video Doorbell With Chime (2026 Release) &mdash; $49.99 (List Price $114.98) Fire TV Stick 4K Plus Streaming Player With Remote (2025 Model) &mdash; $37.99 (List Price $69.99) Deals are selected by our commerce team",
-      "bestPassage": "The Best Early Prime Day Home Security Deals SimpliSafe 11-Piece Home Security System $192.49 at Amazon $333.80 Save $141.31 Get Deal Eufy Security Video Doorbell E340 $119.99 at Amazon $149.99 Save $30.00 Get Deal EufyCam CS35 Camera, 4-Pack $229.99 at Amazon $349.99 Save $120.00 Get Deal Ring Battery Doorbell with Indoor Cam Plus $59.99 at Amazon $159.98 Save $99.99 Get Deal Blink Mini 2K+ Indoor Security Camera $27.99 at Amazon $69.99 Save $42.00 Get Deal SEE -5 MORE SimpliSafe Early Prime Day Deals 11-Piece Home Security System SimpliSafe 11-Piece Home Security System 11-piece set up, 24/7 monitoring, 1536p resolution $192.49 at Amazon $333.80 Save $141.31 Get Deal This SimpliSafe 11-piece home security system comes with a suite of products, including an indoor camera and a doorbell. Our Best Editor-Vetted Early Prime Day Deals Right Now Apple AirPods Pro 3 Noise Cancelling Heart Rate Wireless Earbuds &mdash; $234.00 (List Price $249.00) Sony WH-1000XM5 &mdash; $298.00 (List Price $399.99) Ring Indoor Cam Plus 2K Wired Security Camera (2-Pack, White) &mdash; $59.98 (List Price $119.98) Apple iPad 11\" 128GB A16 WiFi Tablet (Blue, 2025) &mdash; $427.00 (List Price $449.00) Blink Outdoor 4 1080p 3-Camera Kit With Sync Module Core + Doorbell &mdash; $65.99 (List Price $259.98) Ring 2nd Gen 2K Wired Video Doorbell With Chime (2026 Release) &mdash; $49.99 (List Price $114.98) Fire TV Stick 4K Plus Streaming Player With Remote (2025 Model) &mdash; $37.99 (List Price $69.99) Deals are selected by our commerce team",
+      "bestPassageId": "S2-BODY",
+      "evidence": "In an update on Friday, Apple says it’s rolling out new controls to “ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action.” The change comes just weeks after Inc’s Jason Aten found that Meta’s Muse AI somehow knew the contents of his messages, despite not giving the chatbot explicit permission to access them on his iPhone or Mac.",
+      "bestPassage": "In an update on Friday, Apple says it’s rolling out new controls to “ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action.” The change comes just weeks after Inc’s Jason Aten found that Meta’s Muse AI somehow knew the contents of his messages, despite not giving the chatbot explicit permission to access them on his iPhone or Mac.",
       "matchedPassages": [
-        "S1-BODY",
-        "S1-P2"
+        "S2-BODY",
+        "S2-P2"
       ],
       "sharedTerms": [
-        "prime",
-        "day",
-        "2025",
-        "and",
         "the",
-        "early",
-        "deal",
-        "video",
-        "doorbell",
-        "security",
-        "camera"
+        "com",
+        "week",
+        "report",
+        "muse",
+        "somehow",
+        "knew",
+        "content",
+        "his",
+        "messag",
+        "mac",
+        "chatbot",
+        "not",
+        "explicit",
+        "permission"
       ],
       "entityShared": [
-        "prime",
-        "day"
+        "muse",
+        "mac"
       ],
       "topicShared": [
-        "prime",
-        "and",
-        "early",
-        "deal",
-        "video",
-        "doorbell",
-        "security",
-        "camera",
-        "saving"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [
-        "significant"
-      ],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 2,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
-    },
-    {
-      "index": 16,
-      "claim": "Those who want the best prices should sign up for Amazon Prime or shop the competition sales starting July 8.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 86,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "I Review Smart Security Cameras, and These Are the Ones You Should Buy Before Prime Day Ends Tonight",
-      "bestUrl": "https://lifehacker.com/tech/last-chance-eufy-solocam-security-camera-sale-prime-day-2025",
-      "bestDomain": "lifehacker.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F5",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 57
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F5",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 57,
-          "passageIndex": 21
-        },
-        {
-          "factId": "F8",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 52,
-          "passageIndex": 5
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-FF5,S2-FF8",
-      "evidence": "Retailers like Walmart, Best Buy, and Home Depot have Prime Day competition sales that are especially useful if you don&rsquo;t have Amazon Prime.Walmart&rsquo;s Prime Day competition sale begins at midnight on July 8 and will include deals up to 50% off. You can still shop and save during Big Deal Days, but if you want to score the best deals, you need to sign up for Prime .",
-      "bestPassage": "Retailers like Walmart, Best Buy, and Home Depot have Prime Day competition sales that are especially useful if you don&rsquo;t have Amazon Prime.Walmart&rsquo;s Prime Day competition sale begins at midnight on July 8 and will include deals up to 50% off. You can still shop and save during Big Deal Days, but if you want to score the best deals, you need to sign up for Prime .",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P5"
-      ],
-      "sharedTerms": [
-        "want",
-        "the",
-        "best",
-        "sign",
-        "for",
-        "amazon",
-        "prime",
-        "shop",
-        "competition",
-        "sal",
-        "july"
-      ],
-      "entityShared": [
-        "amazon",
-        "prime",
-        "july"
-      ],
-      "topicShared": [
-        "amazon",
-        "prime"
+        "mac"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -1221,86 +1018,102 @@
       "attributionUncertainty": {
         "evidenceUncertain": true,
         "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
+        "evidenceAttributed": true,
+        "claimAttributed": true,
+        "certaintyEscalation": true,
         "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 2,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
-    },
-    {
-      "index": 17,
-      "claim": "The discounts are subject to change, and inventory levels are not guaranteed, so act quickly to secure the offers.",
-      "status": "partial",
-      "classification": "supported_with_context",
-      "confidence": 55,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "I Review Smart Security Cameras, and These Are the Ones You Should Buy Before Prime Day Ends Tonight",
-      "bestUrl": "https://lifehacker.com/tech/last-chance-eufy-solocam-security-camera-sale-prime-day-2025",
-      "bestDomain": "lifehacker.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F4",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 47
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F4",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 47,
-          "passageIndex": 2
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-P4",
-      "evidence": "Sales are accurate at the time of publication, but prices and inventory are always subject to change.For the past few years, I&#039;ve been putting up and taking down security cameras at a rate that has led neighbors to worry I&#039;m a conspiracy theorist.",
-      "bestPassage": "Sales are accurate at the time of publication, but prices and inventory are always subject to change.For the past few years, I&#039;ve been putting up and taking down security cameras at a rate that has led neighbors to worry I&#039;m a conspiracy theorist.",
-      "matchedPassages": [
-        "S1-P4",
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "the",
-        "are",
-        "subject",
-        "change",
-        "and",
-        "inventory"
-      ],
-      "entityShared": [],
-      "topicShared": [
-        "are",
-        "and"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
+        "blocked": true
       },
       "factCoverage": 1,
       "multiFactSupported": false,
       "directFactExact": false,
       "directExact": false,
       "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 13,
+      "claim": "Apple has not yet provided detailed guidance on how the new controls will be implemented, and the company has not responded to inquiries from several outlets.",
+      "status": "partial",
+      "classification": "supported_with_context",
+      "confidence": 52,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents - TechCrunch",
+      "bestUrl": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+      "bestDomain": "techcrunch.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F11",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 40
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F11",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 40,
+          "passageIndex": 2
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-BODY",
+      "evidence": "In an update on Friday, Apple says it’s rolling out new controls to “ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action.” The change comes just weeks after Inc’s Jason Aten found that Meta’s Muse AI somehow knew the contents of his messages, despite not giving the chatbot explicit permission to access them on his iPhone or Mac.",
+      "bestPassage": "In an update on Friday, Apple says it’s rolling out new controls to “ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action.” The change comes just weeks after Inc’s Jason Aten found that Meta’s Muse AI somehow knew the contents of his messages, despite not giving the chatbot explicit permission to access them on his iPhone or Mac.",
+      "matchedPassages": [
+        "S1-BODY",
+        "S1-P6"
+      ],
+      "sharedTerms": [
+        "apple",
+        "not",
+        "the",
+        "new",
+        "control",
+        "and",
+        "respond",
+        "investigation"
+      ],
+      "entityShared": [
+        "apple"
+      ],
+      "topicShared": [
+        "apple"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": true,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": true,
+        "attributionDropped": true,
+        "blocked": true
+      },
+      "factCoverage": 3,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
     }
   ],
-  "editorial": []
+  "editorial": [
+    {
+      "index": 14,
+      "claim": "In short, the updated controls are intended to make sure anyone giving an AI agent sweeping access to a Mac is fully aware of what they are authorizing.Apple’s preemptive security move signals a broader industry awakening to the unique risks posed by AI agents.",
+      "type": "editorial-analysis",
+      "status": "editorial-excluded"
+    },
+    {
+      "index": 15,
+      "claim": "For now, users should review app permissions and consider whether Full Disk Access is truly necessary for the applications they use.",
+      "type": "editorial-recommendation",
+      "status": "editorial-excluded"
+    }
+  ]
 }

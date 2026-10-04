@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "title": "These Early Amazon Prime Deals on Video Doorbells and Security Cameras Are Chiming in With Savings - PCMag",
+  "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
   "mode": "narrow",
   "wordBudget": {
     "min": 231,
@@ -11,7 +11,7 @@
     "preferredMin": 1,
     "preferredMax": 2
   },
-  "atomicClaimBudget": 10,
+  "atomicClaimBudget": 18,
   "allowedFactIds": [
     "F1",
     "F2",
@@ -22,7 +22,19 @@
     "F7",
     "F8",
     "F9",
-    "F10"
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16",
+    "F17",
+    "F18",
+    "F19",
+    "F20",
+    "F21",
+    "F22"
   ],
   "synthesis": {
     "allowed": true,
@@ -38,7 +50,19 @@
       "F7",
       "F8",
       "F9",
-      "F10"
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22"
     ]
   },
   "rules": {
@@ -47,7 +71,7 @@
     "newEntitiesInSynthesis": false,
     "newCausalityInSynthesis": false
   },
-  "generatedAt": "2026-10-03T20:23:50.581Z",
-  "articleTitle": "Early Prime Day Deals Offer Deep Discounts on Video Doorbells and Security Cameras",
-  "articleSlug": "early-prime-day-deals-offer-deep-discounts-on-video-doorbells-and-security-cameras"
+  "generatedAt": "2026-10-04T00:35:17.407Z",
+  "articleTitle": "Apple Tightens Mac Disk Access After AI‑Driven Privacy Concerns",
+  "articleSlug": "apple-tightens-mac-disk-access-after-ai-driven-privacy-concerns"
 }

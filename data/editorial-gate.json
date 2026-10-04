@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T20:23:50.581Z",
+  "generatedAt": "2026-10-04T00:35:17.407Z",
   "provider": "Groq",
   "editorial": {
     "passed": true,
@@ -22,7 +22,7 @@
       "noHighSimilaritySource": true
     },
     "metrics": {
-      "normalizedLength": 1833,
+      "normalizedLength": 2141,
       "sentenceCount": 17,
       "maxSourceSimilarity": 0,
       "maxCommonPhrase": 0
@@ -31,13 +31,15 @@
   "semanticDuplicateCheck": "passed",
   "sourceRelationshipCheck": "passed",
   "verifiedEvidenceDomains": [
-    "lifehacker.com",
-    "pcmag.com"
+    "techcrunch.com",
+    "theverge.com",
+    "timesofindia.indiatimes.com",
+    "techbuzz.ai"
   ],
   "primarySourceCount": 0,
   "grounding": {
-    "sourceCount": 2,
-    "usablePassages": 10,
+    "sourceCount": 4,
+    "usablePassages": 22,
     "primarySourceCount": 0
   }
 }

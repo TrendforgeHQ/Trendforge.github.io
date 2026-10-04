@@ -1,32 +1,32 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-03T20:25:00.165Z",
+  "generatedAt": "2026-10-04T00:35:30.382Z",
   "policy": {
     "privacyFirst": true,
     "noPersonalTracking": true,
     "noPaidTrafficRequired": true
   },
   "summary": {
-    "totalArticles": 35,
+    "totalArticles": 36,
     "averageEditorialScore": 76,
     "editorialReviewCount": 25,
-    "refreshCandidates": 13
+    "refreshCandidates": 14
   },
   "categoryMix": [
     {
       "category": "AI",
       "count": 12,
-      "share": 34.3
+      "share": 33.3
     },
     {
       "category": "Technology",
       "count": 7,
-      "share": 20
+      "share": 19.4
     },
     {
       "category": "How-To",
       "count": 3,
-      "share": 8.6
+      "share": 8.3
     },
     {
       "category": "Innovation",
@@ -36,17 +36,17 @@
     {
       "category": "Product Launches",
       "count": 1,
-      "share": 2.9
+      "share": 2.8
     },
     {
       "category": "Digital Life",
-      "count": 6,
-      "share": 17.1
+      "count": 7,
+      "share": 19.4
     },
     {
       "category": "Crypto",
       "count": 5,
-      "share": 14.3
+      "share": 13.9
     }
   ],
   "missingCategories": [
@@ -56,9 +56,14 @@
   "recommendations": [
     "Prioritize missing categories: Innovation.",
     "25 article(s) are in editorial review; improve them before treating them as growth winners.",
-    "13 older/incomplete article(s) are refresh candidates."
+    "14 older/incomplete article(s) are refresh candidates."
   ],
   "recentArticles": [
+    {
+      "title": "Apple Tightens Mac Disk Access After AI‑Driven Privacy Concerns",
+      "category": "Digital Life",
+      "publishedAt": "2026-10-04T00:35:17.406Z"
+    },
     {
       "title": "Apple Stores Get Secret Boxes Ahead of October 13 Home‑Tech Launch",
       "category": "Product Launches",
@@ -103,11 +108,6 @@
       "title": "Bitcoin as an Exit Asset, Ethereum as New Rails: Diverging Views From Former BlackRock Executive and Bitwise",
       "category": "Crypto",
       "publishedAt": "2026-09-27T04:46:35.135Z"
-    },
-    {
-      "title": "Jim Cramer Recommends Two AI Stocks That Have Risen Over 1,400% Since 2023",
-      "category": "AI",
-      "publishedAt": "2026-09-26T10:32:59.089Z"
     }
   ]
 }
