@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-04T00:35:23.269Z",
+  "generatedAt": "2026-10-04T03:25:54.280Z",
   "status": "pass",
-  "currentGeneratedArticle": "apple-tightens-mac-disk-access-after-ai-driven-privacy-concerns",
-  "currentScore": 88,
+  "currentGeneratedArticle": null,
+  "currentScore": null,
   "identity": {
     "method": "brief.title",
-    "rejectedMarker": false
+    "rejectedMarker": true
   },
   "policy": {
     "publishCandidate": 90,
@@ -146,17 +146,18 @@
       "slug": "apple-tightens-mac-disk-access-after-ai-driven-privacy-concerns",
       "title": "Apple Tightens Mac Disk Access After AI‑Driven Privacy Concerns",
       "category": "Digital Life",
-      "score": 88,
+      "score": 80,
       "decision": "publish_ready",
       "dimensions": {
-        "evidence": 76,
+        "evidence": 75,
         "usefulness": 95,
         "clarity": 95,
         "originality": 86,
-        "sourceStrength": 89
+        "sourceStrength": 50
       },
       "reasons": [
-        "evidence confidence needs improvement"
+        "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
       ]
     },
     {

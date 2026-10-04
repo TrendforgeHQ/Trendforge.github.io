@@ -1,6 +1,6 @@
 {
   "version": 7,
-  "generatedAt": "2026-10-04T00:35:00.987Z",
+  "generatedAt": "2026-10-04T03:24:26.401Z",
   "minimumStrongSources": 2,
   "minimumStrongPublisherFamilies": 2,
   "minimumStrongDomains": 2,
@@ -11,50 +11,155 @@
   "policy": "Source-page integrity is required for generation. Two independent publisher families is strong evidence, but a single verified publisher article may enter the generation path and remains subject to writer grounding, claim verification, editorial quality, safety and SEO gates.",
   "report": [
     {
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRTh6MC16ekhPWDh6SVd5TFFib19FcG9DalQ3VWtORnN4Um5iMjl3RWRCdjRla2xRLUFRelFXWDh5aWwycl9NZXhIMFJhbUotbFoxcjV0ODU2aWt4TktuQ2dheUo1U3JkSFlmY0xiUlhtZmZYS1JRYWJueXZlZFVUbG5uMjVYbXhSUXFhcENmRkZZUXlmZngzODBZUnZjR280U2dlZ0V4dFhBTE0?oc=5",
-      "title": "Apple says it’s tightening macOS privacy controls amid the rise of AI agents - 9to5Mac",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVzllZ3FlUmNzR3pPMkNlbDRWSU5yT2lZLXA0bnpMZjI5VmxNTG5KZFBfZEp3elVXSG1XOU5jckVlRVA1M05oRHNtMDdhVDQyY0pLdXlScG54OXJpZlZJSTFtZkMxVVBHOWlaM2hKVmpuaFpwR3c3c05ITDU1N19IcnhENHQwdTAxeGtmRnVpNDdSc0IwWFowTmlxREVocURBVFppVFRoaVdLYXpsbXBmSUxqUTZ6MG1GSjE3RHRmVQ?oc=5",
+      "title": "Exclusive | New AI Czar Unveils Goals, Members of White House Task Force - WSJ",
+      "status": "block",
+      "evidenceLevel": "none",
+      "validSourceCount": 0,
+      "independentPublisherCount": 0,
+      "independentPublisherFamilies": [],
+      "independentDomains": [],
+      "sources": [],
+      "recoveryAttempts": 0,
+      "sourceVerificationStatus": "unverified"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVTBDNzFadjhlb0NObU00ZHNkQWZKYzlMckRvZElPWVk2aG1FZ2RRa1Zfb3ByZGl4VTFBS3hhMVlzemlhYUxLQ05LQ05lVGp1c0xWR1VFeFNOSXFWREEza1NBSzlEeGd3WFZfc0ZMd3hGQWc3elVhQ2ZYSGd4Y1JpRHlIaUJsOG0yTWhObnpjXzJkMnZYWTE5RmxaQkw?oc=5",
+      "title": "These Early Amazon Prime Deals on Video Doorbells and Security Cameras Are Chiming in With Savings - PCMag",
+      "status": "pass",
+      "evidenceLevel": "single-source",
+      "validSourceCount": 1,
+      "independentPublisherCount": 1,
+      "independentPublisherFamilies": [
+        "pcmag.com"
+      ],
+      "independentDomains": [
+        "pcmag.com"
+      ],
+      "sources": [
+        {
+          "suppliedUrl": "https://www.pcmag.com/deals/home-security-camera-video-doorbell-deals-early-prime-day-2026-oct-3",
+          "domain": "pcmag.com",
+          "publisherFamily": "pcmag.com",
+          "resolvedFrom": "research-story-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://www.pcmag.com/deals/home-security-camera-video-doorbell-deals-early-prime-day-2026-oct-3",
+          "pageTitle": "These Early Amazon Prime Deals on Video Doorbells and Security Cameras Are Chiming in With Savings | PCMag",
+          "canonical": "",
+          "bodyChars": 11842,
+          "topicOverlap": 11
+        }
+      ],
+      "recoveryAttempts": 0,
+      "sourceVerificationStatus": "partial"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAyV1MxWG1LdmgzcE1VSVphU3V2NFFnU1E5MXhZM0FUMEE4MjhXOTMzMDlrSTZJdXR5Q3VnV3RWVXRRMGZaLXB3N183V0d4d0ZBcjZFdVRRWnRVWmltUnlPYlVXbllHaUtiS0o2NnQ1WdIBdEFVX3lxTFBuSmprcGRObk1JU2R0SERzdV9hNGtQallVbGhTd21LbXdVUWpzOWFsTWFxT3ZuaXBJbzA4d0I3bWdzYTNRblJzMDB0QlJSOVRBSTllWW5scUVXLWNlQXhHMkZ2SnJTY3ZhZnhlUm5XdzliYm0w?oc=5",
+      "title": "Trump taps Director of National Intelligence Jay Clayton as AI czar: WSJ reports - CNBC",
       "status": "pass",
       "evidenceLevel": "strong",
       "validSourceCount": 2,
       "independentPublisherCount": 2,
       "independentPublisherFamilies": [
-        "9to5mac.com",
-        "newscord.org"
+        "cnbc.com",
+        "aol.com"
       ],
       "independentDomains": [
-        "9to5mac.com",
-        "newscord.org"
+        "cnbc.com",
+        "aol.com"
       ],
       "sources": [
         {
-          "suppliedUrl": "https://9to5mac.com/2026/10/02/apple-says-its-tightening-macos-privacy-controls-amid-the-rise-of-ai-agents/",
-          "domain": "9to5mac.com",
-          "publisherFamily": "9to5mac.com",
+          "suppliedUrl": "https://www.cnbc.com/2026/10/03/trump-jay-clayton-ai-czar.html",
+          "domain": "cnbc.com",
+          "publisherFamily": "cnbc.com",
           "resolvedFrom": "research-story-link",
           "ok": true,
           "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://9to5mac.com/2026/10/02/apple-says-its-tightening-macos-privacy-controls-amid-the-rise-of-ai-agents/",
-          "pageTitle": "Apple says it’s tightening macOS privacy controls amid the rise of AI agents - 9to5Mac",
-          "canonical": "https://9to5mac.com/2026/10/02/apple-says-its-tightening-macos-privacy-controls-amid-the-rise-of-ai-agents/",
-          "bodyChars": 2748,
-          "topicOverlap": 10
+          "finalUrl": "https://www.cnbc.com/2026/10/03/trump-jay-clayton-ai-czar.html",
+          "pageTitle": "Trump taps Director of National Intelligence Jay Clayton as AI czar: WSJ",
+          "canonical": "https://www.cnbc.com/2026/10/03/trump-jay-clayton-ai-czar.html",
+          "bodyChars": 3109,
+          "topicOverlap": 7
         },
         {
-          "suppliedUrl": "https://newscord.org/article/apple-tightens-macos-full-disk-access-controls-after-ai-agents-read-private-mess--Story_20261002_Applechangesfulldiskdbcb48cc",
-          "domain": "newscord.org",
-          "publisherFamily": "newscord.org",
+          "suppliedUrl": "https://www.aol.com/articles/jay-clayton-lead-trumps-ai-224548000.html",
+          "domain": "aol.com",
+          "publisherFamily": "aol.com",
           "resolvedFrom": "article-link",
           "ok": true,
           "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://newscord.org/article/apple-tightens-macos-full-disk-access-controls-after-ai-agents-read-private-mess--Story_20261002_Applechangesfulldiskdbcb48cc",
-          "pageTitle": "Apple Tightens macOS Full Disk Access To Stop AI Agents From Abusing Message Logs: 19 outlets compared | NewsCord",
-          "canonical": "https://newscord.org/article/apple-tightens-macos-full-disk-access-controls-after-ai-agents-read-private-mess--Story_20261002_Applechangesfulldiskdbcb48cc",
-          "bodyChars": 2875,
-          "topicOverlap": 14
+          "finalUrl": "https://www.aol.com/articles/jay-clayton-lead-trumps-ai-224548000.html",
+          "pageTitle": "Trump names intelligence chief Clayton as AI czar, to head task force, WSJ reports - AOL",
+          "canonical": "https://www.reuters.com/world/us/jay-clayton-lead-trumps-ai-task-force-deliver-report-120-days-wsj-reports-2026-10-03/",
+          "bodyChars": 2185,
+          "topicOverlap": 6
         }
       ],
       "recoveryAttempts": 0,
       "sourceVerificationStatus": "verified"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOczlKTmxkdnE3WHZpaWs1Y2V2dFJJOENfZkRRdjdCdGJBcXRqMFRWVlFKMGZWRDhlTXBiOTQxNUY1dDlSNlZYcXlmS1ZaaF9iWkJsek5QeTZ5V2txU0hOVnFXUE9EZHU1NE1XdldXV3FaQzAzcU9KZmZNcXhJMzVaVHdYV2tIUHVDdG5Cc1FMTjFHUHRvQzEtQmhFdDUwOXR3RlUwWlBDX3c5ZlNUMWZZd1BLcm12TWVWYWc?oc=5",
+      "title": "Trump names intelligence chief Clayton as AI czar, to head task force, WSJ reports - Reuters",
+      "status": "pass",
+      "evidenceLevel": "strong",
+      "validSourceCount": 3,
+      "independentPublisherCount": 3,
+      "independentPublisherFamilies": [
+        "indiatimes.com",
+        "startupfortune.com",
+        "channelnewsasia.com"
+      ],
+      "independentDomains": [
+        "economictimes.indiatimes.com",
+        "startupfortune.com",
+        "channelnewsasia.com"
+      ],
+      "sources": [
+        {
+          "suppliedUrl": "https://economictimes.indiatimes.com/news/international/world-news/trump-names-dni-chief-jay-clayton-as-ai-czar-to-lead-new-white-house-task-force-report/articleshow/134668890.cms",
+          "domain": "economictimes.indiatimes.com",
+          "publisherFamily": "indiatimes.com",
+          "resolvedFrom": "article-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://economictimes.indiatimes.com/news/international/world-news/trump-names-dni-chief-jay-clayton-as-ai-czar-to-lead-new-white-house-task-force-report/articleshow/134668890.cms",
+          "pageTitle": "Trump names DNI chief Jay Clayton as AI czar to lead new White House task force: Report - The Economic Times",
+          "canonical": "https://m.economictimes.com/news/international/world-news/trump-names-dni-chief-jay-clayton-as-ai-czar-to-lead-new-white-house-task-force-report/articleshow/134668890.cms",
+          "bodyChars": 5721,
+          "topicOverlap": 10
+        },
+        {
+          "suppliedUrl": "https://startupfortune.com/trump-taps-intelligence-chief-jay-clayton-to-lead-his-new-ai-task-force/",
+          "domain": "startupfortune.com",
+          "publisherFamily": "startupfortune.com",
+          "resolvedFrom": "article-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://startupfortune.com/trump-taps-intelligence-chief-jay-clayton-to-lead-his-new-ai-task-force/",
+          "pageTitle": "Trump Taps Intelligence Chief Jay Clayton to Lead His New AI Task Force - Startup Fortune",
+          "canonical": "https://startupfortune.com/trump-taps-intelligence-chief-jay-clayton-to-lead-his-new-ai-task-force/",
+          "bodyChars": 6486,
+          "topicOverlap": 9
+        },
+        {
+          "suppliedUrl": "https://www.channelnewsasia.com/business/jay-clayton-lead-trumps-ai-task-force-deliver-report-in-120-days-wsj-reports-6430231",
+          "domain": "channelnewsasia.com",
+          "publisherFamily": "channelnewsasia.com",
+          "resolvedFrom": "article-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://www.channelnewsasia.com/business/jay-clayton-lead-trumps-ai-task-force-deliver-report-in-120-days-wsj-reports-6430231",
+          "pageTitle": "Jay Clayton to lead Trump&#039;s AI task force, deliver report in 120 days, WSJ reports - CNA",
+          "canonical": "https://www.channelnewsasia.com/business/jay-clayton-lead-trumps-ai-task-force-deliver-report-in-120-days-wsj-reports-6430231",
+          "bodyChars": 1459,
+          "topicOverlap": 8
+        }
+      ],
+      "recoveryAttempts": 0,
+      "sourceVerificationStatus": "partial"
     },
     {
       "link": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
@@ -88,162 +193,11 @@
       "sourceVerificationStatus": "verified"
     },
     {
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVTBDNzFadjhlb0NObU00ZHNkQWZKYzlMckRvZElPWVk2aG1FZ2RRa1Zfb3ByZGl4VTFBS3hhMVlzemlhYUxLQ05LQ05lVGp1c0xWR1VFeFNOSXFWREEza1NBSzlEeGd3WFZfc0ZMd3hGQWc3elVhQ2ZYSGd4Y1JpRHlIaUJsOG0yTWhObnpjXzJkMnZYWTE5RmxaQkw?oc=5",
-      "title": "These Early Amazon Prime Deals on Video Doorbells and Security Cameras Are Chiming in With Savings - pcmag.com",
-      "status": "pass",
-      "evidenceLevel": "single-source",
-      "validSourceCount": 1,
-      "independentPublisherCount": 1,
-      "independentPublisherFamilies": [
-        "pcmag.com"
-      ],
-      "independentDomains": [
-        "pcmag.com"
-      ],
-      "sources": [
-        {
-          "suppliedUrl": "https://www.pcmag.com/deals/home-security-camera-video-doorbell-deals-early-prime-day-2026-oct-3",
-          "domain": "pcmag.com",
-          "publisherFamily": "pcmag.com",
-          "resolvedFrom": "research-story-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.pcmag.com/deals/home-security-camera-video-doorbell-deals-early-prime-day-2026-oct-3",
-          "pageTitle": "These Early Amazon Prime Deals on Video Doorbells and Security Cameras Are Chiming in With Savings | PCMag",
-          "canonical": "",
-          "bodyChars": 11842,
-          "topicOverlap": 11
-        }
-      ],
-      "recoveryAttempts": 0,
-      "sourceVerificationStatus": "partial"
-    },
-    {
-      "link": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
-      "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
-      "status": "pass",
-      "evidenceLevel": "strong",
-      "validSourceCount": 4,
-      "independentPublisherCount": 4,
-      "independentPublisherFamilies": [
-        "theverge.com",
-        "techcrunch.com",
-        "indiatimes.com",
-        "techbuzz.ai"
-      ],
-      "independentDomains": [
-        "theverge.com",
-        "techcrunch.com",
-        "timesofindia.indiatimes.com",
-        "techbuzz.ai"
-      ],
-      "sources": [
-        {
-          "suppliedUrl": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
-          "domain": "theverge.com",
-          "publisherFamily": "theverge.com",
-          "resolvedFrom": "research-story-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
-          "pageTitle": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk | The Verge",
-          "canonical": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
-          "bodyChars": 3014,
-          "topicOverlap": 8
-        },
-        {
-          "suppliedUrl": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
-          "domain": "techcrunch.com",
-          "publisherFamily": "techcrunch.com",
-          "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
-          "pageTitle": "Apple says it&#039;s tightening macOS &#039;Full Disk Access&#039; controls due to new risks from AI agents | TechCrunch",
-          "canonical": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
-          "bodyChars": 3716,
-          "topicOverlap": 11
-        },
-        {
-          "suppliedUrl": "https://www.bundle.app/tr/bilim/apple-will-limit-mac-disk-access-as-ai-agents-substantially-increase-risk-81726d5c-cc98-594b-a4a8-91633a51ca04",
-          "domain": "bundle.app",
-          "publisherFamily": "bundle.app",
-          "resolvedFrom": "article-link",
-          "ok": false,
-          "reason": "insufficient-article-body",
-          "finalUrl": "https://www.bundle.app/tr/bilim/apple-will-limit-mac-disk-access-as-ai-agents-substantially-increase-risk-81726d5c-cc98-594b-a4a8-91633a51ca04",
-          "pageTitle": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
-          "canonical": "https://www.bundle.app/tr/bilim/apple-will-limit-mac-disk-access-as-ai-agents-substantially-increase-risk-81726d5c-cc98-594b-a4a8-91633a51ca04",
-          "bodyChars": 0,
-          "topicOverlap": 8
-        },
-        {
-          "suppliedUrl": "https://timesofindia.indiatimes.com/technology/tech-news/apple-puts-new-limits-on-how-apps-including-ai-agents-gain-full-access-to-your-mac/articleshow/134653869.cms",
-          "domain": "timesofindia.indiatimes.com",
-          "publisherFamily": "indiatimes.com",
-          "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://timesofindia.indiatimes.com/technology/tech-news/apple-puts-new-limits-on-how-apps-including-ai-agents-gain-full-access-to-your-mac/articleshow/134653869.cms",
-          "pageTitle": "Apple puts new limits on how apps, including AI agents, gain full access to your Mac - The Times of India",
-          "canonical": "https://timesofindia.indiatimes.com/technology/tech-news/apple-puts-new-limits-on-how-apps-including-ai-agents-gain-full-access-to-your-mac/articleshow/134653869.cms",
-          "bodyChars": 1149,
-          "topicOverlap": 11
-        },
-        {
-          "suppliedUrl": "https://www.techbuzz.ai/articles/apple-locks-down-mac-disk-access-as-ai-agents-pose-new-risks",
-          "domain": "techbuzz.ai",
-          "publisherFamily": "techbuzz.ai",
-          "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.techbuzz.ai/articles/apple-locks-down-mac-disk-access-as-ai-agents-pose-new-risks",
-          "pageTitle": "Apple Locks Down Mac Disk Access as AI Agents Pose New Risks | The Tech Buzz",
-          "canonical": "https://www.techbuzz.ai/articles/apple-locks-down-mac-disk-access-as-ai-agents-pose-new-risks",
-          "bodyChars": 1356,
-          "topicOverlap": 9
-        }
-      ],
-      "recoveryAttempts": 0,
-      "sourceVerificationStatus": "verified"
-    },
-    {
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAyV1MxWG1LdmgzcE1VSVphU3V2NFFnU1E5MXhZM0FUMEE4MjhXOTMzMDlrSTZJdXR5Q3VnV3RWVXRRMGZaLXB3N183V0d4d0ZBcjZFdVRRWnRVWmltUnlPYlVXbllHaUtiS0o2NnQ1WQ?oc=5",
-      "title": "Trump taps Director of National Intelligence Jay Clayton as AI czar: WSJ reports - CNBC",
-      "status": "pass",
-      "evidenceLevel": "single-source",
-      "validSourceCount": 1,
-      "independentPublisherCount": 1,
-      "independentPublisherFamilies": [
-        "cnbc.com"
-      ],
-      "independentDomains": [
-        "cnbc.com"
-      ],
-      "sources": [
-        {
-          "suppliedUrl": "https://www.cnbc.com/2026/10/03/trump-jay-clayton-ai-czar.html",
-          "domain": "cnbc.com",
-          "publisherFamily": "cnbc.com",
-          "resolvedFrom": "research-story-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.cnbc.com/2026/10/03/trump-jay-clayton-ai-czar.html",
-          "pageTitle": "Trump taps Director of National Intelligence Jay Clayton as AI czar: WSJ",
-          "canonical": "https://www.cnbc.com/2026/10/03/trump-jay-clayton-ai-czar.html",
-          "bodyChars": 3109,
-          "topicOverlap": 7
-        }
-      ],
-      "recoveryAttempts": 0,
-      "sourceVerificationStatus": "verified"
-    },
-    {
       "link": "https://www.theverge.com/gadgets/999447/best-early-amazon-prime-day-big-deals-sale-october",
       "title": "The best early October Prime Day deals happening now",
       "status": "pass",
       "evidenceLevel": "strong",
-      "validSourceCount": 7,
+      "validSourceCount": 8,
       "independentPublisherCount": 5,
       "independentPublisherFamilies": [
         "theverge.com",
@@ -326,6 +280,19 @@
           "topicOverlap": 16
         },
         {
+          "suppliedUrl": "https://tech.yahoo.com/deals/breaking-news/article/early-october-prime-day-deals-on-tech-are-up-to-64-off-anker-airpods-amazon-devices-and-more-180956514.html",
+          "domain": "tech.yahoo.com",
+          "publisherFamily": "yahoo.com",
+          "resolvedFrom": "article-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://tech.yahoo.com/deals/breaking-news/article/early-october-prime-day-deals-on-tech-are-up-to-64-off-anker-airpods-amazon-devices-and-more-180956514.html",
+          "pageTitle": "Early October Prime Day deals on tech are up to 64% off: Anker, AirPods, Amazon devices and more",
+          "canonical": "https://tech.yahoo.com/deals/breaking-news/article/early-october-prime-day-deals-on-tech-are-up-to-64-off-anker-airpods-amazon-devices-and-more-180956514.html",
+          "bodyChars": 13441,
+          "topicOverlap": 10
+        },
+        {
           "suppliedUrl": "https://www.zdnet.com/home-and-office/best-early-amazon-october-prime-day-amazon-device-deals/",
           "domain": "zdnet.com",
           "publisherFamily": "zdnet.com",
@@ -350,14 +317,6 @@
           "canonical": "https://www.theverge.com/gadgets/999447/best-early-amazon-prime-day-big-deals-sale-october",
           "bodyChars": 8342,
           "topicOverlap": 6
-        },
-        {
-          "suppliedUrl": "https://www.nytimes.com/wirecutter/money/best-prime-big-deal-days-deals-2026/",
-          "domain": "nytimes.com",
-          "publisherFamily": "nytimes.com",
-          "resolvedFrom": "article-link",
-          "ok": false,
-          "reason": "unreachable-or-non-html"
         }
       ],
       "recoveryAttempts": 0,
@@ -366,107 +325,32 @@
     {
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSlozQ0ZKTlBZR1MxOUx4MkhXVElGQlVNVm8xNERxYjA0SldBQzIyMkM3alVQSi15dE1UTURGQndvb2hkWU56ZDlTNFdITmxTcXh6dkZlVklfUFVlUDAwTWc4OHAwNEliMkhhQjM2dTJIczBKM1QySlA5U28xQk1fUm5aR1N5SDhxa1N0R1c1UnJma0JxR0lxbnZiMFBOc0ZLZDIw?oc=5",
       "title": "Innovation, invention, scientific investigation on display - Times.co.nz",
-      "status": "pass",
-      "evidenceLevel": "single-source",
-      "validSourceCount": 1,
-      "independentPublisherCount": 1,
-      "independentPublisherFamilies": [
-        "kuwaittimes.com"
-      ],
-      "independentDomains": [
-        "kuwaittimes.com"
-      ],
-      "sources": [
-        {
-          "suppliedUrl": "https://kuwaittimes.com/article/39660/kuwait/other-news/sacgc-highlights-kuwaiti-innovation-at-middle-east-invention-exhibition/",
-          "domain": "kuwaittimes.com",
-          "publisherFamily": "kuwaittimes.com",
-          "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://kuwaittimes.com/article/39660/kuwait/other-news/sacgc-highlights-kuwaiti-innovation-at-middle-east-invention-exhibition/",
-          "pageTitle": "SACGC highlights Kuwaiti innovation at Middle East Invention Exhibition | Kuwait Times Newspaper",
-          "canonical": "",
-          "bodyChars": 8212,
-          "topicOverlap": 10
-        }
-      ],
+      "status": "block",
+      "evidenceLevel": "none",
+      "validSourceCount": 0,
+      "independentPublisherCount": 0,
+      "independentPublisherFamilies": [],
+      "independentDomains": [],
+      "sources": [],
       "recoveryAttempts": 0,
       "sourceVerificationStatus": "unverified"
-    },
-    {
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaHlMUlJpY21YTGtCRmdPbHN6cDNCaTNaaENBZlFCbG9HR1cxMUE0SURWM0VEdXljZUJreTc1NncxV281ajF1cEgydGtZZGw3b2dDUlpvUTNFZ0dMVktOYTM4anVYZExqd0R6d3NlNk1KN05fRFpGN18yU3JvZ1FQTVNIWk5zTkFNZGgyVUtTLU8weXBKbkNMMWsybUV2bW1Hb0JHRFM3MjJXdlp0bTdoUlZJZWt2a3EyanAtcTFCS0tKd1lUMmFtbFBxajRmYlE?oc=5",
-      "title": "Crypto ETFs Attract $10 Billion in Q3: Bitcoin Leads, But Solana’s Growth Soars - 24/7 Wall St.",
-      "status": "pass",
-      "evidenceLevel": "strong",
-      "validSourceCount": 3,
-      "independentPublisherCount": 2,
-      "independentPublisherFamilies": [
-        "247wallst.com",
-        "aol.com"
-      ],
-      "independentDomains": [
-        "247wallst.com",
-        "aol.com"
-      ],
-      "sources": [
-        {
-          "suppliedUrl": "https://247wallst.com/investing/cryptocurrency/2026/10/03/crypto-etfs-attract-10-billion-in-q3-bitcoin-leads-but-solanas-growth-soars/",
-          "domain": "247wallst.com",
-          "publisherFamily": "247wallst.com",
-          "resolvedFrom": "research-story-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://247wallst.com/investing/cryptocurrency/2026/10/03/crypto-etfs-attract-10-billion-in-q3-bitcoin-leads-but-solanas-growth-soars/",
-          "pageTitle": "Crypto ETFs Attract $10 Billion in Q3: Bitcoin Leads, But Solana&#039;s Growth Soars - 24/7 Wall St.",
-          "canonical": "https://247wallst.com/investing/cryptocurrency/2026/10/03/crypto-etfs-attract-10-billion-in-q3-bitcoin-leads-but-solanas-growth-soars/",
-          "bodyChars": 7243,
-          "topicOverlap": 10
-        },
-        {
-          "suppliedUrl": "https://www.aol.com/articles/crypto-etfs-attract-10-billion-223535000.html",
-          "domain": "aol.com",
-          "publisherFamily": "aol.com",
-          "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.aol.com/articles/crypto-etfs-attract-10-billion-223535000.html",
-          "pageTitle": "Crypto ETFs Attract $10 Billion in Q3: Bitcoin Leads, But Solana’s Growth Soars - AOL",
-          "canonical": "https://247wallst.com/investing/cryptocurrency/2026/10/03/crypto-etfs-attract-10-billion-in-q3-bitcoin-leads-but-solanas-growth-soars/",
-          "bodyChars": 5576,
-          "topicOverlap": 9
-        },
-        {
-          "suppliedUrl": "https://www.aol.com/articles/bitcoin-ethereum-solana-etfs-saw-163559000.html",
-          "domain": "aol.com",
-          "publisherFamily": "aol.com",
-          "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.aol.com/articles/bitcoin-ethereum-solana-etfs-saw-163559000.html",
-          "pageTitle": "Bitcoin, Ethereum, and Solana ETFs All Saw Outflows on the Last Day of the Quarter. What Happened? - AOL",
-          "canonical": "https://247wallst.com/investing/cryptocurrency/2026/10/03/bitcoin-ethereum-and-solana-etfs-all-saw-outflows-on-the-last-day-of-the-quarter-what-happened/",
-          "bodyChars": 5427,
-          "topicOverlap": 8
-        }
-      ],
-      "recoveryAttempts": 0,
-      "sourceVerificationStatus": "verified"
     },
     {
       "link": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
       "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
       "status": "pass",
       "evidenceLevel": "strong",
-      "validSourceCount": 2,
-      "independentPublisherCount": 2,
+      "validSourceCount": 3,
+      "independentPublisherCount": 3,
       "independentPublisherFamilies": [
         "techcrunch.com",
-        "techbuzz.ai"
+        "techbuzz.ai",
+        "firstpost.com"
       ],
       "independentDomains": [
         "techcrunch.com",
-        "techbuzz.ai"
+        "techbuzz.ai",
+        "firstpost.com"
       ],
       "sources": [
         {
@@ -496,16 +380,16 @@
           "topicOverlap": 7
         },
         {
-          "suppliedUrl": "https://www.deccanherald.com/technology/openai-safety-employee-quits-says-time-for-trial-and-error-is-over-4169780",
-          "domain": "deccanherald.com",
-          "publisherFamily": "deccanherald.com",
+          "suppliedUrl": "https://www.firstpost.com/tech/openai-safety-leader-resigns-warns-culture-of-developing-the-technology-is-broken-14050222.html",
+          "domain": "firstpost.com",
+          "publisherFamily": "firstpost.com",
           "resolvedFrom": "article-link",
-          "ok": false,
-          "reason": "insufficient-article-body",
-          "finalUrl": "https://www.deccanherald.com/technology/openai-safety-employee-quits-says-time-for-trial-and-error-is-over-4169780",
-          "pageTitle": "OpenAI safety: Ex-employee quits over culture, funding & Nvidia deals",
-          "canonical": "https://www.deccanherald.com/technology/openai-safety-employee-quits-says-time-for-trial-and-error-is-over-4169780",
-          "bodyChars": 0,
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://www.firstpost.com/tech/openai-safety-leader-resigns-warns-culture-of-developing-the-technology-is-broken-14050222.html",
+          "pageTitle": "OpenAI safety leader resigns, warns culture of developing the technology is 'broken'",
+          "canonical": "https://www.firstpost.com/tech/openai-safety-leader-resigns-warns-culture-of-developing-the-technology-is-broken-14050222.html",
+          "bodyChars": 4518,
           "topicOverlap": 8
         }
       ],
@@ -513,39 +397,155 @@
       "sourceVerificationStatus": "verified"
     },
     {
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeHZTTmhMTE92QWVjblNaQ0paOE5fbVRGTG45MS10WFB2M29nM1R6UGxRX1RHNEx4a0MycV82MEMyemNLaXJEdTcweVdra0NiVTNqbmFMNFNxOWlhY3FucmFQcW02Qlk3RW1pS1ZVZjFkOUV3TkNnUnBkcXBtcDFETzV6ckpZVjltQlZYOA?oc=5",
-      "title": "AI vs. Super Intelligence: Is the Rename Actually More Accurate? - HackerNoon",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2enVINFN2ZWpCRUYtRVpGOFczcm9NMkVudnlZOTlKdHdVTUpHTUN2aGRhMjIyWklJcFRDSFZrZkNfQUNseXp1ODBqN1UxeEJkbWNvQnFBYW5vSnltTjNxcmtGOEszXzBxNlZGYmlPN1haTkMtOENYVldWUHd1M0ctSGtJU2o5X2tzNTFNaFdRcGtLRdIBoAFBVV95cUxQa0lhZmVzTE9DcS1rY1JaSEdBR1lZSGJQZ0hVTENVRmp3RlEwRTdWTGliNlRXcTEwYWdLSm5zMWN5OUpVM19HV1ljbVlhOFQxZVhlXzhuNE5LUlpVN18yYTVXdngySldlRFVyUEpLMjRxWUdiZEJVbDJmWjB0OWgxVy1acHQ4LVZkcjU2aVpJN0xsdk1DeDM3QXFsTzduVjZF?oc=5",
+      "title": "How the Smithsonian is using AI to connect artifacts from the American Revolution - ABC News - Breaking News, Latest News and Videos",
       "status": "pass",
       "evidenceLevel": "single-source",
       "validSourceCount": 1,
       "independentPublisherCount": 1,
       "independentPublisherFamilies": [
-        "hackernoon.com"
+        "abcnews.com"
       ],
       "independentDomains": [
-        "hackernoon.com"
+        "abcnews.com"
       ],
       "sources": [
         {
-          "suppliedUrl": "https://hackernoon.com/ai-vs-super-intelligence-is-the-rename-actually-more-accurate",
-          "domain": "hackernoon.com",
-          "publisherFamily": "hackernoon.com",
+          "suppliedUrl": "https://abcnews.com/US/wireStory/smithsonian-ai-connect-artifacts-american-revolution-136966980",
+          "domain": "abcnews.com",
+          "publisherFamily": "abcnews.com",
           "resolvedFrom": "research-story-link",
           "ok": true,
           "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://hackernoon.com/ai-vs-super-intelligence-is-the-rename-actually-more-accurate",
-          "pageTitle": "",
-          "canonical": "https://hackernoon.com/ai-vs-super-intelligence-is-the-rename-actually-more-accurate",
-          "bodyChars": 5645,
-          "topicOverlap": 4
+          "finalUrl": "https://abcnews.com/US/wireStory/smithsonian-ai-connect-artifacts-american-revolution-136966980",
+          "pageTitle": "How the Smithsonian is using AI to connect artifacts from the American Revolution - ABC News",
+          "canonical": "https://abcnews.com/US/wireStory/smithsonian-ai-connect-artifacts-american-revolution-136966980",
+          "bodyChars": 8276,
+          "topicOverlap": 6
         }
       ],
       "recoveryAttempts": 0,
       "sourceVerificationStatus": "partial"
     },
     {
+      "link": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+      "title": "It&#8217;s not AI anymore, it&#8217;s ‘super intelligence’ (according to the White House)",
+      "status": "pass",
+      "evidenceLevel": "single-source",
+      "validSourceCount": 1,
+      "independentPublisherCount": 1,
+      "independentPublisherFamilies": [
+        "techcrunch.com"
+      ],
+      "independentDomains": [
+        "techcrunch.com"
+      ],
+      "sources": [
+        {
+          "suppliedUrl": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+          "domain": "techcrunch.com",
+          "publisherFamily": "techcrunch.com",
+          "resolvedFrom": "research-story-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+          "pageTitle": "It&#039;s not AI anymore, it&#039;s ‘super intelligence’ (according to the White House) | TechCrunch",
+          "canonical": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+          "bodyChars": 3105,
+          "topicOverlap": 6
+        }
+      ],
+      "recoveryAttempts": 0,
+      "sourceVerificationStatus": "verified"
+    },
+    {
+      "link": "https://techcrunch.com/2026/10/02/slovenias-si-domain-sees-a-surge-in-registrations-after-trumps-super-intelligence-order/",
+      "title": "Slovenia&#8217;s .si domain sees a surge in registrations after Trump&#8217;s &#8216;super intelligence&#8217; order",
+      "status": "pass",
+      "evidenceLevel": "single-source",
+      "validSourceCount": 1,
+      "independentPublisherCount": 1,
+      "independentPublisherFamilies": [
+        "techcrunch.com"
+      ],
+      "independentDomains": [
+        "techcrunch.com"
+      ],
+      "sources": [
+        {
+          "suppliedUrl": "https://techcrunch.com/2026/10/02/slovenias-si-domain-sees-a-surge-in-registrations-after-trumps-super-intelligence-order/",
+          "domain": "techcrunch.com",
+          "publisherFamily": "techcrunch.com",
+          "resolvedFrom": "research-story-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://techcrunch.com/2026/10/02/slovenias-si-domain-sees-a-surge-in-registrations-after-trumps-super-intelligence-order/",
+          "pageTitle": "Slovenia&#039;s .si domain sees a surge in registrations after Trump&#039;s &#039;super intelligence&#039; order | TechCrunch",
+          "canonical": "https://techcrunch.com/2026/10/02/slovenias-si-domain-sees-a-surge-in-registrations-after-trumps-super-intelligence-order/",
+          "bodyChars": 5758,
+          "topicOverlap": 10
+        }
+      ],
+      "recoveryAttempts": 0,
+      "sourceVerificationStatus": "verified"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVUFyOERzd0djLXY2MjZIeTRDTHJsaEh4aUxTS0lxZ014ZEJqWGRtRjlxbFViZ2hNU3JXcXFDRUFFZlNNT0hoR1JpMVVHa1dCZlpYNXlsdjJ5Q1NlY21FMTVxckJDdTR0UzJYbVBERWxBcndqcEg0NTBham53S0dvVjltNHFHY2VnLVhBWmJ0OEtFU0lPUHJvUA?oc=5",
+      "title": "Should You Forget Palantir and Buy These 2 Artificial Intelligence (AI) Stocks Instead? - fool.com",
+      "status": "pass",
+      "evidenceLevel": "strong",
+      "validSourceCount": 2,
+      "independentPublisherCount": 2,
+      "independentPublisherFamilies": [
+        "fool.com",
+        "theglobeandmail.com"
+      ],
+      "independentDomains": [
+        "fool.com",
+        "theglobeandmail.com"
+      ],
+      "sources": [
+        {
+          "suppliedUrl": "https://www.fool.com/investing/2026/10/03/should-you-forget-palantir-and-buy-these-2-artific/",
+          "domain": "fool.com",
+          "publisherFamily": "fool.com",
+          "resolvedFrom": "research-story-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://www.fool.com/investing/2026/10/03/should-you-forget-palantir-and-buy-these-2-artific/",
+          "pageTitle": "Should You Forget Palantir and Buy These 2 Artificial Intelligence (AI) Stocks Instead? | The Motley Fool",
+          "canonical": "https://www.fool.com/investing/2026/10/03/should-you-forget-palantir-and-buy-these-2-artific/",
+          "bodyChars": 4939,
+          "topicOverlap": 6
+        },
+        {
+          "suppliedUrl": "https://www.theglobeandmail.com/investing/markets/stocks/GOOG/pressreleases/4748334/should-you-forget-palantir-and-buy-these-3-quantum-computing-stocks-instead/",
+          "domain": "theglobeandmail.com",
+          "publisherFamily": "theglobeandmail.com",
+          "resolvedFrom": "article-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://www.theglobeandmail.com/investing/markets/stocks/GOOG/pressreleases/4748334/should-you-forget-palantir-and-buy-these-3-quantum-computing-stocks-instead/",
+          "pageTitle": "Should You Forget Palantir and Buy These 3 Quantum Computing Stocks Instead? - The Globe and Mail",
+          "canonical": "https://www.theglobeandmail.com/investing/markets/stocks/GOOG/pressreleases/4748334/should-you-forget-palantir-and-buy-these-3-quantum-computing-stocks-instead/",
+          "bodyChars": 11595,
+          "topicOverlap": 9
+        },
+        {
+          "suppliedUrl": "https://finance.yahoo.com/markets/stocks/articles/forget-palantir-buy-2-under-033500657.html",
+          "domain": "finance.yahoo.com",
+          "publisherFamily": "yahoo.com",
+          "resolvedFrom": "article-link",
+          "ok": false,
+          "reason": "unreachable-or-non-html"
+        }
+      ],
+      "recoveryAttempts": 0,
+      "sourceVerificationStatus": "verified"
+    },
+    {
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOFpXejV2VG9MdW9MRjg2d2h3TElQZVhyVzRUU1U5blpPVVYzYWVab0p3WHBYMDlmQXEwODE1SHMzeXFJSlpsMTVFQWR5aENod2F2Q2F1WmwtMTlMM1ZsNFdPTjdwUlZOalJia0hELXF0MzB3cjBuRFhhN2R0My1iR3Z2dWVJeGNOdUFCTGs2bmxpVzJHaV9qTlVGdjhybTNxZlg1eXdjVnNfaFJER2FwNWNuQmhQdF92MEtoOXhqS3QyejFZSHc?oc=5",
-      "title": "Executive Order Rebrands AI as “Super Intelligence” and Signals Potential Federal Legislative Changes - Wiley Law",
+      "title": "Executive Order Rebrands AI as “Super Intelligence” and Signals Potential Federal Legislative Changes - wiley.law",
       "status": "pass",
       "evidenceLevel": "single-source",
       "validSourceCount": 1,
@@ -573,6 +573,93 @@
       ],
       "recoveryAttempts": 0,
       "sourceVerificationStatus": "partial"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYndZZG5Fd0dmLXI2UVA5YkNnZ2NlTC1vcm4xM0Q1OTl3ajgxQ1o2Y3lBRkx3Yk0xVWVPWlVMTFZpbHh2ZFJSaF9aS3JMMldSUFNnWDN0bm9EYzluX0pYWG96a1g4OFRad2ItZWExazFEZnBUMHFLZ01OYi1rMWtPUXNRTnh4MkNhMlpwWlNTd2FWTGt0ZWViZlZ0UQ?oc=5",
+      "title": "Trump’s AI rebrand may stop at the White House - Politico",
+      "status": "pass",
+      "evidenceLevel": "strong",
+      "validSourceCount": 5,
+      "independentPublisherCount": 3,
+      "independentPublisherFamilies": [
+        "newsone.com",
+        "nymag.com",
+        "yahoo.com"
+      ],
+      "independentDomains": [
+        "newsone.com",
+        "nymag.com",
+        "nz.news.yahoo.com"
+      ],
+      "sources": [
+        {
+          "suppliedUrl": "https://newsone.com/6872273/surviving-trump-white-house-media-ban/",
+          "domain": "newsone.com",
+          "publisherFamily": "newsone.com",
+          "resolvedFrom": "article-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://newsone.com/6872273/surviving-trump-white-house-media-ban/",
+          "pageTitle": "Surviving Trump: Trump Defends White House Media Ban [Op-Ed]",
+          "canonical": "https://newsone.com/6872273/surviving-trump-white-house-media-ban/",
+          "bodyChars": 10370,
+          "topicOverlap": 9
+        },
+        {
+          "suppliedUrl": "https://nymag.com/intelligencer/article/judge-orders-white-house-to-restore-press-credentials.html",
+          "domain": "nymag.com",
+          "publisherFamily": "nymag.com",
+          "resolvedFrom": "article-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://nymag.com/intelligencer/article/judge-orders-white-house-to-restore-press-credentials.html",
+          "pageTitle": "CNN, MS NOW, and Politico Regain White House Access",
+          "canonical": "https://nymag.com/intelligencer/article/judge-orders-white-house-to-restore-press-credentials.html",
+          "bodyChars": 4653,
+          "topicOverlap": 7
+        },
+        {
+          "suppliedUrl": "https://nz.news.yahoo.com/trump-scowl-says-cnn-ms-162050307.html",
+          "domain": "nz.news.yahoo.com",
+          "publisherFamily": "yahoo.com",
+          "resolvedFrom": "article-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://nz.news.yahoo.com/trump-scowl-says-cnn-ms-162050307.html",
+          "pageTitle": "Trump’s scowl says it all as CNN and MS NOW return to White House for XI’s final day - Yahoo",
+          "canonical": "https://www.independent.co.uk/news/world/americas/us-politics/trump-xi-china-cnn-white-house-b3056522.html",
+          "bodyChars": 3686,
+          "topicOverlap": 8
+        },
+        {
+          "suppliedUrl": "https://nymag.com/intelligencer/article/white-house-wants-to-rebrand-its-mass-deportation-push.html",
+          "domain": "nymag.com",
+          "publisherFamily": "nymag.com",
+          "resolvedFrom": "article-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://nymag.com/intelligencer/article/white-house-wants-to-rebrand-its-mass-deportation-push.html",
+          "pageTitle": "White House Wants to Rebrand Its Mass-Deportation Push",
+          "canonical": "https://nymag.com/intelligencer/article/white-house-wants-to-rebrand-its-mass-deportation-push.html",
+          "bodyChars": 3474,
+          "topicOverlap": 7
+        },
+        {
+          "suppliedUrl": "https://www.yahoo.com/news/politics/articles/white-house-bars-cnn-trump-011443393.html",
+          "domain": "yahoo.com",
+          "publisherFamily": "yahoo.com",
+          "resolvedFrom": "article-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://www.yahoo.com/news/politics/articles/white-house-bars-cnn-trump-011443393.html",
+          "pageTitle": "White House Bars CNN From Trump Flight a Day After Credentials Restored",
+          "canonical": "https://www.thewrap.com/media-platforms/journalism/white-house-bars-cnn-from-trump-flight/",
+          "bodyChars": 4727,
+          "topicOverlap": 7
+        }
+      ],
+      "recoveryAttempts": 0,
+      "sourceVerificationStatus": "verified"
     },
     {
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRWF3eFJHazFWalZDX1QwWHBoSWd5TEwxSW1ZRzNveVhxV1NwRGZVdlpCSHJLUVlVcm1TR1hpb09BZmhGeEFkTnkzQXJLcEh2S2xNaDVobGN3TV9Tc1p2N0UxUUhDdEU4djVpUjlLOXhGd0VReVdxaVBweUJWbk5ab0g5T0hTdTlzbWZiTkFqN3BtVW05WVNxam5WTzdTNkhVYlZlajRvV2lOU3JiekRsRzkxSGwyWjRqNldiaGxZWTlmQnM?oc=5",
@@ -659,201 +746,6 @@
       "sourceVerificationStatus": "partial"
     },
     {
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWWFtWW9YMHUyWmxwTUs1VmZnOHZNdnJBNzB6azNFSG84M0FtS2x1SE50TDZMS0ZNS25zQ1lEZnFRdnd3UFhDRXMwLUVXaDZWRW9RZHdfQXdhNjFBdEJSd243SHlselowdWpIZ3RycmRSdUhlaTlDLUVGNjV1a3UwY2llSXpiV0dvVDN2VU1tS3NmbmQzVFNXV2FZcDJzWEI5b05NRW4zRXFPOV9NZnZUMmE5M2sycEtKVUdpNjRkLW90bGtiZnY0LWtvTHRDQQ?oc=5",
-      "title": "Nvidia's bet that its chips can finance the AI boom gets a Wall Street reality check - Reuters",
-      "status": "block",
-      "evidenceLevel": "none",
-      "validSourceCount": 0,
-      "independentPublisherCount": 0,
-      "independentPublisherFamilies": [],
-      "independentDomains": [],
-      "sources": [
-        {
-          "suppliedUrl": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N45L0J4:0-nvidia-s-bet-that-its-chips-can-finance-the-ai-boom-gets-a-wall-street-reality-check/",
-          "domain": "tradingview.com",
-          "publisherFamily": "tradingview.com",
-          "resolvedFrom": "article-link",
-          "ok": false,
-          "reason": "insufficient-article-body",
-          "finalUrl": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N45L0J4:0-nvidia-s-bet-that-its-chips-can-finance-the-ai-boom-gets-a-wall-street-reality-check/",
-          "pageTitle": "Nvidia's bet that its chips can finance the AI boom gets a Wall Street reality check — TradingView News",
-          "canonical": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N45L0J4:0-nvidia-s-bet-that-its-chips-can-finance-the-ai-boom-gets-a-wall-street-reality-check/",
-          "bodyChars": 344,
-          "topicOverlap": 10
-        }
-      ],
-      "recoveryAttempts": 0,
-      "sourceVerificationStatus": "unverified"
-    },
-    {
-      "link": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
-      "title": "It&#8217;s not AI anymore, it&#8217;s ‘super intelligence’ (according to the White House)",
-      "status": "pass",
-      "evidenceLevel": "single-source",
-      "validSourceCount": 1,
-      "independentPublisherCount": 1,
-      "independentPublisherFamilies": [
-        "techcrunch.com"
-      ],
-      "independentDomains": [
-        "techcrunch.com"
-      ],
-      "sources": [
-        {
-          "suppliedUrl": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
-          "domain": "techcrunch.com",
-          "publisherFamily": "techcrunch.com",
-          "resolvedFrom": "research-story-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
-          "pageTitle": "It&#039;s not AI anymore, it&#039;s ‘super intelligence’ (according to the White House) | TechCrunch",
-          "canonical": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
-          "bodyChars": 3105,
-          "topicOverlap": 6
-        }
-      ],
-      "recoveryAttempts": 0,
-      "sourceVerificationStatus": "verified"
-    },
-    {
-      "link": "https://techcrunch.com/2026/10/02/slovenias-si-domain-sees-a-surge-in-registrations-after-trumps-super-intelligence-order/",
-      "title": "Slovenia&#8217;s .si domain sees a surge in registrations after Trump&#8217;s &#8216;super intelligence&#8217; order",
-      "status": "pass",
-      "evidenceLevel": "single-source",
-      "validSourceCount": 1,
-      "independentPublisherCount": 1,
-      "independentPublisherFamilies": [
-        "techcrunch.com"
-      ],
-      "independentDomains": [
-        "techcrunch.com"
-      ],
-      "sources": [
-        {
-          "suppliedUrl": "https://techcrunch.com/2026/10/02/slovenias-si-domain-sees-a-surge-in-registrations-after-trumps-super-intelligence-order/",
-          "domain": "techcrunch.com",
-          "publisherFamily": "techcrunch.com",
-          "resolvedFrom": "research-story-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://techcrunch.com/2026/10/02/slovenias-si-domain-sees-a-surge-in-registrations-after-trumps-super-intelligence-order/",
-          "pageTitle": "Slovenia&#039;s .si domain sees a surge in registrations after Trump&#039;s &#039;super intelligence&#039; order | TechCrunch",
-          "canonical": "https://techcrunch.com/2026/10/02/slovenias-si-domain-sees-a-surge-in-registrations-after-trumps-super-intelligence-order/",
-          "bodyChars": 5758,
-          "topicOverlap": 10
-        }
-      ],
-      "recoveryAttempts": 0,
-      "sourceVerificationStatus": "verified"
-    },
-    {
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVUFyOERzd0djLXY2MjZIeTRDTHJsaEh4aUxTS0lxZ014ZEJqWGRtRjlxbFViZ2hNU3JXcXFDRUFFZlNNT0hoR1JpMVVHa1dCZlpYNXlsdjJ5Q1NlY21FMTVxckJDdTR0UzJYbVBERWxBcndqcEg0NTBham53S0dvVjltNHFHY2VnLVhBWmJ0OEtFU0lPUHJvUA?oc=5",
-      "title": "Should You Forget Palantir and Buy These 2 Artificial Intelligence (AI) Stocks Instead? - The Motley Fool",
-      "status": "pass",
-      "evidenceLevel": "strong",
-      "validSourceCount": 3,
-      "independentPublisherCount": 2,
-      "independentPublisherFamilies": [
-        "fool.com",
-        "theglobeandmail.com"
-      ],
-      "independentDomains": [
-        "fool.com",
-        "theglobeandmail.com"
-      ],
-      "sources": [
-        {
-          "suppliedUrl": "https://www.fool.com/investing/2026/10/03/should-you-forget-palantir-and-buy-these-2-artific/",
-          "domain": "fool.com",
-          "publisherFamily": "fool.com",
-          "resolvedFrom": "research-story-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.fool.com/investing/2026/10/03/should-you-forget-palantir-and-buy-these-2-artific/",
-          "pageTitle": "Should You Forget Palantir and Buy These 2 Artificial Intelligence (AI) Stocks Instead? | The Motley Fool",
-          "canonical": "https://www.fool.com/investing/2026/10/03/should-you-forget-palantir-and-buy-these-2-artific/",
-          "bodyChars": 4939,
-          "topicOverlap": 7
-        },
-        {
-          "suppliedUrl": "https://www.theglobeandmail.com/investing/markets/markets-news/Motley%20Fool/4942391/should-you-forget-palantir-and-buy-these-2-artificial-intelligence-ai-stocks-instead/",
-          "domain": "theglobeandmail.com",
-          "publisherFamily": "theglobeandmail.com",
-          "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.theglobeandmail.com/investing/markets/markets-news/Motley%20Fool/4942391/should-you-forget-palantir-and-buy-these-2-artificial-intelligence-ai-stocks-instead/",
-          "pageTitle": "Should You Forget Palantir and Buy These 2 Artificial Intelligence (AI) Stocks Instead? - The Globe and Mail",
-          "canonical": "https://www.theglobeandmail.com/investing/markets/markets-news/Motley%20Fool/4942391/should-you-forget-palantir-and-buy-these-2-artificial-intelligence-ai-stocks-instead/",
-          "bodyChars": 12133,
-          "topicOverlap": 7
-        },
-        {
-          "suppliedUrl": "https://www.theglobeandmail.com/investing/markets/stocks/GOOG/pressreleases/4748334/should-you-forget-palantir-and-buy-these-3-quantum-computing-stocks-instead/",
-          "domain": "theglobeandmail.com",
-          "publisherFamily": "theglobeandmail.com",
-          "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.theglobeandmail.com/investing/markets/stocks/GOOG/pressreleases/4748334/should-you-forget-palantir-and-buy-these-3-quantum-computing-stocks-instead/",
-          "pageTitle": "Should You Forget Palantir and Buy These 3 Quantum Computing Stocks Instead? - The Globe and Mail",
-          "canonical": "https://www.theglobeandmail.com/investing/markets/stocks/GOOG/pressreleases/4748334/should-you-forget-palantir-and-buy-these-3-quantum-computing-stocks-instead/",
-          "bodyChars": 11595,
-          "topicOverlap": 9
-        },
-        {
-          "suppliedUrl": "https://finance.yahoo.com/markets/stocks/articles/forget-palantir-buy-2-under-033500657.html",
-          "domain": "finance.yahoo.com",
-          "publisherFamily": "yahoo.com",
-          "resolvedFrom": "article-link",
-          "ok": false,
-          "reason": "unreachable-or-non-html"
-        },
-        {
-          "suppliedUrl": "https://finance.yahoo.com/news/forget-palantir-buy-2-artificial-113000127.html",
-          "domain": "finance.yahoo.com",
-          "publisherFamily": "yahoo.com",
-          "resolvedFrom": "article-link",
-          "ok": false,
-          "reason": "unreachable-or-non-html"
-        }
-      ],
-      "recoveryAttempts": 0,
-      "sourceVerificationStatus": "verified"
-    },
-    {
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNMUc0NWhSWE1JMWVBRk5SNk5UWDNrNzRpSVZVaXRlb0hYUFNncnFkdm92OGhOX3JGY3RXUGtJdGQxT0Y4d2N3NUV3U0h2WjdfZGV0RGdZYUxEeXVtSnF5RGlMay1EQmtrM2ZENEJSaUhmTVp0T3NFbndtZVBnallGeTRKZEliVjV3WTItdWRKc3VsR0Mxa3JOR2tWSW1LdlF6dm8yWkxVdnpvZWg0WlN4YS1yWUJJeWlZZnhHM1lIY2hLcW1hY21OUlRBSWl0aWthY1JfNkRpazRTZDBjUEhLaU9GU0FyLWM?oc=5",
-      "title": "Artificial intelligence (AI)-triggered rapid response notifications were associated with lower mortality among inpatients - 2 Minute Medicine",
-      "status": "pass",
-      "evidenceLevel": "single-source",
-      "validSourceCount": 1,
-      "independentPublisherCount": 1,
-      "independentPublisherFamilies": [
-        "2minutemedicine.com"
-      ],
-      "independentDomains": [
-        "2minutemedicine.com"
-      ],
-      "sources": [
-        {
-          "suppliedUrl": "https://www.2minutemedicine.com/artificial-intelligence-ai-triggered-rapid-response-notifications-were-associated-with-lower-mortality-among-inpatients/",
-          "domain": "2minutemedicine.com",
-          "publisherFamily": "2minutemedicine.com",
-          "resolvedFrom": "research-story-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.2minutemedicine.com/artificial-intelligence-ai-triggered-rapid-response-notifications-were-associated-with-lower-mortality-among-inpatients/",
-          "pageTitle": "Artificial intelligence (AI)-triggered rapid response notifications were associated with lower mortality among inpatients | 2 Minute Medicine",
-          "canonical": "https://www.2minutemedicine.com/artificial-intelligence-ai-triggered-rapid-response-notifications-were-associated-with-lower-mortality-among-inpatients/",
-          "bodyChars": 4203,
-          "topicOverlap": 12
-        }
-      ],
-      "recoveryAttempts": 0,
-      "sourceVerificationStatus": "partial"
-    },
-    {
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOUmV2cm5kLXcxa1NURTI4SHRhTTRDdjMxOFRsZ0E5WnMxQjdaQnZMdnNWVHF4MWNtSEpRT1JMVWtHLUdIWmlScVBXaWdLTmplbkFzYUxtOHJsbDEySzNmYjBDeUpBbk5DZG5ldzh1enZMbHluajBBekg2bWc1OXBpRTNqam9iM2tHYWt5YWlac0lhZm5GZGFEZDBlcHFIQXd3R2NZcnRvRGhzdU1DaG5sdGs5VUhGN0o1cWlSOUhseVprN2dtVzFWeDNXMXFvNU5wN2dKY2dfOFhQd2tfSWpOMnB4VW1TWHUw?oc=5",
       "title": "Bitcoin, Ethereum, and Solana ETFs All Saw Outflows on the Last Day of the Quarter. What Happened? - 24/7 Wall St.",
       "status": "pass",
@@ -913,37 +805,6 @@
       "sourceVerificationStatus": "verified"
     },
     {
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3BtN0x3OHo2enVINFN2ZWpCRUYtRVpGOFczcm9NMkVudnlZOTlKdHdVTUpHTUN2aGRhMjIyWklJcFRDSFZrZkNfQUNseXp1ODBqN1UxeEJkbWNvQnFBYW5vSnltTjNxcmtGOEszXzBxNlZGYmlPN1haTkMtOENYVldWUHd1M0ctSGtJU2o5X2tzNTFNaFdRcGtLRdIBoAFBVV95cUxQa0lhZmVzTE9DcS1rY1JaSEdBR1lZSGJQZ0hVTENVRmp3RlEwRTdWTGliNlRXcTEwYWdLSm5zMWN5OUpVM19HV1ljbVlhOFQxZVhlXzhuNE5LUlpVN18yYTVXdngySldlRFVyUEpLMjRxWUdiZEJVbDJmWjB0OWgxVy1acHQ4LVZkcjU2aVpJN0xsdk1DeDM3QXFsTzduVjZF?oc=5",
-      "title": "How the Smithsonian is using AI to connect artifacts from the American Revolution - abcnews.com",
-      "status": "pass",
-      "evidenceLevel": "single-source",
-      "validSourceCount": 1,
-      "independentPublisherCount": 1,
-      "independentPublisherFamilies": [
-        "abcnews.com"
-      ],
-      "independentDomains": [
-        "abcnews.com"
-      ],
-      "sources": [
-        {
-          "suppliedUrl": "https://abcnews.com/US/wireStory/smithsonian-ai-connect-artifacts-american-revolution-136966980",
-          "domain": "abcnews.com",
-          "publisherFamily": "abcnews.com",
-          "resolvedFrom": "research-story-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://abcnews.com/US/wireStory/smithsonian-ai-connect-artifacts-american-revolution-136966980",
-          "pageTitle": "How the Smithsonian is using AI to connect artifacts from the American Revolution - ABC News",
-          "canonical": "https://abcnews.com/US/wireStory/smithsonian-ai-connect-artifacts-american-revolution-136966980",
-          "bodyChars": 8276,
-          "topicOverlap": 6
-        }
-      ],
-      "recoveryAttempts": 0,
-      "sourceVerificationStatus": "partial"
-    },
-    {
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQVo0MGNTb195TFBwaG9sbDhXS3dXRGRRNDJqNmVzeVBIVTlhSWhIX3AzN3lxcGJFR0lia2lSbElwWENERlhNXzJOQ3pOVDRVVWxWb2dZdmdSWTJxQkxyQTR2SE9BRUlld041M005aHViTkZmeGd4SDVTQnVLQXdlRzd4a2xlVFZ4cTE4bzdYeWNUYnlLVkllLVdEOFEtMTc3?oc=5",
       "title": "Dual U.K.-Iranian national released on bail after arrest over security incident near U.S.-run air base in England - CBS News",
       "status": "pass",
@@ -973,22 +834,6 @@
           "canonical": "https://www.cbsnews.com/news/fairford-air-base-dual-uk-iranian-national-arrested-security-incident/",
           "bodyChars": 5147,
           "topicOverlap": 11
-        },
-        {
-          "suppliedUrl": "https://fox5sandiego.com/news/ap-top-headlines/ap-dual-uk-iranian-national-arrested-over-security-incident-at-us-run-air-base-in-england/",
-          "domain": "fox5sandiego.com",
-          "publisherFamily": "fox5sandiego.com",
-          "resolvedFrom": "article-link",
-          "ok": false,
-          "reason": "unreachable-or-non-html"
-        },
-        {
-          "suppliedUrl": "https://cw39.com/international/ap-international/ap-dual-u-k-iranian-national-released-on-bail-over-suspected-attack-at-u-s-run-military-base/",
-          "domain": "cw39.com",
-          "publisherFamily": "cw39.com",
-          "resolvedFrom": "article-link",
-          "ok": false,
-          "reason": "unreachable-or-non-html"
         },
         {
           "suppliedUrl": "https://www.capitalgazette.com/2026/09/30/britain-us-air-base-attack-iran/",
@@ -1021,31 +866,102 @@
       "sourceVerificationStatus": "verified"
     },
     {
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNR1JLSzVHeXdEME50QUo3YUg0WHZabldlTllVNXBlRUtXUFFobkdhTHVRNjdNOXVUM1lhODI2MDdsVWpNZTIzbU16SURKcHctTy1BNXFfSVEzd0VrUlc2bmtWRndaUml0WHh6TmhPRlRzSzlLNWpOMXdNZExSbWk4LXJ4WXBMYWFPY0ItMEk4WWRMc1lhQjFaX3NPcWhzcTF5TEMtSlpwM2UyMmY5ZW9TMUxkMGs0NlAyVHQwdFd2Ykw?oc=5",
-      "title": "Apple ‘HomePad’ reportedly set to launch on October 13 with Siri AI at its centre - The Daily Star",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMEd0czNkVjVSdFZYbWlmdmw2am1GaFRoUnV2UkJMekRfSks0cmpNUTRwaVNDX3hYS3pxNUpLUGJfMmhxc2JKVVhMN0xnRUxQN2lSMGFFSDVxVkV4YjF0bDZPWVYxcDNTZ2ZVT3JLWUZWWjc4NnVnMjRma2dIdTRSLW9Wa1hWand1eDJJWVJNMXZ1eF96Xy1VNlh3ZnBydDVFaVZXVy1qeGlkRDFiTG4wVTYxYlp2dVhhX1h2M2ZsbldWR2s?oc=5",
+      "title": "Flydubai co-pilot’s time in Australia being investigated by security agencies after alleged cockpit attack - The Guardian",
       "status": "pass",
-      "evidenceLevel": "single-source",
-      "validSourceCount": 1,
-      "independentPublisherCount": 1,
+      "evidenceLevel": "strong",
+      "validSourceCount": 6,
+      "independentPublisherCount": 4,
       "independentPublisherFamilies": [
-        "thedailystar.net"
+        "theguardian.com",
+        "news18.com",
+        "sundayguardianlive.com",
+        "ua.news"
       ],
       "independentDomains": [
-        "thedailystar.net"
+        "theguardian.com",
+        "news18.com",
+        "sundayguardianlive.com",
+        "ua.news"
       ],
       "sources": [
         {
-          "suppliedUrl": "https://www.thedailystar.net/news/technology/news/apple-homepad-reportedly-set-launch-october-13-siri-ai-its-centre-4289491",
-          "domain": "thedailystar.net",
-          "publisherFamily": "thedailystar.net",
+          "suppliedUrl": "https://www.theguardian.com/world/2026/oct/04/flydubai-co-pilot-time-in-australia-being-investigated-security-agencies-ntwnfb",
+          "domain": "theguardian.com",
+          "publisherFamily": "theguardian.com",
           "resolvedFrom": "research-story-link",
           "ok": true,
           "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.thedailystar.net/news/technology/news/apple-homepad-reportedly-set-launch-october-13-siri-ai-its-centre-4289491",
-          "pageTitle": "Apple ‘HomePad’ reportedly set to launch on October 13 with Siri AI at its centre | The Daily Star",
-          "canonical": "https://www.thedailystar.net/news/technology/news/apple-homepad-reportedly-set-launch-october-13-siri-ai-its-centre-4289491",
-          "bodyChars": 2646,
-          "topicOverlap": 9
+          "finalUrl": "https://www.theguardian.com/world/2026/oct/04/flydubai-co-pilot-time-in-australia-being-investigated-security-agencies-ntwnfb",
+          "pageTitle": "Flydubai co-pilot’s time in Australia being investigated by security agencies after alleged cockpit attack | Flydubai plane incident | The Guardian",
+          "canonical": "https://www.theguardian.com/world/2026/oct/04/flydubai-co-pilot-time-in-australia-being-investigated-security-agencies-ntwnfb",
+          "bodyChars": 3138,
+          "topicOverlap": 11
+        },
+        {
+          "suppliedUrl": "https://www.news18.com/world/flydubai-co-pilot-australia-student-visa-security-probe-ws-l-10366433.html",
+          "domain": "news18.com",
+          "publisherFamily": "news18.com",
+          "resolvedFrom": "article-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://www.news18.com/world/flydubai-co-pilot-australia-student-visa-security-probe-ws-l-10366433.html",
+          "pageTitle": "Flydubai Attack: Co-Pilot’s 2-Year Stay In Australia On Student Visa Under Security Scanner | World News - News18",
+          "canonical": "https://www.news18.com/world/flydubai-co-pilot-australia-student-visa-security-probe-ws-l-10366433.html",
+          "bodyChars": 4305,
+          "topicOverlap": 11
+        },
+        {
+          "suppliedUrl": "https://sundayguardianlive.com/world/flydubai-flight-attack-latest-news-omani-co-pilot-handed-over-to-uae-as-investigators-probe-cockpit-assault-297011/",
+          "domain": "sundayguardianlive.com",
+          "publisherFamily": "sundayguardianlive.com",
+          "resolvedFrom": "article-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://sundayguardianlive.com/world/flydubai-flight-attack-latest-news-omani-co-pilot-handed-over-to-uae-as-investigators-probe-cockpit-assault-297011/",
+          "pageTitle": "Flydubai Flight Attack Latest News: Omani Co-Pilot Handed Over to UAE as Investigators Probe Cockpit Assault",
+          "canonical": "https://sundayguardianlive.com/world/flydubai-flight-attack-latest-news-omani-co-pilot-handed-over-to-uae-as-investigators-probe-cockpit-assault-297011/",
+          "bodyChars": 4219,
+          "topicOverlap": 11
+        },
+        {
+          "suppliedUrl": "https://sundayguardianlive.com/world/flydubai-attack-live-updates-he-was-suicidal-netanyahu-says-omani-co-pilot-shouted-kill-me-kill-me-after-cockpit-attack-claims-islamist-radical-indoctrination-296709/",
+          "domain": "sundayguardianlive.com",
+          "publisherFamily": "sundayguardianlive.com",
+          "resolvedFrom": "article-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://sundayguardianlive.com/world/flydubai-attack-live-updates-he-was-suicidal-netanyahu-says-omani-co-pilot-shouted-kill-me-kill-me-after-cockpit-attack-claims-islamist-radical-indoctrination-296709/",
+          "pageTitle": "Flydubai Attack Live Updates: ‘He Was Suicidal’ - Netanyahu Says Omani Co-Pilot Shouted ‘Kill Me, Kill Me’ After Cockpit Attack, Claims ‘Islamist Radical Indoctrination’",
+          "canonical": "https://sundayguardianlive.com/world/flydubai-attack-live-updates-he-was-suicidal-netanyahu-says-omani-co-pilot-shouted-kill-me-kill-me-after-cockpit-attack-claims-islamist-radical-indoctrination-296709/",
+          "bodyChars": 6676,
+          "topicOverlap": 16
+        },
+        {
+          "suppliedUrl": "https://ua.news/en/world/izrayil-prositime-vidati-drugogo-pilota-flydubai-pislia-napadu-v-kabini-ndtv",
+          "domain": "ua.news",
+          "publisherFamily": "ua.news",
+          "resolvedFrom": "article-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://ua.news/en/world/izrayil-prositime-vidati-drugogo-pilota-flydubai-pislia-napadu-v-kabini-ndtv",
+          "pageTitle": "Israel to seek flydubai co-pilot extradition after cockpit attack — NDTV | UA.NEWS",
+          "canonical": "https://ua.news/en/world/izrayil-prositime-vidati-drugogo-pilota-flydubai-pislia-napadu-v-kabini-ndtv",
+          "bodyChars": 3017,
+          "topicOverlap": 8
+        },
+        {
+          "suppliedUrl": "https://sundayguardianlive.com/world/flydubai-flight-fz1073-attack-latest-live-update-hamam-al-hammami-named-as-omani-co-pilot-accused-of-attacking-indian-captain-smit-machchhar-his-oman-air-background-previous-flying-ban-297613/",
+          "domain": "sundayguardianlive.com",
+          "publisherFamily": "sundayguardianlive.com",
+          "resolvedFrom": "article-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://sundayguardianlive.com/world/flydubai-flight-fz1073-attack-latest-live-update-hamam-al-hammami-named-as-omani-co-pilot-accused-of-attacking-indian-captain-smit-machchhar-his-oman-air-background-previous-flying-ban-297613/",
+          "pageTitle": "Flydubai Attack Live Update: Hamam Al-Hammami Named as Omani Co-Pilot Accused of Attacking Indian Captain Smit Machchhar - Check His Oman Air Background, Previous Flying Ban and Investigation",
+          "canonical": "https://sundayguardianlive.com/world/flydubai-flight-fz1073-attack-latest-live-update-hamam-al-hammami-named-as-omani-co-pilot-accused-of-attacking-indian-captain-smit-machchhar-his-oman-air-background-previous-flying-ban-297613/",
+          "bodyChars": 6220,
+          "topicOverlap": 21
         }
       ],
       "recoveryAttempts": 0,
@@ -1113,207 +1029,30 @@
       "sourceVerificationStatus": "verified"
     },
     {
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVUdjNUlJV2g2UklCbTlpQTJmMnFucUhZd1ByS0pfNXVzOU5OUEVpN0NvQmZ3OFFTY3ZrMklhUnRJa1F2WF9wUVVwc2Vic1phZ3lJN0E3MElETXRYdk1CSTkwR2J2eERtbGFjcHh3OHVKM2pCaDRfRk8waFIycWlvWlNzSDdsQ0dheTdfS3pwV2R3T2s?oc=5",
-      "title": "Bitcoin Is Up 33% in 90 Days but Still Down 30% From Last Year: Who’s Still Facing Losses? - Yahoo Finance",
-      "status": "pass",
-      "evidenceLevel": "single-source",
-      "validSourceCount": 2,
-      "independentPublisherCount": 1,
-      "independentPublisherFamilies": [
-        "247wallst.com"
-      ],
-      "independentDomains": [
-        "247wallst.com"
-      ],
-      "sources": [
-        {
-          "suppliedUrl": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-33-90-days-still-203353629.html",
-          "domain": "finance.yahoo.com",
-          "publisherFamily": "yahoo.com",
-          "resolvedFrom": "research-story-link",
-          "ok": false,
-          "reason": "unreachable-or-non-html"
-        },
-        {
-          "suppliedUrl": "https://247wallst.com/investing/cryptocurrency/2026/10/03/bitcoin-is-up-33-in-90-days-but-still-down-30-from-last-year-whos-still-facing-losses/",
-          "domain": "247wallst.com",
-          "publisherFamily": "247wallst.com",
-          "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://247wallst.com/investing/cryptocurrency/2026/10/03/bitcoin-is-up-33-in-90-days-but-still-down-30-from-last-year-whos-still-facing-losses/",
-          "pageTitle": "Bitcoin Is Up 33% in 90 Days but Still Down 30% From Last Year: Who&#039;s Still Facing Losses? - 24/7 Wall St.",
-          "canonical": "https://247wallst.com/investing/cryptocurrency/2026/10/03/bitcoin-is-up-33-in-90-days-but-still-down-30-from-last-year-whos-still-facing-losses/",
-          "bodyChars": 6908,
-          "topicOverlap": 10
-        },
-        {
-          "suppliedUrl": "https://247wallst.com/investing/cryptocurrency/2026/10/02/bitcoin-rises-35-in-90-days-but-remains-29-below-last-year-which-buyers-are-still-underwater/",
-          "domain": "247wallst.com",
-          "publisherFamily": "247wallst.com",
-          "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://247wallst.com/investing/cryptocurrency/2026/10/02/bitcoin-rises-35-in-90-days-but-remains-29-below-last-year-which-buyers-are-still-underwater/",
-          "pageTitle": "Bitcoin Rises 35% in 90 Days but Remains 29% Below Last Year: Which Buyers Are Still Underwater? - 24/7 Wall St.",
-          "canonical": "https://247wallst.com/investing/cryptocurrency/2026/10/02/bitcoin-rises-35-in-90-days-but-remains-29-below-last-year-which-buyers-are-still-underwater/",
-          "bodyChars": 7211,
-          "topicOverlap": 11
-        }
-      ],
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQck96bS1xSEZtM1ZWa2d4dUVscmoyMnRQa0hNSGJ0Y0JrRnhZLVgyX0hwWFlVZzNTdnVEdEdTX21TUm9ONDUycXY1U1ctMm13SThwamx6UG9QTklmWmVxQmxQT0lzd0xGZFBSaUpyVWFkeEJNMFB2U1JJYm1ObUhBVnRPeXVIRWVRTnBhSTl5R0xBVWNRVFFWZ0FxNDV4ZEFGZFl2NHJoRVhDNVRKeFhFdnVKaks1bFhzY2UySE5GQlpKRlVlTVJnakJxUDBnUQ?oc=5",
+      "title": "Shane Beamer addresses job security after South Carolina blows 17-0 lead to Kentucky - Greenville Online",
+      "status": "block",
+      "evidenceLevel": "none",
+      "validSourceCount": 0,
+      "independentPublisherCount": 0,
+      "independentPublisherFamilies": [],
+      "independentDomains": [],
+      "sources": [],
       "recoveryAttempts": 0,
-      "sourceVerificationStatus": "verified"
-    },
-    {
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYndZZG5Fd0dmLXI2UVA5YkNnZ2NlTC1vcm4xM0Q1OTl3ajgxQ1o2Y3lBRkx3Yk0xVWVPWlVMTFZpbHh2ZFJSaF9aS3JMMldSUFNnWDN0bm9EYzluX0pYWG96a1g4OFRad2ItZWExazFEZnBUMHFLZ01OYi1rMWtPUXNRTnh4MkNhMlpwWlNTd2FWTGt0ZWViZlZ0UQ?oc=5",
-      "title": "Trump’s AI rebrand may stop at the White House - Politico",
-      "status": "pass",
-      "evidenceLevel": "strong",
-      "validSourceCount": 4,
-      "independentPublisherCount": 3,
-      "independentPublisherFamilies": [
-        "newsone.com",
-        "yahoo.com",
-        "nymag.com"
-      ],
-      "independentDomains": [
-        "newsone.com",
-        "nz.news.yahoo.com",
-        "nymag.com"
-      ],
-      "sources": [
-        {
-          "suppliedUrl": "https://newsone.com/6872273/surviving-trump-white-house-media-ban/",
-          "domain": "newsone.com",
-          "publisherFamily": "newsone.com",
-          "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://newsone.com/6872273/surviving-trump-white-house-media-ban/",
-          "pageTitle": "Surviving Trump: Trump Defends White House Media Ban [Op-Ed]",
-          "canonical": "https://newsone.com/6872273/surviving-trump-white-house-media-ban/",
-          "bodyChars": 10370,
-          "topicOverlap": 9
-        },
-        {
-          "suppliedUrl": "https://nz.news.yahoo.com/trump-scowl-says-cnn-ms-162050307.html",
-          "domain": "nz.news.yahoo.com",
-          "publisherFamily": "yahoo.com",
-          "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://nz.news.yahoo.com/trump-scowl-says-cnn-ms-162050307.html",
-          "pageTitle": "Trump’s scowl says it all as CNN and MS NOW return to White House for XI’s final day - Yahoo",
-          "canonical": "https://www.independent.co.uk/news/world/americas/us-politics/trump-xi-china-cnn-white-house-b3056522.html",
-          "bodyChars": 3686,
-          "topicOverlap": 8
-        },
-        {
-          "suppliedUrl": "https://nymag.com/intelligencer/article/white-house-wants-to-rebrand-its-mass-deportation-push.html",
-          "domain": "nymag.com",
-          "publisherFamily": "nymag.com",
-          "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://nymag.com/intelligencer/article/white-house-wants-to-rebrand-its-mass-deportation-push.html",
-          "pageTitle": "White House Wants to Rebrand Its Mass-Deportation Push",
-          "canonical": "https://nymag.com/intelligencer/article/white-house-wants-to-rebrand-its-mass-deportation-push.html",
-          "bodyChars": 3474,
-          "topicOverlap": 7
-        },
-        {
-          "suppliedUrl": "https://www.yahoo.com/news/politics/articles/white-house-bars-cnn-trump-011443393.html",
-          "domain": "yahoo.com",
-          "publisherFamily": "yahoo.com",
-          "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.yahoo.com/news/politics/articles/white-house-bars-cnn-trump-011443393.html",
-          "pageTitle": "White House Bars CNN From Trump Flight a Day After Credentials Restored",
-          "canonical": "https://www.thewrap.com/media-platforms/journalism/white-house-bars-cnn-from-trump-flight/",
-          "bodyChars": 4727,
-          "topicOverlap": 7
-        }
-      ],
-      "recoveryAttempts": 0,
-      "sourceVerificationStatus": "verified"
-    },
-    {
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcjZGN1N4UVJHZjYwVWRIMF9XWUlCWlI1TmEyVVFfSGl4eWtPWldhTE9Vc1otcEhzYjhtR19XbnhTcnJiNmkwQXZ2VFZfS2FzWjJmUm94aEdzVHp1MlUtd1Q2anRnUk13NXh2VDY1TUN1MV83akpxa2dZS1RDMkZEcnJTTEtFMWdnU3c?oc=5",
-      "title": "Why U.S. airlines balked at adopting Boeing’s latest 737 Max software versions - The Air Current",
-      "status": "pass",
-      "evidenceLevel": "single-source",
-      "validSourceCount": 1,
-      "independentPublisherCount": 1,
-      "independentPublisherFamilies": [
-        "theaircurrent.com"
-      ],
-      "independentDomains": [
-        "theaircurrent.com"
-      ],
-      "sources": [
-        {
-          "suppliedUrl": "https://theaircurrent.com/aviation-safety/us-airlines-boeing-737-max-software-u14/",
-          "domain": "theaircurrent.com",
-          "publisherFamily": "theaircurrent.com",
-          "resolvedFrom": "research-story-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://theaircurrent.com/aviation-safety/us-airlines-boeing-737-max-software-u14/",
-          "pageTitle": "Why U.S. airlines balked at adopting Boeing’s latest 737 Max software versions - The Air Current",
-          "canonical": "https://theaircurrent.com/aviation-safety/us-airlines-boeing-737-max-software-u14/",
-          "bodyChars": 17465,
-          "topicOverlap": 7
-        }
-      ],
-      "recoveryAttempts": 0,
-      "sourceVerificationStatus": "partial"
-    },
-    {
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZ3RTNzYyNklLYTVmUHFDazdYd1F4cmZJRkVjWnN0MzRUdWEtTzQzODVvcTM1UTdnbjNNaHRvY3Y4RWVndkFRbkYzMUVhZlVXekdyYURmd3pCeGZ4WERvVGZmWGVuQmluMUZ6enlua1RxXzBjUEhCYUgzaTZid0tlTVlaUUtSblVEX3BWUVJnR2p3aXJDVnIxaEdvWXd2bE9jY0hv?oc=5",
-      "title": "Science fair at UCCS sparks kids’ interest in science, tech - Colorado Springs Gazette",
-      "status": "pass",
-      "evidenceLevel": "single-source",
-      "validSourceCount": 1,
-      "independentPublisherCount": 1,
-      "independentPublisherFamilies": [
-        "gazette.com"
-      ],
-      "independentDomains": [
-        "gazette.com"
-      ],
-      "sources": [
-        {
-          "suppliedUrl": "https://gazette.com/2026/10/03/science-fair-at-uccs-big-success-teaching-kids-science-and-technology/",
-          "domain": "gazette.com",
-          "publisherFamily": "gazette.com",
-          "resolvedFrom": "research-story-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://gazette.com/2026/10/03/science-fair-at-uccs-big-success-teaching-kids-science-and-technology/",
-          "pageTitle": "Science and technology on display at UCCS Saturday morning",
-          "canonical": "https://gazette.com/2026/10/03/science-fair-at-uccs-big-success-teaching-kids-science-and-technology/",
-          "bodyChars": 2563,
-          "topicOverlap": 6
-        }
-      ],
-      "recoveryAttempts": 0,
-      "sourceVerificationStatus": "partial"
+      "sourceVerificationStatus": "unverified"
     },
     {
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQM25kZGtBQ1QwNHZ2YWtsUFhHWHcta2hMY0RjM2xfRWxYaEY1SW0xX2xCMnRUd3VHU0QtcHE0TlpqYkpMNWE1UGtMNkFTR04weE5tX2dhc1hCdWdTdWhMbkdLejRkQmJ3UXZTdXgxd3ZQSG9KSzNrb1hqX0xTaXZ4TUxBZmljV2Z1dU51TmQ2djhxZXJZUjRyR0Q0S2dPcGZPN1NreFI5aUdXTWVmWkNHUkJHMUgwTjlVZnVJTll6a3NPeS1QazRsUlNCaGsyRWc5U3EyVUdxa0lycGlsR3dfMHBtdlZZN1RlTWc?oc=5",
       "title": "Ethereum ETFs Saw Outflows Three Days Running After a $690 Million Week. Is Fund Demand Drying Up? - 24/7 Wall St.",
       "status": "pass",
-      "evidenceLevel": "strong",
-      "validSourceCount": 2,
-      "independentPublisherCount": 2,
+      "evidenceLevel": "single-source",
+      "validSourceCount": 1,
+      "independentPublisherCount": 1,
       "independentPublisherFamilies": [
-        "247wallst.com",
-        "aol.com"
+        "247wallst.com"
       ],
       "independentDomains": [
-        "247wallst.com",
-        "aol.com"
+        "247wallst.com"
       ],
       "sources": [
         {
@@ -1330,21 +1069,29 @@
           "topicOverlap": 12
         },
         {
-          "suppliedUrl": "https://www.aol.com/articles/ethereum-etfs-saw-outflows-three-000703000.html",
-          "domain": "aol.com",
-          "publisherFamily": "aol.com",
+          "suppliedUrl": "https://finance.yahoo.com/markets/crypto/articles/ethereum-etfs-saw-outflows-three-000703151.html",
+          "domain": "finance.yahoo.com",
+          "publisherFamily": "yahoo.com",
           "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.aol.com/articles/ethereum-etfs-saw-outflows-three-000703000.html",
-          "pageTitle": "Ethereum ETFs Saw Outflows Three Days Running After a $690 Million Week. Is Fund Demand Drying Up? - AOL",
-          "canonical": "https://247wallst.com/investing/cryptocurrency/2026/10/03/ethereum-etfs-saw-outflows-three-days-running-after-a-690-million-week-is-fund-demand-drying-up/",
-          "bodyChars": 6290,
-          "topicOverlap": 11
+          "ok": false,
+          "reason": "unreachable-or-non-html"
         }
       ],
       "recoveryAttempts": 0,
       "sourceVerificationStatus": "verified"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVzllZ3FlUmNzR3pPMkNlbDRWSU5yT2lZLXA0bnpMZjI5VmxNTG5KZFBfZEp3elVXSG1XOU5jckVlRVA1M05oRHNtMDdhVDQyY0pLdXlScG54OXJpZlZJSTFtZkMxVVBHOWlaM2hKVmpuaFpwR3c3c05ITDU1N19IcnhENHQwdTAxeGtmRnVpNDdSc0IwWFowTmlxREVocURBVFppVFRoaVdLYXpsbXBmSUxqUTZ6MG1GSjE3RHRmVQ?oc=5",
+      "title": "Exclusive | New AI Czar Unveils Goals, Members of White House Task Force - WSJ",
+      "status": "block",
+      "evidenceLevel": "none",
+      "validSourceCount": 0,
+      "independentPublisherCount": 0,
+      "independentPublisherFamilies": [],
+      "independentDomains": [],
+      "sources": [],
+      "recoveryAttempts": 0,
+      "sourceVerificationStatus": "unverified"
     },
     {
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPX2NNSzBoT3NhRmFhWjdUZ1NtOTFVNUFRaFBvNUd2R1c2NlhCLVZNanZfdm5UR3BDZ2V0bC1Oa00zano0OWtDdUo3WFFzMXNqdUxDczJ2Ujl3Vng5N2VlRGZDeWx5OHBhbWFnTXZpNkVTbWNHOFMtTEcyLXFGckl4bDRtUE81ZnIyWU91S21n?oc=5",
@@ -1421,42 +1168,11 @@
       "sourceVerificationStatus": "verified"
     },
     {
-      "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
-      "title": "Meta wants your next gadget to be Muse-infused",
-      "status": "pass",
-      "evidenceLevel": "single-source",
-      "validSourceCount": 1,
-      "independentPublisherCount": 1,
-      "independentPublisherFamilies": [
-        "techcrunch.com"
-      ],
-      "independentDomains": [
-        "techcrunch.com"
-      ],
-      "sources": [
-        {
-          "suppliedUrl": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
-          "domain": "techcrunch.com",
-          "publisherFamily": "techcrunch.com",
-          "resolvedFrom": "research-story-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
-          "pageTitle": "Meta wants your next gadget to be Muse-infused | TechCrunch",
-          "canonical": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
-          "bodyChars": 3477,
-          "topicOverlap": 6
-        }
-      ],
-      "recoveryAttempts": 0,
-      "sourceVerificationStatus": "verified"
-    },
-    {
       "link": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
       "title": "An OpenAI safety employee has quit and is sounding the alarm",
       "status": "pass",
       "evidenceLevel": "strong",
-      "validSourceCount": 7,
+      "validSourceCount": 8,
       "independentPublisherCount": 7,
       "independentPublisherFamilies": [
         "theverge.com",
@@ -1465,7 +1181,7 @@
         "abcnews.com",
         "indiatimes.com",
         "wandtv.com",
-        "freepressjournal.in"
+        "aol.com"
       ],
       "independentDomains": [
         "theverge.com",
@@ -1474,7 +1190,7 @@
         "abcnews.com",
         "timesofindia.indiatimes.com",
         "wandtv.com",
-        "freepressjournal.in"
+        "aol.com"
       ],
       "sources": [
         {
@@ -1517,14 +1233,6 @@
           "topicOverlap": 8
         },
         {
-          "suppliedUrl": "https://ca.finance.yahoo.com/news/openai-safety-employee-quits-says-190019855.html",
-          "domain": "ca.finance.yahoo.com",
-          "publisherFamily": "yahoo.com",
-          "resolvedFrom": "article-link",
-          "ok": false,
-          "reason": "unreachable-or-non-html"
-        },
-        {
           "suppliedUrl": "https://abcnews.com/Politics/former-anthropic-openai-employee-sounds-alarm-ai-development/story?id=136401554",
           "domain": "abcnews.com",
           "publisherFamily": "abcnews.com",
@@ -1548,7 +1256,7 @@
           "pageTitle": "'Could kill us all': Another AI employee quits, sounds alarm over safety - The Times of India",
           "canonical": "https://timesofindia.indiatimes.com/world/rest-of-world/could-kill-us-all-another-ai-employee-quits-sounds-alarm-over-safety/articleshow/134003102.cms",
           "bodyChars": 1149,
-          "topicOverlap": 9
+          "topicOverlap": 7
         },
         {
           "suppliedUrl": "https://www.wandtv.com/2026/09/27/anthropic-openai-sound-alarm-ai-safety-seek-shape-how-its-controlled/",
@@ -1564,78 +1272,91 @@
           "topicOverlap": 8
         },
         {
-          "suppliedUrl": "https://www.freepressjournal.in/tech/ai-has-the-potential-to-kill-us-all-two-google-deepmind-researchers-quit-sound-alarm-over-safety",
-          "domain": "freepressjournal.in",
-          "publisherFamily": "freepressjournal.in",
+          "suppliedUrl": "https://www.aol.com/articles/openai-safety-employee-quits-says-190019000.html",
+          "domain": "aol.com",
+          "publisherFamily": "aol.com",
           "resolvedFrom": "article-link",
           "ok": true,
           "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.freepressjournal.in/tech/ai-has-the-potential-to-kill-us-all-two-google-deepmind-researchers-quit-sound-alarm-over-safety",
-          "pageTitle": "'AI Has The Potential To Kill Us All': Two Google DeepMind Researchers Quit, Sound Alarm Over Safety",
-          "canonical": "https://www.freepressjournal.in/tech/ai-has-the-potential-to-kill-us-all-two-google-deepmind-researchers-quit-sound-alarm-over-safety",
-          "bodyChars": 3968,
-          "topicOverlap": 9
+          "finalUrl": "https://www.aol.com/articles/openai-safety-employee-quits-says-190019000.html",
+          "pageTitle": "OpenAI safety employee quits, says 'time for trial and error is over' - AOL",
+          "canonical": "https://www.reuters.com/legal/litigation/openai-safety-employee-quits-says-time-trial-error-is-over-2026-10-03/",
+          "bodyChars": 1888,
+          "topicOverlap": 8
+        },
+        {
+          "suppliedUrl": "https://www.aol.com/articles/openai-leader-quit-says-more-190153000.html",
+          "domain": "aol.com",
+          "publisherFamily": "aol.com",
+          "resolvedFrom": "article-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://www.aol.com/articles/openai-leader-quit-says-more-190153000.html",
+          "pageTitle": "OpenAI leader who quit says he can do more for safety from outside the company - AOL",
+          "canonical": "https://www.businessinsider.com/david-robinson-can-do-more-for-safety-outside-open-ai-2026-10",
+          "bodyChars": 3620,
+          "topicOverlap": 6
         }
       ],
       "recoveryAttempts": 0,
       "sourceVerificationStatus": "verified"
     },
     {
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONVpLbHgxQnBJYzNHVHJTWDIxTmNzV1ZkZUtKSTBCNm5LWERxTFJCMzY4WFUtUno0Q05HdGNLWGt6MlZRdXFVSmM2cklKQnlEV0NGdEpUWWNjMWxlb1hMYkN3LVNPMTB0Z0VTUzJQN0pOcldJT0Y5VkxHVU9GdHhwUE02cGJidEpqRGJEY3ZDaWROaTFOeVROMWdUeHJFT0R0R3Z5UDlFTzAyY2U0V0ZBNm9ydUZpRlF1S1M5VTZxM2h3TDM3MURIeWxR?oc=5",
-      "title": "WORLD WIDE TECHNOLOGY RACEWAY HOSTS SATURDAY SELLOUT AT 15TH ANNUAL NAPA AUTO PARTS NHRA MIDWEST NATIONALS - wwtraceway.com",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQkg2M1kweDR3dUZPNFQxT093Z29vcGFsYUw2Y3ZkcXpRdnlNdnBoaHJzVjNKZkNMWFpfVE5jT1dOQU8tdjM0ZkFHdnloUXoxTVlMSUFIcE5QQ2xzMHMxQktSQm5BcExPMm0tdWFVOFE4MzFYQjlFMHFkQTRreFhlZ3h0SGpvakNUMTRwTlZnNDZXZVhleU5UUUZVbDI1TUNRT014RU9jMG9qLVNieXh4ZQ?oc=5",
+      "title": "US AI Task Force to Report on Technology’s Risks, WSJ Reports - Bloomberg.com",
       "status": "pass",
       "evidenceLevel": "strong",
       "validSourceCount": 3,
       "independentPublisherCount": 3,
       "independentPublisherFamilies": [
-        "wwtraceway.com",
-        "motorsportsnewswire.com",
-        "nhra.com"
+        "com.sg",
+        "straitstimes.com",
+        "yahoo.com"
       ],
       "independentDomains": [
-        "wwtraceway.com",
-        "motorsportsnewswire.com",
-        "nhra.com"
+        "businesstimes.com.sg",
+        "straitstimes.com",
+        "yahoo.com"
       ],
       "sources": [
         {
-          "suppliedUrl": "https://wwtraceway.com/world-wide-technology-raceway-hosts-saturday-sellout-at-15th-annual-napa-auto-parts-nhra-midwest-nationals/",
-          "domain": "wwtraceway.com",
-          "publisherFamily": "wwtraceway.com",
-          "resolvedFrom": "research-story-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://wwtraceway.com/world-wide-technology-raceway-hosts-saturday-sellout-at-15th-annual-napa-auto-parts-nhra-midwest-nationals/",
-          "pageTitle": "WORLD WIDE TECHNOLOGY RACEWAY HOSTS SATURDAY SELLOUT AT 15TH ANNUAL NAPA AUTO PARTS NHRA MIDWEST NATIONALS - World Wide Technology Raceway",
-          "canonical": "https://wwtraceway.com/world-wide-technology-raceway-hosts-saturday-sellout-at-15th-annual-napa-auto-parts-nhra-midwest-nationals/",
-          "bodyChars": 4335,
-          "topicOverlap": 14
-        },
-        {
-          "suppliedUrl": "https://motorsportsnewswire.com/2026/06/02/napa-auto-parts-nhra-midwest-nationals-to-serve-as-football-adjacent-broadcast-on-fox-for-first-time/",
-          "domain": "motorsportsnewswire.com",
-          "publisherFamily": "motorsportsnewswire.com",
+          "suppliedUrl": "https://www.businesstimes.com.sg/international/global/us-task-force-report-ai-risks-and-government-oversight-within-120-days-wsj",
+          "domain": "businesstimes.com.sg",
+          "publisherFamily": "com.sg",
           "resolvedFrom": "article-link",
           "ok": true,
           "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://motorsportsnewswire.com/2026/06/02/napa-auto-parts-nhra-midwest-nationals-to-serve-as-football-adjacent-broadcast-on-fox-for-first-time/",
-          "pageTitle": "NAPA Auto Parts NHRA Midwest Nationals to serve as Football Adjacent Broadcast on FOX for First Time - Motor Sports NewsWire",
-          "canonical": "https://motorsportsnewswire.com/2026/06/02/napa-auto-parts-nhra-midwest-nationals-to-serve-as-football-adjacent-broadcast-on-fox-for-first-time/",
-          "bodyChars": 6072,
-          "topicOverlap": 12
+          "finalUrl": "https://www.businesstimes.com.sg/international/global/us-task-force-report-ai-risks-and-government-oversight-within-120-days-wsj",
+          "pageTitle": "US task force to report on AI risks and government oversight within 120 days: WSJ - The Business Times",
+          "canonical": "https://www.businesstimes.com.sg/international/global/us-task-force-report-ai-risks-and-government-oversight-within-120-days-wsj",
+          "bodyChars": 2554,
+          "topicOverlap": 7
         },
         {
-          "suppliedUrl": "https://www.nhra.com/news/2025/countdown-championship-hits-halfway-point-napa-midwest-nationals",
-          "domain": "nhra.com",
-          "publisherFamily": "nhra.com",
+          "suppliedUrl": "https://www.straitstimes.com/world/united-states/us-ai-task-force-led-by-jay-clayton-to-report-on-technologys-risks-wsj",
+          "domain": "straitstimes.com",
+          "publisherFamily": "straitstimes.com",
           "resolvedFrom": "article-link",
           "ok": true,
           "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.nhra.com/news/2025/countdown-championship-hits-halfway-point-napa-midwest-nationals",
-          "pageTitle": "Countdown to the Championship hits halfway point at NAPA Midwest Nationals | NHRA",
-          "canonical": "https://www.nhra.com/news/2025/countdown-championship-hits-halfway-point-napa-midwest-nationals",
-          "bodyChars": 2815,
-          "topicOverlap": 11
+          "finalUrl": "https://www.straitstimes.com/world/united-states/us-ai-task-force-led-by-jay-clayton-to-report-on-technologys-risks-wsj",
+          "pageTitle": "US AI task force to assess risks and report on super intelligence | The Straits Times",
+          "canonical": "https://www.straitstimes.com/world/united-states/us-ai-task-force-led-by-jay-clayton-to-report-on-technologys-risks-wsj",
+          "bodyChars": 1945,
+          "topicOverlap": 6
+        },
+        {
+          "suppliedUrl": "https://www.yahoo.com/news/politics/articles/jay-clayton-lead-trumps-ai-224548272.html",
+          "domain": "yahoo.com",
+          "publisherFamily": "yahoo.com",
+          "resolvedFrom": "article-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://www.yahoo.com/news/politics/articles/jay-clayton-lead-trumps-ai-224548272.html",
+          "pageTitle": "Trump names intelligence chief Clayton as AI czar, to head task force, WSJ reports",
+          "canonical": "https://www.yahoo.com/news/politics/articles/jay-clayton-lead-trumps-ai-224548272.html",
+          "bodyChars": 2206,
+          "topicOverlap": 6
         }
       ],
       "recoveryAttempts": 0,
@@ -1683,7 +1404,7 @@
           "pageTitle": "World Wide Technology Raceway Sells Out for Sixth Consecutive Saturday at NAPA Auto Parts NHRA Midwest Nationals - Motor Sports NewsWire",
           "canonical": "https://motorsportsnewswire.com/2026/10/03/world-wide-technology-raceway-sells-out-for-sixth-consecutive-saturday-at-napa-auto-parts-nhra-midwest-nationals/",
           "bodyChars": 4228,
-          "topicOverlap": 13
+          "topicOverlap": 16
         },
         {
           "suppliedUrl": "https://wwtraceway.com/world-wide-technology-raceway-hosts-saturday-sellout-at-15th-annual-napa-auto-parts-nhra-midwest-nationals/",
@@ -1695,7 +1416,7 @@
           "finalUrl": "https://wwtraceway.com/world-wide-technology-raceway-hosts-saturday-sellout-at-15th-annual-napa-auto-parts-nhra-midwest-nationals/",
           "pageTitle": "WORLD WIDE TECHNOLOGY RACEWAY HOSTS SATURDAY SELLOUT AT 15TH ANNUAL NAPA AUTO PARTS NHRA MIDWEST NATIONALS - World Wide Technology Raceway",
           "canonical": "https://wwtraceway.com/world-wide-technology-raceway-hosts-saturday-sellout-at-15th-annual-napa-auto-parts-nhra-midwest-nationals/",
-          "bodyChars": 4335,
+          "bodyChars": 3920,
           "topicOverlap": 14
         }
       ],
@@ -1703,136 +1424,62 @@
       "sourceVerificationStatus": "verified"
     },
     {
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPLW5EOVdVT09kSFFQRm9VUDlXbU0zTXVtaG93TmNGVVlKa1d5dmg2eWhhM0tPS3BlVnVhamdsOHd6R09zTUN2V050NHlFcVhsNElhQmZBMjM4R0lzTUctZWJkaUlNR3BJMllEdEJwMmFjbzhwTFZIM0dxZEYzQ0NBb2RzZTdiQlFtNGFEOHhNVG1LM1NrUHZYRFVvSGZSZ3VFUE5ZMnZn?oc=5",
-      "title": "Bentonville Institute of Technology marks major milestone with groundbreaking - KHBS",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnUjc4S1hZRXJocnhEVGhWV0UzZWlneTBSMVFnY3BUWGN4aFQ3ZDZJZVF3RGFrY19jLVJLZnQwWGpxNzRyX1BjaktheVNURjdvbE9KMmxZN0M5RUM4MjdDSWUyWEtvVHVuSEpvOFF3?oc=5",
+      "title": "Israel Defense Ministry says 1,318 security personnel killed since Oct. 7 - The Jerusalem Post",
       "status": "pass",
       "evidenceLevel": "single-source",
       "validSourceCount": 1,
       "independentPublisherCount": 1,
       "independentPublisherFamilies": [
-        "4029tv.com"
+        "jpost.com"
       ],
       "independentDomains": [
-        "4029tv.com"
+        "jpost.com"
       ],
       "sources": [
         {
-          "suppliedUrl": "https://www.4029tv.com/article/bentonville-institute-of-technology-breaks-ground-on-new-campus/74000930",
-          "domain": "4029tv.com",
-          "publisherFamily": "4029tv.com",
+          "suppliedUrl": "https://www.jpost.com/israel-news/defense-news/article-910490",
+          "domain": "jpost.com",
+          "publisherFamily": "jpost.com",
           "resolvedFrom": "research-story-link",
           "ok": true,
           "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.4029tv.com/article/bentonville-institute-of-technology-breaks-ground-on-new-campus/74000930",
-          "pageTitle": "Bentonville Institute of Technology breaks ground on new campus - KHBS",
-          "canonical": "https://www.4029tv.com/article/bentonville-institute-of-technology-breaks-ground-on-new-campus/74000930",
-          "bodyChars": 1999,
-          "topicOverlap": 3
+          "finalUrl": "https://www.jpost.com/israel-news/defense-news/article-910490",
+          "pageTitle": "Israel Defense Ministry says 1,318 security personnel killed since Oct. 7 | The Jerusalem Post",
+          "canonical": "https://www.jpost.com/israel-news/defense-news/article-910490",
+          "bodyChars": 1477,
+          "topicOverlap": 10
         }
       ],
       "recoveryAttempts": 0,
       "sourceVerificationStatus": "partial"
     },
     {
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTkdzR2tET3d4bi1GRy02ZHh3a2NkektQbHBJaFRaV2JWU2hjSTJsSDBnREN0WF9LNXBWNGk3V1ZpMUNQajlRZTdINWJlM1h0MVl1a0FKUU4ydnAwTUNoOTB1YU03NEV3aGpaVUhxSnhva0t0NEc4Q3RLR3dSYVZPdUpJX01ycE1ST0stRTFKY1lyRUJHSDZhUnpPMlB0cE9OMDRJa3NiVEMzQWFFUnhYSmZZVWlkdlZ4c01EX0d3?oc=5",
-      "title": "Tour ballot tabulation room, security measures at Bexar County elections open house - WOAI",
-      "status": "pass",
-      "evidenceLevel": "single-source",
-      "validSourceCount": 1,
-      "independentPublisherCount": 1,
-      "independentPublisherFamilies": [
-        "news4sanantonio.com"
-      ],
-      "independentDomains": [
-        "news4sanantonio.com"
-      ],
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPLXRPaE1FaF9OQjJKMHpDenFJTkxianNRUUJBbFpMMEloM012Q0kwZld6UFZSMUFzbkpVWkRNNkE5TmxsTzBaZ2Z1RC10VEw5Wm9Ga1l0T25ReVpIMi05bDJhb0hRMkhYMnRqOTVBSFZxX09Jc1djWTdZQnB6TWx5aUpQcGlUUFZrWE5KTjJxMWhLSG1TRzg0RExia0JvTlpRejRpeUFjVWtXaDA3Z09xMWp1Y3JUdw?oc=5",
+      "title": "ETH price range on Oct 4, 2026 at 12am EDT Crypto Prediction Market - Robinhood",
+      "status": "block",
+      "evidenceLevel": "none",
+      "validSourceCount": 0,
+      "independentPublisherCount": 0,
+      "independentPublisherFamilies": [],
+      "independentDomains": [],
       "sources": [
         {
-          "suppliedUrl": "https://news4sanantonio.com/news/local/tour-ballot-tabulation-room-security-measures-at-bexar-county-elections-open-house",
-          "domain": "news4sanantonio.com",
-          "publisherFamily": "news4sanantonio.com",
+          "suppliedUrl": "https://robinhood.com/us/en/prediction-markets/crypto/events/eth-price-range-on-oct-4-2026-at-12am-edt-oct-02-2026/",
+          "domain": "robinhood.com",
+          "publisherFamily": "robinhood.com",
           "resolvedFrom": "research-story-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://news4sanantonio.com/news/local/tour-ballot-tabulation-room-security-measures-at-bexar-county-elections-open-house",
-          "pageTitle": "Tour ballot tabulation room, security measures at Bexar County elections open house",
-          "canonical": "https://news4sanantonio.com/news/local/tour-ballot-tabulation-room-security-measures-at-bexar-county-elections-open-house",
-          "bodyChars": 908,
-          "topicOverlap": 11
+          "ok": false,
+          "reason": "insufficient-article-body",
+          "finalUrl": "https://robinhood.com/us/en/prediction-markets/crypto/events/eth-price-range-on-oct-4-2026-at-12am-edt-oct-02-2026/",
+          "pageTitle": "ETH price range on Oct 4, 2026 at 12am EDT Prediction Market",
+          "canonical": "",
+          "bodyChars": 0,
+          "topicOverlap": 6
         }
       ],
       "recoveryAttempts": 0,
       "sourceVerificationStatus": "partial"
-    },
-    {
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOazlxeU5JVWlQLXdQRGdQUm5pYXFGaGpNWHNiX1VYbVhFR1RSVkY4Uk55WHdzMTRHbXQyNlRrVkE3UFJRYVA2ZjNQWDkyRGVhREltMndiMnhUeDVnQjRVbnhfQ3dPeklkSmhSUmRGeE9KZmhnb0xkWlJZS3d6ZkViYktVMmhMSEk2TUp0ckVnaU5jVy1LUWlXQnNhWm1jSWlMUC1oRkE5VUx4V05kRUlneS0yZGgtWTQ?oc=5",
-      "title": "Intel vs. Marvell Technology: Which AI Chip Stock Is a Better Buy in 2026? - The Motley Fool",
-      "status": "pass",
-      "evidenceLevel": "strong",
-      "validSourceCount": 2,
-      "independentPublisherCount": 2,
-      "independentPublisherFamilies": [
-        "fool.com",
-        "theglobeandmail.com"
-      ],
-      "independentDomains": [
-        "fool.com",
-        "theglobeandmail.com"
-      ],
-      "sources": [
-        {
-          "suppliedUrl": "https://www.fool.com/coverage/better-buy/2026/10/03/intel-vs-marvell-technology-which-ai-chip-stock-better-buy-2026/",
-          "domain": "fool.com",
-          "publisherFamily": "fool.com",
-          "resolvedFrom": "research-story-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.fool.com/coverage/better-buy/2026/10/03/intel-vs-marvell-technology-which-ai-chip-stock-better-buy-2026/",
-          "pageTitle": "Intel vs. Marvell Technology: Which AI Chip Stock Is a Better Buy in 2026? | The Motley Fool",
-          "canonical": "https://www.fool.com/coverage/better-buy/2026/10/03/intel-vs-marvell-technology-which-ai-chip-stock-better-buy-2026/",
-          "bodyChars": 7806,
-          "topicOverlap": 8
-        },
-        {
-          "suppliedUrl": "https://finance.yahoo.com/technology/ai/articles/arm-vs-marvell-technology-ai-213715326.html",
-          "domain": "finance.yahoo.com",
-          "publisherFamily": "yahoo.com",
-          "resolvedFrom": "article-link",
-          "ok": false,
-          "reason": "unreachable-or-non-html"
-        },
-        {
-          "suppliedUrl": "https://www.theglobeandmail.com/investing/markets/stocks/AVGO/pressreleases/4840432/broadcom-vs-marvell-technology-which-semiconductor-stock-is-a-better-buy-in-2026/",
-          "domain": "theglobeandmail.com",
-          "publisherFamily": "theglobeandmail.com",
-          "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.theglobeandmail.com/investing/markets/stocks/AVGO/pressreleases/4840432/broadcom-vs-marvell-technology-which-semiconductor-stock-is-a-better-buy-in-2026/",
-          "pageTitle": "Broadcom vs. Marvell Technology: Which Semiconductor Stock Is a Better Buy in 2026? - The Globe and Mail",
-          "canonical": "https://www.theglobeandmail.com/investing/markets/stocks/AVGO/pressreleases/4840432/broadcom-vs-marvell-technology-which-semiconductor-stock-is-a-better-buy-in-2026/",
-          "bodyChars": 13391,
-          "topicOverlap": 8
-        },
-        {
-          "suppliedUrl": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-vs-marvell-technology-113501699.html",
-          "domain": "finance.yahoo.com",
-          "publisherFamily": "yahoo.com",
-          "resolvedFrom": "article-link",
-          "ok": false,
-          "reason": "unreachable-or-non-html"
-        },
-        {
-          "suppliedUrl": "https://finance.yahoo.com/markets/stocks/articles/broadcom-vs-intel-semiconductor-stock-172608325.html",
-          "domain": "finance.yahoo.com",
-          "publisherFamily": "yahoo.com",
-          "resolvedFrom": "article-link",
-          "ok": false,
-          "reason": "unreachable-or-non-html"
-        }
-      ],
-      "recoveryAttempts": 0,
-      "sourceVerificationStatus": "verified"
     },
     {
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMUVLWHJPc0k2XzlJM0ZVRTVGLXJKVDhLRkVNM3VGY3FZU0FLTmFmOThHV2hXTDRnYXpTMlp2YjlTQnMyMlF2VWpZOEZHOTF5REpFS1JSSkdjcS1xcGV2UjBLQ041R19TVVBJQ3RMWlZKYlRpbThYejRLRkxhOUVWRWt5Wi0wblp0eXlweDFYZ0RGeHNIcnQ2MWl5bWZtUS1PSHZZYkVaTG9CZ2d6WTZFMDd2Y2lrTVBVTlhj?oc=5",
@@ -1846,135 +1493,6 @@
       "sources": [],
       "recoveryAttempts": 0,
       "sourceVerificationStatus": "unverified"
-    },
-    {
-      "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
-      "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
-      "status": "pass",
-      "evidenceLevel": "strong",
-      "validSourceCount": 7,
-      "independentPublisherCount": 7,
-      "independentPublisherFamilies": [
-        "techcrunch.com",
-        "wired.com",
-        "arstechnica.com",
-        "nwitimes.com",
-        "techbuzz.ai",
-        "newscord.org",
-        "biggo.com"
-      ],
-      "independentDomains": [
-        "techcrunch.com",
-        "wired.com",
-        "arstechnica.com",
-        "nwitimes.com",
-        "techbuzz.ai",
-        "newscord.org",
-        "finance.biggo.com"
-      ],
-      "sources": [
-        {
-          "suppliedUrl": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
-          "domain": "techcrunch.com",
-          "publisherFamily": "techcrunch.com",
-          "resolvedFrom": "research-story-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
-          "pageTitle": "Amazon responds to data center backlash, says it no longer uses NDAs | TechCrunch",
-          "canonical": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
-          "bodyChars": 5688,
-          "topicOverlap": 9
-        },
-        {
-          "suppliedUrl": "https://finance.yahoo.com/technology/articles/amazon-responds-data-center-backlash-184357944.html",
-          "domain": "finance.yahoo.com",
-          "publisherFamily": "yahoo.com",
-          "resolvedFrom": "article-link",
-          "ok": false,
-          "reason": "unreachable-or-non-html"
-        },
-        {
-          "suppliedUrl": "https://www.wired.com/story/amazon-says-it-is-going-to-stop-using-ndas-for-data-centers/",
-          "domain": "wired.com",
-          "publisherFamily": "wired.com",
-          "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.wired.com/story/amazon-says-it-is-going-to-stop-using-ndas-for-data-centers/",
-          "pageTitle": "Amazon Says It’s No Longer Using NDAs for Data Centers | WIRED",
-          "canonical": "https://www.wired.com/story/amazon-says-it-is-going-to-stop-using-ndas-for-data-centers/",
-          "bodyChars": 5191,
-          "topicOverlap": 8
-        },
-        {
-          "suppliedUrl": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
-          "domain": "arstechnica.com",
-          "publisherFamily": "arstechnica.com",
-          "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
-          "pageTitle": "Amazon’s $1B plan to combat data center backlash draws more backlash - Ars Technica",
-          "canonical": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
-          "bodyChars": 4388,
-          "topicOverlap": 8
-        },
-        {
-          "suppliedUrl": "https://nwitimes.com/news/local/article_a02916e7-215c-49cf-be50-efc6843be71b.html",
-          "domain": "nwitimes.com",
-          "publisherFamily": "nwitimes.com",
-          "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://nwitimes.com/news/local/article_a02916e7-215c-49cf-be50-efc6843be71b.html",
-          "pageTitle": "Amazon makes new data center commitments, including no NDAs and local hiring",
-          "canonical": "https://nwitimes.com/news/local/article_a02916e7-215c-49cf-be50-efc6843be71b.html",
-          "bodyChars": 2339,
-          "topicOverlap": 9
-        },
-        {
-          "suppliedUrl": "https://www.techbuzz.ai/articles/aws-drops-ndas-amid-data-center-transparency-push",
-          "domain": "techbuzz.ai",
-          "publisherFamily": "techbuzz.ai",
-          "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.techbuzz.ai/articles/aws-drops-ndas-amid-data-center-transparency-push",
-          "pageTitle": "AWS Drops NDAs Amid Data Center Transparency Push | The Tech Buzz",
-          "canonical": "https://www.techbuzz.ai/articles/aws-drops-ndas-amid-data-center-transparency-push",
-          "bodyChars": 4706,
-          "topicOverlap": 8
-        },
-        {
-          "suppliedUrl": "https://newscord.org/article/amazon-web-services-ceo-matt-garman-promises-more-than-1-billion-for-data-center--Story_20261002_Amazons1Bplantocomba319cba7f",
-          "domain": "newscord.org",
-          "publisherFamily": "newscord.org",
-          "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://newscord.org/article/amazon-web-services-ceo-matt-garman-promises-more-than-1-billion-for-data-center--Story_20261002_Amazons1Bplantocomba319cba7f",
-          "pageTitle": "Amazon Web Services CEO Matt Garman Promises More Than $1 Billion For Data Center Communities: who 18 outlets blamed | NewsCord",
-          "canonical": "https://newscord.org/article/amazon-web-services-ceo-matt-garman-promises-more-than-1-billion-for-data-center--Story_20261002_Amazons1Bplantocomba319cba7f",
-          "bodyChars": 3758,
-          "topicOverlap": 10
-        },
-        {
-          "suppliedUrl": "https://finance.biggo.com/news/8696c66e-a38d-4eec-9a4c-f4b4e0bd72da",
-          "domain": "finance.biggo.com",
-          "publisherFamily": "biggo.com",
-          "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://finance.biggo.com/news/8696c66e-a38d-4eec-9a4c-f4b4e0bd72da",
-          "pageTitle": "Amazon's AWS Pledges Over $1 Billion to Win Over US Communities Hosting Data Centers — BigGo Finance",
-          "canonical": "https://finance.biggo.com/news/8696c66e-a38d-4eec-9a4c-f4b4e0bd72da",
-          "bodyChars": 6763,
-          "topicOverlap": 9
-        }
-      ],
-      "recoveryAttempts": 0,
-      "sourceVerificationStatus": "verified"
     },
     {
       "link": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
@@ -2023,6 +1541,95 @@
       "sourceVerificationStatus": "verified"
     },
     {
+      "link": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+      "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+      "status": "pass",
+      "evidenceLevel": "strong",
+      "validSourceCount": 4,
+      "independentPublisherCount": 4,
+      "independentPublisherFamilies": [
+        "theverge.com",
+        "techcrunch.com",
+        "indiatimes.com",
+        "techbuzz.ai"
+      ],
+      "independentDomains": [
+        "theverge.com",
+        "techcrunch.com",
+        "timesofindia.indiatimes.com",
+        "techbuzz.ai"
+      ],
+      "sources": [
+        {
+          "suppliedUrl": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+          "domain": "theverge.com",
+          "publisherFamily": "theverge.com",
+          "resolvedFrom": "research-story-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+          "pageTitle": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk | The Verge",
+          "canonical": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+          "bodyChars": 3014,
+          "topicOverlap": 8
+        },
+        {
+          "suppliedUrl": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+          "domain": "techcrunch.com",
+          "publisherFamily": "techcrunch.com",
+          "resolvedFrom": "article-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+          "pageTitle": "Apple says it&#039;s tightening macOS &#039;Full Disk Access&#039; controls due to new risks from AI agents | TechCrunch",
+          "canonical": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+          "bodyChars": 3716,
+          "topicOverlap": 11
+        },
+        {
+          "suppliedUrl": "https://www.bundle.app/tr/bilim/apple-will-limit-mac-disk-access-as-ai-agents-substantially-increase-risk-81726d5c-cc98-594b-a4a8-91633a51ca04",
+          "domain": "bundle.app",
+          "publisherFamily": "bundle.app",
+          "resolvedFrom": "article-link",
+          "ok": false,
+          "reason": "insufficient-article-body",
+          "finalUrl": "https://www.bundle.app/tr/bilim/apple-will-limit-mac-disk-access-as-ai-agents-substantially-increase-risk-81726d5c-cc98-594b-a4a8-91633a51ca04",
+          "pageTitle": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+          "canonical": "https://www.bundle.app/tr/bilim/apple-will-limit-mac-disk-access-as-ai-agents-substantially-increase-risk-81726d5c-cc98-594b-a4a8-91633a51ca04",
+          "bodyChars": 0,
+          "topicOverlap": 8
+        },
+        {
+          "suppliedUrl": "https://timesofindia.indiatimes.com/technology/tech-news/apple-puts-new-limits-on-how-apps-including-ai-agents-gain-full-access-to-your-mac/articleshow/134653869.cms",
+          "domain": "timesofindia.indiatimes.com",
+          "publisherFamily": "indiatimes.com",
+          "resolvedFrom": "article-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://timesofindia.indiatimes.com/technology/tech-news/apple-puts-new-limits-on-how-apps-including-ai-agents-gain-full-access-to-your-mac/articleshow/134653869.cms",
+          "pageTitle": "Apple puts new limits on how apps, including AI agents, gain full access to your Mac - The Times of India",
+          "canonical": "https://timesofindia.indiatimes.com/technology/tech-news/apple-puts-new-limits-on-how-apps-including-ai-agents-gain-full-access-to-your-mac/articleshow/134653869.cms",
+          "bodyChars": 1149,
+          "topicOverlap": 9
+        },
+        {
+          "suppliedUrl": "https://www.techbuzz.ai/articles/apple-locks-down-mac-disk-access-as-ai-agents-pose-new-risks",
+          "domain": "techbuzz.ai",
+          "publisherFamily": "techbuzz.ai",
+          "resolvedFrom": "article-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://www.techbuzz.ai/articles/apple-locks-down-mac-disk-access-as-ai-agents-pose-new-risks",
+          "pageTitle": "Apple Locks Down Mac Disk Access as AI Agents Pose New Risks | The Tech Buzz",
+          "canonical": "https://www.techbuzz.ai/articles/apple-locks-down-mac-disk-access-as-ai-agents-pose-new-risks",
+          "bodyChars": 1356,
+          "topicOverlap": 9
+        }
+      ],
+      "recoveryAttempts": 0,
+      "sourceVerificationStatus": "verified"
+    },
+    {
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPelhfM0ZFZnhaTkZHOUJZd2ZUeUF4WW5ZRUNQNmpwX1NodE4yMGlYVVNuU1dhb2ZMTGppcXpIdXhiNW04UG1hZEs4ZHdXTmI3WkpBRzVZRk5IU3NvVjRRTFExS2p3R2prSThpWlNzLWpydHdEUWt4M1ZySjdIamU5ZG8xZUpIeXZNMkxmb3dKdzF2VEthMVdTdFVsYnQtSDZ3QktJX1dRZnc3ZVNWVFdVeXNqTzlJbzRRSjJaU2cwMnRvNVNFTFFlcjI0MzZpR1NHSjNCVTg0N3pjc3p6UG10NGgyWTdfZktHR2Z4Q2k2SnFjRDVxSjl4Uy12N284S3QyeHhXMEdteVJubGc?oc=5",
       "title": "Artificial Intelligence for Automated Analysis and Interpretation of Intravascular Ultrasound in Coronary Artery Disease: A Systematic Review - Cureus",
       "status": "block",
@@ -2036,76 +1643,31 @@
       "sourceVerificationStatus": "unverified"
     },
     {
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00cTVpOFJWZTNpR2d5UUFMWVRPdGgwVUZ2NFhqdmVoaEdJdDNnN3htRjdRWkIyU3BscWo3RjZFRjBJRWF6X0NPdWtPS1htVG9kQjJiOVNTRWc2eXFRZ2tmMW1KQXBPQVU?oc=5",
-      "title": "‘Super intelligence,’ featuring Speaker Mike Johnson, adds to worries over potential AI disaster - Louisiana Illuminator",
-      "status": "not-eligible",
-      "evidenceLevel": "none",
-      "sources": []
-    },
-    {
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVHlSZllQWEVWaXhOYldwTmpIY3lyRWZGSThIZC1Sd3VzeXVmOXdvTC1pTHhKWEx3WHhPelhBTW9jSmFtaUUzTWVFc1ZQTWtlbzJfc3YtcUZzSFB5T1FmWVl0Z3dtRzZlUjNBQTNRMVh4eWFteHZJTm9tam5nVm5QQ2pUTy1tSjR1ZHRtUUZ4QUc3T2o5aDNRUVExN01BQkJWY0E?oc=5",
-      "title": "Volantis raises $88 million for tech to connect AI, memory chips - Reuters",
-      "status": "not-eligible",
-      "evidenceLevel": "none",
-      "sources": []
-    },
-    {
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVFBpX2VNdERlNmtBRVFaa0w5amc5TUY5ZTI0S0hPVHVpcUVOZjllUGFYVVhMX0xhLXJaN1N6ZXNKS1hTMVZVNzB3SHYwSnFZS0tOTUYxR0lLVWFPaUhTenZ2ODZ6MHM0MlQxT2dPY2ZkLW1keWpMSjNFLXliZjYxV1l0RVFjX05ibGNJMW9ZUThlN3pkQU95eU13Vm1sUQ?oc=5",
-      "title": "Essay | Exclusive | Michael Lewis on the Lone Security Guard Who Resisted DOGE - wsj.com",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONEIxUjUyeFpHOV8yTEllOFQ3RTNiRlZtRGU3TEJ4aTBoblhEd1AtaXNKZk5sSXgxQVc0c3hpVWFZV2NBVWtGWTBneVhwTEl5Ti1GS3NoXzZtRUVQVFdBU0F1RXF0M21jYTFqbHhMV1BjZThoSHIyY3o0WTBud0kwdWdxUmdiOFNDbWg5V3VR?oc=5",
+      "title": "Has technology made everything worse? - deseret.com",
       "status": "pass",
       "evidenceLevel": "single-source",
       "validSourceCount": 1,
       "independentPublisherCount": 1,
       "independentPublisherFamilies": [
-        "magzter.com"
+        "deseret.com"
       ],
       "independentDomains": [
-        "magzter.com"
+        "deseret.com"
       ],
       "sources": [
         {
-          "suppliedUrl": "https://www.magzter.com/stories/newspaper/The-Wall-Street-Journal/THE-LONE-SECURITY-GUARD-WHO-RESISTED-DOGE",
-          "domain": "magzter.com",
-          "publisherFamily": "magzter.com",
-          "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.magzter.com/stories/newspaper/The-Wall-Street-Journal/THE-LONE-SECURITY-GUARD-WHO-RESISTED-DOGE",
-          "pageTitle": "THE LONE SECURITY GUARD WHO RESISTED DOGE | The Wall Street Journal - newspaper - Read this story on Magzter.com",
-          "canonical": "https://www.magzter.com/stories/newspaper/The-Wall-Street-Journal/THE-LONE-SECURITY-GUARD-WHO-RESISTED-DOGE",
-          "bodyChars": 745,
-          "topicOverlap": 10
-        }
-      ],
-      "recoveryAttempts": 0,
-      "sourceVerificationStatus": "unverified"
-    },
-    {
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPN3d1RWROUXFvUnV5SkhBQkU1RS1NUGJoVVVXbXc5U2p4OGJQMVVTLW9yMXNndHVOcldLN0xubHg1M0ZWVHBWZUZDVEVLTXdZb2xQNVVvenljZDNRNkhGZXlDWEw2b0xsak9sYTEtS3gybjAtaTE4dW5GOVBFYm1TcVZjTGlPVU5TMmtxWjljTXgwUlVpZTZaUi01bzZKYlVULVppOTlqR0xZbTdsNUJj?oc=5",
-      "title": "I Asked a Privacy Tool What ChatGPT Knows About Me. The Result Was Terrifyingly Accurate - pcmag.com",
-      "status": "pass",
-      "evidenceLevel": "single-source",
-      "validSourceCount": 1,
-      "independentPublisherCount": 1,
-      "independentPublisherFamilies": [
-        "pcmag.com"
-      ],
-      "independentDomains": [
-        "pcmag.com"
-      ],
-      "sources": [
-        {
-          "suppliedUrl": "https://www.pcmag.com/explainers/i-asked-privacy-tool-what-chatgpt-knows-about-me-result-terrifyingly-accurate",
-          "domain": "pcmag.com",
-          "publisherFamily": "pcmag.com",
+          "suppliedUrl": "https://www.deseret.com/opinion/2026/10/03/meg-walter-has-tech-made-everything-worse/",
+          "domain": "deseret.com",
+          "publisherFamily": "deseret.com",
           "resolvedFrom": "research-story-link",
           "ok": true,
           "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.pcmag.com/explainers/i-asked-privacy-tool-what-chatgpt-knows-about-me-result-terrifyingly-accurate",
-          "pageTitle": "I Asked a Privacy Tool What ChatGPT Knows About Me. The Result Was Terrifyingly Accurate | PCMag",
-          "canonical": "",
-          "bodyChars": 9377,
-          "topicOverlap": 9
+          "finalUrl": "https://www.deseret.com/opinion/2026/10/03/meg-walter-has-tech-made-everything-worse/",
+          "pageTitle": "Has technology made everything worse? – Deseret News",
+          "canonical": "https://www.deseret.com/opinion/2026/10/03/meg-walter-has-tech-made-everything-worse/",
+          "bodyChars": 5154,
+          "topicOverlap": 4
         }
       ],
       "recoveryAttempts": 0,
@@ -2134,30 +1696,26 @@
       "sourceVerificationStatus": "partial"
     },
     {
-      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOcWVfZ1hkR0YwMDFGTGtHVVRobGFYbjFmRjZyWlF3NWJHaW9FaVFYWDR1OUEzeXRsTjVSY20xSHFfbEtHeklZQTJNZTdqem4tZjNNNEFRUnI4R2llb0J0U2VWdzYxWm9SSEtSUS16Zk43T2tRY0pfZl9yVndNYzIzY1BaYk5vRUNNY2tRdk9tOGd1MmRna29ucThBQXEzNmRsTlZmMWF3X2pNczI3UG9iUUlGY2JPTjlTMkhKZHhoVmhVSGxlS2JVMk5wV1lwSHhHUHJsLVdhSkoxZS10RE1MOXd0TGRYd0luaEMtLUlVMEtqMnh6TktBd1V3ak42UzBwa1RpMk5JNDE?oc=5",
-      "title": "Editorial | The far right's blueprint for Israel: perpetual war, new security elite - Haaretz",
-      "status": "pass",
-      "evidenceLevel": "single-source",
-      "validSourceCount": 1,
-      "independentPublisherCount": 1,
-      "independentPublisherFamilies": [
-        "haaretz.com"
-      ],
-      "independentDomains": [
-        "haaretz.com"
-      ],
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQllBWGhFWGxBeEs1aHA4Zmo0NXBNT0x4dnlZTVQ1dkRyeDl5Z0FxZ1hSdGpqQ0s5NG9TRW5pc1VIVjhzbTB0YmFvYmEzbnZsSmtNY0FfWHVpb3lyMkNOOWY4WTdZTWl1eFZkcWxTVmJzdF8wZ3JhNm1mbTNlMHpLSkpKTlpSWFBGd1AtZVdYMEhGTnItdGFjcXFzMFNGTmRPMGpULVJsTUs?oc=5",
+      "title": "‘Vote Your Voice’ forum highlights election security in Beaufort County - WITN",
+      "status": "block",
+      "evidenceLevel": "none",
+      "validSourceCount": 0,
+      "independentPublisherCount": 0,
+      "independentPublisherFamilies": [],
+      "independentDomains": [],
       "sources": [
         {
-          "suppliedUrl": "https://www.haaretz.com/opinion/editorial/2026-10-04/ty-article-opinion/the-far-rights-blueprint-for-israel-perpetual-war-new-security-elite/000001a1-034d-d8d3-aba3-2b7f3be10000",
-          "domain": "haaretz.com",
-          "publisherFamily": "haaretz.com",
+          "suppliedUrl": "https://www.witn.com/video/2026/10/04/vote-your-voice-forum-highlights-election-security-beaufort-county/",
+          "domain": "witn.com",
+          "publisherFamily": "witn.com",
           "resolvedFrom": "research-story-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.haaretz.com/opinion/editorial/2026-10-04/ty-article-opinion/the-far-rights-blueprint-for-israel-perpetual-war-new-security-elite/000001a1-034d-d8d3-aba3-2b7f3be10000",
-          "pageTitle": "The Far Right's Blueprint for Israel: Perpetual War, New Security Elite - Haaretz Editorial",
-          "canonical": "https://www.haaretz.com/opinion/editorial/2026-10-04/ty-article-opinion/the-far-rights-blueprint-for-israel-perpetual-war-new-security-elite/000001a1-034d-d8d3-aba3-2b7f3be10000",
-          "bodyChars": 946,
+          "ok": false,
+          "reason": "insufficient-article-body",
+          "finalUrl": "https://www.witn.com/video/2026/10/04/vote-your-voice-forum-highlights-election-security-beaufort-county/",
+          "pageTitle": "‘Vote Your Voice’ forum highlights election security in Beaufort County",
+          "canonical": "https://www.witn.com/video/2026/10/04/vote-your-voice-forum-highlights-election-security-beaufort-county/",
+          "bodyChars": 0,
           "topicOverlap": 8
         }
       ],
@@ -2196,19 +1754,48 @@
       "sourceVerificationStatus": "partial"
     },
     {
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNR1JLSzVHeXdEME50QUo3YUg0WHZabldlTllVNXBlRUtXUFFobkdhTHVRNjdNOXVUM1lhODI2MDdsVWpNZTIzbU16SURKcHctTy1BNXFfSVEzd0VrUlc2bmtWRndaUml0WHh6TmhPRlRzSzlLNWpOMXdNZExSbWk4LXJ4WXBMYWFPY0ItMEk4WWRMc1lhQjFaX3NPcWhzcTF5TEMtSlpwM2UyMmY5ZW9TMUxkMGs0NlAyVHQwdFd2Ykw?oc=5",
+      "title": "Apple ‘HomePad’ reportedly set to launch on October 13 with Siri AI at its centre - The Daily Star",
+      "status": "pass",
+      "evidenceLevel": "single-source",
+      "validSourceCount": 1,
+      "independentPublisherCount": 1,
+      "independentPublisherFamilies": [
+        "thedailystar.net"
+      ],
+      "independentDomains": [
+        "thedailystar.net"
+      ],
+      "sources": [
+        {
+          "suppliedUrl": "https://www.thedailystar.net/news/technology/news/apple-homepad-reportedly-set-launch-october-13-siri-ai-its-centre-4289491",
+          "domain": "thedailystar.net",
+          "publisherFamily": "thedailystar.net",
+          "resolvedFrom": "research-story-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://www.thedailystar.net/news/technology/news/apple-homepad-reportedly-set-launch-october-13-siri-ai-its-centre-4289491",
+          "pageTitle": "Apple ‘HomePad’ reportedly set to launch on October 13 with Siri AI at its centre | The Daily Star",
+          "canonical": "https://www.thedailystar.net/news/technology/news/apple-homepad-reportedly-set-launch-october-13-siri-ai-its-centre-4289491",
+          "bodyChars": 2646,
+          "topicOverlap": 9
+        }
+      ],
+      "recoveryAttempts": 0,
+      "sourceVerificationStatus": "partial"
+    },
+    {
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOWxrTDAwWG1UOGlWSTBZSi1DVG96TTF1djJQUnFiNWpBM2RWamkzZXBibTl4amswTU53TWVTSHNEOTdDWGZmazhzMWZUcHJMREpLejZRMjc5T09fVHZmenR5R1FhSGY2aExUdHUtcEJnZ0tWT040UG4wdGFHbGJGN0lBR0pRLXZKQm8yTXh1M2hkNVozenR6UFFhbw?oc=5",
       "title": "We Asked ChatGPT, Claude and Grok If Citi’s $113,000 Bitcoin Target Arrives Before October 2027 - Yahoo Finance",
       "status": "pass",
-      "evidenceLevel": "strong",
-      "validSourceCount": 3,
-      "independentPublisherCount": 2,
+      "evidenceLevel": "single-source",
+      "validSourceCount": 2,
+      "independentPublisherCount": 1,
       "independentPublisherFamilies": [
-        "247wallst.com",
-        "aol.com"
+        "247wallst.com"
       ],
       "independentDomains": [
-        "247wallst.com",
-        "aol.com"
+        "247wallst.com"
       ],
       "sources": [
         {
@@ -2233,19 +1820,6 @@
           "topicOverlap": 12
         },
         {
-          "suppliedUrl": "https://www.aol.com/articles/asked-chatgpt-claude-grok-citi-120447000.html",
-          "domain": "aol.com",
-          "publisherFamily": "aol.com",
-          "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.aol.com/articles/asked-chatgpt-claude-grok-citi-120447000.html",
-          "pageTitle": "We Asked ChatGPT, Claude and Grok If Citi’s $113,000 Bitcoin Target Arrives Before October 2027 - AOL",
-          "canonical": "https://247wallst.com/investing/cryptocurrency/2026/10/03/we-asked-chatgpt-claude-and-grok-if-citis-113000-bitcoin-target-arrives-before-october-2027/",
-          "bodyChars": 6577,
-          "topicOverlap": 11
-        },
-        {
           "suppliedUrl": "https://247wallst.com/investing/cryptocurrency/2026/10/03/we-asked-ai-models-whether-solana-reaches-150-before-bitcoin-reaches-100000/",
           "domain": "247wallst.com",
           "publisherFamily": "247wallst.com",
@@ -2267,7 +1841,7 @@
       "title": "We Asked ChatGPT, Claude and Grok If Citi's $113,000 Bitcoin Target Arrives Before October 2027 - 24/7 Wall St.",
       "status": "pass",
       "evidenceLevel": "strong",
-      "validSourceCount": 3,
+      "validSourceCount": 2,
       "independentPublisherCount": 2,
       "independentPublisherFamilies": [
         "247wallst.com",
@@ -2311,19 +1885,6 @@
           "canonical": "https://247wallst.com/investing/cryptocurrency/2026/10/03/we-asked-ai-models-whether-solana-reaches-150-before-bitcoin-reaches-100000/",
           "bodyChars": 6390,
           "topicOverlap": 7
-        },
-        {
-          "suppliedUrl": "https://www.aol.com/articles/asked-grok-where-dogecoin-ends-011055000.html",
-          "domain": "aol.com",
-          "publisherFamily": "aol.com",
-          "resolvedFrom": "article-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.aol.com/articles/asked-grok-where-dogecoin-ends-011055000.html",
-          "pageTitle": "We Asked Grok Where Dogecoin Ends October After Whales Spent $110 Million - AOL",
-          "canonical": "https://247wallst.com/investing/cryptocurrency/2026/10/02/we-asked-grok-where-dogecoin-ends-october-after-whales-spent-110-million/",
-          "bodyChars": 7022,
-          "topicOverlap": 9
         }
       ],
       "recoveryAttempts": 0,
@@ -2352,19 +1913,118 @@
       "sourceVerificationStatus": "verified"
     },
     {
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQ04yLVlmSXJITnRJSzBjNlRlZExWTnJNN0piSlNCaGQ4b053VjBCa2xTd0lVYVYwT29PRVNIckplVTFWWjVYMXNJdmpJWEozRmkzVlNKTk1vbVVmX1Zvd29KNzNOaFZfQU5zOUxuYmdGZkhBN0JmQmJ4ZndLdHZTQTIzMkFpdWsy?oc=5",
-      "title": "Scoop: Trump's top national security aides meet secretly at Camp David on Iran, Yemen - Axios",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOOG1yXzRjVjFkM0p1ck41ZnBQN1ozcklYTXJ1QWJna0tOOC1HaVpnWWZVNU5ZTWRlVVNfRUNSN0ZOWk95ZlRQenQ0b1BBelVJSlNWeEowUno2c2txVEFjS3didmFBdkhPZFVrMVNTRjdDTVQtNTJJUVU3SlJuTFZIWlNiSFpXQzdkQVVOelBMWXJwd25jOEN6bXhTY2JlYXYzd01GVk9sVUg3cUxsWnBuYUE5Z1AyeU1UWU1KYlg2WTJyclRCdW9YSnBsSWRBQmlicExjekVyYWloUEpl?oc=5",
+      "title": "Bitcoin Is Up 33% in 90 Days but Still Down 30% From Last Year: Who's Still Facing Losses? - 24/7 Wall St.",
+      "status": "pass",
+      "evidenceLevel": "strong",
+      "validSourceCount": 2,
+      "independentPublisherCount": 2,
+      "independentPublisherFamilies": [
+        "247wallst.com",
+        "aol.com"
+      ],
+      "independentDomains": [
+        "247wallst.com",
+        "aol.com"
+      ],
+      "sources": [
+        {
+          "suppliedUrl": "https://247wallst.com/investing/cryptocurrency/2026/10/03/bitcoin-is-up-33-in-90-days-but-still-down-30-from-last-year-whos-still-facing-losses/",
+          "domain": "247wallst.com",
+          "publisherFamily": "247wallst.com",
+          "resolvedFrom": "research-story-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://247wallst.com/investing/cryptocurrency/2026/10/03/bitcoin-is-up-33-in-90-days-but-still-down-30-from-last-year-whos-still-facing-losses/",
+          "pageTitle": "Bitcoin Is Up 33% in 90 Days but Still Down 30% From Last Year: Who&#039;s Still Facing Losses? - 24/7 Wall St.",
+          "canonical": "https://247wallst.com/investing/cryptocurrency/2026/10/03/bitcoin-is-up-33-in-90-days-but-still-down-30-from-last-year-whos-still-facing-losses/",
+          "bodyChars": 6908,
+          "topicOverlap": 9
+        },
+        {
+          "suppliedUrl": "https://www.aol.com/articles/bitcoin-33-90-days-still-203353000.html",
+          "domain": "aol.com",
+          "publisherFamily": "aol.com",
+          "resolvedFrom": "article-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://www.aol.com/articles/bitcoin-33-90-days-still-203353000.html",
+          "pageTitle": "Bitcoin Is Up 33% in 90 Days but Still Down 30% From Last Year: Who’s Still Facing Losses? - AOL",
+          "canonical": "https://247wallst.com/investing/cryptocurrency/2026/10/03/bitcoin-is-up-33-in-90-days-but-still-down-30-from-last-year-whos-still-facing-losses/",
+          "bodyChars": 5215,
+          "topicOverlap": 8
+        }
+      ],
+      "recoveryAttempts": 0,
+      "sourceVerificationStatus": "verified"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcjZGN1N4UVJHZjYwVWRIMF9XWUlCWlI1TmEyVVFfSGl4eWtPWldhTE9Vc1otcEhzYjhtR19XbnhTcnJiNmkwQXZ2VFZfS2FzWjJmUm94aEdzVHp1MlUtd1Q2anRnUk13NXh2VDY1TUN1MV83akpxa2dZS1RDMkZEcnJTTEtFMWdnU3c?oc=5",
+      "title": "Why U.S. airlines balked at adopting Boeing’s latest 737 Max software versions - The Air Current",
       "status": "pass",
       "evidenceLevel": "single-source",
       "validSourceCount": 1,
       "independentPublisherCount": 1,
       "independentPublisherFamilies": [
+        "theaircurrent.com"
+      ],
+      "independentDomains": [
+        "theaircurrent.com"
+      ],
+      "sources": [
+        {
+          "suppliedUrl": "https://theaircurrent.com/aviation-safety/us-airlines-boeing-737-max-software-u14/",
+          "domain": "theaircurrent.com",
+          "publisherFamily": "theaircurrent.com",
+          "resolvedFrom": "research-story-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://theaircurrent.com/aviation-safety/us-airlines-boeing-737-max-software-u14/",
+          "pageTitle": "Why U.S. airlines balked at adopting Boeing’s latest 737 Max software versions - The Air Current",
+          "canonical": "https://theaircurrent.com/aviation-safety/us-airlines-boeing-737-max-software-u14/",
+          "bodyChars": 17465,
+          "topicOverlap": 7
+        }
+      ],
+      "recoveryAttempts": 0,
+      "sourceVerificationStatus": "partial"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVHlSZllQWEVWaXhOYldwTmpIY3lyRWZGSThIZC1Sd3VzeXVmOXdvTC1pTHhKWEx3WHhPelhBTW9jSmFtaUUzTWVFc1ZQTWtlbzJfc3YtcUZzSFB5T1FmWVl0Z3dtRzZlUjNBQTNRMVh4eWFteHZJTm9tam5nVm5QQ2pUTy1tSjR1ZHRtUUZ4QUc3T2o5aDNRUVExN01BQkJWY0E?oc=5",
+      "title": "Volantis raises $88 million for tech to connect AI, memory chips - Reuters",
+      "status": "not-eligible",
+      "evidenceLevel": "none",
+      "sources": []
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQ04yLVlmSXJITnRJSzBjNlRlZExWTnJNN0piSlNCaGQ4b053VjBCa2xTd0lVYVYwT29PRVNIckplVTFWWjVYMXNJdmpJWEozRmkzVlNKTk1vbVVmX1Zvd29KNzNOaFZfQU5zOUxuYmdGZkhBN0JmQmJ4ZndLdHZTQTIzMkFpdWsy?oc=5",
+      "title": "Scoop: Trump's top national security aides meet secretly at Camp David on Iran, Yemen - Axios",
+      "status": "pass",
+      "evidenceLevel": "strong",
+      "validSourceCount": 2,
+      "independentPublisherCount": 2,
+      "independentPublisherFamilies": [
+        "politicalwire.com",
         "hoosierenquirer.com"
       ],
       "independentDomains": [
+        "politicalwire.com",
         "hoosierenquirer.com"
       ],
       "sources": [
+        {
+          "suppliedUrl": "https://politicalwire.com/2026/10/03/trumps-top-national-security-aides-meet-secretly/",
+          "domain": "politicalwire.com",
+          "publisherFamily": "politicalwire.com",
+          "resolvedFrom": "article-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://politicalwire.com/2026/10/03/trumps-top-national-security-aides-meet-secretly/",
+          "pageTitle": "Trump&#8217;s Top National Security Aides Meet Secretly",
+          "canonical": "https://politicalwire.com/2026/10/03/trumps-top-national-security-aides-meet-secretly/",
+          "bodyChars": 2002,
+          "topicOverlap": 11
+        },
         {
           "suppliedUrl": "https://www.hoosierenquirer.com/post/vance-chairs-secret-camp-david-iran-yemen-huddle-trump-teases-a-major-story-out-front",
           "domain": "hoosierenquirer.com",
@@ -2380,7 +2040,7 @@
         }
       ],
       "recoveryAttempts": 0,
-      "sourceVerificationStatus": "unverified"
+      "sourceVerificationStatus": "partial"
     },
     {
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1rVG5TTXdNYjFEOURLeWluRmNkSHZBYnM5Z2xKY19QTUttZmdzRUVzVnpQTVREVTZPTFRkSTBMYXlXak1udlhIeng4Z25hZmo3?oc=5",
@@ -2458,35 +2118,72 @@
       "sourceVerificationStatus": "partial"
     },
     {
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbUhCYUVWZnJlNENNbV9LTTE3bklDdHdjYmVHaTBSQXZGOUFTVEF3VjFNbzBYdFY0TG9lUGFvaUhlTm04WGY3YjBvTXhyS0JYVjRsT2FVb3JRdGZVU3RKUE9XUHNkNE9sVnRnRFVabVZwa1BQUnFnbFR5dWs5RmpEQXgxcUFvcGN0ZGMwai12WE8tODZLNEV4TXM2Sno5MWxKZjA5UUdBZUU0Z9IBrwFBVV95cUxOS2UxeDIzT1pPaEdsR1hhNnktZXgwRng0Z0dLbENrdEszOWNhaXdyU2stLU1WeTd5SmMtMjNOM1RCaXZoX0diczVlYUd3SGczek5JX0k4a1ZWQUE0WHRCOS1Ndmw4UE94MWExcFk3UURZT0ZmRTFaTkVEbXA2RUR5XzRGd0xmSXhLa1lYNkNWbnk4MjhIaXVmeVFUTlE1cmFSb3lOTXRqdk4tZHhBUmxB?oc=5",
-      "title": "Redefining enterprise intelligence with autonomous AI - MIT Technology Review",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQU9ZZzZTY1VtWTUtem9mZmRESGI5QVhENXdWTENUUnhVYi1lNFhsWVhHQWZDUFpGR0trX3VrdzBIeFJ4MGdZT2ZhT0o5d0IzZklvb254NklSNENJNlVDTEVaZHB3TzBvazg3NFNmUkxYY3hnaHRyZEZxN1RiSHN4dUJxdXZvdnBjUWV0SXA5YWc4NnJjWFRheHNKbnJnUUw1YlhCWGhmVzNHZWNIakJ0ZUM4d0RJWklP?oc=5",
+      "title": "Middle East Geopolitics: Understanding the Region’s Lines of Conflict - Australian Institute of International Affairs",
       "status": "pass",
-      "evidenceLevel": "single-source",
-      "validSourceCount": 1,
-      "independentPublisherCount": 1,
+      "evidenceLevel": "strong",
+      "validSourceCount": 3,
+      "independentPublisherCount": 3,
       "independentPublisherFamilies": [
-        "technologyreview.com"
+        "org.au",
+        "newlinesinstitute.org",
+        "orfme.org"
       ],
       "independentDomains": [
-        "technologyreview.com"
+        "internationalaffairs.org.au",
+        "newlinesinstitute.org",
+        "orfme.org"
       ],
       "sources": [
         {
-          "suppliedUrl": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
-          "domain": "technologyreview.com",
-          "publisherFamily": "technologyreview.com",
+          "suppliedUrl": "https://www.internationalaffairs.org.au/nsw-news/middle-east-geopolitics-understanding-the-regions-lines-of-conflict/",
+          "domain": "internationalaffairs.org.au",
+          "publisherFamily": "org.au",
           "resolvedFrom": "research-story-link",
           "ok": true,
           "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
-          "pageTitle": "Redefining enterprise intelligence with autonomous AI | MIT Technology Review",
-          "canonical": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
-          "bodyChars": 3776,
-          "topicOverlap": 4
+          "finalUrl": "https://www.internationalaffairs.org.au/nsw-news/middle-east-geopolitics-understanding-the-regions-lines-of-conflict/",
+          "pageTitle": "Middle East Geopolitics: Understanding the Region’s Lines of Conflict - Australian Institute of International Affairs",
+          "canonical": "https://www.internationalaffairs.org.au/nsw-news/middle-east-geopolitics-understanding-the-regions-lines-of-conflict/",
+          "bodyChars": 3567,
+          "topicOverlap": 11
+        },
+        {
+          "suppliedUrl": "https://newlinesinstitute.org/intl-law-peace/an-analysis-of-various-international-responses-to-the-conflict-in-myanmar-compared-with-that-in-ukraine/",
+          "domain": "newlinesinstitute.org",
+          "publisherFamily": "newlinesinstitute.org",
+          "resolvedFrom": "article-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://newlinesinstitute.org/intl-law-peace/an-analysis-of-various-international-responses-to-the-conflict-in-myanmar-compared-with-that-in-ukraine/",
+          "pageTitle": "An Analysis Of Various International Responses To The Conflict In Myanmar Compared With That In Ukraine - New Lines Institute",
+          "canonical": "https://newlinesinstitute.org/intl-law-peace/an-analysis-of-various-international-responses-to-the-conflict-in-myanmar-compared-with-that-in-ukraine/",
+          "bodyChars": 59180,
+          "topicOverlap": 10
+        },
+        {
+          "suppliedUrl": "https://orfme.org/research/rethinking-resilient-food-systems-mitigating-food-supply-chain-shocks-in-the-mena-region/",
+          "domain": "orfme.org",
+          "publisherFamily": "orfme.org",
+          "resolvedFrom": "article-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://orfme.org/research/rethinking-resilient-food-systems-mitigating-food-supply-chain-shocks-in-the-mena-region/",
+          "pageTitle": "Rethinking Resilient Food Systems: Mitigating Food Supply Chain Shocks in the MENA Region - ORF Middle East",
+          "canonical": "https://orfme.org/research/rethinking-resilient-food-systems-mitigating-food-supply-chain-shocks-in-the-mena-region/",
+          "bodyChars": 57022,
+          "topicOverlap": 12
         }
       ],
       "recoveryAttempts": 0,
       "sourceVerificationStatus": "verified"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNMUc0NWhSWE1JMWVBRk5SNk5UWDNrNzRpSVZVaXRlb0hYUFNncnFkdm92OGhOX3JGY3RXUGtJdGQxT0Y4d2N3NUV3U0h2WjdfZGV0RGdZYUxEeXVtSnF5RGlMay1EQmtrM2ZENEJSaUhmTVp0T3NFbndtZVBnallGeTRKZEliVjV3WTItdWRKc3VsR0Mxa3JOR2tWSW1LdlF6dm8yWkxVdnpvZWg0WlN4YS1yWUJJeWlZZnhHM1lIY2hLcW1hY21OUlRBSWl0aWthY1JfNkRpazRTZDBjUEhLaU9GU0FyLWM?oc=5",
+      "title": "Artificial intelligence (AI)-triggered rapid response notifications were associated with lower mortality among inpatients - 2 Minute Medicine",
+      "status": "not-eligible",
+      "evidenceLevel": "none",
+      "sources": []
     },
     {
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNkoyeDlRazRDampZY040aDdHbFE4djFJOUoyYjVVdG1WeHRwM3V0bXNGU2ZkZkVRNmlCMTFWajlLamhBRUVwNmxicHJZU05HVHhCZEJmbEgwZ1BUVkp6b0FIM0JxQkNmem5oQzk3andvNHpjX3RVdFVhYzNjYUpycGZ5MG9pTWhsNnpsV2h6TUtraGM?oc=5",
@@ -2498,6 +2195,13 @@
     {
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNmhKaHhNWDVPbmJCcjVMQndWQVlmYjNzUTFDSk5xUklRS2dTM0RZN25RUG5wWFo4S3dsU3Bta3dsdEhraThUVnhCXzZrT3R3OVU0QmVhRWxzMTRSSk5wV2I4bzV4eXQ0VkNXX29nR2hxS0JtZHhBZElUMkdvSW40MlFCbEtGRmxHb095QXhNdS0wNGwwMU5RT0tQazl3SHNHQmt2MA?oc=5",
       "title": "More evidence emerges of an imminent Apple device launch - Macworld",
+      "status": "not-eligible",
+      "evidenceLevel": "none",
+      "sources": []
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVjZ6NDhNdXNWVVZJeVVpTndvcDBuSmdCZFFwRHdjdlo4VUM0U0dEemFQMGxjaURETmVZN1hJcldVZzZTNkNab0F4V1NEVmlhTVU0QlY4NlM5LW5xTlFpNGhlYVRaUVA1WXZTczhVOGF2ZnB6NE1lZG9UTXBYQVJQUkVVTGZqV2dCbXBFYnFTalphQ2N4MVUteloxUHhOZ3NiQnJMRHJWZ0pSbVpOZU91aFBicVJOVDYyYjJj?oc=5",
+      "title": "Elliptic Labs' Device Launch Update for September 2026 - TradingView",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
@@ -2517,6 +2221,68 @@
       "sources": []
     },
     {
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONVpLbHgxQnBJYzNHVHJTWDIxTmNzV1ZkZUtKSTBCNm5LWERxTFJCMzY4WFUtUno0Q05HdGNLWGt6MlZRdXFVSmM2cklKQnlEV0NGdEpUWWNjMWxlb1hMYkN3LVNPMTB0Z0VTUzJQN0pOcldJT0Y5VkxHVU9GdHhwUE02cGJidEpqRGJEY3ZDaWROaTFOeVROMWdUeHJFT0R0R3Z5UDlFTzAyY2U0V0ZBNm9ydUZpRlF1S1M5VTZxM2h3TDM3MURIeWxR?oc=5",
+      "title": "WORLD WIDE TECHNOLOGY RACEWAY HOSTS SATURDAY SELLOUT AT 15TH ANNUAL NAPA AUTO PARTS NHRA MIDWEST NATIONALS - wwtraceway.com",
+      "status": "pass",
+      "evidenceLevel": "single-source",
+      "validSourceCount": 1,
+      "independentPublisherCount": 1,
+      "independentPublisherFamilies": [
+        "wwtraceway.com"
+      ],
+      "independentDomains": [
+        "wwtraceway.com"
+      ],
+      "sources": [
+        {
+          "suppliedUrl": "https://wwtraceway.com/world-wide-technology-raceway-hosts-saturday-sellout-at-15th-annual-napa-auto-parts-nhra-midwest-nationals/",
+          "domain": "wwtraceway.com",
+          "publisherFamily": "wwtraceway.com",
+          "resolvedFrom": "research-story-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://wwtraceway.com/world-wide-technology-raceway-hosts-saturday-sellout-at-15th-annual-napa-auto-parts-nhra-midwest-nationals/",
+          "pageTitle": "WORLD WIDE TECHNOLOGY RACEWAY HOSTS SATURDAY SELLOUT AT 15TH ANNUAL NAPA AUTO PARTS NHRA MIDWEST NATIONALS - World Wide Technology Raceway",
+          "canonical": "https://wwtraceway.com/world-wide-technology-raceway-hosts-saturday-sellout-at-15th-annual-napa-auto-parts-nhra-midwest-nationals/",
+          "bodyChars": 3920,
+          "topicOverlap": 14
+        }
+      ],
+      "recoveryAttempts": 0,
+      "sourceVerificationStatus": "partial"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWEZ2N2E1X1FBbEY3MXFxakVMYXhOOVBqMmd0R2UxRVpwcFhrc1pNZXJLUXdiLWtpbVpUZHhQYXNzeUdxTG0xNkVaNVdieEdURDV0ak0wY25iRWNucDdyOXNKVHBKTDJNZFNBeWRmSGc2by10Y2s2dGFoVDFLWHM4N0NPOTl0Q2lhLV9FRUxDSzdIckZtWlBNSzBmb3FnaURfdnc?oc=5",
+      "title": "Arkansas Launches Rapid DNA Technology at Booking Station - jonesbororightnow.com",
+      "status": "pass",
+      "evidenceLevel": "single-source",
+      "validSourceCount": 1,
+      "independentPublisherCount": 1,
+      "independentPublisherFamilies": [
+        "jonesbororightnow.com"
+      ],
+      "independentDomains": [
+        "jonesbororightnow.com"
+      ],
+      "sources": [
+        {
+          "suppliedUrl": "https://jonesbororightnow.com/news/268862-arkansas-launches-rapid-dna-technology-at-booking-station/",
+          "domain": "jonesbororightnow.com",
+          "publisherFamily": "jonesbororightnow.com",
+          "resolvedFrom": "research-story-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://jonesbororightnow.com/news/268862-arkansas-launches-rapid-dna-technology-at-booking-station/",
+          "pageTitle": "Arkansas Launches Rapid DNA Technology at Booking Station - Jonesboro Right Now",
+          "canonical": "https://jonesbororightnow.com/news/268862-arkansas-launches-rapid-dna-technology-at-booking-station/",
+          "bodyChars": 5132,
+          "topicOverlap": 5
+        }
+      ],
+      "recoveryAttempts": 0,
+      "sourceVerificationStatus": "partial"
+    },
+    {
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZFJzdmtuSXZXS3FIaFlyZUI1T25PNmFFVmFKRDdOQVUxMFpvdlhFNThWUTAwNjZGYlVzTXZyVGJqQm1SMm5ELVdqeFZkMkl5cklHVHg0blh6bkg4c1R4OW1YZHNlWnlXVWFGcEJVYWw2TVVQR3MwdFBTbGNFejFQMmduZWpkbWFkRUFoNnJPTDl3VU1ic19GQtIBngFBVV95cUxNOG1lcVZIaXhOa1lTb3FzTTNBbjRmV2RKcTh3V2lIZ1pFWjdVQlVmR3RQUG96eURVYXhwR0VWOGdhaUN0dEh4NU1FdmI0akd4OURGRnBnMTVwLU9Ba19UQmVtWVY0RU93Y0xNRVpuaHI4b3pmSloxZDZnQ0liSlJmaXRSUWZoV1BUem1JOFRYNkRZUk0tYVJ0OVh5WUl4QQ?oc=5",
       "title": "US suspends consular services in Brazil due to security concerns - The Hill",
       "status": "block",
@@ -2528,37 +2294,6 @@
       "sources": [],
       "recoveryAttempts": 0,
       "sourceVerificationStatus": "unverified"
-    },
-    {
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNX09pTGNTQ1BXdkthcjNETnAxWHgxc0NMX1VZeXJocGwwN1AwOXRtUUNya1I2NDNTem9TZjlyeFBkZGttZFNxdXdlb1BjeTZLMk5NVld3YktwZGlUWGFGeTBGaHppUG9PMjBHTWtOelR1aW5qNnRXR3lFeFFjSHBUVg?oc=5",
-      "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware - The Hacker News",
-      "status": "pass",
-      "evidenceLevel": "single-source",
-      "validSourceCount": 1,
-      "independentPublisherCount": 1,
-      "independentPublisherFamilies": [
-        "thehackernews.com"
-      ],
-      "independentDomains": [
-        "thehackernews.com"
-      ],
-      "sources": [
-        {
-          "suppliedUrl": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
-          "domain": "thehackernews.com",
-          "publisherFamily": "thehackernews.com",
-          "resolvedFrom": "research-story-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
-          "pageTitle": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
-          "canonical": "",
-          "bodyChars": 3708,
-          "topicOverlap": 9
-        }
-      ],
-      "recoveryAttempts": 0,
-      "sourceVerificationStatus": "partial"
     },
     {
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PY291dmVSWm9lSFVqSVBtckFXU2FQVGVadFpURFlHTjlXY3A0ckhfaHBsbm9Jcy1hRVRhVmFibklCX3Z5c0luLXFOUFZfZUwzNzJ3MW1mZnVRMGx2dVl3XzdHbUZwcGpudGR3cUZXQ3Y?oc=5",
@@ -2592,24 +2327,35 @@
       "sourceVerificationStatus": "verified"
     },
     {
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbTBobkFqSzFudkxoZUc3WTVreXQ0Q1VCUmFRdjBoWUFkTURXLWNRU0p4d2ctX3RsVzlMWHdjWndodXNhdDhvWHpXcnd2VmhjU1duakRUN3FOMHV0UzNSazdrMk5hb01ROENxNG9fdHJxQ0FhRzFoclFGWkpfNGZ3YktIUkhVNmRWU29xejFrV1VOa1FhaDFwQWxtUjJkdmlRUmFNbF9JQ19HM0J5dzBsMERVaGJnTllHNFhVSGdiN1JjSXN6MUVFczNhSDZuOG_SAeMBQVVfeXFMUGVXbTF1ZTkxc2hSWXNockpkWnZ3MlZCRGNLWURNV0tabTJwakx6cXVWYkZwVzJOcHdFakVvQ1R3bEFnMkZ1ZEpvbXpZX1hTT3FQdmMyb1V2Z0FlNjhLUHBZWnBZVzE5SmJWVGZkWkFnSGlfQXJ3MW1uenhYX056c2lPc0dONjlhcElFcXJ4UVZWZTUzeDFwTHEwNjlWOEw5ZjZzVHNIX050Zzl2dG1qQ3E5bjl1djlLM3lHX1NILVNFWkxEODViTUtfXzBpNzRsRWROQ0ZpUl9Ra0lYT1Y5b1E1aUk?oc=5",
-      "title": "Travelers are noticing something missing at airport security. The reason is sparking debate - Cleveland.com",
-      "status": "block",
-      "evidenceLevel": "none",
-      "validSourceCount": 0,
-      "independentPublisherCount": 0,
-      "independentPublisherFamilies": [],
-      "independentDomains": [],
-      "sources": [],
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNX09pTGNTQ1BXdkthcjNETnAxWHgxc0NMX1VZeXJocGwwN1AwOXRtUUNya1I2NDNTem9TZjlyeFBkZGttZFNxdXdlb1BjeTZLMk5NVld3YktwZGlUWGFGeTBGaHppUG9PMjBHTWtOelR1aW5qNnRXR3lFeFFjSHBUVg?oc=5",
+      "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware - The Hacker News",
+      "status": "pass",
+      "evidenceLevel": "single-source",
+      "validSourceCount": 1,
+      "independentPublisherCount": 1,
+      "independentPublisherFamilies": [
+        "thehackernews.com"
+      ],
+      "independentDomains": [
+        "thehackernews.com"
+      ],
+      "sources": [
+        {
+          "suppliedUrl": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+          "domain": "thehackernews.com",
+          "publisherFamily": "thehackernews.com",
+          "resolvedFrom": "research-story-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+          "pageTitle": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+          "canonical": "",
+          "bodyChars": 3708,
+          "topicOverlap": 9
+        }
+      ],
       "recoveryAttempts": 0,
-      "sourceVerificationStatus": "unverified"
-    },
-    {
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVjZ6NDhNdXNWVVZJeVVpTndvcDBuSmdCZFFwRHdjdlo4VUM0U0dEemFQMGxjaURETmVZN1hJcldVZzZTNkNab0F4V1NEVmlhTVU0QlY4NlM5LW5xTlFpNGhlYVRaUVA1WXZTczhVOGF2ZnB6NE1lZG9UTXBYQVJQUkVVTGZqV2dCbXBFYnFTalphQ2N4MVUteloxUHhOZ3NiQnJMRHJWZ0pSbVpOZU91aFBicVJOVDYyYjJj?oc=5",
-      "title": "Elliptic Labs' Device Launch Update for September 2026 - TradingView",
-      "status": "not-eligible",
-      "evidenceLevel": "none",
-      "sources": []
+      "sourceVerificationStatus": "partial"
     },
     {
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE56Y1JNTlJncFg3UGgwWWExaWp4TWV2ODFvUWtMeWRXelQ0NjZ1Q1g1S1l4MGZMWGVCOWlvUkt2QVVYSHdzM2dhN0p0V2NyUEtvT2M4UnZ0eTlBS2JNanpPSkNxZzdYekNvYnBhMTBjb1RjQnBhWGc4WC1ldw?oc=5",
@@ -2643,30 +2389,61 @@
       "sourceVerificationStatus": "partial"
     },
     {
-      "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-      "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbUhCYUVWZnJlNENNbV9LTTE3bklDdHdjYmVHaTBSQXZGOUFTVEF3VjFNbzBYdFY0TG9lUGFvaUhlTm04WGY3YjBvTXhyS0JYVjRsT2FVb3JRdGZVU3RKUE9XUHNkNE9sVnRnRFVabVZwa1BQUnFnbFR5dWs5RmpEQXgxcUFvcGN0ZGMwai12WE8tODZLNEV4TXM2Sno5MWxKZjA5UUdBZUU0Z9IBrwFBVV95cUxOS2UxeDIzT1pPaEdsR1hhNnktZXgwRng0Z0dLbENrdEszOWNhaXdyU2stLU1WeTd5SmMtMjNOM1RCaXZoX0diczVlYUd3SGczek5JX0k4a1ZWQUE0WHRCOS1Ndmw4UE94MWExcFk3UURZT0ZmRTFaTkVEbXA2RUR5XzRGd0xmSXhLa1lYNkNWbnk4MjhIaXVmeVFUTlE1cmFSb3lOTXRqdk4tZHhBUmxB?oc=5",
+      "title": "Redefining enterprise intelligence with autonomous AI - technologyreview.com",
       "status": "pass",
       "evidenceLevel": "single-source",
       "validSourceCount": 1,
       "independentPublisherCount": 1,
       "independentPublisherFamilies": [
-        "arstechnica.com"
+        "technologyreview.com"
       ],
       "independentDomains": [
-        "arstechnica.com"
+        "technologyreview.com"
       ],
       "sources": [
         {
-          "suppliedUrl": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-          "domain": "arstechnica.com",
-          "publisherFamily": "arstechnica.com",
+          "suppliedUrl": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
+          "domain": "technologyreview.com",
+          "publisherFamily": "technologyreview.com",
           "resolvedFrom": "research-story-link",
           "ok": true,
           "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-          "pageTitle": "Apple changes full-disk access permissions to curb abuse from AI agents - Ars Technica",
-          "canonical": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-          "bodyChars": 4641,
+          "finalUrl": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
+          "pageTitle": "Redefining enterprise intelligence with autonomous AI | MIT Technology Review",
+          "canonical": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
+          "bodyChars": 3776,
+          "topicOverlap": 3
+        }
+      ],
+      "recoveryAttempts": 0,
+      "sourceVerificationStatus": "verified"
+    },
+    {
+      "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+      "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+      "status": "pass",
+      "evidenceLevel": "single-source",
+      "validSourceCount": 1,
+      "independentPublisherCount": 1,
+      "independentPublisherFamilies": [
+        "techcrunch.com"
+      ],
+      "independentDomains": [
+        "techcrunch.com"
+      ],
+      "sources": [
+        {
+          "suppliedUrl": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+          "domain": "techcrunch.com",
+          "publisherFamily": "techcrunch.com",
+          "resolvedFrom": "research-story-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+          "pageTitle": "Amazon responds to data center backlash, says it no longer uses NDAs | TechCrunch",
+          "canonical": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+          "bodyChars": 5688,
           "topicOverlap": 9
         }
       ],
@@ -2681,39 +2458,8 @@
       "sources": []
     },
     {
-      "link": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
-      "title": "Federal judge calls Flock ‘indiscriminate mass surveillance’",
-      "status": "pass",
-      "evidenceLevel": "single-source",
-      "validSourceCount": 1,
-      "independentPublisherCount": 1,
-      "independentPublisherFamilies": [
-        "techcrunch.com"
-      ],
-      "independentDomains": [
-        "techcrunch.com"
-      ],
-      "sources": [
-        {
-          "suppliedUrl": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
-          "domain": "techcrunch.com",
-          "publisherFamily": "techcrunch.com",
-          "resolvedFrom": "research-story-link",
-          "ok": true,
-          "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
-          "pageTitle": "Federal judge calls Flock ‘indiscriminate mass surveillance’ | TechCrunch",
-          "canonical": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
-          "bodyChars": 4037,
-          "topicOverlap": 7
-        }
-      ],
-      "recoveryAttempts": 0,
-      "sourceVerificationStatus": "verified"
-    },
-    {
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYWhXOFk2RHJpTndfQkNIX0NyM3M0U2pkMXZFcDdTR0Q4UEE3WVNjS3ZHeXpwamNVZFVHNXBXcHRqQkFkX1VUd3RpSWNEVHh0em1JTWFqTkJFZ3ZBRlgyVkpQX0NjOWdreXZwOG5GTEN1SVdVUmkyLTc4N1lwYnc5bHZOdGZYUlpqUVk5b2V4RzNMYTgxNE8yZWNyZURPZm_SAbMBQVVfeXFMTkZiWmJMdk44UVo2aE5YcFFCbFNOTk43ZGhuWFludFBVWnJCaWdzWUwyb2VwMDBfenZfRHY0UWRieGNUajR4RW5wQ1RLNkJIWmpJaEU4djhfd0JuakdFMkZxanpWMFFTaUNMeTV1QWZKQldIeG8zRndmb3ZQUEhPQlJFcFVBdjFLdWFqOHIxVzNvQzdlNXBsU3VsaHlmeUFMcmtfb1JUWW12aWl3R1pBcGlUVFU?oc=5",
-      "title": "Sen. Rounds, Anthropic leaders talk AI’s future at South Dakota Mines - KOTA Territory News",
+      "title": "Sen. Rounds, Anthropic leaders talk AI’s future at South Dakota Mines - kotatv.com",
       "status": "pass",
       "evidenceLevel": "single-source",
       "validSourceCount": 1,
@@ -2774,31 +2520,57 @@
       "sourceVerificationStatus": "partial"
     },
     {
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTy1qUkRPcC1CZ2lvTGFnR2ZJNkQ0bjllTllEZ0xRZFNoSDNKeUkwX0ZxX3RaQWZNbXhMT2toOXZwV1JCOTRUVnBIOG9mOHphYlhjQ1ZLdFRhZFg1bEVqaFlBdTIzM3V3X2M0NTBTa19veXNxbTdEalFtNWdnMVVLajR3MS1UajlYOENv?oc=5",
-      "title": "AI Now Writing Code That Humans Can’t Even Understand - Futurism",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5HYWJJbXA0clBmX1I0Z04tTUN0VWlmaEtvSURkRk1kWlV5THRJX0hTRDhGT1hGcGE3d1kxOElSRXo2RkVJRFpzNkVDOFoyMUNnMHlYSzM0WjI2alktcF9INUZsV0x4X2Z3djdqbmNUbjBtdFlISEE?oc=5",
+      "title": "We Tried 6 Popular Milk Chocolate Chips—Only 3 Had the Chocolate Flavor We Wanted - Serious Eats",
+      "status": "block",
+      "evidenceLevel": "none",
+      "validSourceCount": 0,
+      "independentPublisherCount": 0,
+      "independentPublisherFamilies": [],
+      "independentDomains": [],
+      "sources": [],
+      "recoveryAttempts": 0,
+      "sourceVerificationStatus": "unverified"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVFBpX2VNdERlNmtBRVFaa0w5amc5TUY5ZTI0S0hPVHVpcUVOZjllUGFYVVhMX0xhLXJaN1N6ZXNKS1hTMVZVNzB3SHYwSnFZS0tOTUYxR0lLVWFPaUhTenZ2ODZ6MHM0MlQxT2dPY2ZkLW1keWpMSjNFLXliZjYxV1l0RVFjX05ibGNJMW9ZUThlN3pkQU95eU13Vm1sUQ?oc=5",
+      "title": "Essay | Exclusive | Michael Lewis on the Lone Security Guard Who Resisted DOGE - WSJ",
+      "status": "block",
+      "evidenceLevel": "none",
+      "validSourceCount": 0,
+      "independentPublisherCount": 0,
+      "independentPublisherFamilies": [],
+      "independentDomains": [],
+      "sources": [],
+      "recoveryAttempts": 0,
+      "sourceVerificationStatus": "unverified"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPN3d1RWROUXFvUnV5SkhBQkU1RS1NUGJoVVVXbXc5U2p4OGJQMVVTLW9yMXNndHVOcldLN0xubHg1M0ZWVHBWZUZDVEVLTXdZb2xQNVVvenljZDNRNkhGZXlDWEw2b0xsak9sYTEtS3gybjAtaTE4dW5GOVBFYm1TcVZjTGlPVU5TMmtxWjljTXgwUlVpZTZaUi01bzZKYlVULVppOTlqR0xZbTdsNUJj?oc=5",
+      "title": "I Asked a Privacy Tool What ChatGPT Knows About Me. The Result Was Terrifyingly Accurate - PCMag",
       "status": "pass",
       "evidenceLevel": "single-source",
       "validSourceCount": 1,
       "independentPublisherCount": 1,
       "independentPublisherFamilies": [
-        "futurism.com"
+        "pcmag.com"
       ],
       "independentDomains": [
-        "futurism.com"
+        "pcmag.com"
       ],
       "sources": [
         {
-          "suppliedUrl": "https://futurism.com/artificial-intelligence/ai-writing-code-humans-cant-understand",
-          "domain": "futurism.com",
-          "publisherFamily": "futurism.com",
+          "suppliedUrl": "https://www.pcmag.com/explainers/i-asked-privacy-tool-what-chatgpt-knows-about-me-result-terrifyingly-accurate",
+          "domain": "pcmag.com",
+          "publisherFamily": "pcmag.com",
           "resolvedFrom": "research-story-link",
           "ok": true,
           "reason": "story-relevant-publisher-article",
-          "finalUrl": "https://futurism.com/artificial-intelligence/ai-writing-code-humans-cant-understand",
-          "pageTitle": "AI Now Writing Code That Humans Can&#039;t Even Understand",
-          "canonical": "https://futurism.com/artificial-intelligence/ai-writing-code-humans-cant-understand",
-          "bodyChars": 5067,
-          "topicOverlap": 5
+          "finalUrl": "https://www.pcmag.com/explainers/i-asked-privacy-tool-what-chatgpt-knows-about-me-result-terrifyingly-accurate",
+          "pageTitle": "I Asked a Privacy Tool What ChatGPT Knows About Me. The Result Was Terrifyingly Accurate | PCMag",
+          "canonical": "",
+          "bodyChars": 9377,
+          "topicOverlap": 9
         }
       ],
       "recoveryAttempts": 0,
@@ -2807,6 +2579,19 @@
     {
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNM1g3Y2hESnU4SVV3eWdsc1o4SHhiTlcxQ29fOVR1bUtQQm5pTDNCSkpaZloyRndiQWl2T1NTZlBEQVNPRWNqTWNJOGdFUEpQYWRhZmVTMXV5MnRHc1BvT29ic19BUVJkbkVZYndvTll0SExXd2g5WUtnWW1uSDNxLVc5TjVZcWRrT1ZnT2JxdzV0aEIyNF82dFlhWkVJSjIwVnRyTFQtOHBOWENFYTN6WHpwTFVXRkN5QUHSAc4BQVVfeXFMTmpzSkxxT0lJQ3hGMzNPZnd6blJTcUkyUDJmd3RHTU1GcjBfMG1aUldnakVQMHRQNHZla1dKWjVQcUUxdXdEa0FUYjRKWFV5UWZ6Z0Y2cjFVMnE0YXJOZDI1RVVhWU5QakprbEVrMEdNbzJzdXJDM3piZEphUzBiTk52R3BiS2ZuSmVXQnVfWTlFM2JFLW9iX2RFR3liOTZFc0cwMV9CU1J2TWVIbGRibUpZUHZkekdiRVFSMFd0ZVZvbTNvVDV2MllpQzkyaHc?oc=5",
       "title": "Social Security’s 2027 COLA announcement coming soon: What to expect, Medicare costs - AL.com",
+      "status": "block",
+      "evidenceLevel": "none",
+      "validSourceCount": 0,
+      "independentPublisherCount": 0,
+      "independentPublisherFamilies": [],
+      "independentDomains": [],
+      "sources": [],
+      "recoveryAttempts": 0,
+      "sourceVerificationStatus": "unverified"
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQnNRMUIwc0l1OTU3cmR2cEdReGdrd3dNeE9UaFhYdzFyWC1TQWhuVUR0NGVkZjU3VlhOTVQ1OENuZnFEejFtSWNRQ043ZmdGb0dnTEdBZE9LVENQNUdDQnB4TXNfREIxZFpmWGZsN3BmdzBJMDdpTkdDSkpESWFEN21CM2o2dk53bW1TdnFIRDBJTE41X2Nhd3N6Q3ZWVVdjUFJBV3NfUWpTWEdSVGx4Wlhab0NiMFdo?oc=5",
+      "title": "The Latest Battlefield Essential for U.S. Soldiers: Smartphones - WSJ",
       "status": "block",
       "evidenceLevel": "none",
       "validSourceCount": 0,
@@ -2843,6 +2628,37 @@
           "canonical": "https://techcrunch.com/2026/10/03/spotify-billionaires-body-scan-startup-has-come-to-america/",
           "bodyChars": 3468,
           "topicOverlap": 7
+        }
+      ],
+      "recoveryAttempts": 0,
+      "sourceVerificationStatus": "verified"
+    },
+    {
+      "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+      "title": "Meta wants your next gadget to be Muse-infused",
+      "status": "pass",
+      "evidenceLevel": "single-source",
+      "validSourceCount": 1,
+      "independentPublisherCount": 1,
+      "independentPublisherFamilies": [
+        "techcrunch.com"
+      ],
+      "independentDomains": [
+        "techcrunch.com"
+      ],
+      "sources": [
+        {
+          "suppliedUrl": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+          "domain": "techcrunch.com",
+          "publisherFamily": "techcrunch.com",
+          "resolvedFrom": "research-story-link",
+          "ok": true,
+          "reason": "story-relevant-publisher-article",
+          "finalUrl": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+          "pageTitle": "Meta wants your next gadget to be Muse-infused | TechCrunch",
+          "canonical": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+          "bodyChars": 3477,
+          "topicOverlap": 6
         }
       ],
       "recoveryAttempts": 0,
@@ -2908,20 +2724,6 @@
       "sources": []
     },
     {
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZmVBejcxQzFwWk5mem1lejJ6YVJrTGNNTEt5VWRNbnZ0cUdMWU9VNHhDalVHdFJWRmItdlVRcDNHN3p2ZjVXOUE2TDVldzA1RlUxbXpNZEVlUk4wVlVfZlNTemtiY2tjNUdJQWZoNXQ0VEJCVFBRcXNWZmFEWW9UM2tfLUstTDFoWmtmODZ3aFFiNEJzRHRJQ1QySnlWbXRiLUJQSV9PMlR1UmVGTkRj?oc=5",
-      "title": "FAA Says 737 MAX Software Glitch Doesn’t Pose Safety Issue - wsj.com",
-      "status": "not-eligible",
-      "evidenceLevel": "none",
-      "sources": []
-    },
-    {
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE40cm5WdGRPelBsUmQySHJqanB4UXBvckM1Z3BpRUNRZHU5WmZEb1VLTDlyaVZvRjU1MndRZ1dEZWVaMzZNaHB1TWd1d3hJTWtMVTJWei1waWFBb005X25ONlE0VlpwX2I5clRTcmFtRDhOaWFZ0gF6QVVfeXFMTXNtN1NjS19kck5yNkZRZEozV0o2d2R6dnk4aWpxNHBSWHFXc19xWlQ1Y0ZFY3dURS1BRzRUaW9YWW90ckdSSHMyZnp1WE5EMFVKRlNRVElvQ1hmcWtUR1pKZnFNWEpyUndpTFZ6U3Y0UlB1T09rY1VXVGc?oc=5",
-      "title": "Software roared back last quarter. Cramer says these stocks can keep climbing - CNBC",
-      "status": "not-eligible",
-      "evidenceLevel": "none",
-      "sources": []
-    },
-    {
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQalBOaTNCb2FPaDg1T2c0Tkw3cUpTaUJXY01UYUl3VHh0RXEwSHU4ZUNzX2FLbXRjLW1tX2RxMjltTThYNFdaQ19JZV93SnhvRWw3Nlh2MzRhb0dsUGh0ME45RkpmQ1JOdmpJMGJZd0VpNk11THZtcUx3cGpwWkh2ZURrdExSVlR5UzdFU1ZocFVBb2VoR01STnc3Q2tmdEc2SGNlanl3bFE1aldoUDdIT0xn?oc=5",
       "title": "US FAA says Boeing 737 MAX software glitch poses no safety issue - Reuters",
       "status": "not-eligible",
@@ -2930,7 +2732,7 @@
     },
     {
       "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNYkltZWR6bXh2WmN0V3Qxc29zU2NrT0cxb1VwMElqQU0yVE5BRWYxXzRseGRycGszWEVvc2o2ckh0SERvZ2hCNF9fSlVTQ0V3ZHpXNnpqTEVPTTJMSXZRM0F0SV9EbnFoWUVhRnJrczFFd2ptZncyVWZRUkxMMmtVNFlmOWlaMGdwSXVOY2xpWnlMT1AwLWxvVVFYelNqbDV6ZzVPWklpZUZIVk9idm9wUm1pc256a0FveU41TmNQblQ3bVpSX1ZRdnhROS1hTGZCZFh2TjBtdHNrYS0taVF1UExCd1ZkdHFXNGdkaTZ4UjJJYmNuaGhDMmxDRHhYV2xRRmc?oc=5",
-      "title": "NSA Announces Post-Quantum Cryptography Measures to Safeguard National Security Systems Ag - nsa.gov",
+      "title": "NSA Announces Post-Quantum Cryptography Measures to Safeguard National Security Systems Ag - National Security Agency (NSA) (.gov)",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
@@ -2938,13 +2740,6 @@
     {
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQeEVhQVlqazFzZ2VlZUJSS1kzMGNxNUhwVnpLTHpDMElYa2hyTTBwY3g3bWhXaV9rTEo3Y2cxTFZIcjd4R25qUVlTNHo5bEJVTFl3cUlZQkR5RmNzR0NHZE9JQlBiaS1uMWM2RWNWWEF1ODZKaGtURml2ZG5kN1VkanJud3laT0NsT0NyOG5JR2tRY1Y2UlI0Tjh1YnJGZjVNTy12LU1yVHQyR3I2Y2tZeTQyd3U1cDVRNE5Wb2s0bC1XeDR5OWttVHNUeGJaZw?oc=5",
       "title": "Seattle software engineer turned general contractor built an AI guide to the patchwork of permit rules - GeekWire",
-      "status": "not-eligible",
-      "evidenceLevel": "none",
-      "sources": []
-    },
-    {
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8wU0FoYVNodWxUTV9VcGxaOGpLYWlFRnVGejFTdWU3cmtkeU1tYjdXNzlPaEdlZ2k3NDk1NW5HbXkxc2JRbWtvam8wdlFKV1hpVlVIel9ieUQ3WVBBV1lMZFV3?oc=5",
-      "title": "3D Scanner Software 2026: The Complete Guide - 3dprinting.com",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
@@ -2966,6 +2761,20 @@
     {
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVmszS2FVUEdhSXpxSVpMV0RuekNCbkExbWlUZDU0ckwtaGNfUkw1MjJEX01OTklia3JwamViXzdIRzQzMVMydGhJdnFKMXd0UG90ODM0UEF0WWd1S1pvSnFWLWJnanpDWjB6Z3E2azZpYTI2UlR4YzNaOXp4THI3YXl4bXZadWJGUzgwM25n?oc=5",
       "title": "Everything Apple could still launch before the end of 2026 - Macworld",
+      "status": "not-eligible",
+      "evidenceLevel": "none",
+      "sources": []
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15RnVWdmszU0I4c3VVYzROSTQ2bEpoZ3RpRlBPTkZ3UUVMaDNpRUctOU9rTVNDUXNzT2l4b0xMdXlZRDdOM2lHTEJUaTBCUzdkdl9TSlMyMEVEZmRLTnl6NTJhZTFqT3NtYV9KNWotVTQ2X2VDUndIYlp3ZHBKZVk?oc=5",
+      "title": "Trump likely to pick Jay Clayton for AI czar, sources say - CBS News",
+      "status": "not-eligible",
+      "evidenceLevel": "none",
+      "sources": []
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE40cm5WdGRPelBsUmQySHJqanB4UXBvckM1Z3BpRUNRZHU5WmZEb1VLTDlyaVZvRjU1MndRZ1dEZWVaMzZNaHB1TWd1d3hJTWtMVTJWei1waWFBb005X25ONlE0VlpwX2I5clRTcmFtRDhOaWFZ0gF6QVVfeXFMTXNtN1NjS19kck5yNkZRZEozV0o2d2R6dnk4aWpxNHBSWHFXc19xWlQ1Y0ZFY3dURS1BRzRUaW9YWW90ckdSSHMyZnp1WE5EMFVKRlNRVElvQ1hmcWtUR1pKZnFNWEpyUndpTFZ6U3Y0UlB1T09rY1VXVGc?oc=5",
+      "title": "Software roared back last quarter. Cramer says these stocks can keep climbing - CNBC",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
@@ -2999,8 +2808,22 @@
       "sources": []
     },
     {
+      "link": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
+      "title": "Federal judge calls Flock ‘indiscriminate mass surveillance’",
+      "status": "not-eligible",
+      "evidenceLevel": "none",
+      "sources": []
+    },
+    {
       "link": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
       "title": "TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants",
+      "status": "not-eligible",
+      "evidenceLevel": "none",
+      "sources": []
+    },
+    {
+      "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+      "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
@@ -3014,14 +2837,7 @@
     },
     {
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTUhrakN2TGFTTmdhM0VtY2s5UjBjOVB5cnRRM1NHOWxPV1FGYTdfYjRrQkNZeFFBeHVkSXI1Q29DOE96WmNnSndCb1hwU1c4UGpxanNmMlJsNkJkYVRZNEpBSzdLdG55cXN5Z3hBYWVZSVVkQ1B2OV81Q1hEbExJUUJR?oc=5",
-      "title": "A.I. Is Going Rogue. Who Should Be Held Responsible? - The New York Times",
-      "status": "not-eligible",
-      "evidenceLevel": "none",
-      "sources": []
-    },
-    {
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15RnVWdmszU0I4c3VVYzROSTQ2bEpoZ3RpRlBPTkZ3UUVMaDNpRUctOU9rTVNDUXNzT2l4b0xMdXlZRDdOM2lHTEJUaTBCUzdkdl9TSlMyMEVEZmRLTnl6NTJhZTFqT3NtYV9KNWotVTQ2X2VDUndIYlp3ZHBKZVk?oc=5",
-      "title": "Trump likely to pick Jay Clayton for AI czar, sources say - CBS News",
+      "title": "A.I. Is Going Rogue. Who Should Be Held Responsible? - nytimes.com",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
@@ -3034,13 +2850,6 @@
       "sources": []
     },
     {
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1MQ2xWSE1OSFBneF93MFNxbWM1S0xHdm5FbG82dXBjY3JlMURtbjkxYzRvT1NDS0pqNHhpeDZDeGw0LUFSdV9UUjlmR0EtQ0FaLUZUY3dwX01kWXJ6aHp1T2hsNHEwTGZxMkluV0NkTGpLY3ZORE1R?oc=5",
-      "title": "Security Alert: Consular Services Suspended - U.S. Embassy & Consulates in Brazil (.gov)",
-      "status": "not-eligible",
-      "evidenceLevel": "none",
-      "sources": []
-    },
-    {
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51cG9RVE5qYzlBNzFOMWlIc3lEelFmb1huY1FMa3hWdlRxMU9Rdi1WcHpYZmJ6Wk5GeDQwV0JrMkNMYnE5Z1I2UHdXZXBMdU0zX0k4cEZCX2FSTUFLeFJmakFtNUVYZw?oc=5",
       "title": "The 11 best phones of 2026, tested by experts - Mashable",
       "status": "not-eligible",
@@ -3048,15 +2857,15 @@
       "sources": []
     },
     {
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQ1lMUGlaMEZRMWpjR0JocVBTd3pmRTB5RnBSc1U5R1c3cTVwQmJTRnd3akdULTNJR1M5ZDk4XzRld29wRnNMRnFUWmhZaXdUMzdReVZ1VjJsT01DMUs1UWNmTUIzaktNcm15YTZ5X21oNmprbW42dG1Fck1qQ29leEE0SnRqeG80cnJlVWdfZkJkTWV6eTNhTTQ0cTVHekJNTkZUTEM5c1ZpNlo5RkkyZDRNU2FTMW9H?oc=5",
-      "title": "Trump loses favor with crypto fans who call him out for cashing in - The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1MQ2xWSE1OSFBneF93MFNxbWM1S0xHdm5FbG82dXBjY3JlMURtbjkxYzRvT1NDS0pqNHhpeDZDeGw0LUFSdV9UUjlmR0EtQ0FaLUZUY3dwX01kWXJ6aHp1T2hsNHEwTGZxMkluV0NkTGpLY3ZORE1R?oc=5",
+      "title": "Security Alert: Consular Services Suspended - U.S. Embassy & Consulates in Brazil (.gov)",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
     },
     {
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSU4yTUtZRHhfbFI2QnNOeDhwaDRFT2d1SzBPTUc3U3NGVldVbkJpSEVPU2RuakluQ283WFZnbHptT1pnUTNGYjFjYzJVb3ZnZFFoa2NQR1pZMHFRT0NBSDVLNVlGdHBoUm1aODZDMkRXU0RlLWx5QXh0YkhCVGNGOUtCSmpramRzS3pNOVRlSnhvRHppanJ2LXY0bk55WjZLLXZN?oc=5",
-      "title": "This is the Government's Opinion on the Special Court Law Sent to Parliament: No Legal Obstacles for Change, but 'It's Complex' - nacionale.com",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQ1lMUGlaMEZRMWpjR0JocVBTd3pmRTB5RnBSc1U5R1c3cTVwQmJTRnd3akdULTNJR1M5ZDk4XzRld29wRnNMRnFUWmhZaXdUMzdReVZ1VjJsT01DMUs1UWNmTUIzaktNcm15YTZ5X21oNmprbW42dG1Fck1qQ29leEE0SnRqeG80cnJlVWdfZkJkTWV6eTNhTTQ0cTVHekJNTkZUTEM5c1ZpNlo5RkkyZDRNU2FTMW9H?oc=5",
+      "title": "Trump loses favor with crypto fans who call him out for cashing in - The Washington Post",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
@@ -3118,6 +2927,13 @@
       "sources": []
     },
     {
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcS1zT2JOdkNzdllpNGNORnd5OWpVOGxSeGxWelRWMGE5UnA2RndtdWdtTEdPMGxPbnd0OUtuVXZVTm1OWl9yaU1QdDR1cEVFS2FKaFVKaWFHR0hzbzhTUHM1ZTlRTDVSWFRIaDFBNzlPdldfV1hVd2ZRLUh5ZFBDRGtuMTlDN3NVOUpFSA?oc=5",
+      "title": "Kevin Roose on AI: \"We are faced with very intelligent, charming sociopaths\" - CBS News",
+      "status": "not-eligible",
+      "evidenceLevel": "none",
+      "sources": []
+    },
+    {
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaW9VTzR5bkJYdmJGams3elZMa3hyaXRmOHJVN05BWnZ6VjNRcGlRM243SGwtWGhMeFlIX05haGhqZkFQeXJYcEpYMjdjazJTdmpHVVNsOFItNWxKd1pyenZ1SDVydnRORUZxNkR0TkJhN1YxeG9XSEY4cy1PMUh2Q1Zmd2VuMExUNWZkQ3l4R0hKbXBmVnJOMUpydGRrbnd1d0ZMdFQyWmN3cHlCV1dmYXI3S01iQQ?oc=5",
       "title": "Judge warns AI could stunt lawyers' training and harm their clients - Reuters",
       "status": "not-eligible",
@@ -3139,8 +2955,8 @@
       "sources": []
     },
     {
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Db1M3SWg3WG9OOU9xZ1QwTjlKUDZvSVpVektnRnFTSXFvdXBmQm5lS2h5ODFwdWl2eFlQT0hRZWR1ZUxfdzFHVXhBZUNKRl9Semw3NG55S0lrUXFXNFR4eVZwdHFtLVZxU1NZeS1Va0RZNU0?oc=5",
-      "title": "Bitcoin Futures - CME Group",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZMlZ4VVI3cnFJbXZ3V2JnLVZGNjhXRlBFM3ctZlU3ZnVVRzNEMnZXSjI1SHBFUkZuU3dmWnJWSy1ZNEhRek5MbnAwX3UxVUxDaHMzWHpqYTZadDh0djVsenpn?oc=5",
+      "title": "Do Smartphones Belong in Fiction? - Literary Hub",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
@@ -3148,6 +2964,13 @@
     {
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLWVNZZmpmWG9BbG9JQ0JNWXFLNWk5SGdNelEzUmRTdXBUeXo3M19pbDVvZ191bWxrcGlqYWplcFNyaDlnQy0zXzV4LVNKbUNYOExxM01FamVyRU50NzNURk5ycDQ?oc=5",
       "title": "Introducing zkAPI: private usage credits for any API - ethereum.org",
+      "status": "not-eligible",
+      "evidenceLevel": "none",
+      "sources": []
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeUlwOWg1U3YzQlNOanM2TkVmVm8xLUVMZ1p3TlR3YVlRdm50SE1Hamt0aE8tUUI4VmZhZk5XQ3R3STVYYlJldlFpdFd3UlYzN3pFUWw0N0cyOUlHb3cyT21QMU9OakhDQTJzWEpBQmRhT3l4QXRBZjhjNDMyeHFPNDlCQkJ1ZHRROFcwY1RLRkFZMV9WVEhhQmNnS0hfTi0wOG9wQmtEWGJ0ZVowbm9RRnQ3c0VzdThDU19zTlMxbEM?oc=5",
+      "title": "Ethereum-based Blast chain shuts down as operating 'no longer makes sense' - CoinDesk",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
@@ -3230,8 +3053,8 @@
       "sources": []
     },
     {
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSlVad2xBNFMyQlp5OHp5d1dCTldUZkJxNXhQZ1gyenh1aWRCekxZdGdiMmNZOTVscnczdVdrQzNBZHQzZ1hZaDl3dlVGb0ZFX19IaTR0QzFKdUNXVXFtREVpcDBMR2otQkZTVWFocTlpMHpuM3NLVlEtTVhmUV9HU0hKUU1HM0xGVXFabXZURXRLOU0?oc=5",
-      "title": "Apple’s HomePod lineup could be about to get much bigger - Macworld",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4aDVWTV9VN3ZUSF9CemZCNXNrWktncnBiOWF4cjRqOUxqcURLMUFWYm1DY3VxM0kwbk5tM1VEYkl1aXFibVFzMHpEUWNvbTBaejBkSk1LV2NzOW5MLXpKMVZuM0xvUnJ2?oc=5",
+      "title": "Best New Product Launch Email Templates to Use in 2026 - Designmodo",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
@@ -3272,6 +3095,13 @@
       "sources": []
     },
     {
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8wU0FoYVNodWxUTV9VcGxaOGpLYWlFRnVGejFTdWU3cmtkeU1tYjdXNzlPaEdlZ2k3NDk1NW5HbXkxc2JRbWtvam8wdlFKV1hpVlVIel9ieUQ3WVBBV1lMZFV3?oc=5",
+      "title": "3D Scanner Software 2026: The Complete Guide - 3dprinting.com",
+      "status": "not-eligible",
+      "evidenceLevel": "none",
+      "sources": []
+    },
+    {
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtZm12eEdnZzA0SUdIakk0ajFySTJXRVRER2d1WGhmNWJWaE9lTnRMRnp1V21yY0dMTXZpT0J6RWsxdWQ5RzdRNHZwYkJIa2liMG9naDBLOE1xcFF6aGVhN0RuamZXcUF5OHlOWA?oc=5",
       "title": "Biometric Software Development: Architecture, Compliance & Cost Guide for 2026 - appinventiv.com",
       "status": "not-eligible",
@@ -3281,13 +3111,6 @@
     {
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByemZLQzYtX2tZdXZsUnlBLWdkS1hESk9Ja0lsdFpOSlhYeGJWZ2NhY0c1UFhobWpKZmFEMWRIRERDLUpfajRHV1V1NEtWTUZHY2xvcFROWTNVQm5wNm9xWkM3U3BkQUx4U18yRmgtNA?oc=5",
       "title": "Marketing Attribution Software: A Practical Buyer's Guide - thekeyword.co",
-      "status": "not-eligible",
-      "evidenceLevel": "none",
-      "sources": []
-    },
-    {
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1rVWhYOW1KenVrVnM3OTJPN2NNQnJMMXdFUzhnU1BXcm5PRG93NUdtSXBDZFRXdDJfRWc0WHdfRDVFaEd5U1pYay1FUQ?oc=5",
-      "title": "Apple’s handy guide explains how to ID Creator Studio apps - Cult of Mac",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
@@ -3336,70 +3159,70 @@
     },
     {
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "title": "blues vs avalanche",
+      "title": "ty france",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
     },
     {
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "title": "argentine – burkina faso",
+      "title": "abner uribe",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
     },
     {
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "title": "klay thompson",
+      "title": "gary patterson",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
     },
     {
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "title": "julie gonzalo",
+      "title": "fernando tatis jr",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
     },
     {
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "title": "ncis new york",
+      "title": "miranda lambert",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
     },
     {
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "title": "south carolina football",
+      "title": "antonio senzatela",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
     },
     {
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "title": "argentina fc",
+      "title": "noah schnapp",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
     },
     {
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "title": "solar system unstable",
+      "title": "avalanche",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
     },
     {
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "title": "war hbo",
+      "title": "santa clarita fire",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
     },
     {
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "title": "kawhi leonard",
+      "title": "idaho state football",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
@@ -3407,27 +3230,6 @@
     {
       "link": "https://techcrunch.com/2026/10/02/sanders-introduces-bill-to-ban-the-federal-government-from-using-flock/",
       "title": "Sanders introduces bill to ban the federal government from using Flock",
-      "status": "not-eligible",
-      "evidenceLevel": "none",
-      "sources": []
-    },
-    {
-      "link": "https://arstechnica.com/space/2026/10/milt-windler-nasa-flight-director-who-helped-save-apollo-13-dies-at-94/",
-      "title": "Milt Windler, NASA flight director who helped save Apollo 13, dies at 94",
-      "status": "not-eligible",
-      "evidenceLevel": "none",
-      "sources": []
-    },
-    {
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SldKWWgzNDExSThTZW9MRTQ5WHE3VFRZMl9oSjIzaVhuZEZaY1ZSUTFxZTJFaFpUanlncTQySUg5SlRGVnNkQXZ0S3IxLWJScXNkLXY2Z3Jzbk5WR0UwSFp0NmUxN3c?oc=5",
-      "title": "Introducing GPT-6 Sol and Luna - OpenAI",
-      "status": "not-eligible",
-      "evidenceLevel": "none",
-      "sources": []
-    },
-    {
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUXhCM0tYN2RVOFE2b05yRGZLbGNERW9KaWRtYW1QVjl6S1hNSzd4MWRhWmp1dmVaUG5SMTlGN2podHJ2N1JiMHktc1Y1SEZpUVBZeEZwbzZFVUxzeU9wOXlmNmh4RnB6OUtFVllqZmFkQ0xwcVg4VkJMNUNYTWdYT25fejEyOENnQnc1WG1BMXVwSU9ySHotcTdCOThtbEhjLXVwYTJJeFdVQUJtcjVWekcyTHBoUEJCQzRzNjV0a0t0TTE1c2JvMjVWMA?oc=5",
-      "title": "India: Authorities trampling on human rights in crackdown on electoral roll protests - Amnesty International",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
@@ -3498,6 +3300,13 @@
     {
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRVJqcnRUeENTWEN0eDkyZjAtRnVCQW9YZEJoZFIyV2J3RzA2LXJYZENaODNnQlhoZUh2VHhpQVFLYUFjWW5vci1PTFZJeWplT0RsUklBNTJXVWRtZ19EalhGSzJFZXRqRDBGMVhJUXhRZERFbHR3djhmTUk0aXF1OHo4S1puelNHY19zOW1uVXg1UGdpdmpHOVNqTmxQYzVsNFlLOW9iUU1wUFowTjNPSmh5OElDSW5KcW9Z?oc=5",
       "title": "Speed to Power through Accelerated Reconductoring and other Key Advanced Transmission Technology Upgrades (SPARK) - Department of Energy (.gov)",
+      "status": "not-eligible",
+      "evidenceLevel": "none",
+      "sources": []
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUXhCM0tYN2RVOFE2b05yRGZLbGNERW9KaWRtYW1QVjl6S1hNSzd4MWRhWmp1dmVaUG5SMTlGN2podHJ2N1JiMHktc1Y1SEZpUVBZeEZwbzZFVUxzeU9wOXlmNmh4RnB6OUtFVllqZmFkQ0xwcVg4VkJMNUNYTWdYT25fejEyOENnQnc1WG1BMXVwSU9ySHotcTdCOThtbEhjLXVwYTJJeFdVQUJtcjVWekcyTHBoUEJCQzRzNjV0a0t0TTE1c2JvMjVWMA?oc=5",
+      "title": "India: Authorities trampling on human rights in crackdown on electoral roll protests - amnesty.org",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
@@ -3580,22 +3389,8 @@
       "sources": []
     },
     {
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMjliTlAtQjQ3UVZhWExjQjQyeUJMRTBaRjE1dXVfUnJFUGVSbFNJS1pEZUJmeTN3c1ZILUVIVXZYM3BObmUwczdKTjd3OTFZRTNSWkgwVHNLMEw0Zzhxb2NUczhfTm5xUGhQU2RYVWdVc3RwVEQzWUZRLW1vbC14eEtvQQ?oc=5",
-      "title": "European Cybersecurity Month - ENISA",
-      "status": "not-eligible",
-      "evidenceLevel": "none",
-      "sources": []
-    },
-    {
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBtNVJQajBiQW1Rc3Y1YnRzNWJWNkhCdEVOZGpfTmR4MXl1TEtUX1JQQjJaQjYxMmNnSEJ2U1Z5TE5KM09KTXhaVi1qSkczMU9yWFEtcnMyV0dtVlgwRFZudlB4QnptcUxYZnEyV1c5eTNxSlpQ?oc=5",
-      "title": "Food Security Update - World Bank Group",
-      "status": "not-eligible",
-      "evidenceLevel": "none",
-      "sources": []
-    },
-    {
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNLUx0b1ZPb1Axa1c5VlMyOTNuT05QUGFhY1diMmtnRjdCMy1FWkJSWGwzeUdadEtMRXF0emkydGRwaTB0QlMzRUdxSFgzdUs3N01henZOV0dzMnI5dkM2STMwOFljTlFUanJfMDVXQlV2RmhESjVVRHlFNXFJVXU1enFB?oc=5",
-      "title": "A dealmaker’s guide to how AI is shifting the software stack - PwC",
+      "title": "A dealmaker’s guide to how AI is shifting the software stack - pwc.com",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
@@ -3623,14 +3418,14 @@
     },
     {
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNektvOFpLR1M5S2VIbFVuVG81UXZCY3FDRTFYZzlQZjNxU2JGNVlWMC1HdWktUDZwMkl1c0d0d2FYYUM2Snh2bE1MZk5EWDV0YzgxaTd6T0ZTUElXZkkxODhSYjdsc1VJVkhVVTg3V2ZRQkJ1RVRZWmdPZ3RMS1RrXzJYOXNDZGM5bjg3bmZvOTVGSThDNzNoX1VlNVJVYmpReDd4Zm5ubGUwQlZa?oc=5",
-      "title": "A brief guide to AI-powered software development environments - InfoWorld",
+      "title": "A brief guide to AI-powered software development environments - infoworld.com",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
     },
     {
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeURITVRSSk1qeERYM3J4NkxRY09MdWJXY01CVjBGbG5uQUJuOUtWOXNuTFllNUExNFptYTQ0WUpmNjNXZTczN3ZhX2ZpNS14V216RUM1aTNXZElmcURNN3FOeEZGeThpRHlqUS1NYnlRMWRiWWxXVnc2Sm93TmlSb0FXaDNBNmdLdjJveXdBaHF2R0IxZm9fSUhFeGtSTFVVeWZxaU5Uamh2TVpxem9TOWNMLW1zcnZwdWItb3l0amE?oc=5",
-      "title": "Software Defined Vehicle Architecture: A Guide for Automotive OEMs - theautochannel.com",
+      "title": "Software Defined Vehicle Architecture: A Guide for Automotive OEMs - The Auto Channel",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
@@ -3645,6 +3440,13 @@
     {
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTk5COHRzOGk3aXRzUGFOcTZlT0xENnRFeU4wTWlHRzN0VXRxbUxjUXlqUm9zOVNIUnFzTlpyZlAtMXBqSGdtTmdxNGlHZ3N0ZEJFbXo1dGdTb1FfYllEMjdoNV9CQ1VQOE1RUjRMOTdSdE12UnhfV29NdXJ1SVZNQV9UVkk0R2wwNlpjQk9JT24wOE91VF8wNXFNRU1Uc3VYQzdBUlRmcWtPd2YyYzhlTUJ3?oc=5",
       "title": "[SPONSORED] Top Self-Improvement Apps for Students in 2026 Guide - The Daily Princetonian",
+      "status": "not-eligible",
+      "evidenceLevel": "none",
+      "sources": []
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSnJBT3lUa2d3NXBPcGVZZE4wSkFUc1Y0dWlWUW5NYU5CV0R6VjNwdHZhY1ZuRGgweDFYOFBtZ1hDaThzQ2tCTnJvZkZSdHpMRVRWR01HWVFZRDFyTS1nMlp2d1RNSmlsX3hrUFdlNkhIOUZHajdvTGY1WWNjZ1lZendDb2FWZ1ZMdnZhTnA0Y0Nob2piRUcySDNR?oc=5",
+      "title": "2010 Salon Software Guide: Millennium by Harms Software Inc. - Salon Today",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
@@ -3720,6 +3522,13 @@
       "sources": []
     },
     {
+      "link": "https://arstechnica.com/space/2026/10/milt-windler-nasa-flight-director-who-helped-save-apollo-13-dies-at-94/",
+      "title": "Milt Windler, NASA flight director who helped save Apollo 13, dies at 94",
+      "status": "not-eligible",
+      "evidenceLevel": "none",
+      "sources": []
+    },
+    {
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRmVFekxvT0hOQ2dvNUpQYUg0bEM1UUFoc3lxX2J3T2hhd2lUSlMtN0ZuNGVjeDlXYmdzU05taC0xQk11Tmxqd196SGw5ZzdEWXJaS3kwaDFXblhuT0NyemJibUxRekdHa3Z1R0RIS0Mwa21MZ1NTWG9EZHJUZU9rSnYxbG02UDFGVkxWVG9wcXdnaEU0cC1xUnhtc1hNQWN0UnVHYmk5S01kb1didlVJQVc1MGZWMUJmTXFr?oc=5",
       "title": "Apple Is Finally Ready to Enter Its Next Big Category: the Smart Home - Bloomberg.com",
       "status": "not-eligible",
@@ -3736,13 +3545,6 @@
     {
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMENfMjlBQ2RaRzZ2anFzZmtuZzdHLVViN2dlanlyMzFyYjYwNU9hU3BmdkxtZ09LYWlJd3g1eWZsNEtWQVg3V2w4VWVESVpCUFk2dlVPVFlFUG1xUjhyTGJScXZfY2hEYjZxbnFpVHdnLXcyeDMtQUNJSFRzLVMxZUdNMzdjUFZteGlWMzhxeVVDczJENEtGd1hZQXJwNWJP?oc=5",
       "title": "Challenges of protecting innovation in an artificial (intelligence) world - McAfee & Taft",
-      "status": "not-eligible",
-      "evidenceLevel": "none",
-      "sources": []
-    },
-    {
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MVUVlaTV5ZFFBUnVJMFZDWTJIRGg5R20zQXpKU0tENk5PMXR0TEZ0N2VqRXpsOHdrazZKYS1QaUFNZ2tzN0c4Tnk0UjBjRmtFX0RjRw?oc=5",
-      "title": "Introducing dots - OpenAI",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
@@ -3791,7 +3593,7 @@
     },
     {
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT0Q2OWJjRkhxV1MtVkNZXzc0eVpVTlpHSF9ady1TWmdkRjJ5RGZPNkw0TTI5NTlwTUNlU1FCRGh6Qy1tcEl1QjJ4LTJ0SGFGZmg2R3F2dGpCNHRnbGVCZi1nZktqeUhqZ3ViUUwyc1NXQ2xwZzdUNUFXbXBzV2tVLVhMTlQ?oc=5",
-      "title": "6 recent scientific breakthroughs and discoveries - theweek.com",
+      "title": "6 recent scientific breakthroughs and discoveries - The Week",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
@@ -3805,7 +3607,14 @@
     },
     {
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5EZzE5bGowSDNxWDNQZzNQYldTRVRmZ2s4aXJxNkR2ZTdmaGhXNGxHbTBjQ181MEtteFRtR3dhbkw1elFoZWJGYTdRXzg1Umo1YUFtb2hTbkhob0o4VENN?oc=5",
-      "title": "Joseph J. Weber: How Do APPs Help Create More Connected Cancer Care? - Oncodaily",
+      "title": "Joseph J. Weber: How Do APPs Help Create More Connected Cancer Care? - oncodaily.com",
+      "status": "not-eligible",
+      "evidenceLevel": "none",
+      "sources": []
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MVUVlaTV5ZFFBUnVJMFZDWTJIRGg5R20zQXpKU0tENk5PMXR0TEZ0N2VqRXpsOHdrazZKYS1QaUFNZ2tzN0c4Tnk0UjBjRmtFX0RjRw?oc=5",
+      "title": "Introducing dots - openai.com",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
@@ -3813,13 +3622,6 @@
     {
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcVNBYnFyaE4wRmxyUzM1RnVpMjUwUmVfc1MyQVJUaUVqX2dtc0ZMdzJQemlaWHVMRHY4RjBEbVhFdWtyUFhuV21pREtMZ3pnMkJnbG03UnlNQTdnMFliTmRlRzVMODRlNVFWVnpXRXpZYU5raXZIbjhMUGNBOFBCdk1hMEhyMmRyUzVfTXVDeFJ4UQ?oc=5",
       "title": "Apple debuts iPhone 18 Pro and iPhone 18 Pro Max - Apple",
-      "status": "not-eligible",
-      "evidenceLevel": "none",
-      "sources": []
-    },
-    {
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPODc0MlB3RGcyUzMtMUZsd2VJX2ZTcE5qbC1jZVVURi1FUGJrM1o0QVMtWnQyLVNhS0JuYjE2cFdmV3pvLTc3WDJPUi1NWmVJcGZNQnhn?oc=5",
-      "title": "DevDay 2026 Recap - OpenAI",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
@@ -3868,7 +3670,7 @@
     },
     {
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9vSjlkMkxya2ZHX2hnSE9NNDNiOHpmcGZpSW9MWGVpVy0yTzBzYXZ1Ty1pMmJZR2p5UGR2bDhOeVE4NXhUSzljUG4xbkc5N3M3WnRiV1lVSnBEbjFEeHN3?oc=5",
-      "title": "An AI system to help scientists write expert-level empirical software - nature.com",
+      "title": "An AI system to help scientists write expert-level empirical software - Nature",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []
@@ -3960,6 +3762,20 @@
     {
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNeUVfUEpNOHJvWFo1NUhJWjJTcnE0NXZ3VS13SFExeG1hWjY5a3d0WFZ0X1ZrTTM1TUVUUDVvNzMya1ZzZEtwWkhmejljWjgyekVMU2tMRjdWMjgwNDdNSDVlWmVjTHl0SUlTX2QyMDA5THJwekFEaktwNkl2djMzZThaMl81SmV4M01ERndRdkRzSHhqcHoxeUNzcmhSRzVwc2VhZXljMXVRSDZseExHbmo5MHU2QVZiOGpnbTM0UzM0TjVlLXhQQnRIVUdIMGJPazNCTlM5WXFzNUNDdVE?oc=5",
       "title": "UAH | News - The University of Alabama in Huntsville",
+      "status": "not-eligible",
+      "evidenceLevel": "none",
+      "sources": []
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kRFFhNDJrSUZUWmtDYnlqaXBCemhTVkdJb093MnRhZWpXQU9zenZsSG9zQWhMbXExWGUyZEd3eE9NRktQdkFncE9VQ2o3OWswdU05clNqcVltV1ZHOHFUd0dXeng0SnVlUFlZNy1Lb2dkRE9iQXc?oc=5",
+      "title": "ChatGPT Ads expands to Southeast Asia and Taiwan - openai.com",
+      "status": "not-eligible",
+      "evidenceLevel": "none",
+      "sources": []
+    },
+    {
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB2NXl1LWRfMzJIT0szLXg2R3RSRl9fekxZRUl2d0lHNUhPdFJ2a0txYTVQMnIzSGhJYnozSFFRTTM4R3RoRW9NZ0Y1U0NXdXBCS0R0OGJVSElMSU56UmJIQUppMGtybE9n?oc=5",
+      "title": "Reimagining advertising with AI - openai.com",
       "status": "not-eligible",
       "evidenceLevel": "none",
       "sources": []

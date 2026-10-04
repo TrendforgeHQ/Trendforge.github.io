@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T00:35:17.407Z",
+  "generatedAt": "2026-10-04T03:24:46.573Z",
   "provider": "Groq",
   "editorial": {
     "passed": true,
@@ -22,8 +22,8 @@
       "noHighSimilaritySource": true
     },
     "metrics": {
-      "normalizedLength": 2141,
-      "sentenceCount": 17,
+      "normalizedLength": 2937,
+      "sentenceCount": 23,
       "maxSourceSimilarity": 0,
       "maxCommonPhrase": 0
     }
@@ -31,15 +31,15 @@
   "semanticDuplicateCheck": "passed",
   "sourceRelationshipCheck": "passed",
   "verifiedEvidenceDomains": [
-    "techcrunch.com",
+    "zdnet.com",
     "theverge.com",
-    "timesofindia.indiatimes.com",
-    "techbuzz.ai"
+    "mashable.com",
+    "popsci.com"
   ],
   "primarySourceCount": 0,
   "grounding": {
     "sourceCount": 4,
-    "usablePassages": 22,
+    "usablePassages": 38,
     "primarySourceCount": 0
   }
 }
