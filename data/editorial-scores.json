@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-04T16:12:37.799Z",
+  "generatedAt": "2026-10-04T20:43:38.463Z",
   "status": "pass",
-  "currentGeneratedArticle": "trump-launches-super-intelligence-force-to-coordinate-u-s-ai-policy",
-  "currentScore": 86,
+  "currentGeneratedArticle": "tether-reintroduces-usdt-to-bitcoin-what-it-means-for-the-network",
+  "currentScore": 89,
   "identity": {
     "method": "brief.title",
     "rejectedMarker": false
@@ -91,13 +91,13 @@
       "slug": "anthropic-s-ceo-calls-for-an-ai-slow-down-what-it-means-for-the-industry",
       "title": "Anthropic’s CEO Calls for an AI Slow‑Down – What It Means for the Industry",
       "category": "AI",
-      "score": 79,
+      "score": 77,
       "decision": "review",
       "dimensions": {
         "evidence": 75,
         "usefulness": 100,
         "clarity": 100,
-        "originality": 100,
+        "originality": 83,
         "sourceStrength": 28
       },
       "reasons": [
@@ -597,6 +597,21 @@
       ]
     },
     {
+      "slug": "tether-reintroduces-usdt-to-bitcoin-what-it-means-for-the-network",
+      "title": "Tether Reintroduces USDT to Bitcoin: What It Means for the Network",
+      "category": "Crypto",
+      "score": 89,
+      "decision": "publish_ready",
+      "dimensions": {
+        "evidence": 83,
+        "usefulness": 97,
+        "clarity": 100,
+        "originality": 83,
+        "sourceStrength": 82
+      },
+      "reasons": []
+    },
+    {
       "slug": "the-apple-watch-series-12-is-the-start-of-a-new-wearable-era",
       "title": "The Apple Watch Series 12 is the start of a new wearable era",
       "category": "Digital Life",
@@ -637,16 +652,19 @@
       "slug": "trump-launches-super-intelligence-force-to-coordinate-u-s-ai-policy",
       "title": "Trump Launches Super Intelligence Force to Coordinate U.S. AI Policy",
       "category": "AI",
-      "score": 86,
-      "decision": "publish_ready",
+      "score": 76,
+      "decision": "review",
       "dimensions": {
-        "evidence": 80,
+        "evidence": 75,
         "usefulness": 84,
         "clarity": 90,
         "originality": 86,
-        "sourceStrength": 92
+        "sourceStrength": 50
       },
-      "reasons": []
+      "reasons": [
+        "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
+      ]
     },
     {
       "slug": "u-s-agencies-board-oil-tankers-after-cyberattacks-target-navigation-and-propulsion-systems",
