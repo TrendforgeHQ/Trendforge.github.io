@@ -1,187 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-04T03:24:44.265Z",
+  "updatedAt": "2026-10-04T11:33:03.285Z",
   "decisions": [
-    {
-      "timestamp": "2026-10-01T22:10:27.014Z",
-      "title": "Apple is ready to launch new smart display and HomePod, report says - Mashable",
-      "category": "Product Launches",
-      "decision": "review",
-      "score": 74,
-      "adaptivePriority": 90,
-      "confidence": 84
-    },
-    {
-      "timestamp": "2026-10-01T22:10:27.014Z",
-      "title": "More evidence emerges of an imminent Apple device launch - Macworld",
-      "category": "Product Launches",
-      "decision": "review",
-      "score": 73,
-      "adaptivePriority": 89,
-      "confidence": 80
-    },
-    {
-      "timestamp": "2026-10-01T22:10:27.014Z",
-      "title": "Apple Stores receive secret ‘Do Not Open’ boxes ahead of October 13 product launch - The Apple Post",
-      "category": "Product Launches",
-      "decision": "review",
-      "score": 72,
-      "adaptivePriority": 88,
-      "confidence": 83
-    },
-    {
-      "timestamp": "2026-10-01T22:10:27.014Z",
-      "title": "Apple Home Hub setup details leak as Apple stores receive confidential boxes - Firstpost",
-      "category": "Product Launches",
-      "decision": "review",
-      "score": 66,
-      "adaptivePriority": 82,
-      "confidence": 74
-    },
-    {
-      "timestamp": "2026-10-01T22:10:27.014Z",
-      "title": "Fire TV launches all-new, faster 4K stick and new remote design - About Amazon",
-      "category": "Product Launches",
-      "decision": "review",
-      "score": 66,
-      "adaptivePriority": 82,
-      "confidence": 74
-    },
-    {
-      "timestamp": "2026-10-01T22:10:27.014Z",
-      "title": "Research, innovation and invention top priority for prosperity, Minister Pun says - The Rising Nepal",
-      "category": "Innovation",
-      "decision": "review",
-      "score": 65,
-      "adaptivePriority": 81,
-      "confidence": 64
-    },
-    {
-      "timestamp": "2026-10-01T22:10:27.014Z",
-      "title": "Leading medical device experts and MDO launch Medtech Innovation Board - Medical Design & Outsourcing",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 64,
-      "adaptivePriority": 80,
-      "confidence": 67
-    },
-    {
-      "timestamp": "2026-10-01T22:10:27.014Z",
-      "title": "Meghan Markle drops major Christmas announcement with stunning new picture - hellomagazine.com",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 64,
-      "adaptivePriority": 80,
-      "confidence": 74
-    },
-    {
-      "timestamp": "2026-10-01T22:10:27.014Z",
-      "title": "Apple plans to launch new smart-home hub on Oct 13, Bloomberg News reports - Reuters",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 63,
-      "adaptivePriority": 79,
-      "confidence": 67
-    },
-    {
-      "timestamp": "2026-10-01T22:10:27.014Z",
-      "title": "Apple’s smart home launch is unfashionably late - Tech Brew",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 63,
-      "adaptivePriority": 79,
-      "confidence": 67
-    },
-    {
-      "timestamp": "2026-10-01T22:10:27.014Z",
-      "title": "Innovation, Invention and Impact: NJIT Undergrads Present Summer Research - NJIT News",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 62,
-      "adaptivePriority": 78,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-10-01T22:10:27.014Z",
-      "title": "Apple Is Finally Ready to Enter Its Next Big Category: the Smart Home - Bloomberg.com",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 62,
-      "adaptivePriority": 78,
-      "confidence": 74
-    },
-    {
-      "timestamp": "2026-10-01T22:10:27.014Z",
-      "title": "Everything Apple could still launch before the end of 2026 - Macworld",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 61,
-      "adaptivePriority": 77,
-      "confidence": 61
-    },
-    {
-      "timestamp": "2026-10-01T22:10:27.014Z",
-      "title": "NVIDIA Launches Open Agent Safety Platform to Secure Agents From Testing to Deployment - NVIDIA Newsroom",
-      "category": "Product Launches",
-      "decision": "hold",
-      "score": 61,
-      "adaptivePriority": 77,
-      "confidence": 68
-    },
-    {
-      "timestamp": "2026-10-01T22:10:27.014Z",
-      "title": "NLR Battery Innovation Awarded NASA’s Invention of the Year - CleanTechnica",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-10-01T22:10:27.014Z",
-      "title": "Opinion: Why Canada’s health Innovation bottleneck is adoption, not invention - University of Waterloo",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-10-01T22:10:27.014Z",
-      "title": "A History of Invention and Innovation - bu.edu",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-10-01T22:10:27.014Z",
-      "title": "From Edison’s Invention Factory to the new architecture of innovation - Science | AAAS",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 58,
-      "adaptivePriority": 74,
-      "confidence": 58
-    },
-    {
-      "timestamp": "2026-10-01T22:10:27.014Z",
-      "title": "Innovation beyond invention will bring novel medicines to Europe’s patients - pharmaphorum",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 58,
-      "adaptivePriority": 74,
-      "confidence": 58
-    },
-    {
-      "timestamp": "2026-10-01T22:10:27.014Z",
-      "title": "Palo Alto Networks joins UAH Invention to Innovation Center as Corporate Innovation Partner | Newswise - newswise.com",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 58,
-      "adaptivePriority": 74,
-      "confidence": 58
-    },
     {
       "timestamp": "2026-10-02T03:08:23.687Z",
       "title": "Research, innovation and invention top priority for prosperity, Minister Pun says - The Rising Nepal",
@@ -1801,6 +1621,186 @@
       "score": 68,
       "adaptivePriority": 68,
       "confidence": 93
+    },
+    {
+      "timestamp": "2026-10-04T11:33:03.285Z",
+      "title": "Innovation, invention, scientific investigation on display - Times.co.nz",
+      "category": "Innovation",
+      "decision": "review",
+      "score": 79,
+      "adaptivePriority": 95,
+      "confidence": 87
+    },
+    {
+      "timestamp": "2026-10-04T11:33:03.285Z",
+      "title": "Research, innovation and invention top priority for prosperity, Minister Pun says - The Rising Nepal",
+      "category": "Innovation",
+      "decision": "review",
+      "score": 65,
+      "adaptivePriority": 81,
+      "confidence": 64
+    },
+    {
+      "timestamp": "2026-10-04T11:33:03.285Z",
+      "title": "Innovation, Invention and Impact: NJIT Undergrads Present Summer Research - NJIT News",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 62,
+      "adaptivePriority": 78,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-10-04T11:33:03.285Z",
+      "title": "NLR Battery Innovation Awarded NASA’s Invention of the Year - CleanTechnica",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-10-04T11:33:03.285Z",
+      "title": "Opinion: Why Canada’s health Innovation bottleneck is adoption, not invention - University of Waterloo",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-10-04T11:33:03.285Z",
+      "title": "A History of Invention and Innovation - Boston University",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-10-04T11:33:03.285Z",
+      "title": "From Edison’s Invention Factory to the new architecture of innovation - Science | AAAS",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-10-04T11:33:03.285Z",
+      "title": "Innovation beyond invention will bring novel medicines to Europe’s patients - pharmaphorum",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-10-04T11:33:03.285Z",
+      "title": "Palo Alto Networks joins UAH Invention to Innovation Center as Corporate Innovation Partner | Newswise - Newswise",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-10-04T11:33:03.285Z",
+      "title": "Malaysian Brothers Win Highest Invention Award at WYIE 2026 for AI Education Innovation - SME & Entrepreneurship Magazine",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-10-04T11:33:03.285Z",
+      "title": "America's true innovation advantage: we don't just invent technologies — we reinvent how innovation works - Fortune",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 57,
+      "adaptivePriority": 73,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-10-04T11:33:03.285Z",
+      "title": "From invention to impact: Hong Kong Science Fair gives young innovators a wider stage - South China Morning Post",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 56,
+      "adaptivePriority": 72,
+      "confidence": 59
+    },
+    {
+      "timestamp": "2026-10-04T11:33:03.285Z",
+      "title": "Challenges of protecting innovation in an artificial (intelligence) world - McAfee & Taft",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 56,
+      "adaptivePriority": 72,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-10-04T11:33:03.285Z",
+      "title": "India’s next challenge — from invention to global scale - The Hindu",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 55,
+      "adaptivePriority": 71,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-10-04T11:33:03.285Z",
+      "title": "Leaders at Davos 2026 on how we can deploy innovation and technology at scale and responsibly - The World Economic Forum",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 55,
+      "adaptivePriority": 71,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-10-04T11:33:03.285Z",
+      "title": "Patent push aimed at improving innovation - China Daily",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 55,
+      "adaptivePriority": 71,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-10-04T11:33:03.285Z",
+      "title": "6 recent scientific breakthroughs and discoveries - The Week",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 55,
+      "adaptivePriority": 71,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-10-04T11:33:03.285Z",
+      "title": "Electronics Major Arduino Opens Edge AI Invention Lab at IIT Delhi for Hands-On AI Learning - analyticsindiamag.com",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 55,
+      "adaptivePriority": 71,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-10-04T11:33:03.285Z",
+      "title": "Tom Lee's Bitmine Is Buying Ethereum Hand Over Fist. Is the Long-Awaited Crypto Bull Market Finally Here? - fool.com",
+      "category": "Crypto",
+      "decision": "review",
+      "score": 70,
+      "adaptivePriority": 70,
+      "confidence": 87
+    },
+    {
+      "timestamp": "2026-10-04T11:33:03.285Z",
+      "title": "Agreement builds bridge for space research and innovation - Ohio State University (OSU)",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 54,
+      "adaptivePriority": 70,
+      "confidence": 60
     }
   ],
   "categoryStats": {
