@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-04T16:12:44.980Z",
+  "generatedAt": "2026-10-04T16:13:34.281Z",
   "policy": {
     "refreshCandidateScore": 75,
     "watchScore": 45,
@@ -402,7 +402,7 @@
       "title": "Aligning Public Finance With Technology Readiness in Clean Energy",
       "category": "Technology",
       "publishedAt": "2026-09-21T07:49:33.878Z",
-      "ageDays": 13.3,
+      "ageDays": 13.4,
       "ageState": "watch",
       "words": 335,
       "sourceCount": 2,
@@ -1029,7 +1029,7 @@
       "title": "Aligning Public Finance With Technology Readiness in Clean Energy",
       "category": "Technology",
       "publishedAt": "2026-09-21T07:49:33.878Z",
-      "ageDays": 13.3,
+      "ageDays": 13.4,
       "ageState": "watch",
       "words": 335,
       "sourceCount": 2,
