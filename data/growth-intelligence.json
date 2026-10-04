@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T11:33:45.909Z",
+  "generatedAt": "2026-10-04T16:12:45.028Z",
   "policy": {
     "privacyFirst": true,
     "noPersonalTracking": true,
     "noPaidTrafficRequired": true
   },
   "summary": {
-    "totalArticles": 36,
+    "totalArticles": 37,
     "averageEditorialScore": 76,
     "editorialReviewCount": 25,
     "refreshCandidates": 14
@@ -15,18 +15,18 @@
   "categoryMix": [
     {
       "category": "AI",
-      "count": 12,
-      "share": 33.3
+      "count": 13,
+      "share": 35.1
     },
     {
       "category": "Technology",
       "count": 7,
-      "share": 19.4
+      "share": 18.9
     },
     {
       "category": "How-To",
       "count": 3,
-      "share": 8.3
+      "share": 8.1
     },
     {
       "category": "Innovation",
@@ -36,29 +36,37 @@
     {
       "category": "Product Launches",
       "count": 1,
-      "share": 2.8
+      "share": 2.7
     },
     {
       "category": "Digital Life",
       "count": 7,
-      "share": 19.4
+      "share": 18.9
     },
     {
       "category": "Crypto",
       "count": 5,
-      "share": 13.9
+      "share": 13.5
     }
   ],
   "missingCategories": [
     "Innovation"
   ],
-  "overrepresentedCategories": [],
+  "overrepresentedCategories": [
+    "AI"
+  ],
   "recommendations": [
     "Prioritize missing categories: Innovation.",
+    "Reduce short-term concentration in: AI.",
     "25 article(s) are in editorial review; improve them before treating them as growth winners.",
     "14 older/incomplete article(s) are refresh candidates."
   ],
   "recentArticles": [
+    {
+      "title": "Trump Launches Super Intelligence Force to Coordinate U.S. AI Policy",
+      "category": "AI",
+      "publishedAt": "2026-10-04T16:11:38.821Z"
+    },
     {
       "title": "Apple Tightens Mac Disk Access After AI‑Driven Privacy Concerns",
       "category": "Digital Life",
@@ -103,11 +111,6 @@
       "title": "OpenAI Slows AI Training After Hugging Face Breach",
       "category": "Digital Life",
       "publishedAt": "2026-09-28T02:35:05.561Z"
-    },
-    {
-      "title": "Bitcoin as an Exit Asset, Ethereum as New Rails: Diverging Views From Former BlackRock Executive and Bitwise",
-      "category": "Crypto",
-      "publishedAt": "2026-09-27T04:46:35.135Z"
     }
   ]
 }

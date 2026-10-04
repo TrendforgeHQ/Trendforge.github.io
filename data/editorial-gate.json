@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T03:24:46.573Z",
+  "generatedAt": "2026-10-04T16:11:38.822Z",
   "provider": "Groq",
   "editorial": {
     "passed": true,
@@ -22,8 +22,8 @@
       "noHighSimilaritySource": true
     },
     "metrics": {
-      "normalizedLength": 2937,
-      "sentenceCount": 23,
+      "normalizedLength": 2707,
+      "sentenceCount": 18,
       "maxSourceSimilarity": 0,
       "maxCommonPhrase": 0
     }
@@ -31,15 +31,15 @@
   "semanticDuplicateCheck": "passed",
   "sourceRelationshipCheck": "passed",
   "verifiedEvidenceDomains": [
-    "zdnet.com",
-    "theverge.com",
-    "mashable.com",
-    "popsci.com"
+    "techcrunch.com",
+    "hindustantimes.com",
+    "indiatoday.in",
+    "economictimes.indiatimes.com"
   ],
   "primarySourceCount": 0,
   "grounding": {
     "sourceCount": 4,
-    "usablePassages": 38,
+    "usablePassages": 14,
     "primarySourceCount": 0
   }
 }

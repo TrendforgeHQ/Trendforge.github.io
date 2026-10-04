@@ -1,53 +1,27 @@
 {
   "version": 1,
-  "title": "The best early October Prime Day deals happening now",
-  "mode": "bounded",
+  "title": "Trump Announces ‘Super Intelligence Force’ to Coordinate US AI Policy - Open Magazine",
+  "mode": "narrow",
   "wordBudget": {
-    "min": 425,
-    "max": 750,
-    "soft": 588
+    "min": 231,
+    "max": 420,
+    "soft": 326
   },
   "h2Budget": {
-    "preferredMin": 2,
-    "preferredMax": 4
+    "preferredMin": 1,
+    "preferredMax": 2
   },
-  "atomicClaimBudget": 18,
+  "atomicClaimBudget": 9,
   "allowedFactIds": [
     "F1",
     "F2",
-    "F3",
     "F4",
     "F5",
     "F6",
     "F7",
     "F8",
-    "F9",
     "F10",
-    "F11",
-    "F12",
-    "F14",
-    "F16",
-    "F17",
-    "F18",
-    "F19",
-    "F20",
-    "F21",
-    "F22",
-    "F24",
-    "F25",
-    "F26",
-    "F27",
-    "F28",
-    "F29",
-    "F30",
-    "F31",
-    "F32",
-    "F33",
-    "F34",
-    "F35",
-    "F36",
-    "F37",
-    "F38"
+    "F14"
   ],
   "synthesis": {
     "allowed": true,
@@ -56,39 +30,13 @@
     "allowedFactIds": [
       "F1",
       "F2",
-      "F3",
       "F4",
       "F5",
       "F6",
       "F7",
       "F8",
-      "F9",
       "F10",
-      "F11",
-      "F12",
-      "F14",
-      "F16",
-      "F17",
-      "F18",
-      "F19",
-      "F20",
-      "F21",
-      "F22",
-      "F24",
-      "F25",
-      "F26",
-      "F27",
-      "F28",
-      "F29",
-      "F30",
-      "F31",
-      "F32",
-      "F33",
-      "F34",
-      "F35",
-      "F36",
-      "F37",
-      "F38"
+      "F14"
     ]
   },
   "rules": {
@@ -97,7 +45,7 @@
     "newEntitiesInSynthesis": false,
     "newCausalityInSynthesis": false
   },
-  "generatedAt": "2026-10-04T03:24:46.573Z",
-  "articleTitle": "Amazon’s Early‑October Prime Big Deal Days Deals Are Live, Up to 77% Off",
-  "articleSlug": "amazon-s-early-october-prime-big-deal-days-deals-are-live-up-to-77-off"
+  "generatedAt": "2026-10-04T16:11:38.823Z",
+  "articleTitle": "Trump Launches Super Intelligence Force to Coordinate U.S. AI Policy",
+  "articleSlug": "trump-launches-super-intelligence-force-to-coordinate-u-s-ai-policy"
 }

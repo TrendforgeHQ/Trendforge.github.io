@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-04T11:33:40.860Z",
+  "generatedAt": "2026-10-04T16:12:37.799Z",
   "status": "pass",
-  "currentGeneratedArticle": null,
-  "currentScore": null,
+  "currentGeneratedArticle": "trump-launches-super-intelligence-force-to-coordinate-u-s-ai-policy",
+  "currentScore": 86,
   "identity": {
     "method": "brief.title",
     "rejectedMarker": false
@@ -632,6 +632,21 @@
         "evidence confidence needs improvement",
         "source strength/diversity needs improvement"
       ]
+    },
+    {
+      "slug": "trump-launches-super-intelligence-force-to-coordinate-u-s-ai-policy",
+      "title": "Trump Launches Super Intelligence Force to Coordinate U.S. AI Policy",
+      "category": "AI",
+      "score": 86,
+      "decision": "publish_ready",
+      "dimensions": {
+        "evidence": 80,
+        "usefulness": 84,
+        "clarity": 90,
+        "originality": 86,
+        "sourceStrength": 92
+      },
+      "reasons": []
     },
     {
       "slug": "u-s-agencies-board-oil-tankers-after-cyberattacks-target-navigation-and-propulsion-systems",

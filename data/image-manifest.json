@@ -1,12 +1,78 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-04T11:33:44.769Z",
+  "generatedAt": "2026-10-04T16:12:43.914Z",
   "model": "@cf/black-forest-labs/flux-1-schnell",
   "width": 1024,
   "height": 576,
   "steps": 4,
-  "generated": 0,
+  "generated": 1,
   "skipped": 0,
   "failed": 0,
-  "images": {}
+  "images": {
+    "trump-launches-super-intelligence-force-to-coordinate-u-s-ai-policy": {
+      "status": "generated",
+      "image": "/Trendforge/images/articles/trump-launches-super-intelligence-force-to-coordinate-u-s-ai-policy.1024x576.png",
+      "generatedBy": "@cf/black-forest-labs/flux-1-schnell",
+      "width": 1024,
+      "height": 576,
+      "steps": 4,
+      "elapsedMs": 2213,
+      "bytes": 475483,
+      "visualBrief": {
+        "version": 2,
+        "mode": "documentary-person",
+        "primarySubject": "President Donald Trump, the central person named by the story",
+        "scene": "A restrained documentary technology-publication photograph of the central person publicly speaking, being interviewed, or addressing an industry audience in a context that directly matches the article.",
+        "supportingElements": [
+          "softly blurred audience or event environment",
+          "minimal event context"
+        ],
+        "composition": "Medium or medium-wide horizontal frame; subject slightly off-center; back, side, over-the-shoulder, cropped, silhouette, or natural-distance framing so the face is not clearly identifiable.",
+        "company": null,
+        "namedPerson": "President Donald Trump",
+        "category": "AI",
+        "storyAnchors": [
+          "trump",
+          "launches",
+          "super",
+          "intelligence",
+          "force",
+          "coordinate",
+          "policy",
+          "former"
+        ],
+        "avoid": [
+          "generic office imagery",
+          "random tablet or laptop",
+          "generic futuristic technology",
+          "glowing holograms, floating code, HUDs and neon sci-fi effects",
+          "prominent readable text or fake headlines",
+          "generic product hero replacing the person",
+          "invented facial likeness",
+          "random consumer electronics as the main subject"
+        ]
+      },
+      "relevance": {
+        "passed": false,
+        "anchors": [
+          "trump",
+          "launches",
+          "super",
+          "intelligence",
+          "force",
+          "coordinate",
+          "policy",
+          "former"
+        ],
+        "matchedAnchors": [
+          "trump"
+        ],
+        "entityMatches": [
+          "president donald trump"
+        ],
+        "score": 0.125
+      },
+      "promptLength": 1900
+    }
+  }
 }
