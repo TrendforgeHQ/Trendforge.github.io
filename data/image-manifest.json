@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-04T20:43:44.654Z",
+  "generatedAt": "2026-10-05T03:03:16.979Z",
   "model": "@cf/black-forest-labs/flux-1-schnell",
   "width": 1024,
   "height": 576,
@@ -9,19 +9,19 @@
   "skipped": 0,
   "failed": 0,
   "images": {
-    "tether-reintroduces-usdt-to-bitcoin-what-it-means-for-the-network": {
+    "security-guard-wanted-after-shooting-man-outside-club-on-spring-garden": {
       "status": "generated",
-      "image": "/Trendforge/images/articles/tether-reintroduces-usdt-to-bitcoin-what-it-means-for-the-network.1024x576.png",
+      "image": "/Trendforge/images/articles/security-guard-wanted-after-shooting-man-outside-club-on-spring-garden.1024x576.png",
       "generatedBy": "@cf/black-forest-labs/flux-1-schnell",
       "width": 1024,
       "height": 576,
       "steps": 4,
       "elapsedMs": 2289,
-      "bytes": 557674,
+      "bytes": 592861,
       "visualBrief": {
         "version": 2,
         "mode": "editorial-photography",
-        "primarySubject": "the most concrete physical subject, event, organization, or action explicitly described by the story, centered on tether, reintroduces, usdt, bitcoin",
+        "primarySubject": "the most concrete physical subject, event, organization, or action explicitly described by the story, centered on security, guard, wanted, shooting",
         "scene": "A commissioned technology-publication photograph of that concrete subject or event, not a category-level representation.",
         "supportingElements": [
           "only contextual elements that directly explain the story"
@@ -29,16 +29,16 @@
         "composition": "One hero subject with one or two supporting elements, natural editorial lighting and strong negative space.",
         "company": null,
         "namedPerson": null,
-        "category": "Crypto",
+        "category": "Digital Life",
         "storyAnchors": [
-          "tether",
-          "reintroduces",
-          "usdt",
-          "bitcoin",
-          "means",
-          "network",
-          "return",
-          "billion"
+          "security",
+          "guard",
+          "wanted",
+          "shooting",
+          "outside",
+          "club",
+          "spring",
+          "garden"
         ],
         "avoid": [
           "generic office imagery",
@@ -51,20 +51,20 @@
       "relevance": {
         "passed": true,
         "anchors": [
-          "tether",
-          "reintroduces",
-          "usdt",
-          "bitcoin",
-          "means",
-          "network",
-          "return",
-          "billion"
+          "security",
+          "guard",
+          "wanted",
+          "shooting",
+          "outside",
+          "club",
+          "spring",
+          "garden"
         ],
         "matchedAnchors": [
-          "tether",
-          "reintroduces",
-          "usdt",
-          "bitcoin"
+          "security",
+          "guard",
+          "wanted",
+          "shooting"
         ],
         "entityMatches": [],
         "score": 0.5

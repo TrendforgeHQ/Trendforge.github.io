@@ -1,18 +1,18 @@
 {
   "version": 18,
-  "generatedAt": "2026-10-04T20:43:34.322Z",
-  "articlePath": "content/articles/tether-reintroduces-usdt-to-bitcoin-what-it-means-for-the-network.md",
-  "articleTitle": "Tether Reintroduces USDT to Bitcoin: What It Means for the Network",
+  "generatedAt": "2026-10-05T03:03:06.383Z",
+  "articlePath": "content/articles/security-guard-wanted-after-shooting-man-outside-club-on-spring-garden.md",
+  "articleTitle": "Security Guard Wanted After Shooting Man Outside Club on Spring Garden",
   "verificationMode": "authoritative-evidence-pack-v20-fact-map-synthesis",
   "sourceCount": 2,
   "usableSourceCount": 2,
-  "claimCount": 18,
+  "claimCount": 9,
   "editorialCount": 1,
-  "verified": 16,
-  "partial": 2,
+  "verified": 9,
+  "partial": 0,
   "unsupported": 0,
   "sourceUnavailable": 0,
-  "averageConfidence": 81,
+  "averageConfidence": 94,
   "pass": true,
   "policy": {
     "verifiedMin": 62,
@@ -45,168 +45,95 @@
   "sources": [
     {
       "id": "S1",
-      "title": "Tether Brings Its $184 Billion Stablecoin Back to Bitcoin: Will BTC Regain Its Role as a Payments Network? - Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/tether-brings-184-billion-stablecoin-130029648.html",
-      "domain": "finance.yahoo.com",
-      "passageCount": 24,
-      "articleBodyLength": 3212
+      "title": "Spring Garden Security Guard Flees After Shooting Man Outside Club - Hoodline",
+      "url": "https://hoodline.com/2026/10/spring-garden-security-guard-flees-after-shooting-man-outside-club/",
+      "domain": "hoodline.com",
+      "passageCount": 8,
+      "articleBodyLength": 1273
     },
     {
       "id": "S2",
-      "title": "Tether Brings Its $184 Billion Stablecoin Back to Bitcoin: Will BTC Regain Its Role as a Payments Network? - 247wallst.com",
-      "url": "https://247wallst.com/investing/cryptocurrency/2026/10/04/tether-brings-its-184-billion-stablecoin-back-to-bitcoin-will-btc-regain-its-role-as-a-payments-network/",
-      "domain": "247wallst.com",
-      "passageCount": 35,
-      "articleBodyLength": 4895
+      "title": "Security guard sought after man shot outside club in Spring Garden - 6abc Philadelphia",
+      "url": "https://6abc.com/post/security-guard-sought-man-shot-outside-club-spring-garden/19907091/",
+      "domain": "6abc.com",
+      "passageCount": 4,
+      "articleBodyLength": 487
     }
   ],
   "claims": [
     {
       "index": 1,
-      "claim": "In October 2026, Tether announced that its USDT stablecoin would once again be issued on Bitcoin after a 12‑year hiatus.",
+      "claim": "A security guard is wanted by Philadelphia police after shooting a man during a confrontation outside a club on the 1000 block of Spring Garden Street early Sunday.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 93,
+      "confidence": 100,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Tether Brings Its $184 Billion Stablecoin Back to Bitcoin: Will BTC Regain Its Role as a Payments Network? - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/tether-brings-184-billion-stablecoin-130029648.html",
-      "bestDomain": "finance.yahoo.com",
+      "bestSource": "Spring Garden Security Guard Flees After Shooting Man Outside Club - Hoodline",
+      "bestUrl": "https://hoodline.com/2026/10/spring-garden-security-guard-flees-after-shooting-man-outside-club/",
+      "bestDomain": "hoodline.com",
       "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
         "factId": "F1",
         "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 67
+        "score": 100
       },
       "provenanceFactMatches": [
-        {
-          "factId": "F26",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 79,
-          "passageIndex": 3
-        },
         {
           "factId": "F1",
           "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 67,
-          "passageIndex": 2
+          "score": 100,
+          "passageIndex": 1
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "Tether is set to relaunch its USDT ( CRYPTO: USDT ) stablecoin on the Bitcoin ( CRYPTO: BTC ) network in October 2026, marking a return 12 years after its initial launch. Tether relaunches its $184 billion USDT on Bitcoin in October 2026, 12 years after abandoning it for faster, cheaper networks like Tron and Ethereum.",
-      "bestPassage": "Tether is set to relaunch its USDT ( CRYPTO: USDT ) stablecoin on the Bitcoin ( CRYPTO: BTC ) network in October 2026, marking a return 12 years after its initial launch. Tether relaunches its $184 billion USDT on Bitcoin in October 2026, 12 years after abandoning it for faster, cheaper networks like Tron and Ethereum.",
+      "bestPassageId": "S1-FF1",
+      "evidence": "A security guard is wanted by Philadelphia police after shooting a man during a confrontation outside a club on the 1000 block of Spring Garden Street early Sunday.",
+      "bestPassage": "A security guard is wanted by Philadelphia police after shooting a man during a confrontation outside a club on the 1000 block of Spring Garden Street early Sunday.",
       "matchedPassages": [
+        "S1-P1",
         "S1-BODY"
       ],
       "sharedTerms": [
-        "october",
-        "2026",
-        "tether",
-        "announce",
-        "its",
-        "usdt",
-        "stablecoin",
-        "issu",
-        "btc",
-        "year"
+        "security",
+        "guard",
+        "want",
+        "philadelphia",
+        "police",
+        "shoot",
+        "man",
+        "dur",
+        "confrontation",
+        "outside",
+        "club",
+        "the",
+        "1000",
+        "block",
+        "spr",
+        "garden",
+        "street",
+        "early",
+        "sunday"
       ],
       "entityShared": [
-        "october",
-        "tether",
-        "usdt",
-        "btc"
+        "philadelphia",
+        "spr",
+        "garden",
+        "street",
+        "sunday"
       ],
       "topicShared": [
-        "tether",
-        "its",
-        "stablecoin",
-        "btc"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": true,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 2,
-      "multiFactSupported": true,
-      "directFactExact": true,
-      "directExact": true,
-      "matchingMode": "fact-map-multi-fact-anchored"
-    },
-    {
-      "index": 2,
-      "claim": "The relaunch follows the company’s earlier shift away from Bitcoin toward faster, cheaper chains such as Tron and Ethereum.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 81,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Tether Brings Its $184 Billion Stablecoin Back to Bitcoin: Will BTC Regain Its Role as a Payments Network? - 247wallst.com",
-      "bestUrl": "https://247wallst.com/investing/cryptocurrency/2026/10/04/tether-brings-its-184-billion-stablecoin-back-to-bitcoin-will-btc-regain-its-role-as-a-payments-network/",
-      "bestDomain": "247wallst.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F28",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 72
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F28",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 72,
-          "passageIndex": 4
-        },
-        {
-          "factId": "F1",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 61,
-          "passageIndex": 2
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-FF28,S1-FF1",
-      "evidence": "In previous years, USDT shifted away from Bitcoin to take advantage of faster and cheaper networks, predominantly operating on platforms like Tron and Ethereum. Tether relaunches its $184 billion USDT on Bitcoin in October 2026, 12 years after abandoning it for faster, cheaper networks like Tron and Ethereum.",
-      "bestPassage": "In previous years, USDT shifted away from Bitcoin to take advantage of faster and cheaper networks, predominantly operating on platforms like Tron and Ethereum. Tether relaunches its $184 billion USDT on Bitcoin in October 2026, 12 years after abandoning it for faster, cheaper networks like Tron and Ethereum.",
-      "matchedPassages": [
-        "S2-BODY",
-        "S2-P4"
-      ],
-      "sharedTerms": [
-        "relaunch",
-        "shift",
-        "away",
-        "btc",
-        "faster",
-        "cheaper",
-        "tron",
-        "and",
-        "eth"
-      ],
-      "entityShared": [
-        "btc",
-        "tron",
-        "eth"
-      ],
-      "topicShared": [
-        "btc"
+        "security",
+        "guard",
+        "philadelphia",
+        "man",
+        "outside",
+        "club",
+        "spr",
+        "garden"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -221,313 +148,135 @@
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 2,
-      "multiFactSupported": true,
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "direct-exact-evidence"
+    },
+    {
+      "index": 2,
+      "claim": "Investigators say the guard pulled out a gun and shot the man before running from the scene.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 94,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Spring Garden Security Guard Flees After Shooting Man Outside Club - Hoodline",
+      "bestUrl": "https://hoodline.com/2026/10/spring-garden-security-guard-flees-after-shooting-man-outside-club/",
+      "bestDomain": "hoodline.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F4",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 94
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F4",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 94,
+          "passageIndex": 2
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-P4",
+      "evidence": "Investigators say the guard pulled out a gun and shot the man before running from the scene.",
+      "bestPassage": "Investigators say the guard pulled out a gun and shot the man before running from the scene.",
+      "matchedPassages": [
+        "S1-P4",
+        "S1-BODY"
+      ],
+      "sharedTerms": [
+        "investigator",
+        "say",
+        "the",
+        "guard",
+        "pull",
+        "out",
+        "gun",
+        "and",
+        "shot",
+        "man",
+        "runn",
+        "scene"
+      ],
+      "entityShared": [
+        "investigator"
+      ],
+      "topicShared": [
+        "guard",
+        "shot",
+        "man"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
       "directFactExact": false,
       "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
+      "matchingMode": "fact-map-anchored-source-passage"
     },
     {
       "index": 3,
-      "claim": "The new integration will link Bitcoin, the oldest blockchain, directly with USDT, the largest stablecoin that aims to hold a value of one U.S. dollar.",
+      "claim": "Officers responded to the location at about 12:30 a.m. for a reported shooting.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 88,
+      "confidence": 82,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Tether Brings Its $184 Billion Stablecoin Back to Bitcoin: Will BTC Regain Its Role as a Payments Network? - 247wallst.com",
-      "bestUrl": "https://247wallst.com/investing/cryptocurrency/2026/10/04/tether-brings-its-184-billion-stablecoin-back-to-bitcoin-will-btc-regain-its-role-as-a-payments-network/",
-      "bestDomain": "247wallst.com",
+      "bestSource": "Security guard sought after man shot outside club in Spring Garden - 6abc Philadelphia",
+      "bestUrl": "https://6abc.com/post/security-guard-sought-man-shot-outside-club-spring-garden/19907091/",
+      "bestDomain": "6abc.com",
       "sourceId": "S2",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F27",
+        "factId": "F9",
         "sourceId": "S2",
         "sourceRole": "DIRECT_REPORTING",
         "score": 82
       },
       "provenanceFactMatches": [
         {
-          "factId": "F2",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 82,
-          "passageIndex": 6
-        },
-        {
-          "factId": "F27",
+          "factId": "F9",
           "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
           "score": 82,
-          "passageIndex": 3
+          "passageIndex": 1
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "This new integration will connect Bitcoin, the oldest blockchain, directly with USDT, the largest stablecoin valued at around $184 billion, designed to maintain a value of $1. This new integration will connect Bitcoin, the oldest blockchain, directly with USDT, the largest stablecoin valued at around $184 billion, designed to maintain a value of $1.",
-      "bestPassage": "This new integration will connect Bitcoin, the oldest blockchain, directly with USDT, the largest stablecoin valued at around $184 billion, designed to maintain a value of $1. This new integration will connect Bitcoin, the oldest blockchain, directly with USDT, the largest stablecoin valued at around $184 billion, designed to maintain a value of $1.",
+      "bestPassageId": "S2-FF9",
+      "evidence": "Officers responded to the 1000 block of Spring Garden Street at about 12:30 a.m. for a reported shooting.",
+      "bestPassage": "Officers responded to the 1000 block of Spring Garden Street at about 12:30 a.m. for a reported shooting.",
       "matchedPassages": [
-        "S2-BODY",
-        "S2-P3"
+        "S2-P1",
+        "S2-BODY"
       ],
       "sharedTerms": [
+        "officer",
+        "respond",
         "the",
-        "new",
-        "integration",
-        "btc",
-        "oldest",
-        "blockchain",
-        "directly",
-        "usdt",
-        "largest",
-        "stablecoin",
-        "value",
-        "one",
-        "dollar"
-      ],
-      "entityShared": [
-        "btc",
-        "usdt"
-      ],
-      "topicShared": [
-        "btc",
-        "stablecoin"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 2,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
-    },
-    {
-      "index": 4,
-      "claim": "The issuance will be handled by Utexo, a firm backed by Tether that holds a license to distribute USDT under Tether’s brand through exchanges, wallets and payment providers.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 87,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Tether Brings Its $184 Billion Stablecoin Back to Bitcoin: Will BTC Regain Its Role as a Payments Network? - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/tether-brings-184-billion-stablecoin-130029648.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F10",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 87
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F10",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 87,
-          "passageIndex": 8
-        },
-        {
-          "factId": "F36",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 87,
-          "passageIndex": 5
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-FF10,S2-FF36",
-      "evidence": "This time, Utexo—a company backed by Tether with a license to distribute USDT under Tether's brand through exchanges, wallets, and payment providers —will issue USDT. This time, Utexo—a company backed by Tether with a license to distribute USDT under Tether’s brand through exchanges, wallets, and payment providers —will issue USDT.",
-      "bestPassage": "This time, Utexo—a company backed by Tether with a license to distribute USDT under Tether's brand through exchanges, wallets, and payment providers —will issue USDT. This time, Utexo—a company backed by Tether with a license to distribute USDT under Tether’s brand through exchanges, wallets, and payment providers —will issue USDT.",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P10"
-      ],
-      "sharedTerms": [
-        "utexo",
-        "support",
-        "tether",
-        "license",
-        "distribute",
-        "usdt",
-        "brand",
-        "exchang",
-        "wallet",
-        "and",
-        "payment",
-        "provider"
-      ],
-      "entityShared": [
-        "utexo",
-        "tether",
-        "usdt"
-      ],
-      "topicShared": [
-        "tether",
-        "payment"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 2,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
-    },
-    {
-      "index": 5,
-      "claim": "Utexo also plans to embed USDT in the Lightning Network, Bitcoin’s layer‑two payment system.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 89,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Tether Brings Its $184 Billion Stablecoin Back to Bitcoin: Will BTC Regain Its Role as a Payments Network? - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/tether-brings-184-billion-stablecoin-130029648.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F18",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 89
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F18",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 89,
-          "passageIndex": 9
-        },
-        {
-          "factId": "F44",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 89,
-          "passageIndex": 6
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-FF18,S2-FF44",
-      "evidence": "Utexo also plans to integrate USDT into the Lightning Network, Bitcoin's faster payment layer. Utexo also plans to integrate USDT into the Lightning Network, Bitcoin’s faster payment layer.",
-      "bestPassage": "Utexo also plans to integrate USDT into the Lightning Network, Bitcoin's faster payment layer. Utexo also plans to integrate USDT into the Lightning Network, Bitcoin’s faster payment layer.",
-      "matchedPassages": [
-        "S1-P18",
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "utexo",
-        "plan",
-        "usdt",
-        "the",
-        "lightn",
-        "network",
-        "btc",
-        "layer",
-        "payment"
-      ],
-      "entityShared": [
-        "utexo",
-        "usdt",
-        "lightn",
-        "network",
-        "btc"
-      ],
-      "topicShared": [
-        "network",
-        "btc",
-        "payment"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 2,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
-    },
-    {
-      "index": 6,
-      "claim": "This combination of on‑chain and off‑chain deployment is intended to make USDT more usable for faster transactions.",
-      "status": "partial",
-      "classification": "supported_with_context",
-      "confidence": 55,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Tether Brings Its $184 Billion Stablecoin Back to Bitcoin: Will BTC Regain Its Role as a Payments Network? - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/tether-brings-184-billion-stablecoin-130029648.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F1",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 35
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F1",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 35,
-          "passageIndex": 2
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "Tether relaunches its $184 billion USDT on Bitcoin in October 2026, 12 years after abandoning it for faster, cheaper networks like Tron and Ethereum.",
-      "bestPassage": "Tether relaunches its $184 billion USDT on Bitcoin in October 2026, 12 years after abandoning it for faster, cheaper networks like Tron and Ethereum.",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P1"
-      ],
-      "sharedTerms": [
-        "and",
-        "off",
-        "usdt",
         "for",
-        "faster",
-        "transaction"
+        "report",
+        "shoot"
       ],
       "entityShared": [
-        "usdt"
+        "officer"
       ],
       "topicShared": [],
       "numericMismatch": false,
@@ -537,246 +286,246 @@
       "attributionUncertainty": {
         "evidenceUncertain": false,
         "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
+        "evidenceAttributed": true,
+        "claimAttributed": true,
         "certaintyEscalation": false,
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 2,
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "direct-exact-evidence"
+    },
+    {
+      "index": 4,
+      "claim": "According to investigators, the man had just left a party on the block when he became involved in a dispute with the guard.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 94,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Security guard sought after man shot outside club in Spring Garden - 6abc Philadelphia",
+      "bestUrl": "https://6abc.com/post/security-guard-sought-man-shot-outside-club-spring-garden/19907091/",
+      "bestDomain": "6abc.com",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F10",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 94
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F10",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 94,
+          "passageIndex": 2
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S2-P2",
+      "evidence": "According to investigators, the man had just left a party on the block when he became involved in a dispute with a security guard.",
+      "bestPassage": "According to investigators, the man had just left a party on the block when he became involved in a dispute with a security guard.",
+      "matchedPassages": [
+        "S2-P2",
+        "S2-BODY"
+      ],
+      "sharedTerms": [
+        "accord",
+        "investigator",
+        "the",
+        "man",
+        "had",
+        "left",
+        "party",
+        "block",
+        "became",
+        "involv",
+        "dispute",
+        "guard"
+      ],
+      "entityShared": [
+        "accord"
+      ],
+      "topicShared": [
+        "man",
+        "guard"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": true,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
       "multiFactSupported": false,
       "directFactExact": false,
       "directExact": false,
       "matchingMode": "fact-map-anchored-source-passage"
     },
     {
-      "index": 7,
-      "claim": "Even with the re‑launch, the move does not alter Bitcoin’s fundamental economics.",
+      "index": 5,
+      "claim": "The incident adds to a series of recent shootings involving security personnel at Philadelphia bars, clubs, and other event venues.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 72,
+      "confidence": 88,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Tether Brings Its $184 Billion Stablecoin Back to Bitcoin: Will BTC Regain Its Role as a Payments Network? - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/tether-brings-184-billion-stablecoin-130029648.html",
-      "bestDomain": "finance.yahoo.com",
+      "bestSource": "Spring Garden Security Guard Flees After Shooting Man Outside Club - Hoodline",
+      "bestUrl": "https://hoodline.com/2026/10/spring-garden-security-guard-flees-after-shooting-man-outside-club/",
+      "bestDomain": "hoodline.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F5",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 81
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F5",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 81,
+          "passageIndex": 3
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-BODY",
+      "evidence": "The shooting adds to a string of recent incidents in which armed security personnel have used lethal force during confrontations at Philadelphia bars, clubs, and event venues.",
+      "bestPassage": "The shooting adds to a string of recent incidents in which armed security personnel have used lethal force during confrontations at Philadelphia bars, clubs, and event venues.",
+      "matchedPassages": [
+        "S1-BODY",
+        "S1-P5"
+      ],
+      "sharedTerms": [
+        "the",
+        "incident",
+        "adds",
+        "recent",
+        "shooting",
+        "involv",
+        "security",
+        "personnel",
+        "philadelphia",
+        "bars",
+        "club",
+        "and",
+        "event",
+        "venu"
+      ],
+      "entityShared": [
+        "philadelphia"
+      ],
+      "topicShared": [
+        "security",
+        "philadelphia",
+        "club"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 6,
+      "claim": "In July 2025, a physical fight on an exterior balcony at 7 Elements bar and lounge in South Philadelphia escalated into a mass shooting that injured eight people, including two 43‑year‑old male security guards.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 100,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Spring Garden Security Guard Flees After Shooting Man Outside Club - Hoodline",
+      "bestUrl": "https://hoodline.com/2026/10/spring-garden-security-guard-flees-after-shooting-man-outside-club/",
+      "bestDomain": "hoodline.com",
       "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
         "factId": "F3",
         "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 39
+        "score": 100
       },
       "provenanceFactMatches": [
         {
           "factId": "F3",
           "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 39,
-          "passageIndex": 7
-        },
-        {
-          "factId": "F29",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 39,
+          "score": 100,
           "passageIndex": 4
-        },
-        {
-          "factId": "F13",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 31,
-          "passageIndex": 10
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "Tether CEO Paolo Ardoino captured the sentiment of this return with the phrase, \"It's coming home.\" But does this move mean that Bitcoin will become a payments network again? Tether CEO Paolo Ardoino captured the sentiment of this return with the phrase, “It’s coming home.” But does this move mean that Bitcoin will become a payments network again? As with XRP, increased network activity does not automatically increase demand for BTC.",
-      "bestPassage": "Tether CEO Paolo Ardoino captured the sentiment of this return with the phrase, \"It's coming home.\" But does this move mean that Bitcoin will become a payments network again? Tether CEO Paolo Ardoino captured the sentiment of this return with the phrase, “It’s coming home.” But does this move mean that Bitcoin will become a payments network again? As with XRP, increased network activity does not automatically increase demand for BTC.",
+      "bestPassageId": "S1-FF3",
+      "evidence": "In July 2025, a physical fight on an exterior balcony at 7 Elements bar and lounge in South Philadelphia escalated into a mass shooting that injured eight people, including two 43-year-old male security guards, according to WHYY.",
+      "bestPassage": "In July 2025, a physical fight on an exterior balcony at 7 Elements bar and lounge in South Philadelphia escalated into a mass shooting that injured eight people, including two 43-year-old male security guards, according to WHYY.",
       "matchedPassages": [
+        "S1-P3",
         "S1-BODY"
       ],
       "sharedTerms": [
-        "the",
-        "launch",
-        "move",
-        "does",
-        "not",
-        "btc"
-      ],
-      "entityShared": [
-        "btc"
-      ],
-      "topicShared": [
-        "btc"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 3,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
-    },
-    {
-      "index": 8,
-      "claim": "As with the XRP integration, higher network activity does not automatically translate into greater demand for BTC.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 91,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Tether Brings Its $184 Billion Stablecoin Back to Bitcoin: Will BTC Regain Its Role as a Payments Network? - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/tether-brings-184-billion-stablecoin-130029648.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F13",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 79
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F13",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 79,
-          "passageIndex": 10
-        },
-        {
-          "factId": "F39",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 79,
-          "passageIndex": 7
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "As with XRP, increased network activity does not automatically increase demand for BTC. As with XRP , increased network activity does not automatically increase demand for BTC.",
-      "bestPassage": "As with XRP, increased network activity does not automatically increase demand for BTC. As with XRP , increased network activity does not automatically increase demand for BTC.",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P13"
-      ],
-      "sharedTerms": [
-        "the",
-        "xrp",
-        "integration",
-        "higher",
-        "network",
-        "activity",
-        "does",
-        "not",
-        "automatically",
-        "demand",
-        "for",
-        "btc"
-      ],
-      "entityShared": [
-        "xrp",
-        "btc"
-      ],
-      "topicShared": [
-        "network",
-        "btc"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 2,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
-    },
-    {
-      "index": 9,
-      "claim": "Bitcoin’s security model, which relies on mining rewards that halve roughly every four years, continues to depend on transaction fees to compensate miners once block rewards decline.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 73,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Tether Brings Its $184 Billion Stablecoin Back to Bitcoin: Will BTC Regain Its Role as a Payments Network? - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/tether-brings-184-billion-stablecoin-130029648.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F23",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 63
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F23",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 63,
-          "passageIndex": 11
-        },
-        {
-          "factId": "F58",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 63,
-          "passageIndex": 8
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "However, as the reward for mining new coins halves roughly every four years, fees need to pay for Bitcoin's security over time. However, as the reward for mining new coins halves roughly every four years, fees need to pay for Bitcoin’s security over time.",
-      "bestPassage": "However, as the reward for mining new coins halves roughly every four years, fees need to pay for Bitcoin's security over time. However, as the reward for mining new coins halves roughly every four years, fees need to pay for Bitcoin’s security over time.",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P23"
-      ],
-      "sharedTerms": [
-        "btc",
-        "security",
-        "min",
-        "reward",
-        "roughly",
-        "every",
-        "four",
+        "july",
+        "2025",
+        "physical",
+        "fight",
+        "exterior",
+        "balcony",
+        "element",
+        "bar",
+        "and",
+        "lounge",
+        "south",
+        "philadelphia",
+        "escalat",
+        "mass",
+        "shoot",
+        "injur",
+        "eight",
+        "people",
+        "includ",
+        "two",
         "year",
-        "transaction",
-        "fees",
-        "miner",
-        "block"
+        "old",
+        "male",
+        "security",
+        "guard"
       ],
       "entityShared": [
-        "btc"
+        "july",
+        "element",
+        "south",
+        "philadelphia"
       ],
       "topicShared": [
-        "btc"
+        "philadelphia",
+        "security",
+        "guard"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -785,86 +534,86 @@
       "attributionUncertainty": {
         "evidenceUncertain": false,
         "claimUncertain": false,
-        "evidenceAttributed": false,
+        "evidenceAttributed": true,
         "claimAttributed": false,
         "certaintyEscalation": false,
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 2,
-      "multiFactSupported": true,
+      "factCoverage": 1,
+      "multiFactSupported": false,
       "directFactExact": true,
       "directExact": true,
-      "matchingMode": "fact-map-multi-fact-anchored"
+      "matchingMode": "direct-exact-evidence"
     },
     {
-      "index": 10,
-      "claim": "Tether has not announced any exchanges or payment companies that will support the Bitcoin‑based USDT version.",
+      "index": 7,
+      "claim": "In October 2025, a female security guard at a Center City IHOP on Walnut Street fatally shot a male customer following a late‑night dispute.",
       "status": "verified",
       "classification": "supported",
       "confidence": 100,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Tether Brings Its $184 Billion Stablecoin Back to Bitcoin: Will BTC Regain Its Role as a Payments Network? - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/tether-brings-184-billion-stablecoin-130029648.html",
-      "bestDomain": "finance.yahoo.com",
+      "bestSource": "Spring Garden Security Guard Flees After Shooting Man Outside Club - Hoodline",
+      "bestUrl": "https://hoodline.com/2026/10/spring-garden-security-guard-flees-after-shooting-man-outside-club/",
+      "bestDomain": "hoodline.com",
       "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F4",
+        "factId": "F6",
         "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 87
+        "score": 100
       },
       "provenanceFactMatches": [
         {
-          "factId": "F4",
+          "factId": "F6",
           "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 87,
-          "passageIndex": 13
-        },
-        {
-          "factId": "F30",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 87,
-          "passageIndex": 10
+          "score": 100,
+          "passageIndex": 3
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "So far, Tether has not disclosed any exchanges or payment companies that plan to support the Bitcoin version. So far, Tether has not disclosed any exchanges or payment companies that plan to support the Bitcoin version.",
-      "bestPassage": "So far, Tether has not disclosed any exchanges or payment companies that plan to support the Bitcoin version. So far, Tether has not disclosed any exchanges or payment companies that plan to support the Bitcoin version.",
+      "bestPassageId": "S1-P6",
+      "evidence": "In October 2025, a female security guard at a Center City IHOP on Walnut Street fatally shot a male customer following a late-night dispute, as previously reported by FOX 29 Philadelphia.",
+      "bestPassage": "In October 2025, a female security guard at a Center City IHOP on Walnut Street fatally shot a male customer following a late-night dispute, as previously reported by FOX 29 Philadelphia.",
       "matchedPassages": [
-        "S1-BODY",
-        "S1-P4"
+        "S1-P6",
+        "S1-BODY"
       ],
       "sharedTerms": [
-        "tether",
-        "has",
-        "not",
-        "announce",
-        "any",
-        "exchang",
-        "payment",
-        "compani",
-        "support",
-        "the",
-        "btc",
-        "bas",
-        "usdt",
-        "version"
+        "october",
+        "2025",
+        "female",
+        "security",
+        "guard",
+        "center",
+        "city",
+        "ihop",
+        "walnut",
+        "street",
+        "fatally",
+        "shot",
+        "male",
+        "customer",
+        "follow",
+        "late",
+        "night",
+        "dispute"
       ],
       "entityShared": [
-        "tether",
-        "btc",
-        "usdt"
+        "october",
+        "center",
+        "city",
+        "ihop",
+        "walnut",
+        "street"
       ],
       "topicShared": [
-        "tether",
-        "payment",
-        "btc"
+        "security",
+        "guard",
+        "shot"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -873,676 +622,183 @@
       "attributionUncertainty": {
         "evidenceUncertain": false,
         "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 8,
+      "claim": "In 2025, the city passed a measure, Chapter 9‑6800, mandating additional safety training for commercial security officers, but enforcement is postponed until training‑provider criteria are finalized.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 92,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Spring Garden Security Guard Flees After Shooting Man Outside Club - Hoodline",
+      "bestUrl": "https://hoodline.com/2026/10/spring-garden-security-guard-flees-after-shooting-man-outside-club/",
+      "bestDomain": "hoodline.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F7",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 92
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F7",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 92,
+          "passageIndex": 6
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-FF7",
+      "evidence": "The city passed a broader measure, Chapter 9-6800, in 2025 to mandate additional safety training for commercial security officers, but the Philadelphia Department of Labor announced in February that enforcement is postponed until city-approved training provider criteria are finalized.",
+      "bestPassage": "The city passed a broader measure, Chapter 9-6800, in 2025 to mandate additional safety training for commercial security officers, but the Philadelphia Department of Labor announced in February that enforcement is postponed until city-approved training provider criteria are finalized.",
+      "matchedPassages": [
+        "S1-P7",
+        "S1-BODY"
+      ],
+      "sharedTerms": [
+        "2025",
+        "the",
+        "city",
+        "pass",
+        "measure",
+        "chapter",
+        "6800",
+        "additional",
+        "safety",
+        "train",
+        "for",
+        "commercial",
+        "security",
+        "officer",
+        "but",
+        "enforcement",
+        "postpon",
+        "until",
+        "provider",
+        "criteria",
+        "are",
+        "finaliz"
+      ],
+      "entityShared": [
+        "chapter"
+      ],
+      "topicShared": [
+        "security"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "direct-exact-evidence"
+    },
+    {
+      "index": 9,
+      "claim": "Philadelphia police Inspector D.F. said, “There’s a lot of work to be done, and we believe there is footage in the area that may have captured some or all of the incident.” Anyone with information about the shooting is asked to contact Philadelphia police.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 100,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Security guard sought after man shot outside club in Spring Garden - 6abc Philadelphia",
+      "bestUrl": "https://6abc.com/post/security-guard-sought-man-shot-outside-club-spring-garden/19907091/",
+      "bestDomain": "6abc.com",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F11",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 85
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F11",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 85,
+          "passageIndex": 6
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S2-BODY",
+      "evidence": "\"There's a lot of work to be done, and we believe there is footage in the area that may have captured some or all of the incident,\" Philadelphia police Inspector D.F.",
+      "bestPassage": "\"There's a lot of work to be done, and we believe there is footage in the area that may have captured some or all of the incident,\" Philadelphia police Inspector D.F.",
+      "matchedPassages": [
+        "S2-BODY",
+        "S2-P3"
+      ],
+      "sharedTerms": [
+        "philadelphia",
+        "police",
+        "inspector",
+        "lot",
+        "work",
+        "done",
+        "and",
+        "believe",
+        "footage",
+        "the",
+        "area",
+        "may",
+        "captur",
+        "all",
+        "incident",
+        "anyone",
+        "information",
+        "shoot",
+        "ask",
+        "contact"
+      ],
+      "entityShared": [
+        "philadelphia",
+        "inspector",
+        "anyone"
+      ],
+      "topicShared": [
+        "philadelphia"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": true,
+        "claimUncertain": true,
         "evidenceAttributed": false,
         "claimAttributed": true,
         "certaintyEscalation": false,
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 2,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
-    },
-    {
-      "index": 12,
-      "claim": "The relaunch therefore appears to target new users who prefer a dollar‑pegged token on the Bitcoin network rather than to revive Bitcoin’s role as a widespread payments layer.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 76,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Tether Brings Its $184 Billion Stablecoin Back to Bitcoin: Will BTC Regain Its Role as a Payments Network? - 247wallst.com",
-      "bestUrl": "https://247wallst.com/investing/cryptocurrency/2026/10/04/tether-brings-its-184-billion-stablecoin-back-to-bitcoin-will-btc-regain-its-role-as-a-payments-network/",
-      "bestDomain": "247wallst.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F18",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 37
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F18",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 37,
-          "passageIndex": 9
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "Utexo also plans to integrate USDT into the Lightning Network, Bitcoin's faster payment layer.",
-      "bestPassage": "Utexo also plans to integrate USDT into the Lightning Network, Bitcoin's faster payment layer.",
-      "matchedPassages": [
-        "S2-BODY"
-      ],
-      "sharedTerms": [
-        "the",
-        "relaunch",
-        "appear",
-        "new",
-        "user",
-        "who",
-        "dollar",
-        "token",
-        "btc",
-        "network",
-        "rather",
-        "payment",
-        "layer"
-      ],
-      "entityShared": [
-        "btc"
-      ],
-      "topicShared": [
-        "btc",
-        "network",
-        "role",
-        "payment"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": true,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 3,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 13,
-      "claim": "For users, the availability of USDT on Bitcoin offers a stable‑value asset that can be sent quickly via the Lightning Network.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 83,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Tether Brings Its $184 Billion Stablecoin Back to Bitcoin: Will BTC Regain Its Role as a Payments Network? - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/tether-brings-184-billion-stablecoin-130029648.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F18",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 51
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F18",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 51,
-          "passageIndex": 9
-        },
-        {
-          "factId": "F44",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 51,
-          "passageIndex": 6
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "Utexo also plans to integrate USDT into the Lightning Network, Bitcoin's faster payment layer. Utexo also plans to integrate USDT into the Lightning Network, Bitcoin’s faster payment layer.",
-      "bestPassage": "Utexo also plans to integrate USDT into the Lightning Network, Bitcoin's faster payment layer. Utexo also plans to integrate USDT into the Lightning Network, Bitcoin’s faster payment layer.",
-      "matchedPassages": [
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "for",
-        "user",
-        "the",
-        "usdt",
-        "btc",
-        "offer",
-        "value",
-        "can",
-        "lightn",
-        "network"
-      ],
-      "entityShared": [
-        "usdt",
-        "btc",
-        "lightn",
-        "network"
-      ],
-      "topicShared": [
-        "btc",
-        "network"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": true,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 2,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
-    },
-    {
-      "index": 14,
-      "claim": "For miners and holders, the change is largely neutral: the BTC price is unlikely to shift noticeably, and miner income from block rewards and transaction fees remains governed by the existing supply schedule.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 72,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Tether Brings Its $184 Billion Stablecoin Back to Bitcoin: Will BTC Regain Its Role as a Payments Network? - 247wallst.com",
-      "bestUrl": "https://247wallst.com/investing/cryptocurrency/2026/10/04/tether-brings-its-184-billion-stablecoin-back-to-bitcoin-will-btc-regain-its-role-as-a-payments-network/",
-      "bestDomain": "247wallst.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F9",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 40
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F9",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 40,
-          "passageIndex": 16
-        },
-        {
-          "factId": "F35",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 40,
-          "passageIndex": 13
-        },
-        {
-          "factId": "F12",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 35,
-          "passageIndex": 10
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "As a result, this relaunch primarily benefits Tether by reaching new users, while Bitcoin holders see minimal short-term change in BTC price or miner income. As a result, this relaunch primarily benefits Tether by reaching new users, while Bitcoin holders see minimal short-term change in BTC price o r miner income . A USDT balance on Bitcoin represents a dollar claim on Tether, meaning it offers no exposure to Bitcoin's price fluctuations, and the limits and rules governing Bitcoin's 21 million coins remain unchanged.",
-      "bestPassage": "As a result, this relaunch primarily benefits Tether by reaching new users, while Bitcoin holders see minimal short-term change in BTC price or miner income. As a result, this relaunch primarily benefits Tether by reaching new users, while Bitcoin holders see minimal short-term change in BTC price o r miner income . A USDT balance on Bitcoin represents a dollar claim on Tether, meaning it offers no exposure to Bitcoin's price fluctuations, and the limits and rules governing Bitcoin's 21 million coins remain unchanged.",
-      "matchedPassages": [
-        "S2-BODY"
-      ],
-      "sharedTerms": [
-        "for",
-        "miner",
-        "and",
-        "holder",
-        "the",
-        "change",
-        "btc",
-        "price",
-        "shift",
-        "income",
-        "block",
-        "reward",
-        "transaction",
-        "fees",
-        "remain",
-        "govern",
-        "supply"
-      ],
-      "entityShared": [
-        "btc"
-      ],
-      "topicShared": [
-        "btc"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": true,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 3,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
-    },
-    {
-      "index": 15,
-      "claim": "The next step for stakeholders will be to observe whether any exchanges or payment services adopt the Bitcoin‑based USDT.",
-      "status": "partial",
-      "classification": "supported_with_context",
-      "confidence": 81,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Tether Brings Its $184 Billion Stablecoin Back to Bitcoin: Will BTC Regain Its Role as a Payments Network? - 247wallst.com",
-      "bestUrl": "https://247wallst.com/investing/cryptocurrency/2026/10/04/tether-brings-its-184-billion-stablecoin-back-to-bitcoin-will-btc-regain-its-role-as-a-payments-network/",
-      "bestDomain": "247wallst.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F15",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 51
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F15",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 51,
-          "passageIndex": 17
-        },
-        {
-          "factId": "F41",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 51,
-          "passageIndex": 14
-        },
-        {
-          "factId": "F4",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 49,
-          "passageIndex": 13
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "If major exchanges begin to support Bitcoin-based USDT and its supply increases steadily through March 2027, particularly with Lightning support in place, Bitcoin could reclaim a portion of the payments landscape. If major exchanges begin to support Bitcoin-based USDT and its supply increases steadily through March 2027, particularly with Lightning support in place, Bitcoin could reclaim a portion of the payments landscape. So far, Tether has not disclosed any exchanges or payment companies that plan to support the Bitcoin version.",
-      "bestPassage": "If major exchanges begin to support Bitcoin-based USDT and its supply increases steadily through March 2027, particularly with Lightning support in place, Bitcoin could reclaim a portion of the payments landscape. If major exchanges begin to support Bitcoin-based USDT and its supply increases steadily through March 2027, particularly with Lightning support in place, Bitcoin could reclaim a portion of the payments landscape. So far, Tether has not disclosed any exchanges or payment companies that plan to support the Bitcoin version.",
-      "matchedPassages": [
-        "S2-BODY"
-      ],
-      "sharedTerms": [
-        "the",
-        "for",
-        "whether",
-        "any",
-        "exchang",
-        "payment",
-        "adopt",
-        "btc",
-        "bas",
-        "usdt"
-      ],
-      "entityShared": [
-        "btc",
-        "usdt"
-      ],
-      "topicShared": [
-        "payment",
-        "btc"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": true,
-        "attributionDropped": false,
-        "blocked": true
-      },
-      "factCoverage": 3,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
-    },
-    {
-      "index": 16,
-      "claim": "Increased adoption could raise transaction volume, but it would still not guarantee higher demand for Bitcoin itself.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 66,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Tether Brings Its $184 Billion Stablecoin Back to Bitcoin: Will BTC Regain Its Role as a Payments Network? - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/tether-brings-184-billion-stablecoin-130029648.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F13",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 44
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F13",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 44,
-          "passageIndex": 10
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "As with XRP, increased network activity does not automatically increase demand for BTC.",
-      "bestPassage": "As with XRP, increased network activity does not automatically increase demand for BTC.",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P13"
-      ],
-      "sharedTerms": [
-        "rise",
-        "transaction",
-        "but",
-        "not",
-        "higher",
-        "demand",
-        "for",
-        "btc"
-      ],
-      "entityShared": [
-        "btc"
-      ],
-      "topicShared": [
-        "btc"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": true,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 2,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 17,
-      "claim": "Tether’s return of USDT to Bitcoin marks a notable shift after a decade away from the network.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 97,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Tether Brings Its $184 Billion Stablecoin Back to Bitcoin: Will BTC Regain Its Role as a Payments Network? - 247wallst.com",
-      "bestUrl": "https://247wallst.com/investing/cryptocurrency/2026/10/04/tether-brings-its-184-billion-stablecoin-back-to-bitcoin-will-btc-regain-its-role-as-a-payments-network/",
-      "bestDomain": "247wallst.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F26",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 62
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F26",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 62,
-          "passageIndex": 3
-        },
-        {
-          "factId": "F28",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 51,
-          "passageIndex": 4
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "Tether is set to relaunch its USDT ( CRYPTO: USDT ) stablecoin on the Bitcoin ( CRYPTO: BTC ) network in October 2026, marking a return 12 years after its initial launch. In previous years, USDT shifted away from Bitcoin to take advantage of faster and cheaper networks, predominantly operating on platforms like Tron and Ethereum.",
-      "bestPassage": "Tether is set to relaunch its USDT ( CRYPTO: USDT ) stablecoin on the Bitcoin ( CRYPTO: BTC ) network in October 2026, marking a return 12 years after its initial launch. In previous years, USDT shifted away from Bitcoin to take advantage of faster and cheaper networks, predominantly operating on platforms like Tron and Ethereum.",
-      "matchedPassages": [
-        "S2-BODY"
-      ],
-      "sharedTerms": [
-        "tether",
-        "return",
-        "usdt",
-        "btc",
-        "mark",
-        "shift",
-        "decade",
-        "away",
-        "the",
-        "network"
-      ],
-      "entityShared": [
-        "tether",
-        "usdt",
-        "btc"
-      ],
-      "topicShared": [
-        "tether",
-        "btc",
-        "network"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 2,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
-    },
-    {
-      "index": 18,
-      "claim": "The partnership with Utexo and the planned Lightning integration aim to broaden USDT’s usability, but the move offers limited benefits to Bitcoin’s core economy or to its miners.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 85,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Tether Brings Its $184 Billion Stablecoin Back to Bitcoin: Will BTC Regain Its Role as a Payments Network? - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/tether-brings-184-billion-stablecoin-130029648.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F12",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 51
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F12",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 51,
-          "passageIndex": 10
-        },
-        {
-          "factId": "F38",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 51,
-          "passageIndex": 7
-        },
-        {
-          "factId": "F15",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 44,
-          "passageIndex": 17
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "A USDT balance on Bitcoin represents a dollar claim on Tether, meaning it offers no exposure to Bitcoin's price fluctuations, and the limits and rules governing Bitcoin's 21 million coins remain unchanged. A USDT balance on Bitcoin represents a dollar claim on Tether, meaning it offers no exposure to Bitcoin’s price fluctuations, and the limits and rules governing Bitcoin’s 21 million coins remain unchanged. If major exchanges begin to support Bitcoin-based USDT and its supply increases steadily through March 2027, particularly with Lightning support in place, Bitcoin could reclaim a portion of the payments landscape.",
-      "bestPassage": "A USDT balance on Bitcoin represents a dollar claim on Tether, meaning it offers no exposure to Bitcoin's price fluctuations, and the limits and rules governing Bitcoin's 21 million coins remain unchanged. A USDT balance on Bitcoin represents a dollar claim on Tether, meaning it offers no exposure to Bitcoin’s price fluctuations, and the limits and rules governing Bitcoin’s 21 million coins remain unchanged. If major exchanges begin to support Bitcoin-based USDT and its supply increases steadily through March 2027, particularly with Lightning support in place, Bitcoin could reclaim a portion of the payments landscape.",
-      "matchedPassages": [
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "the",
-        "utexo",
-        "and",
-        "lightn",
-        "integration",
-        "usdt",
-        "but",
-        "move",
-        "offer",
-        "limit",
-        "benefit",
-        "btc",
-        "its",
-        "miner"
-      ],
-      "entityShared": [
-        "utexo",
-        "lightn",
-        "usdt",
-        "btc"
-      ],
-      "topicShared": [
-        "btc",
-        "its"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 3,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
-    },
-    {
-      "index": 19,
-      "claim": "Adoption by exchanges and merchants will ultimately determine whether this relaunch can influence Bitcoin’s role as a payments network.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 72,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Tether Brings Its $184 Billion Stablecoin Back to Bitcoin: Will BTC Regain Its Role as a Payments Network? - 247wallst.com",
-      "bestUrl": "https://247wallst.com/investing/cryptocurrency/2026/10/04/tether-brings-its-184-billion-stablecoin-back-to-bitcoin-will-btc-regain-its-role-as-a-payments-network/",
-      "bestDomain": "247wallst.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F1",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 28
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F1",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 28,
-          "passageIndex": 2
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "Tether relaunches its $184 billion USDT on Bitcoin in October 2026, 12 years after abandoning it for faster, cheaper networks like Tron and Ethereum.",
-      "bestPassage": "Tether relaunches its $184 billion USDT on Bitcoin in October 2026, 12 years after abandoning it for faster, cheaper networks like Tron and Ethereum.",
-      "matchedPassages": [
-        "S2-BODY"
-      ],
-      "sharedTerms": [
-        "exchang",
-        "and",
-        "whether",
-        "relaunch",
-        "can",
-        "btc",
-        "payment",
-        "network"
-      ],
-      "entityShared": [
-        "btc"
-      ],
-      "topicShared": [
-        "btc",
-        "role",
-        "payment",
-        "network"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": true,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 3,
+      "factCoverage": 1,
       "multiFactSupported": false,
       "directFactExact": false,
       "directExact": false,
@@ -1551,8 +807,8 @@
   ],
   "editorial": [
     {
-      "index": 11,
-      "claim": "Without widespread merchant or exchange adoption, the token’s utility as a payments instrument remains uncertain.",
+      "index": 10,
+      "claim": "The shooting on Spring Garden Street highlights the growing concern over armed security staff in nightlife settings.Police are seeking witnesses and evidence to identify the guard.",
       "type": "editorial-analysis",
       "status": "editorial-excluded"
     }

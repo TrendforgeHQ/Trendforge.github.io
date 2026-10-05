@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-04T20:43:38.463Z",
+  "generatedAt": "2026-10-05T03:03:10.746Z",
   "status": "pass",
-  "currentGeneratedArticle": "tether-reintroduces-usdt-to-bitcoin-what-it-means-for-the-network",
-  "currentScore": 89,
+  "currentGeneratedArticle": "security-guard-wanted-after-shooting-man-outside-club-on-spring-garden",
+  "currentScore": 92,
   "identity": {
     "method": "brief.title",
     "rejectedMarker": false
@@ -579,6 +579,21 @@
       ]
     },
     {
+      "slug": "security-guard-wanted-after-shooting-man-outside-club-on-spring-garden",
+      "title": "Security Guard Wanted After Shooting Man Outside Club on Spring Garden",
+      "category": "Digital Life",
+      "score": 92,
+      "decision": "publish_candidate",
+      "dimensions": {
+        "evidence": 96,
+        "usefulness": 91,
+        "clarity": 97,
+        "originality": 88,
+        "sourceStrength": 88
+      },
+      "reasons": []
+    },
+    {
       "slug": "shopify-enables-browser-based-ai-agents-to-complete-checkout",
       "title": "Shopify Enables Browser‑Based AI Agents to Complete Checkout",
       "category": "AI",
@@ -600,16 +615,19 @@
       "slug": "tether-reintroduces-usdt-to-bitcoin-what-it-means-for-the-network",
       "title": "Tether Reintroduces USDT to Bitcoin: What It Means for the Network",
       "category": "Crypto",
-      "score": 89,
-      "decision": "publish_ready",
+      "score": 79,
+      "decision": "review",
       "dimensions": {
-        "evidence": 83,
+        "evidence": 75,
         "usefulness": 97,
         "clarity": 100,
         "originality": 83,
-        "sourceStrength": 82
+        "sourceStrength": 41
       },
-      "reasons": []
+      "reasons": [
+        "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
+      ]
     },
     {
       "slug": "the-apple-watch-series-12-is-the-start-of-a-new-wearable-era",

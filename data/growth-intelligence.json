@@ -1,32 +1,32 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T20:43:45.774Z",
+  "generatedAt": "2026-10-05T03:03:18.144Z",
   "policy": {
     "privacyFirst": true,
     "noPersonalTracking": true,
     "noPaidTrafficRequired": true
   },
   "summary": {
-    "totalArticles": 38,
+    "totalArticles": 39,
     "averageEditorialScore": 76,
-    "editorialReviewCount": 26,
+    "editorialReviewCount": 27,
     "refreshCandidates": 14
   },
   "categoryMix": [
     {
       "category": "AI",
       "count": 13,
-      "share": 34.2
+      "share": 33.3
     },
     {
       "category": "Technology",
       "count": 7,
-      "share": 18.4
+      "share": 17.9
     },
     {
       "category": "How-To",
       "count": 3,
-      "share": 7.9
+      "share": 7.7
     },
     {
       "category": "Innovation",
@@ -40,13 +40,13 @@
     },
     {
       "category": "Digital Life",
-      "count": 7,
-      "share": 18.4
+      "count": 8,
+      "share": 20.5
     },
     {
       "category": "Crypto",
       "count": 6,
-      "share": 15.8
+      "share": 15.4
     }
   ],
   "missingCategories": [
@@ -55,10 +55,15 @@
   "overrepresentedCategories": [],
   "recommendations": [
     "Prioritize missing categories: Innovation.",
-    "26 article(s) are in editorial review; improve them before treating them as growth winners.",
+    "27 article(s) are in editorial review; improve them before treating them as growth winners.",
     "14 older/incomplete article(s) are refresh candidates."
   ],
   "recentArticles": [
+    {
+      "title": "Security Guard Wanted After Shooting Man Outside Club on Spring Garden",
+      "category": "Digital Life",
+      "publishedAt": "2026-10-05T03:02:09.702Z"
+    },
     {
       "title": "Tether Reintroduces USDT to Bitcoin: What It Means for the Network",
       "category": "Crypto",
@@ -103,11 +108,6 @@
       "title": "Meta Unveils Enterprise AI Platform, Names MongoDB CEO to Lead",
       "category": "AI",
       "publishedAt": "2026-09-29T09:07:59.733Z"
-    },
-    {
-      "title": "Which Will Hit First? Litecoin’s $500 Target vs Bitcoin’s $200,000 Goal",
-      "category": "Crypto",
-      "publishedAt": "2026-09-28T12:22:41.590Z"
     }
   ]
 }

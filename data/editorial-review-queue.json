@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-04T20:43:38.463Z",
+  "generatedAt": "2026-10-05T03:03:10.746Z",
   "queue": [
     {
       "slug": "how-to-move-passwords-and-passkeys-between-managers-on-android",
@@ -36,6 +36,24 @@
       "reasons": [
         "evidence confidence needs improvement",
         "topic/title similarity is high",
+        "source strength/diversity needs improvement"
+      ]
+    },
+    {
+      "slug": "tether-reintroduces-usdt-to-bitcoin-what-it-means-for-the-network",
+      "title": "Tether Reintroduces USDT to Bitcoin: What It Means for the Network",
+      "category": "Crypto",
+      "score": 79,
+      "decision": "review",
+      "dimensions": {
+        "evidence": 75,
+        "usefulness": 97,
+        "clarity": 100,
+        "originality": 83,
+        "sourceStrength": 41
+      },
+      "reasons": [
+        "evidence confidence needs improvement",
         "source strength/diversity needs improvement"
       ]
     },

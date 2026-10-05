@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T20:43:32.347Z",
+  "generatedAt": "2026-10-05T03:02:09.703Z",
   "provider": "Groq",
   "editorial": {
     "passed": true,
@@ -22,8 +22,8 @@
       "noHighSimilaritySource": true
     },
     "metrics": {
-      "normalizedLength": 3074,
-      "sentenceCount": 21,
+      "normalizedLength": 1802,
+      "sentenceCount": 13,
       "maxSourceSimilarity": 0,
       "maxCommonPhrase": 0
     }
@@ -31,13 +31,13 @@
   "semanticDuplicateCheck": "passed",
   "sourceRelationshipCheck": "passed",
   "verifiedEvidenceDomains": [
-    "finance.yahoo.com",
-    "247wallst.com"
+    "hoodline.com",
+    "6abc.com"
   ],
   "primarySourceCount": 0,
   "grounding": {
     "sourceCount": 2,
-    "usablePassages": 59,
+    "usablePassages": 12,
     "primarySourceCount": 0
   }
 }
