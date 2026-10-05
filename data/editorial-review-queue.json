@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-05T03:03:10.746Z",
+  "generatedAt": "2026-10-05T23:33:10.120Z",
   "queue": [
     {
       "slug": "how-to-move-passwords-and-passkeys-between-managers-on-android",
@@ -140,6 +140,24 @@
         "usefulness": 95,
         "clarity": 100,
         "originality": 83,
+        "sourceStrength": 41
+      },
+      "reasons": [
+        "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
+      ]
+    },
+    {
+      "slug": "security-guard-wanted-after-shooting-man-outside-club-on-spring-garden",
+      "title": "Security Guard Wanted After Shooting Man Outside Club on Spring Garden",
+      "category": "Digital Life",
+      "score": 78,
+      "decision": "review",
+      "dimensions": {
+        "evidence": 75,
+        "usefulness": 91,
+        "clarity": 97,
+        "originality": 88,
         "sourceStrength": 41
       },
       "reasons": [

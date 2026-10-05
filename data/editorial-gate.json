@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T03:02:09.703Z",
+  "generatedAt": "2026-10-05T23:31:26.967Z",
   "provider": "Groq",
   "editorial": {
     "passed": true,
@@ -22,8 +22,8 @@
       "noHighSimilaritySource": true
     },
     "metrics": {
-      "normalizedLength": 1802,
-      "sentenceCount": 13,
+      "normalizedLength": 4022,
+      "sentenceCount": 31,
       "maxSourceSimilarity": 0,
       "maxCommonPhrase": 0
     }
@@ -31,13 +31,15 @@
   "semanticDuplicateCheck": "passed",
   "sourceRelationshipCheck": "passed",
   "verifiedEvidenceDomains": [
-    "hoodline.com",
-    "6abc.com"
+    "bleepingcomputer.com",
+    "9to5mac.com",
+    "techcrunch.com",
+    "theverge.com"
   ],
   "primarySourceCount": 0,
   "grounding": {
-    "sourceCount": 2,
-    "usablePassages": 12,
+    "sourceCount": 4,
+    "usablePassages": 45,
     "primarySourceCount": 0
   }
 }

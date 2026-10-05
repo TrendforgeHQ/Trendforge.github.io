@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-05T03:03:10.746Z",
+  "generatedAt": "2026-10-05T23:33:10.120Z",
   "status": "pass",
-  "currentGeneratedArticle": "security-guard-wanted-after-shooting-man-outside-club-on-spring-garden",
-  "currentScore": 92,
+  "currentGeneratedArticle": null,
+  "currentScore": null,
   "identity": {
     "method": "brief.title",
-    "rejectedMarker": false
+    "rejectedMarker": true
   },
   "policy": {
     "publishCandidate": 90,
@@ -582,16 +582,19 @@
       "slug": "security-guard-wanted-after-shooting-man-outside-club-on-spring-garden",
       "title": "Security Guard Wanted After Shooting Man Outside Club on Spring Garden",
       "category": "Digital Life",
-      "score": 92,
-      "decision": "publish_candidate",
+      "score": 78,
+      "decision": "review",
       "dimensions": {
-        "evidence": 96,
+        "evidence": 75,
         "usefulness": 91,
         "clarity": 97,
         "originality": 88,
-        "sourceStrength": 88
+        "sourceStrength": 41
       },
-      "reasons": []
+      "reasons": [
+        "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
+      ]
     },
     {
       "slug": "shopify-enables-browser-based-ai-agents-to-complete-checkout",

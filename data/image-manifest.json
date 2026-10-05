@@ -1,75 +1,12 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-05T03:03:16.979Z",
+  "generatedAt": "2026-10-05T23:33:15.562Z",
   "model": "@cf/black-forest-labs/flux-1-schnell",
   "width": 1024,
   "height": 576,
   "steps": 4,
-  "generated": 1,
+  "generated": 0,
   "skipped": 0,
   "failed": 0,
-  "images": {
-    "security-guard-wanted-after-shooting-man-outside-club-on-spring-garden": {
-      "status": "generated",
-      "image": "/Trendforge/images/articles/security-guard-wanted-after-shooting-man-outside-club-on-spring-garden.1024x576.png",
-      "generatedBy": "@cf/black-forest-labs/flux-1-schnell",
-      "width": 1024,
-      "height": 576,
-      "steps": 4,
-      "elapsedMs": 2289,
-      "bytes": 592861,
-      "visualBrief": {
-        "version": 2,
-        "mode": "editorial-photography",
-        "primarySubject": "the most concrete physical subject, event, organization, or action explicitly described by the story, centered on security, guard, wanted, shooting",
-        "scene": "A commissioned technology-publication photograph of that concrete subject or event, not a category-level representation.",
-        "supportingElements": [
-          "only contextual elements that directly explain the story"
-        ],
-        "composition": "One hero subject with one or two supporting elements, natural editorial lighting and strong negative space.",
-        "company": null,
-        "namedPerson": null,
-        "category": "Digital Life",
-        "storyAnchors": [
-          "security",
-          "guard",
-          "wanted",
-          "shooting",
-          "outside",
-          "club",
-          "spring",
-          "garden"
-        ],
-        "avoid": [
-          "generic office imagery",
-          "random tablet or laptop",
-          "generic futuristic technology",
-          "glowing holograms, floating code, HUDs and neon sci-fi effects",
-          "prominent readable text or fake headlines"
-        ]
-      },
-      "relevance": {
-        "passed": true,
-        "anchors": [
-          "security",
-          "guard",
-          "wanted",
-          "shooting",
-          "outside",
-          "club",
-          "spring",
-          "garden"
-        ],
-        "matchedAnchors": [
-          "security",
-          "guard",
-          "wanted",
-          "shooting"
-        ],
-        "entityMatches": [],
-        "score": 0.5
-      },
-      "promptLength": 1900
-    }
-  }
+  "images": {}
 }
