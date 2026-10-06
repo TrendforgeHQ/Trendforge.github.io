@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-06T03:51:27.449Z",
+  "generatedAt": "2026-10-06T12:28:27.928Z",
   "queue": [
     {
       "slug": "how-to-move-passwords-and-passkeys-between-managers-on-android",
@@ -490,6 +490,24 @@
       "reasons": [
         "evidence confidence needs improvement",
         "topic/title similarity is high",
+        "source strength/diversity needs improvement"
+      ]
+    },
+    {
+      "slug": "reflection-unveils-beam-an-open-weight-model-aiming-to-outperform-chinese-counterparts",
+      "title": "Reflection Unveils Beam, an Open-Weight Model Aiming to Outperform Chinese Counterparts",
+      "category": "AI",
+      "score": 67,
+      "decision": "review",
+      "dimensions": {
+        "evidence": 50,
+        "usefulness": 84,
+        "clarity": 100,
+        "originality": 90,
+        "sourceStrength": 21
+      },
+      "reasons": [
+        "evidence confidence needs improvement",
         "source strength/diversity needs improvement"
       ]
     },
