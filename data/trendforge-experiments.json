@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-06T00:18:34.227Z",
+  "updatedAt": "2026-10-06T06:49:54.503Z",
   "mode": "shadow",
   "policy": {
     "advisoryOnly": true,
@@ -14,9 +14,9 @@
     "noWinnerBeforeMinimumSample": true
   },
   "sample": {
-    "runs": 71,
+    "runs": 72,
     "topics": 500,
-    "articles": 39
+    "articles": 40
   },
   "learningInput": {
     "version": 2,
@@ -88,46 +88,6 @@
   "assignments": {
     "headline-style": [
       {
-        "key": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOY3c1bmZFQjg3R1hoUjVpZmd6MHdOX3VHQmk3UF9vRUgxclNsNmxjR3I0OFpOUkFHY2I5X0hvaUkwWlM2YjZ6T2dpRE9kLU13LXpKdC1QQ2FVdmtFdmptWHNsczdGS1lyTGkwUUxDNUg1MnlzN04xemZXYUNDcV9tTFFqb3dsYnpXTzNVTGFuUmJDMWxCYWhxZ1RpUUIxMUk1dGhjQjNWWkxsZXRacFFVSlVxV0t1OWh5STFDcDNmSnh0VVdPNzlhd25WNVg1MTU2UTdReXNzOVBoMms?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbzBybzRJZEx2QndVOV96UW93bFBvSjRucDNvMDgxdTBwdExsWkQ0MVQ0amZDd1pFQlNjMV9mZTIzY21hcm5VaGRzZ2tBNWhyMWZ2LWFrSHRtdHlzZW12eDQwUHVfaVRiODZ0Wi1SZDd5TkxuUW5wT3kwSjZweV8tV1ZHQ2h2dVJ5czhXWFF0R2dpR082UkJEQTZKWTdlMldzejlfblJCR01VZDlIVFVv?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMDZkWm1sOFQyNTZCYjkyOG5IeHQweEwxRHdiYkdZNTg4QnQ5SFlJWnNPMFlfTGUzcGVpeC16bE5pYTU5RDFma3V1NXdjdTI4MFNjeEhLQ2FvQzNNdUNvZVh2aEVjTUttZnBkOF9HR0lJT3A0SUo2bXpQN0ZHQjhqMmhOZ09yMVRVMC1YaHJsMVM2aGJNejRJV2tmaW96akxLWm15REpJbkhHa0U?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPakNidDJodUlpM2hIbW1pVktHZUlxbkFUZnV0XzdJOXpNeFc1YWY3c3dSYlR0cEhweEVLazJ6bFRrWEdDRVBZMWxwdG43VWFmSHp5X1pDMUlSZExiRmdwMUJxb3pUNkZzZ0pTdDc4a0Q4eHhaME9Kdm1GbzlQbWhxZ05EeXVydGgyWWZxSmJ5VlFaWVpQRnlKX2txdng?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZEI5SnNSdk4tLUpiMkZWM2RyX3VCWWc4QVAxbGV4eVFXdElwMGo5SlRmTUw5a2NuUmd3bmNPcFRfWHhEV2dSa2ZWWWo1YTlmVUxrZTlRMUc4cnc2RHFTSlBKN2NIZjQ5OU00cml3Z2I3NzB6MFJ6WnpzT2hWZ1RUWGVwdC1wenlZbUNWc3FTS3d4al8tN0pTX0hLSllUcFRpYUgxN1BaMUxWTnVCTmh5OUVxZHEtRFpPMGtGcmZn?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdzRYQy01cFU2d3g2bkpTX2tqV1ZuekVLV3RsRzBWN0VhaVRUaGg2UXlUNU15SzM1Ty1ESHRubkxXd1MxUjFSQlJiOTdBa0J5OWY4UkhwU0hwNEk3RTI4Y3ZCbEFTUkhsYXJKWkszZVA5d2wwMjZOUmJ3UG1QU1FiZHFwTlFfY25vb09YMFJVUlNQR2dtaVdvOU5BaklraTBiLVFUNXBaVmh4UDkwVDUtZjFGcWNkdl9EcS1yUkZMY3hNNzVKckVqNjhCdw?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR2gxZDliYXVLclFaTmpxc3hDNnNhdWp4aHpSek5rOWM3bXlwUDhNZEpXYUlMZGtlaTI0S292M1V5Qmd0WkJMc1JwYjBRSnFPeFFIQ0I0VExaTU9TMnlHZjA0Nk5wRlFEN2VaOHc1a28xQnpSbnZmTFFXUE9yX2FfNElhOUw1NmtoMHN5dDdwSlpoM2J0TWhCY1VhNTNkdXBrTGUzYVViaG5BSGk1M1E?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://arstechnica.com/tech-policy/2026/10/cable-lobby-to-sue-trump-fcc-over-repeal-of-national-tv-ownership-cap/",
-        "bucket": "variant"
-      },
-      {
         "key": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
         "bucket": "control"
       },
@@ -165,51 +125,51 @@
       },
       {
         "key": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4aDVWTV9VN3ZUSF9CemZCNXNrWktncnBiOWF4cjRqOUxqcURLMUFWYm1DY3VxM0kwbk5tM1VEYkl1aXFibVFzMHpEUWNvbTBaejBkSk1LV2NzOW5MLXpKMVZuM0xvUnJ2?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUjlGLVd4aTdqdkwwRWVFZHVyVmh0WXN3YUFiWGtSTXJ0cjVPcm9rVVJoek1peWJQSHhuejVlWnhGQ0h1TFZZc0ZMX2EzTGZvTl81MGxTNVdHNDNJVlhIaGI0cTR4bFE1Zy1jSGNBeXJwQTFRUGY1R1dqcXBYN3ZFUzVfM05KTDF3UV9VM1ZhZEE0R0NwMnZlTU5R?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVHBQVDBnOWRNRW5CTGFuSkdRVGpaRFFRRFo2eDR5U2xiM3ZrQ2VPd3o5VEVFNU1iZTE1OTc0WWtQQWNseGk0RGNqd0F0QTZpaURabHprU3gtNTFEMHF5M01RVE5TNnhvTGxRTHpGbDk2UV9OODEyUFliSjJaRDJsZGJZS1RlQ3UyeWtEc2Z1dmlJai0yaXQ1bW9qUmZrWHdFREZWVS1NblZPZw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5va0gwejN3VVJWMlNld3VLZDFlLUQ3TFlhbUtaOXNPUVlyUWNOYkNtb0QyOTYyOUdCczBYWVQ4Y2ttRzZLMG45SDBoMkNlQ0dsME4tVThsWEM3eGY2NG16alZTRDAwOHRadVJtQXpyMEdOdUhHTXhZTGxJUmE?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQZGF2TDBzSWRvaWtOSXRkQUNNV1ptc1pPS1BFek1yc3lBZ05vYzNQVmVsTzdfdXNzYTRfNmJ4TndzeldLOFhuNHZDNEtkR21qVmNkcXk4Xzh0R3ZrTGIybFdMMWc1MnBWbUJVd2lPX1hQSmNJRzFsVDdYTEpZU3lPSndrU20yY0lrb19xVVI2bUp4eVBDOEZ1UHlTbGJwNDB6VElRNzJ3UHk0Y0Z3eXpPdVBsMWx2a2htUXNKazdsRHMwOTd3d29ZczhSQTN4azZPVmJEeDJ1TTB1ek5PVkpGdWxOdldlRVZ2MWVNVXE3NlZoMDhwRTJWSA?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVS1XMlN2amtfOGZwMndpQTVwM1BicVI2VUZaYTBsNXlac0hyY29qY2xkb19hbTh4UDRwbXlsM2d4eGFMYjRKMTZWdFp6a3B6OXFIelBaQ0xSbWlsUFdEUk5qX25PeS1JTG1qSGhSX1ZSY0p2djlkWDVvQVBmWTMycVhZeXlsMGdsRno3SnpKbEk3U19qTjZsN05SVnVoSUV3cUplcHlwY0ptNmZnRldYU1JiYkppaEc3QUhnQ1dLX0dMVXNUeFE?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVjdIYzN3RVFPcUozaWtycERxS2Z2LWxhclBEUmo1cVVtSkZXMWFHR2xOQUxLcmdka285NUVyVmFMZ1l4WWZuNFpsbFNocW5NWWN1RTgxcEU0YjZTQmt5WGJPUkFlRlBFREdfaHFhWFhZdkptSV9qdG81d1pibS12akVkTVpFblkzdWdqZ3JpdzM5MHpNSFZLaWQyUXQ1cTQzejRmMy1BTVFOblJGRjU2bEIwaTVDRm95bHpJb3lnZWJLUHdpQnNB?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWFNScVlncTZjMV9OeTdmNUFGSVpKLVhndmt5MXp5SHE3MzhUYmNCR0JwcGtwUjIxSVRuNFBYOUNuWHhZZVF3YWoyZ0pXbUotQ0NVUmNWbEtYNnpnV1BNb2NhUDY4X21ScmJRek9iTkV0VjdmMnZ2ZVMzVU9VQzhiaWlXUUZSNUVlSUt2M2dFTDBMNmlJVjVGYktoOGdYWWNwN2d0WXdlZDFsTzd4bG0wUmphTWo?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNV0NKWXZxZUxqeUdCR1E1bHFRbHJnRDBSQ1JLT2VXWUswb05kd0tqbmZqM2FMeGl3cnE4dXdVRy1OZzRmOHc3bUU1d2FscHp6WWpaV1B6THhWRFFLNXVoVXFNZzRDT29teWxnQ1daX09wSDhjMF8zTF9nNllqcGJ0THdxVEpEOHV3aUJEU2xRVF93TE51ek1oYjhDRG51OXUz?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOS0JJN3dwUVRvNUtBRklaTjUxUExUd3ZfTzNMa0FDVkc2Tlo4TXdnUWcxOTZ2NFRjOUJRLUh4M2xja1pMYkZadHc5REJBcWZwU1pYUVlYbElSTmJDSHRaMTB2WDd5YnU2VlRDa2w3WGhsbWdBa29hYTU2ZjlFUFUySTZrSVZuWTByQ2V1N0FSR29rWkdCREoxdTcwaTZ6cWc?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZENxY1BPT1VqZVhtaXZsc0tycXkyLThRdVI2c0VoSUVYNEdwMjhEaUZhU2tNZmJDd2U5RlFqLXpYamRSMmVOb3pOaHdOREMzMUFWUGJNNGxSRTRFcV9sOXU2aUhUcnZZallDWkdFa3JJU1pVZGNfcXhxeWhxWFRsZ2dxQTQ4djdMNy05X3RwaUtfMGN3dERQdkZBakhYWnZtQWI0dFphZUF4ZVFkb2h3YkhDN1czUG1QZmhHakZQSGdVT0tXRWo3LW9LLWJOOUJ3V3ZXRVZiX1h0STRZc25V?oc=5",
         "bucket": "variant"
       }
     ],
     "intro-style": [
       {
-        "key": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOY3c1bmZFQjg3R1hoUjVpZmd6MHdOX3VHQmk3UF9vRUgxclNsNmxjR3I0OFpOUkFHY2I5X0hvaUkwWlM2YjZ6T2dpRE9kLU13LXpKdC1QQ2FVdmtFdmptWHNsczdGS1lyTGkwUUxDNUg1MnlzN04xemZXYUNDcV9tTFFqb3dsYnpXTzNVTGFuUmJDMWxCYWhxZ1RpUUIxMUk1dGhjQjNWWkxsZXRacFFVSlVxV0t1OWh5STFDcDNmSnh0VVdPNzlhd25WNVg1MTU2UTdReXNzOVBoMms?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbzBybzRJZEx2QndVOV96UW93bFBvSjRucDNvMDgxdTBwdExsWkQ0MVQ0amZDd1pFQlNjMV9mZTIzY21hcm5VaGRzZ2tBNWhyMWZ2LWFrSHRtdHlzZW12eDQwUHVfaVRiODZ0Wi1SZDd5TkxuUW5wT3kwSjZweV8tV1ZHQ2h2dVJ5czhXWFF0R2dpR082UkJEQTZKWTdlMldzejlfblJCR01VZDlIVFVv?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMDZkWm1sOFQyNTZCYjkyOG5IeHQweEwxRHdiYkdZNTg4QnQ5SFlJWnNPMFlfTGUzcGVpeC16bE5pYTU5RDFma3V1NXdjdTI4MFNjeEhLQ2FvQzNNdUNvZVh2aEVjTUttZnBkOF9HR0lJT3A0SUo2bXpQN0ZHQjhqMmhOZ09yMVRVMC1YaHJsMVM2aGJNejRJV2tmaW96akxLWm15REpJbkhHa0U?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPakNidDJodUlpM2hIbW1pVktHZUlxbkFUZnV0XzdJOXpNeFc1YWY3c3dSYlR0cEhweEVLazJ6bFRrWEdDRVBZMWxwdG43VWFmSHp5X1pDMUlSZExiRmdwMUJxb3pUNkZzZ0pTdDc4a0Q4eHhaME9Kdm1GbzlQbWhxZ05EeXVydGgyWWZxSmJ5VlFaWVpQRnlKX2txdng?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZEI5SnNSdk4tLUpiMkZWM2RyX3VCWWc4QVAxbGV4eVFXdElwMGo5SlRmTUw5a2NuUmd3bmNPcFRfWHhEV2dSa2ZWWWo1YTlmVUxrZTlRMUc4cnc2RHFTSlBKN2NIZjQ5OU00cml3Z2I3NzB6MFJ6WnpzT2hWZ1RUWGVwdC1wenlZbUNWc3FTS3d4al8tN0pTX0hLSllUcFRpYUgxN1BaMUxWTnVCTmh5OUVxZHEtRFpPMGtGcmZn?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdzRYQy01cFU2d3g2bkpTX2tqV1ZuekVLV3RsRzBWN0VhaVRUaGg2UXlUNU15SzM1Ty1ESHRubkxXd1MxUjFSQlJiOTdBa0J5OWY4UkhwU0hwNEk3RTI4Y3ZCbEFTUkhsYXJKWkszZVA5d2wwMjZOUmJ3UG1QU1FiZHFwTlFfY25vb09YMFJVUlNQR2dtaVdvOU5BaklraTBiLVFUNXBaVmh4UDkwVDUtZjFGcWNkdl9EcS1yUkZMY3hNNzVKckVqNjhCdw?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR2gxZDliYXVLclFaTmpxc3hDNnNhdWp4aHpSek5rOWM3bXlwUDhNZEpXYUlMZGtlaTI0S292M1V5Qmd0WkJMc1JwYjBRSnFPeFFIQ0I0VExaTU9TMnlHZjA0Nk5wRlFEN2VaOHc1a28xQnpSbnZmTFFXUE9yX2FfNElhOUw1NmtoMHN5dDdwSlpoM2J0TWhCY1VhNTNkdXBrTGUzYVViaG5BSGk1M1E?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://arstechnica.com/tech-policy/2026/10/cable-lobby-to-sue-trump-fcc-over-repeal-of-national-tv-ownership-cap/",
-        "bucket": "variant"
-      },
-      {
         "key": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
         "bucket": "control"
       },
@@ -247,51 +207,51 @@
       },
       {
         "key": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4aDVWTV9VN3ZUSF9CemZCNXNrWktncnBiOWF4cjRqOUxqcURLMUFWYm1DY3VxM0kwbk5tM1VEYkl1aXFibVFzMHpEUWNvbTBaejBkSk1LV2NzOW5MLXpKMVZuM0xvUnJ2?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUjlGLVd4aTdqdkwwRWVFZHVyVmh0WXN3YUFiWGtSTXJ0cjVPcm9rVVJoek1peWJQSHhuejVlWnhGQ0h1TFZZc0ZMX2EzTGZvTl81MGxTNVdHNDNJVlhIaGI0cTR4bFE1Zy1jSGNBeXJwQTFRUGY1R1dqcXBYN3ZFUzVfM05KTDF3UV9VM1ZhZEE0R0NwMnZlTU5R?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVHBQVDBnOWRNRW5CTGFuSkdRVGpaRFFRRFo2eDR5U2xiM3ZrQ2VPd3o5VEVFNU1iZTE1OTc0WWtQQWNseGk0RGNqd0F0QTZpaURabHprU3gtNTFEMHF5M01RVE5TNnhvTGxRTHpGbDk2UV9OODEyUFliSjJaRDJsZGJZS1RlQ3UyeWtEc2Z1dmlJai0yaXQ1bW9qUmZrWHdFREZWVS1NblZPZw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5va0gwejN3VVJWMlNld3VLZDFlLUQ3TFlhbUtaOXNPUVlyUWNOYkNtb0QyOTYyOUdCczBYWVQ4Y2ttRzZLMG45SDBoMkNlQ0dsME4tVThsWEM3eGY2NG16alZTRDAwOHRadVJtQXpyMEdOdUhHTXhZTGxJUmE?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQZGF2TDBzSWRvaWtOSXRkQUNNV1ptc1pPS1BFek1yc3lBZ05vYzNQVmVsTzdfdXNzYTRfNmJ4TndzeldLOFhuNHZDNEtkR21qVmNkcXk4Xzh0R3ZrTGIybFdMMWc1MnBWbUJVd2lPX1hQSmNJRzFsVDdYTEpZU3lPSndrU20yY0lrb19xVVI2bUp4eVBDOEZ1UHlTbGJwNDB6VElRNzJ3UHk0Y0Z3eXpPdVBsMWx2a2htUXNKazdsRHMwOTd3d29ZczhSQTN4azZPVmJEeDJ1TTB1ek5PVkpGdWxOdldlRVZ2MWVNVXE3NlZoMDhwRTJWSA?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVS1XMlN2amtfOGZwMndpQTVwM1BicVI2VUZaYTBsNXlac0hyY29qY2xkb19hbTh4UDRwbXlsM2d4eGFMYjRKMTZWdFp6a3B6OXFIelBaQ0xSbWlsUFdEUk5qX25PeS1JTG1qSGhSX1ZSY0p2djlkWDVvQVBmWTMycVhZeXlsMGdsRno3SnpKbEk3U19qTjZsN05SVnVoSUV3cUplcHlwY0ptNmZnRldYU1JiYkppaEc3QUhnQ1dLX0dMVXNUeFE?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVjdIYzN3RVFPcUozaWtycERxS2Z2LWxhclBEUmo1cVVtSkZXMWFHR2xOQUxLcmdka285NUVyVmFMZ1l4WWZuNFpsbFNocW5NWWN1RTgxcEU0YjZTQmt5WGJPUkFlRlBFREdfaHFhWFhZdkptSV9qdG81d1pibS12akVkTVpFblkzdWdqZ3JpdzM5MHpNSFZLaWQyUXQ1cTQzejRmMy1BTVFOblJGRjU2bEIwaTVDRm95bHpJb3lnZWJLUHdpQnNB?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWFNScVlncTZjMV9OeTdmNUFGSVpKLVhndmt5MXp5SHE3MzhUYmNCR0JwcGtwUjIxSVRuNFBYOUNuWHhZZVF3YWoyZ0pXbUotQ0NVUmNWbEtYNnpnV1BNb2NhUDY4X21ScmJRek9iTkV0VjdmMnZ2ZVMzVU9VQzhiaWlXUUZSNUVlSUt2M2dFTDBMNmlJVjVGYktoOGdYWWNwN2d0WXdlZDFsTzd4bG0wUmphTWo?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNV0NKWXZxZUxqeUdCR1E1bHFRbHJnRDBSQ1JLT2VXWUswb05kd0tqbmZqM2FMeGl3cnE4dXdVRy1OZzRmOHc3bUU1d2FscHp6WWpaV1B6THhWRFFLNXVoVXFNZzRDT29teWxnQ1daX09wSDhjMF8zTF9nNllqcGJ0THdxVEpEOHV3aUJEU2xRVF93TE51ek1oYjhDRG51OXUz?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOS0JJN3dwUVRvNUtBRklaTjUxUExUd3ZfTzNMa0FDVkc2Tlo4TXdnUWcxOTZ2NFRjOUJRLUh4M2xja1pMYkZadHc5REJBcWZwU1pYUVlYbElSTmJDSHRaMTB2WDd5YnU2VlRDa2w3WGhsbWdBa29hYTU2ZjlFUFUySTZrSVZuWTByQ2V1N0FSR29rWkdCREoxdTcwaTZ6cWc?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZENxY1BPT1VqZVhtaXZsc0tycXkyLThRdVI2c0VoSUVYNEdwMjhEaUZhU2tNZmJDd2U5RlFqLXpYamRSMmVOb3pOaHdOREMzMUFWUGJNNGxSRTRFcV9sOXU2aUhUcnZZallDWkdFa3JJU1pVZGNfcXhxeWhxWFRsZ2dxQTQ4djdMNy05X3RwaUtfMGN3dERQdkZBakhYWnZtQWI0dFphZUF4ZVFkb2h3YkhDN1czUG1QZmhHakZQSGdVT0tXRWo3LW9LLWJOOUJ3V3ZXRVZiX1h0STRZc25V?oc=5",
         "bucket": "variant"
       }
     ],
     "cta-placement": [
       {
-        "key": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOY3c1bmZFQjg3R1hoUjVpZmd6MHdOX3VHQmk3UF9vRUgxclNsNmxjR3I0OFpOUkFHY2I5X0hvaUkwWlM2YjZ6T2dpRE9kLU13LXpKdC1QQ2FVdmtFdmptWHNsczdGS1lyTGkwUUxDNUg1MnlzN04xemZXYUNDcV9tTFFqb3dsYnpXTzNVTGFuUmJDMWxCYWhxZ1RpUUIxMUk1dGhjQjNWWkxsZXRacFFVSlVxV0t1OWh5STFDcDNmSnh0VVdPNzlhd25WNVg1MTU2UTdReXNzOVBoMms?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbzBybzRJZEx2QndVOV96UW93bFBvSjRucDNvMDgxdTBwdExsWkQ0MVQ0amZDd1pFQlNjMV9mZTIzY21hcm5VaGRzZ2tBNWhyMWZ2LWFrSHRtdHlzZW12eDQwUHVfaVRiODZ0Wi1SZDd5TkxuUW5wT3kwSjZweV8tV1ZHQ2h2dVJ5czhXWFF0R2dpR082UkJEQTZKWTdlMldzejlfblJCR01VZDlIVFVv?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMDZkWm1sOFQyNTZCYjkyOG5IeHQweEwxRHdiYkdZNTg4QnQ5SFlJWnNPMFlfTGUzcGVpeC16bE5pYTU5RDFma3V1NXdjdTI4MFNjeEhLQ2FvQzNNdUNvZVh2aEVjTUttZnBkOF9HR0lJT3A0SUo2bXpQN0ZHQjhqMmhOZ09yMVRVMC1YaHJsMVM2aGJNejRJV2tmaW96akxLWm15REpJbkhHa0U?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPakNidDJodUlpM2hIbW1pVktHZUlxbkFUZnV0XzdJOXpNeFc1YWY3c3dSYlR0cEhweEVLazJ6bFRrWEdDRVBZMWxwdG43VWFmSHp5X1pDMUlSZExiRmdwMUJxb3pUNkZzZ0pTdDc4a0Q4eHhaME9Kdm1GbzlQbWhxZ05EeXVydGgyWWZxSmJ5VlFaWVpQRnlKX2txdng?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZEI5SnNSdk4tLUpiMkZWM2RyX3VCWWc4QVAxbGV4eVFXdElwMGo5SlRmTUw5a2NuUmd3bmNPcFRfWHhEV2dSa2ZWWWo1YTlmVUxrZTlRMUc4cnc2RHFTSlBKN2NIZjQ5OU00cml3Z2I3NzB6MFJ6WnpzT2hWZ1RUWGVwdC1wenlZbUNWc3FTS3d4al8tN0pTX0hLSllUcFRpYUgxN1BaMUxWTnVCTmh5OUVxZHEtRFpPMGtGcmZn?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdzRYQy01cFU2d3g2bkpTX2tqV1ZuekVLV3RsRzBWN0VhaVRUaGg2UXlUNU15SzM1Ty1ESHRubkxXd1MxUjFSQlJiOTdBa0J5OWY4UkhwU0hwNEk3RTI4Y3ZCbEFTUkhsYXJKWkszZVA5d2wwMjZOUmJ3UG1QU1FiZHFwTlFfY25vb09YMFJVUlNQR2dtaVdvOU5BaklraTBiLVFUNXBaVmh4UDkwVDUtZjFGcWNkdl9EcS1yUkZMY3hNNzVKckVqNjhCdw?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR2gxZDliYXVLclFaTmpxc3hDNnNhdWp4aHpSek5rOWM3bXlwUDhNZEpXYUlMZGtlaTI0S292M1V5Qmd0WkJMc1JwYjBRSnFPeFFIQ0I0VExaTU9TMnlHZjA0Nk5wRlFEN2VaOHc1a28xQnpSbnZmTFFXUE9yX2FfNElhOUw1NmtoMHN5dDdwSlpoM2J0TWhCY1VhNTNkdXBrTGUzYVViaG5BSGk1M1E?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://arstechnica.com/tech-policy/2026/10/cable-lobby-to-sue-trump-fcc-over-repeal-of-national-tv-ownership-cap/",
-        "bucket": "variant"
-      },
-      {
         "key": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
         "bucket": "control"
       },
@@ -329,6 +289,46 @@
       },
       {
         "key": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4aDVWTV9VN3ZUSF9CemZCNXNrWktncnBiOWF4cjRqOUxqcURLMUFWYm1DY3VxM0kwbk5tM1VEYkl1aXFibVFzMHpEUWNvbTBaejBkSk1LV2NzOW5MLXpKMVZuM0xvUnJ2?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUjlGLVd4aTdqdkwwRWVFZHVyVmh0WXN3YUFiWGtSTXJ0cjVPcm9rVVJoek1peWJQSHhuejVlWnhGQ0h1TFZZc0ZMX2EzTGZvTl81MGxTNVdHNDNJVlhIaGI0cTR4bFE1Zy1jSGNBeXJwQTFRUGY1R1dqcXBYN3ZFUzVfM05KTDF3UV9VM1ZhZEE0R0NwMnZlTU5R?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVHBQVDBnOWRNRW5CTGFuSkdRVGpaRFFRRFo2eDR5U2xiM3ZrQ2VPd3o5VEVFNU1iZTE1OTc0WWtQQWNseGk0RGNqd0F0QTZpaURabHprU3gtNTFEMHF5M01RVE5TNnhvTGxRTHpGbDk2UV9OODEyUFliSjJaRDJsZGJZS1RlQ3UyeWtEc2Z1dmlJai0yaXQ1bW9qUmZrWHdFREZWVS1NblZPZw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5va0gwejN3VVJWMlNld3VLZDFlLUQ3TFlhbUtaOXNPUVlyUWNOYkNtb0QyOTYyOUdCczBYWVQ4Y2ttRzZLMG45SDBoMkNlQ0dsME4tVThsWEM3eGY2NG16alZTRDAwOHRadVJtQXpyMEdOdUhHTXhZTGxJUmE?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQZGF2TDBzSWRvaWtOSXRkQUNNV1ptc1pPS1BFek1yc3lBZ05vYzNQVmVsTzdfdXNzYTRfNmJ4TndzeldLOFhuNHZDNEtkR21qVmNkcXk4Xzh0R3ZrTGIybFdMMWc1MnBWbUJVd2lPX1hQSmNJRzFsVDdYTEpZU3lPSndrU20yY0lrb19xVVI2bUp4eVBDOEZ1UHlTbGJwNDB6VElRNzJ3UHk0Y0Z3eXpPdVBsMWx2a2htUXNKazdsRHMwOTd3d29ZczhSQTN4azZPVmJEeDJ1TTB1ek5PVkpGdWxOdldlRVZ2MWVNVXE3NlZoMDhwRTJWSA?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVS1XMlN2amtfOGZwMndpQTVwM1BicVI2VUZaYTBsNXlac0hyY29qY2xkb19hbTh4UDRwbXlsM2d4eGFMYjRKMTZWdFp6a3B6OXFIelBaQ0xSbWlsUFdEUk5qX25PeS1JTG1qSGhSX1ZSY0p2djlkWDVvQVBmWTMycVhZeXlsMGdsRno3SnpKbEk3U19qTjZsN05SVnVoSUV3cUplcHlwY0ptNmZnRldYU1JiYkppaEc3QUhnQ1dLX0dMVXNUeFE?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVjdIYzN3RVFPcUozaWtycERxS2Z2LWxhclBEUmo1cVVtSkZXMWFHR2xOQUxLcmdka285NUVyVmFMZ1l4WWZuNFpsbFNocW5NWWN1RTgxcEU0YjZTQmt5WGJPUkFlRlBFREdfaHFhWFhZdkptSV9qdG81d1pibS12akVkTVpFblkzdWdqZ3JpdzM5MHpNSFZLaWQyUXQ1cTQzejRmMy1BTVFOblJGRjU2bEIwaTVDRm95bHpJb3lnZWJLUHdpQnNB?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWFNScVlncTZjMV9OeTdmNUFGSVpKLVhndmt5MXp5SHE3MzhUYmNCR0JwcGtwUjIxSVRuNFBYOUNuWHhZZVF3YWoyZ0pXbUotQ0NVUmNWbEtYNnpnV1BNb2NhUDY4X21ScmJRek9iTkV0VjdmMnZ2ZVMzVU9VQzhiaWlXUUZSNUVlSUt2M2dFTDBMNmlJVjVGYktoOGdYWWNwN2d0WXdlZDFsTzd4bG0wUmphTWo?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNV0NKWXZxZUxqeUdCR1E1bHFRbHJnRDBSQ1JLT2VXWUswb05kd0tqbmZqM2FMeGl3cnE4dXdVRy1OZzRmOHc3bUU1d2FscHp6WWpaV1B6THhWRFFLNXVoVXFNZzRDT29teWxnQ1daX09wSDhjMF8zTF9nNllqcGJ0THdxVEpEOHV3aUJEU2xRVF93TE51ek1oYjhDRG51OXUz?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOS0JJN3dwUVRvNUtBRklaTjUxUExUd3ZfTzNMa0FDVkc2Tlo4TXdnUWcxOTZ2NFRjOUJRLUh4M2xja1pMYkZadHc5REJBcWZwU1pYUVlYbElSTmJDSHRaMTB2WDd5YnU2VlRDa2w3WGhsbWdBa29hYTU2ZjlFUFUySTZrSVZuWTByQ2V1N0FSR29rWkdCREoxdTcwaTZ6cWc?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZENxY1BPT1VqZVhtaXZsc0tycXkyLThRdVI2c0VoSUVYNEdwMjhEaUZhU2tNZmJDd2U5RlFqLXpYamRSMmVOb3pOaHdOREMzMUFWUGJNNGxSRTRFcV9sOXU2aUhUcnZZallDWkdFa3JJU1pVZGNfcXhxeWhxWFRsZ2dxQTQ4djdMNy05X3RwaUtfMGN3dERQdkZBakhYWnZtQWI0dFphZUF4ZVFkb2h3YkhDN1czUG1QZmhHakZQSGdVT0tXRWo3LW9LLWJOOUJ3V3ZXRVZiX1h0STRZc25V?oc=5",
         "bucket": "variant"
       }
     ]
@@ -337,8 +337,8 @@
     {
       "experimentId": "headline-style",
       "sample": {
-        "control": 11,
-        "variant": 9,
+        "control": 9,
+        "variant": 11,
         "total": 20
       },
       "outcomeMetrics": {
@@ -352,8 +352,8 @@
     {
       "experimentId": "intro-style",
       "sample": {
-        "control": 11,
-        "variant": 9,
+        "control": 9,
+        "variant": 11,
         "total": 20
       },
       "outcomeMetrics": {
@@ -367,8 +367,8 @@
     {
       "experimentId": "cta-placement",
       "sample": {
-        "control": 11,
-        "variant": 9,
+        "control": 9,
+        "variant": 11,
         "total": 20
       },
       "outcomeMetrics": {
@@ -381,6 +381,6 @@
     }
   ],
   "history": {
-    "previousUpdatedAt": "2026-10-05T15:14:25.851Z"
+    "previousUpdatedAt": "2026-10-06T00:18:34.227Z"
   }
 }
