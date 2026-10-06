@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-05T23:33:16.492Z",
+  "generatedAt": "2026-10-06T03:51:34.202Z",
   "policy": {
     "privacyFirst": true,
     "noPersonalTracking": true,
     "noPaidTrafficRequired": true
   },
   "summary": {
-    "totalArticles": 39,
+    "totalArticles": 40,
     "averageEditorialScore": 76,
     "editorialReviewCount": 28,
     "refreshCandidates": 15
@@ -15,18 +15,18 @@
   "categoryMix": [
     {
       "category": "AI",
-      "count": 13,
-      "share": 33.3
+      "count": 14,
+      "share": 35
     },
     {
       "category": "Technology",
       "count": 7,
-      "share": 17.9
+      "share": 17.5
     },
     {
       "category": "How-To",
       "count": 3,
-      "share": 7.7
+      "share": 7.5
     },
     {
       "category": "Innovation",
@@ -36,17 +36,17 @@
     {
       "category": "Product Launches",
       "count": 1,
-      "share": 2.6
+      "share": 2.5
     },
     {
       "category": "Digital Life",
       "count": 8,
-      "share": 20.5
+      "share": 20
     },
     {
       "category": "Crypto",
       "count": 6,
-      "share": 15.4
+      "share": 15
     }
   ],
   "missingCategories": [
@@ -59,6 +59,11 @@
     "15 older/incomplete article(s) are refresh candidates."
   ],
   "recentArticles": [
+    {
+      "title": "Reflection Unveils Beam, an Open-Weight Model Aiming to Outperform Chinese Counterparts",
+      "category": "AI",
+      "publishedAt": "2026-10-06T03:51:22.572Z"
+    },
     {
       "title": "Security Guard Wanted After Shooting Man Outside Club on Spring Garden",
       "category": "Digital Life",
@@ -103,11 +108,6 @@
       "title": "Shopify Enables Browser‑Based AI Agents to Complete Checkout",
       "category": "AI",
       "publishedAt": "2026-09-29T11:51:17.152Z"
-    },
-    {
-      "title": "Meta Unveils Enterprise AI Platform, Names MongoDB CEO to Lead",
-      "category": "AI",
-      "publishedAt": "2026-09-29T09:07:59.733Z"
     }
   ]
 }

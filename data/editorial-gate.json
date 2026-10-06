@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T23:31:26.967Z",
+  "generatedAt": "2026-10-06T03:51:22.573Z",
   "provider": "Groq",
   "editorial": {
     "passed": true,
@@ -22,8 +22,8 @@
       "noHighSimilaritySource": true
     },
     "metrics": {
-      "normalizedLength": 4022,
-      "sentenceCount": 31,
+      "normalizedLength": 1959,
+      "sentenceCount": 11,
       "maxSourceSimilarity": 0,
       "maxCommonPhrase": 0
     }
@@ -31,15 +31,12 @@
   "semanticDuplicateCheck": "passed",
   "sourceRelationshipCheck": "passed",
   "verifiedEvidenceDomains": [
-    "bleepingcomputer.com",
-    "9to5mac.com",
-    "techcrunch.com",
-    "theverge.com"
+    "techcrunch.com"
   ],
   "primarySourceCount": 0,
   "grounding": {
-    "sourceCount": 4,
-    "usablePassages": 45,
+    "sourceCount": 1,
+    "usablePassages": 16,
     "primarySourceCount": 0
   }
 }

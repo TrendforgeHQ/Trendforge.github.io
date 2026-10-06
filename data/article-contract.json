@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "title": "OpenAI is adding text watermarking in ChatGPT and Codex",
-  "mode": "bounded",
+  "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+  "mode": "narrow",
   "wordBudget": {
-    "min": 425,
-    "max": 750,
-    "soft": 588
+    "min": 231,
+    "max": 420,
+    "soft": 326
   },
   "h2Budget": {
-    "preferredMin": 2,
-    "preferredMax": 4
+    "preferredMin": 1,
+    "preferredMax": 2
   },
-  "atomicClaimBudget": 18,
+  "atomicClaimBudget": 16,
   "allowedFactIds": [
     "F1",
     "F2",
@@ -28,36 +28,7 @@
     "F13",
     "F14",
     "F15",
-    "F16",
-    "F17",
-    "F18",
-    "F19",
-    "F20",
-    "F21",
-    "F22",
-    "F23",
-    "F24",
-    "F25",
-    "F26",
-    "F27",
-    "F28",
-    "F29",
-    "F30",
-    "F31",
-    "F32",
-    "F33",
-    "F34",
-    "F35",
-    "F36",
-    "F37",
-    "F38",
-    "F39",
-    "F40",
-    "F41",
-    "F42",
-    "F43",
-    "F44",
-    "F45"
+    "F16"
   ],
   "synthesis": {
     "allowed": true,
@@ -79,36 +50,7 @@
       "F13",
       "F14",
       "F15",
-      "F16",
-      "F17",
-      "F18",
-      "F19",
-      "F20",
-      "F21",
-      "F22",
-      "F23",
-      "F24",
-      "F25",
-      "F26",
-      "F27",
-      "F28",
-      "F29",
-      "F30",
-      "F31",
-      "F32",
-      "F33",
-      "F34",
-      "F35",
-      "F36",
-      "F37",
-      "F38",
-      "F39",
-      "F40",
-      "F41",
-      "F42",
-      "F43",
-      "F44",
-      "F45"
+      "F16"
     ]
   },
   "rules": {
@@ -117,7 +59,7 @@
     "newEntitiesInSynthesis": false,
     "newCausalityInSynthesis": false
   },
-  "generatedAt": "2026-10-05T23:31:26.967Z",
-  "articleTitle": "OpenAI Rolls Out Invisible Watermarks to EU ChatGPT and Codex Text",
-  "articleSlug": "openai-rolls-out-invisible-watermarks-to-eu-chatgpt-and-codex-text"
+  "generatedAt": "2026-10-06T03:51:22.573Z",
+  "articleTitle": "Reflection Unveils Beam, an Open-Weight Model Aiming to Outperform Chinese Counterparts",
+  "articleSlug": "reflection-unveils-beam-an-open-weight-model-aiming-to-outperform-chinese-counterparts"
 }

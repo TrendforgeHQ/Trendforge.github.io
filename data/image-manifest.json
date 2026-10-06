@@ -1,12 +1,79 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-05T23:33:15.562Z",
+  "generatedAt": "2026-10-06T03:51:33.301Z",
   "model": "@cf/black-forest-labs/flux-1-schnell",
   "width": 1024,
   "height": 576,
   "steps": 4,
-  "generated": 0,
+  "generated": 1,
   "skipped": 0,
   "failed": 0,
-  "images": {}
+  "images": {
+    "reflection-unveils-beam-an-open-weight-model-aiming-to-outperform-chinese-counterparts": {
+      "status": "generated",
+      "image": "/Trendforge/images/articles/reflection-unveils-beam-an-open-weight-model-aiming-to-outperform-chinese-counterparts.1024x576.png",
+      "generatedBy": "@cf/black-forest-labs/flux-1-schnell",
+      "width": 1024,
+      "height": 576,
+      "steps": 4,
+      "elapsedMs": 2592,
+      "bytes": 641834,
+      "visualBrief": {
+        "version": 2,
+        "mode": "documentary-person",
+        "primarySubject": "Claims Reflection, the central person named by the story",
+        "scene": "A restrained documentary technology-publication photograph of the central person publicly speaking, being interviewed, or addressing an industry audience in a context that directly matches the article.",
+        "supportingElements": [
+          "softly blurred audience or event environment",
+          "Nvidia-specific event context without invented logos or text"
+        ],
+        "composition": "Medium or medium-wide horizontal frame; subject slightly off-center; back, side, over-the-shoulder, cropped, silhouette, or natural-distance framing so the face is not clearly identifiable.",
+        "company": "Nvidia",
+        "namedPerson": "Claims Reflection",
+        "category": "AI",
+        "storyAnchors": [
+          "reflection",
+          "unveils",
+          "beam",
+          "open-weight",
+          "model",
+          "aiming",
+          "outperform",
+          "chinese"
+        ],
+        "avoid": [
+          "generic office imagery",
+          "random tablet or laptop",
+          "generic futuristic technology",
+          "glowing holograms, floating code, HUDs and neon sci-fi effects",
+          "prominent readable text or fake headlines",
+          "generic product hero replacing the person",
+          "invented facial likeness",
+          "random consumer electronics as the main subject"
+        ]
+      },
+      "relevance": {
+        "passed": false,
+        "anchors": [
+          "reflection",
+          "unveils",
+          "beam",
+          "open-weight",
+          "model",
+          "aiming",
+          "outperform",
+          "chinese"
+        ],
+        "matchedAnchors": [
+          "reflection"
+        ],
+        "entityMatches": [
+          "nvidia",
+          "claims reflection"
+        ],
+        "score": 0.125
+      },
+      "promptLength": 1900
+    }
+  }
 }
