@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-06T18:36:03.942Z",
+  "updatedAt": "2026-10-06T22:48:16.278Z",
   "mode": "shadow",
   "policy": {
     "advisoryOnly": true,
@@ -14,7 +14,7 @@
     "noWinnerBeforeMinimumSample": true
   },
   "sample": {
-    "runs": 73,
+    "runs": 74,
     "topics": 500,
     "articles": 40
   },
@@ -88,248 +88,248 @@
   "assignments": {
     "headline-style": [
       {
-        "key": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOT3dXakdhZUZDTHpNQ2FicUZNekt2bFV6TE41bzFEOFltWmRzZl84c2p2Z09HaDdVUmJKaWpEbFNWdENTYkxBdEtielNYTS1uQXEwNUlRT0oxNVJqVkQ3ajBVUlYxZENsQWFBV2JpUkhheWZCTFNrbWJxbHRNaVlweG9BNTZwdmFXenV6T2phSUN2UmxHT2JfUWRNZEJlQzRQY0pfd3l4ZVJIbW9IdGJXT0ZCRnZGeFhLY0FZS29rVVFWWFJ3X1F4bDJwOG5BMnZZUzRFaGdTZmVHQm05Q1BoSXhLNk43U0s3VEdMR2Z0UlJwSVVDbkpwSkVpckhHUEZYMG1DbFZpS1J3RHc?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbFpKRXJmeFdrT1BSMnhiLW1WSUpZMmtwTWhlRWRqT3lXZExKdHZ6Sy1XVldsZ3pBeEFLZ2YyVGtZMkNIX2RzbEF2WGRVdjRjMnp4eHlTdUwzV0lfb05Zd1J4d3dJYWJuaThDT2JNTUNVLTIta2RlZjlXUzBTcU9WajJ2UV9jd2phYXZYZkRiTFA1OE5LM2JBQ1FteWtwYkg4bTVHaHhWaEpSUQ?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQeV9kTmwtSlo0bHRqMVI4QUkzckRDT3NjSTFUS0hUTFNaeU5CMURGbGxiVnVIb2JBVU91YXMyZGFtLWVMZk12MWJQdk5laVE1ZEZYM2FiRmN6SzBpa1RWMXpzRDZPZUREeHNTdmhxS3J1WWkwR0p5a1RZNDVYbXhCZ18tNnkwMHpkT2pXbUUxM0xrVG5uTkFQZGhWbVc2NkxzYU5iTXJaWUFJZFMtNmJuUThlTjJsR0hiQmlJWklDMkxTV04taFlMRHNTNzJpNXd3a1NzY3dOWU91V3pSb3gwWnZKcXRTREpNU0JoLVJBSWt6Y0h1ZXNuUmRYZWk?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTnFqUWlVUFZZZm50SGJDVFd5eE9VUW9Ha2FFdmdQMHpuME9mY0FaU0lQZVBLci1sU20zNi1xVkJiVnB1NnlwWDg4ZWMwaTNnZVUtc3JEek54S0E0U3JnVmFQS0hUYS1rZWxRY0MxTXBMQjI0RmRnTUZqdVpyV2gtWEhNNVoxZmZubjZfMUVlaF9Wc2RKTnJXNGJlX2pLOUctdGQw?oc=5",
+        "key": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWFhJUUpST3VsTkY3SFdrRE5ia2gwTXFVU3B1TWthSnFLV1M3ekpFNEFFdElBam9RYmo1VFRnaERVUkN5cE9ndzRaNjFCUlBPUDJlMmdDM0FEd2NDOVd2Rk1LdzdLUUkxZFppUE91a2xFVHVyWnBQT0VBQ0VvcGJOUkVoTnU4Q2FKcDR2ZjJFWjMyeTJZVnFzZkJDZVZ5NFl1bGlYejln?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9xeUxQS3Z0UFFHWklKVk5vLXNtTmFFNEZITi16cTNxQWV0YlVrQ2lyRS1Ua3dtN1FQa0dwcVJxcGhsbmI4Q2gxelk3dEFMOHU4bEN5SHRrLWF0V3QwUHpBUXN1Zw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONk85VkFPejZMeUQtZjRZZFBITEtxM3dxNENqUENma2lmQ0N4TjV4VUN6YkJxdDgwaWZqcktnRkpqdmZoWUV4SXBBandXRVZwa3ZoQko1Zi1tSnVLa3FyTUJxcEtCSU1xdzNTZUNqY1BtZFJ2aUVXdC1WdjAtcDlsclh3MzVsRjcwVVVtelpSU3NzNlpNR3ZhTF8xTDVMS3c4cWZlVjZSbUZlOFJoXzZfbmdKRDdpQQ?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNGlFWFVWcW1pMXAyOVJ4SGNuSlRWM0hpdUV2N1hCNzBtakQzdmVIbHplNlNMWkZ0TGxLdHdfekhGYWNmMi11MWhqakdERXJHVWxGOUdrYWkyTlJIZEl6NzF5c2ZtQ2JIUDZDQ2JTQUw4VDBnUUYxWHNRTHVPV0psdk9uc3F4cGJRb3BBUmJCVGxJMGt2c2I5WElnVXZWVlBwc0hQX3dfOVI2V0I4?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iY2JzYUlZcnM5MnFFc2lIS0F3WVBPdDY5T214SUpXUnU1Q052aEV6MlFsZW1oN1ZJX1dpSXNZWDJqN3dxMEdGbGlCNEljTm9BOWJXX1BuQmpBblVjaFAwdWVVTjZ0dE1fOUF3RFhJcVd1ZTFWajA4VXdDYkI?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://www.technologyreview.com/2026/10/06/1145836/weight-loss-drugs-glp1-lilly-novo-aging-clocks/",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOR3UzNThQT1RuTXJ0aUJyZ0w1UU9KdzVaQkd3UjloV1N5dFMwb0h3QjRuUk5tR0Rld1pYYzVpcVpqM1NDdUVZZkJIcU9xbnR5VUtaRGhUc0dEc0RFcnk0bnFnVEtUeDM3eDFmRDFkdmVycGQ2ZktFYjFfVHhVbU9ZTXgxQ3NPRS1xMTZRU21DbUhWUXRlcHVBSVRJV0RST0xpNm5nNEE0V29QWXcyT2FsR20ybEdUWWhUU3hSQmRXNWhEOFBNYWRRMDY1REZydzBISGRRcWJxb19INkd5b3o2STRaSVJ0T3NFYVIzYVhUeTVZa1lPSEJVRmtYcDZ2MVQtMlY0?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVEd6Tl9neFZ1QldseVhIV3dYUl9feUJiSTlSem5oWXYzUDh5a2F4QU9mc1prVlg1QVBrNFhDVzZSTVRHaUt6cVlHb3JXQXk5QWtlbnJtbXBVSGlXNnVNZVF4NHdfQlNObjM1aDNWdV9oeFNYNEJrTWFlY0ZhZEpETlZrck1ycU1NTjRqY0d6VEVha0dWNURSVzRYZXRlTnpGRWRpVTRmdUpwZ3BVNGs3aHpvdzdtdUZ1allTZzU2UE1sLTZDTkI5ajFWSHFnR0tsd2Z5ZjV0Mi0?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdlp3bVVXbmhzdEQwcUo1STBNaTFtR2V0RGNOclpZSmxYM0tMcDhVT3ZHT2JDY1JXbm5yeXVoTWoxQ2doUndWaE92UzRtbFB4US1KVzlmYmFjVjNKQXRtaG14N0N2WVBtV1ZYUWtaa1NMVFNvdWFLSTFVc2hOX09yUGRlTUJCSkV2cm5XbWNkNlJFVXJOMzFfSkRQcXBUdjhibl9Idkl1NWFTcERUOUQ1S1pESEplN09rb3F3?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZjY1TTZEUUdlX2pfYlhUOW93NzhfTV9oY2E5UW1qb1ZVenhRZm83aVhhSlB0WEZTZGNuWG11RGxjZ201eGJJeEVfY3ZfVUoxWlFIZExVOGMtcE0xbWp4U0M0QXNtU2hQYWpDNUFnTDFVVlNxOG45NHBhMnNlXzhERW5FNkpGZTEyY3NXODVyZUdPS2Z4U2hNeGx3ZHFmb1VnWVZ6RjBOQ3ppYUxPNzZRM1VoUVNtQ0NJNmsxeFBqaGRoLTdTT2FhWDh2M2t1cUEyWDQ0?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxOcVdJVmw5SU9HZ1FMaXZNekRWR2RnbkF0RzRGUnVYZ1d6ZFh3UGJya2xnR0locldad0pfdF8xcmh6MXF0d3RWRldMd3dWZDlzMWIxMHVLQXdWMmwxODRwbGF6QnZOU1JHUEdDbjF5M0c3eFJLeVNaZmlyTzZpQVpmTDRtYnJoRnl4X0t6dUpGSE5lNFRaVmpXcHgyVllJc1hLb25TSTdPZjczelUwQm5laXNqM2pOTEloR0thSUVFeFF6cDVjLTdGQXpVRS1GdHpjWlhTbDhXVWlQQU1jUHZBNFkxd1hkQ0NaaV9RdFBIaWdVOHAtUWxXck5LU3BiZlV2YVdHRW1waVhsUXdjRVFrRmVabnlYNnRmMmVtZTdoRy1ZR1owTFlGdnhwbC1ZNVV2N3NrUXpDTkxLRUNhYVp1TFQ3OS1TRUI5OXpmSVMxTjdxNDdVR2tKc0Z0QU9YX3M2bEtJNzhR?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://www.technologyreview.com/2026/10/06/1145032/2026-climate-tech-companies-to-watch-energy-dome-carbon-dioxide-batteries/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://www.technologyreview.com/2026/10/06/1145025/2026-climate-tech-companies-to-watch-x-energy-helium-cooled-nuclear-reactors/",
+        "key": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNak9PcEpOQnRyd3dhcWJaZ1l4Q2NvRkkyRndTSWE5TE15VWFLcm5laHFVbkE5WndhYlU1Z0JiODhPLW95X2Y0OEcwZXd1QkJqZmNrMzNEV0VWLTJpVkZCMmU4Vzk4WmxpcjNid2JOTC13VEpnZXdnOTF1RzFnYlNyV3RYYm1zaU9MZTRQd1FOblkzSkhBV3pR?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://www.technologyreview.com/2026/10/06/1145172/2026-climate-tech-companies-to-watch-brimstone-one-stop-process-making-cleaner-cement-critical-minerals/",
+        "key": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONzZLWkZFY2l4aVRUbXc2NFBnWnVPVzh3c2E0WGVIb3JfazJKNkZCbVpxWjVyLU1rWDB3RmZ1azVic2pnMUFkcTJrMU5KNGE4UkJqTThuUlBiMUdINVF3S09LaTNFMHc3ZTJSNjlYdm5EVG5keldQaXRXaEtLc202R084U1ltWXI3Uldn?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://www.technologyreview.com/2026/10/06/1145208/2026-climate-tech-companies-to-watch-wavesave-portable-rubber-dam/",
+        "key": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdjBJbEg3RnEwWnE4M3NqN3JWTURwd0RiWjhPTzdmYzdYQ2dUMzBuTXVjNTZVZnd2QkhyX1ViSjVlUGNHOVNGZmNPaEZOZHYzMmF3TS1BMHNYWGp5Umo4a1BFU3ZPVm1razdKVk5zSUdGZXl0UFBrYWtESkxRX3pTQlRLM2djNUdycHhaVV9DalIyaU5LVzFmSEc5MG5lbVV2SzFpS3dlc3lmazEyRG1mdVpTVnNTVHM1MkFiRFBQUF9HLVYzVWRpaVRn?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://www.technologyreview.com/2026/10/06/1145216/2026-climate-tech-companies-to-watch-basigo-fleet-electric-buses/",
+        "key": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yNjRYcWtoOFpDMk5zclo4YzM4dFdxRlNUc2VQQmpWYjBvU3FqWFcyYzZzbzN6T3ctME04LXZDWkQ2WnJVdUpWRG11bXpvRGdjMGc?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBuYXBSd3N3emRpS3Q0SUJqaksxNGRraXd1YUdLUDRza1prTjNIeE1rV0JnVnNYSzUyRGlNcVNNd21ZRl9ZNzMxWXVVRQ?oc=5",
+        "key": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSjlUWkRrdmNiT2l6bkxyR3gzTGNEdF90U1RyRTJXZjZCS1E1cnJmYjBOdW54TEowb1Boc3VtenRtWXExN1M3d2dWc3dLZ1FpaDJrWENNWm5QbjdtS2ppNnFkQU9BY2lOdU1Jbk9KbDZxOGJIbVlmTTduSVVOdFFTeUVfMXd1M2xRZ2JtUXItZ1lXTWFFVDhLZklPMmcwSHZKM191M2dTYUwxT25kelVhcDR3UDZWMG9pSkE?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZHVkUDFUa2g1elRlVG16Z285Yy1nNmlvQkxySE1WQ3JkNnhXejA5RlM3VVY3VENmalR3V2tmTkJhVnlGSEZVSFJjNV9faEVLQUdubE0tMndfVGpDZU5GNUlXYlpmdElDR2pzdmRyZHRZMFYtYlhvZDNVZnRuUTdOUUtqU09vMWdzdUFvc3lBbEhZanRSYkZQM1pZRVlLWTVVVU9sQXA0SWR5Vjd3M29sdl9MRQ?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaE9WVmlxc3VUZ0tJckZRR0phLTZUV25GRmkxWEFpMERrVjBoS19KYk1ZaXQtZzJEbUFZOFk4WVVVU3QyanI2b09ZM0ZRQldTN0hBTmpiTjhNVkxSREczclNxYmVvQjU2NVlKWWlrWnpNR0ttQ1U3SWlLaGFFdzVDelJwTVNpcWZvQVZiN2xfdHFvSWVxbjFIeUZMOA?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR1BkTlZ5ckxBczhVRjR0XzNiaVJ4OWhiUTBDUExrTTNicUlXcmNlZmhkNXlST0tjQmFqRC1sY3JJMEdMQlA2aHRGTDhkRGYzcm53NnFtdGt5YVVfNHBhbENnbjBkU1ozYS1QcGtaOUlZczBiMVl4YjlPX1RvSnhYZkZxTkxqMWU4NV9xRmJ6eVRBRS03OE5ObW5yLXBDUzZ0SjRFRlkwSENtY29vdkItWTVwRQ?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQTN0a2NiX01lVVVLVG43WGNKaHV5eW9HNTQ1enY3M0RVQ2ZBZFBhcjNlZVdBaHJoYUZtSXl6VHp4WXRJamE5UzQ1YzZVVDhBNzNGaGJlckxXZjVlVkljQ3pHdVVzdFpNbzZSQ3N2UEQ4QVJEN1BUNkhTV1JWZGFyTm9wYS1qNWc1MHp1T1JZTUlHWkhsWmN5UW1nOFpVLWc3VDBuSXY2eGFtakstOTZz0gG0AUFVX3lxTFBCb0RRa0Q2amF3MWIwczVHYWZyYWdVWTVWM05CMFFjZHFadzFmSjlfdVQ2ZU5NbjlDeUktTUpDVXQ5S1A0VW1pNjlsUDNkbnpwVFBDamFacFlBeFpYR3ZJNk1LM3VyTWRKd1RzeWY4RlkzTy1sMnF6UWZ2NDBnX2liZkRDNVFXSllxNEIxTzRiZGY1eTc3b2txck1ZRGhPck1lazVLODBaZHA1UTFSakFrYWtUMw?oc=5",
+        "key": "https://arstechnica.com/science/2026/10/neutrino-physicist-wins-2026-nobel-physics-prize/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://www.theverge.com/gadgets/1005662/apple-ipad-macbook-airpod-prime-day-deal-sale",
+        "bucket": "control"
+      },
+      {
+        "key": "https://www.theverge.com/science/1006082/google-nuclear-energy-power-purchase-agreement-constellation",
+        "bucket": "control"
+      },
+      {
+        "key": "https://www.theverge.com/news/1006238/apple-lg-homekit-rumor-fcc",
         "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSGlfT2VySTV6c2xrbThCWTB0N2hla3A4LUxSS3FieHd5OGxPZEd4MnlQZTZER0FNZEZDaFRhVzBSa1hzTkFXdE16My1IY280RktMa2VPcjRRV0h1eG92MVFfRWp3XzR5Mld5eV91WVV1bl96bGVUZEpXTnhPX0VEN1FKdDlWU3IyejlFeGRGVklvQ29mbGFVd1dnZ1RNeGRadm1kQVgyako5Z3prUEE?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWWdoVFNvZHUwOUxpbVFMSW9PUDhNNnk4MU5lMkZJcUJVc3RsY0t2dEFTR2R5TTJuN1RjQWg5TXBjcW5KeThUbmQtRC1qdFFwdWRDNVNIblpXdVpmTlZEc1pHSUQ4bEZjbk5QQlVqWDVYdUYtNzlUZGxSRTZRTGR2U0tDQWVMcGxZajVUNFVDREhpYkNXNHU3LThFTm1UdzFNcTgxeVBIbkRnZTA?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTUJXWWdGU2NvVnRLZnVmVEFfVTB2eU51RlV2N08xUkFHbHZ3VzZIMzBnS01vU3pBQmUzaTZwbzl4Z3p0NHRLZm1qSFhOSE1pZlpFaFhCZk54Z2F5cENBTXpwYlNQc3NONVdHcWdFWTdtUVhtamY4ZjI1OVllWmh0R0l3TzJoTFA3X0ctYjZhR0w4elpxay1yTXJ4cks0YnRsbzlRWWw2ZHJ5MVVablhObnVOZGw4dmwxZTJVZlZkT1IyWkh3WFp1ZlJxNmVQZkgtWUxXYUJTUTB1OGFHUnd3cEdKbTU0WHlkVGlOcmFMUQ?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://www.technologyreview.com/2026/10/06/1145020/2026-climate-tech-companies-to-watch-form-energy-iron-batteries/",
-        "bucket": "control"
       }
     ],
     "intro-style": [
       {
-        "key": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOT3dXakdhZUZDTHpNQ2FicUZNekt2bFV6TE41bzFEOFltWmRzZl84c2p2Z09HaDdVUmJKaWpEbFNWdENTYkxBdEtielNYTS1uQXEwNUlRT0oxNVJqVkQ3ajBVUlYxZENsQWFBV2JpUkhheWZCTFNrbWJxbHRNaVlweG9BNTZwdmFXenV6T2phSUN2UmxHT2JfUWRNZEJlQzRQY0pfd3l4ZVJIbW9IdGJXT0ZCRnZGeFhLY0FZS29rVVFWWFJ3X1F4bDJwOG5BMnZZUzRFaGdTZmVHQm05Q1BoSXhLNk43U0s3VEdMR2Z0UlJwSVVDbkpwSkVpckhHUEZYMG1DbFZpS1J3RHc?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbFpKRXJmeFdrT1BSMnhiLW1WSUpZMmtwTWhlRWRqT3lXZExKdHZ6Sy1XVldsZ3pBeEFLZ2YyVGtZMkNIX2RzbEF2WGRVdjRjMnp4eHlTdUwzV0lfb05Zd1J4d3dJYWJuaThDT2JNTUNVLTIta2RlZjlXUzBTcU9WajJ2UV9jd2phYXZYZkRiTFA1OE5LM2JBQ1FteWtwYkg4bTVHaHhWaEpSUQ?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQeV9kTmwtSlo0bHRqMVI4QUkzckRDT3NjSTFUS0hUTFNaeU5CMURGbGxiVnVIb2JBVU91YXMyZGFtLWVMZk12MWJQdk5laVE1ZEZYM2FiRmN6SzBpa1RWMXpzRDZPZUREeHNTdmhxS3J1WWkwR0p5a1RZNDVYbXhCZ18tNnkwMHpkT2pXbUUxM0xrVG5uTkFQZGhWbVc2NkxzYU5iTXJaWUFJZFMtNmJuUThlTjJsR0hiQmlJWklDMkxTV04taFlMRHNTNzJpNXd3a1NzY3dOWU91V3pSb3gwWnZKcXRTREpNU0JoLVJBSWt6Y0h1ZXNuUmRYZWk?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTnFqUWlVUFZZZm50SGJDVFd5eE9VUW9Ha2FFdmdQMHpuME9mY0FaU0lQZVBLci1sU20zNi1xVkJiVnB1NnlwWDg4ZWMwaTNnZVUtc3JEek54S0E0U3JnVmFQS0hUYS1rZWxRY0MxTXBMQjI0RmRnTUZqdVpyV2gtWEhNNVoxZmZubjZfMUVlaF9Wc2RKTnJXNGJlX2pLOUctdGQw?oc=5",
+        "key": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWFhJUUpST3VsTkY3SFdrRE5ia2gwTXFVU3B1TWthSnFLV1M3ekpFNEFFdElBam9RYmo1VFRnaERVUkN5cE9ndzRaNjFCUlBPUDJlMmdDM0FEd2NDOVd2Rk1LdzdLUUkxZFppUE91a2xFVHVyWnBQT0VBQ0VvcGJOUkVoTnU4Q2FKcDR2ZjJFWjMyeTJZVnFzZkJDZVZ5NFl1bGlYejln?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9xeUxQS3Z0UFFHWklKVk5vLXNtTmFFNEZITi16cTNxQWV0YlVrQ2lyRS1Ua3dtN1FQa0dwcVJxcGhsbmI4Q2gxelk3dEFMOHU4bEN5SHRrLWF0V3QwUHpBUXN1Zw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONk85VkFPejZMeUQtZjRZZFBITEtxM3dxNENqUENma2lmQ0N4TjV4VUN6YkJxdDgwaWZqcktnRkpqdmZoWUV4SXBBandXRVZwa3ZoQko1Zi1tSnVLa3FyTUJxcEtCSU1xdzNTZUNqY1BtZFJ2aUVXdC1WdjAtcDlsclh3MzVsRjcwVVVtelpSU3NzNlpNR3ZhTF8xTDVMS3c4cWZlVjZSbUZlOFJoXzZfbmdKRDdpQQ?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNGlFWFVWcW1pMXAyOVJ4SGNuSlRWM0hpdUV2N1hCNzBtakQzdmVIbHplNlNMWkZ0TGxLdHdfekhGYWNmMi11MWhqakdERXJHVWxGOUdrYWkyTlJIZEl6NzF5c2ZtQ2JIUDZDQ2JTQUw4VDBnUUYxWHNRTHVPV0psdk9uc3F4cGJRb3BBUmJCVGxJMGt2c2I5WElnVXZWVlBwc0hQX3dfOVI2V0I4?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iY2JzYUlZcnM5MnFFc2lIS0F3WVBPdDY5T214SUpXUnU1Q052aEV6MlFsZW1oN1ZJX1dpSXNZWDJqN3dxMEdGbGlCNEljTm9BOWJXX1BuQmpBblVjaFAwdWVVTjZ0dE1fOUF3RFhJcVd1ZTFWajA4VXdDYkI?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://www.technologyreview.com/2026/10/06/1145836/weight-loss-drugs-glp1-lilly-novo-aging-clocks/",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOR3UzNThQT1RuTXJ0aUJyZ0w1UU9KdzVaQkd3UjloV1N5dFMwb0h3QjRuUk5tR0Rld1pYYzVpcVpqM1NDdUVZZkJIcU9xbnR5VUtaRGhUc0dEc0RFcnk0bnFnVEtUeDM3eDFmRDFkdmVycGQ2ZktFYjFfVHhVbU9ZTXgxQ3NPRS1xMTZRU21DbUhWUXRlcHVBSVRJV0RST0xpNm5nNEE0V29QWXcyT2FsR20ybEdUWWhUU3hSQmRXNWhEOFBNYWRRMDY1REZydzBISGRRcWJxb19INkd5b3o2STRaSVJ0T3NFYVIzYVhUeTVZa1lPSEJVRmtYcDZ2MVQtMlY0?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVEd6Tl9neFZ1QldseVhIV3dYUl9feUJiSTlSem5oWXYzUDh5a2F4QU9mc1prVlg1QVBrNFhDVzZSTVRHaUt6cVlHb3JXQXk5QWtlbnJtbXBVSGlXNnVNZVF4NHdfQlNObjM1aDNWdV9oeFNYNEJrTWFlY0ZhZEpETlZrck1ycU1NTjRqY0d6VEVha0dWNURSVzRYZXRlTnpGRWRpVTRmdUpwZ3BVNGs3aHpvdzdtdUZ1allTZzU2UE1sLTZDTkI5ajFWSHFnR0tsd2Z5ZjV0Mi0?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdlp3bVVXbmhzdEQwcUo1STBNaTFtR2V0RGNOclpZSmxYM0tMcDhVT3ZHT2JDY1JXbm5yeXVoTWoxQ2doUndWaE92UzRtbFB4US1KVzlmYmFjVjNKQXRtaG14N0N2WVBtV1ZYUWtaa1NMVFNvdWFLSTFVc2hOX09yUGRlTUJCSkV2cm5XbWNkNlJFVXJOMzFfSkRQcXBUdjhibl9Idkl1NWFTcERUOUQ1S1pESEplN09rb3F3?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZjY1TTZEUUdlX2pfYlhUOW93NzhfTV9oY2E5UW1qb1ZVenhRZm83aVhhSlB0WEZTZGNuWG11RGxjZ201eGJJeEVfY3ZfVUoxWlFIZExVOGMtcE0xbWp4U0M0QXNtU2hQYWpDNUFnTDFVVlNxOG45NHBhMnNlXzhERW5FNkpGZTEyY3NXODVyZUdPS2Z4U2hNeGx3ZHFmb1VnWVZ6RjBOQ3ppYUxPNzZRM1VoUVNtQ0NJNmsxeFBqaGRoLTdTT2FhWDh2M2t1cUEyWDQ0?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxOcVdJVmw5SU9HZ1FMaXZNekRWR2RnbkF0RzRGUnVYZ1d6ZFh3UGJya2xnR0locldad0pfdF8xcmh6MXF0d3RWRldMd3dWZDlzMWIxMHVLQXdWMmwxODRwbGF6QnZOU1JHUEdDbjF5M0c3eFJLeVNaZmlyTzZpQVpmTDRtYnJoRnl4X0t6dUpGSE5lNFRaVmpXcHgyVllJc1hLb25TSTdPZjczelUwQm5laXNqM2pOTEloR0thSUVFeFF6cDVjLTdGQXpVRS1GdHpjWlhTbDhXVWlQQU1jUHZBNFkxd1hkQ0NaaV9RdFBIaWdVOHAtUWxXck5LU3BiZlV2YVdHRW1waVhsUXdjRVFrRmVabnlYNnRmMmVtZTdoRy1ZR1owTFlGdnhwbC1ZNVV2N3NrUXpDTkxLRUNhYVp1TFQ3OS1TRUI5OXpmSVMxTjdxNDdVR2tKc0Z0QU9YX3M2bEtJNzhR?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://www.technologyreview.com/2026/10/06/1145032/2026-climate-tech-companies-to-watch-energy-dome-carbon-dioxide-batteries/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://www.technologyreview.com/2026/10/06/1145025/2026-climate-tech-companies-to-watch-x-energy-helium-cooled-nuclear-reactors/",
+        "key": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNak9PcEpOQnRyd3dhcWJaZ1l4Q2NvRkkyRndTSWE5TE15VWFLcm5laHFVbkE5WndhYlU1Z0JiODhPLW95X2Y0OEcwZXd1QkJqZmNrMzNEV0VWLTJpVkZCMmU4Vzk4WmxpcjNid2JOTC13VEpnZXdnOTF1RzFnYlNyV3RYYm1zaU9MZTRQd1FOblkzSkhBV3pR?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://www.technologyreview.com/2026/10/06/1145172/2026-climate-tech-companies-to-watch-brimstone-one-stop-process-making-cleaner-cement-critical-minerals/",
+        "key": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONzZLWkZFY2l4aVRUbXc2NFBnWnVPVzh3c2E0WGVIb3JfazJKNkZCbVpxWjVyLU1rWDB3RmZ1azVic2pnMUFkcTJrMU5KNGE4UkJqTThuUlBiMUdINVF3S09LaTNFMHc3ZTJSNjlYdm5EVG5keldQaXRXaEtLc202R084U1ltWXI3Uldn?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://www.technologyreview.com/2026/10/06/1145208/2026-climate-tech-companies-to-watch-wavesave-portable-rubber-dam/",
+        "key": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdjBJbEg3RnEwWnE4M3NqN3JWTURwd0RiWjhPTzdmYzdYQ2dUMzBuTXVjNTZVZnd2QkhyX1ViSjVlUGNHOVNGZmNPaEZOZHYzMmF3TS1BMHNYWGp5Umo4a1BFU3ZPVm1razdKVk5zSUdGZXl0UFBrYWtESkxRX3pTQlRLM2djNUdycHhaVV9DalIyaU5LVzFmSEc5MG5lbVV2SzFpS3dlc3lmazEyRG1mdVpTVnNTVHM1MkFiRFBQUF9HLVYzVWRpaVRn?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://www.technologyreview.com/2026/10/06/1145216/2026-climate-tech-companies-to-watch-basigo-fleet-electric-buses/",
+        "key": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yNjRYcWtoOFpDMk5zclo4YzM4dFdxRlNUc2VQQmpWYjBvU3FqWFcyYzZzbzN6T3ctME04LXZDWkQ2WnJVdUpWRG11bXpvRGdjMGc?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBuYXBSd3N3emRpS3Q0SUJqaksxNGRraXd1YUdLUDRza1prTjNIeE1rV0JnVnNYSzUyRGlNcVNNd21ZRl9ZNzMxWXVVRQ?oc=5",
+        "key": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSjlUWkRrdmNiT2l6bkxyR3gzTGNEdF90U1RyRTJXZjZCS1E1cnJmYjBOdW54TEowb1Boc3VtenRtWXExN1M3d2dWc3dLZ1FpaDJrWENNWm5QbjdtS2ppNnFkQU9BY2lOdU1Jbk9KbDZxOGJIbVlmTTduSVVOdFFTeUVfMXd1M2xRZ2JtUXItZ1lXTWFFVDhLZklPMmcwSHZKM191M2dTYUwxT25kelVhcDR3UDZWMG9pSkE?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZHVkUDFUa2g1elRlVG16Z285Yy1nNmlvQkxySE1WQ3JkNnhXejA5RlM3VVY3VENmalR3V2tmTkJhVnlGSEZVSFJjNV9faEVLQUdubE0tMndfVGpDZU5GNUlXYlpmdElDR2pzdmRyZHRZMFYtYlhvZDNVZnRuUTdOUUtqU09vMWdzdUFvc3lBbEhZanRSYkZQM1pZRVlLWTVVVU9sQXA0SWR5Vjd3M29sdl9MRQ?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaE9WVmlxc3VUZ0tJckZRR0phLTZUV25GRmkxWEFpMERrVjBoS19KYk1ZaXQtZzJEbUFZOFk4WVVVU3QyanI2b09ZM0ZRQldTN0hBTmpiTjhNVkxSREczclNxYmVvQjU2NVlKWWlrWnpNR0ttQ1U3SWlLaGFFdzVDelJwTVNpcWZvQVZiN2xfdHFvSWVxbjFIeUZMOA?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR1BkTlZ5ckxBczhVRjR0XzNiaVJ4OWhiUTBDUExrTTNicUlXcmNlZmhkNXlST0tjQmFqRC1sY3JJMEdMQlA2aHRGTDhkRGYzcm53NnFtdGt5YVVfNHBhbENnbjBkU1ozYS1QcGtaOUlZczBiMVl4YjlPX1RvSnhYZkZxTkxqMWU4NV9xRmJ6eVRBRS03OE5ObW5yLXBDUzZ0SjRFRlkwSENtY29vdkItWTVwRQ?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQTN0a2NiX01lVVVLVG43WGNKaHV5eW9HNTQ1enY3M0RVQ2ZBZFBhcjNlZVdBaHJoYUZtSXl6VHp4WXRJamE5UzQ1YzZVVDhBNzNGaGJlckxXZjVlVkljQ3pHdVVzdFpNbzZSQ3N2UEQ4QVJEN1BUNkhTV1JWZGFyTm9wYS1qNWc1MHp1T1JZTUlHWkhsWmN5UW1nOFpVLWc3VDBuSXY2eGFtakstOTZz0gG0AUFVX3lxTFBCb0RRa0Q2amF3MWIwczVHYWZyYWdVWTVWM05CMFFjZHFadzFmSjlfdVQ2ZU5NbjlDeUktTUpDVXQ5S1A0VW1pNjlsUDNkbnpwVFBDamFacFlBeFpYR3ZJNk1LM3VyTWRKd1RzeWY4RlkzTy1sMnF6UWZ2NDBnX2liZkRDNVFXSllxNEIxTzRiZGY1eTc3b2txck1ZRGhPck1lazVLODBaZHA1UTFSakFrYWtUMw?oc=5",
+        "key": "https://arstechnica.com/science/2026/10/neutrino-physicist-wins-2026-nobel-physics-prize/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://www.theverge.com/gadgets/1005662/apple-ipad-macbook-airpod-prime-day-deal-sale",
+        "bucket": "control"
+      },
+      {
+        "key": "https://www.theverge.com/science/1006082/google-nuclear-energy-power-purchase-agreement-constellation",
+        "bucket": "control"
+      },
+      {
+        "key": "https://www.theverge.com/news/1006238/apple-lg-homekit-rumor-fcc",
         "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSGlfT2VySTV6c2xrbThCWTB0N2hla3A4LUxSS3FieHd5OGxPZEd4MnlQZTZER0FNZEZDaFRhVzBSa1hzTkFXdE16My1IY280RktMa2VPcjRRV0h1eG92MVFfRWp3XzR5Mld5eV91WVV1bl96bGVUZEpXTnhPX0VEN1FKdDlWU3IyejlFeGRGVklvQ29mbGFVd1dnZ1RNeGRadm1kQVgyako5Z3prUEE?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWWdoVFNvZHUwOUxpbVFMSW9PUDhNNnk4MU5lMkZJcUJVc3RsY0t2dEFTR2R5TTJuN1RjQWg5TXBjcW5KeThUbmQtRC1qdFFwdWRDNVNIblpXdVpmTlZEc1pHSUQ4bEZjbk5QQlVqWDVYdUYtNzlUZGxSRTZRTGR2U0tDQWVMcGxZajVUNFVDREhpYkNXNHU3LThFTm1UdzFNcTgxeVBIbkRnZTA?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTUJXWWdGU2NvVnRLZnVmVEFfVTB2eU51RlV2N08xUkFHbHZ3VzZIMzBnS01vU3pBQmUzaTZwbzl4Z3p0NHRLZm1qSFhOSE1pZlpFaFhCZk54Z2F5cENBTXpwYlNQc3NONVdHcWdFWTdtUVhtamY4ZjI1OVllWmh0R0l3TzJoTFA3X0ctYjZhR0w4elpxay1yTXJ4cks0YnRsbzlRWWw2ZHJ5MVVablhObnVOZGw4dmwxZTJVZlZkT1IyWkh3WFp1ZlJxNmVQZkgtWUxXYUJTUTB1OGFHUnd3cEdKbTU0WHlkVGlOcmFMUQ?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://www.technologyreview.com/2026/10/06/1145020/2026-climate-tech-companies-to-watch-form-energy-iron-batteries/",
-        "bucket": "control"
       }
     ],
     "cta-placement": [
       {
-        "key": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOT3dXakdhZUZDTHpNQ2FicUZNekt2bFV6TE41bzFEOFltWmRzZl84c2p2Z09HaDdVUmJKaWpEbFNWdENTYkxBdEtielNYTS1uQXEwNUlRT0oxNVJqVkQ3ajBVUlYxZENsQWFBV2JpUkhheWZCTFNrbWJxbHRNaVlweG9BNTZwdmFXenV6T2phSUN2UmxHT2JfUWRNZEJlQzRQY0pfd3l4ZVJIbW9IdGJXT0ZCRnZGeFhLY0FZS29rVVFWWFJ3X1F4bDJwOG5BMnZZUzRFaGdTZmVHQm05Q1BoSXhLNk43U0s3VEdMR2Z0UlJwSVVDbkpwSkVpckhHUEZYMG1DbFZpS1J3RHc?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbFpKRXJmeFdrT1BSMnhiLW1WSUpZMmtwTWhlRWRqT3lXZExKdHZ6Sy1XVldsZ3pBeEFLZ2YyVGtZMkNIX2RzbEF2WGRVdjRjMnp4eHlTdUwzV0lfb05Zd1J4d3dJYWJuaThDT2JNTUNVLTIta2RlZjlXUzBTcU9WajJ2UV9jd2phYXZYZkRiTFA1OE5LM2JBQ1FteWtwYkg4bTVHaHhWaEpSUQ?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQeV9kTmwtSlo0bHRqMVI4QUkzckRDT3NjSTFUS0hUTFNaeU5CMURGbGxiVnVIb2JBVU91YXMyZGFtLWVMZk12MWJQdk5laVE1ZEZYM2FiRmN6SzBpa1RWMXpzRDZPZUREeHNTdmhxS3J1WWkwR0p5a1RZNDVYbXhCZ18tNnkwMHpkT2pXbUUxM0xrVG5uTkFQZGhWbVc2NkxzYU5iTXJaWUFJZFMtNmJuUThlTjJsR0hiQmlJWklDMkxTV04taFlMRHNTNzJpNXd3a1NzY3dOWU91V3pSb3gwWnZKcXRTREpNU0JoLVJBSWt6Y0h1ZXNuUmRYZWk?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTnFqUWlVUFZZZm50SGJDVFd5eE9VUW9Ha2FFdmdQMHpuME9mY0FaU0lQZVBLci1sU20zNi1xVkJiVnB1NnlwWDg4ZWMwaTNnZVUtc3JEek54S0E0U3JnVmFQS0hUYS1rZWxRY0MxTXBMQjI0RmRnTUZqdVpyV2gtWEhNNVoxZmZubjZfMUVlaF9Wc2RKTnJXNGJlX2pLOUctdGQw?oc=5",
+        "key": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWFhJUUpST3VsTkY3SFdrRE5ia2gwTXFVU3B1TWthSnFLV1M3ekpFNEFFdElBam9RYmo1VFRnaERVUkN5cE9ndzRaNjFCUlBPUDJlMmdDM0FEd2NDOVd2Rk1LdzdLUUkxZFppUE91a2xFVHVyWnBQT0VBQ0VvcGJOUkVoTnU4Q2FKcDR2ZjJFWjMyeTJZVnFzZkJDZVZ5NFl1bGlYejln?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9xeUxQS3Z0UFFHWklKVk5vLXNtTmFFNEZITi16cTNxQWV0YlVrQ2lyRS1Ua3dtN1FQa0dwcVJxcGhsbmI4Q2gxelk3dEFMOHU4bEN5SHRrLWF0V3QwUHpBUXN1Zw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONk85VkFPejZMeUQtZjRZZFBITEtxM3dxNENqUENma2lmQ0N4TjV4VUN6YkJxdDgwaWZqcktnRkpqdmZoWUV4SXBBandXRVZwa3ZoQko1Zi1tSnVLa3FyTUJxcEtCSU1xdzNTZUNqY1BtZFJ2aUVXdC1WdjAtcDlsclh3MzVsRjcwVVVtelpSU3NzNlpNR3ZhTF8xTDVMS3c4cWZlVjZSbUZlOFJoXzZfbmdKRDdpQQ?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNGlFWFVWcW1pMXAyOVJ4SGNuSlRWM0hpdUV2N1hCNzBtakQzdmVIbHplNlNMWkZ0TGxLdHdfekhGYWNmMi11MWhqakdERXJHVWxGOUdrYWkyTlJIZEl6NzF5c2ZtQ2JIUDZDQ2JTQUw4VDBnUUYxWHNRTHVPV0psdk9uc3F4cGJRb3BBUmJCVGxJMGt2c2I5WElnVXZWVlBwc0hQX3dfOVI2V0I4?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iY2JzYUlZcnM5MnFFc2lIS0F3WVBPdDY5T214SUpXUnU1Q052aEV6MlFsZW1oN1ZJX1dpSXNZWDJqN3dxMEdGbGlCNEljTm9BOWJXX1BuQmpBblVjaFAwdWVVTjZ0dE1fOUF3RFhJcVd1ZTFWajA4VXdDYkI?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://www.technologyreview.com/2026/10/06/1145836/weight-loss-drugs-glp1-lilly-novo-aging-clocks/",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOR3UzNThQT1RuTXJ0aUJyZ0w1UU9KdzVaQkd3UjloV1N5dFMwb0h3QjRuUk5tR0Rld1pYYzVpcVpqM1NDdUVZZkJIcU9xbnR5VUtaRGhUc0dEc0RFcnk0bnFnVEtUeDM3eDFmRDFkdmVycGQ2ZktFYjFfVHhVbU9ZTXgxQ3NPRS1xMTZRU21DbUhWUXRlcHVBSVRJV0RST0xpNm5nNEE0V29QWXcyT2FsR20ybEdUWWhUU3hSQmRXNWhEOFBNYWRRMDY1REZydzBISGRRcWJxb19INkd5b3o2STRaSVJ0T3NFYVIzYVhUeTVZa1lPSEJVRmtYcDZ2MVQtMlY0?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVEd6Tl9neFZ1QldseVhIV3dYUl9feUJiSTlSem5oWXYzUDh5a2F4QU9mc1prVlg1QVBrNFhDVzZSTVRHaUt6cVlHb3JXQXk5QWtlbnJtbXBVSGlXNnVNZVF4NHdfQlNObjM1aDNWdV9oeFNYNEJrTWFlY0ZhZEpETlZrck1ycU1NTjRqY0d6VEVha0dWNURSVzRYZXRlTnpGRWRpVTRmdUpwZ3BVNGs3aHpvdzdtdUZ1allTZzU2UE1sLTZDTkI5ajFWSHFnR0tsd2Z5ZjV0Mi0?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdlp3bVVXbmhzdEQwcUo1STBNaTFtR2V0RGNOclpZSmxYM0tMcDhVT3ZHT2JDY1JXbm5yeXVoTWoxQ2doUndWaE92UzRtbFB4US1KVzlmYmFjVjNKQXRtaG14N0N2WVBtV1ZYUWtaa1NMVFNvdWFLSTFVc2hOX09yUGRlTUJCSkV2cm5XbWNkNlJFVXJOMzFfSkRQcXBUdjhibl9Idkl1NWFTcERUOUQ1S1pESEplN09rb3F3?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZjY1TTZEUUdlX2pfYlhUOW93NzhfTV9oY2E5UW1qb1ZVenhRZm83aVhhSlB0WEZTZGNuWG11RGxjZ201eGJJeEVfY3ZfVUoxWlFIZExVOGMtcE0xbWp4U0M0QXNtU2hQYWpDNUFnTDFVVlNxOG45NHBhMnNlXzhERW5FNkpGZTEyY3NXODVyZUdPS2Z4U2hNeGx3ZHFmb1VnWVZ6RjBOQ3ppYUxPNzZRM1VoUVNtQ0NJNmsxeFBqaGRoLTdTT2FhWDh2M2t1cUEyWDQ0?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxOcVdJVmw5SU9HZ1FMaXZNekRWR2RnbkF0RzRGUnVYZ1d6ZFh3UGJya2xnR0locldad0pfdF8xcmh6MXF0d3RWRldMd3dWZDlzMWIxMHVLQXdWMmwxODRwbGF6QnZOU1JHUEdDbjF5M0c3eFJLeVNaZmlyTzZpQVpmTDRtYnJoRnl4X0t6dUpGSE5lNFRaVmpXcHgyVllJc1hLb25TSTdPZjczelUwQm5laXNqM2pOTEloR0thSUVFeFF6cDVjLTdGQXpVRS1GdHpjWlhTbDhXVWlQQU1jUHZBNFkxd1hkQ0NaaV9RdFBIaWdVOHAtUWxXck5LU3BiZlV2YVdHRW1waVhsUXdjRVFrRmVabnlYNnRmMmVtZTdoRy1ZR1owTFlGdnhwbC1ZNVV2N3NrUXpDTkxLRUNhYVp1TFQ3OS1TRUI5OXpmSVMxTjdxNDdVR2tKc0Z0QU9YX3M2bEtJNzhR?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://www.technologyreview.com/2026/10/06/1145032/2026-climate-tech-companies-to-watch-energy-dome-carbon-dioxide-batteries/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://www.technologyreview.com/2026/10/06/1145025/2026-climate-tech-companies-to-watch-x-energy-helium-cooled-nuclear-reactors/",
+        "key": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNak9PcEpOQnRyd3dhcWJaZ1l4Q2NvRkkyRndTSWE5TE15VWFLcm5laHFVbkE5WndhYlU1Z0JiODhPLW95X2Y0OEcwZXd1QkJqZmNrMzNEV0VWLTJpVkZCMmU4Vzk4WmxpcjNid2JOTC13VEpnZXdnOTF1RzFnYlNyV3RYYm1zaU9MZTRQd1FOblkzSkhBV3pR?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://www.technologyreview.com/2026/10/06/1145172/2026-climate-tech-companies-to-watch-brimstone-one-stop-process-making-cleaner-cement-critical-minerals/",
+        "key": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONzZLWkZFY2l4aVRUbXc2NFBnWnVPVzh3c2E0WGVIb3JfazJKNkZCbVpxWjVyLU1rWDB3RmZ1azVic2pnMUFkcTJrMU5KNGE4UkJqTThuUlBiMUdINVF3S09LaTNFMHc3ZTJSNjlYdm5EVG5keldQaXRXaEtLc202R084U1ltWXI3Uldn?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://www.technologyreview.com/2026/10/06/1145208/2026-climate-tech-companies-to-watch-wavesave-portable-rubber-dam/",
+        "key": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdjBJbEg3RnEwWnE4M3NqN3JWTURwd0RiWjhPTzdmYzdYQ2dUMzBuTXVjNTZVZnd2QkhyX1ViSjVlUGNHOVNGZmNPaEZOZHYzMmF3TS1BMHNYWGp5Umo4a1BFU3ZPVm1razdKVk5zSUdGZXl0UFBrYWtESkxRX3pTQlRLM2djNUdycHhaVV9DalIyaU5LVzFmSEc5MG5lbVV2SzFpS3dlc3lmazEyRG1mdVpTVnNTVHM1MkFiRFBQUF9HLVYzVWRpaVRn?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://www.technologyreview.com/2026/10/06/1145216/2026-climate-tech-companies-to-watch-basigo-fleet-electric-buses/",
+        "key": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yNjRYcWtoOFpDMk5zclo4YzM4dFdxRlNUc2VQQmpWYjBvU3FqWFcyYzZzbzN6T3ctME04LXZDWkQ2WnJVdUpWRG11bXpvRGdjMGc?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBuYXBSd3N3emRpS3Q0SUJqaksxNGRraXd1YUdLUDRza1prTjNIeE1rV0JnVnNYSzUyRGlNcVNNd21ZRl9ZNzMxWXVVRQ?oc=5",
+        "key": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSjlUWkRrdmNiT2l6bkxyR3gzTGNEdF90U1RyRTJXZjZCS1E1cnJmYjBOdW54TEowb1Boc3VtenRtWXExN1M3d2dWc3dLZ1FpaDJrWENNWm5QbjdtS2ppNnFkQU9BY2lOdU1Jbk9KbDZxOGJIbVlmTTduSVVOdFFTeUVfMXd1M2xRZ2JtUXItZ1lXTWFFVDhLZklPMmcwSHZKM191M2dTYUwxT25kelVhcDR3UDZWMG9pSkE?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZHVkUDFUa2g1elRlVG16Z285Yy1nNmlvQkxySE1WQ3JkNnhXejA5RlM3VVY3VENmalR3V2tmTkJhVnlGSEZVSFJjNV9faEVLQUdubE0tMndfVGpDZU5GNUlXYlpmdElDR2pzdmRyZHRZMFYtYlhvZDNVZnRuUTdOUUtqU09vMWdzdUFvc3lBbEhZanRSYkZQM1pZRVlLWTVVVU9sQXA0SWR5Vjd3M29sdl9MRQ?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaE9WVmlxc3VUZ0tJckZRR0phLTZUV25GRmkxWEFpMERrVjBoS19KYk1ZaXQtZzJEbUFZOFk4WVVVU3QyanI2b09ZM0ZRQldTN0hBTmpiTjhNVkxSREczclNxYmVvQjU2NVlKWWlrWnpNR0ttQ1U3SWlLaGFFdzVDelJwTVNpcWZvQVZiN2xfdHFvSWVxbjFIeUZMOA?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR1BkTlZ5ckxBczhVRjR0XzNiaVJ4OWhiUTBDUExrTTNicUlXcmNlZmhkNXlST0tjQmFqRC1sY3JJMEdMQlA2aHRGTDhkRGYzcm53NnFtdGt5YVVfNHBhbENnbjBkU1ozYS1QcGtaOUlZczBiMVl4YjlPX1RvSnhYZkZxTkxqMWU4NV9xRmJ6eVRBRS03OE5ObW5yLXBDUzZ0SjRFRlkwSENtY29vdkItWTVwRQ?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQTN0a2NiX01lVVVLVG43WGNKaHV5eW9HNTQ1enY3M0RVQ2ZBZFBhcjNlZVdBaHJoYUZtSXl6VHp4WXRJamE5UzQ1YzZVVDhBNzNGaGJlckxXZjVlVkljQ3pHdVVzdFpNbzZSQ3N2UEQ4QVJEN1BUNkhTV1JWZGFyTm9wYS1qNWc1MHp1T1JZTUlHWkhsWmN5UW1nOFpVLWc3VDBuSXY2eGFtakstOTZz0gG0AUFVX3lxTFBCb0RRa0Q2amF3MWIwczVHYWZyYWdVWTVWM05CMFFjZHFadzFmSjlfdVQ2ZU5NbjlDeUktTUpDVXQ5S1A0VW1pNjlsUDNkbnpwVFBDamFacFlBeFpYR3ZJNk1LM3VyTWRKd1RzeWY4RlkzTy1sMnF6UWZ2NDBnX2liZkRDNVFXSllxNEIxTzRiZGY1eTc3b2txck1ZRGhPck1lazVLODBaZHA1UTFSakFrYWtUMw?oc=5",
+        "key": "https://arstechnica.com/science/2026/10/neutrino-physicist-wins-2026-nobel-physics-prize/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://www.theverge.com/gadgets/1005662/apple-ipad-macbook-airpod-prime-day-deal-sale",
+        "bucket": "control"
+      },
+      {
+        "key": "https://www.theverge.com/science/1006082/google-nuclear-energy-power-purchase-agreement-constellation",
+        "bucket": "control"
+      },
+      {
+        "key": "https://www.theverge.com/news/1006238/apple-lg-homekit-rumor-fcc",
         "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSGlfT2VySTV6c2xrbThCWTB0N2hla3A4LUxSS3FieHd5OGxPZEd4MnlQZTZER0FNZEZDaFRhVzBSa1hzTkFXdE16My1IY280RktMa2VPcjRRV0h1eG92MVFfRWp3XzR5Mld5eV91WVV1bl96bGVUZEpXTnhPX0VEN1FKdDlWU3IyejlFeGRGVklvQ29mbGFVd1dnZ1RNeGRadm1kQVgyako5Z3prUEE?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWWdoVFNvZHUwOUxpbVFMSW9PUDhNNnk4MU5lMkZJcUJVc3RsY0t2dEFTR2R5TTJuN1RjQWg5TXBjcW5KeThUbmQtRC1qdFFwdWRDNVNIblpXdVpmTlZEc1pHSUQ4bEZjbk5QQlVqWDVYdUYtNzlUZGxSRTZRTGR2U0tDQWVMcGxZajVUNFVDREhpYkNXNHU3LThFTm1UdzFNcTgxeVBIbkRnZTA?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTUJXWWdGU2NvVnRLZnVmVEFfVTB2eU51RlV2N08xUkFHbHZ3VzZIMzBnS01vU3pBQmUzaTZwbzl4Z3p0NHRLZm1qSFhOSE1pZlpFaFhCZk54Z2F5cENBTXpwYlNQc3NONVdHcWdFWTdtUVhtamY4ZjI1OVllWmh0R0l3TzJoTFA3X0ctYjZhR0w4elpxay1yTXJ4cks0YnRsbzlRWWw2ZHJ5MVVablhObnVOZGw4dmwxZTJVZlZkT1IyWkh3WFp1ZlJxNmVQZkgtWUxXYUJTUTB1OGFHUnd3cEdKbTU0WHlkVGlOcmFMUQ?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://www.technologyreview.com/2026/10/06/1145020/2026-climate-tech-companies-to-watch-form-energy-iron-batteries/",
-        "bucket": "control"
       }
     ]
   },
@@ -381,6 +381,6 @@
     }
   ],
   "history": {
-    "previousUpdatedAt": "2026-10-06T06:49:54.503Z"
+    "previousUpdatedAt": "2026-10-06T18:36:03.942Z"
   }
 }
