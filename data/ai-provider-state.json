@@ -2,77 +2,14 @@
   "version": 10,
   "providers": {
     "Groq": {
-      "failures": 111,
-      "quotaBlockedUntil": 1791289710551,
-      "lastStatus": 429,
-      "lastError": "429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2bey814e17a788bb067zxjk` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 3746, Requested 6096. Please try again in 13.815s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
-      "lastClass": "rate_limit",
-      "successes": 141,
-      "lastSuccessAt": "2026-10-06T03:51:23.687Z",
+      "failures": 112,
+      "quotaBlockedUntil": 0,
+      "lastStatus": 200,
+      "lastError": null,
+      "lastClass": "success",
+      "successes": 144,
+      "lastSuccessAt": "2026-10-06T22:04:41.817Z",
       "history": [
-        {
-          "at": 1791130298794,
-          "ok": true,
-          "class": "success",
-          "status": 200,
-          "latencyMs": 1522,
-          "usage": {
-            "queue_time": 0.242027873,
-            "prompt_tokens": 5295,
-            "prompt_time": 0.298804986,
-            "completion_tokens": 682,
-            "completion_time": 0.701113036,
-            "total_tokens": 5977,
-            "total_time": 0.999918022,
-            "completion_tokens_details": {
-              "reasoning_tokens": 43
-            }
-          }
-        },
-        {
-          "at": 1791130299559,
-          "ok": false,
-          "class": "rate_limit",
-          "status": 429
-        },
-        {
-          "at": 1791130353773,
-          "ok": true,
-          "class": "success",
-          "status": 200,
-          "latencyMs": 825,
-          "usage": {
-            "queue_time": 0.194301447,
-            "prompt_tokens": 1953,
-            "prompt_time": 0.115186308,
-            "completion_tokens": 376,
-            "completion_time": 0.447579158,
-            "total_tokens": 2329,
-            "total_time": 0.562765466,
-            "completion_tokens_details": {
-              "reasoning_tokens": 224
-            }
-          }
-        },
-        {
-          "at": 1791146612329,
-          "ok": true,
-          "class": "success",
-          "status": 200,
-          "latencyMs": 1574,
-          "usage": {
-            "queue_time": 0.172975779,
-            "prompt_tokens": 5073,
-            "prompt_time": 0.322823972,
-            "completion_tokens": 755,
-            "completion_time": 0.807813297,
-            "total_tokens": 5828,
-            "total_time": 1.130637269,
-            "completion_tokens_details": {
-              "reasoning_tokens": 32
-            }
-          }
-        },
         {
           "at": 1791146613784,
           "ok": true,
@@ -272,35 +209,92 @@
           "ok": false,
           "class": "rate_limit",
           "status": 429
+        },
+        {
+          "at": 1791324230822,
+          "ok": true,
+          "class": "success",
+          "status": 200,
+          "latencyMs": 1361,
+          "usage": {
+            "queue_time": 0.163435542,
+            "prompt_tokens": 4694,
+            "prompt_time": 0.234613305,
+            "completion_tokens": 779,
+            "completion_time": 0.803511652,
+            "total_tokens": 5473,
+            "total_time": 1.038124957,
+            "completion_tokens_details": {
+              "reasoning_tokens": 31
+            }
+          }
+        },
+        {
+          "at": 1791324233434,
+          "ok": true,
+          "class": "success",
+          "status": 200,
+          "latencyMs": 1450,
+          "usage": {
+            "queue_time": 0.072476638,
+            "prompt_tokens": 2169,
+            "prompt_time": 0.108073691,
+            "completion_tokens": 936,
+            "completion_time": 1.161392113,
+            "total_tokens": 3105,
+            "total_time": 1.269465804,
+            "completion_tokens_details": {
+              "reasoning_tokens": 637
+            }
+          }
+        },
+        {
+          "at": 1791324248518,
+          "ok": false,
+          "class": "rate_limit",
+          "status": 429
+        },
+        {
+          "at": 1791324281817,
+          "ok": true,
+          "class": "success",
+          "status": 200,
+          "latencyMs": 1054,
+          "usage": {
+            "queue_time": 0.003343178,
+            "prompt_tokens": 2208,
+            "prompt_time": 0.128835582,
+            "completion_tokens": 752,
+            "completion_time": 0.818407269,
+            "total_tokens": 2960,
+            "total_time": 0.947242851,
+            "completion_tokens_details": {
+              "reasoning_tokens": 627
+            }
+          }
         }
       ],
-      "lastLatencyMs": 533,
+      "lastLatencyMs": 1054,
       "lastUsage": {
-        "queue_time": 0.171209008,
-        "prompt_tokens": 1335,
-        "prompt_time": 0.077812133,
-        "completion_tokens": 146,
-        "completion_time": 0.15655803,
-        "total_tokens": 1481,
-        "total_time": 0.234370163,
+        "queue_time": 0.003343178,
+        "prompt_tokens": 2208,
+        "prompt_time": 0.128835582,
+        "completion_tokens": 752,
+        "completion_time": 0.818407269,
+        "total_tokens": 2960,
+        "total_time": 0.947242851,
         "completion_tokens_details": {
-          "reasoning_tokens": 81
+          "reasoning_tokens": 627
         }
       }
     },
     "Gemini": {
-      "failures": 70,
+      "failures": 71,
       "quotaBlockedUntil": 1791289708113,
-      "lastStatus": 0,
-      "lastError": "The operation was aborted due to timeout",
-      "lastClass": "transient",
+      "lastStatus": 200,
+      "lastError": "Invalid repair structured output",
+      "lastClass": "error",
       "history": [
-        {
-          "at": 1790682661226,
-          "ok": false,
-          "class": "server",
-          "status": 503
-        },
         {
           "at": 1790702351896,
           "ok": false,
@@ -414,6 +408,12 @@
           "ok": false,
           "class": "transient",
           "status": 0
+        },
+        {
+          "at": 1791324256202,
+          "ok": false,
+          "class": "error",
+          "status": 200
         }
       ]
     },
@@ -432,20 +432,14 @@
       "lastClass": "error"
     },
     "OpenRouter": {
-      "failures": 97,
-      "quotaBlockedUntil": 1791289707771,
+      "failures": 98,
+      "quotaBlockedUntil": 1791324273605,
       "lastStatus": 429,
       "lastError": "429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-31b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations\",\"provider_name\":\"Google AI Studio\",\"is_byok\":false,\"provider_error_code\":\"429\",\"limit_source\":\"upstream_provider_shared_pool\",\"remedy_hint\":\"Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or rou",
       "lastClass": "rate_limit",
       "successes": 2,
       "lastSuccessAt": "2026-09-17T17:01:23.899Z",
       "history": [
-        {
-          "at": 1790804552810,
-          "ok": false,
-          "class": "rate_limit",
-          "status": 429
-        },
         {
           "at": 1790804589838,
           "ok": false,
@@ -559,24 +553,24 @@
           "ok": false,
           "class": "rate_limit",
           "status": 429
+        },
+        {
+          "at": 1791324265605,
+          "ok": false,
+          "class": "rate_limit",
+          "status": 429
         }
       ]
     },
     "Cohere": {
-      "failures": 131,
+      "failures": 132,
       "quotaBlockedUntil": 1791289713026,
       "lastStatus": 200,
-      "lastError": "Invalid structured output",
-      "lastClass": "transient",
+      "lastError": "Invalid repair structured output",
+      "lastClass": "error",
       "successes": 15,
       "lastSuccessAt": "2026-10-01T03:06:07.746Z",
       "history": [
-        {
-          "at": 1790804589726,
-          "ok": false,
-          "class": "error",
-          "status": 422
-        },
         {
           "at": 1790823967746,
           "ok": true,
@@ -702,6 +696,12 @@
           "ok": false,
           "class": "transient",
           "status": 200
+        },
+        {
+          "at": 1791324265418,
+          "ok": false,
+          "class": "error",
+          "status": 200
         }
       ],
       "lastLatencyMs": 841,
@@ -719,5 +719,5 @@
     }
   },
   "rotationCursor": 0,
-  "updatedAt": "2026-10-06T12:28:22.551Z"
+  "updatedAt": "2026-10-06T22:04:41.817Z"
 }
