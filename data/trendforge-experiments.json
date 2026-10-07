@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-06T22:48:16.278Z",
+  "updatedAt": "2026-10-07T06:24:42.943Z",
   "mode": "shadow",
   "policy": {
     "advisoryOnly": true,
@@ -14,9 +14,9 @@
     "noWinnerBeforeMinimumSample": true
   },
   "sample": {
-    "runs": 74,
+    "runs": 75,
     "topics": 500,
-    "articles": 40
+    "articles": 41
   },
   "learningInput": {
     "version": 2,
@@ -88,62 +88,6 @@
   "assignments": {
     "headline-style": [
       {
-        "key": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQeV9kTmwtSlo0bHRqMVI4QUkzckRDT3NjSTFUS0hUTFNaeU5CMURGbGxiVnVIb2JBVU91YXMyZGFtLWVMZk12MWJQdk5laVE1ZEZYM2FiRmN6SzBpa1RWMXpzRDZPZUREeHNTdmhxS3J1WWkwR0p5a1RZNDVYbXhCZ18tNnkwMHpkT2pXbUUxM0xrVG5uTkFQZGhWbVc2NkxzYU5iTXJaWUFJZFMtNmJuUThlTjJsR0hiQmlJWklDMkxTV04taFlMRHNTNzJpNXd3a1NzY3dOWU91V3pSb3gwWnZKcXRTREpNU0JoLVJBSWt6Y0h1ZXNuUmRYZWk?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWFhJUUpST3VsTkY3SFdrRE5ia2gwTXFVU3B1TWthSnFLV1M3ekpFNEFFdElBam9RYmo1VFRnaERVUkN5cE9ndzRaNjFCUlBPUDJlMmdDM0FEd2NDOVd2Rk1LdzdLUUkxZFppUE91a2xFVHVyWnBQT0VBQ0VvcGJOUkVoTnU4Q2FKcDR2ZjJFWjMyeTJZVnFzZkJDZVZ5NFl1bGlYejln?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9xeUxQS3Z0UFFHWklKVk5vLXNtTmFFNEZITi16cTNxQWV0YlVrQ2lyRS1Ua3dtN1FQa0dwcVJxcGhsbmI4Q2gxelk3dEFMOHU4bEN5SHRrLWF0V3QwUHpBUXN1Zw?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONk85VkFPejZMeUQtZjRZZFBITEtxM3dxNENqUENma2lmQ0N4TjV4VUN6YkJxdDgwaWZqcktnRkpqdmZoWUV4SXBBandXRVZwa3ZoQko1Zi1tSnVLa3FyTUJxcEtCSU1xdzNTZUNqY1BtZFJ2aUVXdC1WdjAtcDlsclh3MzVsRjcwVVVtelpSU3NzNlpNR3ZhTF8xTDVMS3c4cWZlVjZSbUZlOFJoXzZfbmdKRDdpQQ?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iY2JzYUlZcnM5MnFFc2lIS0F3WVBPdDY5T214SUpXUnU1Q052aEV6MlFsZW1oN1ZJX1dpSXNZWDJqN3dxMEdGbGlCNEljTm9BOWJXX1BuQmpBblVjaFAwdWVVTjZ0dE1fOUF3RFhJcVd1ZTFWajA4VXdDYkI?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://www.technologyreview.com/2026/10/06/1145836/weight-loss-drugs-glp1-lilly-novo-aging-clocks/",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVEd6Tl9neFZ1QldseVhIV3dYUl9feUJiSTlSem5oWXYzUDh5a2F4QU9mc1prVlg1QVBrNFhDVzZSTVRHaUt6cVlHb3JXQXk5QWtlbnJtbXBVSGlXNnVNZVF4NHdfQlNObjM1aDNWdV9oeFNYNEJrTWFlY0ZhZEpETlZrck1ycU1NTjRqY0d6VEVha0dWNURSVzRYZXRlTnpGRWRpVTRmdUpwZ3BVNGs3aHpvdzdtdUZ1allTZzU2UE1sLTZDTkI5ajFWSHFnR0tsd2Z5ZjV0Mi0?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdlp3bVVXbmhzdEQwcUo1STBNaTFtR2V0RGNOclpZSmxYM0tMcDhVT3ZHT2JDY1JXbm5yeXVoTWoxQ2doUndWaE92UzRtbFB4US1KVzlmYmFjVjNKQXRtaG14N0N2WVBtV1ZYUWtaa1NMVFNvdWFLSTFVc2hOX09yUGRlTUJCSkV2cm5XbWNkNlJFVXJOMzFfSkRQcXBUdjhibl9Idkl1NWFTcERUOUQ1S1pESEplN09rb3F3?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNak9PcEpOQnRyd3dhcWJaZ1l4Q2NvRkkyRndTSWE5TE15VWFLcm5laHFVbkE5WndhYlU1Z0JiODhPLW95X2Y0OEcwZXd1QkJqZmNrMzNEV0VWLTJpVkZCMmU4Vzk4WmxpcjNid2JOTC13VEpnZXdnOTF1RzFnYlNyV3RYYm1zaU9MZTRQd1FOblkzSkhBV3pR?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONzZLWkZFY2l4aVRUbXc2NFBnWnVPVzh3c2E0WGVIb3JfazJKNkZCbVpxWjVyLU1rWDB3RmZ1azVic2pnMUFkcTJrMU5KNGE4UkJqTThuUlBiMUdINVF3S09LaTNFMHc3ZTJSNjlYdm5EVG5keldQaXRXaEtLc202R084U1ltWXI3Uldn?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdjBJbEg3RnEwWnE4M3NqN3JWTURwd0RiWjhPTzdmYzdYQ2dUMzBuTXVjNTZVZnd2QkhyX1ViSjVlUGNHOVNGZmNPaEZOZHYzMmF3TS1BMHNYWGp5Umo4a1BFU3ZPVm1razdKVk5zSUdGZXl0UFBrYWtESkxRX3pTQlRLM2djNUdycHhaVV9DalIyaU5LVzFmSEc5MG5lbVV2SzFpS3dlc3lmazEyRG1mdVpTVnNTVHM1MkFiRFBQUF9HLVYzVWRpaVRn?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yNjRYcWtoOFpDMk5zclo4YzM4dFdxRlNUc2VQQmpWYjBvU3FqWFcyYzZzbzN6T3ctME04LXZDWkQ2WnJVdUpWRG11bXpvRGdjMGc?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-        "bucket": "control"
-      },
-      {
         "key": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZHVkUDFUa2g1elRlVG16Z285Yy1nNmlvQkxySE1WQ3JkNnhXejA5RlM3VVY3VENmalR3V2tmTkJhVnlGSEZVSFJjNV9faEVLQUdubE0tMndfVGpDZU5GNUlXYlpmdElDR2pzdmRyZHRZMFYtYlhvZDNVZnRuUTdOUUtqU09vMWdzdUFvc3lBbEhZanRSYkZQM1pZRVlLWTVVVU9sQXA0SWR5Vjd3M29sdl9MRQ?oc=5",
         "bucket": "control"
       },
@@ -165,67 +109,67 @@
       },
       {
         "key": "https://www.theverge.com/news/1006238/apple-lg-homekit-rumor-fcc",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNelk1VmhBcFVqRmpRQndWdklsTm1EVVZmaHk4REFBRXk1WmJYdDMxUDBxSEFkNHl1YWs2OUNCU1ZDWXRVcG9XaGJzR2JHaFUtLXlNaHZTZVNxQjN2NGkzTW5jczlfZXN1S3ppd0ttdnJZemtvM3llR25xOUVvSVMxY3hPd1dtaEtVV2NRNXN4eU5wMG4zUjNxWW9WTEFHT2l4V1p5OE1oODNoVE45bXJGZUQ1SQ?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUmNWNjlWajgtTmtlM09wbWhiOTNXd3BHOTBnWUl6cEpOT2hsUlFLcWdSaDd1bVBUMEJUUF93b3pXdmp5QkhDRl9Vc2daWl8zLXNTU3BkMWlNTWdUTDN1S0xEem1VRnFhdGNLMjZWeG9HNzRLdFZabUw4ZGo0WXIxMkhDNWFEcHhMSVZxaC12akpOb293SEpxajhVVVkxemo4d2UwcW1WNXg0eHBDMmNUVQ?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdThuRWl1b3NtaUE5aFhSeXVUY0xfYjhBZXJJaG1VWWR0QXBSQ2txLTBrbTlKNm9KQmtqcG95Y3BLNlRQZF96a004TS1xaGlyQUVUaEdqNXZOTzZwdC1IU001ZmM5a191dGNRYjNCWXkwcEk0cjVhams2WUc5aGMxek13b1U?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBEbDR6dWpjb3dJN1pTb01xR3A4bTdWbFJHVFVxV0hob1ZoZEdVSzNUb01JWG91TU1tOEp6ZWVXTGtuOHpIZ0hadloyRTNkSEdJRDl6emNxc2lxSjRqeVlUZ1BGVDNuZmU1SVFhM0QxMWZ6VFNoSU5DM1llR2FfQQ?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd2V1VEVFYnQ2blpINF95UHVkbDlSbDdBOEZySm1jY2VrUTVSZjBvRVBiY2Z3WFN2UTUyR3Q3Y1lBSjZ2MlZuSkxYREduVmQxTV95UEtnZUhqM2tIaTlQb2NvWmxiRnhHWlQ2ODM5RndqM2VfTjkySF9yWHNWTUZ5Nmsyb3luN01KM3QwR2Y2Z3lhckpha0p5ZTVjZzd4bXVKWHc?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOUY3eGZZbmk5UUc2ZTJ0aGgyQk5sc0FwYVhrUnFVT2FtblVPdHJQUkVxR09VTmVfTlRyNER3am9BbUt5aUxDSDM3cDh4LXJZZGZNY1B0T2dzY0diek9ta3JLQWhxMU00ZG9jUk9ZQVpYVGoyVkpYZUdZai1iQTBTWXlLcjFpRmJ3b19KX29jb3VlUnVFVDRVM2tIckJYS3VHb1RFUjFfY0NZdw?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZGJQUGI4Vk9vWGg5bkx2aERlaXBxSUN5LW5SMEN0dHJMcHl0TUotcWxzQ0hPTUEwOW11Tk9EbmJzbVJuS2UzNmNSRTUtdnE1cFo3WFdxSjdJM09XUGFpYTA4dDUtSWllLXpuc1FycDhRaU1pOXcyQ3dNZ1doSkZyUXBVZkZCbkxkTDY1WndYOVE0M3JZOXNyMWVrRzRwQ3RvUnJ3?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUGszT3lJWGhZdkQ3UW5kWXE3Z1JRaEg5TXRjVXRYVXhDVGFndWJRNDd3WVdkZlZFLUdfbUZ5aDlXZ1d6MlZfM0tIclBGOW9PSDBLNnlKTFc4cnpWYmlYQTJWSWZSRXhVU3J3RzhRRVptcW9qVVk0M2RzLWU4X1dmR0JmQjFSVmp2a3RwRENLZ3dfWFdGOTJLVlkySWVfYWMxVjJCcDJHR1dtSUxid09J?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOb2JENlVES0R3cWtaMVNhWlhCalluRjhDU08xV3k5WjJwa0VLQW9vWVNZclA4M0s4YlNoUGpnOUVYSU5uSjU3cHA2V3hrT3BuaFVGNGpxQVN4UzlmUzYxUWIza2dhTFgzWEk0RWZvdEtyTXlZS3VGOTg3ekoyTHk1WUNLLUpBV2RxZ0JhN2JuNXZOZ0w2ME5aQzlvNXRPcEVCZGFrSHMtOVQ3Y2FDbFh5NG83STdkSVA5Vk50dC1TSmViN09xZ2pZUUpiZURqRXc1NDB2RkE5VDFfSThXazREQ3RSUzBaVkZrblF6WnE5WnNaY1RMUFNERzZYc213cnhlckZRcFV4dw?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOS3ZpYVFyT18wSXJvbE5tcmJwWHNXWHBBMXRNUm5JYmJ0T3pxWWswQmNVT2JjdjFTVmJlNnNzR25IdmdqRWVNWlBzc1ZqVm5oalQyUmlodHI1ZEs4b2NnaXFGLTR0WTZBOE5ya2dqTnMtMk82amlqU296VnIxUVVsUEpoUExWU05j?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQTJlTmxhUlNXNFhmaFZjSlFkUnRVbG9zcEFfSXdzMVVjaXU3NVB6ZmxIU0J3QlNoUlZrNVdKYjY5VmF5bU5IZjlpWjFQTjdlbVNIcFZVcmhRQURWODlhRU50dmZPb3lyMGlESmNsUENsMWpxdXR2TDFkUnF1Q2kxQy1WbzRDb2ZnUXU2VWZjQQ?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObXhfdU9FNVFmbGtqOGVrbUluWXhKbTV3OHJGSFNjTTFmbnBPYnphYlFrWllNb3FYRFhwZFRCeEYwTk9UTExEZ1FYYkRpeVJWd3ZjNWdKZGVsY3RRMnJGaTV1QmpfQ2Z3aGlrckktWFY2MmRyLWg3eGo2YTc2cnk2Qy1tbExWZE0tWGV2LVNvZHpkRUhZOWxKTWNXbw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
         "bucket": "variant"
       }
     ],
     "intro-style": [
       {
-        "key": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQeV9kTmwtSlo0bHRqMVI4QUkzckRDT3NjSTFUS0hUTFNaeU5CMURGbGxiVnVIb2JBVU91YXMyZGFtLWVMZk12MWJQdk5laVE1ZEZYM2FiRmN6SzBpa1RWMXpzRDZPZUREeHNTdmhxS3J1WWkwR0p5a1RZNDVYbXhCZ18tNnkwMHpkT2pXbUUxM0xrVG5uTkFQZGhWbVc2NkxzYU5iTXJaWUFJZFMtNmJuUThlTjJsR0hiQmlJWklDMkxTV04taFlMRHNTNzJpNXd3a1NzY3dOWU91V3pSb3gwWnZKcXRTREpNU0JoLVJBSWt6Y0h1ZXNuUmRYZWk?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWFhJUUpST3VsTkY3SFdrRE5ia2gwTXFVU3B1TWthSnFLV1M3ekpFNEFFdElBam9RYmo1VFRnaERVUkN5cE9ndzRaNjFCUlBPUDJlMmdDM0FEd2NDOVd2Rk1LdzdLUUkxZFppUE91a2xFVHVyWnBQT0VBQ0VvcGJOUkVoTnU4Q2FKcDR2ZjJFWjMyeTJZVnFzZkJDZVZ5NFl1bGlYejln?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9xeUxQS3Z0UFFHWklKVk5vLXNtTmFFNEZITi16cTNxQWV0YlVrQ2lyRS1Ua3dtN1FQa0dwcVJxcGhsbmI4Q2gxelk3dEFMOHU4bEN5SHRrLWF0V3QwUHpBUXN1Zw?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONk85VkFPejZMeUQtZjRZZFBITEtxM3dxNENqUENma2lmQ0N4TjV4VUN6YkJxdDgwaWZqcktnRkpqdmZoWUV4SXBBandXRVZwa3ZoQko1Zi1tSnVLa3FyTUJxcEtCSU1xdzNTZUNqY1BtZFJ2aUVXdC1WdjAtcDlsclh3MzVsRjcwVVVtelpSU3NzNlpNR3ZhTF8xTDVMS3c4cWZlVjZSbUZlOFJoXzZfbmdKRDdpQQ?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iY2JzYUlZcnM5MnFFc2lIS0F3WVBPdDY5T214SUpXUnU1Q052aEV6MlFsZW1oN1ZJX1dpSXNZWDJqN3dxMEdGbGlCNEljTm9BOWJXX1BuQmpBblVjaFAwdWVVTjZ0dE1fOUF3RFhJcVd1ZTFWajA4VXdDYkI?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://www.technologyreview.com/2026/10/06/1145836/weight-loss-drugs-glp1-lilly-novo-aging-clocks/",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVEd6Tl9neFZ1QldseVhIV3dYUl9feUJiSTlSem5oWXYzUDh5a2F4QU9mc1prVlg1QVBrNFhDVzZSTVRHaUt6cVlHb3JXQXk5QWtlbnJtbXBVSGlXNnVNZVF4NHdfQlNObjM1aDNWdV9oeFNYNEJrTWFlY0ZhZEpETlZrck1ycU1NTjRqY0d6VEVha0dWNURSVzRYZXRlTnpGRWRpVTRmdUpwZ3BVNGs3aHpvdzdtdUZ1allTZzU2UE1sLTZDTkI5ajFWSHFnR0tsd2Z5ZjV0Mi0?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdlp3bVVXbmhzdEQwcUo1STBNaTFtR2V0RGNOclpZSmxYM0tMcDhVT3ZHT2JDY1JXbm5yeXVoTWoxQ2doUndWaE92UzRtbFB4US1KVzlmYmFjVjNKQXRtaG14N0N2WVBtV1ZYUWtaa1NMVFNvdWFLSTFVc2hOX09yUGRlTUJCSkV2cm5XbWNkNlJFVXJOMzFfSkRQcXBUdjhibl9Idkl1NWFTcERUOUQ1S1pESEplN09rb3F3?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNak9PcEpOQnRyd3dhcWJaZ1l4Q2NvRkkyRndTSWE5TE15VWFLcm5laHFVbkE5WndhYlU1Z0JiODhPLW95X2Y0OEcwZXd1QkJqZmNrMzNEV0VWLTJpVkZCMmU4Vzk4WmxpcjNid2JOTC13VEpnZXdnOTF1RzFnYlNyV3RYYm1zaU9MZTRQd1FOblkzSkhBV3pR?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONzZLWkZFY2l4aVRUbXc2NFBnWnVPVzh3c2E0WGVIb3JfazJKNkZCbVpxWjVyLU1rWDB3RmZ1azVic2pnMUFkcTJrMU5KNGE4UkJqTThuUlBiMUdINVF3S09LaTNFMHc3ZTJSNjlYdm5EVG5keldQaXRXaEtLc202R084U1ltWXI3Uldn?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdjBJbEg3RnEwWnE4M3NqN3JWTURwd0RiWjhPTzdmYzdYQ2dUMzBuTXVjNTZVZnd2QkhyX1ViSjVlUGNHOVNGZmNPaEZOZHYzMmF3TS1BMHNYWGp5Umo4a1BFU3ZPVm1razdKVk5zSUdGZXl0UFBrYWtESkxRX3pTQlRLM2djNUdycHhaVV9DalIyaU5LVzFmSEc5MG5lbVV2SzFpS3dlc3lmazEyRG1mdVpTVnNTVHM1MkFiRFBQUF9HLVYzVWRpaVRn?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yNjRYcWtoOFpDMk5zclo4YzM4dFdxRlNUc2VQQmpWYjBvU3FqWFcyYzZzbzN6T3ctME04LXZDWkQ2WnJVdUpWRG11bXpvRGdjMGc?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-        "bucket": "control"
-      },
-      {
         "key": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZHVkUDFUa2g1elRlVG16Z285Yy1nNmlvQkxySE1WQ3JkNnhXejA5RlM3VVY3VENmalR3V2tmTkJhVnlGSEZVSFJjNV9faEVLQUdubE0tMndfVGpDZU5GNUlXYlpmdElDR2pzdmRyZHRZMFYtYlhvZDNVZnRuUTdOUUtqU09vMWdzdUFvc3lBbEhZanRSYkZQM1pZRVlLWTVVVU9sQXA0SWR5Vjd3M29sdl9MRQ?oc=5",
         "bucket": "control"
       },
@@ -247,67 +191,67 @@
       },
       {
         "key": "https://www.theverge.com/news/1006238/apple-lg-homekit-rumor-fcc",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNelk1VmhBcFVqRmpRQndWdklsTm1EVVZmaHk4REFBRXk1WmJYdDMxUDBxSEFkNHl1YWs2OUNCU1ZDWXRVcG9XaGJzR2JHaFUtLXlNaHZTZVNxQjN2NGkzTW5jczlfZXN1S3ppd0ttdnJZemtvM3llR25xOUVvSVMxY3hPd1dtaEtVV2NRNXN4eU5wMG4zUjNxWW9WTEFHT2l4V1p5OE1oODNoVE45bXJGZUQ1SQ?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUmNWNjlWajgtTmtlM09wbWhiOTNXd3BHOTBnWUl6cEpOT2hsUlFLcWdSaDd1bVBUMEJUUF93b3pXdmp5QkhDRl9Vc2daWl8zLXNTU3BkMWlNTWdUTDN1S0xEem1VRnFhdGNLMjZWeG9HNzRLdFZabUw4ZGo0WXIxMkhDNWFEcHhMSVZxaC12akpOb293SEpxajhVVVkxemo4d2UwcW1WNXg0eHBDMmNUVQ?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdThuRWl1b3NtaUE5aFhSeXVUY0xfYjhBZXJJaG1VWWR0QXBSQ2txLTBrbTlKNm9KQmtqcG95Y3BLNlRQZF96a004TS1xaGlyQUVUaEdqNXZOTzZwdC1IU001ZmM5a191dGNRYjNCWXkwcEk0cjVhams2WUc5aGMxek13b1U?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBEbDR6dWpjb3dJN1pTb01xR3A4bTdWbFJHVFVxV0hob1ZoZEdVSzNUb01JWG91TU1tOEp6ZWVXTGtuOHpIZ0hadloyRTNkSEdJRDl6emNxc2lxSjRqeVlUZ1BGVDNuZmU1SVFhM0QxMWZ6VFNoSU5DM1llR2FfQQ?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd2V1VEVFYnQ2blpINF95UHVkbDlSbDdBOEZySm1jY2VrUTVSZjBvRVBiY2Z3WFN2UTUyR3Q3Y1lBSjZ2MlZuSkxYREduVmQxTV95UEtnZUhqM2tIaTlQb2NvWmxiRnhHWlQ2ODM5RndqM2VfTjkySF9yWHNWTUZ5Nmsyb3luN01KM3QwR2Y2Z3lhckpha0p5ZTVjZzd4bXVKWHc?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOUY3eGZZbmk5UUc2ZTJ0aGgyQk5sc0FwYVhrUnFVT2FtblVPdHJQUkVxR09VTmVfTlRyNER3am9BbUt5aUxDSDM3cDh4LXJZZGZNY1B0T2dzY0diek9ta3JLQWhxMU00ZG9jUk9ZQVpYVGoyVkpYZUdZai1iQTBTWXlLcjFpRmJ3b19KX29jb3VlUnVFVDRVM2tIckJYS3VHb1RFUjFfY0NZdw?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZGJQUGI4Vk9vWGg5bkx2aERlaXBxSUN5LW5SMEN0dHJMcHl0TUotcWxzQ0hPTUEwOW11Tk9EbmJzbVJuS2UzNmNSRTUtdnE1cFo3WFdxSjdJM09XUGFpYTA4dDUtSWllLXpuc1FycDhRaU1pOXcyQ3dNZ1doSkZyUXBVZkZCbkxkTDY1WndYOVE0M3JZOXNyMWVrRzRwQ3RvUnJ3?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUGszT3lJWGhZdkQ3UW5kWXE3Z1JRaEg5TXRjVXRYVXhDVGFndWJRNDd3WVdkZlZFLUdfbUZ5aDlXZ1d6MlZfM0tIclBGOW9PSDBLNnlKTFc4cnpWYmlYQTJWSWZSRXhVU3J3RzhRRVptcW9qVVk0M2RzLWU4X1dmR0JmQjFSVmp2a3RwRENLZ3dfWFdGOTJLVlkySWVfYWMxVjJCcDJHR1dtSUxid09J?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOb2JENlVES0R3cWtaMVNhWlhCalluRjhDU08xV3k5WjJwa0VLQW9vWVNZclA4M0s4YlNoUGpnOUVYSU5uSjU3cHA2V3hrT3BuaFVGNGpxQVN4UzlmUzYxUWIza2dhTFgzWEk0RWZvdEtyTXlZS3VGOTg3ekoyTHk1WUNLLUpBV2RxZ0JhN2JuNXZOZ0w2ME5aQzlvNXRPcEVCZGFrSHMtOVQ3Y2FDbFh5NG83STdkSVA5Vk50dC1TSmViN09xZ2pZUUpiZURqRXc1NDB2RkE5VDFfSThXazREQ3RSUzBaVkZrblF6WnE5WnNaY1RMUFNERzZYc213cnhlckZRcFV4dw?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOS3ZpYVFyT18wSXJvbE5tcmJwWHNXWHBBMXRNUm5JYmJ0T3pxWWswQmNVT2JjdjFTVmJlNnNzR25IdmdqRWVNWlBzc1ZqVm5oalQyUmlodHI1ZEs4b2NnaXFGLTR0WTZBOE5ya2dqTnMtMk82amlqU296VnIxUVVsUEpoUExWU05j?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQTJlTmxhUlNXNFhmaFZjSlFkUnRVbG9zcEFfSXdzMVVjaXU3NVB6ZmxIU0J3QlNoUlZrNVdKYjY5VmF5bU5IZjlpWjFQTjdlbVNIcFZVcmhRQURWODlhRU50dmZPb3lyMGlESmNsUENsMWpxdXR2TDFkUnF1Q2kxQy1WbzRDb2ZnUXU2VWZjQQ?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObXhfdU9FNVFmbGtqOGVrbUluWXhKbTV3OHJGSFNjTTFmbnBPYnphYlFrWllNb3FYRFhwZFRCeEYwTk9UTExEZ1FYYkRpeVJWd3ZjNWdKZGVsY3RRMnJGaTV1QmpfQ2Z3aGlrckktWFY2MmRyLWg3eGo2YTc2cnk2Qy1tbExWZE0tWGV2LVNvZHpkRUhZOWxKTWNXbw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
         "bucket": "variant"
       }
     ],
     "cta-placement": [
       {
-        "key": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQeV9kTmwtSlo0bHRqMVI4QUkzckRDT3NjSTFUS0hUTFNaeU5CMURGbGxiVnVIb2JBVU91YXMyZGFtLWVMZk12MWJQdk5laVE1ZEZYM2FiRmN6SzBpa1RWMXpzRDZPZUREeHNTdmhxS3J1WWkwR0p5a1RZNDVYbXhCZ18tNnkwMHpkT2pXbUUxM0xrVG5uTkFQZGhWbVc2NkxzYU5iTXJaWUFJZFMtNmJuUThlTjJsR0hiQmlJWklDMkxTV04taFlMRHNTNzJpNXd3a1NzY3dOWU91V3pSb3gwWnZKcXRTREpNU0JoLVJBSWt6Y0h1ZXNuUmRYZWk?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWFhJUUpST3VsTkY3SFdrRE5ia2gwTXFVU3B1TWthSnFLV1M3ekpFNEFFdElBam9RYmo1VFRnaERVUkN5cE9ndzRaNjFCUlBPUDJlMmdDM0FEd2NDOVd2Rk1LdzdLUUkxZFppUE91a2xFVHVyWnBQT0VBQ0VvcGJOUkVoTnU4Q2FKcDR2ZjJFWjMyeTJZVnFzZkJDZVZ5NFl1bGlYejln?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9xeUxQS3Z0UFFHWklKVk5vLXNtTmFFNEZITi16cTNxQWV0YlVrQ2lyRS1Ua3dtN1FQa0dwcVJxcGhsbmI4Q2gxelk3dEFMOHU4bEN5SHRrLWF0V3QwUHpBUXN1Zw?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONk85VkFPejZMeUQtZjRZZFBITEtxM3dxNENqUENma2lmQ0N4TjV4VUN6YkJxdDgwaWZqcktnRkpqdmZoWUV4SXBBandXRVZwa3ZoQko1Zi1tSnVLa3FyTUJxcEtCSU1xdzNTZUNqY1BtZFJ2aUVXdC1WdjAtcDlsclh3MzVsRjcwVVVtelpSU3NzNlpNR3ZhTF8xTDVMS3c4cWZlVjZSbUZlOFJoXzZfbmdKRDdpQQ?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iY2JzYUlZcnM5MnFFc2lIS0F3WVBPdDY5T214SUpXUnU1Q052aEV6MlFsZW1oN1ZJX1dpSXNZWDJqN3dxMEdGbGlCNEljTm9BOWJXX1BuQmpBblVjaFAwdWVVTjZ0dE1fOUF3RFhJcVd1ZTFWajA4VXdDYkI?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://www.technologyreview.com/2026/10/06/1145836/weight-loss-drugs-glp1-lilly-novo-aging-clocks/",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVEd6Tl9neFZ1QldseVhIV3dYUl9feUJiSTlSem5oWXYzUDh5a2F4QU9mc1prVlg1QVBrNFhDVzZSTVRHaUt6cVlHb3JXQXk5QWtlbnJtbXBVSGlXNnVNZVF4NHdfQlNObjM1aDNWdV9oeFNYNEJrTWFlY0ZhZEpETlZrck1ycU1NTjRqY0d6VEVha0dWNURSVzRYZXRlTnpGRWRpVTRmdUpwZ3BVNGs3aHpvdzdtdUZ1allTZzU2UE1sLTZDTkI5ajFWSHFnR0tsd2Z5ZjV0Mi0?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdlp3bVVXbmhzdEQwcUo1STBNaTFtR2V0RGNOclpZSmxYM0tMcDhVT3ZHT2JDY1JXbm5yeXVoTWoxQ2doUndWaE92UzRtbFB4US1KVzlmYmFjVjNKQXRtaG14N0N2WVBtV1ZYUWtaa1NMVFNvdWFLSTFVc2hOX09yUGRlTUJCSkV2cm5XbWNkNlJFVXJOMzFfSkRQcXBUdjhibl9Idkl1NWFTcERUOUQ1S1pESEplN09rb3F3?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNak9PcEpOQnRyd3dhcWJaZ1l4Q2NvRkkyRndTSWE5TE15VWFLcm5laHFVbkE5WndhYlU1Z0JiODhPLW95X2Y0OEcwZXd1QkJqZmNrMzNEV0VWLTJpVkZCMmU4Vzk4WmxpcjNid2JOTC13VEpnZXdnOTF1RzFnYlNyV3RYYm1zaU9MZTRQd1FOblkzSkhBV3pR?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONzZLWkZFY2l4aVRUbXc2NFBnWnVPVzh3c2E0WGVIb3JfazJKNkZCbVpxWjVyLU1rWDB3RmZ1azVic2pnMUFkcTJrMU5KNGE4UkJqTThuUlBiMUdINVF3S09LaTNFMHc3ZTJSNjlYdm5EVG5keldQaXRXaEtLc202R084U1ltWXI3Uldn?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdjBJbEg3RnEwWnE4M3NqN3JWTURwd0RiWjhPTzdmYzdYQ2dUMzBuTXVjNTZVZnd2QkhyX1ViSjVlUGNHOVNGZmNPaEZOZHYzMmF3TS1BMHNYWGp5Umo4a1BFU3ZPVm1razdKVk5zSUdGZXl0UFBrYWtESkxRX3pTQlRLM2djNUdycHhaVV9DalIyaU5LVzFmSEc5MG5lbVV2SzFpS3dlc3lmazEyRG1mdVpTVnNTVHM1MkFiRFBQUF9HLVYzVWRpaVRn?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yNjRYcWtoOFpDMk5zclo4YzM4dFdxRlNUc2VQQmpWYjBvU3FqWFcyYzZzbzN6T3ctME04LXZDWkQ2WnJVdUpWRG11bXpvRGdjMGc?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-        "bucket": "control"
-      },
-      {
         "key": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZHVkUDFUa2g1elRlVG16Z285Yy1nNmlvQkxySE1WQ3JkNnhXejA5RlM3VVY3VENmalR3V2tmTkJhVnlGSEZVSFJjNV9faEVLQUdubE0tMndfVGpDZU5GNUlXYlpmdElDR2pzdmRyZHRZMFYtYlhvZDNVZnRuUTdOUUtqU09vMWdzdUFvc3lBbEhZanRSYkZQM1pZRVlLWTVVVU9sQXA0SWR5Vjd3M29sdl9MRQ?oc=5",
         "bucket": "control"
       },
@@ -329,6 +273,62 @@
       },
       {
         "key": "https://www.theverge.com/news/1006238/apple-lg-homekit-rumor-fcc",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNelk1VmhBcFVqRmpRQndWdklsTm1EVVZmaHk4REFBRXk1WmJYdDMxUDBxSEFkNHl1YWs2OUNCU1ZDWXRVcG9XaGJzR2JHaFUtLXlNaHZTZVNxQjN2NGkzTW5jczlfZXN1S3ppd0ttdnJZemtvM3llR25xOUVvSVMxY3hPd1dtaEtVV2NRNXN4eU5wMG4zUjNxWW9WTEFHT2l4V1p5OE1oODNoVE45bXJGZUQ1SQ?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUmNWNjlWajgtTmtlM09wbWhiOTNXd3BHOTBnWUl6cEpOT2hsUlFLcWdSaDd1bVBUMEJUUF93b3pXdmp5QkhDRl9Vc2daWl8zLXNTU3BkMWlNTWdUTDN1S0xEem1VRnFhdGNLMjZWeG9HNzRLdFZabUw4ZGo0WXIxMkhDNWFEcHhMSVZxaC12akpOb293SEpxajhVVVkxemo4d2UwcW1WNXg0eHBDMmNUVQ?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdThuRWl1b3NtaUE5aFhSeXVUY0xfYjhBZXJJaG1VWWR0QXBSQ2txLTBrbTlKNm9KQmtqcG95Y3BLNlRQZF96a004TS1xaGlyQUVUaEdqNXZOTzZwdC1IU001ZmM5a191dGNRYjNCWXkwcEk0cjVhams2WUc5aGMxek13b1U?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBEbDR6dWpjb3dJN1pTb01xR3A4bTdWbFJHVFVxV0hob1ZoZEdVSzNUb01JWG91TU1tOEp6ZWVXTGtuOHpIZ0hadloyRTNkSEdJRDl6emNxc2lxSjRqeVlUZ1BGVDNuZmU1SVFhM0QxMWZ6VFNoSU5DM1llR2FfQQ?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd2V1VEVFYnQ2blpINF95UHVkbDlSbDdBOEZySm1jY2VrUTVSZjBvRVBiY2Z3WFN2UTUyR3Q3Y1lBSjZ2MlZuSkxYREduVmQxTV95UEtnZUhqM2tIaTlQb2NvWmxiRnhHWlQ2ODM5RndqM2VfTjkySF9yWHNWTUZ5Nmsyb3luN01KM3QwR2Y2Z3lhckpha0p5ZTVjZzd4bXVKWHc?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOUY3eGZZbmk5UUc2ZTJ0aGgyQk5sc0FwYVhrUnFVT2FtblVPdHJQUkVxR09VTmVfTlRyNER3am9BbUt5aUxDSDM3cDh4LXJZZGZNY1B0T2dzY0diek9ta3JLQWhxMU00ZG9jUk9ZQVpYVGoyVkpYZUdZai1iQTBTWXlLcjFpRmJ3b19KX29jb3VlUnVFVDRVM2tIckJYS3VHb1RFUjFfY0NZdw?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZGJQUGI4Vk9vWGg5bkx2aERlaXBxSUN5LW5SMEN0dHJMcHl0TUotcWxzQ0hPTUEwOW11Tk9EbmJzbVJuS2UzNmNSRTUtdnE1cFo3WFdxSjdJM09XUGFpYTA4dDUtSWllLXpuc1FycDhRaU1pOXcyQ3dNZ1doSkZyUXBVZkZCbkxkTDY1WndYOVE0M3JZOXNyMWVrRzRwQ3RvUnJ3?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUGszT3lJWGhZdkQ3UW5kWXE3Z1JRaEg5TXRjVXRYVXhDVGFndWJRNDd3WVdkZlZFLUdfbUZ5aDlXZ1d6MlZfM0tIclBGOW9PSDBLNnlKTFc4cnpWYmlYQTJWSWZSRXhVU3J3RzhRRVptcW9qVVk0M2RzLWU4X1dmR0JmQjFSVmp2a3RwRENLZ3dfWFdGOTJLVlkySWVfYWMxVjJCcDJHR1dtSUxid09J?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOb2JENlVES0R3cWtaMVNhWlhCalluRjhDU08xV3k5WjJwa0VLQW9vWVNZclA4M0s4YlNoUGpnOUVYSU5uSjU3cHA2V3hrT3BuaFVGNGpxQVN4UzlmUzYxUWIza2dhTFgzWEk0RWZvdEtyTXlZS3VGOTg3ekoyTHk1WUNLLUpBV2RxZ0JhN2JuNXZOZ0w2ME5aQzlvNXRPcEVCZGFrSHMtOVQ3Y2FDbFh5NG83STdkSVA5Vk50dC1TSmViN09xZ2pZUUpiZURqRXc1NDB2RkE5VDFfSThXazREQ3RSUzBaVkZrblF6WnE5WnNaY1RMUFNERzZYc213cnhlckZRcFV4dw?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOS3ZpYVFyT18wSXJvbE5tcmJwWHNXWHBBMXRNUm5JYmJ0T3pxWWswQmNVT2JjdjFTVmJlNnNzR25IdmdqRWVNWlBzc1ZqVm5oalQyUmlodHI1ZEs4b2NnaXFGLTR0WTZBOE5ya2dqTnMtMk82amlqU296VnIxUVVsUEpoUExWU05j?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQTJlTmxhUlNXNFhmaFZjSlFkUnRVbG9zcEFfSXdzMVVjaXU3NVB6ZmxIU0J3QlNoUlZrNVdKYjY5VmF5bU5IZjlpWjFQTjdlbVNIcFZVcmhRQURWODlhRU50dmZPb3lyMGlESmNsUENsMWpxdXR2TDFkUnF1Q2kxQy1WbzRDb2ZnUXU2VWZjQQ?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObXhfdU9FNVFmbGtqOGVrbUluWXhKbTV3OHJGSFNjTTFmbnBPYnphYlFrWllNb3FYRFhwZFRCeEYwTk9UTExEZ1FYYkRpeVJWd3ZjNWdKZGVsY3RRMnJGaTV1QmpfQ2Z3aGlrckktWFY2MmRyLWg3eGo2YTc2cnk2Qy1tbExWZE0tWGV2LVNvZHpkRUhZOWxKTWNXbw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
         "bucket": "variant"
       }
     ]
@@ -337,13 +337,13 @@
     {
       "experimentId": "headline-style",
       "sample": {
-        "control": 13,
-        "variant": 7,
+        "control": 11,
+        "variant": 9,
         "total": 20
       },
       "outcomeMetrics": {
         "editorialScore": null,
-        "claimConfidence": 65,
+        "claimConfidence": 66,
         "evidencePassRate": 29
       },
       "conclusion": "insufficient-data",
@@ -352,13 +352,13 @@
     {
       "experimentId": "intro-style",
       "sample": {
-        "control": 13,
-        "variant": 7,
+        "control": 11,
+        "variant": 9,
         "total": 20
       },
       "outcomeMetrics": {
         "editorialScore": null,
-        "claimConfidence": 65,
+        "claimConfidence": 66,
         "evidencePassRate": 29
       },
       "conclusion": "insufficient-data",
@@ -367,13 +367,13 @@
     {
       "experimentId": "cta-placement",
       "sample": {
-        "control": 13,
-        "variant": 7,
+        "control": 11,
+        "variant": 9,
         "total": 20
       },
       "outcomeMetrics": {
         "editorialScore": null,
-        "claimConfidence": 65,
+        "claimConfidence": 66,
         "evidencePassRate": 29
       },
       "conclusion": "insufficient-data",
@@ -381,6 +381,6 @@
     }
   ],
   "history": {
-    "previousUpdatedAt": "2026-10-06T18:36:03.942Z"
+    "previousUpdatedAt": "2026-10-06T22:48:16.278Z"
   }
 }
