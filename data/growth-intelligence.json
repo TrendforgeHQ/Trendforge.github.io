@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-07T12:21:57.428Z",
+  "generatedAt": "2026-10-07T22:30:57.701Z",
   "policy": {
     "privacyFirst": true,
     "noPersonalTracking": true,
@@ -9,7 +9,7 @@
   "summary": {
     "totalArticles": 42,
     "averageEditorialScore": 76,
-    "editorialReviewCount": 29,
+    "editorialReviewCount": 30,
     "refreshCandidates": 15
   },
   "categoryMix": [
@@ -55,7 +55,7 @@
   "overrepresentedCategories": [],
   "recommendations": [
     "Prioritize missing categories: Innovation.",
-    "29 article(s) are in editorial review; improve them before treating them as growth winners.",
+    "30 article(s) are in editorial review; improve them before treating them as growth winners.",
     "15 older/incomplete article(s) are refresh candidates."
   ],
   "recentArticles": [

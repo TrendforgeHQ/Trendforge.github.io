@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-07T12:21:48.851Z",
+  "generatedAt": "2026-10-07T22:30:49.742Z",
   "status": "pass",
-  "currentGeneratedArticle": "morgan-stanley-s-0-14-crypto-etfs-which-token-gets-the-first-dollar",
-  "currentScore": 89,
+  "currentGeneratedArticle": null,
+  "currentScore": null,
   "identity": {
     "method": "brief.title",
-    "rejectedMarker": false
+    "rejectedMarker": true
   },
   "policy": {
     "publishCandidate": 90,
@@ -527,16 +527,19 @@
       "slug": "morgan-stanley-s-0-14-crypto-etfs-which-token-gets-the-first-dollar",
       "title": "Morgan Stanley’s 0.14% Crypto ETFs: Which Token Gets the First Dollar?",
       "category": "Crypto",
-      "score": 89,
-      "decision": "publish_ready",
+      "score": 79,
+      "decision": "review",
       "dimensions": {
-        "evidence": 82,
+        "evidence": 75,
         "usefulness": 95,
         "clarity": 100,
         "originality": 88,
-        "sourceStrength": 83
+        "sourceStrength": 41
       },
-      "reasons": []
+      "reasons": [
+        "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
+      ]
     },
     {
       "slug": "openai-slows-ai-training-after-hugging-face-breach",

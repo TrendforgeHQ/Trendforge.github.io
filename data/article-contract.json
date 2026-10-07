@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "title": "Morgan Stanley Runs Bitcoin, Ethereum and Solana ETFs at a 0.14% Fee. Which Coin Gets Its Money First? - Yahoo Finance",
+  "title": "10x Research Forecast Bitcoin Could Fall to $46,000, but What Really Happened? - Yahoo Finance",
   "mode": "narrow",
   "wordBudget": {
     "min": 231,
@@ -36,19 +36,7 @@
     "F21",
     "F22",
     "F23",
-    "F24",
-    "F25",
-    "F26",
-    "F27",
-    "F28",
-    "F29",
-    "F30",
-    "F31",
-    "F32",
-    "F33",
-    "F34",
-    "F35",
-    "F36"
+    "F24"
   ],
   "synthesis": {
     "allowed": true,
@@ -78,19 +66,7 @@
       "F21",
       "F22",
       "F23",
-      "F24",
-      "F25",
-      "F26",
-      "F27",
-      "F28",
-      "F29",
-      "F30",
-      "F31",
-      "F32",
-      "F33",
-      "F34",
-      "F35",
-      "F36"
+      "F24"
     ]
   },
   "rules": {
@@ -99,7 +75,7 @@
     "newEntitiesInSynthesis": false,
     "newCausalityInSynthesis": false
   },
-  "generatedAt": "2026-10-07T12:20:52.755Z",
-  "articleTitle": "Morgan Stanley’s 0.14% Crypto ETFs: Which Token Gets the First Dollar?",
-  "articleSlug": "morgan-stanley-s-0-14-crypto-etfs-which-token-gets-the-first-dollar"
+  "generatedAt": "2026-10-07T22:30:18.530Z",
+  "articleTitle": "10x Research Bitcoin Bottom Forecast Missed – What the Numbers Reveal",
+  "articleSlug": "10x-research-bitcoin-bottom-forecast-missed-what-the-numbers-reveal"
 }

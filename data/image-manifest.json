@@ -1,75 +1,12 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-07T12:21:56.200Z",
+  "generatedAt": "2026-10-07T22:30:56.439Z",
   "model": "@cf/black-forest-labs/flux-1-schnell",
   "width": 1024,
   "height": 576,
   "steps": 4,
-  "generated": 1,
+  "generated": 0,
   "skipped": 0,
   "failed": 0,
-  "images": {
-    "morgan-stanley-s-0-14-crypto-etfs-which-token-gets-the-first-dollar": {
-      "status": "generated",
-      "image": "/Trendforge/images/articles/morgan-stanley-s-0-14-crypto-etfs-which-token-gets-the-first-dollar.1024x576.png",
-      "generatedBy": "@cf/black-forest-labs/flux-1-schnell",
-      "width": 1024,
-      "height": 576,
-      "steps": 4,
-      "elapsedMs": 2898,
-      "bytes": 324577,
-      "visualBrief": {
-        "version": 2,
-        "mode": "editorial-photography",
-        "primarySubject": "the most concrete physical subject, event, organization, or action explicitly described by the story, centered on morgan, stanley, crypto, etfs",
-        "scene": "A commissioned technology-publication photograph of that concrete subject or event, not a category-level representation.",
-        "supportingElements": [
-          "only contextual elements that directly explain the story"
-        ],
-        "composition": "One hero subject with one or two supporting elements, natural editorial lighting and strong negative space.",
-        "company": null,
-        "namedPerson": null,
-        "category": "Crypto",
-        "storyAnchors": [
-          "morgan",
-          "stanley",
-          "crypto",
-          "etfs",
-          "which",
-          "token",
-          "gets",
-          "first"
-        ],
-        "avoid": [
-          "generic office imagery",
-          "random tablet or laptop",
-          "generic futuristic technology",
-          "glowing holograms, floating code, HUDs and neon sci-fi effects",
-          "prominent readable text or fake headlines"
-        ]
-      },
-      "relevance": {
-        "passed": true,
-        "anchors": [
-          "morgan",
-          "stanley",
-          "crypto",
-          "etfs",
-          "which",
-          "token",
-          "gets",
-          "first"
-        ],
-        "matchedAnchors": [
-          "morgan",
-          "stanley",
-          "crypto",
-          "etfs"
-        ],
-        "entityMatches": [],
-        "score": 0.5
-      },
-      "promptLength": 1900
-    }
-  }
+  "images": {}
 }

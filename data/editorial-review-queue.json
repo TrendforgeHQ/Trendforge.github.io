@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-07T12:21:48.852Z",
+  "generatedAt": "2026-10-07T22:30:49.743Z",
   "queue": [
     {
       "slug": "how-to-move-passwords-and-passkeys-between-managers-on-android",
@@ -36,6 +36,24 @@
       "reasons": [
         "evidence confidence needs improvement",
         "topic/title similarity is high",
+        "source strength/diversity needs improvement"
+      ]
+    },
+    {
+      "slug": "morgan-stanley-s-0-14-crypto-etfs-which-token-gets-the-first-dollar",
+      "title": "Morgan Stanley’s 0.14% Crypto ETFs: Which Token Gets the First Dollar?",
+      "category": "Crypto",
+      "score": 79,
+      "decision": "review",
+      "dimensions": {
+        "evidence": 75,
+        "usefulness": 95,
+        "clarity": 100,
+        "originality": 88,
+        "sourceStrength": 41
+      },
+      "reasons": [
+        "evidence confidence needs improvement",
         "source strength/diversity needs improvement"
       ]
     },
