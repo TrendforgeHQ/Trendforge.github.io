@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T03:19:09.233Z",
+  "generatedAt": "2026-10-07T12:20:52.755Z",
   "provider": "Groq",
   "editorial": {
     "passed": true,
@@ -22,8 +22,8 @@
       "noHighSimilaritySource": true
     },
     "metrics": {
-      "normalizedLength": 1933,
-      "sentenceCount": 15,
+      "normalizedLength": 1983,
+      "sentenceCount": 17,
       "maxSourceSimilarity": 0,
       "maxCommonPhrase": 0
     }
@@ -32,12 +32,12 @@
   "sourceRelationshipCheck": "passed",
   "verifiedEvidenceDomains": [
     "finance.yahoo.com",
-    "cryptotimes.io"
+    "247wallst.com"
   ],
-  "primarySourceCount": 1,
+  "primarySourceCount": 0,
   "grounding": {
     "sourceCount": 2,
-    "usablePassages": 14,
-    "primarySourceCount": 1
+    "usablePassages": 36,
+    "primarySourceCount": 0
   }
 }

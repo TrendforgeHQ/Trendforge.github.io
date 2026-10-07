@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-07T03:19:30.234Z",
+  "generatedAt": "2026-10-07T12:21:48.852Z",
   "queue": [
     {
       "slug": "how-to-move-passwords-and-passkeys-between-managers-on-android",
@@ -331,24 +331,6 @@
       ]
     },
     {
-      "slug": "cftc-sends-crypto-rule-draft-to-white-house-for-review",
-      "title": "CFTC Sends Crypto Rule Draft to White House for Review",
-      "category": "Crypto",
-      "score": 71,
-      "decision": "review",
-      "dimensions": {
-        "evidence": 50,
-        "usefulness": 95,
-        "clarity": 100,
-        "originality": 100,
-        "sourceStrength": 21
-      },
-      "reasons": [
-        "evidence confidence needs improvement",
-        "source strength/diversity needs improvement"
-      ]
-    },
-    {
       "slug": "al-gore-says-the-real-ai-risk-isn-t-data-centers",
       "title": "Al Gore Says the Real AI Risk Isn’t Data Centers",
       "category": "AI",
@@ -369,6 +351,24 @@
     {
       "slug": "bitcoin-returns-above-80k-coinbase-stock-jumps-11-5-amid-sec-exemption",
       "title": "Bitcoin Returns Above $80K, Coinbase Stock Jumps 11.5% Amid SEC Exemption",
+      "category": "Crypto",
+      "score": 69,
+      "decision": "review",
+      "dimensions": {
+        "evidence": 50,
+        "usefulness": 95,
+        "clarity": 100,
+        "originality": 88,
+        "sourceStrength": 21
+      },
+      "reasons": [
+        "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
+      ]
+    },
+    {
+      "slug": "cftc-sends-crypto-rule-draft-to-white-house-for-review",
+      "title": "CFTC Sends Crypto Rule Draft to White House for Review",
       "category": "Crypto",
       "score": 69,
       "decision": "review",

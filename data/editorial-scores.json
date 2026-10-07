@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-07T03:19:30.233Z",
+  "generatedAt": "2026-10-07T12:21:48.851Z",
   "status": "pass",
-  "currentGeneratedArticle": null,
-  "currentScore": null,
+  "currentGeneratedArticle": "morgan-stanley-s-0-14-crypto-etfs-which-token-gets-the-first-dollar",
+  "currentScore": 89,
   "identity": {
     "method": "brief.title",
     "rejectedMarker": false
@@ -236,13 +236,13 @@
       "slug": "cftc-sends-crypto-rule-draft-to-white-house-for-review",
       "title": "CFTC Sends Crypto Rule Draft to White House for Review",
       "category": "Crypto",
-      "score": 71,
+      "score": 69,
       "decision": "review",
       "dimensions": {
         "evidence": 50,
         "usefulness": 95,
         "clarity": 100,
-        "originality": 100,
+        "originality": 88,
         "sourceStrength": 21
       },
       "reasons": [
@@ -522,6 +522,21 @@
         "evidence confidence needs improvement",
         "source strength/diversity needs improvement"
       ]
+    },
+    {
+      "slug": "morgan-stanley-s-0-14-crypto-etfs-which-token-gets-the-first-dollar",
+      "title": "Morgan Stanley’s 0.14% Crypto ETFs: Which Token Gets the First Dollar?",
+      "category": "Crypto",
+      "score": 89,
+      "decision": "publish_ready",
+      "dimensions": {
+        "evidence": 82,
+        "usefulness": 95,
+        "clarity": 100,
+        "originality": 88,
+        "sourceStrength": 83
+      },
+      "reasons": []
     },
     {
       "slug": "openai-slows-ai-training-after-hugging-face-breach",

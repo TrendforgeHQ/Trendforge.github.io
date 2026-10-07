@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "title": "Crypto Is Winning in Washington Despite Clarity Act Failure, Says Policy Chief - Yahoo Finance",
+  "title": "Morgan Stanley Runs Bitcoin, Ethereum and Solana ETFs at a 0.14% Fee. Which Coin Gets Its Money First? - Yahoo Finance",
   "mode": "narrow",
   "wordBudget": {
     "min": 231,
@@ -11,7 +11,7 @@
     "preferredMin": 1,
     "preferredMax": 2
   },
-  "atomicClaimBudget": 14,
+  "atomicClaimBudget": 18,
   "allowedFactIds": [
     "F1",
     "F2",
@@ -26,11 +26,33 @@
     "F11",
     "F12",
     "F13",
-    "F14"
+    "F14",
+    "F15",
+    "F16",
+    "F17",
+    "F18",
+    "F19",
+    "F20",
+    "F21",
+    "F22",
+    "F23",
+    "F24",
+    "F25",
+    "F26",
+    "F27",
+    "F28",
+    "F29",
+    "F30",
+    "F31",
+    "F32",
+    "F33",
+    "F34",
+    "F35",
+    "F36"
   ],
   "synthesis": {
     "allowed": true,
-    "maxWords": 88,
+    "maxWords": 100,
     "maxStatements": 3,
     "allowedFactIds": [
       "F1",
@@ -46,7 +68,29 @@
       "F11",
       "F12",
       "F13",
-      "F14"
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28",
+      "F29",
+      "F30",
+      "F31",
+      "F32",
+      "F33",
+      "F34",
+      "F35",
+      "F36"
     ]
   },
   "rules": {
@@ -55,7 +99,7 @@
     "newEntitiesInSynthesis": false,
     "newCausalityInSynthesis": false
   },
-  "generatedAt": "2026-10-07T03:19:09.233Z",
-  "articleTitle": "SEC Moves Forward with Tokenization Rules After CLARITY Act Stalls",
-  "articleSlug": "sec-moves-forward-with-tokenization-rules-after-clarity-act-stalls"
+  "generatedAt": "2026-10-07T12:20:52.755Z",
+  "articleTitle": "Morgan Stanley’s 0.14% Crypto ETFs: Which Token Gets the First Dollar?",
+  "articleSlug": "morgan-stanley-s-0-14-crypto-etfs-which-token-gets-the-first-dollar"
 }
