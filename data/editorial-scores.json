@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-06T22:04:46.140Z",
+  "generatedAt": "2026-10-07T03:19:30.233Z",
   "status": "pass",
   "currentGeneratedArticle": null,
   "currentScore": null,
   "identity": {
     "method": "brief.title",
-    "rejectedMarker": true
+    "rejectedMarker": false
   },
   "policy": {
     "publishCandidate": 90,
@@ -590,6 +590,24 @@
         "clarity": 100,
         "originality": 90,
         "sourceStrength": 21
+      },
+      "reasons": [
+        "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
+      ]
+    },
+    {
+      "slug": "sec-moves-forward-with-tokenization-rules-after-clarity-act-stalls",
+      "title": "SEC Moves Forward with Tokenization Rules After CLARITY Act Stalls",
+      "category": "Crypto",
+      "score": 80,
+      "decision": "publish_ready",
+      "dimensions": {
+        "evidence": 75,
+        "usefulness": 91,
+        "clarity": 100,
+        "originality": 100,
+        "sourceStrength": 41
       },
       "reasons": [
         "evidence confidence needs improvement",

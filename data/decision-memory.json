@@ -1,187 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-06T22:03:48.866Z",
+  "updatedAt": "2026-10-07T03:18:42.120Z",
   "decisions": [
-    {
-      "timestamp": "2026-10-04T00:35:15.600Z",
-      "title": "Innovation, invention, scientific investigation on display - Times.co.nz",
-      "category": "Innovation",
-      "decision": "review",
-      "score": 79,
-      "adaptivePriority": 95,
-      "confidence": 87
-    },
-    {
-      "timestamp": "2026-10-04T00:35:15.600Z",
-      "title": "Research, innovation and invention top priority for prosperity, Minister Pun says - The Rising Nepal",
-      "category": "Innovation",
-      "decision": "review",
-      "score": 65,
-      "adaptivePriority": 81,
-      "confidence": 64
-    },
-    {
-      "timestamp": "2026-10-04T00:35:15.600Z",
-      "title": "Innovation, Invention and Impact: NJIT Undergrads Present Summer Research - NJIT News",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 62,
-      "adaptivePriority": 78,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-10-04T00:35:15.600Z",
-      "title": "NLR Battery Innovation Awarded NASA’s Invention of the Year - CleanTechnica",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-10-04T00:35:15.600Z",
-      "title": "Opinion: Why Canada’s health Innovation bottleneck is adoption, not invention - University of Waterloo",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-10-04T00:35:15.600Z",
-      "title": "A History of Invention and Innovation - Boston University",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 60,
-      "adaptivePriority": 76,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-10-04T00:35:15.600Z",
-      "title": "From Edison’s Invention Factory to the new architecture of innovation - Science | AAAS",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 58,
-      "adaptivePriority": 74,
-      "confidence": 58
-    },
-    {
-      "timestamp": "2026-10-04T00:35:15.600Z",
-      "title": "Innovation beyond invention will bring novel medicines to Europe’s patients - pharmaphorum",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 58,
-      "adaptivePriority": 74,
-      "confidence": 58
-    },
-    {
-      "timestamp": "2026-10-04T00:35:15.600Z",
-      "title": "Palo Alto Networks joins UAH Invention to Innovation Center as Corporate Innovation Partner | Newswise - Newswise",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 58,
-      "adaptivePriority": 74,
-      "confidence": 58
-    },
-    {
-      "timestamp": "2026-10-04T00:35:15.600Z",
-      "title": "Malaysian Brothers Win Highest Invention Award at WYIE 2026 for AI Education Innovation - SME & Entrepreneurship Magazine",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 58,
-      "adaptivePriority": 74,
-      "confidence": 58
-    },
-    {
-      "timestamp": "2026-10-04T00:35:15.600Z",
-      "title": "America's true innovation advantage: we don't just invent technologies — we reinvent how innovation works - Fortune",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 57,
-      "adaptivePriority": 73,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-10-04T00:35:15.600Z",
-      "title": "Apple says it’s tightening macOS privacy controls amid the rise of AI agents - 9to5Mac",
-      "category": "Digital Life",
-      "decision": "review",
-      "score": 72,
-      "adaptivePriority": 72,
-      "confidence": 82
-    },
-    {
-      "timestamp": "2026-10-04T00:35:15.600Z",
-      "title": "From invention to impact: Hong Kong Science Fair gives young innovators a wider stage - South China Morning Post",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 56,
-      "adaptivePriority": 72,
-      "confidence": 59
-    },
-    {
-      "timestamp": "2026-10-04T00:35:15.600Z",
-      "title": "Challenges of protecting innovation in an artificial (intelligence) world - McAfee & Taft",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 56,
-      "adaptivePriority": 72,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-10-04T00:35:15.600Z",
-      "title": "These Early Amazon Prime Deals on Video Doorbells and Security Cameras Are Chiming in With Savings - pcmag.com",
-      "category": "Digital Life",
-      "decision": "review",
-      "score": 71,
-      "adaptivePriority": 71,
-      "confidence": 85
-    },
-    {
-      "timestamp": "2026-10-04T00:35:15.600Z",
-      "title": "India’s next challenge — from invention to global scale - The Hindu",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 55,
-      "adaptivePriority": 71,
-      "confidence": 58
-    },
-    {
-      "timestamp": "2026-10-04T00:35:15.600Z",
-      "title": "Leaders at Davos 2026 on how we can deploy innovation and technology at scale and responsibly - The World Economic Forum",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 55,
-      "adaptivePriority": 71,
-      "confidence": 58
-    },
-    {
-      "timestamp": "2026-10-04T00:35:15.600Z",
-      "title": "Patent push aimed at improving innovation - China Daily",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 55,
-      "adaptivePriority": 71,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-10-04T00:35:15.600Z",
-      "title": "6 recent scientific breakthroughs and discoveries - theweek.com",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 55,
-      "adaptivePriority": 71,
-      "confidence": 60
-    },
-    {
-      "timestamp": "2026-10-04T00:35:15.600Z",
-      "title": "Electronics Major Arduino Opens Edge AI Invention Lab at IIT Delhi for Hands-On AI Learning - analyticsindiamag.com",
-      "category": "Innovation",
-      "decision": "hold",
-      "score": 55,
-      "adaptivePriority": 71,
-      "confidence": 60
-    },
     {
       "timestamp": "2026-10-04T03:24:44.265Z",
       "title": "Innovation, invention, scientific investigation on display - Times.co.nz",
@@ -1795,6 +1615,186 @@
     },
     {
       "timestamp": "2026-10-06T22:03:48.866Z",
+      "title": "Army invention identifies bio-materials for future military technology - Army.mil",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 52,
+      "adaptivePriority": 68,
+      "confidence": 57
+    },
+    {
+      "timestamp": "2026-10-07T03:18:42.120Z",
+      "title": "Innovation, invention, scientific investigation on display - Times.co.nz",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 63,
+      "adaptivePriority": 79,
+      "confidence": 64
+    },
+    {
+      "timestamp": "2026-10-07T03:18:42.120Z",
+      "title": "Innovation, Invention and Impact: NJIT Undergrads Present Summer Research - NJIT News",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 62,
+      "adaptivePriority": 78,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-10-07T03:18:42.120Z",
+      "title": "Research, innovation and invention top priority for prosperity, Minister Pun says - The Rising Nepal",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-10-07T03:18:42.120Z",
+      "title": "NLR Battery Innovation Awarded NASA’s Invention of the Year - CleanTechnica",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-10-07T03:18:42.120Z",
+      "title": "Opinion: Why Canada’s health Innovation bottleneck is adoption, not invention - University of Waterloo",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-10-07T03:18:42.120Z",
+      "title": "A History of Invention and Innovation - Boston University",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 60,
+      "adaptivePriority": 76,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-10-07T03:18:42.120Z",
+      "title": "From Edison’s Invention Factory to the new architecture of innovation - Science | AAAS",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-10-07T03:18:42.120Z",
+      "title": "Innovation beyond invention will bring novel medicines to Europe’s patients - pharmaphorum",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-10-07T03:18:42.120Z",
+      "title": "Palo Alto Networks joins UAH Invention to Innovation Center as Corporate Innovation Partner | Newswise - Newswise",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-10-07T03:18:42.120Z",
+      "title": "Malaysian Brothers Win Highest Invention Award at WYIE 2026 for AI Education Innovation - SME & Entrepreneurship Magazine",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 58,
+      "adaptivePriority": 74,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-10-07T03:18:42.120Z",
+      "title": "America's true innovation advantage: we don't just invent technologies — we reinvent how innovation works - Fortune",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 57,
+      "adaptivePriority": 73,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-10-07T03:18:42.120Z",
+      "title": "Electronics Major Arduino Opens Edge AI Invention Lab at IIT Delhi for Hands-On AI Learning - Analytics India Magazine",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 57,
+      "adaptivePriority": 73,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-10-07T03:18:42.120Z",
+      "title": "From invention to impact: Hong Kong Science Fair gives young innovators a wider stage - South China Morning Post",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 56,
+      "adaptivePriority": 72,
+      "confidence": 59
+    },
+    {
+      "timestamp": "2026-10-07T03:18:42.120Z",
+      "title": "India’s next challenge — from invention to global scale - The Hindu",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 55,
+      "adaptivePriority": 71,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-10-07T03:18:42.120Z",
+      "title": "Leaders at Davos 2026 on how we can deploy innovation and technology at scale and responsibly - The World Economic Forum",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 55,
+      "adaptivePriority": 71,
+      "confidence": 58
+    },
+    {
+      "timestamp": "2026-10-07T03:18:42.120Z",
+      "title": "Patent push aimed at improving innovation - China Daily",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 55,
+      "adaptivePriority": 71,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-10-07T03:18:42.120Z",
+      "title": "6 recent scientific breakthroughs and discoveries | The Week - The Week",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 55,
+      "adaptivePriority": 71,
+      "confidence": 60
+    },
+    {
+      "timestamp": "2026-10-07T03:18:42.120Z",
+      "title": "Sources: Apple Planning Two Sets of Product Launches in October - MacRumors",
+      "category": "Product Launches",
+      "decision": "hold",
+      "score": 61,
+      "adaptivePriority": 69,
+      "confidence": 71
+    },
+    {
+      "timestamp": "2026-10-07T03:18:42.120Z",
+      "title": "Challenges of protecting innovation in an artificial (intelligence) world - McAfee & Taft",
+      "category": "Innovation",
+      "decision": "hold",
+      "score": 53,
+      "adaptivePriority": 69,
+      "confidence": 57
+    },
+    {
+      "timestamp": "2026-10-07T03:18:42.120Z",
       "title": "Army invention identifies bio-materials for future military technology - Army.mil",
       "category": "Innovation",
       "decision": "hold",

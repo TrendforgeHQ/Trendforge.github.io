@@ -1,19 +1,19 @@
 {
   "version": 18,
-  "generatedAt": "2026-10-06T22:04:42.124Z",
-  "articlePath": "content/articles/mistral-s-1-trillion-parameter-model-undercuts-proprietary-pricing-and-challenges-china.md",
-  "articleTitle": "Mistral’s 1‑Trillion‑Parameter Model Undercuts Proprietary Pricing and Challenges China",
+  "generatedAt": "2026-10-07T03:19:26.132Z",
+  "articlePath": "content/articles/sec-moves-forward-with-tokenization-rules-after-clarity-act-stalls.md",
+  "articleTitle": "SEC Moves Forward with Tokenization Rules After CLARITY Act Stalls",
   "verificationMode": "authoritative-evidence-pack-v20-fact-map-synthesis",
   "sourceCount": 2,
   "usableSourceCount": 2,
-  "claimCount": 17,
-  "editorialCount": 2,
-  "verified": 12,
-  "partial": 4,
-  "unsupported": 1,
+  "claimCount": 8,
+  "editorialCount": 3,
+  "verified": 8,
+  "partial": 0,
+  "unsupported": 0,
   "sourceUnavailable": 0,
-  "averageConfidence": 71,
-  "pass": false,
+  "averageConfidence": 91,
+  "pass": true,
   "policy": {
     "verifiedMin": 62,
     "partialMin": 45,
@@ -45,229 +45,170 @@
   "sources": [
     {
       "id": "S1",
-      "title": "Mistral Large 4 Doesn’t Just Compete With Chinese Open-Weights – It Undercuts the Entire Proprietary Pricing Floor - Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/mistral-large-4-doesn-t-155055704.html",
+      "title": "Crypto Is Winning in Washington Despite Clarity Act Failure, Says Policy Chief - Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-winning-washington-despite-clarity-014510880.html",
       "domain": "finance.yahoo.com",
-      "passageCount": 10,
-      "articleBodyLength": 1553
+      "passageCount": 4,
+      "articleBodyLength": 445
     },
     {
       "id": "S2",
-      "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
-      "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-      "domain": "techcrunch.com",
+      "title": "SEC’s Paul Atkins Says Tokenization Rules Will Move Ahead Despite CLARITY Act Failure - The Crypto Times",
+      "url": "https://www.cryptotimes.io/2026/09/30/secs-paul-atkins-says-tokenization-rules-will-move-ahead-despite-clarity-act-failure/",
+      "domain": "cryptotimes.io",
       "passageCount": 10,
-      "articleBodyLength": 1846
+      "articleBodyLength": 1339
     }
   ],
   "claims": [
     {
       "index": 1,
-      "claim": "On October 6, 2026, Mistral AI introduced its largest model yet, Mistral Large 4 (ML4).",
+      "claim": "On September 29, SEC Chairman Paul Atkins said the agency will keep writing rules for on‑chain fundraising after Congress failed to pass a crypto market‑structure statute this month.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 100,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "SEC’s Paul Atkins Says Tokenization Rules Will Move Ahead Despite CLARITY Act Failure - The Crypto Times",
+      "bestUrl": "https://www.cryptotimes.io/2026/09/30/secs-paul-atkins-says-tokenization-rules-will-move-ahead-despite-clarity-act-failure/",
+      "bestDomain": "cryptotimes.io",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F9",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 100
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F9",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 100,
+          "passageIndex": 2
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S2-P5",
+      "evidence": "SEC Chairman Paul Atkins said the agency will keep writing rules for on-chain fundraising after Congress failed to pass a crypto market-structure statute this month.",
+      "bestPassage": "SEC Chairman Paul Atkins said the agency will keep writing rules for on-chain fundraising after Congress failed to pass a crypto market-structure statute this month.",
+      "matchedPassages": [
+        "S2-P5",
+        "S2-BODY"
+      ],
+      "sharedTerms": [
+        "september",
+        "sec",
+        "chairman",
+        "paul",
+        "atkin",
+        "the",
+        "agency",
+        "keep",
+        "writ",
+        "rul",
+        "for",
+        "chain",
+        "fundrais",
+        "congres",
+        "fail",
+        "pass",
+        "crypto",
+        "market",
+        "structure",
+        "statute",
+        "month"
+      ],
+      "entityShared": [
+        "september",
+        "sec",
+        "chairman",
+        "paul",
+        "atkin",
+        "congres"
+      ],
+      "topicShared": [
+        "crypto"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": true,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 2,
+      "claim": "He explained that, even though the CLARITY Act was not enacted, the SEC is proceeding to provide clarity to the marketplace regarding how to raise money on chain.",
       "status": "verified",
       "classification": "supported",
       "confidence": 92,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Mistral Large 4 Doesn’t Just Compete With Chinese Open-Weights – It Undercuts the Entire Proprietary Pricing Floor - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/mistral-large-4-doesn-t-155055704.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "CORROBORATION",
-      "coreFactMatch": {
-        "factId": "F5",
-        "sourceId": "S1",
-        "sourceRole": "CORROBORATION",
-        "score": 76
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F5",
-          "sourceId": "S1",
-          "sourceRole": "CORROBORATION",
-          "score": 76,
-          "passageIndex": 2
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "On October 6, 2026, at AI Everything Abu Dhabi, Mistral AI CEO Arthur Mensch introduced Mistral Large 4 (ML4).",
-      "bestPassage": "On October 6, 2026, at AI Everything Abu Dhabi, Mistral AI CEO Arthur Mensch introduced Mistral Large 4 (ML4).",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P5"
-      ],
-      "sharedTerms": [
-        "october",
-        "2026",
-        "mistral",
-        "introduc",
-        "its",
-        "models",
-        "large",
-        "ml4"
-      ],
-      "entityShared": [
-        "october",
-        "mistral",
-        "large",
-        "ml4"
-      ],
-      "topicShared": [
-        "mistral",
-        "models"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": true,
-      "directExact": true,
-      "matchingMode": "direct-exact-evidence"
-    },
-    {
-      "index": 2,
-      "claim": "The 1.05 trillion‑parameter system uses a mixture‑of‑experts architecture with 49 billion active parameters and a 1.6 billion‑parameter vision encoder.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 90,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Mistral Large 4 Doesn’t Just Compete With Chinese Open-Weights – It Undercuts the Entire Proprietary Pricing Floor - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/mistral-large-4-doesn-t-155055704.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "CORROBORATION",
-      "coreFactMatch": {
-        "factId": "F6",
-        "sourceId": "S1",
-        "sourceRole": "CORROBORATION",
-        "score": 90
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F6",
-          "sourceId": "S1",
-          "sourceRole": "CORROBORATION",
-          "score": 90,
-          "passageIndex": 2
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-FF6",
-      "evidence": "The model, a 1.05 trillion-parameter system utilizing a Mixture of Experts architecture with 49 billion active parameters and a 1.6 billion vision encoder, represents the company's latest attempt to scale its infrastructure while maintaining a competitive edge in the frontier model market.",
-      "bestPassage": "The model, a 1.05 trillion-parameter system utilizing a Mixture of Experts architecture with 49 billion active parameters and a 1.6 billion vision encoder, represents the company's latest attempt to scale its infrastructure while maintaining a competitive edge in the frontier model market.",
-      "matchedPassages": [
-        "S1-P6",
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "the",
-        "trillion",
-        "parameter",
-        "system",
-        "mixture",
-        "expert",
-        "architecture",
-        "billion",
-        "active",
-        "and",
-        "vision",
-        "encoder"
-      ],
-      "entityShared": [],
-      "topicShared": [
-        "and"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": true,
-      "directExact": true,
-      "matchingMode": "direct-exact-evidence"
-    },
-    {
-      "index": 3,
-      "claim": "It is built on 4,000 Nvidia GPUs, a quantity two to three times fewer than comparable Chinese competitors and significantly less than closed‑source rivals.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 87,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
-      "bestUrl": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-      "bestDomain": "techcrunch.com",
+      "bestSource": "SEC’s Paul Atkins Says Tokenization Rules Will Move Ahead Despite CLARITY Act Failure - The Crypto Times",
+      "bestUrl": "https://www.cryptotimes.io/2026/09/30/secs-paul-atkins-says-tokenization-rules-will-move-ahead-despite-clarity-act-failure/",
+      "bestDomain": "cryptotimes.io",
       "sourceId": "S2",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F16",
+        "factId": "F10",
         "sourceId": "S2",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 87
+        "score": 82
       },
       "provenanceFactMatches": [
         {
-          "factId": "F16",
+          "factId": "F10",
           "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 87,
-          "passageIndex": 5
+          "score": 82,
+          "passageIndex": 3
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S2-FF16",
-      "evidence": "Another important behind-the-scenes aspect is that ML4 was trained entirely on Mistral’s compute; using only 4,000 Nvidia GPUs “which is two to three times less than our Chinese competitors, and significantly less than the closed source competitors,” Stock said.",
-      "bestPassage": "Another important behind-the-scenes aspect is that ML4 was trained entirely on Mistral’s compute; using only 4,000 Nvidia GPUs “which is two to three times less than our Chinese competitors, and significantly less than the closed source competitors,” Stock said.",
+      "bestPassageId": "S2-BODY",
+      "evidence": "Speaking in Washington on September 29, he said : “Even though the CLARITY Act failed in Congress to be enacted, we are proceeding to provide clarity to the marketplace as far as how to raise money on chain.” He described a proposed rule already out and a second track covering how tokenized securities trade.",
+      "bestPassage": "Speaking in Washington on September 29, he said : “Even though the CLARITY Act failed in Congress to be enacted, we are proceeding to provide clarity to the marketplace as far as how to raise money on chain.” He described a proposed rule already out and a second track covering how tokenized securities trade.",
       "matchedPassages": [
         "S2-BODY",
         "S2-P6"
       ],
       "sharedTerms": [
-        "000",
-        "nvidia",
-        "gpus",
-        "two",
-        "three",
-        "tim",
-        "chinese",
-        "competitor",
-        "and",
-        "significantly",
-        "clos",
-        "source"
+        "though",
+        "the",
+        "clarity",
+        "act",
+        "was",
+        "enact",
+        "sec",
+        "proceed",
+        "provide",
+        "marketplace",
+        "raise",
+        "money",
+        "chain"
       ],
       "entityShared": [
-        "nvidia",
-        "gpus",
-        "chinese"
+        "clarity",
+        "act",
+        "sec"
       ],
       "topicShared": [
-        "and",
-        "clos",
-        "rival"
+        "clarity",
+        "act"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -284,142 +225,64 @@
       },
       "factCoverage": 1,
       "multiFactSupported": false,
-      "directFactExact": true,
-      "directExact": true,
-      "matchingMode": "direct-exact-evidence"
-    },
-    {
-      "index": 4,
-      "claim": "ML4’s pricing is significantly lower than competitors.68 per million tokens (MTok) for input and $2.09 for output, well below the $2/$10 floor set by OpenAI’s GPT‑6.1 Sol and Google’s Gemini 4 Argon.",
-      "status": "unsupported",
-      "classification": "contradicted",
-      "confidence": 19,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Mistral Large 4 Doesn’t Just Compete With Chinese Open-Weights – It Undercuts the Entire Proprietary Pricing Floor - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/mistral-large-4-doesn-t-155055704.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "CORROBORATION",
-      "coreFactMatch": null,
-      "provenanceFactMatches": [],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-P2",
-      "evidence": "By pricing ML4 at $0.68 per million tokens (MTok) for input and $2.09 for output, Mistral is aggressively undercutting the $2/$10 floor established by OpenAI's GPT-6.1 Sol and Google's Gemini 4 Argon.",
-      "bestPassage": "By pricing ML4 at $0.68 per million tokens (MTok) for input and $2.09 for output, Mistral is aggressively undercutting the $2/$10 floor established by OpenAI's GPT-6.1 Sol and Google's Gemini 4 Argon.",
-      "matchedPassages": [],
-      "sharedTerms": [
-        "ml4",
-        "pric",
-        "per",
-        "million",
-        "token",
-        "mtok",
-        "for",
-        "input",
-        "and",
-        "output",
-        "the",
-        "floor",
-        "openai",
-        "gpt",
-        "sol",
-        "google",
-        "gemini",
-        "argon"
-      ],
-      "entityShared": [
-        "ml4",
-        "mtok",
-        "openai",
-        "gpt",
-        "sol",
-        "google",
-        "gemini",
-        "argon"
-      ],
-      "topicShared": [
-        "and"
-      ],
-      "numericMismatch": true,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [
-        "significantly"
-      ],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 0,
-      "multiFactSupported": false,
       "directFactExact": false,
       "directExact": false,
-      "matchingMode": "semantic-context-evidence-pack"
+      "matchingMode": "fact-map-anchored-source-passage"
     },
     {
-      "index": 5,
-      "claim": "This aggressive pricing places ML4 among the cheapest large‑model offerings and pushes the market toward a lower baseline for open‑weight models.",
+      "index": 3,
+      "claim": "Atkins described a proposed rule already out and a second track covering how tokenized securities trade.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 75,
+      "confidence": 94,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Mistral Large 4 Doesn’t Just Compete With Chinese Open-Weights – It Undercuts the Entire Proprietary Pricing Floor - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/mistral-large-4-doesn-t-155055704.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "CORROBORATION",
+      "bestSource": "SEC’s Paul Atkins Says Tokenization Rules Will Move Ahead Despite CLARITY Act Failure - The Crypto Times",
+      "bestUrl": "https://www.cryptotimes.io/2026/09/30/secs-paul-atkins-says-tokenization-rules-will-move-ahead-despite-clarity-act-failure/",
+      "bestDomain": "cryptotimes.io",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F4",
-        "sourceId": "S1",
-        "sourceRole": "CORROBORATION",
-        "score": 56
+        "factId": "F10",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 86
       },
       "provenanceFactMatches": [
         {
-          "factId": "F4",
-          "sourceId": "S1",
-          "sourceRole": "CORROBORATION",
-          "score": 56,
+          "factId": "F10",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 86,
           "passageIndex": 3
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "While proprietary models currently average $6.03/MTok, open-weights models like ML4 are driving the market toward a new baseline, challenging the premiums charged by closed-source systems.",
-      "bestPassage": "While proprietary models currently average $6.03/MTok, open-weights models like ML4 are driving the market toward a new baseline, challenging the premiums charged by closed-source systems.",
+      "bestPassageId": "S2-BODY",
+      "evidence": "Speaking in Washington on September 29, he said : “Even though the CLARITY Act failed in Congress to be enacted, we are proceeding to provide clarity to the marketplace as far as how to raise money on chain.” He described a proposed rule already out and a second track covering how tokenized securities trade.",
+      "bestPassage": "Speaking in Washington on September 29, he said : “Even though the CLARITY Act failed in Congress to be enacted, we are proceeding to provide clarity to the marketplace as far as how to raise money on chain.” He described a proposed rule already out and a second track covering how tokenized securities trade.",
       "matchedPassages": [
-        "S1-BODY",
-        "S1-P4"
+        "S2-BODY",
+        "S2-P6"
       ],
       "sharedTerms": [
-        "pric",
-        "ml4",
-        "the",
-        "large",
-        "models",
+        "atkin",
+        "describ",
+        "propos",
+        "rule",
+        "out",
         "and",
-        "market",
-        "toward",
-        "baseline",
-        "for",
-        "open",
-        "weight"
+        "second",
+        "track",
+        "cover",
+        "tokeniz",
+        "securiti",
+        "trade"
       ],
       "entityShared": [
-        "ml4"
+        "atkin"
       ],
-      "topicShared": [
-        "models",
-        "and",
-        "open"
-      ],
+      "topicShared": [],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
@@ -427,7 +290,7 @@
       "attributionUncertainty": {
         "evidenceUncertain": false,
         "claimUncertain": false,
-        "evidenceAttributed": false,
+        "evidenceAttributed": true,
         "claimAttributed": false,
         "certaintyEscalation": false,
         "attributionDropped": false,
@@ -440,54 +303,124 @@
       "matchingMode": "fact-map-anchored-source-passage"
     },
     {
-      "index": 6,
-      "claim": "The price shift has immediate implications for developers.The introduction of ML4 represents a fundamental shift in the price of intelligence.",
+      "index": 4,
+      "claim": "Atkins noted that the SEC’s framework will resolve the problem by requiring the token to carry the security’s actual rights.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 81,
+      "confidence": 90,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Mistral Large 4 Doesn’t Just Compete With Chinese Open-Weights – It Undercuts the Entire Proprietary Pricing Floor - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/mistral-large-4-doesn-t-155055704.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "CORROBORATION",
+      "bestSource": "SEC’s Paul Atkins Says Tokenization Rules Will Move Ahead Despite CLARITY Act Failure - The Crypto Times",
+      "bestUrl": "https://www.cryptotimes.io/2026/09/30/secs-paul-atkins-says-tokenization-rules-will-move-ahead-despite-clarity-act-failure/",
+      "bestDomain": "cryptotimes.io",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F3",
-        "sourceId": "S1",
-        "sourceRole": "CORROBORATION",
-        "score": 63
+        "factId": "F11",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 82
       },
       "provenanceFactMatches": [
         {
-          "factId": "F3",
-          "sourceId": "S1",
-          "sourceRole": "CORROBORATION",
-          "score": 63,
-          "passageIndex": 3
+          "factId": "F11",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 82,
+          "passageIndex": 13
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "For developers, this represents a fundamental shift in the price of intelligence.",
-      "bestPassage": "For developers, this represents a fundamental shift in the price of intelligence.",
+      "bestPassageId": "S2-BODY",
+      "evidence": "His answer was that the SEC&#8217;s framework resolves the problem by requiring the token to carry the security&#8217;s actual rights, which is what separates the American model from the offshore one.",
+      "bestPassage": "His answer was that the SEC&#8217;s framework resolves the problem by requiring the token to carry the security&#8217;s actual rights, which is what separates the American model from the offshore one.",
       "matchedPassages": [
-        "S1-BODY",
-        "S1-P3"
+        "S2-BODY",
+        "S2-P7"
       ],
       "sharedTerms": [
+        "atkin",
         "the",
-        "price",
-        "shift",
-        "for",
-        "developer",
-        "introduction",
-        "ml4",
-        "represent",
-        "fundamental"
+        "sec",
+        "framework",
+        "problem",
+        "requir",
+        "token",
+        "carry",
+        "security",
+        "actual",
+        "right"
       ],
       "entityShared": [
-        "ml4"
+        "atkin",
+        "sec"
+      ],
+      "topicShared": [],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": true,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 5,
+      "claim": "This requirement is what separates the American model from the offshore one.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 82,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "SEC’s Paul Atkins Says Tokenization Rules Will Move Ahead Despite CLARITY Act Failure - The Crypto Times",
+      "bestUrl": "https://www.cryptotimes.io/2026/09/30/secs-paul-atkins-says-tokenization-rules-will-move-ahead-despite-clarity-act-failure/",
+      "bestDomain": "cryptotimes.io",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F11",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 82
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F11",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 82,
+          "passageIndex": 13
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S2-P7",
+      "evidence": "His answer was that the SEC&#8217;s framework resolves the problem by requiring the token to carry the security&#8217;s actual rights, which is what separates the American model from the offshore one.",
+      "bestPassage": "His answer was that the SEC&#8217;s framework resolves the problem by requiring the token to carry the security&#8217;s actual rights, which is what separates the American model from the offshore one.",
+      "matchedPassages": [
+        "S2-P7",
+        "S2-BODY"
+      ],
+      "sharedTerms": [
+        "separat",
+        "the",
+        "american",
+        "models",
+        "offshore",
+        "one"
+      ],
+      "entityShared": [
+        "american"
       ],
       "topicShared": [],
       "numericMismatch": false,
@@ -510,845 +443,256 @@
       "matchingMode": "fact-map-anchored-source-passage"
     },
     {
-      "index": 7,
-      "claim": "Mistral’s run rate of over $400 million and a target of $1 billion in revenue suggest that the company is already gaining share from both proprietary incumbents and smaller open‑source players.",
-      "status": "partial",
-      "classification": "supported_with_context",
-      "confidence": 89,
+      "index": 6,
+      "claim": "The SEC will only sanction the second kind of rule, which covers how tokenized securities trade, according to Atkins.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 94,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Mistral Large 4 Doesn’t Just Compete With Chinese Open-Weights – It Undercuts the Entire Proprietary Pricing Floor - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/mistral-large-4-doesn-t-155055704.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "CORROBORATION",
-      "coreFactMatch": {
-        "factId": "F9",
-        "sourceId": "S1",
-        "sourceRole": "CORROBORATION",
-        "score": 81
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F9",
-          "sourceId": "S1",
-          "sourceRole": "CORROBORATION",
-          "score": 81,
-          "passageIndex": 6
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "Mistral's ability to maintain a run rate exceeding $400M while targeting $1B in revenue suggests it is successfully capturing market share from both proprietary incumbents and smaller open-source players.",
-      "bestPassage": "Mistral's ability to maintain a run rate exceeding $400M while targeting $1B in revenue suggests it is successfully capturing market share from both proprietary incumbents and smaller open-source players.",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P9"
-      ],
-      "sharedTerms": [
-        "mistral",
-        "run",
-        "rate",
-        "million",
-        "and",
-        "target",
-        "billion",
-        "revenue",
-        "suggest",
-        "the",
-        "share",
-        "both",
-        "proprietary",
-        "incumbent",
-        "smaller",
-        "open",
-        "source",
-        "player"
-      ],
-      "entityShared": [
-        "mistral"
-      ],
-      "topicShared": [
-        "mistral",
-        "and",
-        "open"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": true,
-        "attributionDropped": false,
-        "blocked": true
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": true,
-      "directExact": true,
-      "matchingMode": "direct-exact-evidence"
-    },
-    {
-      "index": 8,
-      "claim": "The launch also reflects a strategic stance in the ongoing contest between open and closed AI.",
-      "status": "partial",
-      "classification": "uncertain",
-      "confidence": 46,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
-      "bestUrl": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-      "bestDomain": "techcrunch.com",
+      "bestSource": "SEC’s Paul Atkins Says Tokenization Rules Will Move Ahead Despite CLARITY Act Failure - The Crypto Times",
+      "bestUrl": "https://www.cryptotimes.io/2026/09/30/secs-paul-atkins-says-tokenization-rules-will-move-ahead-despite-clarity-act-failure/",
+      "bestDomain": "cryptotimes.io",
       "sourceId": "S2",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F11",
+        "factId": "F14",
         "sourceId": "S2",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 44
+        "score": 67
       },
       "provenanceFactMatches": [
         {
-          "factId": "F11",
+          "factId": "F14",
           "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 44,
-          "passageIndex": 1
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "The race between open and closed AI is on, and Europe is still in the mix.",
-      "bestPassage": "The race between open and closed AI is on, and Europe is still in the mix.",
-      "matchedPassages": [
-        "S2-BODY",
-        "S2-P1"
-      ],
-      "sharedTerms": [
-        "the",
-        "open",
-        "and",
-        "clos"
-      ],
-      "entityShared": [],
-      "topicShared": [
-        "open",
-        "and",
-        "clos"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 9,
-      "claim": "While the model is not yet fully open‑weight, Mistral plans to release its weights publicly on October 27, 2026, after completing safety testing.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 77,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Mistral Large 4 Doesn’t Just Compete With Chinese Open-Weights – It Undercuts the Entire Proprietary Pricing Floor - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/mistral-large-4-doesn-t-155055704.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "CORROBORATION",
-      "coreFactMatch": {
-        "factId": "F7",
-        "sourceId": "S1",
-        "sourceRole": "CORROBORATION",
-        "score": 44
-      },
-      "provenanceFactMatches": [
+          "score": 67,
+          "passageIndex": 10
+        },
         {
-          "factId": "F7",
-          "sourceId": "S1",
-          "sourceRole": "CORROBORATION",
-          "score": 44,
-          "passageIndex": 2
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "The weights for ML4 are scheduled for public release on October 27, 2026, according to Reuters.",
-      "bestPassage": "The weights for ML4 are scheduled for public release on October 27, 2026, according to Reuters.",
-      "matchedPassages": [
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "the",
-        "models",
-        "not",
-        "open",
-        "weight",
-        "mistral",
-        "release",
-        "its",
-        "october",
-        "2026"
-      ],
-      "entityShared": [
-        "mistral",
-        "october"
-      ],
-      "topicShared": [
-        "models",
-        "open",
-        "mistral"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": true,
-      "directExact": true,
-      "matchingMode": "direct-exact-evidence"
-    },
-    {
-      "index": 10,
-      "claim": "In the interim, access is limited to a public guardrail endpoint, and the company will collaborate with trusted partners and governments to ensure that the open‑source weights can defend against malicious use.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 75,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
-      "bestUrl": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-      "bestDomain": "techcrunch.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F20",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 65
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F20",
+          "factId": "F10",
           "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 65,
+          "score": 55,
           "passageIndex": 3
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "“In the meantime, we&#8217;ll work with trusted partners and governments to make sure that the open source weights can be used to defend, but not to [perform] malicious attacks,” Mistral VP Science Pierre Stock told TechCrunch.",
-      "bestPassage": "“In the meantime, we&#8217;ll work with trusted partners and governments to make sure that the open source weights can be used to defend, but not to [perform] malicious attacks,” Mistral VP Science Pierre Stock told TechCrunch.",
-      "matchedPassages": [
-        "S2-BODY",
-        "S2-P10"
-      ],
-      "sharedTerms": [
-        "the",
-        "public",
-        "guardrail",
-        "endpoint",
-        "and",
-        "trust",
-        "partner",
-        "government",
-        "open",
-        "source",
-        "weight",
-        "can",
-        "defend",
-        "maliciou",
-        "use"
-      ],
-      "entityShared": [],
-      "topicShared": [
-        "and",
-        "open"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": true,
-        "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 11,
-      "claim": "Mistral’s ability to maintain a high run rate while keeping costs low raises questions about long‑term sustainability.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 63,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Mistral Large 4 Doesn’t Just Compete With Chinese Open-Weights – It Undercuts the Entire Proprietary Pricing Floor - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/mistral-large-4-doesn-t-155055704.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "CORROBORATION",
-      "coreFactMatch": {
-        "factId": "F9",
-        "sourceId": "S1",
-        "sourceRole": "CORROBORATION",
-        "score": 56
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F9",
-          "sourceId": "S1",
-          "sourceRole": "CORROBORATION",
-          "score": 56,
-          "passageIndex": 6
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "Mistral's ability to maintain a run rate exceeding $400M while targeting $1B in revenue suggests it is successfully capturing market share from both proprietary incumbents and smaller open-source players.",
-      "bestPassage": "Mistral's ability to maintain a run rate exceeding $400M while targeting $1B in revenue suggests it is successfully capturing market share from both proprietary incumbents and smaller open-source players.",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P9"
-      ],
-      "sharedTerms": [
-        "mistral",
-        "ability",
-        "maintain",
-        "run",
-        "rate",
-        "cost",
-        "question"
-      ],
-      "entityShared": [
-        "mistral"
-      ],
-      "topicShared": [
-        "mistral"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 12,
-      "claim": "The company’s open‑weight commitment could be challenged if scaling further requires additional investment that strains resources.",
-      "status": "partial",
-      "classification": "supported_with_context",
-      "confidence": 54,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Mistral Large 4 Doesn’t Just Compete With Chinese Open-Weights – It Undercuts the Entire Proprietary Pricing Floor - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/mistral-large-4-doesn-t-155055704.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "CORROBORATION",
-      "coreFactMatch": {
-        "factId": "F10",
-        "sourceId": "S1",
-        "sourceRole": "CORROBORATION",
-        "score": 32
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F10",
-          "sourceId": "S1",
-          "sourceRole": "CORROBORATION",
-          "score": 32,
-          "passageIndex": 7
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "The question is whether Mistral can sustain this trajectory without compromising its open-weight commitment.",
-      "bestPassage": "The question is whether Mistral can sustain this trajectory without compromising its open-weight commitment.",
-      "matchedPassages": [
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "the",
-        "open",
-        "weight",
-        "commitment",
-        "challeng",
-        "invest"
-      ],
-      "entityShared": [],
-      "topicShared": [
-        "open"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": true,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 3,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 13,
-      "claim": "The question remains whether Mistral can continue this trajectory without compromising its open‑weight promise.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 83,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Mistral Large 4 Doesn’t Just Compete With Chinese Open-Weights – It Undercuts the Entire Proprietary Pricing Floor - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/mistral-large-4-doesn-t-155055704.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "CORROBORATION",
-      "coreFactMatch": {
-        "factId": "F10",
-        "sourceId": "S1",
-        "sourceRole": "CORROBORATION",
-        "score": 83
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F10",
-          "sourceId": "S1",
-          "sourceRole": "CORROBORATION",
-          "score": 83,
-          "passageIndex": 7
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-P10",
-      "evidence": "The question is whether Mistral can sustain this trajectory without compromising its open-weight commitment.",
-      "bestPassage": "The question is whether Mistral can sustain this trajectory without compromising its open-weight commitment.",
-      "matchedPassages": [
-        "S1-P10",
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "the",
-        "question",
-        "whether",
-        "mistral",
-        "can",
-        "trajectory",
-        "without",
-        "compromis",
-        "its",
-        "open",
-        "weight"
-      ],
-      "entityShared": [
-        "mistral"
-      ],
-      "topicShared": [
-        "mistral",
-        "open"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": true,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 15,
-      "claim": "First, the performance of ML4 once benchmark results are published will determine whether the model can truly be best‑in‑class among open‑weight systems.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 73,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
-      "bestUrl": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-      "bestDomain": "techcrunch.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F18",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 65
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F18",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 65,
-          "passageIndex": 6
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "With benchmark results still pending, Mistral hopes ML4 will be best in class among open-weight models, especially outside of China, but not only, Stock said.",
-      "bestPassage": "With benchmark results still pending, Mistral hopes ML4 will be best in class among open-weight models, especially outside of China, but not only, Stock said.",
-      "matchedPassages": [
-        "S2-BODY",
-        "S2-P8"
-      ],
-      "sharedTerms": [
-        "the",
-        "ml4",
-        "benchmark",
-        "result",
-        "are",
-        "models",
-        "can",
-        "best",
-        "clas",
-        "among",
-        "open",
-        "weight"
-      ],
-      "entityShared": [
-        "ml4"
-      ],
-      "topicShared": [
-        "models",
-        "open"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": true,
-        "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 16,
-      "claim": "Second, the timing and conditions of the public release of weights on October 27 will reveal how Mistral balances openness with security.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 67,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Mistral Large 4 Doesn’t Just Compete With Chinese Open-Weights – It Undercuts the Entire Proprietary Pricing Floor - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/mistral-large-4-doesn-t-155055704.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "CORROBORATION",
-      "coreFactMatch": {
-        "factId": "F7",
-        "sourceId": "S1",
-        "sourceRole": "CORROBORATION",
-        "score": 48
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F7",
-          "sourceId": "S1",
-          "sourceRole": "CORROBORATION",
-          "score": 48,
-          "passageIndex": 2
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "The weights for ML4 are scheduled for public release on October 27, 2026, according to Reuters.",
-      "bestPassage": "The weights for ML4 are scheduled for public release on October 27, 2026, according to Reuters.",
-      "matchedPassages": [
-        "S1-BODY",
-        "S1-P7"
-      ],
-      "sharedTerms": [
-        "the",
-        "and",
-        "public",
-        "release",
-        "weight",
-        "october",
-        "mistral"
-      ],
-      "entityShared": [
-        "october",
-        "mistral"
-      ],
-      "topicShared": [
-        "and",
-        "mistral"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 17,
-      "claim": "Mistral’s ML4 launch demonstrates that a large multimodal model can be built with fewer GPUs and at a fraction of the cost of existing proprietary systems.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 71,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
-      "bestUrl": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-      "bestDomain": "techcrunch.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F12",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 48
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F12",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 48,
-          "passageIndex": 1
-        },
-        {
-          "factId": "F16",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 46,
-          "passageIndex": 5
-        },
-        {
-          "factId": "F13",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 42,
-          "passageIndex": 2
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-FF12,S2-FF16,S2-FF13",
-      "evidence": "On Tuesday, French AI lab Mistral AI released Mistral Large 4 (ML4), a new large multimodal model aiming to leapfrog both American and Chinese rivals — following what French president Macron described as “a third way in AI.” Another important behind-the-scenes aspect is that ML4 was trained entirely on Mistral’s compute; using only 4,000 Nvidia GPUs “which is two to three times less than our Chinese competitors, and significantly less than the closed source competitors,” Stock said. Amid a growing divide between closed models that can be unplugged and open models that are often made in China, Mistral is positioning ML4 as an alternative to both.",
-      "bestPassage": "On Tuesday, French AI lab Mistral AI released Mistral Large 4 (ML4), a new large multimodal model aiming to leapfrog both American and Chinese rivals — following what French president Macron described as “a third way in AI.” Another important behind-the-scenes aspect is that ML4 was trained entirely on Mistral’s compute; using only 4,000 Nvidia GPUs “which is two to three times less than our Chinese competitors, and significantly less than the closed source competitors,” Stock said. Amid a growing divide between closed models that can be unplugged and open models that are often made in China, Mistral is positioning ML4 as an alternative to both.",
+      "bestPassageId": "S2-FF14,S2-FF10",
+      "evidence": "Atkins is saying the SEC will only sanction the second kind. Speaking in Washington on September 29, he said : “Even though the CLARITY Act failed in Congress to be enacted, we are proceeding to provide clarity to the marketplace as far as how to raise money on chain.” He described a proposed rule already out and a second track covering how tokenized securities trade.",
+      "bestPassage": "Atkins is saying the SEC will only sanction the second kind. Speaking in Washington on September 29, he said : “Even though the CLARITY Act failed in Congress to be enacted, we are proceeding to provide clarity to the marketplace as far as how to raise money on chain.” He described a proposed rule already out and a second track covering how tokenized securities trade.",
       "matchedPassages": [
         "S2-BODY"
       ],
       "sharedTerms": [
-        "mistral",
-        "ml4",
-        "large",
-        "multimodal",
-        "models",
-        "can",
-        "gpus",
-        "and",
-        "the"
+        "the",
+        "sec",
+        "sanction",
+        "second",
+        "kind",
+        "rule",
+        "cover",
+        "tokeniz",
+        "securiti",
+        "trade",
+        "atkin"
       ],
       "entityShared": [
-        "mistral",
-        "ml4",
-        "gpus"
+        "sec",
+        "atkin"
       ],
-      "topicShared": [
-        "mistral",
-        "models",
-        "and"
-      ],
+      "topicShared": [],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
       "scopeWarnings": [],
       "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": true,
+        "evidenceUncertain": false,
+        "claimUncertain": false,
         "evidenceAttributed": true,
-        "claimAttributed": false,
+        "claimAttributed": true,
         "certaintyEscalation": false,
         "attributionDropped": false,
         "blocked": false
-      },
-      "factCoverage": 3,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
-    },
-    {
-      "index": 19,
-      "claim": "However, the company’s future will hinge on its ability to keep costs low while maintaining open‑weight commitments and delivering competitive performance.",
-      "status": "partial",
-      "classification": "supported_with_context",
-      "confidence": 66,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Mistral Large 4 Doesn’t Just Compete With Chinese Open-Weights – It Undercuts the Entire Proprietary Pricing Floor - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/technology/ai/articles/mistral-large-4-doesn-t-155055704.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "CORROBORATION",
-      "coreFactMatch": {
-        "factId": "F6",
-        "sourceId": "S1",
-        "sourceRole": "CORROBORATION",
-        "score": 40
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F6",
-          "sourceId": "S1",
-          "sourceRole": "CORROBORATION",
-          "score": 40,
-          "passageIndex": 2
-        },
-        {
-          "factId": "F10",
-          "sourceId": "S1",
-          "sourceRole": "CORROBORATION",
-          "score": 35,
-          "passageIndex": 7
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "The model, a 1.05 trillion-parameter system utilizing a Mixture of Experts architecture with 49 billion active parameters and a 1.6 billion vision encoder, represents the company's latest attempt to scale its infrastructure while maintaining a competitive edge in the frontier model market. The question is whether Mistral can sustain this trajectory without compromising its open-weight commitment.",
-      "bestPassage": "The model, a 1.05 trillion-parameter system utilizing a Mixture of Experts architecture with 49 billion active parameters and a 1.6 billion vision encoder, represents the company's latest attempt to scale its infrastructure while maintaining a competitive edge in the frontier model market. The question is whether Mistral can sustain this trajectory without compromising its open-weight commitment.",
-      "matchedPassages": [
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "the",
-        "its",
-        "ability",
-        "cost",
-        "maintain",
-        "open",
-        "weight",
-        "commitment",
-        "and",
-        "competitive"
-      ],
-      "entityShared": [],
-      "topicShared": [
-        "open",
-        "and"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": true,
-        "attributionDropped": false,
-        "blocked": true
       },
       "factCoverage": 2,
       "multiFactSupported": true,
       "directFactExact": false,
       "directExact": false,
       "matchingMode": "fact-map-multi-fact-anchored"
+    },
+    {
+      "index": 7,
+      "claim": "Smith, who leads the Solana Policy Institute, is a prominent voice in crypto policy circles.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 78,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Crypto Is Winning in Washington Despite Clarity Act Failure, Says Policy Chief - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/crypto-winning-washington-despite-clarity-014510880.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F4",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 75
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F4",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 75,
+          "passageIndex": 4
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-P4",
+      "evidence": "Smith leads the Solana Policy Institute, a crypto policy group.",
+      "bestPassage": "Smith leads the Solana Policy Institute, a crypto policy group.",
+      "matchedPassages": [
+        "S1-P4",
+        "S1-BODY"
+      ],
+      "sharedTerms": [
+        "smith",
+        "lead",
+        "the",
+        "solana",
+        "policy",
+        "institute",
+        "crypto"
+      ],
+      "entityShared": [
+        "smith",
+        "solana",
+        "policy",
+        "institute"
+      ],
+      "topicShared": [
+        "policy",
+        "crypto"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 8,
+      "claim": "Matt Hougan, Chief Investment Officer at Bitwise, conceded that crypto’s gains depend on agencies.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 100,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Crypto Is Winning in Washington Despite Clarity Act Failure, Says Policy Chief - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/crypto-winning-washington-despite-clarity-014510880.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F3",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 100
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F3",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 100,
+          "passageIndex": 12
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-P3",
+      "evidence": "In contrast, Bitwise Chief Investment Officer Matt Hougan concedes crypto's gains depend on agencies.",
+      "bestPassage": "In contrast, Bitwise Chief Investment Officer Matt Hougan concedes crypto's gains depend on agencies.",
+      "matchedPassages": [
+        "S1-P3",
+        "S1-BODY"
+      ],
+      "sharedTerms": [
+        "matt",
+        "hougan",
+        "chief",
+        "invest",
+        "officer",
+        "bitwise",
+        "conced",
+        "crypto",
+        "rise",
+        "depend",
+        "agenci"
+      ],
+      "entityShared": [
+        "matt",
+        "hougan",
+        "chief",
+        "invest",
+        "officer",
+        "bitwise"
+      ],
+      "topicShared": [
+        "chief",
+        "crypto"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
     }
   ],
   "editorial": [
     {
-      "index": 14,
-      "claim": "Industry observers should monitor several developments.",
-      "type": "editorial-recommendation",
+      "index": 9,
+      "claim": "The SEC’s decision signals that U.S. regulators will continue to shape the legal environment for tokenized assets despite the legislative setback.",
+      "type": "editorial-analysis",
       "status": "editorial-excluded"
     },
     {
-      "index": 18,
-      "claim": "By redefining the pricing baseline, the model challenges both American and Chinese competitors and signals a potential shift toward more accessible AI infrastructure.",
+      "index": 10,
+      "claim": "The SEC’s commitment to the second track suggests that detailed guidance on tokenized equity and other on‑chain fundraising mechanisms will arrive in the near future.",
       "type": "editorial-analysis",
+      "status": "editorial-excluded"
+    },
+    {
+      "index": 11,
+      "claim": "Stakeholders should monitor upcoming SEC releases for further clarification and guidance.",
+      "type": "editorial-recommendation",
       "status": "editorial-excluded"
     }
   ]

@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
-  "mode": "bounded",
+  "title": "Crypto Is Winning in Washington Despite Clarity Act Failure, Says Policy Chief - Yahoo Finance",
+  "mode": "narrow",
   "wordBudget": {
-    "min": 425,
-    "max": 750,
-    "soft": 588
+    "min": 231,
+    "max": 420,
+    "soft": 326
   },
   "h2Budget": {
-    "preferredMin": 2,
-    "preferredMax": 3
+    "preferredMin": 1,
+    "preferredMax": 2
   },
-  "atomicClaimBudget": 18,
+  "atomicClaimBudget": 14,
   "allowedFactIds": [
     "F1",
     "F2",
@@ -26,16 +26,11 @@
     "F11",
     "F12",
     "F13",
-    "F14",
-    "F15",
-    "F16",
-    "F17",
-    "F18",
-    "F20"
+    "F14"
   ],
   "synthesis": {
     "allowed": true,
-    "maxWords": 100,
+    "maxWords": 88,
     "maxStatements": 3,
     "allowedFactIds": [
       "F1",
@@ -51,12 +46,7 @@
       "F11",
       "F12",
       "F13",
-      "F14",
-      "F15",
-      "F16",
-      "F17",
-      "F18",
-      "F20"
+      "F14"
     ]
   },
   "rules": {
@@ -65,7 +55,7 @@
     "newEntitiesInSynthesis": false,
     "newCausalityInSynthesis": false
   },
-  "generatedAt": "2026-10-06T22:03:50.848Z",
-  "articleTitle": "Mistral’s 1‑Trillion‑Parameter Model Undercuts Proprietary Pricing and Challenges China",
-  "articleSlug": "mistral-s-1-trillion-parameter-model-undercuts-proprietary-pricing-and-challenges-china"
+  "generatedAt": "2026-10-07T03:19:09.233Z",
+  "articleTitle": "SEC Moves Forward with Tokenization Rules After CLARITY Act Stalls",
+  "articleSlug": "sec-moves-forward-with-tokenization-rules-after-clarity-act-stalls"
 }
