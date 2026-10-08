@@ -54,3 +54,13 @@ No production code was changed during this inspection.
 - Selected **Prompt Optimizer** as the first Phase 1 tool for **design**, not implementation.
 - Prompt Optimizer was selected because its zero-cost core can be browser-only, deterministic and low-risk.
 - No production Tool UI was added.
+
+
+## 2026-10-08 — Prompt Optimizer design gate
+
+- Created `docs/tools/PROMPT_OPTIMIZER_SPEC.md`.
+- Defined deterministic browser-only analysis and rewrite behavior.
+- Explicitly excluded model APIs, backend processing, persistence and third-party transmission.
+- Defined UX, privacy, quality and test requirements.
+- Added a mandatory publishing-pipeline isolation test before the tool can enter Building.
+- Status remains Designing; no production Tool code added.
