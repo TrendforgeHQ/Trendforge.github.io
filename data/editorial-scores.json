@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-08T03:36:07.132Z",
+  "generatedAt": "2026-10-08T16:14:30.514Z",
   "status": "pass",
-  "currentGeneratedArticle": "microsoft-expands-copilot-s-reach-into-windows-and-local-files",
-  "currentScore": 90,
+  "currentGeneratedArticle": null,
+  "currentScore": null,
   "identity": {
     "method": "brief.title",
     "rejectedMarker": false
@@ -44,6 +44,24 @@
         "usefulness": 95,
         "clarity": 100,
         "originality": 100,
+        "sourceStrength": 41
+      },
+      "reasons": [
+        "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
+      ]
+    },
+    {
+      "slug": "ai-stocks-near-4-trillion-milestone-one-might-join-the-5-trillion-club-by-2026",
+      "title": "AI Stocks Near $4 Trillion Milestone: One Might Join the $5 Trillion Club by 2026",
+      "category": "AI",
+      "score": 77,
+      "decision": "review",
+      "dimensions": {
+        "evidence": 75,
+        "usefulness": 84,
+        "clarity": 100,
+        "originality": 88,
         "sourceStrength": 41
       },
       "reasons": [
@@ -417,13 +435,13 @@
       "slug": "jim-cramer-recommends-two-ai-stocks-that-have-risen-over-1-400-since-2023",
       "title": "Jim Cramer Recommends Two AI Stocks That Have Risen Over 1,400% Since 2023",
       "category": "AI",
-      "score": 83,
+      "score": 80,
       "decision": "publish_ready",
       "dimensions": {
         "evidence": 75,
         "usefulness": 95,
         "clarity": 100,
-        "originality": 100,
+        "originality": 83,
         "sourceStrength": 50
       },
       "reasons": [
@@ -509,16 +527,19 @@
       "slug": "microsoft-expands-copilot-s-reach-into-windows-and-local-files",
       "title": "Microsoft Expands Copilot’s Reach into Windows and Local Files",
       "category": "Digital Life",
-      "score": 90,
-      "decision": "publish_candidate",
+      "score": 81,
+      "decision": "publish_ready",
       "dimensions": {
-        "evidence": 80,
+        "evidence": 75,
         "usefulness": 97,
         "clarity": 100,
         "originality": 86,
-        "sourceStrength": 90
+        "sourceStrength": 50
       },
-      "reasons": []
+      "reasons": [
+        "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
+      ]
     },
     {
       "slug": "microsoft-eyes-10-b-investment-in-middle-east-tech-ai-and-digital-resilience",

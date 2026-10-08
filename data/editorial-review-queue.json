@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-08T03:36:07.132Z",
+  "generatedAt": "2026-10-08T16:14:30.515Z",
   "queue": [
     {
       "slug": "how-to-move-passwords-and-passkeys-between-managers-on-android",
@@ -194,6 +194,24 @@
         "usefulness": 97,
         "clarity": 100,
         "originality": 80,
+        "sourceStrength": 41
+      },
+      "reasons": [
+        "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
+      ]
+    },
+    {
+      "slug": "ai-stocks-near-4-trillion-milestone-one-might-join-the-5-trillion-club-by-2026",
+      "title": "AI Stocks Near $4 Trillion Milestone: One Might Join the $5 Trillion Club by 2026",
+      "category": "AI",
+      "score": 77,
+      "decision": "review",
+      "dimensions": {
+        "evidence": 75,
+        "usefulness": 84,
+        "clarity": 100,
+        "originality": 88,
         "sourceStrength": 41
       },
       "reasons": [

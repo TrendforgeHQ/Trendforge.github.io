@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-08T03:36:17.644Z",
+  "generatedAt": "2026-10-08T16:14:39.280Z",
   "model": "@cf/black-forest-labs/flux-1-schnell",
   "width": 1024,
   "height": 576,
@@ -9,70 +9,64 @@
   "skipped": 0,
   "failed": 0,
   "images": {
-    "microsoft-expands-copilot-s-reach-into-windows-and-local-files": {
+    "ai-stocks-near-4-trillion-milestone-one-might-join-the-5-trillion-club-by-2026": {
       "status": "generated",
-      "image": "/Trendforge/images/articles/microsoft-expands-copilot-s-reach-into-windows-and-local-files.1024x576.png",
+      "image": "/Trendforge/images/articles/ai-stocks-near-4-trillion-milestone-one-might-join-the-5-trillion-club-by-2026.1024x576.png",
       "generatedBy": "@cf/black-forest-labs/flux-1-schnell",
       "width": 1024,
       "height": 576,
       "steps": 4,
-      "elapsedMs": 6598,
-      "bytes": 502855,
+      "elapsedMs": 1780,
+      "bytes": 706134,
       "visualBrief": {
         "version": 2,
-        "mode": "conceptual-editorial",
-        "primarySubject": "the specific policy, governance, market, or industry action described by the story, specifically tied to microsoft, expands, copilot, reach",
-        "scene": "A sophisticated editorial photo-illustration or carefully staged metaphor that makes the specific central idea immediately understandable without relying on generic AI symbols.",
+        "mode": "editorial-photography",
+        "primarySubject": "the most concrete physical subject, event, organization, or action explicitly described by the story, centered on stocks, near, trillion, milestone",
+        "scene": "A commissioned technology-publication photograph of that concrete subject or event, not a category-level representation.",
         "supportingElements": [
-          "at most one concrete metaphorical object or environmental cue tied directly to the story"
+          "only contextual elements that directly explain the story"
         ],
-        "composition": "One strong metaphor or visual action, restrained editorial treatment, clear hierarchy, no collage of unrelated symbols.",
-        "company": "Microsoft",
-        "namedPerson": "Hybrid Intelligence",
-        "category": "Digital Life",
+        "composition": "One hero subject with one or two supporting elements, natural editorial lighting and strong negative space.",
+        "company": null,
+        "namedPerson": null,
+        "category": "AI",
         "storyAnchors": [
-          "microsoft",
-          "expands",
-          "copilot",
-          "reach",
-          "into",
-          "windows",
-          "local",
-          "files"
+          "stocks",
+          "near",
+          "trillion",
+          "milestone",
+          "might",
+          "join",
+          "club",
+          "2026"
         ],
         "avoid": [
           "generic office imagery",
           "random tablet or laptop",
           "generic futuristic technology",
           "glowing holograms, floating code, HUDs and neon sci-fi effects",
-          "prominent readable text or fake headlines",
-          "generic AI brain",
-          "random server rack",
-          "generic circuit board",
-          "stock-looking technology montage"
+          "prominent readable text or fake headlines"
         ]
       },
       "relevance": {
         "passed": true,
         "anchors": [
-          "microsoft",
-          "expands",
-          "copilot",
-          "reach",
-          "into",
-          "windows",
-          "local",
-          "files"
+          "stocks",
+          "near",
+          "trillion",
+          "milestone",
+          "might",
+          "join",
+          "club",
+          "2026"
         ],
         "matchedAnchors": [
-          "microsoft",
-          "expands",
-          "copilot",
-          "reach"
+          "stocks",
+          "near",
+          "trillion",
+          "milestone"
         ],
-        "entityMatches": [
-          "microsoft"
-        ],
+        "entityMatches": [],
         "score": 0.5
       },
       "promptLength": 1900

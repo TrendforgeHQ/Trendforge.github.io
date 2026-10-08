@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "title": "Microsoft is giving Copilot more control over Windows and your files",
-  "mode": "bounded",
+  "title": "1 Unstoppable Artificial Intelligence (AI) Stock to Buy Before It Joins Nvidia in the $5 Trillion Club - The Motley Fool",
+  "mode": "narrow",
   "wordBudget": {
-    "min": 425,
-    "max": 750,
-    "soft": 588
+    "min": 231,
+    "max": 420,
+    "soft": 326
   },
   "h2Budget": {
-    "preferredMin": 2,
-    "preferredMax": 4
+    "preferredMin": 1,
+    "preferredMax": 2
   },
   "atomicClaimBudget": 18,
   "allowedFactIds": [
@@ -38,13 +38,7 @@
     "F23",
     "F24",
     "F25",
-    "F26",
-    "F27",
-    "F28",
-    "F29",
-    "F30",
-    "F31",
-    "F32"
+    "F26"
   ],
   "synthesis": {
     "allowed": true,
@@ -76,13 +70,7 @@
       "F23",
       "F24",
       "F25",
-      "F26",
-      "F27",
-      "F28",
-      "F29",
-      "F30",
-      "F31",
-      "F32"
+      "F26"
     ]
   },
   "rules": {
@@ -91,7 +79,7 @@
     "newEntitiesInSynthesis": false,
     "newCausalityInSynthesis": false
   },
-  "generatedAt": "2026-10-08T03:35:39.940Z",
-  "articleTitle": "Microsoft Expands Copilot’s Reach into Windows and Local Files",
-  "articleSlug": "microsoft-expands-copilot-s-reach-into-windows-and-local-files"
+  "generatedAt": "2026-10-08T16:14:23.569Z",
+  "articleTitle": "AI Stocks Near $4 Trillion Milestone: One Might Join the $5 Trillion Club by 2026",
+  "articleSlug": "ai-stocks-near-4-trillion-milestone-one-might-join-the-5-trillion-club-by-2026"
 }

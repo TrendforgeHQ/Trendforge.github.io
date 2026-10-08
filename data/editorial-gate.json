@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T03:35:39.940Z",
+  "generatedAt": "2026-10-08T16:14:23.568Z",
   "provider": "Groq",
   "editorial": {
     "passed": true,
@@ -22,8 +22,8 @@
       "noHighSimilaritySource": true
     },
     "metrics": {
-      "normalizedLength": 3099,
-      "sentenceCount": 21,
+      "normalizedLength": 2186,
+      "sentenceCount": 14,
       "maxSourceSimilarity": 0,
       "maxCommonPhrase": 0
     }
@@ -31,15 +31,13 @@
   "semanticDuplicateCheck": "passed",
   "sourceRelationshipCheck": "passed",
   "verifiedEvidenceDomains": [
-    "microsoft.com",
-    "theverge.com",
-    "cryptobriefing.com",
-    "newsbytesapp.com"
+    "finance.yahoo.com",
+    "fool.com"
   ],
   "primarySourceCount": 0,
   "grounding": {
-    "sourceCount": 4,
-    "usablePassages": 32,
+    "sourceCount": 2,
+    "usablePassages": 26,
     "primarySourceCount": 0
   }
 }

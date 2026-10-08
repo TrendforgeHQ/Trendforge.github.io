@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-08T03:36:03.003Z",
-  "runId": "37723067371",
-  "articlePath": "content/articles/microsoft-expands-copilot-s-reach-into-windows-and-local-files.md",
+  "generatedAt": "2026-10-08T16:14:25.593Z",
+  "runId": "37806485551",
+  "articlePath": "content/articles/ai-stocks-near-4-trillion-milestone-one-might-join-the-5-trillion-club-by-2026.md",
   "provider": "Groq",
-  "previousTitle": "Microsoft Expands Copilot’s Reach into Windows and Local Files",
-  "newTitle": "Microsoft Expands Copilot’s Reach into Windows and Local Files",
-  "briefTitle": "Microsoft is giving Copilot more control over Windows and your files",
-  "evidenceClaims": 20,
+  "previousTitle": "AI Stocks Near $4 Trillion Milestone: One Might Join the $5 Trillion Club by 2026",
+  "newTitle": "AI Stocks Near $4 Trillion Milestone: One Might Join the $5 Trillion Club by 2026",
+  "briefTitle": "1 Unstoppable Artificial Intelligence (AI) Stock to Buy Before It Joins Nvidia in the $5 Trillion Club - The Motley Fool",
+  "evidenceClaims": 12,
   "failedClaims": 3,
-  "evidenceChars": 3250,
+  "evidenceChars": 2801,
   "mode": "atomic-sentence-repair-v12-primary-fingerprint-rewrite-narrow-delete-isolated-recovery",
   "repairOrder": [
     "rewrite",
@@ -20,13 +20,13 @@
   "recoveryWaitMs": 15000,
   "providerAttempts": 4,
   "appliedRepairs": 3,
-  "rewriteOrNarrowRepairs": 0,
-  "deletedSentences": 3,
+  "rewriteOrNarrowRepairs": 3,
+  "deletedSentences": 0,
   "wordCountValidation": {
-    "before": 483,
-    "after": 430,
-    "minimum": 425,
-    "depthMode": "bounded",
+    "before": 328,
+    "after": 313,
+    "minimum": 231,
+    "depthMode": "narrow",
     "preservedFloor": true
   }
 }
