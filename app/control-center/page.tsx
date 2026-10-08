@@ -77,7 +77,7 @@ export default function ControlCenterPage() {
         <Status name="Claim Verification" state={claimState} help={claims.claimCount ? `${fmt(claims.verified,'0')} verified • ${fmt(claims.unsupported,'0')} unsupported • avg ${fmt(claims.averageConfidence,'—')}` : 'No claim snapshot available'} />
         <Status name="Editorial Quality" state={editorial.status === 'pass' ? 'good' : editorial.status ? 'watch' : 'unknown'} help={editorial.articleCount ? `${fmt(editorial.articleCount,'0')} articles • avg score ${fmt(editorial.averageScore,'—')}` : 'No editorial snapshot available'} />
         <Status name="Supervisor" state={health === 'healthy' ? 'good' : health === 'attention' || health === 'watch' ? 'watch' : 'unknown'} help={`${bottlenecks.length} bottleneck(s) detected`} />
-        <Status name="Security & Reliability" state={securityState} help={Security telemetry is not part of the committed static snapshot.} />
+        <Status name="Security & Reliability" state={securityState} help="Security telemetry is not part of the committed static snapshot." />
         <Status name="Audit Trail" state={auditState} help={auditEvents ? `${auditEvents} audit event(s) retained.` : 'Audit snapshot not available in this build.'} />
       </div>
     </Section>
@@ -120,7 +120,7 @@ export default function ControlCenterPage() {
     </div>
 
     <Section eyebrow="09 • SECURITY" title="Security & Reliability" help="Operational health is shown separately from content quality.">
-      <div className="cc-security-grid"><div><b>{security?.passed === true ? 'PASS' : security?.passed === false ? 'ATTENTION' : 'UNKNOWN'}</b><span>Security snapshot</span></div><div><b>{fmt(security?.checksPassed ?? security?.passedChecks,'—')}</b><span>checks passed</span></div><div><b>{fmt(security?.build,'—')}</b><span>build status</span></div><div><b>{fmt(security?.staticOutputs,'—')}</b><span>static outputs</span></div></div>
+      <div className="cc-security-grid"><div><b>UNKNOWN</b><span>Security snapshot</span></div><div><b>—</b><span>checks passed</span></div><div><b>{fmt(performance?.metrics?.articleCount,'—')}</b><span>articles analysed</span></div><div><b>{fmt(performance?.metrics?.runCount,'—')}</b><span>runs analysed</span></div></div>
     </Section>
 
     <div className="cc-two">
