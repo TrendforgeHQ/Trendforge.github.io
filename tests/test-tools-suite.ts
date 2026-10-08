@@ -119,7 +119,7 @@ const forbidden = [
   "image-generation",
   "publication",
 ];
-const toolFiles = [];
+const toolFiles: string[] = [];
 function walk(dir: string) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const full = path.join(dir, entry.name);
