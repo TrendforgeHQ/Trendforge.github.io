@@ -16,7 +16,7 @@ export default function OptimizePage() {
   const reports = articles.map((article) => ({ article, report: optimizeArticle(article) }));
   return <><style dangerouslySetInnerHTML={{ __html: styles }} /><main className="optimizer-page">
     <header className="optimizer-header">
-      <a href="/Trendforge/">← TrendForge</a>
+      <a href="/">← TrendForge</a>
       <div className="eyebrow">Owner tool · automated analysis</div>
       <h1>Content optimization <span>engine.</span></h1>
       <p>Review every published article against the same measurable rules. The engine flags title, description, depth, structure, evidence and topic-coverage opportunities without changing article copy automatically.</p>
