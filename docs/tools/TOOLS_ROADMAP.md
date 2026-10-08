@@ -136,3 +136,19 @@ Validation still required before marking the batch Ready/Live:
 - manual UX review;
 - SEO/privacy review;
 - documentation/project-state review.
+
+
+## 2026-10-08 — Phase 3 implementation batch
+
+Phase 3 is now **BUILDING — first-wave suite implemented; validation pending**.
+
+Implemented all eight planned first-wave calculators in one batch. The SaaS category is now linked from the Tools hub and has its own landing page. No publishing workflow changes were made.
+
+Validation still required before marking the batch Ready/Live:
+- focused tests;
+- publishing-pipeline isolation check;
+- production build;
+- manual functional review;
+- SEO/privacy review;
+- regression check;
+- documentation/project-state review.
