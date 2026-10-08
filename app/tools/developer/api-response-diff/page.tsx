@@ -1,0 +1,1 @@
+import {DeveloperTool} from "../DeveloperTool"; export const metadata={title:"API Response Diff | TrendForge",description:"API Response Diff — browser-first developer utility from TrendForge.",alternates:{canonical:"/tools/developer/api-response-diff/"}}; export default function Page(){return <DeveloperTool kind="diff" />;}

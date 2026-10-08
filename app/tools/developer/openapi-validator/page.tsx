@@ -1,0 +1,1 @@
+import {DeveloperTool} from "../DeveloperTool"; export const metadata={title:"OpenAPI Validator | TrendForge",description:"OpenAPI Validator — browser-first developer utility from TrendForge.",alternates:{canonical:"/tools/developer/openapi-validator/"}}; export default function Page(){return <DeveloperTool kind="openapi" />;}

@@ -1,0 +1,1 @@
+import {DeveloperTool} from "../DeveloperTool"; export const metadata={title:"HTTP Headers Analyzer | TrendForge",description:"HTTP Headers Analyzer — browser-first developer utility from TrendForge.",alternates:{canonical:"/tools/developer/http-headers-analyzer/"}}; export default function Page(){return <DeveloperTool kind="headers" />;}

@@ -1,0 +1,1 @@
+import {DeveloperTool} from "../DeveloperTool"; export const metadata={title:"JWT Inspector | TrendForge",description:"JWT Inspector — browser-first developer utility from TrendForge.",alternates:{canonical:"/tools/developer/jwt-inspector/"}}; export default function Page(){return <DeveloperTool kind="jwt" />;}

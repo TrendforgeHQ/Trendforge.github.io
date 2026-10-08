@@ -1,0 +1,1 @@
+import {DeveloperTool} from "../DeveloperTool"; export const metadata={title:"cURL → Code | TrendForge",description:"cURL → Code — browser-first developer utility from TrendForge.",alternates:{canonical:"/tools/developer/curl-to-code/"}}; export default function Page(){return <DeveloperTool kind="curl" />;}

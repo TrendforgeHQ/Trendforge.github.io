@@ -1,0 +1,1 @@
+import {DeveloperTool} from "../DeveloperTool"; export const metadata={title:"Regex Playground | TrendForge",description:"Regex Playground — browser-first developer utility from TrendForge.",alternates:{canonical:"/tools/developer/regex-playground/"}}; export default function Page(){return <DeveloperTool kind="regex" />;}

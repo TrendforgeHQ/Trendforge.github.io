@@ -1,0 +1,1 @@
+import {DeveloperTool} from "../DeveloperTool"; export const metadata={title:"JSON → TypeScript | TrendForge",description:"JSON → TypeScript — browser-first developer utility from TrendForge.",alternates:{canonical:"/tools/developer/json-to-typescript/"}}; export default function Page(){return <DeveloperTool kind="json-ts" />;}

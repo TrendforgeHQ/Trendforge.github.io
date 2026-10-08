@@ -1,0 +1,1 @@
+import {DeveloperTool} from "../DeveloperTool"; export const metadata={title:"Webhook Tester | TrendForge",description:"Webhook Tester — browser-first developer utility from TrendForge.",alternates:{canonical:"/tools/developer/webhook-tester/"}}; export default function Page(){return <DeveloperTool kind="webhook" />;}
