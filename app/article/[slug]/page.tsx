@@ -10,7 +10,7 @@ import FeedbackWidget from '@/app/components/FeedbackWidget';
 import CommentsWidget from '@/app/components/CommentsWidget';
 import RelatedStories from './RelatedStories';
 
-const basePath = '/Trendforge';
+const basePath = '';
 type ArticleParams = Promise<{ slug: string }>;
 
 export function generateStaticParams(){ return articles.map(a=>({slug:a.slug})); }
