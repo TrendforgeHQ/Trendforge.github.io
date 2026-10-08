@@ -20,6 +20,19 @@ Status: IN PROGRESS
 
 No production tools have been added yet.
 
+## Verified existing-site baseline
+
+Inspected the current `main` branch before tool implementation:
+- Next.js static export (`output: 'export'`).
+- Root GitHub Pages deployment uses an empty `basePath` by default.
+- Canonical site URL is `https://trendforgehq.github.io`.
+- Existing global layout is the main integration point for site-wide UI/metadata.
+- Existing homepage navigation is currently defined directly in `app/page.tsx`.
+- Existing Pages deployment builds and validates the static `out/` artifact.
+- Existing deployment workflow also runs on selected successful upstream workflow completions; tool work must not introduce additional expensive triggers.
+
+These findings are recorded as architecture inputs only. No production code was changed during Phase 0.
+
 ## Current repository
 
 - Repository: `TrendforgeHQ/Trendforgehq.github.io`
@@ -67,4 +80,4 @@ The Tools work must remain isolated from TrendForge's article-generation/publish
 
 ## Next step
 
-Complete Phase 0 documentation, then select the first tool using the criteria in `TOOLS_ROADMAP.md`.
+Complete Phase 0 documentation and architecture review, then select the first tool using the criteria in `TOOLS_ROADMAP.md`.
