@@ -114,3 +114,15 @@ Design specification created at `docs/tools/PROMPT_OPTIMIZER_SPEC.md`. Status re
 ## Prompt Optimizer MVP implementation
 
 Implemented on `feat/prompt-optimizer-mvp`: browser-only deterministic optimizer engine, isolated route/UI, focused tests, and a publishing-pipeline isolation guard. No workflow files or editorial pipeline code were changed. The tool remains isolated and is not yet marked Ready.
+
+
+## Verification gate — 2026-10-08
+
+- Clean branch checkout verified with `npm install`.
+- Prompt Optimizer tests: **PASS**.
+- Publishing-pipeline isolation guard: **PASS**.
+- Production `next build`: **PASS**.
+- Static export generated successfully, including `/tools/ai/prompt-optimizer`.
+- Build emitted existing Autoprefixer warnings in `RelatedStories.module.css` and `globals.css`; these are pre-existing site styling warnings and are unrelated to the Tool implementation.
+- No workflow files were changed by the Tool branch.
+- Status remains **Building** pending UI/SEO review and final PR review.
