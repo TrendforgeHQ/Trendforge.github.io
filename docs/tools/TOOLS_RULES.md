@@ -96,3 +96,20 @@ Track:
 ## Rule 16 — No phase skipping
 
 Do not start later phases while required Phase 0 documentation and gates are incomplete.
+
+## Rule 17 — Hard publishing-pipeline firewall
+
+The Tools ecosystem has **no connection** to the editorial publishing pipeline.
+
+Tools must NOT:
+- import article-generation, evidence, claim-verification, writer, image-generation, provider-routing, repair, or publication modules;
+- call editorial scripts or workflows;
+- modify editorial workflow triggers;
+- add `workflow_run`, scheduled, repository-dispatch, or other triggers that can start publishing work;
+- consume article-generation/provider quotas;
+- depend on article-generation artifacts to function;
+- make tool usage capable of starting or re-running publication workflows.
+
+Article publishing must continue to work if the entire Tools area is removed. Tools must continue to work if the editorial pipeline is unavailable.
+
+Any future exception requires an explicit architecture decision before implementation.
