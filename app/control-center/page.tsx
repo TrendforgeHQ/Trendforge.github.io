@@ -13,12 +13,8 @@ function arr(v: any) { return Array.isArray(v) ? v : []; }
 function pct(a: any, b: any) { const x = Number(a), y = Number(b); return y > 0 ? `${Math.round((x / y) * 100)}%` : '—'; }
 
 const memory = readJson('trendforge-memory.json');
-const supervisor = readJson('trendforge-supervisor.json');
-const audit = readJson('trendforge-audit-trail.json');
 const performance = readJson('trendforge-performance.json');
-const security = readJson('trendforge-security-reliability.json');
 const learning = readJson('trendforge-learning.json');
-const monetization = readJson('trendforge-monetization-intelligence.json');
 const runs = arr(memory?.runs);
 const latest = runs[runs.length - 1] ?? {};
 const decisions = latest.decisions ?? {};
@@ -28,12 +24,13 @@ const editorial = latest.editorial ?? {};
 const lifecycle = latest.lifecycle ?? {};
 const distribution = latest.distribution ?? {};
 const providers = latest.providers ?? {};
-const health = supervisor?.overall ?? 'unknown';
-const healthLabel = health === 'healthy' ? 'Running normally' : health === 'attention' ? 'Attention needed' : health === 'watch' ? 'Watch required' : 'Status unavailable';
-const healthIcon = health === 'healthy' ? '🟢' : health === 'attention' ? '🟡' : health === 'watch' ? '🟠' : '⚪';
-const bottlenecks = arr(supervisor?.bottlenecks);
-const recommendations = arr(supervisor?.recommendations).slice(0, 3);
-const auditEvents = Number(audit?.eventCount ?? arr(audit?.events).length ?? 0);
+const performanceBottlenecks = arr(performance?.bottlenecks);
+const health = performanceBottlenecks.some((b:any) => b?.severity === 'high') ? 'attention' : performanceBottlenecks.length ? 'watch' : 'healthy';
+const healthLabel = health === 'healthy' ? 'Running normally' : health === 'attention' ? 'Attention needed' : 'Watch required';
+const healthIcon = health === 'healthy' ? '🟢' : health === 'attention' ? '🟡' : '🟠';
+const bottlenecks = performanceBottlenecks;
+const recommendations = performanceBottlenecks.slice(0, 3).map((b:any) => ({ action: 'Investigate', reason: b?.detail ?? 'Review the reported bottleneck.' }));
+const auditEvents = runs.length;
 const providerEntries = Object.entries(providers) as [string, any][];
 const articleCount = Number(editorial.articleCount ?? latest.articleCount ?? 0);
 const evidencePassed = Number(evidence.passed ?? 0);
@@ -56,7 +53,7 @@ function Section({eyebrow, title, children, help}: {eyebrow:string; title:string
 export default function ControlCenterPage() {
   const evidenceState = evidencePassed > 0 ? 'good' : 'watch';
   const claimState = claims.pass === true ? 'good' : claims.claimCount ? 'watch' : 'unknown';
-  const securityState = security?.passed === true ? 'good' : security?.passed === false ? 'watch' : 'unknown';
+  const securityState = 'unknown';
   const auditState = auditEvents > 0 ? 'good' : 'unknown';
   return <main className="cc-page">
     <header className="cc-hero">
@@ -80,7 +77,7 @@ export default function ControlCenterPage() {
         <Status name="Claim Verification" state={claimState} help={claims.claimCount ? `${fmt(claims.verified,'0')} verified • ${fmt(claims.unsupported,'0')} unsupported • avg ${fmt(claims.averageConfidence,'—')}` : 'No claim snapshot available'} />
         <Status name="Editorial Quality" state={editorial.status === 'pass' ? 'good' : editorial.status ? 'watch' : 'unknown'} help={editorial.articleCount ? `${fmt(editorial.articleCount,'0')} articles • avg score ${fmt(editorial.averageScore,'—')}` : 'No editorial snapshot available'} />
         <Status name="Supervisor" state={health === 'healthy' ? 'good' : health === 'attention' || health === 'watch' ? 'watch' : 'unknown'} help={`${bottlenecks.length} bottleneck(s) detected`} />
-        <Status name="Security & Reliability" state={securityState} help={security?.passed === true ? 'Latest security snapshot passed.' : security?.passed === false ? 'Latest security snapshot reported issues.' : 'Snapshot not available in this build.'} />
+        <Status name="Security & Reliability" state={securityState} help={Security telemetry is not part of the committed static snapshot.} />
         <Status name="Audit Trail" state={auditState} help={auditEvents ? `${auditEvents} audit event(s) retained.` : 'Audit snapshot not available in this build.'} />
       </div>
     </Section>
@@ -129,11 +126,11 @@ export default function ControlCenterPage() {
     <div className="cc-two">
       <Section eyebrow="10 • AUDIT" title="Audit timeline" help="Phase 24 records operational history without influencing decisions.">
         <div className="cc-audit-head"><b>{auditEvents || '—'}</b><span>events retained</span></div>
-        {arr(audit?.events).slice(-5).reverse().map((e:any,i:number)=><div className="cc-audit-row" key={e?.id ?? i}><span>{e?.recordedAt ? new Date(e.recordedAt).toLocaleString() : 'Recorded event'}</span><b>{e?.type ?? 'event'}</b><small>{e?.phase ? `Phase ${e.phase}` : ''} {e?.status ? `• ${e.status}` : ''}</small></div>)}
-        {!auditEvents && <div className="cc-empty">The audit snapshot was not available when this page was generated.</div>}
+        {runs.slice(-5).reverse().map((run:any,i:number)=><div className="cc-audit-row" key={run?.workflowRun ?? i}><span>{run?.recordedAt ? new Date(run.recordedAt).toLocaleString() : 'Recorded run'}</span><b>Publishing run {run?.workflowRun ?? '—'}</b><small>{fmt(run?.decisions?.publishCandidates,'0')} publish candidate(s) • {fmt(run?.editorial?.articleCount,'0')} article(s)</small></div>)}
+        {!auditEvents && <div className="cc-empty">No historical run snapshot is available.</div>}
       </Section>
       <Section eyebrow="11 • MONETIZATION" title="Revenue readiness" help="Monetization intelligence observes fit and readiness; it does not lower editorial or safety standards.">
-        <div className="cc-monetize"><div><b>{monetization?.readyForAdSenseFoundation === true ? 'Ready' : 'Not ready'}</b><span>Ad foundation</span></div><div><b>{fmt(monetization?.articleCount ?? latest.monetization?.articleCount,'—')}</b><span>articles assessed</span></div><div><b>{fmt(monetization?.evergreenCount ?? '—')}</b><span>evergreen opportunities</span></div></div>
+        <div className="cc-monetize"><div><b>{latest.monetization?.readyForAdSenseFoundation === true ? 'Ready' : 'Not ready'}</b><span>Ad foundation</span></div><div><b>{fmt(latest.monetization?.articleCount,'—')}</b><span>articles assessed</span></div><div><b>{fmt(latest.monetization?.evergreenCount ?? '—')}</b><span>evergreen opportunities</span></div></div>
       </Section>
     </div>
 
