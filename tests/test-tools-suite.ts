@@ -58,7 +58,7 @@ assert.equal(regexTest("cat", "g", "cat dog cat").length, 2);
 assert.equal(analyzeHeaders("Content-Type: application/json").headers["content-type"], "application/json");
 assert.equal(validateOpenApi('{"openapi":"3.0.0","info":{},"paths":{}}').valid, true);
 assert.equal(validateOpenApi('{"openapi":"3.0.0","paths":{"bad":{}}}').valid, false);
-assert.equal(curlToCode("curl -X POST -H 'Content-Type: application/json' -d '{"ok":true}' https://example.com").method, "POST");
+assert.equal(curlToCode('curl -X POST -H "Content-Type: application/json" -d \'{"ok":true}\' https://example.com').method, "POST");
 
 assert.equal(pricing(100, 20, 25).metrics[2].value, "$500.00");
 assert.equal(mrr(1000, 200, 100, 100).metrics[0].value, "$1000.00");
