@@ -140,3 +140,26 @@ Implemented on `feat/prompt-optimizer-mvp`: browser-only deterministic optimizer
 - Verification after integration: Prompt Optimizer tests **PASS**, isolation guard **PASS**, production build **PASS**; 71 static pages generated.
 - No publishing workflow changes.
 - Status remains **Building** until final PR review/merge decision.
+
+## 2026-10-08 — Phase 1 AI suite implementation
+
+Phase 1 is now **BUILDING — first-wave suite implemented; validation pending**.
+
+Implemented:
+1. Prompt Optimizer
+2. Prompt Comparator
+3. LLM Cost Calculator
+4. Token & Context Calculator
+5. RAG Chunking Calculator
+
+All five use deterministic browser-side logic. No model API, login, database, prompt persistence, backend, or workflow trigger was introduced.
+
+The AI Tools landing page now exposes all five utilities. Shared AI styling was added without modifying the global layout or editorial pipeline.
+
+Validation required before release:
+- AI suite tests;
+- publishing-pipeline isolation guard;
+- production build;
+- manual UX review;
+- SEO/privacy review;
+- documentation review.

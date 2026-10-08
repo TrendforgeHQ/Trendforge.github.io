@@ -1,0 +1,3 @@
+import { TokenContextCalculator } from "./TokenContextCalculator";
+export const metadata={title:"Token & Context Calculator | TrendForge Tools",description:"Estimate token usage and context-window utilization from text with an adjustable browser-side approximation.",alternates:{canonical:"/tools/ai/token-context-calculator/"}};
+export default function TokenContextCalculatorPage(){return <TokenContextCalculator/>;}

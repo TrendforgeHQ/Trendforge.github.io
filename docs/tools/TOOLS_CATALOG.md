@@ -45,3 +45,13 @@ Status values: Planned / Designing / Building / Testing / Ready / Live / Needs-f
 The catalog is a candidate list, not a promise that every item will ship.
 
 A tool enters Building only after design review and explicit phase approval.
+
+## 2026-10-08 — Phase 1 AI suite
+
+| Tool | Status | Zero-cost core | Notes |
+|---|---|---|---|
+| Prompt Optimizer | **Building** | Yes | Deterministic browser-side prompt checks |
+| Prompt Comparator | **Building** | Yes | Structural comparison of two prompts |
+| LLM Cost Calculator | **Building** | Yes | Editable pricing assumptions; no hard-coded provider dependency |
+| Token / Context Calculator | **Building** | Yes | Approximate token and context planning |
+| RAG Chunking Calculator | **Building** | Yes | Chunk count and overlap planning |

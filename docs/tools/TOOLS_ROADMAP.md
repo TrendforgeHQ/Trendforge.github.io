@@ -119,3 +119,20 @@ A phase is complete only after:
 7. regression check;
 8. documentation update;
 9. Project State update.
+
+## 2026-10-08 — Phase 1 implementation batch
+
+Phase 1 is now **BUILDING** with all five first-wave AI utilities implemented in one isolated batch:
+1. Prompt Optimizer
+2. Prompt Comparator
+3. LLM Cost Calculator
+4. Token / Context Calculator
+5. RAG Chunking Calculator
+
+Validation still required before marking the batch Ready/Live:
+- focused tests;
+- publishing-pipeline isolation check;
+- production build;
+- manual UX review;
+- SEO/privacy review;
+- documentation/project-state review.
