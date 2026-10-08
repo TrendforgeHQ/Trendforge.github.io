@@ -3,7 +3,7 @@ import { articles } from '@/lib/articles';
 import { categoryMetadata, categorySlug } from '@/lib/seo';
 import { TREND_FORGE_CATEGORIES } from '@/lib/categories';
 
-const basePath = '/Trendforge';
+const basePath = '';
 type CategoryParams = Promise<{ category: string }>;
 
 export function generateStaticParams(){
