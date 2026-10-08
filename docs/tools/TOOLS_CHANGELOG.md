@@ -64,3 +64,10 @@ No production code was changed during this inspection.
 - Defined UX, privacy, quality and test requirements.
 - Added a mandatory publishing-pipeline isolation test before the tool can enter Building.
 - Status remains Designing; no production Tool code added.
+
+## 2026-10-08 — Prompt Optimizer MVP
+
+- Added isolated browser-side optimizer engine and `/tools/ai/prompt-optimizer/` route.
+- Added deterministic test coverage and publishing-pipeline isolation guard.
+- No workflow or editorial pipeline changes.
+- Status: Building; not Ready.
