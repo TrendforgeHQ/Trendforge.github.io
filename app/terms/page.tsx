@@ -1,4 +1,4 @@
-const basePath = '/Trendforge';
+const basePath = '';
 export const metadata = { title: 'Terms of Use', description: 'TrendForge terms of use for informational content, external links and site usage.' };
 
 export default function TermsPage() {
