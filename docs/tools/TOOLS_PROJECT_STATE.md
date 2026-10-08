@@ -109,3 +109,8 @@ Complete the Phase 0 documentation review, then design and test Prompt Optimizer
 ## Phase 1 — Prompt Optimizer design
 
 Design specification created at `docs/tools/PROMPT_OPTIMIZER_SPEC.md`. Status remains **Designing**; no production Tool code has been added. The design explicitly forbids model APIs, persistence, backend processing and every publishing-pipeline dependency.
+
+
+## Prompt Optimizer MVP implementation
+
+Implemented on `feat/prompt-optimizer-mvp`: browser-only deterministic optimizer engine, isolated route/UI, focused tests, and a publishing-pipeline isolation guard. No workflow files or editorial pipeline code were changed. The tool remains isolated and is not yet marked Ready.
