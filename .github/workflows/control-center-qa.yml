@@ -1,0 +1,32 @@
+name: TrendForge Control Center QA
+
+on:
+  pull_request:
+    paths:
+      - "app/control-center/**"
+      - "scripts/test-control-center.mjs"
+      - "package.json"
+      - ".github/workflows/control-center-qa.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  control-center-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+      - name: Setup Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          package-manager-cache: false
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Run Control Center deterministic suite
+        run: npm run control-center:test
+      - name: Production build
+        run: npm run build
