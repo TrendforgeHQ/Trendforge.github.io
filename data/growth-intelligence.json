@@ -1,32 +1,32 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-07T22:30:57.701Z",
+  "generatedAt": "2026-10-08T03:36:18.624Z",
   "policy": {
     "privacyFirst": true,
     "noPersonalTracking": true,
     "noPaidTrafficRequired": true
   },
   "summary": {
-    "totalArticles": 42,
+    "totalArticles": 43,
     "averageEditorialScore": 76,
     "editorialReviewCount": 30,
-    "refreshCandidates": 15
+    "refreshCandidates": 16
   },
   "categoryMix": [
     {
       "category": "AI",
       "count": 14,
-      "share": 33.3
+      "share": 32.6
     },
     {
       "category": "Technology",
       "count": 7,
-      "share": 16.7
+      "share": 16.3
     },
     {
       "category": "How-To",
       "count": 3,
-      "share": 7.1
+      "share": 7
     },
     {
       "category": "Innovation",
@@ -36,17 +36,17 @@
     {
       "category": "Product Launches",
       "count": 1,
-      "share": 2.4
+      "share": 2.3
     },
     {
       "category": "Digital Life",
-      "count": 8,
-      "share": 19
+      "count": 9,
+      "share": 20.9
     },
     {
       "category": "Crypto",
       "count": 8,
-      "share": 19
+      "share": 18.6
     }
   ],
   "missingCategories": [
@@ -56,9 +56,14 @@
   "recommendations": [
     "Prioritize missing categories: Innovation.",
     "30 article(s) are in editorial review; improve them before treating them as growth winners.",
-    "15 older/incomplete article(s) are refresh candidates."
+    "16 older/incomplete article(s) are refresh candidates."
   ],
   "recentArticles": [
+    {
+      "title": "Microsoft Expands Copilot’s Reach into Windows and Local Files",
+      "category": "Digital Life",
+      "publishedAt": "2026-10-08T03:35:39.939Z"
+    },
     {
       "title": "Morgan Stanley’s 0.14% Crypto ETFs: Which Token Gets the First Dollar?",
       "category": "Crypto",
@@ -103,11 +108,6 @@
       "title": "President Trump’s AI pledge misspells United States",
       "category": "AI",
       "publishedAt": "2026-09-30T17:18:02.792Z"
-    },
-    {
-      "title": "OpenAI Unveils Dots, a Persistent AI Assistant with a New Premium Tier",
-      "category": "AI",
-      "publishedAt": "2026-09-30T11:38:14.111Z"
     }
   ]
 }

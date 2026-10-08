@@ -1,19 +1,19 @@
 {
   "version": 18,
-  "generatedAt": "2026-10-07T22:30:44.674Z",
-  "articlePath": "content/articles/10x-research-bitcoin-bottom-forecast-missed-what-the-numbers-reveal.md",
-  "articleTitle": "10x Research Bitcoin Bottom Forecast Missed – What the Numbers Reveal",
+  "generatedAt": "2026-10-08T03:36:03.270Z",
+  "articlePath": "content/articles/microsoft-expands-copilot-s-reach-into-windows-and-local-files.md",
+  "articleTitle": "Microsoft Expands Copilot’s Reach into Windows and Local Files",
   "verificationMode": "authoritative-evidence-pack-v20-fact-map-synthesis",
-  "sourceCount": 2,
-  "usableSourceCount": 2,
-  "claimCount": 7,
-  "editorialCount": 2,
-  "verified": 3,
+  "sourceCount": 4,
+  "usableSourceCount": 4,
+  "claimCount": 17,
+  "editorialCount": 1,
+  "verified": 14,
   "partial": 3,
-  "unsupported": 1,
+  "unsupported": 0,
   "sourceUnavailable": 0,
-  "averageConfidence": 78,
-  "pass": false,
+  "averageConfidence": 79,
+  "pass": true,
   "policy": {
     "verifiedMin": 62,
     "partialMin": 45,
@@ -45,76 +45,199 @@
   "sources": [
     {
       "id": "S1",
-      "title": "10x Research Forecast Bitcoin Could Fall to $46,000, but What Really Happened? - Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/10x-research-forecast-bitcoin-could-215922682.html",
-      "domain": "finance.yahoo.com",
-      "passageCount": 9,
-      "articleBodyLength": 1188
+      "title": "Introducing Copilot Actions, new agents, and tools to empower IT teams - Microsoft",
+      "url": "https://www.microsoft.com/en-us/copilot/blog/2024/11/19/introducing-copilot-actions-new-agents-and-tools-to-empower-it-teams/",
+      "domain": "microsoft.com",
+      "passageCount": 10,
+      "articleBodyLength": 1661
     },
     {
       "id": "S2",
-      "title": "10x Research Forecast Bitcoin Could Fall to $46,000, but What Really Happened? - 24/7 Wall St.",
-      "url": "https://247wallst.com/investing/cryptocurrency/2026/10/07/10x-research-forecast-bitcoin-could-fall-to-46000-but-what-really-happened/",
-      "domain": "247wallst.com",
-      "passageCount": 16,
-      "articleBodyLength": 2219
+      "title": "Microsoft is giving Copilot more control over Windows and your files",
+      "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+      "domain": "theverge.com",
+      "passageCount": 5,
+      "articleBodyLength": 862
+    },
+    {
+      "id": "S3",
+      "title": "Microsoft gives Copilot access to your local files and control of Windows - Crypto Briefing",
+      "url": "https://cryptobriefing.com/microsoft-copilot-local-file-access-os-control/",
+      "domain": "cryptobriefing.com",
+      "passageCount": 11,
+      "articleBodyLength": 1773
+    },
+    {
+      "id": "S4",
+      "title": "Microsoft's Hybrid Intelligence gives Copilot more control over your files",
+      "url": "https://www.newsbytesapp.com/news/science/microsoft-unveils-hybrid-intelligence-check-features/story",
+      "domain": "newsbytesapp.com",
+      "passageCount": 6,
+      "articleBodyLength": 784
     }
   ],
   "claims": [
     {
       "index": 1,
-      "claim": "On June 24, Markus Thielen of 10x Research predicted a Bitcoin trough around $55,000 in late summer and early autumn 2026.",
+      "claim": "At the recent Windows and Surface event, Microsoft announced a new Copilot feature that lets the AI system read local files on a user’s PC and take actions across the operating system.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 88,
+      "confidence": 87,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "10x Research Forecast Bitcoin Could Fall to $46,000, but What Really Happened? - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/10x-research-forecast-bitcoin-could-215922682.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
+      "bestSource": "Microsoft gives Copilot access to your local files and control of Windows - Crypto Briefing",
+      "bestUrl": "https://cryptobriefing.com/microsoft-copilot-local-file-access-os-control/",
+      "bestDomain": "cryptobriefing.com",
+      "sourceId": "S3",
       "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": null,
-      "provenanceFactMatches": [],
+      "coreFactMatch": {
+        "factId": "F16",
+        "sourceId": "S3",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 85
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F16",
+          "sourceId": "S3",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 85,
+          "passageIndex": 1
+        },
+        {
+          "factId": "F11",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 82,
+          "passageIndex": 1
+        }
+      ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "Markus Thielen of 10x Research made two forecasts about a potential Bitcoin bottom during the summer of 2026, but Bitcoin (CRYPTO:BTC) never dipped to those levels. On June 24, he suggested that Bitcoin could drop to $55,000 between late August and October. Just ten days later, on July 4, he revised his forecast, calling for a fall to between $46,000 and $47,000 before anticipating a 30% bounce back to $60,000 to $65,000 by year-end. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Moreover, his end-of-year range now looks different. With Bitcoin currently around $86,000, achieving that target would require a drop of roughly 24% to 30% by December 31—a very different scenario from his initial forecast. In July, Thielen expanded his analysis by incorporating Elliott Wave theory, which interprets price charts as repeating wave patterns. Bitcoin's 2026 low hit $57,717 on June 30, then surged 49% to $86,000, a level far above Thielen's $46,000 bear target. Those who sold their Bitcoin near $59,000 around the time of his first forecast have missed out on about a 45% increase in value.",
-      "bestPassage": "Markus Thielen of 10x Research made two forecasts about a potential Bitcoin bottom during the summer of 2026, but Bitcoin (CRYPTO:BTC) never dipped to those levels. On June 24, he suggested that Bitcoin could drop to $55,000 between late August and October. Just ten days later, on July 4, he revised his forecast, calling for a fall to between $46,000 and $47,000 before anticipating a 30% bounce back to $60,000 to $65,000 by year-end. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Moreover, his end-of-year range now looks different. With Bitcoin currently around $86,000, achieving that target would require a drop of roughly 24% to 30% by December 31—a very different scenario from his initial forecast. In July, Thielen expanded his analysis by incorporating Elliott Wave theory, which interprets price charts as repeating wave patterns. Bitcoin's 2026 low hit $57,717 on June 30, then surged 49% to $86,000, a level far above Thielen's $46,000 bear target. Those who sold their Bitcoin near $59,000 around the time of his first forecast have missed out on about a 45% increase in value.",
+      "bestPassageId": "S3-FF16,S2-FF11",
+      "evidence": "Microsoft wants its AI assistant to stop just talking about your computer and start operating it. \\n At its Windows and Surface event on October 7, 2026, the company showed off a Copilot upgrade that will let the assistant reach into local files on your PC and carry out actions across the operating system. \\n \\n\\n The upgrade falls under a concept Microsoft is calling &#8220;Hybrid Intelligence.&#8221; Under this approach, apps and tools draw on a blend of AI models: some running on the device itself, others running in the cloud, with the goal of finishing tasks efficiently. \\n Taxes, accountants, and an AI that reads your inbox \\n Jacob Andreou, Microsoft&#8217;s EVP of Copilot, handled the on-stage pitch. At today’s Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions across the OS.",
+      "bestPassage": "Microsoft wants its AI assistant to stop just talking about your computer and start operating it. \\n At its Windows and Surface event on October 7, 2026, the company showed off a Copilot upgrade that will let the assistant reach into local files on your PC and carry out actions across the operating system. \\n \\n\\n The upgrade falls under a concept Microsoft is calling &#8220;Hybrid Intelligence.&#8221; Under this approach, apps and tools draw on a blend of AI models: some running on the device itself, others running in the cloud, with the goal of finishing tasks efficiently. \\n Taxes, accountants, and an AI that reads your inbox \\n Jacob Andreou, Microsoft&#8217;s EVP of Copilot, handled the on-stage pitch. At today’s Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions across the OS.",
       "matchedPassages": [
-        "S1-BODY"
+        "S3-BODY",
+        "S3-P1"
       ],
       "sharedTerms": [
-        "june",
-        "marku",
-        "thielen",
-        "10x",
-        "research",
-        "btc",
-        "000",
-        "late",
-        "summer",
+        "the",
+        "window",
         "and",
-        "2026"
+        "surface",
+        "event",
+        "microsoft",
+        "copilot",
+        "system",
+        "read",
+        "local",
+        "fil",
+        "take",
+        "action",
+        "acros",
+        "operat"
       ],
       "entityShared": [
-        "june",
-        "marku",
-        "thielen",
-        "research",
-        "btc"
+        "window",
+        "surface",
+        "microsoft",
+        "copilot"
       ],
       "topicShared": [
-        "10x",
-        "research",
-        "btc",
-        "000"
+        "window",
+        "and",
+        "microsoft",
+        "copilot",
+        "fil"
       ],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
       "scopeWarnings": [],
       "attributionUncertainty": {
-        "evidenceUncertain": true,
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": true,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-multi-fact-anchored"
+    },
+    {
+      "index": 2,
+      "claim": "The update was demonstrated during a live demo where the Copilot assistant helped a presenter file taxes.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 50,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Microsoft gives Copilot access to your local files and control of Windows - Crypto Briefing",
+      "bestUrl": "https://cryptobriefing.com/microsoft-copilot-local-file-access-os-control/",
+      "bestDomain": "cryptobriefing.com",
+      "sourceId": "S3",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F12",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 31
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F12",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 31,
+          "passageIndex": 3
+        },
+        {
+          "factId": "F16",
+          "sourceId": "S3",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 31,
+          "passageIndex": 1
+        },
+        {
+          "factId": "F7",
+          "sourceId": "S1",
+          "sourceRole": "CORROBORATION",
+          "score": 20,
+          "passageIndex": 7
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S2-FF12,S3-FF16,S1-FF7",
+      "evidence": "To show off how Hybrid Intelligence works, Jacob Andreou, Microsoft’s EVP of Copilot, walked through a video demo onstage asking Microsoft’s Autopilot tool to help with filing taxes. Microsoft wants its AI assistant to stop just talking about your computer and start operating it. \\n At its Windows and Surface event on October 7, 2026, the company showed off a Copilot upgrade that will let the assistant reach into local files on your PC and carry out actions across the operating system. \\n \\n\\n The upgrade falls under a concept Microsoft is calling &#8220;Hybrid Intelligence.&#8221; Under this approach, apps and tools draw on a blend of AI models: some running on the device itself, others running in the cloud, with the goal of finishing tasks efficiently. \\n Taxes, accountants, and an AI that reads your inbox \\n Jacob Andreou, Microsoft&#8217;s EVP of Copilot, handled the on-stage pitch. To empower every IT team to lead at scale, we&#8217;re introducing the Copilot Control System —designed for IT to confidently adopt and accelerate the business value of Copilot and agents.",
+      "bestPassage": "To show off how Hybrid Intelligence works, Jacob Andreou, Microsoft’s EVP of Copilot, walked through a video demo onstage asking Microsoft’s Autopilot tool to help with filing taxes. Microsoft wants its AI assistant to stop just talking about your computer and start operating it. \\n At its Windows and Surface event on October 7, 2026, the company showed off a Copilot upgrade that will let the assistant reach into local files on your PC and carry out actions across the operating system. \\n \\n\\n The upgrade falls under a concept Microsoft is calling &#8220;Hybrid Intelligence.&#8221; Under this approach, apps and tools draw on a blend of AI models: some running on the device itself, others running in the cloud, with the goal of finishing tasks efficiently. \\n Taxes, accountants, and an AI that reads your inbox \\n Jacob Andreou, Microsoft&#8217;s EVP of Copilot, handled the on-stage pitch. To empower every IT team to lead at scale, we&#8217;re introducing the Copilot Control System —designed for IT to confidently adopt and accelerate the business value of Copilot and agents.",
+      "matchedPassages": [
+        "S3-BODY"
+      ],
+      "sharedTerms": [
+        "the",
+        "demo",
+        "copilot",
+        "assistant",
+        "help",
+        "tax"
+      ],
+      "entityShared": [
+        "copilot"
+      ],
+      "topicShared": [
+        "copilot"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
         "claimUncertain": false,
         "evidenceAttributed": false,
         "claimAttributed": false,
@@ -122,95 +245,83 @@
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 0,
-      "multiFactSupported": false,
+      "factCoverage": 3,
+      "multiFactSupported": true,
       "directFactExact": false,
       "directExact": false,
-      "matchingMode": "semantic-context-evidence-pack"
+      "matchingMode": "fact-map-multi-fact-anchored"
     },
     {
-      "index": 2,
-      "claim": "Ten days later, on July 4, he tightened that range to $46,000–$47,000 and expected a 30 % rebound to $60,000–$65,000 by year‑end.Bitcoin (CRYPTO:BTC) never dipped to the levels forecasted by Markus Thielen.",
-      "status": "partial",
-      "classification": "supported_with_context",
-      "confidence": 95,
+      "index": 3,
+      "claim": "This capability is part of Microsoft’s broader Hybrid Intelligence vision, which blends local and cloud‑based AI models to accomplish tasks efficiently.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 84,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "10x Research Forecast Bitcoin Could Fall to $46,000, but What Really Happened? - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/10x-research-forecast-bitcoin-could-215922682.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
+      "bestSource": "Microsoft is giving Copilot more control over Windows and your files",
+      "bestUrl": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+      "bestDomain": "theverge.com",
+      "sourceId": "S2",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F3",
-        "sourceId": "S1",
+        "factId": "F14",
+        "sourceId": "S2",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 64
+        "score": 81
       },
       "provenanceFactMatches": [
         {
-          "factId": "F3",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 64,
-          "passageIndex": 6
-        },
-        {
-          "factId": "F12",
+          "factId": "F14",
           "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 64,
-          "passageIndex": 3
+          "score": 81,
+          "passageIndex": 2
+        },
+        {
+          "factId": "F16",
+          "sourceId": "S3",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 69,
+          "passageIndex": 1
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "Just ten days later, on July 4, he revised his forecast, calling for a fall to between $46,000 and $47,000 before anticipating a 30% bounce back to $60,000 to $65,000 by year-end. Just ten days later, on July 4, he revised his forecast, calling for a fall to between $46,000 and $47,000 before anticipating a 30% bounce back to $60,000 to $65,000 by year-end.",
-      "bestPassage": "Just ten days later, on July 4, he revised his forecast, calling for a fall to between $46,000 and $47,000 before anticipating a 30% bounce back to $60,000 to $65,000 by year-end. Just ten days later, on July 4, he revised his forecast, calling for a fall to between $46,000 and $47,000 before anticipating a 30% bounce back to $60,000 to $65,000 by year-end.",
+      "bestPassageId": "S2-FF14,S3-FF16",
+      "evidence": "It’s part of an idea Microsoft is calling “Hybrid Intelligence,” where apps and tools rely on a mix of local and cloud AI models to accomplish tasks efficiently. Microsoft wants its AI assistant to stop just talking about your computer and start operating it. \\n At its Windows and Surface event on October 7, 2026, the company showed off a Copilot upgrade that will let the assistant reach into local files on your PC and carry out actions across the operating system. \\n \\n\\n The upgrade falls under a concept Microsoft is calling &#8220;Hybrid Intelligence.&#8221; Under this approach, apps and tools draw on a blend of AI models: some running on the device itself, others running in the cloud, with the goal of finishing tasks efficiently. \\n Taxes, accountants, and an AI that reads your inbox \\n Jacob Andreou, Microsoft&#8217;s EVP of Copilot, handled the on-stage pitch.",
+      "bestPassage": "It’s part of an idea Microsoft is calling “Hybrid Intelligence,” where apps and tools rely on a mix of local and cloud AI models to accomplish tasks efficiently. Microsoft wants its AI assistant to stop just talking about your computer and start operating it. \\n At its Windows and Surface event on October 7, 2026, the company showed off a Copilot upgrade that will let the assistant reach into local files on your PC and carry out actions across the operating system. \\n \\n\\n The upgrade falls under a concept Microsoft is calling &#8220;Hybrid Intelligence.&#8221; Under this approach, apps and tools draw on a blend of AI models: some running on the device itself, others running in the cloud, with the goal of finishing tasks efficiently. \\n Taxes, accountants, and an AI that reads your inbox \\n Jacob Andreou, Microsoft&#8217;s EVP of Copilot, handled the on-stage pitch.",
       "matchedPassages": [
-        "S1-BODY"
+        "S2-P4",
+        "S2-BODY"
       ],
       "sharedTerms": [
-        "ten",
-        "days",
-        "later",
-        "july",
-        "range",
-        "000",
+        "part",
+        "microsoft",
+        "hybrid",
+        "blend",
+        "local",
         "and",
-        "year",
-        "end",
-        "btc",
-        "crypto",
-        "never",
-        "dipp",
-        "the",
-        "level",
-        "forecast",
-        "marku",
-        "thielen"
+        "cloud",
+        "models",
+        "accomplish",
+        "task",
+        "efficiently"
       ],
       "entityShared": [
-        "july",
-        "btc",
-        "crypto",
-        "marku",
-        "thielen"
+        "microsoft",
+        "hybrid"
       ],
       "topicShared": [
-        "000",
-        "btc",
-        "forecast"
+        "microsoft",
+        "and"
       ],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
-      "scopeWarnings": [
-        "never"
-      ],
+      "scopeWarnings": [],
       "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": true,
+        "evidenceUncertain": false,
+        "claimUncertain": false,
         "evidenceAttributed": false,
         "claimAttributed": false,
         "certaintyEscalation": false,
@@ -219,68 +330,749 @@
       },
       "factCoverage": 2,
       "multiFactSupported": true,
-      "directFactExact": true,
-      "directExact": true,
+      "directFactExact": false,
+      "directExact": false,
       "matchingMode": "fact-map-multi-fact-anchored"
     },
     {
-      "index": 3,
-      "claim": "Bitcoin’s 2026 low was $57,717 on June 30, and the price later climbed 49 % to about $86,000—well above the bear target.",
+      "index": 4,
+      "claim": "Microsoft emphasized that Copilot’s local file access is opt‑in and that folder permissions are restricted.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 88,
+      "confidence": 73,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "10x Research Forecast Bitcoin Could Fall to $46,000, but What Really Happened? - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/10x-research-forecast-bitcoin-could-215922682.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
+      "bestSource": "Microsoft gives Copilot access to your local files and control of Windows - Crypto Briefing",
+      "bestUrl": "https://cryptobriefing.com/microsoft-copilot-local-file-access-os-control/",
+      "bestDomain": "cryptobriefing.com",
+      "sourceId": "S3",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F8",
-        "sourceId": "S1",
+        "factId": "F21",
+        "sourceId": "S3",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 75
+        "score": 55
       },
       "provenanceFactMatches": [
         {
-          "factId": "F8",
-          "sourceId": "S1",
+          "factId": "F21",
+          "sourceId": "S3",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 75,
-          "passageIndex": 2
+          "score": 55,
+          "passageIndex": 12
+        },
+        {
+          "factId": "F11",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 47,
+          "passageIndex": 1
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S3-FF21,S2-FF11",
+      "evidence": "AI activation is opt-in, folder access is restricted, and Copilot agents operate under separate accounts from the user. At today’s Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions across the OS.",
+      "bestPassage": "AI activation is opt-in, folder access is restricted, and Copilot agents operate under separate accounts from the user. At today’s Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions across the OS.",
+      "matchedPassages": [
+        "S3-BODY"
+      ],
+      "sharedTerms": [
+        "microsoft",
+        "copilot",
+        "local",
+        "acces",
+        "opt",
+        "and",
+        "folder",
+        "restrict"
+      ],
+      "entityShared": [
+        "microsoft",
+        "copilot"
+      ],
+      "topicShared": [
+        "microsoft",
+        "copilot",
+        "and"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-multi-fact-anchored"
+    },
+    {
+      "index": 5,
+      "claim": "The agents run under separate accounts from the user, and the company highlighted agent workspaces and user‑controlled settings to keep privacy and security front and center.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 77,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Microsoft gives Copilot access to your local files and control of Windows - Crypto Briefing",
+      "bestUrl": "https://cryptobriefing.com/microsoft-copilot-local-file-access-os-control/",
+      "bestDomain": "cryptobriefing.com",
+      "sourceId": "S3",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F25",
+        "sourceId": "S3",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 71
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F25",
+          "sourceId": "S3",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 71,
+          "passageIndex": 13
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S3-BODY",
+      "evidence": "Microsoft has also emphasized agent workspaces and user-controlled settings, designs intended to keep privacy and security in the foreground.",
+      "bestPassage": "Microsoft has also emphasized agent workspaces and user-controlled settings, designs intended to keep privacy and security in the foreground.",
+      "matchedPassages": [
+        "S3-BODY",
+        "S3-P10"
+      ],
+      "sharedTerms": [
+        "the",
+        "agent",
+        "separate",
+        "account",
+        "user",
+        "and",
+        "workspac",
+        "controll",
+        "setting",
+        "keep",
+        "privacy",
+        "security"
+      ],
+      "entityShared": [],
+      "topicShared": [
+        "and"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 6,
+      "claim": "Hybrid Intelligence also allows some prompts to run against models on the computer, which can reduce privacy‑sensitive data exposure to the cloud.",
+      "status": "partial",
+      "classification": "supported_with_context",
+      "confidence": 80,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Microsoft's Hybrid Intelligence gives Copilot more control over your files",
+      "bestUrl": "https://www.newsbytesapp.com/news/science/microsoft-unveils-hybrid-intelligence-check-features/story",
+      "bestDomain": "newsbytesapp.com",
+      "sourceId": "S4",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F30",
+        "sourceId": "S4",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 59
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F30",
+          "sourceId": "S4",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 59,
+          "passageIndex": 3
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S4-BODY",
+      "evidence": "Microsoft says while Copilot will still rely on cloud inference for complex tasks, it can also run prompts against models running directly on your computer in cost- or privacy-sensitive scenarios.",
+      "bestPassage": "Microsoft says while Copilot will still rely on cloud inference for complex tasks, it can also run prompts against models running directly on your computer in cost- or privacy-sensitive scenarios.",
+      "matchedPassages": [
+        "S4-BODY"
+      ],
+      "sharedTerms": [
+        "hybrid",
+        "prompt",
+        "run",
+        "against",
+        "models",
+        "the",
+        "computer",
+        "can",
+        "privacy",
+        "sensitive",
+        "cloud"
+      ],
+      "entityShared": [
+        "hybrid"
+      ],
+      "topicShared": [],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [
+        "can reduce"
+      ],
+      "attributionUncertainty": {
+        "evidenceUncertain": true,
+        "claimUncertain": true,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 7,
+      "claim": "The presentation also showcased a new Windows search experience that lets users perform quick actions directly from the search bar, such as turning on dark mode, adjusting mic volume with an inline slider, or sending a text.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 77,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Microsoft is giving Copilot more control over Windows and your files",
+      "bestUrl": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+      "bestDomain": "theverge.com",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F13",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 77
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F13",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 77,
+          "passageIndex": 7
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S2-P3",
+      "evidence": "Microsoft also showed off a new Windows search experience that lets you take quick actions from the search bar, like turning on dark mode, turning up your mic volume with an in-line slider, or even sending a text.",
+      "bestPassage": "Microsoft also showed off a new Windows search experience that lets you take quick actions from the search bar, like turning on dark mode, turning up your mic volume with an in-line slider, or even sending a text.",
+      "matchedPassages": [
+        "S2-P3",
+        "S2-BODY"
+      ],
+      "sharedTerms": [
+        "the",
+        "new",
+        "window",
+        "search",
+        "experience",
+        "lets",
+        "quick",
+        "action",
+        "bar",
+        "turn",
+        "dark",
+        "mode",
+        "mic",
+        "volume",
+        "slider",
+        "send",
+        "text"
+      ],
+      "entityShared": [
+        "window"
+      ],
+      "topicShared": [
+        "window"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 8,
+      "claim": "Alongside the new local‑file feature, Microsoft introduced the Copilot Control System, a set of tools designed to let IT teams confidently adopt and accelerate the business value of Copilot and its agents.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 85,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Introducing Copilot Actions, new agents, and tools to empower IT teams - Microsoft",
+      "bestUrl": "https://www.microsoft.com/en-us/copilot/blog/2024/11/19/introducing-copilot-actions-new-agents-and-tools-to-empower-it-teams/",
+      "bestDomain": "microsoft.com",
+      "sourceId": "S1",
+      "sourceRole": "CORROBORATION",
+      "coreFactMatch": {
+        "factId": "F7",
+        "sourceId": "S1",
+        "sourceRole": "CORROBORATION",
+        "score": 80
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F7",
+          "sourceId": "S1",
+          "sourceRole": "CORROBORATION",
+          "score": 80,
+          "passageIndex": 7
         }
       ],
       "contextOnlySource": false,
       "bestPassageId": "S1-BODY",
-      "evidence": "Bitcoin's 2026 low hit $57,717 on June 30, then surged 49% to $86,000, a level far above Thielen's $46,000 bear target.",
-      "bestPassage": "Bitcoin's 2026 low hit $57,717 on June 30, then surged 49% to $86,000, a level far above Thielen's $46,000 bear target.",
+      "evidence": "To empower every IT team to lead at scale, we&#8217;re introducing the Copilot Control System —designed for IT to confidently adopt and accelerate the business value of Copilot and agents.",
+      "bestPassage": "To empower every IT team to lead at scale, we&#8217;re introducing the Copilot Control System —designed for IT to confidently adopt and accelerate the business value of Copilot and agents.",
       "matchedPassages": [
         "S1-BODY",
-        "S1-P8"
+        "S1-P7"
       ],
       "sharedTerms": [
-        "btc",
-        "2026",
-        "low",
-        "717",
-        "june",
-        "and",
         "the",
-        "price",
-        "later",
-        "000",
-        "above",
-        "bear",
-        "target"
+        "new",
+        "microsoft",
+        "introduc",
+        "copilot",
+        "control",
+        "system",
+        "design",
+        "team",
+        "confidently",
+        "adopt",
+        "and",
+        "accelerate",
+        "busines",
+        "value",
+        "agent"
       ],
       "entityShared": [
-        "btc",
-        "june"
+        "microsoft",
+        "copilot",
+        "control",
+        "system"
       ],
       "topicShared": [
-        "btc",
-        "000"
+        "microsoft",
+        "copilot",
+        "control",
+        "and"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 9,
+      "claim": "Microsoft plans to add many more agents in the coming year.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 74,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Introducing Copilot Actions, new agents, and tools to empower IT teams - Microsoft",
+      "bestUrl": "https://www.microsoft.com/en-us/copilot/blog/2024/11/19/introducing-copilot-actions-new-agents-and-tools-to-empower-it-teams/",
+      "bestDomain": "microsoft.com",
+      "sourceId": "S1",
+      "sourceRole": "CORROBORATION",
+      "coreFactMatch": {
+        "factId": "F4",
+        "sourceId": "S1",
+        "sourceRole": "CORROBORATION",
+        "score": 55
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F4",
+          "sourceId": "S1",
+          "sourceRole": "CORROBORATION",
+          "score": 55,
+          "passageIndex": 6
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-BODY",
+      "evidence": "We’ll create many more agents in the coming year that will give customers the competitive advantage they need to future-proof their organization.",
+      "bestPassage": "We’ll create many more agents in the coming year that will give customers the competitive advantage they need to future-proof their organization.",
+      "matchedPassages": [
+        "S1-BODY",
+        "S1-P4"
+      ],
+      "sharedTerms": [
+        "microsoft",
+        "agent",
+        "the",
+        "com",
+        "year"
+      ],
+      "entityShared": [
+        "microsoft"
+      ],
+      "topicShared": [
+        "microsoft"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 10,
+      "claim": "These agents are intended to give customers a competitive advantage and help future‑proof their organizations.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 86,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Introducing Copilot Actions, new agents, and tools to empower IT teams - Microsoft",
+      "bestUrl": "https://www.microsoft.com/en-us/copilot/blog/2024/11/19/introducing-copilot-actions-new-agents-and-tools-to-empower-it-teams/",
+      "bestDomain": "microsoft.com",
+      "sourceId": "S1",
+      "sourceRole": "CORROBORATION",
+      "coreFactMatch": {
+        "factId": "F4",
+        "sourceId": "S1",
+        "sourceRole": "CORROBORATION",
+        "score": 67
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F4",
+          "sourceId": "S1",
+          "sourceRole": "CORROBORATION",
+          "score": 67,
+          "passageIndex": 6
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-BODY",
+      "evidence": "We’ll create many more agents in the coming year that will give customers the competitive advantage they need to future-proof their organization.",
+      "bestPassage": "We’ll create many more agents in the coming year that will give customers the competitive advantage they need to future-proof their organization.",
+      "matchedPassages": [
+        "S1-BODY",
+        "S1-P4"
+      ],
+      "sharedTerms": [
+        "agent",
+        "are",
+        "give",
+        "customer",
+        "competitive",
+        "advantage",
+        "and",
+        "help",
+        "future",
+        "proof",
+        "organization"
+      ],
+      "entityShared": [],
+      "topicShared": [
+        "and"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 11,
+      "claim": "Early adopters such as Dow, Bank of Queensland Group, and Eaton report significant operational gains from Copilot.",
+      "status": "partial",
+      "classification": "supported_with_context",
+      "confidence": 71,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Introducing Copilot Actions, new agents, and tools to empower IT teams - Microsoft",
+      "bestUrl": "https://www.microsoft.com/en-us/copilot/blog/2024/11/19/introducing-copilot-actions-new-agents-and-tools-to-empower-it-teams/",
+      "bestDomain": "microsoft.com",
+      "sourceId": "S1",
+      "sourceRole": "CORROBORATION",
+      "coreFactMatch": {
+        "factId": "F9",
+        "sourceId": "S1",
+        "sourceRole": "CORROBORATION",
+        "score": 63
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F9",
+          "sourceId": "S1",
+          "sourceRole": "CORROBORATION",
+          "score": 63,
+          "passageIndex": 2
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-P9",
+      "evidence": "Dow anticipates that Copilot will save it millions of dollars on shipping operations in the first year; at Bank of Queensland Group , 70% of users are saving two and a half to five hours per week; Eaton is speeding up internal documentation processes by 83%; and Accenture is going big, rolling out Copilot to 100,000 employees.",
+      "bestPassage": "Dow anticipates that Copilot will save it millions of dollars on shipping operations in the first year; at Bank of Queensland Group , 70% of users are saving two and a half to five hours per week; Eaton is speeding up internal documentation processes by 83%; and Accenture is going big, rolling out Copilot to 100,000 employees.",
+      "matchedPassages": [
+        "S1-P9",
+        "S1-BODY"
+      ],
+      "sharedTerms": [
+        "dow",
+        "bank",
+        "queensland",
+        "group",
+        "and",
+        "eaton",
+        "copilot"
+      ],
+      "entityShared": [
+        "dow",
+        "bank",
+        "queensland",
+        "group",
+        "eaton",
+        "copilot"
+      ],
+      "topicShared": [
+        "and",
+        "copilot"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [
+        "significant"
+      ],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 12,
+      "claim": "Dow expects millions of dollars in savings on shipping operations in the first year.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 84,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Introducing Copilot Actions, new agents, and tools to empower IT teams - Microsoft",
+      "bestUrl": "https://www.microsoft.com/en-us/copilot/blog/2024/11/19/introducing-copilot-actions-new-agents-and-tools-to-empower-it-teams/",
+      "bestDomain": "microsoft.com",
+      "sourceId": "S1",
+      "sourceRole": "CORROBORATION",
+      "coreFactMatch": {
+        "factId": "F9",
+        "sourceId": "S1",
+        "sourceRole": "CORROBORATION",
+        "score": 84
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F9",
+          "sourceId": "S1",
+          "sourceRole": "CORROBORATION",
+          "score": 84,
+          "passageIndex": 2
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-P9",
+      "evidence": "Dow anticipates that Copilot will save it millions of dollars on shipping operations in the first year; at Bank of Queensland Group , 70% of users are saving two and a half to five hours per week; Eaton is speeding up internal documentation processes by 83%; and Accenture is going big, rolling out Copilot to 100,000 employees.",
+      "bestPassage": "Dow anticipates that Copilot will save it millions of dollars on shipping operations in the first year; at Bank of Queensland Group , 70% of users are saving two and a half to five hours per week; Eaton is speeding up internal documentation processes by 83%; and Accenture is going big, rolling out Copilot to 100,000 employees.",
+      "matchedPassages": [
+        "S1-P9",
+        "S1-BODY"
+      ],
+      "sharedTerms": [
+        "dow",
+        "million",
+        "dollar",
+        "shipp",
+        "operation",
+        "the",
+        "first",
+        "year"
+      ],
+      "entityShared": [
+        "dow"
+      ],
+      "topicShared": [],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": true,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 13,
+      "claim": "Bank of Queensland users say they are saving two and a half to five hours per week, and Eaton claims an 83 % speed‑up in internal documentation processes.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 94,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Introducing Copilot Actions, new agents, and tools to empower IT teams - Microsoft",
+      "bestUrl": "https://www.microsoft.com/en-us/copilot/blog/2024/11/19/introducing-copilot-actions-new-agents-and-tools-to-empower-it-teams/",
+      "bestDomain": "microsoft.com",
+      "sourceId": "S1",
+      "sourceRole": "CORROBORATION",
+      "coreFactMatch": {
+        "factId": "F9",
+        "sourceId": "S1",
+        "sourceRole": "CORROBORATION",
+        "score": 94
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F9",
+          "sourceId": "S1",
+          "sourceRole": "CORROBORATION",
+          "score": 94,
+          "passageIndex": 2
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-FF9",
+      "evidence": "Dow anticipates that Copilot will save it millions of dollars on shipping operations in the first year; at Bank of Queensland Group , 70% of users are saving two and a half to five hours per week; Eaton is speeding up internal documentation processes by 83%; and Accenture is going big, rolling out Copilot to 100,000 employees.",
+      "bestPassage": "Dow anticipates that Copilot will save it millions of dollars on shipping operations in the first year; at Bank of Queensland Group , 70% of users are saving two and a half to five hours per week; Eaton is speeding up internal documentation processes by 83%; and Accenture is going big, rolling out Copilot to 100,000 employees.",
+      "matchedPassages": [
+        "S1-P9",
+        "S1-BODY"
+      ],
+      "sharedTerms": [
+        "bank",
+        "queensland",
+        "user",
+        "are",
+        "sav",
+        "two",
+        "and",
+        "half",
+        "five",
+        "hour",
+        "per",
+        "week",
+        "eaton",
+        "internal",
+        "documentation",
+        "process"
+      ],
+      "entityShared": [
+        "bank",
+        "queensland",
+        "eaton"
+      ],
+      "topicShared": [
+        "and"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -302,128 +1094,57 @@
       "matchingMode": "direct-exact-evidence"
     },
     {
-      "index": 4,
-      "claim": "With Bitcoin hovering near $86,000, reaching the $46,000–$47,000 level would have required a 24 %‑30 % drop by December 31.",
-      "status": "partial",
-      "classification": "supported_with_context",
-      "confidence": 77,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "10x Research Forecast Bitcoin Could Fall to $46,000, but What Really Happened? - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/10x-research-forecast-bitcoin-could-215922682.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": null,
-      "provenanceFactMatches": [],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "Markus Thielen of 10x Research made two forecasts about a potential Bitcoin bottom during the summer of 2026, but Bitcoin (CRYPTO:BTC) never dipped to those levels. On June 24, he suggested that Bitcoin could drop to $55,000 between late August and October. Just ten days later, on July 4, he revised his forecast, calling for a fall to between $46,000 and $47,000 before anticipating a 30% bounce back to $60,000 to $65,000 by year-end. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Moreover, his end-of-year range now looks different. With Bitcoin currently around $86,000, achieving that target would require a drop of roughly 24% to 30% by December 31—a very different scenario from his initial forecast. In July, Thielen expanded his analysis by incorporating Elliott Wave theory, which interprets price charts as repeating wave patterns. Bitcoin's 2026 low hit $57,717 on June 30, then surged 49% to $86,000, a level far above Thielen's $46,000 bear target. Those who sold their Bitcoin near $59,000 around the time of his first forecast have missed out on about a 45% increase in value.",
-      "bestPassage": "Markus Thielen of 10x Research made two forecasts about a potential Bitcoin bottom during the summer of 2026, but Bitcoin (CRYPTO:BTC) never dipped to those levels. On June 24, he suggested that Bitcoin could drop to $55,000 between late August and October. Just ten days later, on July 4, he revised his forecast, calling for a fall to between $46,000 and $47,000 before anticipating a 30% bounce back to $60,000 to $65,000 by year-end. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Moreover, his end-of-year range now looks different. With Bitcoin currently around $86,000, achieving that target would require a drop of roughly 24% to 30% by December 31—a very different scenario from his initial forecast. In July, Thielen expanded his analysis by incorporating Elliott Wave theory, which interprets price charts as repeating wave patterns. Bitcoin's 2026 low hit $57,717 on June 30, then surged 49% to $86,000, a level far above Thielen's $46,000 bear target. Those who sold their Bitcoin near $59,000 around the time of his first forecast have missed out on about a 45% increase in value.",
-      "matchedPassages": [
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "btc",
-        "near",
-        "000",
-        "the",
-        "level",
-        "drop",
-        "december"
-      ],
-      "entityShared": [
-        "btc",
-        "december"
-      ],
-      "topicShared": [
-        "btc",
-        "000"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": true,
-        "attributionDropped": false,
-        "blocked": true
-      },
-      "factCoverage": 0,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "semantic-context-evidence-pack"
-    },
-    {
-      "index": 6,
-      "claim": "Thielen also expanded his analysis in July by applying Elliott Wave theory, a method that interprets price charts as repeating wave patterns.",
+      "index": 14,
+      "claim": "Accenture is rolling Copilot out to 100,000 employees.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 95,
+      "confidence": 88,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "10x Research Forecast Bitcoin Could Fall to $46,000, but What Really Happened? - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/10x-research-forecast-bitcoin-could-215922682.html",
-      "bestDomain": "finance.yahoo.com",
+      "bestSource": "Introducing Copilot Actions, new agents, and tools to empower IT teams - Microsoft",
+      "bestUrl": "https://www.microsoft.com/en-us/copilot/blog/2024/11/19/introducing-copilot-actions-new-agents-and-tools-to-empower-it-teams/",
+      "bestDomain": "microsoft.com",
       "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
+      "sourceRole": "CORROBORATION",
       "coreFactMatch": {
-        "factId": "F7",
+        "factId": "F9",
         "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 95
+        "sourceRole": "CORROBORATION",
+        "score": 88
       },
       "provenanceFactMatches": [
         {
-          "factId": "F7",
+          "factId": "F9",
           "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 95,
-          "passageIndex": 12
-        },
-        {
-          "factId": "F22",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 95,
-          "passageIndex": 7
+          "sourceRole": "CORROBORATION",
+          "score": 88,
+          "passageIndex": 2
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-FF7,S2-FF22",
-      "evidence": "In July, Thielen expanded his analysis by incorporating Elliott Wave theory, which interprets price charts as repeating wave patterns. In July, Thielen expanded his analysis by incorporating Elliott Wave theory, which interprets price charts as repeating wave patterns.",
-      "bestPassage": "In July, Thielen expanded his analysis by incorporating Elliott Wave theory, which interprets price charts as repeating wave patterns. In July, Thielen expanded his analysis by incorporating Elliott Wave theory, which interprets price charts as repeating wave patterns.",
+      "bestPassageId": "S1-FF9",
+      "evidence": "Dow anticipates that Copilot will save it millions of dollars on shipping operations in the first year; at Bank of Queensland Group , 70% of users are saving two and a half to five hours per week; Eaton is speeding up internal documentation processes by 83%; and Accenture is going big, rolling out Copilot to 100,000 employees.",
+      "bestPassage": "Dow anticipates that Copilot will save it millions of dollars on shipping operations in the first year; at Bank of Queensland Group , 70% of users are saving two and a half to five hours per week; Eaton is speeding up internal documentation processes by 83%; and Accenture is going big, rolling out Copilot to 100,000 employees.",
       "matchedPassages": [
-        "S1-P7",
+        "S1-P9",
         "S1-BODY"
       ],
       "sharedTerms": [
-        "thielen",
-        "expand",
-        "his",
-        "analysi",
-        "july",
-        "elliott",
-        "wave",
-        "theory",
-        "interpret",
-        "price",
-        "chart",
-        "repeat",
-        "pattern"
+        "accenture",
+        "roll",
+        "copilot",
+        "out",
+        "100",
+        "000",
+        "worker"
       ],
       "entityShared": [
-        "thielen",
-        "july",
-        "elliott",
-        "wave"
+        "accenture",
+        "copilot"
       ],
-      "topicShared": [],
+      "topicShared": [
+        "copilot"
+      ],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
@@ -437,53 +1158,222 @@
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 2,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "direct-exact-evidence"
     },
     {
-      "index": 7,
-      "claim": "The addition of this framework did not alter the end‑of‑year target, but it did signal a more detailed approach to chart interpretation.",
-      "status": "partial",
-      "classification": "uncertain",
-      "confidence": 47,
+      "index": 15,
+      "claim": "Microsoft said features powered by Hybrid Intelligence will arrive over the next couple of months.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 92,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "10x Research Forecast Bitcoin Could Fall to $46,000, but What Really Happened? - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/10x-research-forecast-bitcoin-could-215922682.html",
-      "bestDomain": "finance.yahoo.com",
-      "sourceId": "S1",
+      "bestSource": "Microsoft is giving Copilot more control over Windows and your files",
+      "bestUrl": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+      "bestDomain": "theverge.com",
+      "sourceId": "S2",
       "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": null,
-      "provenanceFactMatches": [],
+      "coreFactMatch": {
+        "factId": "F15",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 77
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F15",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 77,
+          "passageIndex": 6
+        }
+      ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "Markus Thielen of 10x Research made two forecasts about a potential Bitcoin bottom during the summer of 2026, but Bitcoin (CRYPTO:BTC) never dipped to those levels. On June 24, he suggested that Bitcoin could drop to $55,000 between late August and October. Just ten days later, on July 4, he revised his forecast, calling for a fall to between $46,000 and $47,000 before anticipating a 30% bounce back to $60,000 to $65,000 by year-end. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Moreover, his end-of-year range now looks different. With Bitcoin currently around $86,000, achieving that target would require a drop of roughly 24% to 30% by December 31—a very different scenario from his initial forecast. In July, Thielen expanded his analysis by incorporating Elliott Wave theory, which interprets price charts as repeating wave patterns. Bitcoin's 2026 low hit $57,717 on June 30, then surged 49% to $86,000, a level far above Thielen's $46,000 bear target. Those who sold their Bitcoin near $59,000 around the time of his first forecast have missed out on about a 45% increase in value.",
-      "bestPassage": "Markus Thielen of 10x Research made two forecasts about a potential Bitcoin bottom during the summer of 2026, but Bitcoin (CRYPTO:BTC) never dipped to those levels. On June 24, he suggested that Bitcoin could drop to $55,000 between late August and October. Just ten days later, on July 4, he revised his forecast, calling for a fall to between $46,000 and $47,000 before anticipating a 30% bounce back to $60,000 to $65,000 by year-end. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Moreover, his end-of-year range now looks different. With Bitcoin currently around $86,000, achieving that target would require a drop of roughly 24% to 30% by December 31—a very different scenario from his initial forecast. In July, Thielen expanded his analysis by incorporating Elliott Wave theory, which interprets price charts as repeating wave patterns. Bitcoin's 2026 low hit $57,717 on June 30, then surged 49% to $86,000, a level far above Thielen's $46,000 bear target. Those who sold their Bitcoin near $59,000 around the time of his first forecast have missed out on about a 45% increase in value.",
+      "bestPassageId": "S2-BODY",
+      "evidence": "Features powered by Hybrid Intelligence will be coming to Copilot over the “next couple months,” Andreou said.",
+      "bestPassage": "Features powered by Hybrid Intelligence will be coming to Copilot over the “next couple months,” Andreou said.",
       "matchedPassages": [
-        "S1-BODY"
+        "S2-BODY",
+        "S2-P5"
       ],
       "sharedTerms": [
+        "microsoft",
+        "featur",
+        "power",
+        "hybrid",
         "the",
-        "not",
-        "end",
-        "year",
-        "target",
-        "but",
-        "chart"
+        "next",
+        "couple",
+        "month"
       ],
-      "entityShared": [],
+      "entityShared": [
+        "microsoft",
+        "hybrid"
+      ],
       "topicShared": [
-        "but"
+        "microsoft"
       ],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
       "scopeWarnings": [],
       "attributionUncertainty": {
-        "evidenceUncertain": true,
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": true,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 16,
+      "claim": "While the company has highlighted privacy safeguards, the full scope of local file permissions and the extent of OS actions that Copilot can perform remain to be seen.",
+      "status": "partial",
+      "classification": "supported_with_context",
+      "confidence": 60,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Microsoft gives Copilot access to your local files and control of Windows - Crypto Briefing",
+      "bestUrl": "https://cryptobriefing.com/microsoft-copilot-local-file-access-os-control/",
+      "bestDomain": "cryptobriefing.com",
+      "sourceId": "S3",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F11",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 38
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F11",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 38,
+          "passageIndex": 1
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S3-BODY",
+      "evidence": "At today’s Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions across the OS.",
+      "bestPassage": "At today’s Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions across the OS.",
+      "matchedPassages": [
+        "S3-BODY"
+      ],
+      "sharedTerms": [
+        "the",
+        "has",
+        "privacy",
+        "local",
+        "and",
+        "action",
+        "copilot",
+        "can",
+        "remain"
+      ],
+      "entityShared": [
+        "copilot"
+      ],
+      "topicShared": [
+        "and",
+        "copilot"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": true,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 18,
+      "claim": "Microsoft is extending Copilot’s reach into local files and Windows system actions as part of its Hybrid Intelligence strategy, while emphasizing privacy controls and offering new management tools for IT.",
+      "type": "synthesis",
+      "status": "verified",
+      "classification": "supported_synthesis",
+      "confidence": 78,
+      "sourceId": "S3",
+      "sourceRole": "SYNTHESIS",
+      "coreFactMatch": null,
+      "synthesisFactMatches": [
+        {
+          "factId": "F16",
+          "sourceId": "S3",
+          "score": 76,
+          "passageIndex": 1
+        },
+        {
+          "factId": "F11",
+          "sourceId": "S2",
+          "score": 58,
+          "passageIndex": 1
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S3-P2,S2-P2",
+      "evidence": "Microsoft wants its AI assistant to stop just talking about your computer and start operating it. \\n At its Windows and Surface event on October 7, 2026, the company showed off a Copilot upgrade that will let the assistant reach into local files on your PC and carry out actions across the operating system. \\n \\n\\n The upgrade falls under a concept Microsoft is calling &#8220;Hybrid Intelligence.&#8221; Under this approach, apps and tools draw on a blend of AI models: some running on the device itself, others running in the cloud, with the goal of finishing tasks efficiently. \\n Taxes, accountants, and an AI that reads your inbox \\n Jacob Andreou, Microsoft&#8217;s EVP of Copilot, handled the on-stage pitch. At today’s Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions across the OS.",
+      "bestPassage": "Microsoft wants its AI assistant to stop just talking about your computer and start operating it. \\n At its Windows and Surface event on October 7, 2026, the company showed off a Copilot upgrade that will let the assistant reach into local files on your PC and carry out actions across the operating system. \\n \\n\\n The upgrade falls under a concept Microsoft is calling &#8220;Hybrid Intelligence.&#8221; Under this approach, apps and tools draw on a blend of AI models: some running on the device itself, others running in the cloud, with the goal of finishing tasks efficiently. \\n Taxes, accountants, and an AI that reads your inbox \\n Jacob Andreou, Microsoft&#8217;s EVP of Copilot, handled the on-stage pitch. At today’s Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions across the OS.",
+      "matchedPassages": [
+        "S3-P2",
+        "S2-P2"
+      ],
+      "sharedTerms": [
+        "microsoft",
+        "copilot",
+        "reach",
+        "local",
+        "fil",
+        "and",
+        "window",
+        "system",
+        "action",
+        "its",
+        "hybrid",
+        "tool"
+      ],
+      "entityShared": [
+        "microsoft",
+        "copilot",
+        "window",
+        "hybrid"
+      ],
+      "topicShared": [
+        "microsoft",
+        "copilot",
+        "fil",
+        "and",
+        "window",
+        "control"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
         "claimUncertain": false,
         "evidenceAttributed": false,
         "claimAttributed": false,
@@ -491,55 +1381,14 @@
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 0,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "semantic-context-evidence-pack"
-    },
-    {
-      "index": 9,
-      "claim": "Bitcoin’s 2026 low was $57,717, and the price later climbed to about $86,000.",
-      "type": "synthesis",
-      "status": "unsupported",
-      "classification": "unsupported_synthesis",
-      "confidence": 58,
-      "sourceId": "S1",
-      "sourceRole": "SYNTHESIS",
-      "bestSource": "10x Research Forecast Bitcoin Could Fall to $46,000, but What Really Happened? - Yahoo Finance",
-      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/10x-research-forecast-bitcoin-could-215922682.html",
-      "bestDomain": "finance.yahoo.com",
-      "coreFactMatch": null,
-      "synthesisFactMatches": [
-        {
-          "factId": "F8",
-          "sourceId": "S1",
-          "score": 58,
-          "passageIndex": 2,
-          "passageId": "S1-P2"
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-P2",
-      "evidence": "Bitcoin's 2026 low hit $57,717 on June 30, then surged 49% to $86,000, a level far above Thielen's $46,000 bear target.",
-      "bestPassage": "Bitcoin's 2026 low hit $57,717 on June 30, then surged 49% to $86,000, a level far above Thielen's $46,000 bear target.",
-      "matchedPassages": [
-        "S1-P2"
-      ],
-      "matchingMode": "fact-map-synthesis-insufficient"
+      "matchingMode": "fact-map-multi-fact-source-passage-synthesis"
     }
   ],
   "editorial": [
     {
-      "index": 5,
-      "claim": "This scenario is far from the initial forecast and illustrates how quickly price dynamics can shift.",
-      "type": "editorial-analysis",
-      "status": "editorial-excluded"
-    },
-    {
-      "index": 8,
-      "claim": "The divergence between forecast and outcome highlights the risk of relying solely on analyst predictions.",
-      "type": "editorial-analysis",
+      "index": 17,
+      "claim": "IT teams and power users should watch how the Copilot Control System evolves and how Microsoft balances local and cloud AI to protect data while delivering new productivity features.",
+      "type": "editorial-recommendation",
       "status": "editorial-excluded"
     }
   ]

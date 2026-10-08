@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "title": "10x Research Forecast Bitcoin Could Fall to $46,000, but What Really Happened? - Yahoo Finance",
-  "mode": "narrow",
+  "title": "Microsoft is giving Copilot more control over Windows and your files",
+  "mode": "bounded",
   "wordBudget": {
-    "min": 231,
-    "max": 420,
-    "soft": 326
+    "min": 425,
+    "max": 750,
+    "soft": 588
   },
   "h2Budget": {
-    "preferredMin": 1,
-    "preferredMax": 2
+    "preferredMin": 2,
+    "preferredMax": 4
   },
   "atomicClaimBudget": 18,
   "allowedFactIds": [
@@ -36,7 +36,15 @@
     "F21",
     "F22",
     "F23",
-    "F24"
+    "F24",
+    "F25",
+    "F26",
+    "F27",
+    "F28",
+    "F29",
+    "F30",
+    "F31",
+    "F32"
   ],
   "synthesis": {
     "allowed": true,
@@ -66,7 +74,15 @@
       "F21",
       "F22",
       "F23",
-      "F24"
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28",
+      "F29",
+      "F30",
+      "F31",
+      "F32"
     ]
   },
   "rules": {
@@ -75,7 +91,7 @@
     "newEntitiesInSynthesis": false,
     "newCausalityInSynthesis": false
   },
-  "generatedAt": "2026-10-07T22:30:18.530Z",
-  "articleTitle": "10x Research Bitcoin Bottom Forecast Missed – What the Numbers Reveal",
-  "articleSlug": "10x-research-bitcoin-bottom-forecast-missed-what-the-numbers-reveal"
+  "generatedAt": "2026-10-08T03:35:39.940Z",
+  "articleTitle": "Microsoft Expands Copilot’s Reach into Windows and Local Files",
+  "articleSlug": "microsoft-expands-copilot-s-reach-into-windows-and-local-files"
 }

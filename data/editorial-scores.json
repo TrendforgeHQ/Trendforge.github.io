@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-07T22:30:49.742Z",
+  "generatedAt": "2026-10-08T03:36:07.132Z",
   "status": "pass",
-  "currentGeneratedArticle": null,
-  "currentScore": null,
+  "currentGeneratedArticle": "microsoft-expands-copilot-s-reach-into-windows-and-local-files",
+  "currentScore": 90,
   "identity": {
     "method": "brief.title",
-    "rejectedMarker": true
+    "rejectedMarker": false
   },
   "policy": {
     "publishCandidate": 90,
@@ -504,6 +504,21 @@
         "topic/title similarity is high",
         "source strength/diversity needs improvement"
       ]
+    },
+    {
+      "slug": "microsoft-expands-copilot-s-reach-into-windows-and-local-files",
+      "title": "Microsoft Expands Copilot’s Reach into Windows and Local Files",
+      "category": "Digital Life",
+      "score": 90,
+      "decision": "publish_candidate",
+      "dimensions": {
+        "evidence": 80,
+        "usefulness": 97,
+        "clarity": 100,
+        "originality": 86,
+        "sourceStrength": 90
+      },
+      "reasons": []
     },
     {
       "slug": "microsoft-eyes-10-b-investment-in-middle-east-tech-ai-and-digital-resilience",

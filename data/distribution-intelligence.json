@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-07T22:30:57.761Z",
+  "generatedAt": "2026-10-08T03:36:18.673Z",
   "policy": {
     "privacyFirst": true,
     "no_scraping": true,
@@ -497,6 +497,38 @@
       ]
     },
     {
+      "slug": "microsoft-expands-copilot-s-reach-into-windows-and-local-files",
+      "title": "Microsoft Expands Copilot’s Reach into Windows and Local Files",
+      "category": "Digital Life",
+      "channels": [
+        {
+          "channel": "Google Search",
+          "action": "publish and keep canonical/indexable",
+          "reason": "organic discovery"
+        },
+        {
+          "channel": "Newsletter",
+          "action": "include when relevant",
+          "reason": "subscriber retention"
+        },
+        {
+          "channel": "RSS",
+          "action": "make available through feed",
+          "reason": "reader-controlled distribution"
+        },
+        {
+          "channel": "Social",
+          "action": "share a concise human-written excerpt",
+          "reason": "additional discovery"
+        },
+        {
+          "channel": "Direct",
+          "action": "link from related articles",
+          "reason": "internal discovery"
+        }
+      ]
+    },
+    {
       "slug": "meta-unveils-enterprise-ai-platform-names-mongodb-ceo-to-lead",
       "title": "Meta Unveils Enterprise AI Platform, Names MongoDB CEO to Lead",
       "category": "AI",
@@ -596,38 +628,6 @@
       "slug": "jpmorgan-s-266-000-bitcoin-valuation-vs-81-000-market-price-what-the-numbers-mean",
       "title": "JPMorgan’s $266,000 Bitcoin Valuation vs. $81,000 Market Price: What the Numbers Mean",
       "category": "Crypto",
-      "channels": [
-        {
-          "channel": "Google Search",
-          "action": "publish and keep canonical/indexable",
-          "reason": "organic discovery"
-        },
-        {
-          "channel": "Newsletter",
-          "action": "include when relevant",
-          "reason": "subscriber retention"
-        },
-        {
-          "channel": "RSS",
-          "action": "make available through feed",
-          "reason": "reader-controlled distribution"
-        },
-        {
-          "channel": "Social",
-          "action": "share a concise human-written excerpt",
-          "reason": "additional discovery"
-        },
-        {
-          "channel": "Direct",
-          "action": "link from related articles",
-          "reason": "internal discovery"
-        }
-      ]
-    },
-    {
-      "slug": "jim-cramer-recommends-two-ai-stocks-that-have-risen-over-1-400-since-2023",
-      "title": "Jim Cramer Recommends Two AI Stocks That Have Risen Over 1,400% Since 2023",
-      "category": "AI",
       "channels": [
         {
           "channel": "Google Search",
