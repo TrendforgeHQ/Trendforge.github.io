@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { articles } from '@/lib/articles';
 
-const base = 'https://webtooler.github.io/Trendforge';
+const base = 'https://webtooler.github.io';
 
 export const dynamic = 'force-static';
 
