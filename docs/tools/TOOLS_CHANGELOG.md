@@ -27,3 +27,18 @@ Verified against the current `main` branch before implementation:
 - No production code was changed during this inspection.
 
 Important: the first documentation branch was based on an older commit. A fresh Phase 0 branch was created from the current main deployment commit before continuing, so the documentation PR does not intentionally carry stale production-code changes.
+
+## 2026-10-08 — Route, layout and styling inspection
+
+Inspected current `main` application structure before implementing Tools:
+- `app/` is the active Next.js App Router surface; article, search, about, subscribe and monetization pages follow the existing route model.
+- `app/page.tsx` currently owns primary navigation; no Tools route/navigation exists yet.
+- `app/layout.tsx` is the global metadata/security/JSON-LD/monetization integration point and should remain free of tool-specific runtime code.
+- `app/globals.css` is the central styling layer and already contains responsive/focus/reduced-motion patterns suitable for Tool UI.
+- Existing interactive behavior is implemented through client components under `app/components/`.
+- `lib/seo.ts` is the existing canonical/metadata helper and should be extended rather than duplicated for Tools.
+- Proposed Tool hierarchy: `/tools/`, `/tools/ai/`, `/tools/developer/`, `/tools/saas/`, and `/tools/<category>/<slug>/`.
+
+Decision: integrate Tools additively into the existing app with no new frontend framework, backend, or editorial-pipeline dependency.
+
+No production code was changed during this inspection.
