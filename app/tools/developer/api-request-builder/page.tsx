@@ -1,0 +1,1 @@
+import {DeveloperTool} from "../DeveloperTool"; export const metadata={title:"API Request Builder | TrendForge",description:"API Request Builder — browser-first developer utility from TrendForge.",alternates:{canonical:"/tools/developer/api-request-builder/ "}}; export default function Page(){return <DeveloperTool kind="request" />;}
