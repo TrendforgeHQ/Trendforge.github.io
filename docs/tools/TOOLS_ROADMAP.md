@@ -2,20 +2,31 @@
 
 ## Phase 0 — Foundation
 
-Status: **IN PROGRESS**
+Status: **IN PROGRESS — architecture gate complete; final documentation gate pending**
 
 Deliverables:
 - [x] Project state document
 - [x] Blueprint
-- [ ] Permanent rules
-- [ ] Zero-cost policy
-- [ ] Tool catalog
-- [ ] Architecture decision record
+- [x] Permanent rules
+- [x] Zero-cost policy
+- [x] Tool catalog
+- [x] Architecture decision record
 - [ ] Phase completion review
 
 No production tool in this phase.
 
 ## Phase 1 — AI Utility Core
+
+**First tool selected for design: Prompt Optimizer.**
+
+Why first:
+- can be genuinely useful without an AI API;
+- can run fully in-browser;
+- can demonstrate the Tools architecture with low operational risk;
+- has clear input → analysis → improved-output behavior;
+- can later support optional advanced modes without making paid AI a core dependency.
+
+It remains **Designing**, not Building, until its UX, rule set, tests, SEO content and isolation checks are approved.
 
 Target: first small, high-value browser-side tools.
 
