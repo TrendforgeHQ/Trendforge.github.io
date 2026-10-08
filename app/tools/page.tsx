@@ -1,7 +1,7 @@
 const toolCategories = [
   { name: "AI Tools", href: "/tools/ai/", description: "Browser-first utilities for working with prompts and AI workflows.", status: "1 tool live" },
-  { name: "Developer Tools", href: "/tools/developer/", description: "Practical utilities for APIs, JSON, debugging and developer workflows.", status: "Coming next" },
-  { name: "SaaS & Business", href: "/tools/saas/", description: "Simple calculators and decision tools for SaaS and digital businesses.", status: "Coming next" },
+  { name: "Developer Tools", href: "", description: "Practical utilities for APIs, JSON, debugging and developer workflows.", status: "Coming next" },
+  { name: "SaaS & Business", href: "", description: "Simple calculators and decision tools for SaaS and digital businesses.", status: "Coming next" },
 ];
 
 export const metadata = {
