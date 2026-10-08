@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-07T23:18:08.506Z",
+  "updatedAt": "2026-10-08T06:37:04.254Z",
   "mode": "shadow",
   "policy": {
     "advisoryOnly": true,
@@ -14,9 +14,9 @@
     "noWinnerBeforeMinimumSample": true
   },
   "sample": {
-    "runs": 77,
+    "runs": 78,
     "topics": 500,
-    "articles": 42
+    "articles": 43
   },
   "learningInput": {
     "version": 2,
@@ -88,74 +88,6 @@
   "assignments": {
     "headline-style": [
       {
-        "key": "https://www.theverge.com/tech/1007132/icann-domains-2026-ai-agi",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdkJrLXo1S2JNUzhNVkFlY0oyZkR3dHl5eDd6d0JYQ0V4WlFydlJjdVJxaEJqenRuR21CM1JjM1A0TTdyT19uQ1pBMnpCUGhMU1MzbmlaR1QyeFI0enlZeW9LaWg3VGVCUkI2ZXZyR1NRa3UyaDFreVFYVW16VXFsY21uQmdRUWs?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTTVXMTF1Sk1EckV1VmVmNDFkcXJxMENlQ1dFaTFNa00zYzhZdExfNnlFdW80eXZ6WnVCcWxWU2hUTVRwOHVmNjFvNF8zdk9DVERpUGFJal9jTEp5TGZpZmtReFdxeFFaRFRKQUNpaTNIUWlKa0JoZ2x6amMzb2VZLXBycWdCLWlkOFB4SDg2dmNTMlR2aVdyODI5N1dhRXJUSWRvZDFWVlFYRlJVYnYtOWZhbFpCaGdmYklzYVJVRnNoZURTN00tQnEwZGpsbG1F?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS05CY1BZd09kbkxXSGZHQXFkMnlYeXo0SkF5RjRRMldleVE2dXJHWmsyNEVQMUdpcGNkcjZaWTZWT0xVdWVoZVRUeGlVSlczaXI2eUo2OUM4TjBkUVhDSG9sOGszbmNUbGpSUnQ1a3RudVkxZWROazgzZFNPaERVemh6Y0dFM1ZYTXUtbTJ6U3ptNGdNaXVKb2NOSGNBMnJpdnpHeWFkR0dvT1kzendnTGE1bUFNM0VOand3eElTTQ?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMie0FVX3lxTE10TGFYS3RlcVRrbURhOENrTkIwRHBVbV9OYkh3ZWd3c0FUTTBjX0JhSU1rTU1BLVI4eUVlNmFscHM2RV9IcjRYZk9UWUVMdG1PVU9Uc2pmYmVTaGRuM3REZEJ6NFBjMmxZRG1rdFF1SEg4R0ZmM3lhREJfVQ?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUmhBbTJhUGJzQWYtR0F3cmJ6cjZsUnhpek4wdHRPS2t4LTBFWnlCUDJBN24yZDlrekhqNVJqOTZfeHdxZEllYzZtR3BFN05VYW9DdnZlMXRJQ3NLeDB0VWdxVlZDS0VfeXFsLUxyYVhzUkpKd2piMHBxNkZTdkJyaE5sNDlIalFOMzIyM0lOTXRBZXltVHhyTHMtNVY4OEJxOTI0TTEyXzE2NWN1SERhaTNwTzhPak9kQTVfbE5qcw?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVTBMN092OUdiNm9XNTlmVGZTb3RSZkU2Wm50N1pRaG56Q1Vuc25oa1VOcU5LMlVBSlFzQ3phMDJQa1h1NlpmY0tlVVFadlhHVk5xdHRsVWI4X0JlY2pNMnY5Qmt3TnYxenBtRnVFUFdadUI0aktYbnpRNkw3MlFyRGlOck1fVlRxOGJrOTFEWlp1MGRiQnFrdw?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOd0llQ1ZlR3ViSzV1ZDFWc3dFdFFDTTNRV0VjVjV3RHRjZkt0bEx6akR3Q3RwY1ViUmlIRUtfUGE4VU5OTUFfRHdzLVl3bER1SURTVkYtTGJtdEFaTE1RNnpfb1E4RkowNXZsRWdrblRwTk5fOFlOY2IzS1VOT0w5QzhCWUZOc0oyeFJjMDljRVpwYUNaTlA1emJDTzF5SXFzbXc?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYWxsTWNfZlVsX2tJcHBUSlJBZjZRaUpVNnU5OG9hYnVkeG5ZMUFOa1NuaVlodGYxdjBBdnZ6WXN6NUtzTHBJRWl2N0pjcWJkRzlsU1VhaGZHa29BUmdsanc4R1Izbms4a2QzaHY1Q05JVDRKWFpRNUI1eE9ua0ZpVnZRSlRVZDFBQ3ZiV3h3?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQlQwOUh0Wlhtb1B1T1YxN1ItVmh1ck5xeE5Xa0FWR2ZRcjlDdGZSM1hUVTltMHp1aHhVM1FCYUZKNnIweDhKWjlxUGpGeVlJTFFlNElVQnBkT2VMaERTRTBCVXFTbk1BRFRPRVpRWVA2blBxbnMwR3Q4VUZVQU9iVEFyRExCVW5aSjl3bXFOYlZERUxTY0l4QjA1RS1BVjRQS1lCOW5kSWtqY0t3?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://arstechnica.com/health/2026/10/pediatricians-renew-call-to-ban-raw-milk-as-anti-science-rhetoric-reigns/",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://www.theverge.com/transportation/1006837/bmw-ix4-ev-range-price-specs-tesla-china",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://www.theverge.com/gadgets/1007149/roku-oled-tv-pro-prime-day-deal-sale",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPY0tUN2UzUG1uNXhVbzllbkR4a1F0OG9FTjNwS1VmV0tzSWhXN0NYNlBQd0VkV1g1dUgtek1mVUx1eEdjXzRaa0hkWkNRNlhUOUpaMy1ERE5qMEpOYmloMHhyQkhJVU9hREttR0w5RURIOEJYbkI3YWNEMUpWOFF1T253OXdBXzQ0MXhhM2Z6R3NnR3J2dmNraGdVeEV3OS1wZmpQd1NyU2pQMnRWbndfN25uY3dxZ0V0MnBZQTVWTERzbldTUmt2Ukh1YzhIWDVlNFBsZWdqSQ?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTG1uSU9PWjdGZkJiSHdhc0c2UF9MU3BhaFozTzhfakJQVlRoNG1DZ2RWcUhlck5ubmJjc3dyckJsUUN3Ym5RcDBEcTM4NGdxNzk5WmhiMjRvTktrM0hKSEJYazdBYjlFVmNuVnl0c2JmbmVwNlItdWdXQWF2Q3BwemRKX0NRRnl4UExoVWpkbGJ4ekE?oc=5",
-        "bucket": "variant"
-      },
-      {
         "key": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeld2ekRqbmkxdGJJczlHX0NyaWRKQ3pYOEdLVXR0Y041Um9ybDl1U3BkbGF4dmVzTGIyZ0RPY3ZsWXpFc0Y1OFdZc2Y4NUMxN3NmM1puY3Blajg1QTRGcGZXRS1rb3NJcTBzWENZdXlJQzktX3BjSmNzWnV1ZjBGaDI3ZE1TazFhb2JOMWJPNHp6RXJPdC1sMFp0OTdrVnRxR2VB?oc=5",
         "bucket": "variant"
       },
@@ -166,78 +98,78 @@
       {
         "key": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNQ3h2M1E2R2dGMklVejRtYXRnUW92Q2JtVjVNcldacF8tdTJaQnFwamxJc0c3bTVVN2lkWEJQalBfUE9zUkZSakRQb2Yzek9XZ1Z6N05QWUVvSmhqMXRZN3Bwd1pXRUFJRXl2Z0RBVTFLSmxMU195SmQyZjRUeExmVmpJTWFjekp3UjZVRTBUUVpzQ2JYX2ZXMUtad0M4WFp5LTN2ampJMjRCRDN2eXRFdzBZclZUMFNEdUdrSXJlbzc0ZVA3dW54MzVuQ2xzSVFIWkxMODBKUm1FWTkyX3NIa0xsSzJVbDUtUWQyU2tWa1A5Zmt3S0Z1SVg1SXJoXzRHTm1ZUg?oc=5",
         "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1rVG5TTXdNYjFEOURLeWluRmNkSHZBYnM5Z2xKY19QTUttZmdzRUVzVnpQTVREVTZPTFRkSTBMYXlXak1udlhIeng4Z25hZmo3?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeGNzcmIteUo2YXdxbHlGS1k0YTlQRThCNXFpQUFZYkowNUZsamdReWQ4WmYxSVU2RXd6UUhXLWNUZUxkdW1SUFdiUlhIUzVlMF9UMWx2ZUJuWl9hdk1uU2tYck1uaVp1WlFkRmNuOFpFQTRfalpnYWZxbjN0RW5WLTZXZ3lPN3VmTlRla1Q0d0pJVWVINVVkcWdzQ2xISWhMc2tHWGVNc2xZM0NCbzVZ?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdjlFdlN6cXhuRFUybHJiWS1XY1A4Rk9KaUhIMjcyRXY2bDFkYWtIUjRWM3ZUY29xNWlseFZpUEJwcXRwTm93cWQ4VUxEclJNa29iclBWc2Z3Z1hyejJVOWhZLWRiMER0dXg0aEZQa1BjVzFLaEw3SlIxUDJUaW1xVWhIdGJWbm5IbXpJakhTQjMwUk1EQmszdThqS0N0b1FTRTEtM0J5Ujk?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOTBGUXpac3JGbGhmY1pTczMwRmdIQjRUYWJlZG9hTWlaQ2R3YldmN3dQZmZObnY3SXVoenoxZVNSa3ZQQ3JscEN2alJXUGxpRHA0RkNkNW1CNHVGckUyWkttdHZmVHdtWGVKZVp3ajdRUkdsNnFfc3BJeHF6OEtpeWVtMWFlYXJfVFA4aVB0UjV5UHVZN1pldzVWU05WbVR3QVNvaWpic0Q?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbnlQeEF0azJTVURrX1dtX3JUVjFRd0R0Z0t1S0hjQ1ZwSXh0TlhaVnFndEJHbzQtVU1PUFZVbmlzNGlCZmEyMGl6Wnc3NDFsMTdLVFQ0M0R0cHJDeWRGakJFUm93Vjh6ODVxTzR3MTJadGQyYnhXSnVwaUhsTzk1ZzFlVHJqa29rRlRmR3lOZUFWQ2p2Ymt5U3p6Ti1OQW5pclI5d3lycXBUZGYxSk53cWdiNA?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQLXUxRUFoWF9icjJyU0k0M1YyTGxhUWhxd1laQmt0cHhhclFfQzBOVGNpQ3pFdDdOb1dLM1dmbVhCVkVZVEJIRlZyT1lDNmlTRldFZ2kxS2NYR0ZxcEZrcU5IdGpCdENwLTMtQ0tSQklFN1k3U3FreGZsVFF4T3NYZXd4R2lpMUhYUlRDQThQQXpzUQ?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONXhjUnRQTmpSU3pOcjgwbmNSSUxPeC03dEFoNUtCdFB1S1d0UExfTkJubXJ3Z3QyTGFieU9PakFQZ3BTb2tNMmcxTVg1MzdoMlZOV1JfZWRCNUg4RGo0NWRVallEZmNYQjZNNFNXZ0Y3S29hamRaTmZiRmRuTXA5cm4wUTU5X1BoZ0VHUw?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZV82aVNncFNSNG1zVVl2VFN2cDFtYUpUWnR3cEduTFB6SDlIcHhpYWtINEYyTERDLUhPMjJQY21QUUlYa3J1NFZGRUM2X0JxNkFYZlcwWWVWaVZtLXVMSWhWQnRlOHRtV3JpTmt1WGJaRmk2OGZUUFY3VFpVR2RQeWxnTQ?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jQTNDYkRUYklzTG5TaXpKQ0g1b0xRYy0ySG16djA2TFpOZWVSWEp1U0pqd1hxSVEyYUJtUWNPTTE1dGlQWUxUeHlZNjZUX0tLMGhMUnJQYkQwOEVONGhfR1lQQUxkNlZjZGZDOTg2VmRGSldHZThWc3RyT3NpUQ?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://techcrunch.com/2026/10/07/while-vcs-crowd-into-san-francisco-endeavor-catalyst-raises-320m-for-founders-elsewhere/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQamE4VFM5azlOUVVraDNyc21PX280YThlM2dDaEp6SVBBU1VRUGVsZFY4TnJNa0p2LTdzSk51LVJtRU5jeWdUZHJ6ZE1vUVFNTkNmRDY2QjM1R0FqWEJBZG5aM25IZ04tNUdPbVVPZEh6THpoUl9DSU5iQWhiNU5qdlhORWUxeEluQWp4amlGbVY5NlZOMkJuZlBFMEtTRXVjbWNuUTNZNHVpLWFIYWNZUEoyeG96QU5FODdMSDRkVHZSQQ?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYWYxMDVVR2xIb0pIVDFZcUVJTlBuSWRPOVZ4UnZyX01kQ3pXYU90eXZ5SVgtQjc1X3BPQVk2RUtMZzc2X1o4UGd2SmhXLTgwX2Q1anZPbHczZVlNVmVTWXQ4NmZHRDN0V084VDB3RU5FeVd5di1xU1h1b1RQeHJOaUZaYlktWmpuam0xMEstLXpTQ3dQU2ttblVTV1FMUmNsYUNPV3l0YWhUQ2pDTTFtTWlCUW04NEdNSXRqSlp1TThUQzNDWTRKNnBn?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQZG9nd3ZNUmhJRnpUZHRLZEhZbzdtem9naDU4NV91N2Z0aWRpOVFLTzkzWlh2c2gtcjd4Smw1Z1NLampkMEVTWURoOTBINnA0ZFZVb3pVd0xnQjBHRmdDQi1FSEFONkt4R2QzczRjOTZmUE1KSEFLWUM0VUUxcXBYRzRFdGY5SnMxWEZNak56dnJ0MzFzc2QteTkzTFdGSWNLaXVQajVhSXIwOXZ0RXVGNFpFM3lNSnNKVTlyVGY1b0FmNzVWRXNqdEU1a1llZFVRRWt4R2dUZEg0cEhWUEtEX1RUQ3pEcGlla1dLR3dRZXNEazBoTnZhdG9IWUoxWjBzTENkYmV2RENmRDBaYzlaOWlsNWIyelVKeGg1S21zVXIxekIzdTVBdTlXV05oaXFWNGVBWXBJRQ?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTlNodjNYQm93Rm43a1V5aHhEWHFUT0c5d1dJcXpmeXdqbklXeGo2MDVYWlVnSzV6T1NQNDZRQjNnckpoSTJ5SGhORGJTRmNpRU0teURkQ1ZJT2RWd0dLenBibWt2UzVYNVFFaENIUmstRE8xaENISTFlTXdESjE1Yk9XaTJKdGpkZTVGQjdkd1ktakoweE1V?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQanN1dW1mY2tDanFDNE9tZ0NoRFlUT3lQLS1YOFZYdnFjQ0JmLVJJR1FKYl9ucmZWMUdsNmNMRmhKazlFQkRmb2hmNVhFT3ljcFh6WUlFbndUTDRkWVZTMlB4Q1c5UVprVVdQN0VkNWl0ZFJlWURxRkxHZEp2Vk1SLVp4dEc3N0FTd2gxbzY3eVlwNko2YTR5RVVMdGRxLXd1WUQySG1UVFpqVWtFMmREd210MzlSZlFoaF95d3dUcw?oc=5",
+        "bucket": "variant"
       }
     ],
     "intro-style": [
       {
-        "key": "https://www.theverge.com/tech/1007132/icann-domains-2026-ai-agi",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdkJrLXo1S2JNUzhNVkFlY0oyZkR3dHl5eDd6d0JYQ0V4WlFydlJjdVJxaEJqenRuR21CM1JjM1A0TTdyT19uQ1pBMnpCUGhMU1MzbmlaR1QyeFI0enlZeW9LaWg3VGVCUkI2ZXZyR1NRa3UyaDFreVFYVW16VXFsY21uQmdRUWs?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTTVXMTF1Sk1EckV1VmVmNDFkcXJxMENlQ1dFaTFNa00zYzhZdExfNnlFdW80eXZ6WnVCcWxWU2hUTVRwOHVmNjFvNF8zdk9DVERpUGFJal9jTEp5TGZpZmtReFdxeFFaRFRKQUNpaTNIUWlKa0JoZ2x6amMzb2VZLXBycWdCLWlkOFB4SDg2dmNTMlR2aVdyODI5N1dhRXJUSWRvZDFWVlFYRlJVYnYtOWZhbFpCaGdmYklzYVJVRnNoZURTN00tQnEwZGpsbG1F?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS05CY1BZd09kbkxXSGZHQXFkMnlYeXo0SkF5RjRRMldleVE2dXJHWmsyNEVQMUdpcGNkcjZaWTZWT0xVdWVoZVRUeGlVSlczaXI2eUo2OUM4TjBkUVhDSG9sOGszbmNUbGpSUnQ1a3RudVkxZWROazgzZFNPaERVemh6Y0dFM1ZYTXUtbTJ6U3ptNGdNaXVKb2NOSGNBMnJpdnpHeWFkR0dvT1kzendnTGE1bUFNM0VOand3eElTTQ?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMie0FVX3lxTE10TGFYS3RlcVRrbURhOENrTkIwRHBVbV9OYkh3ZWd3c0FUTTBjX0JhSU1rTU1BLVI4eUVlNmFscHM2RV9IcjRYZk9UWUVMdG1PVU9Uc2pmYmVTaGRuM3REZEJ6NFBjMmxZRG1rdFF1SEg4R0ZmM3lhREJfVQ?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUmhBbTJhUGJzQWYtR0F3cmJ6cjZsUnhpek4wdHRPS2t4LTBFWnlCUDJBN24yZDlrekhqNVJqOTZfeHdxZEllYzZtR3BFN05VYW9DdnZlMXRJQ3NLeDB0VWdxVlZDS0VfeXFsLUxyYVhzUkpKd2piMHBxNkZTdkJyaE5sNDlIalFOMzIyM0lOTXRBZXltVHhyTHMtNVY4OEJxOTI0TTEyXzE2NWN1SERhaTNwTzhPak9kQTVfbE5qcw?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVTBMN092OUdiNm9XNTlmVGZTb3RSZkU2Wm50N1pRaG56Q1Vuc25oa1VOcU5LMlVBSlFzQ3phMDJQa1h1NlpmY0tlVVFadlhHVk5xdHRsVWI4X0JlY2pNMnY5Qmt3TnYxenBtRnVFUFdadUI0aktYbnpRNkw3MlFyRGlOck1fVlRxOGJrOTFEWlp1MGRiQnFrdw?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOd0llQ1ZlR3ViSzV1ZDFWc3dFdFFDTTNRV0VjVjV3RHRjZkt0bEx6akR3Q3RwY1ViUmlIRUtfUGE4VU5OTUFfRHdzLVl3bER1SURTVkYtTGJtdEFaTE1RNnpfb1E4RkowNXZsRWdrblRwTk5fOFlOY2IzS1VOT0w5QzhCWUZOc0oyeFJjMDljRVpwYUNaTlA1emJDTzF5SXFzbXc?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYWxsTWNfZlVsX2tJcHBUSlJBZjZRaUpVNnU5OG9hYnVkeG5ZMUFOa1NuaVlodGYxdjBBdnZ6WXN6NUtzTHBJRWl2N0pjcWJkRzlsU1VhaGZHa29BUmdsanc4R1Izbms4a2QzaHY1Q05JVDRKWFpRNUI1eE9ua0ZpVnZRSlRVZDFBQ3ZiV3h3?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQlQwOUh0Wlhtb1B1T1YxN1ItVmh1ck5xeE5Xa0FWR2ZRcjlDdGZSM1hUVTltMHp1aHhVM1FCYUZKNnIweDhKWjlxUGpGeVlJTFFlNElVQnBkT2VMaERTRTBCVXFTbk1BRFRPRVpRWVA2blBxbnMwR3Q4VUZVQU9iVEFyRExCVW5aSjl3bXFOYlZERUxTY0l4QjA1RS1BVjRQS1lCOW5kSWtqY0t3?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://arstechnica.com/health/2026/10/pediatricians-renew-call-to-ban-raw-milk-as-anti-science-rhetoric-reigns/",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://www.theverge.com/transportation/1006837/bmw-ix4-ev-range-price-specs-tesla-china",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://www.theverge.com/gadgets/1007149/roku-oled-tv-pro-prime-day-deal-sale",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPY0tUN2UzUG1uNXhVbzllbkR4a1F0OG9FTjNwS1VmV0tzSWhXN0NYNlBQd0VkV1g1dUgtek1mVUx1eEdjXzRaa0hkWkNRNlhUOUpaMy1ERE5qMEpOYmloMHhyQkhJVU9hREttR0w5RURIOEJYbkI3YWNEMUpWOFF1T253OXdBXzQ0MXhhM2Z6R3NnR3J2dmNraGdVeEV3OS1wZmpQd1NyU2pQMnRWbndfN25uY3dxZ0V0MnBZQTVWTERzbldTUmt2Ukh1YzhIWDVlNFBsZWdqSQ?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTG1uSU9PWjdGZkJiSHdhc0c2UF9MU3BhaFozTzhfakJQVlRoNG1DZ2RWcUhlck5ubmJjc3dyckJsUUN3Ym5RcDBEcTM4NGdxNzk5WmhiMjRvTktrM0hKSEJYazdBYjlFVmNuVnl0c2JmbmVwNlItdWdXQWF2Q3BwemRKX0NRRnl4UExoVWpkbGJ4ekE?oc=5",
-        "bucket": "variant"
-      },
-      {
         "key": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeld2ekRqbmkxdGJJczlHX0NyaWRKQ3pYOEdLVXR0Y041Um9ybDl1U3BkbGF4dmVzTGIyZ0RPY3ZsWXpFc0Y1OFdZc2Y4NUMxN3NmM1puY3Blajg1QTRGcGZXRS1rb3NJcTBzWENZdXlJQzktX3BjSmNzWnV1ZjBGaDI3ZE1TazFhb2JOMWJPNHp6RXJPdC1sMFp0OTdrVnRxR2VB?oc=5",
         "bucket": "variant"
       },
@@ -248,78 +180,78 @@
       {
         "key": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNQ3h2M1E2R2dGMklVejRtYXRnUW92Q2JtVjVNcldacF8tdTJaQnFwamxJc0c3bTVVN2lkWEJQalBfUE9zUkZSakRQb2Yzek9XZ1Z6N05QWUVvSmhqMXRZN3Bwd1pXRUFJRXl2Z0RBVTFLSmxMU195SmQyZjRUeExmVmpJTWFjekp3UjZVRTBUUVpzQ2JYX2ZXMUtad0M4WFp5LTN2ampJMjRCRDN2eXRFdzBZclZUMFNEdUdrSXJlbzc0ZVA3dW54MzVuQ2xzSVFIWkxMODBKUm1FWTkyX3NIa0xsSzJVbDUtUWQyU2tWa1A5Zmt3S0Z1SVg1SXJoXzRHTm1ZUg?oc=5",
         "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1rVG5TTXdNYjFEOURLeWluRmNkSHZBYnM5Z2xKY19QTUttZmdzRUVzVnpQTVREVTZPTFRkSTBMYXlXak1udlhIeng4Z25hZmo3?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeGNzcmIteUo2YXdxbHlGS1k0YTlQRThCNXFpQUFZYkowNUZsamdReWQ4WmYxSVU2RXd6UUhXLWNUZUxkdW1SUFdiUlhIUzVlMF9UMWx2ZUJuWl9hdk1uU2tYck1uaVp1WlFkRmNuOFpFQTRfalpnYWZxbjN0RW5WLTZXZ3lPN3VmTlRla1Q0d0pJVWVINVVkcWdzQ2xISWhMc2tHWGVNc2xZM0NCbzVZ?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdjlFdlN6cXhuRFUybHJiWS1XY1A4Rk9KaUhIMjcyRXY2bDFkYWtIUjRWM3ZUY29xNWlseFZpUEJwcXRwTm93cWQ4VUxEclJNa29iclBWc2Z3Z1hyejJVOWhZLWRiMER0dXg0aEZQa1BjVzFLaEw3SlIxUDJUaW1xVWhIdGJWbm5IbXpJakhTQjMwUk1EQmszdThqS0N0b1FTRTEtM0J5Ujk?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOTBGUXpac3JGbGhmY1pTczMwRmdIQjRUYWJlZG9hTWlaQ2R3YldmN3dQZmZObnY3SXVoenoxZVNSa3ZQQ3JscEN2alJXUGxpRHA0RkNkNW1CNHVGckUyWkttdHZmVHdtWGVKZVp3ajdRUkdsNnFfc3BJeHF6OEtpeWVtMWFlYXJfVFA4aVB0UjV5UHVZN1pldzVWU05WbVR3QVNvaWpic0Q?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbnlQeEF0azJTVURrX1dtX3JUVjFRd0R0Z0t1S0hjQ1ZwSXh0TlhaVnFndEJHbzQtVU1PUFZVbmlzNGlCZmEyMGl6Wnc3NDFsMTdLVFQ0M0R0cHJDeWRGakJFUm93Vjh6ODVxTzR3MTJadGQyYnhXSnVwaUhsTzk1ZzFlVHJqa29rRlRmR3lOZUFWQ2p2Ymt5U3p6Ti1OQW5pclI5d3lycXBUZGYxSk53cWdiNA?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQLXUxRUFoWF9icjJyU0k0M1YyTGxhUWhxd1laQmt0cHhhclFfQzBOVGNpQ3pFdDdOb1dLM1dmbVhCVkVZVEJIRlZyT1lDNmlTRldFZ2kxS2NYR0ZxcEZrcU5IdGpCdENwLTMtQ0tSQklFN1k3U3FreGZsVFF4T3NYZXd4R2lpMUhYUlRDQThQQXpzUQ?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONXhjUnRQTmpSU3pOcjgwbmNSSUxPeC03dEFoNUtCdFB1S1d0UExfTkJubXJ3Z3QyTGFieU9PakFQZ3BTb2tNMmcxTVg1MzdoMlZOV1JfZWRCNUg4RGo0NWRVallEZmNYQjZNNFNXZ0Y3S29hamRaTmZiRmRuTXA5cm4wUTU5X1BoZ0VHUw?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZV82aVNncFNSNG1zVVl2VFN2cDFtYUpUWnR3cEduTFB6SDlIcHhpYWtINEYyTERDLUhPMjJQY21QUUlYa3J1NFZGRUM2X0JxNkFYZlcwWWVWaVZtLXVMSWhWQnRlOHRtV3JpTmt1WGJaRmk2OGZUUFY3VFpVR2RQeWxnTQ?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jQTNDYkRUYklzTG5TaXpKQ0g1b0xRYy0ySG16djA2TFpOZWVSWEp1U0pqd1hxSVEyYUJtUWNPTTE1dGlQWUxUeHlZNjZUX0tLMGhMUnJQYkQwOEVONGhfR1lQQUxkNlZjZGZDOTg2VmRGSldHZThWc3RyT3NpUQ?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://techcrunch.com/2026/10/07/while-vcs-crowd-into-san-francisco-endeavor-catalyst-raises-320m-for-founders-elsewhere/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQamE4VFM5azlOUVVraDNyc21PX280YThlM2dDaEp6SVBBU1VRUGVsZFY4TnJNa0p2LTdzSk51LVJtRU5jeWdUZHJ6ZE1vUVFNTkNmRDY2QjM1R0FqWEJBZG5aM25IZ04tNUdPbVVPZEh6THpoUl9DSU5iQWhiNU5qdlhORWUxeEluQWp4amlGbVY5NlZOMkJuZlBFMEtTRXVjbWNuUTNZNHVpLWFIYWNZUEoyeG96QU5FODdMSDRkVHZSQQ?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYWYxMDVVR2xIb0pIVDFZcUVJTlBuSWRPOVZ4UnZyX01kQ3pXYU90eXZ5SVgtQjc1X3BPQVk2RUtMZzc2X1o4UGd2SmhXLTgwX2Q1anZPbHczZVlNVmVTWXQ4NmZHRDN0V084VDB3RU5FeVd5di1xU1h1b1RQeHJOaUZaYlktWmpuam0xMEstLXpTQ3dQU2ttblVTV1FMUmNsYUNPV3l0YWhUQ2pDTTFtTWlCUW04NEdNSXRqSlp1TThUQzNDWTRKNnBn?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQZG9nd3ZNUmhJRnpUZHRLZEhZbzdtem9naDU4NV91N2Z0aWRpOVFLTzkzWlh2c2gtcjd4Smw1Z1NLampkMEVTWURoOTBINnA0ZFZVb3pVd0xnQjBHRmdDQi1FSEFONkt4R2QzczRjOTZmUE1KSEFLWUM0VUUxcXBYRzRFdGY5SnMxWEZNak56dnJ0MzFzc2QteTkzTFdGSWNLaXVQajVhSXIwOXZ0RXVGNFpFM3lNSnNKVTlyVGY1b0FmNzVWRXNqdEU1a1llZFVRRWt4R2dUZEg0cEhWUEtEX1RUQ3pEcGlla1dLR3dRZXNEazBoTnZhdG9IWUoxWjBzTENkYmV2RENmRDBaYzlaOWlsNWIyelVKeGg1S21zVXIxekIzdTVBdTlXV05oaXFWNGVBWXBJRQ?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTlNodjNYQm93Rm43a1V5aHhEWHFUT0c5d1dJcXpmeXdqbklXeGo2MDVYWlVnSzV6T1NQNDZRQjNnckpoSTJ5SGhORGJTRmNpRU0teURkQ1ZJT2RWd0dLenBibWt2UzVYNVFFaENIUmstRE8xaENISTFlTXdESjE1Yk9XaTJKdGpkZTVGQjdkd1ktakoweE1V?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQanN1dW1mY2tDanFDNE9tZ0NoRFlUT3lQLS1YOFZYdnFjQ0JmLVJJR1FKYl9ucmZWMUdsNmNMRmhKazlFQkRmb2hmNVhFT3ljcFh6WUlFbndUTDRkWVZTMlB4Q1c5UVprVVdQN0VkNWl0ZFJlWURxRkxHZEp2Vk1SLVp4dEc3N0FTd2gxbzY3eVlwNko2YTR5RVVMdGRxLXd1WUQySG1UVFpqVWtFMmREd210MzlSZlFoaF95d3dUcw?oc=5",
+        "bucket": "variant"
       }
     ],
     "cta-placement": [
       {
-        "key": "https://www.theverge.com/tech/1007132/icann-domains-2026-ai-agi",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdkJrLXo1S2JNUzhNVkFlY0oyZkR3dHl5eDd6d0JYQ0V4WlFydlJjdVJxaEJqenRuR21CM1JjM1A0TTdyT19uQ1pBMnpCUGhMU1MzbmlaR1QyeFI0enlZeW9LaWg3VGVCUkI2ZXZyR1NRa3UyaDFreVFYVW16VXFsY21uQmdRUWs?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTTVXMTF1Sk1EckV1VmVmNDFkcXJxMENlQ1dFaTFNa00zYzhZdExfNnlFdW80eXZ6WnVCcWxWU2hUTVRwOHVmNjFvNF8zdk9DVERpUGFJal9jTEp5TGZpZmtReFdxeFFaRFRKQUNpaTNIUWlKa0JoZ2x6amMzb2VZLXBycWdCLWlkOFB4SDg2dmNTMlR2aVdyODI5N1dhRXJUSWRvZDFWVlFYRlJVYnYtOWZhbFpCaGdmYklzYVJVRnNoZURTN00tQnEwZGpsbG1F?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS05CY1BZd09kbkxXSGZHQXFkMnlYeXo0SkF5RjRRMldleVE2dXJHWmsyNEVQMUdpcGNkcjZaWTZWT0xVdWVoZVRUeGlVSlczaXI2eUo2OUM4TjBkUVhDSG9sOGszbmNUbGpSUnQ1a3RudVkxZWROazgzZFNPaERVemh6Y0dFM1ZYTXUtbTJ6U3ptNGdNaXVKb2NOSGNBMnJpdnpHeWFkR0dvT1kzendnTGE1bUFNM0VOand3eElTTQ?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMie0FVX3lxTE10TGFYS3RlcVRrbURhOENrTkIwRHBVbV9OYkh3ZWd3c0FUTTBjX0JhSU1rTU1BLVI4eUVlNmFscHM2RV9IcjRYZk9UWUVMdG1PVU9Uc2pmYmVTaGRuM3REZEJ6NFBjMmxZRG1rdFF1SEg4R0ZmM3lhREJfVQ?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUmhBbTJhUGJzQWYtR0F3cmJ6cjZsUnhpek4wdHRPS2t4LTBFWnlCUDJBN24yZDlrekhqNVJqOTZfeHdxZEllYzZtR3BFN05VYW9DdnZlMXRJQ3NLeDB0VWdxVlZDS0VfeXFsLUxyYVhzUkpKd2piMHBxNkZTdkJyaE5sNDlIalFOMzIyM0lOTXRBZXltVHhyTHMtNVY4OEJxOTI0TTEyXzE2NWN1SERhaTNwTzhPak9kQTVfbE5qcw?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVTBMN092OUdiNm9XNTlmVGZTb3RSZkU2Wm50N1pRaG56Q1Vuc25oa1VOcU5LMlVBSlFzQ3phMDJQa1h1NlpmY0tlVVFadlhHVk5xdHRsVWI4X0JlY2pNMnY5Qmt3TnYxenBtRnVFUFdadUI0aktYbnpRNkw3MlFyRGlOck1fVlRxOGJrOTFEWlp1MGRiQnFrdw?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOd0llQ1ZlR3ViSzV1ZDFWc3dFdFFDTTNRV0VjVjV3RHRjZkt0bEx6akR3Q3RwY1ViUmlIRUtfUGE4VU5OTUFfRHdzLVl3bER1SURTVkYtTGJtdEFaTE1RNnpfb1E4RkowNXZsRWdrblRwTk5fOFlOY2IzS1VOT0w5QzhCWUZOc0oyeFJjMDljRVpwYUNaTlA1emJDTzF5SXFzbXc?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYWxsTWNfZlVsX2tJcHBUSlJBZjZRaUpVNnU5OG9hYnVkeG5ZMUFOa1NuaVlodGYxdjBBdnZ6WXN6NUtzTHBJRWl2N0pjcWJkRzlsU1VhaGZHa29BUmdsanc4R1Izbms4a2QzaHY1Q05JVDRKWFpRNUI1eE9ua0ZpVnZRSlRVZDFBQ3ZiV3h3?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQlQwOUh0Wlhtb1B1T1YxN1ItVmh1ck5xeE5Xa0FWR2ZRcjlDdGZSM1hUVTltMHp1aHhVM1FCYUZKNnIweDhKWjlxUGpGeVlJTFFlNElVQnBkT2VMaERTRTBCVXFTbk1BRFRPRVpRWVA2blBxbnMwR3Q4VUZVQU9iVEFyRExCVW5aSjl3bXFOYlZERUxTY0l4QjA1RS1BVjRQS1lCOW5kSWtqY0t3?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://arstechnica.com/health/2026/10/pediatricians-renew-call-to-ban-raw-milk-as-anti-science-rhetoric-reigns/",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://www.theverge.com/transportation/1006837/bmw-ix4-ev-range-price-specs-tesla-china",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://www.theverge.com/gadgets/1007149/roku-oled-tv-pro-prime-day-deal-sale",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPY0tUN2UzUG1uNXhVbzllbkR4a1F0OG9FTjNwS1VmV0tzSWhXN0NYNlBQd0VkV1g1dUgtek1mVUx1eEdjXzRaa0hkWkNRNlhUOUpaMy1ERE5qMEpOYmloMHhyQkhJVU9hREttR0w5RURIOEJYbkI3YWNEMUpWOFF1T253OXdBXzQ0MXhhM2Z6R3NnR3J2dmNraGdVeEV3OS1wZmpQd1NyU2pQMnRWbndfN25uY3dxZ0V0MnBZQTVWTERzbldTUmt2Ukh1YzhIWDVlNFBsZWdqSQ?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTG1uSU9PWjdGZkJiSHdhc0c2UF9MU3BhaFozTzhfakJQVlRoNG1DZ2RWcUhlck5ubmJjc3dyckJsUUN3Ym5RcDBEcTM4NGdxNzk5WmhiMjRvTktrM0hKSEJYazdBYjlFVmNuVnl0c2JmbmVwNlItdWdXQWF2Q3BwemRKX0NRRnl4UExoVWpkbGJ4ekE?oc=5",
-        "bucket": "variant"
-      },
-      {
         "key": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeld2ekRqbmkxdGJJczlHX0NyaWRKQ3pYOEdLVXR0Y041Um9ybDl1U3BkbGF4dmVzTGIyZ0RPY3ZsWXpFc0Y1OFdZc2Y4NUMxN3NmM1puY3Blajg1QTRGcGZXRS1rb3NJcTBzWENZdXlJQzktX3BjSmNzWnV1ZjBGaDI3ZE1TazFhb2JOMWJPNHp6RXJPdC1sMFp0OTdrVnRxR2VB?oc=5",
         "bucket": "variant"
       },
@@ -330,6 +262,74 @@
       {
         "key": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNQ3h2M1E2R2dGMklVejRtYXRnUW92Q2JtVjVNcldacF8tdTJaQnFwamxJc0c3bTVVN2lkWEJQalBfUE9zUkZSakRQb2Yzek9XZ1Z6N05QWUVvSmhqMXRZN3Bwd1pXRUFJRXl2Z0RBVTFLSmxMU195SmQyZjRUeExmVmpJTWFjekp3UjZVRTBUUVpzQ2JYX2ZXMUtad0M4WFp5LTN2ampJMjRCRDN2eXRFdzBZclZUMFNEdUdrSXJlbzc0ZVA3dW54MzVuQ2xzSVFIWkxMODBKUm1FWTkyX3NIa0xsSzJVbDUtUWQyU2tWa1A5Zmt3S0Z1SVg1SXJoXzRHTm1ZUg?oc=5",
         "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1rVG5TTXdNYjFEOURLeWluRmNkSHZBYnM5Z2xKY19QTUttZmdzRUVzVnpQTVREVTZPTFRkSTBMYXlXak1udlhIeng4Z25hZmo3?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeGNzcmIteUo2YXdxbHlGS1k0YTlQRThCNXFpQUFZYkowNUZsamdReWQ4WmYxSVU2RXd6UUhXLWNUZUxkdW1SUFdiUlhIUzVlMF9UMWx2ZUJuWl9hdk1uU2tYck1uaVp1WlFkRmNuOFpFQTRfalpnYWZxbjN0RW5WLTZXZ3lPN3VmTlRla1Q0d0pJVWVINVVkcWdzQ2xISWhMc2tHWGVNc2xZM0NCbzVZ?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdjlFdlN6cXhuRFUybHJiWS1XY1A4Rk9KaUhIMjcyRXY2bDFkYWtIUjRWM3ZUY29xNWlseFZpUEJwcXRwTm93cWQ4VUxEclJNa29iclBWc2Z3Z1hyejJVOWhZLWRiMER0dXg0aEZQa1BjVzFLaEw3SlIxUDJUaW1xVWhIdGJWbm5IbXpJakhTQjMwUk1EQmszdThqS0N0b1FTRTEtM0J5Ujk?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOTBGUXpac3JGbGhmY1pTczMwRmdIQjRUYWJlZG9hTWlaQ2R3YldmN3dQZmZObnY3SXVoenoxZVNSa3ZQQ3JscEN2alJXUGxpRHA0RkNkNW1CNHVGckUyWkttdHZmVHdtWGVKZVp3ajdRUkdsNnFfc3BJeHF6OEtpeWVtMWFlYXJfVFA4aVB0UjV5UHVZN1pldzVWU05WbVR3QVNvaWpic0Q?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbnlQeEF0azJTVURrX1dtX3JUVjFRd0R0Z0t1S0hjQ1ZwSXh0TlhaVnFndEJHbzQtVU1PUFZVbmlzNGlCZmEyMGl6Wnc3NDFsMTdLVFQ0M0R0cHJDeWRGakJFUm93Vjh6ODVxTzR3MTJadGQyYnhXSnVwaUhsTzk1ZzFlVHJqa29rRlRmR3lOZUFWQ2p2Ymt5U3p6Ti1OQW5pclI5d3lycXBUZGYxSk53cWdiNA?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQLXUxRUFoWF9icjJyU0k0M1YyTGxhUWhxd1laQmt0cHhhclFfQzBOVGNpQ3pFdDdOb1dLM1dmbVhCVkVZVEJIRlZyT1lDNmlTRldFZ2kxS2NYR0ZxcEZrcU5IdGpCdENwLTMtQ0tSQklFN1k3U3FreGZsVFF4T3NYZXd4R2lpMUhYUlRDQThQQXpzUQ?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONXhjUnRQTmpSU3pOcjgwbmNSSUxPeC03dEFoNUtCdFB1S1d0UExfTkJubXJ3Z3QyTGFieU9PakFQZ3BTb2tNMmcxTVg1MzdoMlZOV1JfZWRCNUg4RGo0NWRVallEZmNYQjZNNFNXZ0Y3S29hamRaTmZiRmRuTXA5cm4wUTU5X1BoZ0VHUw?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZV82aVNncFNSNG1zVVl2VFN2cDFtYUpUWnR3cEduTFB6SDlIcHhpYWtINEYyTERDLUhPMjJQY21QUUlYa3J1NFZGRUM2X0JxNkFYZlcwWWVWaVZtLXVMSWhWQnRlOHRtV3JpTmt1WGJaRmk2OGZUUFY3VFpVR2RQeWxnTQ?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jQTNDYkRUYklzTG5TaXpKQ0g1b0xRYy0ySG16djA2TFpOZWVSWEp1U0pqd1hxSVEyYUJtUWNPTTE1dGlQWUxUeHlZNjZUX0tLMGhMUnJQYkQwOEVONGhfR1lQQUxkNlZjZGZDOTg2VmRGSldHZThWc3RyT3NpUQ?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://techcrunch.com/2026/10/07/while-vcs-crowd-into-san-francisco-endeavor-catalyst-raises-320m-for-founders-elsewhere/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQamE4VFM5azlOUVVraDNyc21PX280YThlM2dDaEp6SVBBU1VRUGVsZFY4TnJNa0p2LTdzSk51LVJtRU5jeWdUZHJ6ZE1vUVFNTkNmRDY2QjM1R0FqWEJBZG5aM25IZ04tNUdPbVVPZEh6THpoUl9DSU5iQWhiNU5qdlhORWUxeEluQWp4amlGbVY5NlZOMkJuZlBFMEtTRXVjbWNuUTNZNHVpLWFIYWNZUEoyeG96QU5FODdMSDRkVHZSQQ?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYWYxMDVVR2xIb0pIVDFZcUVJTlBuSWRPOVZ4UnZyX01kQ3pXYU90eXZ5SVgtQjc1X3BPQVk2RUtMZzc2X1o4UGd2SmhXLTgwX2Q1anZPbHczZVlNVmVTWXQ4NmZHRDN0V084VDB3RU5FeVd5di1xU1h1b1RQeHJOaUZaYlktWmpuam0xMEstLXpTQ3dQU2ttblVTV1FMUmNsYUNPV3l0YWhUQ2pDTTFtTWlCUW04NEdNSXRqSlp1TThUQzNDWTRKNnBn?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQZG9nd3ZNUmhJRnpUZHRLZEhZbzdtem9naDU4NV91N2Z0aWRpOVFLTzkzWlh2c2gtcjd4Smw1Z1NLampkMEVTWURoOTBINnA0ZFZVb3pVd0xnQjBHRmdDQi1FSEFONkt4R2QzczRjOTZmUE1KSEFLWUM0VUUxcXBYRzRFdGY5SnMxWEZNak56dnJ0MzFzc2QteTkzTFdGSWNLaXVQajVhSXIwOXZ0RXVGNFpFM3lNSnNKVTlyVGY1b0FmNzVWRXNqdEU1a1llZFVRRWt4R2dUZEg0cEhWUEtEX1RUQ3pEcGlla1dLR3dRZXNEazBoTnZhdG9IWUoxWjBzTENkYmV2RENmRDBaYzlaOWlsNWIyelVKeGg1S21zVXIxekIzdTVBdTlXV05oaXFWNGVBWXBJRQ?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTlNodjNYQm93Rm43a1V5aHhEWHFUT0c5d1dJcXpmeXdqbklXeGo2MDVYWlVnSzV6T1NQNDZRQjNnckpoSTJ5SGhORGJTRmNpRU0teURkQ1ZJT2RWd0dLenBibWt2UzVYNVFFaENIUmstRE8xaENISTFlTXdESjE1Yk9XaTJKdGpkZTVGQjdkd1ktakoweE1V?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQanN1dW1mY2tDanFDNE9tZ0NoRFlUT3lQLS1YOFZYdnFjQ0JmLVJJR1FKYl9ucmZWMUdsNmNMRmhKazlFQkRmb2hmNVhFT3ljcFh6WUlFbndUTDRkWVZTMlB4Q1c5UVprVVdQN0VkNWl0ZFJlWURxRkxHZEp2Vk1SLVp4dEc3N0FTd2gxbzY3eVlwNko2YTR5RVVMdGRxLXd1WUQySG1UVFpqVWtFMmREd210MzlSZlFoaF95d3dUcw?oc=5",
+        "bucket": "variant"
       }
     ]
   },
@@ -337,14 +337,14 @@
     {
       "experimentId": "headline-style",
       "sample": {
-        "control": 12,
-        "variant": 8,
+        "control": 10,
+        "variant": 10,
         "total": 20
       },
       "outcomeMetrics": {
         "editorialScore": null,
         "claimConfidence": 66,
-        "evidencePassRate": 29
+        "evidencePassRate": 30
       },
       "conclusion": "insufficient-data",
       "confidence": "medium"
@@ -352,14 +352,14 @@
     {
       "experimentId": "intro-style",
       "sample": {
-        "control": 12,
-        "variant": 8,
+        "control": 10,
+        "variant": 10,
         "total": 20
       },
       "outcomeMetrics": {
         "editorialScore": null,
         "claimConfidence": 66,
-        "evidencePassRate": 29
+        "evidencePassRate": 30
       },
       "conclusion": "insufficient-data",
       "confidence": "medium"
@@ -367,20 +367,20 @@
     {
       "experimentId": "cta-placement",
       "sample": {
-        "control": 12,
-        "variant": 8,
+        "control": 10,
+        "variant": 10,
         "total": 20
       },
       "outcomeMetrics": {
         "editorialScore": null,
         "claimConfidence": 66,
-        "evidencePassRate": 29
+        "evidencePassRate": 30
       },
       "conclusion": "insufficient-data",
       "confidence": "medium"
     }
   ],
   "history": {
-    "previousUpdatedAt": "2026-10-07T13:51:35.379Z"
+    "previousUpdatedAt": "2026-10-07T23:18:08.506Z"
   }
 }
