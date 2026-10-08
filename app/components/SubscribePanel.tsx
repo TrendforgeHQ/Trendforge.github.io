@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { articles } from '@/lib/articles';
 
-const basePath = '/Trendforge';
+const basePath = '';
 const latestArticle = [...articles].sort((a, b) => b.date.localeCompare(a.date))[0];
 
 export default function SubscribePanel() {
