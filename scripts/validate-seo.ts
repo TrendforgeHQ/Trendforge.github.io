@@ -7,6 +7,12 @@ const seenUrls = new Set<string>();
 
 function fail(message: string) { errors.push(message); }
 
+function canonicalArticleImagePath(image: string): string {
+  return image.startsWith('/Trendforge/images/articles/')
+    ? '/' + image.slice('/Trendforge/'.length)
+    : image;
+}
+
 if (!siteUrl.startsWith('https://')) fail('SEO siteUrl must use HTTPS.');
 if (!siteName.trim()) fail('SEO siteName is empty.');
 
@@ -28,7 +34,8 @@ for (const article of articles) {
   if (!article.category.trim()) fail(`${article.slug}: missing category.`);
   if (categorySlug(article.category) !== article.category.toLowerCase().trim().replace(/\s+/g, '-')) fail(`${article.slug}: category slug normalization mismatch.`);
 
-  if (!article.image?.startsWith('/Trendforge/images/articles/')) fail(`${article.slug}: image must be a local /Trendforge/images/articles/ asset.`);
+  const image = canonicalArticleImagePath(article.image || '');
+  if (!image.startsWith('/images/articles/')) fail(`${article.slug}: image must be a local /images/articles/ asset.`);
   if (!article.imageAlt.trim()) fail(`${article.slug}: missing image alt text.`);
   if (!article.imageSource.trim()) fail(`${article.slug}: missing image source metadata.`);
   if (!article.imageLicense.trim()) fail(`${article.slug}: missing image license metadata.`);

@@ -1,0 +1,26 @@
+name: SEO Validator QA
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/validate-seo.ts'
+      - 'lib/articles.ts'
+      - 'lib/seo.ts'
+      - 'content/articles/**'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+      - name: Setup Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          package-manager-cache: false
+      - name: Install dependencies
+        run: npm install
+      - name: Validate centralized SEO
+        run: npx tsx scripts/validate-seo.ts
