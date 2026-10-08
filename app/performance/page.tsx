@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function PerformancePage() {
   return <main className="performance-page">
     <header className="performance-header">
-      <a className="legal-back" href="/Trendforge/">← TrendForge</a>
+      <a className="legal-back" href="/">← TrendForge</a>
       <div className="eyebrow">Owner tool · browser only</div>
       <h1>Search performance <span>dashboard.</span></h1>
       <p>Upload a Google Search Console CSV export to see clicks, impressions, CTR, position and ranking opportunities. Your file is processed in this browser and is never uploaded by this dashboard.</p>

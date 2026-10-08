@@ -37,7 +37,7 @@ export default function RefreshPage() {
   const queue = getRefreshQueue(articles);
   return <main style={styles.page}>
     <header style={styles.header}>
-      <a style={styles.back} href="/Trendforge/">← TrendForge</a>
+      <a style={styles.back} href="/">← TrendForge</a>
       <div style={styles.eyebrow}>Owner tool · automated freshness</div>
       <h1 style={styles.h1}>Article refresh <span style={{ color: '#e85d2a' }}>queue.</span></h1>
       <p style={styles.lead}>Every published article is checked against the same freshness rules. The system recommends when to review an article; it never overwrites published copy automatically.</p>

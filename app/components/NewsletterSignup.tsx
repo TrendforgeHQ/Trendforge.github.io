@@ -12,7 +12,7 @@ export default function NewsletterSignup() {
         <h2 id="newsletter-title" className={styles.title}>Get the next useful story in your inbox.</h2>
         <p className={styles.copy}>The newsletter signup is ready, but the delivery provider has not been connected yet. TrendForge stays fully static until you choose a provider.</p>
         <div className={styles.status}>Provider connection pending · RSS is available now.</div>
-        <a className={styles.link} href="/Trendforge/feed.xml">Use the TrendForge RSS feed →</a>
+        <a className={styles.link} href="/feed.xml">Use the TrendForge RSS feed →</a>
       </section>
     );
   }

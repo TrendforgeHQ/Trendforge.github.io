@@ -13,7 +13,7 @@ type SearchArticle = {
   content: string;
 };
 
-const basePath = '/Trendforge';
+const basePath = '';
 const MAX_QUERY_LENGTH = 100;
 
 function normalize(value: string) {

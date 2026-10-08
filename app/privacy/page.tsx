@@ -1,4 +1,4 @@
-const basePath = '/Trendforge';
+const basePath = '';
 export const metadata = { title: 'Privacy Policy', description: 'TrendForge privacy policy and information about data, cookies and third-party services.' };
 
 export default function PrivacyPage() {

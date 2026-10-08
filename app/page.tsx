@@ -2,7 +2,7 @@ import { articles } from '@/lib/articles';
 import SubscribePanel from '@/app/components/SubscribePanel';
 import { TREND_FORGE_CATEGORIES, categorySlug } from '@/lib/categories';
 
-const basePath = '/Trendforge';
+const basePath = '';
 const latestArticles = [...articles].sort((a, b) => b.date.localeCompare(a.date));
 
 export default function Home() {

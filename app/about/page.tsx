@@ -1,4 +1,4 @@
-const basePath = '/Trendforge';
+const basePath = '';
 export const metadata = { title: 'About TrendForge', description: 'Learn what TrendForge covers and how we turn important technology trends into useful, original explainers.' };
 
 export default function AboutPage() {

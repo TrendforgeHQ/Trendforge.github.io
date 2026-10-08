@@ -1,6 +1,6 @@
 import { monetizationDisclosure } from '@/lib/monetization';
 
-const basePath = '/Trendforge';
+const basePath = '';
 
 export const metadata = {
   title: 'Monetization Disclosure | TrendForge',

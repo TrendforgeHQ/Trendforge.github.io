@@ -23,7 +23,7 @@ export const articles: Article[] = [
         "url": "https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026/"
       }
     ],
-    "image": "/Trendforge/images/articles/ai-co-founders-how-gusto-insight-partners-and-leland-are-reshaping-startup-hiring-at-disru.1024x576.png",
+    "image": "/images/articles/ai-co-founders-how-gusto-insight-partners-and-leland-are-reshaping-startup-hiring-at-disru.1024x576.png",
     "imageAlt": "Editorial image for AI Co‑Founders: How Gusto, Insight Partners, and Leland Are Reshaping Startup Hiring at Disrupt 2026",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -56,7 +56,7 @@ export const articles: Article[] = [
         "url": "https://www.theguardian.com/technology/2026/sep/20/your-ai-doomsday-questions-answered-could-ai-technology-really-end-humanity"
       }
     ],
-    "image": "/Trendforge/images/articles/ai-doomsday-fears-what-can-ordinary-people-actually-do.1024x576.png",
+    "image": "/images/articles/ai-doomsday-fears-what-can-ordinary-people-actually-do.1024x576.png",
     "imageAlt": "Editorial image for AI doomsday fears: what can ordinary people actually do?",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -96,7 +96,7 @@ export const articles: Article[] = [
         "url": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/"
       }
     ],
-    "image": "/Trendforge/images/articles/al-gore-says-the-real-ai-risk-isn-t-data-centers.1024x576.png",
+    "image": "/images/articles/al-gore-says-the-real-ai-risk-isn-t-data-centers.1024x576.png",
     "imageAlt": "Editorial image for Al Gore Says the Real AI Risk Isn’t Data Centers",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -129,7 +129,7 @@ export const articles: Article[] = [
         "url": "https://www.energypolicy.columbia.edu/publications/aligning-public-finance-policies-with-technology-readiness-levels-in-clean-energy-technologies-task-force-report/"
       }
     ],
-    "image": "/Trendforge/images/articles/aligning-public-finance-with-technology-readiness-in-clean-energy.1024x576.png",
+    "image": "/images/articles/aligning-public-finance-with-technology-readiness-in-clean-energy.1024x576.png",
     "imageAlt": "Editorial image for Aligning Public Finance With Technology Readiness in Clean Energy",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -167,7 +167,7 @@ export const articles: Article[] = [
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcU1YS0xFaGIxT09LRnlVc3AxVWdtZUJrYmxiY3ctc3FxZmVCbWx6LXdxaXZkUWY1TUl4N0xnZ3A3aDA0SmFNZm5xU2hQM0I4YXc3RHZUeWozQnJxcHJra3ZwNXJ2WEvTzltSy1ZdHoyMUVRNm1Ua1ZWdWF0TUw1cFpLRmVyUVI2U0dBZV9welJMczBPR1ZWN0RVYkpMTk5BRDY2Q0k5OE81Y1JPM0tmc08wWXc?oc=5"
       }
     ],
-    "image": "/Trendforge/images/articles/anthropic-s-ceo-calls-for-an-ai-slow-down-what-it-means-for-the-industry.1024x576.png",
+    "image": "/images/articles/anthropic-s-ceo-calls-for-an-ai-slow-down-what-it-means-for-the-industry.1024x576.png",
     "imageAlt": "Editorial image for Anthropic’s CEO Calls for an AI Slow‑Down – What It Means for the Industry",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -198,7 +198,7 @@ export const articles: Article[] = [
         "url": "https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai/"
       }
     ],
-    "image": "/Trendforge/images/articles/apple-eyes-2029-ai-server-with-m-series-ultra-chips.1024x576.png",
+    "image": "/images/articles/apple-eyes-2029-ai-server-with-m-series-ultra-chips.1024x576.png",
     "imageAlt": "Editorial image for Apple Eyes 2029 AI Server With M‑Series Ultra Chips",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -230,7 +230,7 @@ export const articles: Article[] = [
         "url": "https://www.theapplepost.com/2026/10/01/72876/apple-stores-receive-secret-do-not-open-boxes-ahead-of-october-13-product-launch/"
       }
     ],
-    "image": "/Trendforge/images/articles/apple-stores-get-secret-boxes-ahead-of-october-13-home-tech-launch.1024x576.png",
+    "image": "/images/articles/apple-stores-get-secret-boxes-ahead-of-october-13-home-tech-launch.1024x576.png",
     "imageAlt": "Editorial image for Apple Stores Get Secret Boxes Ahead of October 13 Home‑Tech Launch",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -271,7 +271,7 @@ export const articles: Article[] = [
         "url": "https://www.techbuzz.ai/articles/apple-locks-down-mac-disk-access-as-ai-agents-pose-new-risks"
       }
     ],
-    "image": "/Trendforge/images/articles/apple-tightens-mac-disk-access-after-ai-driven-privacy-concerns.1024x576.png",
+    "image": "/images/articles/apple-tightens-mac-disk-access-after-ai-driven-privacy-concerns.1024x576.png",
     "imageAlt": "Editorial image for Apple Tightens Mac Disk Access After AI‑Driven Privacy Concerns",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -317,7 +317,7 @@ export const articles: Article[] = [
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ1hTNkVMZU9hM2lkbnBTdEZMakdiZzNyYWNUVy16aU9sajM5cGRkVy03cWtfZHoya0l4UFlrbmhNTU9tN3o0YTRpNy03TnNhQWV2UFllcTBkc0J5cWt5OFZMVHpGNllnMkQwaGQyUWpCeDhqSi1yMkFlUVZlSG00TjhvMGZVX2ZSdWdkVS1xQ0MzSnJicy0wNTFpUnNoSFNOQS1iRWlCaVB4aGtTS1pqcUlVdGlUUHNCQW1wQnRuQQ?oc=5"
       }
     ],
-    "image": "/Trendforge/images/articles/beyond-obscurity-navigating-the-dual-eras-of-drone-threats-and-ai-driven-vulnerabilities.1024x576.png",
+    "image": "/images/articles/beyond-obscurity-navigating-the-dual-eras-of-drone-threats-and-ai-driven-vulnerabilities.1024x576.png",
     "imageAlt": "Editorial image for Beyond Obscurity: Navigating the Dual Eras of Drone Threats and AI-Driven Vulnerabilities",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -357,7 +357,7 @@ export const articles: Article[] = [
         "url": "https://247wallst.com/investing/cryptocurrency/2026/09/26/a-former-blackrock-executive-calls-bitcoin-an-exit-asset-and-ethereum-the-new-rails-bitwise-says-the-opposite/"
       }
     ],
-    "image": "/Trendforge/images/articles/bitcoin-as-an-exit-asset-ethereum-as-new-rails-diverging-views-from-former-blackrock-execu.1024x576.png",
+    "image": "/images/articles/bitcoin-as-an-exit-asset-ethereum-as-new-rails-diverging-views-from-former-blackrock-execu.1024x576.png",
     "imageAlt": "Editorial image for Bitcoin as an Exit Asset, Ethereum as New Rails: Diverging Views From Former BlackRock Executive and Bitwise",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -391,7 +391,7 @@ export const articles: Article[] = [
         "url": "https://www.cryptotimes.io/2026/09/19/coinbase-stock-jumps-11-5-as-bitcoin-climbs-back-above-80k/"
       }
     ],
-    "image": "/Trendforge/images/articles/bitcoin-returns-above-80k-coinbase-stock-jumps-11-5-amid-sec-exemption.1024x576.png",
+    "image": "/images/articles/bitcoin-returns-above-80k-coinbase-stock-jumps-11-5-amid-sec-exemption.1024x576.png",
     "imageAlt": "Editorial image for Bitcoin Returns Above $80K, Coinbase Stock Jumps 11.5% Amid SEC Exemption",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -435,7 +435,7 @@ export const articles: Article[] = [
         "url": "https://www.latimes.com/california/story/2026-09-18/newsom-creates-panel-on-ai-safety-regulation-suggests-possible-kill-switch"
       }
     ],
-    "image": "/Trendforge/images/articles/california-governor-orders-ai-safety-panel-and-considers-kill-switch.1024x576.png",
+    "image": "/images/articles/california-governor-orders-ai-safety-panel-and-considers-kill-switch.1024x576.png",
     "imageAlt": "Editorial image for California Governor Orders AI Safety Panel and Considers ‘Kill Switch’",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -466,7 +466,7 @@ export const articles: Article[] = [
         "url": "https://www.cryptotimes.io/2026/09/18/cftc-sends-crypto-market-rulemaking-to-white-house-for-review/"
       }
     ],
-    "image": "/Trendforge/images/articles/cftc-sends-crypto-rule-draft-to-white-house-for-review.1024x576.png",
+    "image": "/images/articles/cftc-sends-crypto-rule-draft-to-white-house-for-review.1024x576.png",
     "imageAlt": "Editorial image for CFTC Sends Crypto Rule Draft to White House for Review",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -497,7 +497,7 @@ export const articles: Article[] = [
         "url": "https://techcrunch.com/2026/09/17/comp-ai-sets-eyes-on-a-continiously-agentic-future-for-security-and-complaince/"
       }
     ],
-    "image": "/Trendforge/images/articles/comp-ai-raises-34m-series-a-to-build-agentic-security-and-compliance-platform.1024x576.png",
+    "image": "/images/articles/comp-ai-raises-34m-series-a-to-build-agentic-security-and-compliance-platform.1024x576.png",
     "imageAlt": "Editorial image for Comp AI raises $34M Series A to build agentic security and compliance platform",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -530,7 +530,7 @@ export const articles: Article[] = [
         "url": "https://www.cnbc.com/2026/09/18/disney-cto-tech.html"
       }
     ],
-    "image": "/Trendforge/images/articles/disney-appoints-first-ever-cto-as-it-pushes-technology-into-every-wing.1024x576.png",
+    "image": "/images/articles/disney-appoints-first-ever-cto-as-it-pushes-technology-into-every-wing.1024x576.png",
     "imageAlt": "Editorial image for Disney Appoints First‑Ever CTO as It Pushes Technology into Every Wing",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -559,7 +559,7 @@ export const articles: Article[] = [
         "url": "https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/"
       }
     ],
-    "image": "/Trendforge/images/articles/exclusive-paying-for-frontier-ai-models-buys-4-month-head-start-at-5x-the-cost.1024x576.png",
+    "image": "/images/articles/exclusive-paying-for-frontier-ai-models-buys-4-month-head-start-at-5x-the-cost.1024x576.png",
     "imageAlt": "Editorial image for Exclusive: Paying for frontier AI models buys 4-month head start at 5x the cost",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -591,7 +591,7 @@ export const articles: Article[] = [
         "url": "https://ua.news/en/technologies/fairphone-predstavit-remontopridatni-navushniki-fairbuds-2-14-zhovtnia-the-verge"
       }
     ],
-    "image": "/Trendforge/images/articles/fairphone-unveils-fairbuds-2-repairable-earbuds-on-october-14.1024x576.png",
+    "image": "/images/articles/fairphone-unveils-fairbuds-2-repairable-earbuds-on-october-14.1024x576.png",
     "imageAlt": "Editorial image for Fairphone Unveils Fairbuds 2 Repairable Earbuds on October 14",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -635,7 +635,7 @@ export const articles: Article[] = [
         "url": "https://dailytimes.com.pk/1557806/google-to-test-first-orbital-ai-data-centre-on-october-1/"
       }
     ],
-    "image": "/Trendforge/images/articles/google-s-first-orbital-ai-data-center-test-launches-on-october-1.1024x576.png",
+    "image": "/images/articles/google-s-first-orbital-ai-data-center-test-launches-on-october-1.1024x576.png",
     "imageAlt": "Editorial image for Google’s First Orbital AI Data Center Test Launches on October 1",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -676,7 +676,7 @@ export const articles: Article[] = [
         "url": "https://techcrunch.com/2026/09/10/google-is-making-it-easier-to-switch-between-password-managers-on-android/"
       }
     ],
-    "image": "/Trendforge/images/articles/how-to-move-passwords-and-passkeys-between-managers-on-android.1024x576.png",
+    "image": "/images/articles/how-to-move-passwords-and-passkeys-between-managers-on-android.1024x576.png",
     "imageAlt": "Editorial image for How to Move Passwords and Passkeys Between Managers on Android",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -715,7 +715,7 @@ export const articles: Article[] = [
         "url": "https://blog.google/innovation-and-ai/technology/safety-security/world-password-day-2026/"
       }
     ],
-    "image": "/Trendforge/images/articles/how-to-set-up-a-passkey-for-your-google-account.1024x576.png",
+    "image": "/images/articles/how-to-set-up-a-passkey-for-your-google-account.1024x576.png",
     "imageAlt": "Editorial image for How to Set Up a Passkey for Your Google Account",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -754,7 +754,7 @@ export const articles: Article[] = [
         "url": "https://www.androidauthority.com/how-to-update-apps-on-android-3265904/"
       }
     ],
-    "image": "/Trendforge/images/articles/how-to-update-android-apps-safely-and-keep-them-current.1024x576.png",
+    "image": "/images/articles/how-to-update-android-apps-safely-and-keep-them-current.1024x576.png",
     "imageAlt": "Editorial image for How to Update Android Apps Safely and Keep Them Current",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -787,7 +787,7 @@ export const articles: Article[] = [
         "url": "https://arstechnica.com/gadgets/2026/09/iran-strikes-on-amazon-data-centers-caused-permanent-loss-of-customer-data/"
       }
     ],
-    "image": "/Trendforge/images/articles/iranian-strikes-wipe-out-amazon-cloud-data-in-bahrain-uae.1024x576.png",
+    "image": "/images/articles/iranian-strikes-wipe-out-amazon-cloud-data-in-bahrain-uae.1024x576.png",
     "imageAlt": "Editorial image for Iranian Strikes Wipe Out Amazon Cloud Data in Bahrain, UAE",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -823,7 +823,7 @@ export const articles: Article[] = [
         "url": "https://www.fool.com/investing/2026/09/26/jim-cramer-says-buy-2-ai-stocks-up-1400-since-2023/"
       }
     ],
-    "image": "/Trendforge/images/articles/jim-cramer-recommends-two-ai-stocks-that-have-risen-over-1-400-since-2023.1024x576.png",
+    "image": "/images/articles/jim-cramer-recommends-two-ai-stocks-that-have-risen-over-1-400-since-2023.1024x576.png",
     "imageAlt": "Editorial image for Jim Cramer Recommends Two AI Stocks That Have Risen Over 1,400% Since 2023",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -853,7 +853,7 @@ export const articles: Article[] = [
         "url": "https://247wallst.com/investing/cryptocurrency/2026/09/18/jpmorgan-values-bitcoin-at-266000-against-gold-why-its-trading-below-81000/"
       }
     ],
-    "image": "/Trendforge/images/articles/jpmorgan-s-266-000-bitcoin-valuation-vs-81-000-market-price-what-the-numbers-mean.1024x576.png",
+    "image": "/images/articles/jpmorgan-s-266-000-bitcoin-valuation-vs-81-000-market-price-what-the-numbers-mean.1024x576.png",
     "imageAlt": "Editorial image for JPMorgan’s $266,000 Bitcoin Valuation vs. $81,000 Market Price: What the Numbers Mean",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -884,7 +884,7 @@ export const articles: Article[] = [
         "url": "https://www.theverge.com/tech/998457/meta-connect-2026-live-blog-mark-zuckerberg-keynote"
       }
     ],
-    "image": "/Trendforge/images/articles/meta-s-connect-2026-unveils-new-glasses-and-a-rumored-mixed-reality-headset.1024x576.png",
+    "image": "/images/articles/meta-s-connect-2026-unveils-new-glasses-and-a-rumored-mixed-reality-headset.1024x576.png",
     "imageAlt": "Editorial image for Meta’s Connect 2026 Unveils New Glasses and a Rumored Mixed‑Reality Headset",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -916,7 +916,7 @@ export const articles: Article[] = [
         "url": "https://news.ssbcrack.com/metas-ai-muse-exposes-filesystem-with-minimal-prompting-raising-security-concerns/"
       }
     ],
-    "image": "/Trendforge/images/articles/meta-s-muse-now-shows-its-entire-filesystem-to-users.1024x576.png",
+    "image": "/images/articles/meta-s-muse-now-shows-its-entire-filesystem-to-users.1024x576.png",
     "imageAlt": "Editorial image for Meta’s Muse Now Shows Its Entire Filesystem to Users",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -960,7 +960,7 @@ export const articles: Article[] = [
         "url": "https://www.peoplematters.in/amp/news/leadership/meta-hires-indian-origin-mongodb-ceo-to-lead-new-enterprise-ai-business-52391"
       }
     ],
-    "image": "/Trendforge/images/articles/meta-unveils-enterprise-ai-platform-names-mongodb-ceo-to-lead.1024x576.png",
+    "image": "/images/articles/meta-unveils-enterprise-ai-platform-names-mongodb-ceo-to-lead.1024x576.png",
     "imageAlt": "Editorial image for Meta Unveils Enterprise AI Platform, Names MongoDB CEO to Lead",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -1005,7 +1005,7 @@ export const articles: Article[] = [
         "url": "https://www.newsbytesapp.com/news/science/microsoft-unveils-hybrid-intelligence-check-features/story"
       }
     ],
-    "image": "/Trendforge/images/articles/microsoft-expands-copilot-s-reach-into-windows-and-local-files.1024x576.png",
+    "image": "/images/articles/microsoft-expands-copilot-s-reach-into-windows-and-local-files.1024x576.png",
     "imageAlt": "Editorial image for Microsoft Expands Copilot’s Reach into Windows and Local Files",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -1047,7 +1047,7 @@ export const articles: Article[] = [
         "url": "https://www.securities.io/microsoft-plans-more-than-10-billion-in-middle-east-investment/"
       }
     ],
-    "image": "/Trendforge/images/articles/microsoft-eyes-10-b-investment-in-middle-east-tech-ai-and-digital-resilience.1024x576.png",
+    "image": "/images/articles/microsoft-eyes-10-b-investment-in-middle-east-tech-ai-and-digital-resilience.1024x576.png",
     "imageAlt": "Editorial image for Microsoft Eyes $10 B+ Investment in Middle East Tech, AI, and Digital Resilience",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -1080,7 +1080,7 @@ export const articles: Article[] = [
         "url": "https://247wallst.com/investing/cryptocurrency/2026/10/07/morgan-stanley-runs-bitcoin-ethereum-and-solana-etfs-at-a-0-14-fee-which-coin-gets-its-money-first/"
       }
     ],
-    "image": "/Trendforge/images/articles/morgan-stanley-s-0-14-crypto-etfs-which-token-gets-the-first-dollar.1024x576.png",
+    "image": "/images/articles/morgan-stanley-s-0-14-crypto-etfs-which-token-gets-the-first-dollar.1024x576.png",
     "imageAlt": "Editorial image for Morgan Stanley’s 0.14% Crypto ETFs: Which Token Gets the First Dollar?",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -1110,7 +1110,7 @@ export const articles: Article[] = [
         "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-slows-ai-training-following-latest-security-incident/"
       }
     ],
-    "image": "/Trendforge/images/articles/openai-slows-ai-training-after-hugging-face-breach.1024x576.png",
+    "image": "/images/articles/openai-slows-ai-training-after-hugging-face-breach.1024x576.png",
     "imageAlt": "Editorial image for OpenAI Slows AI Training After Hugging Face Breach",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -1141,7 +1141,7 @@ export const articles: Article[] = [
         "url": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/"
       }
     ],
-    "image": "/Trendforge/images/articles/openai-unveils-dots-a-persistent-ai-assistant-with-a-new-premium-tier.1024x576.png",
+    "image": "/images/articles/openai-unveils-dots-a-persistent-ai-assistant-with-a-new-premium-tier.1024x576.png",
     "imageAlt": "Editorial image for OpenAI Unveils Dots, a Persistent AI Assistant with a New Premium Tier",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -1173,7 +1173,7 @@ export const articles: Article[] = [
         "url": "https://techcrunch.com/2026/09/30/pledge-signed-by-president-trump-and-top-ai-leaders-misspells-the-united-states/"
       }
     ],
-    "image": "/Trendforge/images/articles/president-trump-s-ai-pledge-misspells-united-states.1024x576.png",
+    "image": "/images/articles/president-trump-s-ai-pledge-misspells-united-states.1024x576.png",
     "imageAlt": "Editorial image for President Trump’s AI pledge misspells United States",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -1202,7 +1202,7 @@ export const articles: Article[] = [
         "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/"
       }
     ],
-    "image": "/Trendforge/images/articles/reflection-unveils-beam-an-open-weight-model-aiming-to-outperform-chinese-counterparts.1024x576.png",
+    "image": "/images/articles/reflection-unveils-beam-an-open-weight-model-aiming-to-outperform-chinese-counterparts.1024x576.png",
     "imageAlt": "Editorial image for Reflection Unveils Beam, an Open-Weight Model Aiming to Outperform Chinese Counterparts",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -1234,7 +1234,7 @@ export const articles: Article[] = [
         "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-winning-washington-despite-clarity-014510880.html"
       }
     ],
-    "image": "/Trendforge/images/articles/sec-moves-forward-with-tokenization-rules-after-clarity-act-stalls.1024x576.png",
+    "image": "/images/articles/sec-moves-forward-with-tokenization-rules-after-clarity-act-stalls.1024x576.png",
     "imageAlt": "Editorial image for SEC Moves Forward with Tokenization Rules After CLARITY Act Stalls",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -1265,7 +1265,7 @@ export const articles: Article[] = [
         "url": "https://6abc.com/post/security-guard-sought-man-shot-outside-club-spring-garden/19907091/"
       }
     ],
-    "image": "/Trendforge/images/articles/security-guard-wanted-after-shooting-man-outside-club-on-spring-garden.1024x576.png",
+    "image": "/images/articles/security-guard-wanted-after-shooting-man-outside-club-on-spring-garden.1024x576.png",
     "imageAlt": "Editorial image for Security Guard Wanted After Shooting Man Outside Club on Spring Garden",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -1307,7 +1307,7 @@ export const articles: Article[] = [
         "url": "https://startupfortune.com/shopify-opens-every-storefront-to-ai-agents-with-new-webmcp-tools/"
       }
     ],
-    "image": "/Trendforge/images/articles/shopify-enables-browser-based-ai-agents-to-complete-checkout.1024x576.png",
+    "image": "/images/articles/shopify-enables-browser-based-ai-agents-to-complete-checkout.1024x576.png",
     "imageAlt": "Editorial image for Shopify Enables Browser‑Based AI Agents to Complete Checkout",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -1341,7 +1341,7 @@ export const articles: Article[] = [
         "url": "https://247wallst.com/investing/cryptocurrency/2026/10/04/tether-brings-its-184-billion-stablecoin-back-to-bitcoin-will-btc-regain-its-role-as-a-payments-network/"
       }
     ],
-    "image": "/Trendforge/images/articles/tether-reintroduces-usdt-to-bitcoin-what-it-means-for-the-network.1024x576.png",
+    "image": "/images/articles/tether-reintroduces-usdt-to-bitcoin-what-it-means-for-the-network.1024x576.png",
     "imageAlt": "Editorial image for Tether Reintroduces USDT to Bitcoin: What It Means for the Network",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -1369,7 +1369,7 @@ export const articles: Article[] = [
         "url": "https://www.theverge.com/tech/996715/apple-watch-series-12-review-wearables-smartwatch"
       }
     ],
-    "image": "/Trendforge/images/articles/the-apple-watch-series-12-is-the-start-of-a-new-wearable-era.1024x576.png",
+    "image": "/images/articles/the-apple-watch-series-12-is-the-start-of-a-new-wearable-era.1024x576.png",
     "imageAlt": "Editorial image for The Apple Watch Series 12 is the start of a new wearable era",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -1415,7 +1415,7 @@ export const articles: Article[] = [
         "url": "https://www.cbsnews.com/news/trump-u-s-greenland-deal-security-denmark-bases/"
       }
     ],
-    "image": "/Trendforge/images/articles/trump-announces-u-s-permanent-control-over-greenland-security-denmark-and-greenland-to-sig.1024x576.png",
+    "image": "/images/articles/trump-announces-u-s-permanent-control-over-greenland-security-denmark-and-greenland-to-sig.1024x576.png",
     "imageAlt": "Editorial image for Trump Announces U.S. “Permanent Control” Over Greenland Security, Denmark and Greenland to Sign Deal",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -1454,7 +1454,7 @@ export const articles: Article[] = [
         "url": "https://economictimes.indiatimes.com/tech/technology/trump-forms-super-intelligence-force-to-cement-us-dominance-in-next-gen-ai/articleshow/134676199.cms?from=mdr"
       }
     ],
-    "image": "/Trendforge/images/articles/trump-launches-super-intelligence-force-to-coordinate-u-s-ai-policy.1024x576.png",
+    "image": "/images/articles/trump-launches-super-intelligence-force-to-coordinate-u-s-ai-policy.1024x576.png",
     "imageAlt": "Editorial image for Trump Launches Super Intelligence Force to Coordinate U.S. AI Policy",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -1497,7 +1497,7 @@ export const articles: Article[] = [
         "url": "https://techcrunch.com/2026/09/18/fbi-coast-guard-boarded-hacked-oil-tankers-heading-towards-us-coast/"
       }
     ],
-    "image": "/Trendforge/images/articles/u-s-agencies-board-oil-tankers-after-cyberattacks-target-navigation-and-propulsion-systems.1024x576.png",
+    "image": "/images/articles/u-s-agencies-board-oil-tankers-after-cyberattacks-target-navigation-and-propulsion-systems.1024x576.png",
     "imageAlt": "Editorial image for U.S. Agencies Board Oil Tankers After Cyberattacks Target Navigation and Propulsion Systems",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",
@@ -1533,7 +1533,7 @@ export const articles: Article[] = [
         "url": "https://247wallst.com/investing/cryptocurrency/2026/09/28/litecoin-at-500-or-bitcoin-at-200000-which-happens-first/"
       }
     ],
-    "image": "/Trendforge/images/articles/which-will-hit-first-litecoin-s-500-target-vs-bitcoin-s-200-000-goal.1024x576.png",
+    "image": "/images/articles/which-will-hit-first-litecoin-s-500-target-vs-bitcoin-s-200-000-goal.1024x576.png",
     "imageAlt": "Editorial image for Which Will Hit First? Litecoin’s $500 Target vs Bitcoin’s $200,000 Goal",
     "imageSource": "Cloudflare Workers AI — FLUX.1 Schnell",
     "imageLicense": "Model-generated",

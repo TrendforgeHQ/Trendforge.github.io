@@ -1,6 +1,6 @@
 import { articles } from '@/lib/articles';
 
-const siteUrl = 'https://webtooler.github.io/Trendforge';
+const siteUrl = 'https://webtooler.github.io';
 
 export const dynamic = 'force-static';
 
