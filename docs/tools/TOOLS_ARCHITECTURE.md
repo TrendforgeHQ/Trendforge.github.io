@@ -31,3 +31,38 @@
 **Decision:** A production tool page includes useful explanation, examples, privacy information and related content, not only the interactive widget.
 
 **Reason:** Better usability, discoverability and long-term value.
+
+## ADR-006: Integrate with existing app structure
+
+**Decision:** Tools will use the existing Next.js `app/` routing model, centralized styling system, and existing SEO helpers.
+
+**Reason:** Keep Tools native to TrendForge without introducing a second frontend system.
+
+## ADR-007: Proposed Tool URL hierarchy
+
+**Decision:** Reserve:
+- `/tools/` — Tools hub
+- `/tools/ai/` — AI tools
+- `/tools/developer/` — Developer tools
+- `/tools/saas/` — SaaS / Business tools
+- `/tools/<category>/<slug>/` — individual tools
+
+**Reason:** Clear hierarchy for users, internal links and search engines, compatible with the current root GitHub Pages deployment.
+
+## ADR-008: Navigation integration
+
+**Decision:** Add Tools to the existing TrendForge primary navigation rather than creating a second site-wide navigation system.
+
+**Reason:** Minimize scope and preserve the current visual/navigation model.
+
+## ADR-009: Styling strategy
+
+**Decision:** Reuse existing visual primitives and centralized `app/globals.css`; add Tool-specific classes only where necessary.
+
+**Reason:** The current site already has responsive, focus-visible and reduced-motion patterns.
+
+## ADR-010: Runtime boundary
+
+**Decision:** Keep tool computation client-side where practical and do not modify the editorial pipeline, monetization loader, or global layout for tool-specific logic.
+
+**Reason:** Preserve zero-cost/privacy-first behavior and reduce regression/quota risk.
