@@ -8,7 +8,7 @@ const forbidden = [
   "provider-routing", "repair", "image-generation", "publication",
 ];
 
-function walk(dir: string): string[] {
+function walk(dir) {
   return fs.readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
     const full = path.join(dir, entry.name);
     return entry.isDirectory() ? walk(full) : [full];
