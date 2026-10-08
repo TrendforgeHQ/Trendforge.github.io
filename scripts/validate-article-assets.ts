@@ -29,6 +29,11 @@ function resolveLocalImagePath(image: string) {
   return '';
 }
 
+/** Normalize legacy article URLs before applying the canonical image safety rules. */
+function canonicalImageUrl(image: string) {
+  return image.startsWith('/Trendforge/') ? '/' + image.slice('/Trendforge/'.length) : image;
+}
+
 let failed = false;
 const manifestPath = 'data/image-manifest.json';
 const imageManifest = fs.existsSync(manifestPath) ? JSON.parse(fs.readFileSync(manifestPath, 'utf8')) : { images: {} };
@@ -46,6 +51,7 @@ for (const file of files) {
   const generator = field(front, 'imageGeneratedBy');
   const slug = field(front, 'slug') || file.replace(/\.md$/, '');
   const localPath = resolveLocalImagePath(image);
+  const normalizedImage = canonicalImageUrl(image);
 
   const isFlux =
     imageSource === 'Cloudflare Workers AI — FLUX.1 Schnell' &&
@@ -58,7 +64,7 @@ for (const file of files) {
     generator === 'TrendForge SVG fallback' &&
     image.endsWith('.svg');
 
-  const candidate: ImageCandidate = { url: image, source: imageSource, license: imageLicense };
+  const candidate: ImageCandidate = { url: normalizedImage, source: imageSource, license: imageLicense };
   const gate = copyrightSafetyGate(
     { content: body, sources: [...raw.matchAll(/\]\((https:\/\/[^)]+)\)/g)].map(m => m[1]), images: [candidate] },
     { requireImages: true }
