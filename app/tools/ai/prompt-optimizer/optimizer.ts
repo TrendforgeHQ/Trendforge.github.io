@@ -11,9 +11,6 @@ export type PromptOptimization = {
   improvedPrompt: string;
 };
 
-const sentenceCount = (text: string) =>
-  text.split(/[.!?]+/).map((s) => s.trim()).filter(Boolean).length;
-
 export function optimizePrompt(input: string): PromptOptimization {
   const prompt = input.trim();
   if (!prompt) return { score: 0, findings: [], improvedPrompt: "" };
