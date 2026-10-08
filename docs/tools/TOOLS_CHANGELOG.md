@@ -43,7 +43,6 @@ Decision: integrate Tools additively into the existing app with no new frontend 
 
 No production code was changed during this inspection.
 
-
 ## 2026-10-08 — Publishing-pipeline firewall locked
 
 - Added a permanent hard firewall between Tools and the editorial publishing pipeline.
@@ -54,7 +53,6 @@ No production code was changed during this inspection.
 - Selected **Prompt Optimizer** as the first Phase 1 tool for **design**, not implementation.
 - Prompt Optimizer was selected because its zero-cost core can be browser-only, deterministic and low-risk.
 - No production Tool UI was added.
-
 
 ## 2026-10-08 — Prompt Optimizer design gate
 
@@ -81,7 +79,6 @@ No production code was changed during this inspection.
 - Existing Autoprefixer warnings remain outside the Tool scope.
 - No workflow changes.
 
-
 ## 2026-10-08 — Tools UX + navigation
 
 - Polished Prompt Optimizer workspace and responsive styling.
@@ -90,3 +87,10 @@ No production code was changed during this inspection.
 - Added Tools to the TrendForge homepage navigation.
 - Kept unreleased tool categories non-clickable.
 - Re-ran tests, isolation guard and production build: all passed; 71 static pages generated.
+
+## 2026-10-08 — Tools hub cleanup
+
+- Removed the user-facing `How we build` / privacy-and-zero-cost explainer from the Tools hub; these principles remain documented internally.
+- Removed the `1 tool live` status label from the AI Tools card.
+- Kept the hub focused on discovering available and upcoming tool categories.
+- Kept the change isolated to the Tools hub; no publishing workflows or editorial systems were modified.
