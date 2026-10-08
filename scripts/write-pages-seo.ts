@@ -2,7 +2,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { articles } from '../lib/articles';
 import { TREND_FORGE_CATEGORIES, categorySlug } from '../lib/categories';
 
-const siteUrl = 'https://webtooler.github.io';
+const siteUrl = 'https://trendforgehq.github.io';
 
 function escapeXml(value: string) {
   return value
@@ -71,7 +71,7 @@ if (!writtenSitemap.startsWith('<?xml version="1.0" encoding="UTF-8"?>')) {
 if (!writtenSitemap.includes('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')) {
   throw new Error('Generated sitemap is missing the sitemap namespace.');
 }
-if (!writtenSitemap.includes('<loc>https://webtooler.github.io/</loc>')) {
+if (!writtenSitemap.includes('<loc>https://trendforgehq.github.io/</loc>')) {
   throw new Error('Generated sitemap is missing the canonical homepage.');
 }
 if (!writtenRobots.includes(`Sitemap: ${siteUrl}/sitemap.xml`)) {
