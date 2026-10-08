@@ -104,3 +104,8 @@ The first Phase 1 tool selected for **designing** is **Prompt Optimizer**. It is
 ## Next step
 
 Complete the Phase 0 documentation review, then design and test Prompt Optimizer before any production Tool UI is added.
+
+
+## Phase 1 — Prompt Optimizer design
+
+Design specification created at `docs/tools/PROMPT_OPTIMIZER_SPEC.md`. Status remains **Designing**; no production Tool code has been added. The design explicitly forbids model APIs, persistence, backend processing and every publishing-pipeline dependency.
