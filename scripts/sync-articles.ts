@@ -59,7 +59,7 @@ for (const file of files) {
   const publishedAt = field(front, 'publishedAt');
   const date = publishedAt.slice(0, 10) || new Date().toISOString().slice(0, 10);
   const author = field(front, 'author') || 'Tejendra Pal Singh';
-  const image = field(front, 'image');
+  const image = field(front, 'image').replace(/^\/Trendforge\//, '/');
   const imageAlt = field(front, 'imageAlt');
   const imageSource = field(front, 'imageSource');
   const imageLicense = field(front, 'imageLicense');

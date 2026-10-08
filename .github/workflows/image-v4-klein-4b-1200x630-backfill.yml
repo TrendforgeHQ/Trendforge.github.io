@@ -205,7 +205,7 @@ jobs:
               const body = raw.slice(separator + 3);
               const lines = front.split(/\r?\n/).filter(Boolean);
               const values = {
-                image: '/Trendforge/images/articles/' + row.output,
+                image: '/images/articles/' + row.output,
                 imageAlt: 'Editorial image for ' + row.title,
                 imageSource: 'Cloudflare Workers AI — FLUX.1 Schnell',
                 imageLicense: 'Model-generated',
