@@ -16,7 +16,7 @@ The Tools area exists to:
 
 **Phase 0 — Foundation / Blueprint**
 
-Status: IN PROGRESS
+Status: IN PROGRESS — architecture gate complete; documentation gate pending
 
 No production tools have been added yet.
 
@@ -95,6 +95,12 @@ The first Tools implementation will be additive: establish the Tools route struc
 
 No production code has been changed during this inspection.
 
+## Phase 0 gate — architecture locked
+
+The publishing-pipeline firewall is now a permanent rule. Tools cannot import, invoke, trigger or depend on editorial generation, evidence, claim verification, writer/provider routing, repair, image generation or publication automation.
+
+The first Phase 1 tool selected for **designing** is **Prompt Optimizer**. It is not being built yet.
+
 ## Next step
 
-Lock Phase 0 architecture/design, then select the first tool using the criteria in `TOOLS_ROADMAP.md`.
+Complete the Phase 0 documentation review, then design and test Prompt Optimizer before any production Tool UI is added.
