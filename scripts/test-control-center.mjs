@@ -22,6 +22,13 @@ const checks = [
   ['no auto publish', page.includes('auto-publish')],
   ['unknown status is not green', page.includes("state === 'good' ? '🟢' : state === 'watch' ? '🟡' : '⚪'")],
   ['responsive mobile layout', css.includes('@media(max-width:620px)')],
+  ['committed memory source', page.includes("readJson('trendforge-memory.json')")],
+  ['committed performance source', page.includes("readJson('trendforge-performance.json')")],
+  ['committed learning source', page.includes("readJson('trendforge-learning.json')")],
+  ['no missing supervisor file dependency', !page.includes("readJson('trendforge-supervisor.json')")],
+  ['no missing audit file dependency', !page.includes("readJson('trendforge-audit-trail.json')")],
+  ['no missing security file dependency', !page.includes("readJson('trendforge-security-reliability.json')")],
+  ['no missing monetization file dependency', !page.includes("readJson('trendforge-monetization-intelligence.json')")],
   ['provider responsive layout', css.includes('.cc-provider-grid')],
   ['audit responsive layout', css.includes('.cc-audit-row')],
 ];
