@@ -6,7 +6,7 @@ Status values: Planned / Designing / Building / Testing / Ready / Live / Needs-f
 
 | Tool | Status | Zero-cost core | Notes |
 |---|---|---|---|
-| Prompt Optimizer | Planned | Yes | Rule-based prompt improvement first |
+| Prompt Optimizer | **Designing** | Yes | **Phase 1 first-tool candidate**; rule-based prompt improvement first |
 | Prompt Comparator | Planned | Yes | Compare prompts structurally |
 | LLM Cost Calculator | Planned | Yes | Local calculation from model pricing inputs |
 | Token / Context Calculator | Planned | Yes | Model-aware estimation where possible |
