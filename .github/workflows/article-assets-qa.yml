@@ -1,0 +1,27 @@
+name: Article Asset Gate QA
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/validate-article-assets.ts'
+      - 'lib/copyright-safety.ts'
+      - 'content/articles/**'
+      - 'public/images/articles/**'
+      - 'data/image-manifest.json'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+      - name: Setup Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          package-manager-cache: false
+      - name: Install dependencies
+        run: npm install
+      - name: Validate article assets
+        run: npx tsx scripts/validate-article-assets.ts
