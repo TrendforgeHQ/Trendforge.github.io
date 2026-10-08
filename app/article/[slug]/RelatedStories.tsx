@@ -1,7 +1,7 @@
 import type { RelatedArticle } from '@/lib/internal-links-v2';
 import styles from './RelatedStories.module.css';
 
-const basePath = '/Trendforge';
+const basePath = '';
 
 export default function RelatedStories({ articles }: { articles: RelatedArticle[] }) {
   return (
