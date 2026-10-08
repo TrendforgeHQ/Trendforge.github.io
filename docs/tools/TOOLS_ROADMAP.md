@@ -20,6 +20,16 @@ No production tool in this phase.
 **First tool selected for design: Prompt Optimizer.**
 
 Why first:
+- useful without an AI API;
+- fully browser-side;
+- low operational risk;
+- clear input → analysis → improved-output flow.
+
+It remains **Designing**, not Building, until UX, rules, tests, SEO content and isolation checks are approved.
+
+**First tool selected for design: Prompt Optimizer.**
+
+Why first:
 - can be genuinely useful without an AI API;
 - can run fully in-browser;
 - can demonstrate the Tools architecture with low operational risk;
