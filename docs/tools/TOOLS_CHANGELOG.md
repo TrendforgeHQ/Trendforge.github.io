@@ -80,3 +80,13 @@ No production code was changed during this inspection.
 - Production Next.js build passed and statically exported the new Tool route.
 - Existing Autoprefixer warnings remain outside the Tool scope.
 - No workflow changes.
+
+
+## 2026-10-08 — Tools UX + navigation
+
+- Polished Prompt Optimizer workspace and responsive styling.
+- Added canonical metadata and clearer privacy/implementation messaging.
+- Added `/tools/` hub and `/tools/ai/` landing page.
+- Added Tools to the TrendForge homepage navigation.
+- Kept unreleased tool categories non-clickable.
+- Re-ran tests, isolation guard and production build: all passed; 71 static pages generated.
