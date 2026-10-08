@@ -38,7 +38,7 @@ These findings are recorded as architecture inputs only. No production code was 
 - Repository: `TrendforgeHQ/Trendforgehq.github.io`
 - Production site: `https://trendforgehq.github.io/`
 - Default branch: `main`
-- Foundation branch: `docs/tools-foundation`
+- Foundation branch: `docs/tools-foundation-v2`
 
 ## First implementation rule
 
@@ -78,6 +78,23 @@ A tool should solve a real problem and be materially more useful than a generic 
 
 The Tools work must remain isolated from TrendForge's article-generation/publishing pipeline. Adding or changing tools must not trigger expensive article-generation or image-generation workflows.
 
+## Phase 0 architecture inspection — completed
+
+Inspected current `main` before production implementation:
+- Route pages are colocated under `app/`, with article pages under `app/article/[slug]/` and dedicated pages such as `search`, `about`, `subscribe`, and `monetization`.
+- `app/page.tsx` owns primary navigation; there is currently no Tools route or navigation.
+- `app/layout.tsx` is the global metadata/security/JSON-LD/monetization integration point and should not receive tool-specific runtime logic.
+- `app/globals.css` is the central styling layer and already contains responsive, focus-visible and reduced-motion patterns.
+- Interactive features use client components under `app/components/`; tool computation should be client-side only when interactivity requires it.
+- The static root-site model supports Tool URLs such as `/tools/` and `/tools/<category>/<slug>/`.
+- `lib/seo.ts` provides the existing canonical URL and metadata conventions; Tools should extend these rather than create a parallel SEO system.
+
+## Integration boundary
+
+The first Tools implementation will be additive: establish the Tools route structure, add only necessary reusable UI, integrate navigation deliberately, and keep article generation, evidence, image generation and monetization workflows unchanged.
+
+No production code has been changed during this inspection.
+
 ## Next step
 
-Complete Phase 0 documentation and architecture review, then select the first tool using the criteria in `TOOLS_ROADMAP.md`.
+Lock Phase 0 architecture/design, then select the first tool using the criteria in `TOOLS_ROADMAP.md`.
