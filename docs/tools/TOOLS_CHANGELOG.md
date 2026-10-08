@@ -42,3 +42,15 @@ Inspected current `main` application structure before implementing Tools:
 Decision: integrate Tools additively into the existing app with no new frontend framework, backend, or editorial-pipeline dependency.
 
 No production code was changed during this inspection.
+
+
+## 2026-10-08 — Publishing-pipeline firewall locked
+
+- Added a permanent hard firewall between Tools and the editorial publishing pipeline.
+- Tools may not import, invoke, trigger or depend on article generation, evidence, claim verification, writer/provider routing, repair, image generation or publication automation.
+- Tool work must not add workflow triggers that can start publishing work.
+- Failure isolation is required in both directions.
+- Recorded a removal test: the editorial pipeline must remain conceptually independent if the Tools area is removed.
+- Selected **Prompt Optimizer** as the first Phase 1 tool for **design**, not implementation.
+- Prompt Optimizer was selected because its zero-cost core can be browser-only, deterministic and low-risk.
+- No production Tool UI was added.
