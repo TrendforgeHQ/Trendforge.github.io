@@ -57,7 +57,8 @@
     "writer-evidence-selection:test": "node tests/test-writer-evidence-passage-selection.mjs",
     "writer-evidence-claim-mapping:test": "node tests/test-writer-evidence-claim-mapping.mjs",
     "claims:run405-calibration": "node scripts/test-claim-verifier-run405-calibration.mjs",
-    "temporal:test": "node scripts/test-claim-verifier.mjs"
+    "temporal:test": "node scripts/test-claim-verifier.mjs",
+    "prompt-optimizer:test": "npx tsx tests/test-prompt-optimizer.ts"
   },
   "dependencies": {
     "next": "15.5.24",
