@@ -66,3 +66,22 @@
 **Decision:** Keep tool computation client-side where practical and do not modify the editorial pipeline, monetization loader, or global layout for tool-specific logic.
 
 **Reason:** Preserve zero-cost/privacy-first behavior and reduce regression/quota risk.
+
+## ADR-011: Hard publishing-pipeline firewall
+
+**Decision:** Tools and editorial publishing are separate dependency domains.
+
+**Allowed dependency direction:**
+`site shell / shared safe UI` → `Tools`
+`site shell / shared safe UI` → `Editorial`
+
+**Forbidden dependency direction:**
+`Tools` → `Editorial pipeline`
+
+Tools cannot import, invoke, trigger, or require article generation, evidence collection, claim verification, writer/provider routing, repair, image generation, or publication automation.
+
+**Trigger rule:** Tool commits must not add workflow triggers capable of starting the publishing pipeline.
+
+**Failure isolation:** A failure in Tools must not block publication, and a failure in publication must not block Tools.
+
+**Removal test:** The publishing pipeline must remain buildable and conceptually independent if the entire `app/tools` area is removed.
