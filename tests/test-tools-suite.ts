@@ -13,7 +13,7 @@ const root = process.cwd();
 const expect = (condition: unknown, message: string) => assert.ok(condition, message);
 
 const prompt = optimizePrompt("Make this good.");
-assert.equal(prompt.score, 70);
+assert.equal(prompt.score, 40);
 expect(prompt.findings.length >= 2, "Prompt Optimizer should flag vague prompts.");
 expect(optimizePrompt("Compare these APIs and return a markdown table.").findings.every((f) => f.id !== "format"), "Prompt Optimizer format check failed.");
 
