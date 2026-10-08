@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import type { Article } from './articles';
 
-export const siteUrl = 'https://webtooler.github.io';
+export const siteUrl = 'https://trendforgehq.github.io';
 export const siteName = 'TrendForge';
 export const siteTitle = 'TrendForge — What Matters, Explained';
 export const defaultDescription = 'Smart, useful stories about AI, technology, digital life and how-to guides.';
