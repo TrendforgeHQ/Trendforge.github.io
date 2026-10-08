@@ -55,3 +55,17 @@ A tool enters Building only after design review and explicit phase approval.
 | LLM Cost Calculator | **Building** | Yes | Editable pricing assumptions; no hard-coded provider dependency |
 | Token / Context Calculator | **Building** | Yes | Approximate token and context planning |
 | RAG Chunking Calculator | **Building** | Yes | Chunk count and overlap planning |
+
+
+## 2026-10-08 — Phase 3 SaaS & Business suite
+
+| Tool | Status | Zero-cost core | Notes |
+|---|---|---|---|
+| SaaS Pricing Calculator | **Building** | Yes | Browser-side pricing scenario model |
+| MRR Calculator | **Building** | Yes | Monthly recurring revenue movements |
+| ARR Calculator | **Building** | Yes | MRR-to-ARR run rate |
+| Churn Calculator | **Building** | Yes | Customer churn and retention |
+| LTV Calculator | **Building** | Yes | ARPA, gross margin and churn assumptions |
+| CAC Calculator | **Building** | Yes | Sales and marketing spend model |
+| SaaS Break-even Calculator | **Building** | Yes | Contribution-margin break-even model |
+| Revenue Forecast Calculator | **Building** | Yes | Simple compounded growth scenario |
