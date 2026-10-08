@@ -3,8 +3,8 @@
 import { useState } from 'react';
 import NewsletterSignup from '@/app/components/NewsletterSignup';
 
-const basePath = '/Trendforge';
-const feedUrl = 'https://webtooler.github.io/Trendforge/feed.xml';
+const basePath = '';
+const feedUrl = 'https://webtooler.github.io/feed.xml';
 
 export default function SubscribePage() {
   const [copied, setCopied] = useState(false);
