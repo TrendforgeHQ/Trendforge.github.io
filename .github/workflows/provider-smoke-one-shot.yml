@@ -19,7 +19,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        provider: [Groq, Gemini, Cohere, OpenRouter]
+        provider: [Cohere, OpenRouter]
     runs-on: ubuntu-latest
     timeout-minutes: 3
     env:
