@@ -1,4 +1,5 @@
 name: Bounded Gemini Writer-Stage Canary
+# JSON files must end with a real newline, not a literal backslash-n.
 
 on:
   push:
