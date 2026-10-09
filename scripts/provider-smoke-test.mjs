@@ -2,16 +2,17 @@ import assert from 'node:assert/strict';
 import { request } from './trendforge-writer-engine.mjs';
 
 const provider=String(process.env.PROVIDER_SMOKE_TARGET||'').trim();
-const allowed=new Set(['Gemini','Cohere','OpenRouter']);
-if(!allowed.has(provider)) throw new Error('Set PROVIDER_SMOKE_TARGET to exactly one of Gemini, Cohere, or OpenRouter.');
+const allowed=new Set(['Groq','Gemini','Cohere','OpenRouter']);
+if(!allowed.has(provider)) throw new Error('Set PROVIDER_SMOKE_TARGET to exactly one of Groq, Gemini, Cohere, or OpenRouter.');
 
-const keyName={Gemini:'GEMINI_API_KEY',Cohere:'COHERE_API_KEY',OpenRouter:'OPENROUTER_API_KEY'}[provider];
+const keyName={Groq:'GROQ_API_KEY',Gemini:'GEMINI_API_KEY',Cohere:'COHERE_API_KEY',OpenRouter:'OPENROUTER_API_KEY'}[provider];
 if(!process.env[keyName]) throw new Error(`Missing required secret: ${keyName}`);
 
 const schema={type:'object',properties:{
   title:{type:'string'},description:{type:'string'},content:{type:'string'}
 },required:['title','description','content'],additionalProperties:false};
 const formats={
+  Groq:{type:'json_schema',json_schema:{name:'trendforge_provider_smoke',strict:true,schema}},
   Cohere:{type:'json_object',schema},
   OpenRouter:{type:'json_object'}
 };
@@ -24,7 +25,7 @@ const prompt=[
 
 const result=await request(provider,prompt,'Return only the requested JSON object.',formats,{maxCompletionTokens:300});
 const raw=String(result.text||'');
-const cleaned=raw.trim().replace(/^\`\`\`(?:json)?\s*/i,'').replace(/\s*\`\`\`$/i,'');
+const cleaned=raw.trim().replace(/^```(?:json)?\s*/i,'').replace(/\s*```$/i,'');
 const candidates=[cleaned];
 const start=cleaned.indexOf('{'),end=cleaned.lastIndexOf('}');
 if(start>=0&&end>start&&cleaned.slice(start,end+1)!==cleaned)candidates.push(cleaned.slice(start,end+1));
@@ -47,5 +48,5 @@ for(const field of ['title','description','content']) {
   assert.ok(parsed[field].trim().length>0,`Empty required field: ${field}`);
 }
 assert.deepEqual(Object.keys(parsed).sort(),['content','description','title'],'Unexpected keys in response.');
-console.log(`PASS: ${provider} live response-contract smoke test. model=${result.diagnostics?.model||process.env[provider==='Gemini'?'GEMINI_MODEL':provider==='Cohere'?'COHERE_MODEL':'OPENROUTER_MODEL']||'provider default'} diagnostics=${JSON.stringify({...result.diagnostics,parseMode:candidates.indexOf(JSON.stringify(parsed))>0?'embedded':'strict-or-fenced',rawLength:raw.length})}`);
+console.log(`PASS: ${provider} live response-contract smoke test. model=${result.diagnostics?.model||process.env[provider==='Groq'?'GROQ_MODEL':provider==='Gemini'?'GEMINI_MODEL':provider==='Cohere'?'COHERE_MODEL':'OPENROUTER_MODEL']||'provider default'} diagnostics=${JSON.stringify({...result.diagnostics,parseMode:candidates.indexOf(JSON.stringify(parsed))>0?'embedded':'strict-or-fenced',rawLength:raw.length})}`);
 if(result.usage) console.log(`Usage metadata: ${JSON.stringify(result.usage)}`);
