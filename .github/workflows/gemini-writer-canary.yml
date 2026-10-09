@@ -1,6 +1,7 @@
 name: Bounded Gemini Writer-Stage Canary
 # JSON files must end with a real newline, not a literal backslash-n.
 # The canary resets run-local gate markers and checks candidate/source identity before research.
+# Token alignment unit tests run before any fresh research or provider request.
 
 on:
   push:
