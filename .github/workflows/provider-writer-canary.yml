@@ -1,0 +1,35 @@
+name: Isolated AI Provider Writer-Stage Canaries
+
+on:
+  push:
+    branches:
+      - fix/provider-response-contracts-2026-10-09
+    paths:
+      - ".github/workflows/provider-writer-canary.yml"
+      - "scripts/provider-writer-canary.mjs"
+      - "scripts/trendforge-writer-engine.mjs"
+
+permissions:
+  contents: read
+
+jobs:
+  writer-canary:
+    if: github.event.head_commit.message == 'Run isolated provider writer canaries'
+    strategy:
+      fail-fast: false
+      matrix:
+        provider: [Cohere, OpenRouter]
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    env:
+      COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      PROVIDER_WRITER_TARGET: ${{ matrix.provider }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          package-manager-cache: false
+      - name: Run one bounded ${{ matrix.provider }} writer-stage request
+        run: node scripts/provider-writer-canary.mjs
