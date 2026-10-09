@@ -1,0 +1,29 @@
+name: One-shot Gemini Provider Smoke Test
+
+on:
+  push:
+    branches:
+      - fix/provider-response-contracts-2026-10-09
+    paths:
+      - "scripts/provider-smoke-test.mjs"
+
+permissions:
+  contents: read
+
+jobs:
+  gemini-smoke:
+    if: github.event.head_commit.message == 'Add isolated Gemini provider smoke test'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_MODEL: gemini-3.6-flash
+      PROVIDER_SMOKE_TARGET: Gemini
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          package-manager-cache: false
+      - name: Run one bounded Gemini response-contract request
+        run: node scripts/provider-smoke-test.mjs
