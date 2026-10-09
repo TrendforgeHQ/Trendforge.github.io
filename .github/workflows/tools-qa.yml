@@ -26,6 +26,8 @@ jobs:
           package-manager-cache: false
       - name: Install dependencies
         run: npm install --no-audit --no-fund
+      - name: Run mocked provider contract tests
+        run: npm run provider-contracts:test
       - name: Run consolidated tools QA
         run: npm run tools:test
       - name: Production build
