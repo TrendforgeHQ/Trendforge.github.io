@@ -8,7 +8,7 @@ process.env.OPENROUTER_MODEL='openrouter/free';
 process.env.COHERE_MODEL='command-a-plus-05-2026';
 
 const originalFetch=globalThis.fetch;
-const { request: requestProviderForTest, parseWriterJson }=await import('./trendforge-writer-engine.mjs');
+const { request: requestProviderForTest, parseWriterJson, assessWriterTopicAlignment }=await import('./trendforge-writer-engine.mjs');
 
 function response(status, payload, headers={}) {
   return {
@@ -117,6 +117,20 @@ try {
     const valid=Boolean(parsed&&['title','description','content'].every(field=>typeof parsed[field]==='string'&&parsed[field].trim().length>0));
     assert.equal(valid,false,label+' must not pass the writer response contract');
   }
+
+  // Story-title drift regression: shared generic words such as "open source"
+  // must not let a security-funding article pass for a cost-of-software story.
+  const requestedStory='How much does it cost to use open source software?';
+  assert.equal(assessWriterTopicAlignment(requestedStory, {
+    title:'Major Tech Firms Pledge $12.5 Million for Open Source Security',
+    description:'A collective funding pledge and research on open source software adoption highlight security efforts.',
+    content:'The article covers a security pledge and then mentions software cost savings.'
+  }).passed, false, 'writer must reject a draft whose title has drifted to a neighboring story');
+  assert.equal(assessWriterTopicAlignment(requestedStory, {
+    title:'The Value of Open Source Software Is More Than Cost Savings',
+    description:'A survey examines why companies adopt open source software.',
+    content:'The survey identifies cost savings, customization, and community expertise.'
+  }).passed, true, 'writer should accept a genuinely aligned cost-of-software title');
 
   console.log('PASS: mocked provider contract tests (Gemini, Cohere, OpenRouter, no-hint 429). No live provider requests were made.');
 } finally {
