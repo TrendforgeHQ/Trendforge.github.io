@@ -5,7 +5,7 @@ import { validateDraft } from './trendforge-editorial-policy.mjs';
 const writerEngine=fs.readFileSync(new URL('./trendforge-writer-engine.mjs',import.meta.url),'utf8');
 const providerRouter=fs.readFileSync(new URL('./ai-provider-router.mjs',import.meta.url),'utf8');
 assert.match(writerEngine,/thinkingLevel:'minimal'/,'Gemini 3 Flash must reserve output budget for the article by minimizing default thinking.');
-assert.match(writerEngine,/candidateTokenCount:candidate\?\.usageMetadata\?\.candidatesTokenCount/,'Gemini diagnostics must capture candidate tokens to identify thinking-budget exhaustion.');
+assert.match(writerEngine,/candidateTokenCount:j\\.usageMetadata\\?\\.candidatesTokenCount/,'Gemini diagnostics must capture candidate tokens to identify thinking-budget exhaustion.');
 assert.match(writerEngine,/finishReason:choice\?\.finish_reason/,'OpenAI-compatible providers must expose finish reasons in safe diagnostics.');
 assert.match(writerEngine,/finishReason:j\.finish_reason\|\|j\.message\?\.finish_reason/,'Cohere diagnostics must expose finish reason.');
 assert.match(writerEngine,/inspectWriterOutput\(text\)/,'Invalid provider output must log shape diagnostics without logging article text.');
