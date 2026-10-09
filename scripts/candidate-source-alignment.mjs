@@ -2,7 +2,7 @@ const GENERIC = new Set([
   'about','after','again','also','been','being','could','from','have','into','more','most','over','said','some','than','that','their','there','these','they','this','what','when','which','with','will','would','your',
   'technology','digital','latest','news','article','story','report','reports','reported','according','development','developments','company','companies','industry','open','source','using','used','use','much','does','how','the','costs'
 ]);
-const normalize = value => String(value || '').toLowerCase().replace(/[^a-z0-9]+/g,' ').split(/\\s+/).filter(Boolean);
+const normalize = value => String(value || '').toLowerCase().replace(/[^a-z0-9]+/g,' ').split(/\s+/).filter(Boolean);
 const anchorTokens = value => new Set(normalize(value).filter(word => word.length >= 4 && !GENERIC.has(word)));
 
 export function assessCandidateSourceAlignment(candidate = {}, source = {}) {
