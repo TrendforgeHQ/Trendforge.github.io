@@ -39,7 +39,10 @@ const started=Date.now();
 const result=await request(provider,prompt,system,formats,{maxCompletionTokens:1600});
 const raw=String(result.text||'');
 const draft=parseWriterJson(raw);
-assert.ok(draft&&typeof draft==='object'&&!Array.isArray(draft),`${provider}: response is not parseable JSON`);
+if(!draft||typeof draft!=='object'||Array.isArray(draft)) {
+  console.error(`DIAGNOSTIC: ${provider} returned non-parseable writer output; model=${result.diagnostics?.model||'unknown'}; finishReason=${result.diagnostics?.finishReason||'unknown'}; rawLength=${raw.length}; diagnostics=${JSON.stringify(result.diagnostics||{})}; rawPreview=${JSON.stringify(raw.slice(0,500))}`);
+  throw new Error(`${provider}: response is not parseable JSON`);
+}
 assert.deepEqual(Object.keys(draft).sort(),['content','description','title'],`${provider}: unexpected JSON fields`);
 for(const field of ['title','description','content']) assert.equal(typeof draft[field],'string',`${provider}: ${field} must be a string`);
 for(const field of ['title','description','content']) assert.ok(draft[field].trim().length>0,`${provider}: ${field} is empty`);
