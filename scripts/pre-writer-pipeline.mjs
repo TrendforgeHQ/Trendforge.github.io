@@ -167,12 +167,12 @@ for(const record of candidates){
     if(!fam||seenFamilies.has(fam))continue;
     const page=await fetchPage(url);
     if(!page)continue;
-    const evidence=extractEvidenceFromHtml(page.html,record.title,`${source.title||''} ${record.description||''}`);
+    const evidence=extractEvidenceFromHtml(page.html,record.title,`${source.title||''} ${source.description||''}`);
     if(!evidence.body||evidence.selectedPassageCount<3)continue;
 
     const alignment=assessCandidateSourceAlignment(record,{
       title:evidence.headline||source.title||'',
-      description:evidence.description||record.description||'',
+      description:evidence.description||source.description||'',
       body:evidence.body,
       passages:evidence.passages
     });
