@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 
 const statePath='data/ai-provider-state.json';
-const COOLDOWN_RATE_MS=8*1000;
+const COOLDOWN_RATE_MS=30*1000;
 const COOLDOWN_SERVER_MS=2*60*1000;
 const COOLDOWN_TRANSIENT_MS=30*1000;
 const COOLDOWN_HARD_QUOTA_MS=6*60*60*1000;
