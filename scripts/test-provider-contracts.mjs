@@ -96,7 +96,8 @@ try {
   for (const [label,raw] of [
     ['strict JSON',validWriterJson],
     ['fenced JSON','```json\n'+validWriterJson+'\n```'],
-    ['JSON embedded in wrapper text','Provider output: '+validWriterJson+' End of output.']
+    ['JSON embedded in wrapper text','Provider output: '+validWriterJson+' End of output.'],
+    ['JSON followed by a separate braced diagnostic','Provider output: '+validWriterJson+' Diagnostic: {"status":"complete"}']
   ]) {
     const parsed=parseWriterJson(raw);
     assert.ok(parsed, label+' should parse');
