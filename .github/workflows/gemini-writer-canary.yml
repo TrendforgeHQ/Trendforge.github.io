@@ -61,12 +61,12 @@ jobs:
             process.exit(21);
           }
           const kept=rows.filter(t=>t.link===selected.link);
-          if(Array.isArray(scored)) fs.writeFileSync(scoredPath,JSON.stringify(kept,null,2)+'\\n');
-          else fs.writeFileSync(scoredPath,JSON.stringify({...scored,trends:kept},null,2)+'\\n');
+          if(Array.isArray(scored)) fs.writeFileSync(scoredPath,JSON.stringify(kept,null,2)+'\n');
+          else fs.writeFileSync(scoredPath,JSON.stringify({...scored,trends:kept},null,2)+'\n');
           fs.writeFileSync('data/writer-canary-selection.json',JSON.stringify({
             status:'selected-one-candidate',title:selected.title,link:selected.link,category:selected.category,
             readyCount:ready.length,selectedAt:new Date().toISOString(),publishingDisabled:true
-          },null,2)+'\\n');
+          },null,2)+'\n');
           console.log('Selected exactly one writer-ready candidate: '+selected.title);
           NODE
       - name: Reset run-local writer state
@@ -84,7 +84,7 @@ jobs:
           const read=p=>{try{return JSON.parse(fs.readFileSync(p,'utf8'));}catch{return null;}};
           const files=['data/writer-canary-selection.json','data/pre-writer-pipeline.json','data/article-brief.json','data/article-contract.json','data/editorial-gate.json','data/current-article-rejected.json','data/current-run-article.json'];
           const out={recordedAt:new Date().toISOString(),provider:'Gemini only (other provider keys intentionally absent)',publishingDisabled:true,files:Object.fromEntries(files.map(p=>[p,read(p)]))};
-          fs.writeFileSync('data/writer-canary-result.json',JSON.stringify(out,null,2)+'\\n');
+          fs.writeFileSync('data/writer-canary-result.json',JSON.stringify(out,null,2)+'\n');
           console.log(JSON.stringify({
             selected:!!out.files['data/writer-canary-selection.json'],
             selectedTitle:out.files['data/writer-canary-selection.json']?.title||null,
