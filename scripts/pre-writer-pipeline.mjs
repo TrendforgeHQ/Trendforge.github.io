@@ -6,6 +6,7 @@ import { deriveEvidenceArticleBlueprint } from './evidence-article-blueprint.mjs
 import { buildAuthoritativeEvidencePack } from './authoritative-evidence-pack.mjs';
 import { buildEditorialEvidenceBrief } from './editorial-evidence-brief.mjs';
 import { buildStoryFactMap } from './story-fact-map.mjs';
+import { assessCandidateSourceAlignment } from './candidate-source-alignment.mjs';
 
 const OUTPUT='data/pre-writer-pipeline.json';
 const MAX_CANDIDATES=24;
@@ -168,6 +169,17 @@ for(const record of candidates){
     if(!page)continue;
     const evidence=extractEvidenceFromHtml(page.html,record.title,`${source.title||''} ${record.description||''}`);
     if(!evidence.body||evidence.selectedPassageCount<3)continue;
+
+    const alignment=assessCandidateSourceAlignment(record,{
+      title:evidence.headline||source.title||'',
+      description:evidence.description||record.description||'',
+      body:evidence.body,
+      passages:evidence.passages
+    });
+    if(!alignment.aligned){
+      console.log(`Publisher source rejected for candidate mismatch: "${record.title}" <- "${evidence.headline||source.title||url}" (${alignment.reason}; anchors: ${alignment.sharedAnchors.join(', ')||'none'}).`);
+      continue;
+    }
 
     seenFamilies.add(fam);
     sources.push({
