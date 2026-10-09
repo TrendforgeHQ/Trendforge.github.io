@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { request } from './trendforge-writer-engine.mjs';
+import { request, parseWriterJson } from './trendforge-writer-engine.mjs';
 
 const provider=String(process.env.PROVIDER_SMOKE_TARGET||'').trim();
 const allowed=new Set(['Groq','Gemini','Cohere','OpenRouter']);
@@ -25,21 +25,10 @@ const prompt=[
 
 const result=await request(provider,prompt,'Return only the requested JSON object.',formats,{maxCompletionTokens:provider==='OpenRouter'?900:300});
 const raw=String(result.text||'');
-const cleaned=raw.trim().replace(/^```(?:json)?\s*/i,'').replace(/\s*```$/i,'');
-const candidates=[cleaned];
-const start=cleaned.indexOf('{'),end=cleaned.lastIndexOf('}');
-if(start>=0&&end>start&&cleaned.slice(start,end+1)!==cleaned)candidates.push(cleaned.slice(start,end+1));
-let parsed=null;
-let parseError=null;
-for(const candidate of candidates){
-  try{
-    const value=JSON.parse(candidate);
-    if(value&&typeof value==='object'&&!Array.isArray(value)){parsed=value;break;}
-    parseError='parsed JSON was not an object';
-  }catch(error){parseError=error instanceof Error?error.message:'JSON parse error';}
-}
+const parsed=parseWriterJson(raw);
 if(!parsed){
-  const shape={...result.diagnostics,rawLength:raw.length,trimmedStartsWithObject:/^\s*\{/.test(raw),trimmedEndsWithObject:/\}\s*$/.test(raw),hasCodeFence:/^\s*```/.test(raw),firstBrace:start,lastBrace:end,parseError};
+  const firstBrace=raw.indexOf('{');
+  const shape={...result.diagnostics,rawLength:raw.length,trimmedStartsWithObject:/^\\s*\\{/.test(raw),trimmedEndsWithObject:/\\}\\s*$/.test(raw),hasCodeFence:/^\\s*```/.test(raw),firstBrace,parseError:'provider output did not contain a parseable JSON object'};
   throw new Error(`${provider} returned no parseable JSON object; safe diagnostics=${JSON.stringify(shape)}`);
 }
 assert.ok(parsed&&typeof parsed==='object'&&!Array.isArray(parsed),'Response must be a JSON object.');
