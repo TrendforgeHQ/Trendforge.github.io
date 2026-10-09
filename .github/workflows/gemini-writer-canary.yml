@@ -10,6 +10,9 @@ on:
     paths:
       - ".github/workflows/gemini-writer-canary.yml"
       - "scripts/trendforge-writer-engine.mjs"
+      - "scripts/pre-writer-pipeline.mjs"
+      - "scripts/candidate-source-alignment.mjs"
+      - "scripts/test-candidate-source-alignment.mjs"
   workflow_dispatch:
 
 permissions:
