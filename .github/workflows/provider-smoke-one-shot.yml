@@ -7,13 +7,15 @@ on:
     paths:
       - ".github/workflows/provider-smoke-one-shot.yml"
       - "scripts/provider-smoke-test.mjs"
+      - "scripts/trendforge-writer-engine.mjs"
+      - "scripts/test-provider-contracts.mjs"
 
 permissions:
   contents: read
 
 jobs:
   openrouter-smoke:
-    if: github.event.head_commit.message == 'Run isolated OpenRouter provider smoke test'
+    if: github.event.head_commit.message == 'Re-run OpenRouter smoke test with error diagnostics'
     runs-on: ubuntu-latest
     timeout-minutes: 3
     env:
