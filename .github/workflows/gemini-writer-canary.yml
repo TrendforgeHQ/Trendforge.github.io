@@ -9,6 +9,7 @@ on:
       - fix/provider-response-contracts-2026-10-09
     paths:
       - ".github/workflows/gemini-writer-canary.yml"
+      - "scripts/trendforge-writer-engine.mjs"
   workflow_dispatch:
 
 permissions:
