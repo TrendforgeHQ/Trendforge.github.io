@@ -95,7 +95,7 @@ try {
   const validWriterJson='{"title":"Contract title","description":"Contract description","content":"Contract body"}';
   for (const [label,raw] of [
     ['strict JSON',validWriterJson],
-    ['fenced JSON','```json\\n'+validWriterJson+'\\n```'],
+    ['fenced JSON','```json\n'+validWriterJson+'\n```'],
     ['JSON embedded in wrapper text','Provider output: '+validWriterJson+' End of output.']
   ]) {
     const parsed=parseWriterJson(raw);
@@ -107,7 +107,7 @@ try {
   }
   for (const [label,raw] of [
     ['empty output',''],
-    ['whitespace output','   \\n  '],
+    ['whitespace output','   \n  '],
     ['malformed JSON','{"title":"broken"'],
     ['array output','[{"title":"not an object"}]'],
     ['missing required field','{"title":"Only title","description":"No content"}'],
