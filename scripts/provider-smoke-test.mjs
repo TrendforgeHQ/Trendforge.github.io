@@ -12,7 +12,6 @@ const schema={type:'object',properties:{
   title:{type:'string'},description:{type:'string'},content:{type:'string'}
 },required:['title','description','content'],additionalProperties:false};
 const formats={
-  Gemini:{type:'json_object'},
   Cohere:{type:'json_object',schema},
   OpenRouter:{type:'json_object'}
 };
@@ -23,7 +22,7 @@ const prompt=[
   'Do not add any other keys or text outside the JSON object.'
 ].join('\n');
 
-const result=await request(provider,prompt,'Return only the requested JSON object.',formats[provider],{maxCompletionTokens:300});
+const result=await request(provider,prompt,'Return only the requested JSON object.',formats,{maxCompletionTokens:300});
 let parsed;
 try { parsed=JSON.parse(String(result.text||'')); }
 catch { throw new Error(`${provider} returned non-JSON output; diagnostics=${JSON.stringify(result.diagnostics||{})}`); }
