@@ -21,7 +21,10 @@ export function assessCandidateSourceAlignment(candidate = {}, source = {}) {
   // richer descriptions require multiple independent matches.
   const headlineThreshold = Math.min(2, anchors.size);
   const bodyThreshold = Math.min(3, anchors.size);
-  const aligned = headlineShared.length >= headlineThreshold || bodyShared.length >= bodyThreshold;
+  // Body-only overlap can be incidental (e.g. a security article mentioning
+  // software costs). Require at least one candidate-specific anchor in the
+  // publisher headline/description before body passages can corroborate it.
+  const aligned = headlineShared.length >= headlineThreshold || (headlineShared.length >= 1 && bodyShared.length >= bodyThreshold);
   return {
     aligned,
     reason: aligned ? 'candidate-specific-anchor-match' : 'publisher-page-does-not-match-candidate-story',
