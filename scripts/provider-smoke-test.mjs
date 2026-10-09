@@ -23,14 +23,29 @@ const prompt=[
 ].join('\n');
 
 const result=await request(provider,prompt,'Return only the requested JSON object.',formats,{maxCompletionTokens:300});
-let parsed;
-try { parsed=JSON.parse(String(result.text||'')); }
-catch { throw new Error(`${provider} returned non-JSON output; diagnostics=${JSON.stringify(result.diagnostics||{})}`); }
+const raw=String(result.text||'');
+const cleaned=raw.trim().replace(/^\`\`\`(?:json)?\s*/i,'').replace(/\s*\`\`\`$/i,'');
+const candidates=[cleaned];
+const start=cleaned.indexOf('{'),end=cleaned.lastIndexOf('}');
+if(start>=0&&end>start&&cleaned.slice(start,end+1)!==cleaned)candidates.push(cleaned.slice(start,end+1));
+let parsed=null;
+let parseError=null;
+for(const candidate of candidates){
+  try{
+    const value=JSON.parse(candidate);
+    if(value&&typeof value==='object'&&!Array.isArray(value)){parsed=value;break;}
+    parseError='parsed JSON was not an object';
+  }catch(error){parseError=error instanceof Error?error.message:'JSON parse error';}
+}
+if(!parsed){
+  const shape={...result.diagnostics,rawLength:raw.length,trimmedStartsWithObject:/^\s*\{/.test(raw),trimmedEndsWithObject:/\}\s*$/.test(raw),hasCodeFence:/^\s*```/.test(raw),firstBrace:start,lastBrace:end,parseError};
+  throw new Error(`${provider} returned no parseable JSON object; safe diagnostics=${JSON.stringify(shape)}`);
+}
 assert.ok(parsed&&typeof parsed==='object'&&!Array.isArray(parsed),'Response must be a JSON object.');
 for(const field of ['title','description','content']) {
   assert.equal(typeof parsed[field],'string',`Missing/non-string required field: ${field}`);
   assert.ok(parsed[field].trim().length>0,`Empty required field: ${field}`);
 }
 assert.deepEqual(Object.keys(parsed).sort(),['content','description','title'],'Unexpected keys in response.');
-console.log(`PASS: ${provider} live response-contract smoke test. model=${result.diagnostics?.model||process.env[provider==='Gemini'?'GEMINI_MODEL':provider==='Cohere'?'COHERE_MODEL':'OPENROUTER_MODEL']||'provider default'} diagnostics=${JSON.stringify(result.diagnostics||{})}`);
+console.log(`PASS: ${provider} live response-contract smoke test. model=${result.diagnostics?.model||process.env[provider==='Gemini'?'GEMINI_MODEL':provider==='Cohere'?'COHERE_MODEL':'OPENROUTER_MODEL']||'provider default'} diagnostics=${JSON.stringify({...result.diagnostics,parseMode:candidates.indexOf(JSON.stringify(parsed))>0?'embedded':'strict-or-fenced',rawLength:raw.length})}`);
 if(result.usage) console.log(`Usage metadata: ${JSON.stringify(result.usage)}`);
