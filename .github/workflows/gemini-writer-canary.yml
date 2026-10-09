@@ -74,6 +74,7 @@ jobs:
         run: |
           rm -f data/writer-provider-budget.json data/provider-state.json data/provider-health.json
           rm -f data/repair-provider-budget.json data/current-run-article.json data/native-writer-published.json
+          rm -f data/current-article-rejected.json data/editorial-gate.json data/article-brief.json data/article-contract.json
       - name: Run one-candidate Gemini writer-stage canary (no publish/deploy)
         run: node scripts/generate-article-adaptive.mjs
       - name: Record canary outcome
