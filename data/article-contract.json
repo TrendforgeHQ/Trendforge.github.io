@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "title": "1 Unstoppable Artificial Intelligence (AI) Stock to Buy Before It Joins Nvidia in the $5 Trillion Club - The Motley Fool",
+  "title": "Anjuna Security Named \"Data Privacy Solution of the Year\" in 10th Annual CyberSecurity Breakthrough Awards Program - PR Newswire",
   "mode": "narrow",
   "wordBudget": {
     "min": 231,
@@ -11,7 +11,7 @@
     "preferredMin": 1,
     "preferredMax": 2
   },
-  "atomicClaimBudget": 18,
+  "atomicClaimBudget": 17,
   "allowedFactIds": [
     "F1",
     "F2",
@@ -23,22 +23,13 @@
     "F8",
     "F9",
     "F10",
-    "F11",
-    "F12",
     "F13",
     "F14",
     "F15",
-    "F16",
     "F17",
     "F18",
     "F19",
-    "F20",
-    "F21",
-    "F22",
-    "F23",
-    "F24",
-    "F25",
-    "F26"
+    "F20"
   ],
   "synthesis": {
     "allowed": true,
@@ -55,22 +46,13 @@
       "F8",
       "F9",
       "F10",
-      "F11",
-      "F12",
       "F13",
       "F14",
       "F15",
-      "F16",
       "F17",
       "F18",
       "F19",
-      "F20",
-      "F21",
-      "F22",
-      "F23",
-      "F24",
-      "F25",
-      "F26"
+      "F20"
     ]
   },
   "rules": {
@@ -79,7 +61,7 @@
     "newEntitiesInSynthesis": false,
     "newCausalityInSynthesis": false
   },
-  "generatedAt": "2026-10-08T16:14:23.569Z",
-  "articleTitle": "AI Stocks Near $4 Trillion Milestone: One Might Join the $5 Trillion Club by 2026",
-  "articleSlug": "ai-stocks-near-4-trillion-milestone-one-might-join-the-5-trillion-club-by-2026"
+  "generatedAt": "2026-10-09T12:20:40.068Z",
+  "articleTitle": "Anjuna Security Wins Data Privacy Solution of the Year at CyberSecurity Breakthrough Awards",
+  "articleSlug": "anjuna-security-wins-data-privacy-solution-of-the-year-at-cybersecurity-breakthrough-award"
 }

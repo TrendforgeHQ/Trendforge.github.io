@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-09T08:00:17.578Z",
+  "generatedAt": "2026-10-09T12:21:07.601Z",
   "policy": {
     "privacyFirst": true,
     "noPersonalTracking": true,
     "noPaidTrafficRequired": true
   },
   "summary": {
-    "totalArticles": 44,
+    "totalArticles": 45,
     "averageEditorialScore": 76,
     "editorialReviewCount": 31,
     "refreshCandidates": 17
@@ -16,17 +16,17 @@
     {
       "category": "AI",
       "count": 15,
-      "share": 34.1
+      "share": 33.3
     },
     {
       "category": "Technology",
       "count": 7,
-      "share": 15.9
+      "share": 15.6
     },
     {
       "category": "How-To",
       "count": 3,
-      "share": 6.8
+      "share": 6.7
     },
     {
       "category": "Innovation",
@@ -36,17 +36,17 @@
     {
       "category": "Product Launches",
       "count": 1,
-      "share": 2.3
+      "share": 2.2
     },
     {
       "category": "Digital Life",
-      "count": 9,
-      "share": 20.5
+      "count": 10,
+      "share": 22.2
     },
     {
       "category": "Crypto",
       "count": 8,
-      "share": 18.2
+      "share": 17.8
     }
   ],
   "missingCategories": [
@@ -59,6 +59,11 @@
     "17 older/incomplete article(s) are refresh candidates."
   ],
   "recentArticles": [
+    {
+      "title": "Anjuna Security Wins Data Privacy Solution of the Year at CyberSecurity Breakthrough Awards",
+      "category": "Digital Life",
+      "publishedAt": "2026-10-09T12:20:40.067Z"
+    },
     {
       "title": "AI Stocks Near $4 Trillion Milestone: One Might Join the $5 Trillion Club by 2026",
       "category": "AI",
@@ -103,11 +108,6 @@
       "title": "Apple Tightens Mac Disk Access After AI‑Driven Privacy Concerns",
       "category": "Digital Life",
       "publishedAt": "2026-10-04T00:35:17.406Z"
-    },
-    {
-      "title": "Apple Stores Get Secret Boxes Ahead of October 13 Home‑Tech Launch",
-      "category": "Product Launches",
-      "publishedAt": "2026-10-01T22:10:28.824Z"
     }
   ]
 }

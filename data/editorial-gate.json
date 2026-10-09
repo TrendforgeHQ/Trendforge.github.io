@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T16:14:23.568Z",
+  "generatedAt": "2026-10-09T12:20:40.068Z",
   "provider": "Groq",
   "editorial": {
     "passed": true,
@@ -22,7 +22,7 @@
       "noHighSimilaritySource": true
     },
     "metrics": {
-      "normalizedLength": 2186,
+      "normalizedLength": 2297,
       "sentenceCount": 14,
       "maxSourceSimilarity": 0,
       "maxCommonPhrase": 0
@@ -31,13 +31,13 @@
   "semanticDuplicateCheck": "passed",
   "sourceRelationshipCheck": "passed",
   "verifiedEvidenceDomains": [
-    "finance.yahoo.com",
-    "fool.com"
+    "globenewswire.com",
+    "prnewswire.com"
   ],
   "primarySourceCount": 0,
   "grounding": {
     "sourceCount": 2,
-    "usablePassages": 26,
+    "usablePassages": 20,
     "primarySourceCount": 0
   }
 }
