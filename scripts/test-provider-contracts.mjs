@@ -8,7 +8,7 @@ process.env.OPENROUTER_MODEL='openrouter/free';
 process.env.COHERE_MODEL='command-a-plus-05-2026';
 
 const originalFetch=globalThis.fetch;
-const { requestProviderForTest }=await import('./trendforge-writer-engine.mjs');
+const { request: requestProviderForTest }=await import('./trendforge-writer-engine.mjs');
 
 function response(status, payload, headers={}) {
   return {
