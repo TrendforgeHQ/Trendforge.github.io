@@ -1,29 +1,30 @@
-name: One-shot Gemini Provider Smoke Test
+name: One-shot Cohere Provider Smoke Test
 
 on:
   push:
     branches:
       - fix/provider-response-contracts-2026-10-09
     paths:
+      - ".github/workflows/provider-smoke-one-shot.yml"
       - "scripts/provider-smoke-test.mjs"
 
 permissions:
   contents: read
 
 jobs:
-  gemini-smoke:
-    if: github.event.head_commit.message == 'Add isolated Gemini provider smoke test'
+  cohere-smoke:
+    if: github.event.head_commit.message == 'Run isolated Cohere provider smoke test'
     runs-on: ubuntu-latest
     timeout-minutes: 3
     env:
-      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-      GEMINI_MODEL: gemini-3.6-flash
-      PROVIDER_SMOKE_TARGET: Gemini
+      COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
+      COHERE_MODEL: command-a-plus-05-2026
+      PROVIDER_SMOKE_TARGET: Cohere
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
         with:
           node-version: 24
           package-manager-cache: false
-      - name: Run one bounded Gemini response-contract request
+      - name: Run one bounded Cohere response-contract request
         run: node scripts/provider-smoke-test.mjs
