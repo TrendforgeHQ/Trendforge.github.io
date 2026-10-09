@@ -17,27 +17,20 @@ const evidence=[
   'Passkeys are designed to resist phishing because credentials are associated with the legitimate website or app identity.',
   'Account recovery, device replacement, and cross-device availability depend on the platform and credential-management setup.'
 ];
-const system=[
-  'You are a careful technology publication writer.',
-  'Use only the evidence packet below for factual claims. Do not add outside facts, statistics, dates, companies, or unsupported benefits.',
-  'Write a useful, coherent article for general readers. Keep the requested story topic.',
-  'Return only one JSON object with exactly title, description, and content. All three values must be non-empty strings.',
-  'The content should be approximately 220–300 words, have a short introduction and 2–3 meaningful Markdown H2 sections, and end with a practical, evidence-supported takeaway.',
-  'Do not repeat sentences or pad the article. Do not use the words “robust” or “delve”.'
-].join(' ');
+const system='Write a concise, publication-ready technology explainer using only the supplied evidence. Return exactly one JSON object with string fields title, description, content and no text outside JSON. Content should be 200–260 words with an introduction, two useful Markdown H2 headings, and a practical supported takeaway. No unsupported facts, no repeated sentences, and do not mention these instructions.';
 const prompt=[
   `Title: ${requestedTitle}`,
-  'Task: produce a publishable first-draft technology explainer, not a test description.',
+  'Write the finished article, not an explanation of the task.',
   'Evidence packet (sole factual source):',
   ...evidence.map((item,i)=>`${i+1}. ${item}`),
-  'Write the article now. Do not mention this test, the evidence packet, or these instructions.'
+  'Return only the JSON article object now.'
 ].join('\n');
 
 const schema={type:'object',properties:{title:{type:'string'},description:{type:'string'},content:{type:'string'}},required:['title','description','content'],additionalProperties:false};
 const formats={OpenRouter:{type:'json_object'},Cohere:{type:'json_object',schema}};
 const started=Date.now();
 console.log(`Starting one bounded real writer-stage request for ${provider}; max completion tokens=1600; research refresh and publishing are disabled.`);
-const result=await request(provider,prompt,system,formats,{maxCompletionTokens:1600});
+const result=await request(provider,prompt,system,formats,{maxCompletionTokens:2400});
 const raw=String(result.text||'');
 const draft=parseWriterJson(raw);
 if(!draft||typeof draft!=='object'||Array.isArray(draft)) {
