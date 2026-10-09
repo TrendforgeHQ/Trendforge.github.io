@@ -72,6 +72,16 @@ try {
   assert.equal(router.diagnostics.finishReason,'stop');
   assert.equal(router.diagnostics.model,'fixture/free-model');
 
+  // OpenRouter may return HTTP 200 with an embedded routing/provider error and no
+  // message content. Preserve safe error metadata instead of silently losing it.
+  globalThis.fetch=async()=>response(200,{id:'fixture-error-id',model:'dots-studio/dots-3-note-preview:free',choices:[{finish_reason:'error',message:{content:'',error:{code:'provider_unavailable',message:'Selected provider could not serve this model.'}}}]});
+  const routerError=await requestProviderForTest('OpenRouter','fixture prompt','fixture system',{}, {maxCompletionTokens:900});
+  assert.equal(routerError.text,'');
+  assert.equal(routerError.diagnostics.finishReason,'error');
+  assert.equal(routerError.diagnostics.model,'dots-studio/dots-3-note-preview:free');
+  assert.equal(routerError.diagnostics.responseId,'fixture-error-id');
+  assert.deepEqual(routerError.diagnostics.providerError,{code:'provider_unavailable',message:'Selected provider could not serve this model.'});
+
   // A 429 without any retry/reset hint must fail immediately; this prevents a
   // mocked test from sleeping or accidentally creating retry traffic.
   let attempts=0;
