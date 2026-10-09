@@ -21,10 +21,14 @@ export function assessCandidateSourceAlignment(candidate = {}, source = {}) {
   // richer descriptions require multiple independent matches.
   const headlineThreshold = Math.min(2, anchors.size);
   const bodyThreshold = Math.min(3, anchors.size);
-  // Body-only overlap can be incidental (e.g. a security article mentioning
-  // software costs). Require at least one candidate-specific anchor in the
-  // publisher headline/description before body passages can corroborate it.
-  const aligned = headlineShared.length >= headlineThreshold || (headlineShared.length >= 1 && bodyShared.length >= bodyThreshold);
+  // Broad terms such as "software" or "open source" can appear in many
+  // adjacent stories. A body-only match must include a story-defining title
+  // anchor in the publisher headline/description before it can corroborate.
+  const broadTitleTerms = new Set(['software','open','source','technology','digital','industry','platform','system','systems','tools','tool','company','companies']);
+  const titleAnchors = anchorTokens(candidate.title || '');
+  const storyDefiningTitleAnchors = [...titleAnchors].filter(word => !broadTitleTerms.has(word));
+  const storyDefiningHeadlineShared = storyDefiningTitleAnchors.filter(word => headlineAnchors.has(word));
+  const aligned = headlineShared.length >= headlineThreshold || (storyDefiningHeadlineShared.length >= 1 && bodyShared.length >= bodyThreshold);
   return {
     aligned,
     reason: aligned ? 'candidate-specific-anchor-match' : 'publisher-page-does-not-match-candidate-story',
