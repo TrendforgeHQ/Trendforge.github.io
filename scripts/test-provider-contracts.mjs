@@ -76,7 +76,7 @@ try {
   // mocked test from sleeping or accidentally creating retry traffic.
   let attempts=0;
   globalThis.fetch=async()=>{attempts++;return response(429,'rate limited');};
-  await assert.rejects(()=>requestProviderForTest('OpenRouter','fixture prompt','fixture system',{}, {maxCompletionTokens:900}),/^Error: 429: rate limited$/);
+  await assert.rejects(()=>requestProviderForTest('OpenRouter','fixture prompt','fixture system',{}, {maxCompletionTokens:900}),/^429: rate limited$/);
   assert.equal(attempts,1,'429 without an explicit reset hint must not retry');
 
   console.log('PASS: mocked provider contract tests (Gemini, Cohere, OpenRouter, no-hint 429). No live provider requests were made.');
