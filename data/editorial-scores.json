@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-09T12:21:01.111Z",
+  "generatedAt": "2026-10-09T22:04:14.531Z",
   "status": "pass",
-  "currentGeneratedArticle": "anjuna-security-wins-data-privacy-solution-of-the-year-at-cybersecurity-breakthrough-award",
-  "currentScore": 93,
+  "currentGeneratedArticle": null,
+  "currentScore": null,
   "identity": {
     "method": "brief.title",
-    "rejectedMarker": false
+    "rejectedMarker": true
   },
   "policy": {
     "publishCandidate": 90,
@@ -109,16 +109,19 @@
       "slug": "anjuna-security-wins-data-privacy-solution-of-the-year-at-cybersecurity-breakthrough-award",
       "title": "Anjuna Security Wins Data Privacy Solution of the Year at CyberSecurity Breakthrough Awards",
       "category": "Digital Life",
-      "score": 93,
-      "decision": "publish_candidate",
+      "score": 79,
+      "decision": "review",
       "dimensions": {
-        "evidence": 92,
+        "evidence": 75,
         "usefulness": 95,
         "clarity": 100,
         "originality": 90,
-        "sourceStrength": 86
+        "sourceStrength": 41
       },
-      "reasons": []
+      "reasons": [
+        "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
+      ]
     },
     {
       "slug": "anthropic-s-ceo-calls-for-an-ai-slow-down-what-it-means-for-the-industry",

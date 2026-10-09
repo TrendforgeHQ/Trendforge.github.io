@@ -1,7 +1,25 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-09T12:21:01.111Z",
+  "generatedAt": "2026-10-09T22:04:14.531Z",
   "queue": [
+    {
+      "slug": "anjuna-security-wins-data-privacy-solution-of-the-year-at-cybersecurity-breakthrough-award",
+      "title": "Anjuna Security Wins Data Privacy Solution of the Year at CyberSecurity Breakthrough Awards",
+      "category": "Digital Life",
+      "score": 79,
+      "decision": "review",
+      "dimensions": {
+        "evidence": 75,
+        "usefulness": 95,
+        "clarity": 100,
+        "originality": 90,
+        "sourceStrength": 41
+      },
+      "reasons": [
+        "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
+      ]
+    },
     {
       "slug": "how-to-move-passwords-and-passkeys-between-managers-on-android",
       "title": "How to Move Passwords and Passkeys Between Managers on Android",

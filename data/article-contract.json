@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "title": "Anjuna Security Named \"Data Privacy Solution of the Year\" in 10th Annual CyberSecurity Breakthrough Awards Program - PR Newswire",
-  "mode": "narrow",
+  "title": "AI coding agents generate more code, but not more software",
+  "mode": "bounded",
   "wordBudget": {
-    "min": 231,
-    "max": 420,
-    "soft": 326
+    "min": 425,
+    "max": 750,
+    "soft": 588
   },
   "h2Budget": {
-    "preferredMin": 1,
-    "preferredMax": 2
+    "preferredMin": 2,
+    "preferredMax": 4
   },
-  "atomicClaimBudget": 17,
+  "atomicClaimBudget": 18,
   "allowedFactIds": [
     "F1",
     "F2",
@@ -20,16 +20,30 @@
     "F5",
     "F6",
     "F7",
-    "F8",
     "F9",
     "F10",
+    "F11",
+    "F12",
     "F13",
     "F14",
     "F15",
+    "F16",
     "F17",
     "F18",
     "F19",
-    "F20"
+    "F20",
+    "F21",
+    "F22",
+    "F23",
+    "F24",
+    "F25",
+    "F26",
+    "F28",
+    "F29",
+    "F30",
+    "F31",
+    "F33",
+    "F35"
   ],
   "synthesis": {
     "allowed": true,
@@ -43,16 +57,30 @@
       "F5",
       "F6",
       "F7",
-      "F8",
       "F9",
       "F10",
+      "F11",
+      "F12",
       "F13",
       "F14",
       "F15",
+      "F16",
       "F17",
       "F18",
       "F19",
-      "F20"
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F28",
+      "F29",
+      "F30",
+      "F31",
+      "F33",
+      "F35"
     ]
   },
   "rules": {
@@ -61,7 +89,7 @@
     "newEntitiesInSynthesis": false,
     "newCausalityInSynthesis": false
   },
-  "generatedAt": "2026-10-09T12:20:40.068Z",
-  "articleTitle": "Anjuna Security Wins Data Privacy Solution of the Year at CyberSecurity Breakthrough Awards",
-  "articleSlug": "anjuna-security-wins-data-privacy-solution-of-the-year-at-cybersecurity-breakthrough-award"
+  "generatedAt": "2026-10-09T22:03:05.455Z",
+  "articleTitle": "AI‑Generated Code Blooms, But Software Shipments Stay Flat",
+  "articleSlug": "ai-generated-code-blooms-but-software-shipments-stay-flat"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:20:40.068Z",
+  "generatedAt": "2026-10-09T22:03:05.455Z",
   "provider": "Groq",
   "editorial": {
     "passed": true,
@@ -22,8 +22,8 @@
       "noHighSimilaritySource": true
     },
     "metrics": {
-      "normalizedLength": 2297,
-      "sentenceCount": 14,
+      "normalizedLength": 3766,
+      "sentenceCount": 25,
       "maxSourceSimilarity": 0,
       "maxCommonPhrase": 0
     }
@@ -31,13 +31,15 @@
   "semanticDuplicateCheck": "passed",
   "sourceRelationshipCheck": "passed",
   "verifiedEvidenceDomains": [
-    "globenewswire.com",
-    "prnewswire.com"
+    "arstechnica.com",
+    "itbrew.com",
+    "finance.biggo.com",
+    "infoworld.com"
   ],
   "primarySourceCount": 0,
   "grounding": {
-    "sourceCount": 2,
-    "usablePassages": 20,
+    "sourceCount": 4,
+    "usablePassages": 36,
     "primarySourceCount": 0
   }
 }
