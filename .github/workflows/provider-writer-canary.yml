@@ -25,6 +25,7 @@ jobs:
       COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
       COHERE_MODEL: command-r-plus-08-2024
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      OPENROUTER_MODEL: google/gemma-4-26b-a4b-it:free
       PROVIDER_WRITER_TARGET: ${{ matrix.provider }}
     steps:
       - uses: actions/checkout@v7
