@@ -1,4 +1,4 @@
-name: Isolated Gemini and Cohere Provider Smoke Tests
+name: Isolated AI Provider Response-Contract Smoke Tests
 
 on:
   push:
@@ -15,16 +15,18 @@ permissions:
 
 jobs:
   provider-smoke:
-    if: github.event.head_commit.message == 'Run Gemini and Cohere isolated smoke tests'
+    if: github.event.head_commit.message == 'Run isolated provider smoke tests'
     strategy:
       fail-fast: false
       matrix:
-        provider: [Gemini, Cohere]
+        provider: [Groq, Gemini, Cohere, OpenRouter]
     runs-on: ubuntu-latest
     timeout-minutes: 3
     env:
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
       PROVIDER_SMOKE_TARGET: ${{ matrix.provider }}
     steps:
       - uses: actions/checkout@v7
