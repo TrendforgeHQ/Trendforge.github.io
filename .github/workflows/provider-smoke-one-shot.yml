@@ -1,4 +1,4 @@
-name: One-shot Cohere Provider Smoke Test
+name: One-shot OpenRouter Provider Smoke Test
 
 on:
   push:
@@ -12,19 +12,19 @@ permissions:
   contents: read
 
 jobs:
-  cohere-smoke:
-    if: github.event.head_commit.message == 'Run isolated Cohere provider smoke test'
+  openrouter-smoke:
+    if: github.event.head_commit.message == 'Run isolated OpenRouter provider smoke test'
     runs-on: ubuntu-latest
     timeout-minutes: 3
     env:
-      COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
-      COHERE_MODEL: command-a-plus-05-2026
-      PROVIDER_SMOKE_TARGET: Cohere
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      OPENROUTER_MODEL: openrouter/free
+      PROVIDER_SMOKE_TARGET: OpenRouter
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
         with:
           node-version: 24
           package-manager-cache: false
-      - name: Run one bounded Cohere response-contract request
+      - name: Run one bounded OpenRouter response-contract request
         run: node scripts/provider-smoke-test.mjs
