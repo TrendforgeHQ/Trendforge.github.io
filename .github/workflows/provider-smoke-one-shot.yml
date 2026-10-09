@@ -19,7 +19,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        provider: [OpenRouter]
+        provider: [Cohere]
     runs-on: ubuntu-latest
     timeout-minutes: 3
     env:
