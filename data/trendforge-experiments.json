@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T23:33:06.242Z",
+  "updatedAt": "2026-10-09T06:39:14.133Z",
   "mode": "shadow",
   "policy": {
     "advisoryOnly": true,
@@ -14,7 +14,7 @@
     "noWinnerBeforeMinimumSample": true
   },
   "sample": {
-    "runs": 80,
+    "runs": 81,
     "topics": 500,
     "articles": 44
   },
@@ -88,248 +88,248 @@
   "assignments": {
     "headline-style": [
       {
-        "key": "https://techcrunch.com/2026/10/08/vesta-raises-30m-as-lenders-adopt-ai-agents/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/08/us-bars-microsoft-adobe-and-major-it-firms-from-green-card-program-for-skilled-foreign-workers/",
+        "key": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbkxVZlhiTW03djFoUjNQZF92aDF4eFBaMkZNYUZmVldPOHU5MmpFS1VCTHZjaFI5UVBxVE9jU3dJZ24tUnptV1pVNlVHX01VeVhwekNCWHlGT3c1c1pqLXJXb0xrZ2Fnb0xoRWNMdm4zdl9DeXF0Wk1pYXJCNHZyLUM5a3BodW9JTGRWVmc0UE1Tdzk2RThxSGpqWDA?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://techcrunch.com/2026/10/08/hear-from-ambrosia-energy-and-bloom-energy-execs-on-where-the-ai-infrastructure-boom-is-creating-opportunity-at-disrupt-2026/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/08/uber-and-chinas-pony-ai-plan-to-launch-robotaxis-in-london/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNX2ZIZm96WTJEd0VmOHpDRlh5NXhvNjRwSVhQTHR2U3JIRjJ6QVdqRjgtYkxMaFRvVzRVTkxDMDcxV1FOOXpYeDhaMGU1M3h6NlBUR2p2Y054d1I5enVQR1JwbnRVN3RHSHJRVVFWcjNfcFNqTU9OWmFyajNRWWM3XzJyb1hCNm10dFVTRGdxaUMtd19lZVc3SURLMGZMQVRILUdfbUVXZVRNUdIBrwFBVV95cUxNWlJjSHhpMkszQWNyRHFMMlRjTEU3eDZBSEoycDczVjZKbEpnRmJGdGNHTGVSVzNnZVVOcUdPdThUY1Z4UzNnTDc0VzFDbjlqS1RKNjQ4Y01OMDhnUGxFRlBnUWpSbXRWcFFLWmdOeE5RRlFJVVRIUXo0dVdIVlFTUXZDQ3RHeEdQUWI4dXFuakhkSmZBZ0c2ZHZKa2pWaHI1VjNkcTZxLTZVOGFaakpN?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSF9jM3Ayc3MtajBrOGZ5UW9mamh5YXBzY3JfNW9ZcG5HdEF2cXF1UkhxaDRMbS15d2l0alF5MlFXeUN4S0Y3S2dKbW1vSVFmYXhIVU5GcXNHeloyLTNiZWlfQkF4TGI3V2R4d05DdnhVUDhtYWlHeW9CLVlzT1FNY0YtcVl2bTB1eGE3cFA5eVhIQ05GVGl3WklGQVBCRk5JNlNlcFBNNTFRNHPSAbABQVVfeXFMUHBRQldWMC1hbEJValpqbnVjeWhhV0VDd2thekFtRWFXSG9ZeWdNQmxVZUl0a0VGSmJIZ1lxRlVHZFBJV19TZFBqZm9YWHNiWE1EYTF6eTBMY1l6QlRKUE9Db2tVcEprclUwVkE4UzA0QTdWQ2JKOFFoM3g2MlVZMTEtMGZGZ1NFRjlaTEZ4Zm5NLTdza2tnQm1WajRqcm5EVVhFS2U5dmVSWlR6RzhjTnI?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPQzY1RzU5SGk3Z3I2UWJRc0tadnB2dHIyUXVzSzU0ZzRwRzlMWXhxSVBJcXpGbmpLYWZUcHhHUkM0bXVkVjFpOTlwVlluUEJ1QnBUWFM5ZmZGMGpCLVNBYUJTMHQ5d292eUJMSV8zMVJyNU9remgzTlhOSjBrUnc2MGdNbXcybnEya1R0RG10ODZRaWZ3cjk5V0JqbFNmaGdYNTJyV21qVkFVaGxCUGZwb2c3dFJfNzdUQWdDcWdQTUV2N1ZVMkpkMnFuVTc2aTJ3MHdjcV9WUS1qdWc2RjMzdHllZ2VpQTBKT1pDZGZ1dkFkLXFYWGd1X0pTblFEQVRpX3RGNTFzZHZBcG9oQnVmTG9aUVRqakFSd0FGQncwMA?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcXlOV2U4OGpGV3VBQzllbkZKV0VrdVpBVkpuM2ZldGV0QWdVMUpGbHUtWi1YVVczZGd5RmZfaEtQajlSXzhaWXBkaHRwaUVZVXN5cnVKS1RfaFgtdXhHeHpkRDZGQVZ5NWhMUGlaaUVaNGxjb3ljQm5Pa1RNZXlCR0Y2UGJUQnJwMVdWdnVXTVQwV01sajROcFZERjdlamRXWmc?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQR1lVaVo1RVBmVGNnRXJocHFJckk3VE02eVQ2RjhEZzBmRmFhYjFKbzRiakgtcTJBMm1mYjZla3V5Sk9xdkNPTXdRb1cxc04wRzRTdkZOLW94MWYzaWxveHppVlpCalNSSFhBZTVsSEszcGp6UHlKTDFwd3VEWnozVzZBanpNY1dlUm4wdUZvMFVwOWtkRjg4WFdVTEJObUVSWUk3TVpETlpLa3NTZ3NKX1A5UkJ0VVk1RFhHeEhwM0FrM3JwblFVblJRSmp0dmkwTmJCYmM2YThVSDFkQ1B5V1Uxb2tKb1hUNTIya3NobTl6VlVpSHpHNjFkd2pYN2hObk9QeHN6T2xoVDFqT3VCMFhvTTJVQzg?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1fRUJyZ0NsNFhsOHN5Z2J5YkZoVUVIU1hQY0RFZFFzTHY1eWxNVFFhY0NjeExuYzVKQ1oybHVEX0hzS2FiTVlKb3NFeDIxcmJySjNEWU1OUjNXTno3VXRXSTZodHV0dm5jUERDTUJB?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczZpczI3SDRUTEJpb3RVN3JlMzEwcF81RGpCMWNSOGx4N2FBYkJzSmwzWG45U2NyV3FLRjlFZ01YX3RHRGs3THlwdnhldFhvQmlEdG5LOXBBZHNGTXlVTGxlbHlrUUlUMm1jQVFRVEswcDdka3RvcElsMjRiZ0tCWTQtaUtzWG91bmdvNXlJNndsS3FndmItQ1BmRFhEZDJlX19kNndYdkF4b2FOUUVqbUtoQmtHdw?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeWM5OTVhUUlXakFRZEpQekVOZUZMYTVlTEJIaGdUNGdlTm9fVnZMWlctZFMxNVBzSnpKaVNKZ09fSXE3ZUg2WVNIZ1NJSVdBaEtnMXlPZ2ZYa0g4bWEtd3VaaXJUaXNCUjFzLXhBUVJORER6Z2NrVzBlVmd3clJzX3RfWkVBZw?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://arstechnica.com/tech-policy/2026/10/a-senator-tried-to-ban-gambling-on-prediction-markets-now-shes-a-kalshi-lobbyist/",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOR21QTktLTlJmZkhfWEY2XzRwc0tTSk5MQTliYVJ2NFVOemZXdnRDby1mWHdQUWM5LTFubnFFN19IQk1DQXVaZ2QyMFd1R2JPLW5MQ3JHSmlZeUJQOFF4aENSOWZuUlR6QVBSbDV0SjRZR0hXNENOTHpzWFZZT3RvVFZuQzRjTFYtLTVHTzg4UFhHM3VXY2Y0R1lESTh1d2dmN0pRWTRoUEZMVjRVZnFDSWpYUkhScWZxX1o1MkhDX1ZIOU41NUVpUDNrYXFiaTg0RkQ2QnVTTGFuSVZ0VS12cktSOVdhTHVuNlRid2FwRjEwbEN2WklBRl9WdnJHQWx2?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObWxNU0JDVllVUERMR21QVERORUZtWER3cjdQdUlLTUdGRFhrbzJuZ09NdjByTjh0MGtMZ2ZodjVLc1FsbVA4TG1Qenc0UWc1VUxSZzRPcUdDUGkwYm1iMmJydkxxRE8wek1nTFpUeHBCdXo2SUFOcUVHZFFHVEt3R1pFZEVQOTExMU5mbzY1ZEp5SXp6NmJlaEFfNGYxSHhicmRuOG1ycGpyWkUxNjN0VW9R?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOY2tXTHk4b2s5NVJUc212MmVQQk9DOXpFTXBKZnBhbEFMZ0xqa0FMOTg1WUFmS05mbVpQbWx0RDNDdjZ5cHpDVy1yX2Ewa2QwdTBJdXR2dXByOEFHcnRHazB2QVRNWkF6YUdsX1pIbVpqUGhnalBqWmpqOUtCWUJfYWxfS3RXZG1KMWZtbmJlYUlzaVpDM1hac050aTZ6a0F6aERKTUZhNkVYV1V4NktYTWo3LUlRMmkwWVBueHlHNnVHYVR5aFR3aDN3MmN4R0dtM0Mxdw?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS2xzX1VzSVZPUTQ4eVBOSFhJTHBnQS1CZFpMV044emxhV1NVX0d4dVZfWjFoODhPbGlySGZ5LWUtWS1VTE8yekxJYkVTRlFXQTk4WUdJNFBsUmVhLVRVZnVKenJaWndmYjRDNlVKWk9qd0RyVklWb1R6VVNOSEwyamlTbmxHQ2dGaW9OelctM3g1NG8?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMXVrdFBKWkdpMS15S0gxbGRRem8tQnA3QV9xTHpwa2QyNVcwSTdtdzdsOE5pWEp3R1JiREhqZEZnc2FNeUNSOFh1VE52NUFDODhkeVRSUUVreUtjeFUzVllTVExFbTNYcHM4dXR2T000TDVwYVpkdF9WMk9DNWY5RGpRZG9DV0ktWHk3bExmR21GNGNVbTFRd0FqZTR5Y0djOHVHTW01dTdGQlp4Y0hUYk9kSEgtQjFmVXBuTmQyWWc4NE1FSGQxa2t3?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9IWlhtTWdOZG5QSUtfcjZHLWNIX29ITlQza3B1LTVJWHdaUWJtR3BLRVZsclBpczRMb2lsUHYwYnNLaVZZOEhMLXFabU1LVmFrNDlFR2Z0R0ZVVXlNNFVSaTIxMjh2RExOQVkzRURKZ3pIcmlWN0JkU1hXUm5GUQ?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNNVJTQjNfY0diVktPOVpubWpGR2lJUjM5VFUwc2tkeGRGYk4xZ1hJM0o5YXljMUwxQ241MGtZNHIyWUIyQTRIUTdDX2xoT29GN3BrdjM0cHFJQUNPRG52R3ZTQ3JwUV9ZcDNCZWVFQ2NkaWpUaVFBWmljeGxOWG9ROUFueDRUQXQ3MTVsMGRzbl9Ca3Qwb1NCU0F6SDVFQmJZUFRKdXUzZHBBUUtYWFE3c2Vma3ZaOUotQVR4WmNHYkdUSnlpY0dKUElhSEIxZHBuWUxxY2p0am4wYldLczU3bzVOYncxLTM3MWJPZ0VsZU1aSkRUS3c?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4ybjJ3VC01ZXljQ0htQUdGcFdmWUJiSG5EMVNvT3lwbXlpcmNHcW1id0cxdlhwbk90d2NpZTFQTHo4eTRGUjEtamJiVlJtZ3pkU3QyeGVoUWZPV25hcjNraWxrX2xxMHRvMkRQZ0FsR3RrZm43SUoxVQ?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZlgxTU1tTlduQ1pOR0JwMUtxLVNNU3haR0xwbXhrUjdBdHJPUGpSaHBReEFIUzNPVTJlQks1ZVBVdmROWlJuZWtKOFlDeFhEaHlsOXl0UnFORlVnc1ZGNm1Xal9vV1VDVDMtU2l2bURkeXlXbmlwa2s4T1FDeFZEdFpLTGxJbUhvTnpqZkNCX1pVemg2VWFuelBvZWRxMEt50gGmAUFVX3lxTE9iYjMweVk0eHRyRGs5RlJiZEdRcW5JZVpYZ01JX2tuZE1yeFEwUmM5eU92aWs5WUVFUHR5X0FsU2x5cm56QmpwdThVc1RzVU56VWdpYk5fUC05bzBpenpRQklfUGZQQjJZd3hEeWlXSkN4WlpVQTVENmNwa3d2XzRFZ21GeHFabXZzR3VPd0N1WXZXWDJ5ZXFQSmRxT0NaTTZmUTNIUlE?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcE8wa3BuNUhMNEdTNG1aUUYtbnFFZXZSZE5FZkFkSkhicDJXUGlrN1ctUFdzOFhLS1hZQlkyOVRldlkyWEUwTzkzTDV5YnZoTDktYWRMb2xGNV9xUGdjTThJeDFUQlZfM3I3ako0bDdUQ2VTS1p3ZGxnVVVxcC1Pd25heG05aWtOdG9B?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTXIyQ2lHaWVZcnBaUkpGQndodDJrQmloTnZJRGdvRVR0WExTSllVWk9NRkhoUWdNaGdhOTVUcUc3MS04MmNCSUpleWZBOGY1VW5ySWtuQWQ3VWtHRTNVYUJrRFZxTXU0eVBYNkdrTEpaUWg4YlRLSUprZEh4X3JQRy1fNi1TWjRBZ1lwcEJJTEhkYU5hR3B0cnhYWS04OTBYdVJfUWtrMU1Ud3FMdllCbXJvSHlZcS1kNDEyVUdQMC1ueE91VGp3NEoyUXYtdDJV?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/08/spotify-is-getting-more-serious-about-selling-enterprise-software/",
+        "key": "https://arstechnica.com/science/2026/10/r-i-p-margaret-hamilton-whose-code-saved-the-apollo-11-moon-landing/",
         "bucket": "control"
       },
       {
-        "key": "https://techcrunch.com/2026/10/08/cal-ais-19-year-old-founder-just-raised-10m-for-his-new-ai-startup/",
+        "key": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVTVQcllXSi1ZR0NLcmFYWjhlc2VIVWZVb2ZKV0d0ckMxZENZdlItemRDNVRhejVySWJUVEJ3dnQxX1k1elBkelI0b2VXZmMzQUlqSVN0Si02ZWNJTFZYV2dlcTVxdWJrSHRublJKLWc1cU5XUVQyWE9wZ0JsUUZrYkhVWC05and4N2c?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3R1aEJFQVc2MHZDZV9FTElRcUZIb202djVrMGpKRFl2bDYzb1BDUy1NLTdzZUw5cmZQV29JVHY3anlHaFdfLVV0TXlCQmVaQllZSmtEeUtCSVZzQ3JFX2IwVmlHVUoxd3BLWVZkNzd0ZGNWeTFRbTRfS21ZR3YzSHdR?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ndXRRREw2cDJXSnVYbVVLOUdxOUs2VGNOaFVNeW1NR01CVjBpa1ppdGdqNzVaTUk0V3pnS1B6TUxrYTI0TUM4YmFPYU5MWGdfWXhBWUNwNnZjNjVsZDlnVVcwRmE2blozbk5SUw?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMFVHYmlQSWJmbzFRTUFEZGIzd18weFBaZlNMZm1XOGxqNmZkN1p3OVJOLVVKMGZZcU1tX094ck9IQUtQWmIxN2ZkbVVhd1VVV21CWVl1ZW5kSkY3OGx1VlRqU3JLM0RiTnJXWlVrOUNIY09fVUZVRnp5b0N2T1Z2ZGwtU0lhRHZ1a1BKbEpaU1Z5X3RfU09TR3NlbmJyY1RYRmtMbGtHNWpmTU9laFM4N3R6VU9NVTFNRUE?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
         "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaGJoa2pSZlR0QWU3Tm5sNDNYWF80M2thUmtPTXZUVlZ3UzlFb1NURFdROUJvc3FmSV83Nm1EdHlzSFBWanloQUF5Q0RDLTZnWENlOWpDS1BnQXBSZjZHS1J5V3JhbjRnajRNMzQ0d3VGUjJPWVNXZk1DV3Z3RUMyUFJPY3BjRm1zd1NnMjRUX1VFdUg3cDBEM013VmRWRkpKc0FpbkNuWHBvOEx6S2JfYzBzZHBfZGFrNWR1MHcycms3ZFhJM1FTZi13eVFpUUFtV3RNSA?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUEtRVUFESFhBSnptWkd0UnVzSklWOVF0VTFkQWp3SGpvU205ZE1yMDJRV29maXdSSU9uRXJRQ3RqVU1IY3cyeDJuTFJyQTVyU3BGc0NUT3Z3M2lHLW94SWo1XzJRel9LcV8wQ29TNF85Q1IydmhOQnF2ejVramdMRVp3ejlTRXFZZzBRVDBKTmoyanRLYU5BaFBqS09FRUNkVDl4dnB2WkRobG9VV211N2FUN3c4d2hqYnNsZ3ZZVDNsLTdNZ3k3VGtrS1dGLTRQLXpKeHhvSEs?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMmx5S2hIaUV1WkEwazhFQ2FWRzBhRFE1UF8xLXdySnNSem1lb1pkaHNPVnpGY0E5ZkRXUGtaSWduUVRpcXMzTXhWMEk1REdFbU9RejVwM2dza2o4TU9qSm9GcmU0RHhlSEZsMlVCSW9xeUlzWVVKNVlMYnZBUmZFR1dXWGFEUkVEUWMtblZRQ1hrVnRUeTBQZVpoaEtEMEhubjQzeGlfTUhUZ3VBOG4zbHBWMm5UMjVLdzA5T1I1QzVvcmhqSEF1R3h3M0ZKSWk4Vmc?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQR2RXNWp2ZjNVS3ZsQVBMZUFDYkdxcXFMVUtGTjNzc1NjUGlyaTZwdGdXUVdvZUp6VE9WVjd3cTc4UEpQbHY4Rnh6QWVTczFIU0UxVjQtTlNicHZ1Nk9vU3FBVlpJb0d2SHk3aVdEajN1dzE2b3dkU1RwS1BtZnFZZ1RhdkpkU2JnSEgyWG9UUE93YkRIUUZWX19NeVBNNkR1SVlvNXV4a0tQdUx6eC13M1RaQ0NzekpUdnRXb2NRU3lsZFJ3Nmd0c3o0NDZfeXlUaXlPY0lNdXFGU0c5S0JINW8xZ0ZoYVpkcExCVmJLZzl5dlJjQ2hxRk56OWlXLXVtVzVHSWIwa09KeWlpeExkbjBEU0pERTFCM2lZNUh0TQ?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://www.theverge.com/news/1008279/apple-tim-cook-not-meddling-john-ternus-ceo",
+        "bucket": "control"
       }
     ],
     "intro-style": [
       {
-        "key": "https://techcrunch.com/2026/10/08/vesta-raises-30m-as-lenders-adopt-ai-agents/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/08/us-bars-microsoft-adobe-and-major-it-firms-from-green-card-program-for-skilled-foreign-workers/",
+        "key": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbkxVZlhiTW03djFoUjNQZF92aDF4eFBaMkZNYUZmVldPOHU5MmpFS1VCTHZjaFI5UVBxVE9jU3dJZ24tUnptV1pVNlVHX01VeVhwekNCWHlGT3c1c1pqLXJXb0xrZ2Fnb0xoRWNMdm4zdl9DeXF0Wk1pYXJCNHZyLUM5a3BodW9JTGRWVmc0UE1Tdzk2RThxSGpqWDA?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://techcrunch.com/2026/10/08/hear-from-ambrosia-energy-and-bloom-energy-execs-on-where-the-ai-infrastructure-boom-is-creating-opportunity-at-disrupt-2026/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/08/uber-and-chinas-pony-ai-plan-to-launch-robotaxis-in-london/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNX2ZIZm96WTJEd0VmOHpDRlh5NXhvNjRwSVhQTHR2U3JIRjJ6QVdqRjgtYkxMaFRvVzRVTkxDMDcxV1FOOXpYeDhaMGU1M3h6NlBUR2p2Y054d1I5enVQR1JwbnRVN3RHSHJRVVFWcjNfcFNqTU9OWmFyajNRWWM3XzJyb1hCNm10dFVTRGdxaUMtd19lZVc3SURLMGZMQVRILUdfbUVXZVRNUdIBrwFBVV95cUxNWlJjSHhpMkszQWNyRHFMMlRjTEU3eDZBSEoycDczVjZKbEpnRmJGdGNHTGVSVzNnZVVOcUdPdThUY1Z4UzNnTDc0VzFDbjlqS1RKNjQ4Y01OMDhnUGxFRlBnUWpSbXRWcFFLWmdOeE5RRlFJVVRIUXo0dVdIVlFTUXZDQ3RHeEdQUWI4dXFuakhkSmZBZ0c2ZHZKa2pWaHI1VjNkcTZxLTZVOGFaakpN?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSF9jM3Ayc3MtajBrOGZ5UW9mamh5YXBzY3JfNW9ZcG5HdEF2cXF1UkhxaDRMbS15d2l0alF5MlFXeUN4S0Y3S2dKbW1vSVFmYXhIVU5GcXNHeloyLTNiZWlfQkF4TGI3V2R4d05DdnhVUDhtYWlHeW9CLVlzT1FNY0YtcVl2bTB1eGE3cFA5eVhIQ05GVGl3WklGQVBCRk5JNlNlcFBNNTFRNHPSAbABQVVfeXFMUHBRQldWMC1hbEJValpqbnVjeWhhV0VDd2thekFtRWFXSG9ZeWdNQmxVZUl0a0VGSmJIZ1lxRlVHZFBJV19TZFBqZm9YWHNiWE1EYTF6eTBMY1l6QlRKUE9Db2tVcEprclUwVkE4UzA0QTdWQ2JKOFFoM3g2MlVZMTEtMGZGZ1NFRjlaTEZ4Zm5NLTdza2tnQm1WajRqcm5EVVhFS2U5dmVSWlR6RzhjTnI?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPQzY1RzU5SGk3Z3I2UWJRc0tadnB2dHIyUXVzSzU0ZzRwRzlMWXhxSVBJcXpGbmpLYWZUcHhHUkM0bXVkVjFpOTlwVlluUEJ1QnBUWFM5ZmZGMGpCLVNBYUJTMHQ5d292eUJMSV8zMVJyNU9remgzTlhOSjBrUnc2MGdNbXcybnEya1R0RG10ODZRaWZ3cjk5V0JqbFNmaGdYNTJyV21qVkFVaGxCUGZwb2c3dFJfNzdUQWdDcWdQTUV2N1ZVMkpkMnFuVTc2aTJ3MHdjcV9WUS1qdWc2RjMzdHllZ2VpQTBKT1pDZGZ1dkFkLXFYWGd1X0pTblFEQVRpX3RGNTFzZHZBcG9oQnVmTG9aUVRqakFSd0FGQncwMA?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcXlOV2U4OGpGV3VBQzllbkZKV0VrdVpBVkpuM2ZldGV0QWdVMUpGbHUtWi1YVVczZGd5RmZfaEtQajlSXzhaWXBkaHRwaUVZVXN5cnVKS1RfaFgtdXhHeHpkRDZGQVZ5NWhMUGlaaUVaNGxjb3ljQm5Pa1RNZXlCR0Y2UGJUQnJwMVdWdnVXTVQwV01sajROcFZERjdlamRXWmc?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQR1lVaVo1RVBmVGNnRXJocHFJckk3VE02eVQ2RjhEZzBmRmFhYjFKbzRiakgtcTJBMm1mYjZla3V5Sk9xdkNPTXdRb1cxc04wRzRTdkZOLW94MWYzaWxveHppVlpCalNSSFhBZTVsSEszcGp6UHlKTDFwd3VEWnozVzZBanpNY1dlUm4wdUZvMFVwOWtkRjg4WFdVTEJObUVSWUk3TVpETlpLa3NTZ3NKX1A5UkJ0VVk1RFhHeEhwM0FrM3JwblFVblJRSmp0dmkwTmJCYmM2YThVSDFkQ1B5V1Uxb2tKb1hUNTIya3NobTl6VlVpSHpHNjFkd2pYN2hObk9QeHN6T2xoVDFqT3VCMFhvTTJVQzg?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1fRUJyZ0NsNFhsOHN5Z2J5YkZoVUVIU1hQY0RFZFFzTHY1eWxNVFFhY0NjeExuYzVKQ1oybHVEX0hzS2FiTVlKb3NFeDIxcmJySjNEWU1OUjNXTno3VXRXSTZodHV0dm5jUERDTUJB?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczZpczI3SDRUTEJpb3RVN3JlMzEwcF81RGpCMWNSOGx4N2FBYkJzSmwzWG45U2NyV3FLRjlFZ01YX3RHRGs3THlwdnhldFhvQmlEdG5LOXBBZHNGTXlVTGxlbHlrUUlUMm1jQVFRVEswcDdka3RvcElsMjRiZ0tCWTQtaUtzWG91bmdvNXlJNndsS3FndmItQ1BmRFhEZDJlX19kNndYdkF4b2FOUUVqbUtoQmtHdw?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeWM5OTVhUUlXakFRZEpQekVOZUZMYTVlTEJIaGdUNGdlTm9fVnZMWlctZFMxNVBzSnpKaVNKZ09fSXE3ZUg2WVNIZ1NJSVdBaEtnMXlPZ2ZYa0g4bWEtd3VaaXJUaXNCUjFzLXhBUVJORER6Z2NrVzBlVmd3clJzX3RfWkVBZw?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://arstechnica.com/tech-policy/2026/10/a-senator-tried-to-ban-gambling-on-prediction-markets-now-shes-a-kalshi-lobbyist/",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOR21QTktLTlJmZkhfWEY2XzRwc0tTSk5MQTliYVJ2NFVOemZXdnRDby1mWHdQUWM5LTFubnFFN19IQk1DQXVaZ2QyMFd1R2JPLW5MQ3JHSmlZeUJQOFF4aENSOWZuUlR6QVBSbDV0SjRZR0hXNENOTHpzWFZZT3RvVFZuQzRjTFYtLTVHTzg4UFhHM3VXY2Y0R1lESTh1d2dmN0pRWTRoUEZMVjRVZnFDSWpYUkhScWZxX1o1MkhDX1ZIOU41NUVpUDNrYXFiaTg0RkQ2QnVTTGFuSVZ0VS12cktSOVdhTHVuNlRid2FwRjEwbEN2WklBRl9WdnJHQWx2?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObWxNU0JDVllVUERMR21QVERORUZtWER3cjdQdUlLTUdGRFhrbzJuZ09NdjByTjh0MGtMZ2ZodjVLc1FsbVA4TG1Qenc0UWc1VUxSZzRPcUdDUGkwYm1iMmJydkxxRE8wek1nTFpUeHBCdXo2SUFOcUVHZFFHVEt3R1pFZEVQOTExMU5mbzY1ZEp5SXp6NmJlaEFfNGYxSHhicmRuOG1ycGpyWkUxNjN0VW9R?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOY2tXTHk4b2s5NVJUc212MmVQQk9DOXpFTXBKZnBhbEFMZ0xqa0FMOTg1WUFmS05mbVpQbWx0RDNDdjZ5cHpDVy1yX2Ewa2QwdTBJdXR2dXByOEFHcnRHazB2QVRNWkF6YUdsX1pIbVpqUGhnalBqWmpqOUtCWUJfYWxfS3RXZG1KMWZtbmJlYUlzaVpDM1hac050aTZ6a0F6aERKTUZhNkVYV1V4NktYTWo3LUlRMmkwWVBueHlHNnVHYVR5aFR3aDN3MmN4R0dtM0Mxdw?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS2xzX1VzSVZPUTQ4eVBOSFhJTHBnQS1CZFpMV044emxhV1NVX0d4dVZfWjFoODhPbGlySGZ5LWUtWS1VTE8yekxJYkVTRlFXQTk4WUdJNFBsUmVhLVRVZnVKenJaWndmYjRDNlVKWk9qd0RyVklWb1R6VVNOSEwyamlTbmxHQ2dGaW9OelctM3g1NG8?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMXVrdFBKWkdpMS15S0gxbGRRem8tQnA3QV9xTHpwa2QyNVcwSTdtdzdsOE5pWEp3R1JiREhqZEZnc2FNeUNSOFh1VE52NUFDODhkeVRSUUVreUtjeFUzVllTVExFbTNYcHM4dXR2T000TDVwYVpkdF9WMk9DNWY5RGpRZG9DV0ktWHk3bExmR21GNGNVbTFRd0FqZTR5Y0djOHVHTW01dTdGQlp4Y0hUYk9kSEgtQjFmVXBuTmQyWWc4NE1FSGQxa2t3?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9IWlhtTWdOZG5QSUtfcjZHLWNIX29ITlQza3B1LTVJWHdaUWJtR3BLRVZsclBpczRMb2lsUHYwYnNLaVZZOEhMLXFabU1LVmFrNDlFR2Z0R0ZVVXlNNFVSaTIxMjh2RExOQVkzRURKZ3pIcmlWN0JkU1hXUm5GUQ?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNNVJTQjNfY0diVktPOVpubWpGR2lJUjM5VFUwc2tkeGRGYk4xZ1hJM0o5YXljMUwxQ241MGtZNHIyWUIyQTRIUTdDX2xoT29GN3BrdjM0cHFJQUNPRG52R3ZTQ3JwUV9ZcDNCZWVFQ2NkaWpUaVFBWmljeGxOWG9ROUFueDRUQXQ3MTVsMGRzbl9Ca3Qwb1NCU0F6SDVFQmJZUFRKdXUzZHBBUUtYWFE3c2Vma3ZaOUotQVR4WmNHYkdUSnlpY0dKUElhSEIxZHBuWUxxY2p0am4wYldLczU3bzVOYncxLTM3MWJPZ0VsZU1aSkRUS3c?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4ybjJ3VC01ZXljQ0htQUdGcFdmWUJiSG5EMVNvT3lwbXlpcmNHcW1id0cxdlhwbk90d2NpZTFQTHo4eTRGUjEtamJiVlJtZ3pkU3QyeGVoUWZPV25hcjNraWxrX2xxMHRvMkRQZ0FsR3RrZm43SUoxVQ?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZlgxTU1tTlduQ1pOR0JwMUtxLVNNU3haR0xwbXhrUjdBdHJPUGpSaHBReEFIUzNPVTJlQks1ZVBVdmROWlJuZWtKOFlDeFhEaHlsOXl0UnFORlVnc1ZGNm1Xal9vV1VDVDMtU2l2bURkeXlXbmlwa2s4T1FDeFZEdFpLTGxJbUhvTnpqZkNCX1pVemg2VWFuelBvZWRxMEt50gGmAUFVX3lxTE9iYjMweVk0eHRyRGs5RlJiZEdRcW5JZVpYZ01JX2tuZE1yeFEwUmM5eU92aWs5WUVFUHR5X0FsU2x5cm56QmpwdThVc1RzVU56VWdpYk5fUC05bzBpenpRQklfUGZQQjJZd3hEeWlXSkN4WlpVQTVENmNwa3d2XzRFZ21GeHFabXZzR3VPd0N1WXZXWDJ5ZXFQSmRxT0NaTTZmUTNIUlE?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcE8wa3BuNUhMNEdTNG1aUUYtbnFFZXZSZE5FZkFkSkhicDJXUGlrN1ctUFdzOFhLS1hZQlkyOVRldlkyWEUwTzkzTDV5YnZoTDktYWRMb2xGNV9xUGdjTThJeDFUQlZfM3I3ako0bDdUQ2VTS1p3ZGxnVVVxcC1Pd25heG05aWtOdG9B?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTXIyQ2lHaWVZcnBaUkpGQndodDJrQmloTnZJRGdvRVR0WExTSllVWk9NRkhoUWdNaGdhOTVUcUc3MS04MmNCSUpleWZBOGY1VW5ySWtuQWQ3VWtHRTNVYUJrRFZxTXU0eVBYNkdrTEpaUWg4YlRLSUprZEh4X3JQRy1fNi1TWjRBZ1lwcEJJTEhkYU5hR3B0cnhYWS04OTBYdVJfUWtrMU1Ud3FMdllCbXJvSHlZcS1kNDEyVUdQMC1ueE91VGp3NEoyUXYtdDJV?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/08/spotify-is-getting-more-serious-about-selling-enterprise-software/",
+        "key": "https://arstechnica.com/science/2026/10/r-i-p-margaret-hamilton-whose-code-saved-the-apollo-11-moon-landing/",
         "bucket": "control"
       },
       {
-        "key": "https://techcrunch.com/2026/10/08/cal-ais-19-year-old-founder-just-raised-10m-for-his-new-ai-startup/",
+        "key": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVTVQcllXSi1ZR0NLcmFYWjhlc2VIVWZVb2ZKV0d0ckMxZENZdlItemRDNVRhejVySWJUVEJ3dnQxX1k1elBkelI0b2VXZmMzQUlqSVN0Si02ZWNJTFZYV2dlcTVxdWJrSHRublJKLWc1cU5XUVQyWE9wZ0JsUUZrYkhVWC05and4N2c?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3R1aEJFQVc2MHZDZV9FTElRcUZIb202djVrMGpKRFl2bDYzb1BDUy1NLTdzZUw5cmZQV29JVHY3anlHaFdfLVV0TXlCQmVaQllZSmtEeUtCSVZzQ3JFX2IwVmlHVUoxd3BLWVZkNzd0ZGNWeTFRbTRfS21ZR3YzSHdR?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ndXRRREw2cDJXSnVYbVVLOUdxOUs2VGNOaFVNeW1NR01CVjBpa1ppdGdqNzVaTUk0V3pnS1B6TUxrYTI0TUM4YmFPYU5MWGdfWXhBWUNwNnZjNjVsZDlnVVcwRmE2blozbk5SUw?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMFVHYmlQSWJmbzFRTUFEZGIzd18weFBaZlNMZm1XOGxqNmZkN1p3OVJOLVVKMGZZcU1tX094ck9IQUtQWmIxN2ZkbVVhd1VVV21CWVl1ZW5kSkY3OGx1VlRqU3JLM0RiTnJXWlVrOUNIY09fVUZVRnp5b0N2T1Z2ZGwtU0lhRHZ1a1BKbEpaU1Z5X3RfU09TR3NlbmJyY1RYRmtMbGtHNWpmTU9laFM4N3R6VU9NVTFNRUE?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
         "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaGJoa2pSZlR0QWU3Tm5sNDNYWF80M2thUmtPTXZUVlZ3UzlFb1NURFdROUJvc3FmSV83Nm1EdHlzSFBWanloQUF5Q0RDLTZnWENlOWpDS1BnQXBSZjZHS1J5V3JhbjRnajRNMzQ0d3VGUjJPWVNXZk1DV3Z3RUMyUFJPY3BjRm1zd1NnMjRUX1VFdUg3cDBEM013VmRWRkpKc0FpbkNuWHBvOEx6S2JfYzBzZHBfZGFrNWR1MHcycms3ZFhJM1FTZi13eVFpUUFtV3RNSA?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUEtRVUFESFhBSnptWkd0UnVzSklWOVF0VTFkQWp3SGpvU205ZE1yMDJRV29maXdSSU9uRXJRQ3RqVU1IY3cyeDJuTFJyQTVyU3BGc0NUT3Z3M2lHLW94SWo1XzJRel9LcV8wQ29TNF85Q1IydmhOQnF2ejVramdMRVp3ejlTRXFZZzBRVDBKTmoyanRLYU5BaFBqS09FRUNkVDl4dnB2WkRobG9VV211N2FUN3c4d2hqYnNsZ3ZZVDNsLTdNZ3k3VGtrS1dGLTRQLXpKeHhvSEs?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMmx5S2hIaUV1WkEwazhFQ2FWRzBhRFE1UF8xLXdySnNSem1lb1pkaHNPVnpGY0E5ZkRXUGtaSWduUVRpcXMzTXhWMEk1REdFbU9RejVwM2dza2o4TU9qSm9GcmU0RHhlSEZsMlVCSW9xeUlzWVVKNVlMYnZBUmZFR1dXWGFEUkVEUWMtblZRQ1hrVnRUeTBQZVpoaEtEMEhubjQzeGlfTUhUZ3VBOG4zbHBWMm5UMjVLdzA5T1I1QzVvcmhqSEF1R3h3M0ZKSWk4Vmc?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQR2RXNWp2ZjNVS3ZsQVBMZUFDYkdxcXFMVUtGTjNzc1NjUGlyaTZwdGdXUVdvZUp6VE9WVjd3cTc4UEpQbHY4Rnh6QWVTczFIU0UxVjQtTlNicHZ1Nk9vU3FBVlpJb0d2SHk3aVdEajN1dzE2b3dkU1RwS1BtZnFZZ1RhdkpkU2JnSEgyWG9UUE93YkRIUUZWX19NeVBNNkR1SVlvNXV4a0tQdUx6eC13M1RaQ0NzekpUdnRXb2NRU3lsZFJ3Nmd0c3o0NDZfeXlUaXlPY0lNdXFGU0c5S0JINW8xZ0ZoYVpkcExCVmJLZzl5dlJjQ2hxRk56OWlXLXVtVzVHSWIwa09KeWlpeExkbjBEU0pERTFCM2lZNUh0TQ?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://www.theverge.com/news/1008279/apple-tim-cook-not-meddling-john-ternus-ceo",
+        "bucket": "control"
       }
     ],
     "cta-placement": [
       {
-        "key": "https://techcrunch.com/2026/10/08/vesta-raises-30m-as-lenders-adopt-ai-agents/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/08/us-bars-microsoft-adobe-and-major-it-firms-from-green-card-program-for-skilled-foreign-workers/",
+        "key": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbkxVZlhiTW03djFoUjNQZF92aDF4eFBaMkZNYUZmVldPOHU5MmpFS1VCTHZjaFI5UVBxVE9jU3dJZ24tUnptV1pVNlVHX01VeVhwekNCWHlGT3c1c1pqLXJXb0xrZ2Fnb0xoRWNMdm4zdl9DeXF0Wk1pYXJCNHZyLUM5a3BodW9JTGRWVmc0UE1Tdzk2RThxSGpqWDA?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://techcrunch.com/2026/10/08/hear-from-ambrosia-energy-and-bloom-energy-execs-on-where-the-ai-infrastructure-boom-is-creating-opportunity-at-disrupt-2026/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/08/uber-and-chinas-pony-ai-plan-to-launch-robotaxis-in-london/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNX2ZIZm96WTJEd0VmOHpDRlh5NXhvNjRwSVhQTHR2U3JIRjJ6QVdqRjgtYkxMaFRvVzRVTkxDMDcxV1FOOXpYeDhaMGU1M3h6NlBUR2p2Y054d1I5enVQR1JwbnRVN3RHSHJRVVFWcjNfcFNqTU9OWmFyajNRWWM3XzJyb1hCNm10dFVTRGdxaUMtd19lZVc3SURLMGZMQVRILUdfbUVXZVRNUdIBrwFBVV95cUxNWlJjSHhpMkszQWNyRHFMMlRjTEU3eDZBSEoycDczVjZKbEpnRmJGdGNHTGVSVzNnZVVOcUdPdThUY1Z4UzNnTDc0VzFDbjlqS1RKNjQ4Y01OMDhnUGxFRlBnUWpSbXRWcFFLWmdOeE5RRlFJVVRIUXo0dVdIVlFTUXZDQ3RHeEdQUWI4dXFuakhkSmZBZ0c2ZHZKa2pWaHI1VjNkcTZxLTZVOGFaakpN?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSF9jM3Ayc3MtajBrOGZ5UW9mamh5YXBzY3JfNW9ZcG5HdEF2cXF1UkhxaDRMbS15d2l0alF5MlFXeUN4S0Y3S2dKbW1vSVFmYXhIVU5GcXNHeloyLTNiZWlfQkF4TGI3V2R4d05DdnhVUDhtYWlHeW9CLVlzT1FNY0YtcVl2bTB1eGE3cFA5eVhIQ05GVGl3WklGQVBCRk5JNlNlcFBNNTFRNHPSAbABQVVfeXFMUHBRQldWMC1hbEJValpqbnVjeWhhV0VDd2thekFtRWFXSG9ZeWdNQmxVZUl0a0VGSmJIZ1lxRlVHZFBJV19TZFBqZm9YWHNiWE1EYTF6eTBMY1l6QlRKUE9Db2tVcEprclUwVkE4UzA0QTdWQ2JKOFFoM3g2MlVZMTEtMGZGZ1NFRjlaTEZ4Zm5NLTdza2tnQm1WajRqcm5EVVhFS2U5dmVSWlR6RzhjTnI?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPQzY1RzU5SGk3Z3I2UWJRc0tadnB2dHIyUXVzSzU0ZzRwRzlMWXhxSVBJcXpGbmpLYWZUcHhHUkM0bXVkVjFpOTlwVlluUEJ1QnBUWFM5ZmZGMGpCLVNBYUJTMHQ5d292eUJMSV8zMVJyNU9remgzTlhOSjBrUnc2MGdNbXcybnEya1R0RG10ODZRaWZ3cjk5V0JqbFNmaGdYNTJyV21qVkFVaGxCUGZwb2c3dFJfNzdUQWdDcWdQTUV2N1ZVMkpkMnFuVTc2aTJ3MHdjcV9WUS1qdWc2RjMzdHllZ2VpQTBKT1pDZGZ1dkFkLXFYWGd1X0pTblFEQVRpX3RGNTFzZHZBcG9oQnVmTG9aUVRqakFSd0FGQncwMA?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcXlOV2U4OGpGV3VBQzllbkZKV0VrdVpBVkpuM2ZldGV0QWdVMUpGbHUtWi1YVVczZGd5RmZfaEtQajlSXzhaWXBkaHRwaUVZVXN5cnVKS1RfaFgtdXhHeHpkRDZGQVZ5NWhMUGlaaUVaNGxjb3ljQm5Pa1RNZXlCR0Y2UGJUQnJwMVdWdnVXTVQwV01sajROcFZERjdlamRXWmc?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQR1lVaVo1RVBmVGNnRXJocHFJckk3VE02eVQ2RjhEZzBmRmFhYjFKbzRiakgtcTJBMm1mYjZla3V5Sk9xdkNPTXdRb1cxc04wRzRTdkZOLW94MWYzaWxveHppVlpCalNSSFhBZTVsSEszcGp6UHlKTDFwd3VEWnozVzZBanpNY1dlUm4wdUZvMFVwOWtkRjg4WFdVTEJObUVSWUk3TVpETlpLa3NTZ3NKX1A5UkJ0VVk1RFhHeEhwM0FrM3JwblFVblJRSmp0dmkwTmJCYmM2YThVSDFkQ1B5V1Uxb2tKb1hUNTIya3NobTl6VlVpSHpHNjFkd2pYN2hObk9QeHN6T2xoVDFqT3VCMFhvTTJVQzg?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1fRUJyZ0NsNFhsOHN5Z2J5YkZoVUVIU1hQY0RFZFFzTHY1eWxNVFFhY0NjeExuYzVKQ1oybHVEX0hzS2FiTVlKb3NFeDIxcmJySjNEWU1OUjNXTno3VXRXSTZodHV0dm5jUERDTUJB?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPczZpczI3SDRUTEJpb3RVN3JlMzEwcF81RGpCMWNSOGx4N2FBYkJzSmwzWG45U2NyV3FLRjlFZ01YX3RHRGs3THlwdnhldFhvQmlEdG5LOXBBZHNGTXlVTGxlbHlrUUlUMm1jQVFRVEswcDdka3RvcElsMjRiZ0tCWTQtaUtzWG91bmdvNXlJNndsS3FndmItQ1BmRFhEZDJlX19kNndYdkF4b2FOUUVqbUtoQmtHdw?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeWM5OTVhUUlXakFRZEpQekVOZUZMYTVlTEJIaGdUNGdlTm9fVnZMWlctZFMxNVBzSnpKaVNKZ09fSXE3ZUg2WVNIZ1NJSVdBaEtnMXlPZ2ZYa0g4bWEtd3VaaXJUaXNCUjFzLXhBUVJORER6Z2NrVzBlVmd3clJzX3RfWkVBZw?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://arstechnica.com/tech-policy/2026/10/a-senator-tried-to-ban-gambling-on-prediction-markets-now-shes-a-kalshi-lobbyist/",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOR21QTktLTlJmZkhfWEY2XzRwc0tTSk5MQTliYVJ2NFVOemZXdnRDby1mWHdQUWM5LTFubnFFN19IQk1DQXVaZ2QyMFd1R2JPLW5MQ3JHSmlZeUJQOFF4aENSOWZuUlR6QVBSbDV0SjRZR0hXNENOTHpzWFZZT3RvVFZuQzRjTFYtLTVHTzg4UFhHM3VXY2Y0R1lESTh1d2dmN0pRWTRoUEZMVjRVZnFDSWpYUkhScWZxX1o1MkhDX1ZIOU41NUVpUDNrYXFiaTg0RkQ2QnVTTGFuSVZ0VS12cktSOVdhTHVuNlRid2FwRjEwbEN2WklBRl9WdnJHQWx2?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObWxNU0JDVllVUERMR21QVERORUZtWER3cjdQdUlLTUdGRFhrbzJuZ09NdjByTjh0MGtMZ2ZodjVLc1FsbVA4TG1Qenc0UWc1VUxSZzRPcUdDUGkwYm1iMmJydkxxRE8wek1nTFpUeHBCdXo2SUFOcUVHZFFHVEt3R1pFZEVQOTExMU5mbzY1ZEp5SXp6NmJlaEFfNGYxSHhicmRuOG1ycGpyWkUxNjN0VW9R?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOY2tXTHk4b2s5NVJUc212MmVQQk9DOXpFTXBKZnBhbEFMZ0xqa0FMOTg1WUFmS05mbVpQbWx0RDNDdjZ5cHpDVy1yX2Ewa2QwdTBJdXR2dXByOEFHcnRHazB2QVRNWkF6YUdsX1pIbVpqUGhnalBqWmpqOUtCWUJfYWxfS3RXZG1KMWZtbmJlYUlzaVpDM1hac050aTZ6a0F6aERKTUZhNkVYV1V4NktYTWo3LUlRMmkwWVBueHlHNnVHYVR5aFR3aDN3MmN4R0dtM0Mxdw?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS2xzX1VzSVZPUTQ4eVBOSFhJTHBnQS1CZFpMV044emxhV1NVX0d4dVZfWjFoODhPbGlySGZ5LWUtWS1VTE8yekxJYkVTRlFXQTk4WUdJNFBsUmVhLVRVZnVKenJaWndmYjRDNlVKWk9qd0RyVklWb1R6VVNOSEwyamlTbmxHQ2dGaW9OelctM3g1NG8?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMXVrdFBKWkdpMS15S0gxbGRRem8tQnA3QV9xTHpwa2QyNVcwSTdtdzdsOE5pWEp3R1JiREhqZEZnc2FNeUNSOFh1VE52NUFDODhkeVRSUUVreUtjeFUzVllTVExFbTNYcHM4dXR2T000TDVwYVpkdF9WMk9DNWY5RGpRZG9DV0ktWHk3bExmR21GNGNVbTFRd0FqZTR5Y0djOHVHTW01dTdGQlp4Y0hUYk9kSEgtQjFmVXBuTmQyWWc4NE1FSGQxa2t3?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9IWlhtTWdOZG5QSUtfcjZHLWNIX29ITlQza3B1LTVJWHdaUWJtR3BLRVZsclBpczRMb2lsUHYwYnNLaVZZOEhMLXFabU1LVmFrNDlFR2Z0R0ZVVXlNNFVSaTIxMjh2RExOQVkzRURKZ3pIcmlWN0JkU1hXUm5GUQ?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNNVJTQjNfY0diVktPOVpubWpGR2lJUjM5VFUwc2tkeGRGYk4xZ1hJM0o5YXljMUwxQ241MGtZNHIyWUIyQTRIUTdDX2xoT29GN3BrdjM0cHFJQUNPRG52R3ZTQ3JwUV9ZcDNCZWVFQ2NkaWpUaVFBWmljeGxOWG9ROUFueDRUQXQ3MTVsMGRzbl9Ca3Qwb1NCU0F6SDVFQmJZUFRKdXUzZHBBUUtYWFE3c2Vma3ZaOUotQVR4WmNHYkdUSnlpY0dKUElhSEIxZHBuWUxxY2p0am4wYldLczU3bzVOYncxLTM3MWJPZ0VsZU1aSkRUS3c?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4ybjJ3VC01ZXljQ0htQUdGcFdmWUJiSG5EMVNvT3lwbXlpcmNHcW1id0cxdlhwbk90d2NpZTFQTHo4eTRGUjEtamJiVlJtZ3pkU3QyeGVoUWZPV25hcjNraWxrX2xxMHRvMkRQZ0FsR3RrZm43SUoxVQ?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZlgxTU1tTlduQ1pOR0JwMUtxLVNNU3haR0xwbXhrUjdBdHJPUGpSaHBReEFIUzNPVTJlQks1ZVBVdmROWlJuZWtKOFlDeFhEaHlsOXl0UnFORlVnc1ZGNm1Xal9vV1VDVDMtU2l2bURkeXlXbmlwa2s4T1FDeFZEdFpLTGxJbUhvTnpqZkNCX1pVemg2VWFuelBvZWRxMEt50gGmAUFVX3lxTE9iYjMweVk0eHRyRGs5RlJiZEdRcW5JZVpYZ01JX2tuZE1yeFEwUmM5eU92aWs5WUVFUHR5X0FsU2x5cm56QmpwdThVc1RzVU56VWdpYk5fUC05bzBpenpRQklfUGZQQjJZd3hEeWlXSkN4WlpVQTVENmNwa3d2XzRFZ21GeHFabXZzR3VPd0N1WXZXWDJ5ZXFQSmRxT0NaTTZmUTNIUlE?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcE8wa3BuNUhMNEdTNG1aUUYtbnFFZXZSZE5FZkFkSkhicDJXUGlrN1ctUFdzOFhLS1hZQlkyOVRldlkyWEUwTzkzTDV5YnZoTDktYWRMb2xGNV9xUGdjTThJeDFUQlZfM3I3ako0bDdUQ2VTS1p3ZGxnVVVxcC1Pd25heG05aWtOdG9B?oc=5",
         "bucket": "control"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTXIyQ2lHaWVZcnBaUkpGQndodDJrQmloTnZJRGdvRVR0WExTSllVWk9NRkhoUWdNaGdhOTVUcUc3MS04MmNCSUpleWZBOGY1VW5ySWtuQWQ3VWtHRTNVYUJrRFZxTXU0eVBYNkdrTEpaUWg4YlRLSUprZEh4X3JQRy1fNi1TWjRBZ1lwcEJJTEhkYU5hR3B0cnhYWS04OTBYdVJfUWtrMU1Ud3FMdllCbXJvSHlZcS1kNDEyVUdQMC1ueE91VGp3NEoyUXYtdDJV?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/08/spotify-is-getting-more-serious-about-selling-enterprise-software/",
+        "key": "https://arstechnica.com/science/2026/10/r-i-p-margaret-hamilton-whose-code-saved-the-apollo-11-moon-landing/",
         "bucket": "control"
       },
       {
-        "key": "https://techcrunch.com/2026/10/08/cal-ais-19-year-old-founder-just-raised-10m-for-his-new-ai-startup/",
+        "key": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVTVQcllXSi1ZR0NLcmFYWjhlc2VIVWZVb2ZKV0d0ckMxZENZdlItemRDNVRhejVySWJUVEJ3dnQxX1k1elBkelI0b2VXZmMzQUlqSVN0Si02ZWNJTFZYV2dlcTVxdWJrSHRublJKLWc1cU5XUVQyWE9wZ0JsUUZrYkhVWC05and4N2c?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX3R1aEJFQVc2MHZDZV9FTElRcUZIb202djVrMGpKRFl2bDYzb1BDUy1NLTdzZUw5cmZQV29JVHY3anlHaFdfLVV0TXlCQmVaQllZSmtEeUtCSVZzQ3JFX2IwVmlHVUoxd3BLWVZkNzd0ZGNWeTFRbTRfS21ZR3YzSHdR?oc=5",
         "bucket": "variant"
       },
       {
-        "key": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ndXRRREw2cDJXSnVYbVVLOUdxOUs2VGNOaFVNeW1NR01CVjBpa1ppdGdqNzVaTUk0V3pnS1B6TUxrYTI0TUM4YmFPYU5MWGdfWXhBWUNwNnZjNjVsZDlnVVcwRmE2blozbk5SUw?oc=5",
+        "key": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMFVHYmlQSWJmbzFRTUFEZGIzd18weFBaZlNMZm1XOGxqNmZkN1p3OVJOLVVKMGZZcU1tX094ck9IQUtQWmIxN2ZkbVVhd1VVV21CWVl1ZW5kSkY3OGx1VlRqU3JLM0RiTnJXWlVrOUNIY09fVUZVRnp5b0N2T1Z2ZGwtU0lhRHZ1a1BKbEpaU1Z5X3RfU09TR3NlbmJyY1RYRmtMbGtHNWpmTU9laFM4N3R6VU9NVTFNRUE?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
         "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaGJoa2pSZlR0QWU3Tm5sNDNYWF80M2thUmtPTXZUVlZ3UzlFb1NURFdROUJvc3FmSV83Nm1EdHlzSFBWanloQUF5Q0RDLTZnWENlOWpDS1BnQXBSZjZHS1J5V3JhbjRnajRNMzQ0d3VGUjJPWVNXZk1DV3Z3RUMyUFJPY3BjRm1zd1NnMjRUX1VFdUg3cDBEM013VmRWRkpKc0FpbkNuWHBvOEx6S2JfYzBzZHBfZGFrNWR1MHcycms3ZFhJM1FTZi13eVFpUUFtV3RNSA?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUEtRVUFESFhBSnptWkd0UnVzSklWOVF0VTFkQWp3SGpvU205ZE1yMDJRV29maXdSSU9uRXJRQ3RqVU1IY3cyeDJuTFJyQTVyU3BGc0NUT3Z3M2lHLW94SWo1XzJRel9LcV8wQ29TNF85Q1IydmhOQnF2ejVramdMRVp3ejlTRXFZZzBRVDBKTmoyanRLYU5BaFBqS09FRUNkVDl4dnB2WkRobG9VV211N2FUN3c4d2hqYnNsZ3ZZVDNsLTdNZ3k3VGtrS1dGLTRQLXpKeHhvSEs?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMmx5S2hIaUV1WkEwazhFQ2FWRzBhRFE1UF8xLXdySnNSem1lb1pkaHNPVnpGY0E5ZkRXUGtaSWduUVRpcXMzTXhWMEk1REdFbU9RejVwM2dza2o4TU9qSm9GcmU0RHhlSEZsMlVCSW9xeUlzWVVKNVlMYnZBUmZFR1dXWGFEUkVEUWMtblZRQ1hrVnRUeTBQZVpoaEtEMEhubjQzeGlfTUhUZ3VBOG4zbHBWMm5UMjVLdzA5T1I1QzVvcmhqSEF1R3h3M0ZKSWk4Vmc?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQR2RXNWp2ZjNVS3ZsQVBMZUFDYkdxcXFMVUtGTjNzc1NjUGlyaTZwdGdXUVdvZUp6VE9WVjd3cTc4UEpQbHY4Rnh6QWVTczFIU0UxVjQtTlNicHZ1Nk9vU3FBVlpJb0d2SHk3aVdEajN1dzE2b3dkU1RwS1BtZnFZZ1RhdkpkU2JnSEgyWG9UUE93YkRIUUZWX19NeVBNNkR1SVlvNXV4a0tQdUx6eC13M1RaQ0NzekpUdnRXb2NRU3lsZFJ3Nmd0c3o0NDZfeXlUaXlPY0lNdXFGU0c5S0JINW8xZ0ZoYVpkcExCVmJLZzl5dlJjQ2hxRk56OWlXLXVtVzVHSWIwa09KeWlpeExkbjBEU0pERTFCM2lZNUh0TQ?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://www.theverge.com/news/1008279/apple-tim-cook-not-meddling-john-ternus-ceo",
+        "bucket": "control"
       }
     ]
   },
@@ -337,13 +337,13 @@
     {
       "experimentId": "headline-style",
       "sample": {
-        "control": 11,
-        "variant": 9,
+        "control": 9,
+        "variant": 11,
         "total": 20
       },
       "outcomeMetrics": {
         "editorialScore": null,
-        "claimConfidence": 67,
+        "claimConfidence": 66,
         "evidencePassRate": 30
       },
       "conclusion": "insufficient-data",
@@ -352,13 +352,13 @@
     {
       "experimentId": "intro-style",
       "sample": {
-        "control": 11,
-        "variant": 9,
+        "control": 9,
+        "variant": 11,
         "total": 20
       },
       "outcomeMetrics": {
         "editorialScore": null,
-        "claimConfidence": 67,
+        "claimConfidence": 66,
         "evidencePassRate": 30
       },
       "conclusion": "insufficient-data",
@@ -367,13 +367,13 @@
     {
       "experimentId": "cta-placement",
       "sample": {
-        "control": 11,
-        "variant": 9,
+        "control": 9,
+        "variant": 11,
         "total": 20
       },
       "outcomeMetrics": {
         "editorialScore": null,
-        "claimConfidence": 67,
+        "claimConfidence": 66,
         "evidencePassRate": 30
       },
       "conclusion": "insufficient-data",
@@ -381,6 +381,6 @@
     }
   ],
   "history": {
-    "previousUpdatedAt": "2026-10-08T14:01:25.621Z"
+    "previousUpdatedAt": "2026-10-08T23:33:06.242Z"
   }
 }
