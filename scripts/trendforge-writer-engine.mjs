@@ -72,6 +72,7 @@ const normalizeGeneratedDraft=draft=>{
   }
   return {draft:out,removedDuplicateSentences:removed};
 };
+// Canary trigger commit: exercise the title/topic guard with the isolated writer-stage workflow.
 export const assessWriterTopicAlignment=(requested,draft)=>{const source=String(requested||'');const generated=`${draft.title} ${draft.description} ${draft.content.slice(0,7000)}`;const a=topicTokens(source),b=topicTokens(generated),titleB=topicTokens(draft.title);const shared=[...a].filter(x=>b.has(x)),titleShared=[...a].filter(x=>titleB.has(x));const entities=[...entityTokens(source)].filter(x=>entityTokens(generated).has(x));const titleLower=draft.title.toLowerCase(),requestedLower=source.toLowerCase();const titleExactConcept=!!requestedLower&&(titleLower.includes(requestedLower.slice(0,Math.min(32,requestedLower.length)))||requestedLower.includes(titleLower.slice(0,Math.min(32,titleLower.length))));return{score:shared.length,shared:shared.slice(0,12),titleShared:titleShared.slice(0,12),entities:entities.slice(0,8),passed:titleShared.length>=1&&shared.length>=2||titleShared.length>=2||shared.length>=4||entities.length>=1||titleExactConcept};};
 
 export async function generateWithTrendForgeWriter({prompt,category='Technology',expectedTitle=''}){
