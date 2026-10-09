@@ -37,5 +37,5 @@ for(const field of ['title','description','content']) {
   assert.ok(parsed[field].trim().length>0,`Empty required field: ${field}`);
 }
 assert.deepEqual(Object.keys(parsed).sort(),['content','description','title'],'Unexpected keys in response.');
-console.log(`PASS: ${provider} live response-contract smoke test. model=${result.diagnostics?.model||process.env[provider==='Groq'?'GROQ_MODEL':provider==='Gemini'?'GEMINI_MODEL':provider==='Cohere'?'COHERE_MODEL':'OPENROUTER_MODEL']||'provider default'} diagnostics=${JSON.stringify({...result.diagnostics,parseMode:candidates.indexOf(JSON.stringify(parsed))>0?'embedded':'strict-or-fenced',rawLength:raw.length})}`);
+console.log(`PASS: ${provider} live response-contract smoke test. model=${result.diagnostics?.model||process.env[provider==='Groq'?'GROQ_MODEL':provider==='Gemini'?'GEMINI_MODEL':provider==='Cohere'?'COHERE_MODEL':'OPENROUTER_MODEL']||'provider default'} diagnostics=${JSON.stringify({...result.diagnostics,parseMode:/^\\s*(?:\\{|```)/.test(raw)?'strict-or-fenced':'embedded',rawLength:raw.length})}`);
 if(result.usage) console.log(`Usage metadata: ${JSON.stringify(result.usage)}`);
