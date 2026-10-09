@@ -16,6 +16,12 @@ const automotiveStory = {
 };
 
 assert.equal(assessCandidateSourceAlignment(candidate, securityStory).aligned, false);
+const securityPageWithIncidentalCostMention = {
+  title: 'Our latest investment in open source security for the AI era',
+  description: 'Google is investing in open source software security.',
+  body: 'The project helps secure open source software. Some teams also discuss cost savings, licensing costs, and software budgets, but this article reports on a security funding pledge.'
+};
+assert.equal(assessCandidateSourceAlignment(candidate, securityPageWithIncidentalCostMention).aligned, false, 'body mentions of cost must not turn a security story into a cost story');
 assert.equal(assessCandidateSourceAlignment(candidate, costStory).aligned, true);
 assert.equal(assessCandidateSourceAlignment(candidate, automotiveStory).aligned, false);
 assert.equal(assessCandidateSourceAlignment({title:'OpenAI launches new model'}, {title:'OpenAI launches new model'}).aligned, true);
