@@ -36,6 +36,8 @@ jobs:
         run: npm install
       - name: Verify writer runtime
         run: node scripts/prepare-writer-runtime.mjs
+      - name: Test candidate/source alignment guard
+        run: node scripts/test-candidate-source-alignment.mjs
       - name: Generate fresh research and evidence candidate
         env:
           PRE_WRITER_REFRESH_UPSTREAM: "1"
