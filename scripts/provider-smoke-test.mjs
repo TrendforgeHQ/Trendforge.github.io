@@ -23,7 +23,7 @@ const prompt=[
   'Do not add any other keys or text outside the JSON object.'
 ].join('\n');
 
-const result=await request(provider,prompt,'Return only the requested JSON object.',formats,{maxCompletionTokens:300});
+const result=await request(provider,prompt,'Return only the requested JSON object.',formats,{maxCompletionTokens:provider==='OpenRouter'?900:300});
 const raw=String(result.text||'');
 const cleaned=raw.trim().replace(/^```(?:json)?\s*/i,'').replace(/\s*```$/i,'');
 const candidates=[cleaned];
