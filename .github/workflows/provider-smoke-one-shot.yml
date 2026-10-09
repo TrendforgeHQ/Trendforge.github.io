@@ -1,4 +1,4 @@
-name: One-shot OpenRouter Provider Smoke Test
+name: Isolated Gemini and Cohere Provider Smoke Tests
 
 on:
   push:
@@ -14,19 +14,23 @@ permissions:
   contents: read
 
 jobs:
-  openrouter-smoke:
-    if: github.event.head_commit.message == 'Re-run OpenRouter smoke test with error diagnostics'
+  provider-smoke:
+    if: github.event.head_commit.message == 'Run Gemini and Cohere isolated smoke tests'
+    strategy:
+      fail-fast: false
+      matrix:
+        provider: [Gemini, Cohere]
     runs-on: ubuntu-latest
     timeout-minutes: 3
     env:
-      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-      OPENROUTER_MODEL: openrouter/free
-      PROVIDER_SMOKE_TARGET: OpenRouter
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
+      PROVIDER_SMOKE_TARGET: ${{ matrix.provider }}
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
         with:
           node-version: 24
           package-manager-cache: false
-      - name: Run one bounded OpenRouter response-contract request
+      - name: Run one bounded ${{ matrix.provider }} response-contract request
         run: node scripts/provider-smoke-test.mjs
