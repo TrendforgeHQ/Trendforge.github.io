@@ -8,7 +8,7 @@ process.env.OPENROUTER_MODEL='openrouter/free';
 process.env.COHERE_MODEL='command-a-plus-05-2026';
 
 const originalFetch=globalThis.fetch;
-const { request: requestProviderForTest }=await import('./trendforge-writer-engine.mjs');
+const { request: requestProviderForTest, parseWriterJson }=await import('./trendforge-writer-engine.mjs');
 
 function response(status, payload, headers={}) {
   return {
@@ -88,6 +88,35 @@ try {
   globalThis.fetch=async()=>{attempts++;return response(429,'rate limited');};
   await assert.rejects(()=>requestProviderForTest('OpenRouter','fixture prompt','fixture system',{}, {maxCompletionTokens:900}),/^Error: 429: rate limited$/);
   assert.equal(attempts,1,'429 without an explicit reset hint must not retry');
+
+  // Writer-level integration boundary: every provider's extracted text must pass the same
+  // parser and required-field contract before editorial validation starts. All fixtures are
+  // local; this section makes no provider requests and does not load the article pipeline.
+  const validWriterJson='{"title":"Contract title","description":"Contract description","content":"Contract body"}';
+  for (const [label,raw] of [
+    ['strict JSON',validWriterJson],
+    ['fenced JSON','```json\\n'+validWriterJson+'\\n```'],
+    ['JSON embedded in wrapper text','Provider output: '+validWriterJson+' End of output.']
+  ]) {
+    const parsed=parseWriterJson(raw);
+    assert.ok(parsed, label+' should parse');
+    for (const field of ['title','description','content']) {
+      assert.equal(typeof parsed[field],'string',label+' should provide string '+field);
+      assert.ok(parsed[field].trim().length>0,label+' should provide non-empty '+field);
+    }
+  }
+  for (const [label,raw] of [
+    ['empty output',''],
+    ['whitespace output','   \\n  '],
+    ['malformed JSON','{"title":"broken"'],
+    ['array output','[{"title":"not an object"}]'],
+    ['missing required field','{"title":"Only title","description":"No content"}'],
+    ['empty required field','{"title":"Title","description":"Description","content":"  "}']
+  ]) {
+    const parsed=parseWriterJson(raw);
+    const valid=Boolean(parsed&&['title','description','content'].every(field=>typeof parsed[field]==='string'&&parsed[field].trim().length>0));
+    assert.equal(valid,false,label+' must not pass the writer response contract');
+  }
 
   console.log('PASS: mocked provider contract tests (Gemini, Cohere, OpenRouter, no-hint 429). No live provider requests were made.');
 } finally {
