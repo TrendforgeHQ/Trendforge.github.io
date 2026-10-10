@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "title": "AI coding agents generate more code, but not more software",
-  "mode": "bounded",
+  "title": "Country star Ella Langley cancels Tulsa, Oklahoma, show due to ‘serious security threat’ - NBC News",
+  "mode": "narrow",
   "wordBudget": {
-    "min": 425,
-    "max": 750,
-    "soft": 588
+    "min": 231,
+    "max": 420,
+    "soft": 326
   },
   "h2Budget": {
-    "preferredMin": 2,
-    "preferredMax": 4
+    "preferredMin": 1,
+    "preferredMax": 2
   },
   "atomicClaimBudget": 18,
   "allowedFactIds": [
@@ -20,6 +20,7 @@
     "F5",
     "F6",
     "F7",
+    "F8",
     "F9",
     "F10",
     "F11",
@@ -33,17 +34,7 @@
     "F19",
     "F20",
     "F21",
-    "F22",
-    "F23",
-    "F24",
-    "F25",
-    "F26",
-    "F28",
-    "F29",
-    "F30",
-    "F31",
-    "F33",
-    "F35"
+    "F22"
   ],
   "synthesis": {
     "allowed": true,
@@ -57,6 +48,7 @@
       "F5",
       "F6",
       "F7",
+      "F8",
       "F9",
       "F10",
       "F11",
@@ -70,17 +62,7 @@
       "F19",
       "F20",
       "F21",
-      "F22",
-      "F23",
-      "F24",
-      "F25",
-      "F26",
-      "F28",
-      "F29",
-      "F30",
-      "F31",
-      "F33",
-      "F35"
+      "F22"
     ]
   },
   "rules": {
@@ -89,7 +71,7 @@
     "newEntitiesInSynthesis": false,
     "newCausalityInSynthesis": false
   },
-  "generatedAt": "2026-10-09T22:03:05.455Z",
-  "articleTitle": "AI‑Generated Code Blooms, But Software Shipments Stay Flat",
-  "articleSlug": "ai-generated-code-blooms-but-software-shipments-stay-flat"
+  "generatedAt": "2026-10-10T11:37:36.790Z",
+  "articleTitle": "Ella Langley Cancels Tulsa Show Over Serious Security Threat",
+  "articleSlug": "ella-langley-cancels-tulsa-show-over-serious-security-threat"
 }

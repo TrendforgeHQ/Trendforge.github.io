@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T22:03:05.455Z",
+  "generatedAt": "2026-10-10T11:37:36.790Z",
   "provider": "Groq",
   "editorial": {
     "passed": true,
@@ -22,8 +22,8 @@
       "noHighSimilaritySource": true
     },
     "metrics": {
-      "normalizedLength": 3766,
-      "sentenceCount": 25,
+      "normalizedLength": 1711,
+      "sentenceCount": 12,
       "maxSourceSimilarity": 0,
       "maxCommonPhrase": 0
     }
@@ -31,15 +31,15 @@
   "semanticDuplicateCheck": "passed",
   "sourceRelationshipCheck": "passed",
   "verifiedEvidenceDomains": [
-    "arstechnica.com",
-    "itbrew.com",
-    "finance.biggo.com",
-    "infoworld.com"
+    "yahoo.com",
+    "wideopencountry.com",
+    "thebiglead.com",
+    "nbcnews.com"
   ],
   "primarySourceCount": 0,
   "grounding": {
     "sourceCount": 4,
-    "usablePassages": 36,
+    "usablePassages": 23,
     "primarySourceCount": 0
   }
 }

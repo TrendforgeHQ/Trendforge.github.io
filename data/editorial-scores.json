@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-09T22:04:14.531Z",
+  "generatedAt": "2026-10-10T11:38:07.485Z",
   "status": "pass",
-  "currentGeneratedArticle": null,
-  "currentScore": null,
+  "currentGeneratedArticle": "ella-langley-cancels-tulsa-show-over-serious-security-threat",
+  "currentScore": 87,
   "identity": {
     "method": "brief.title",
-    "rejectedMarker": true
+    "rejectedMarker": false
   },
   "policy": {
     "publishCandidate": 90,
@@ -321,6 +321,21 @@
         "evidence confidence needs improvement",
         "source strength/diversity needs improvement"
       ]
+    },
+    {
+      "slug": "ella-langley-cancels-tulsa-show-over-serious-security-threat",
+      "title": "Ella Langley Cancels Tulsa Show Over Serious Security Threat",
+      "category": "Digital Life",
+      "score": 87,
+      "decision": "publish_ready",
+      "dimensions": {
+        "evidence": 80,
+        "usefulness": 95,
+        "clarity": 87,
+        "originality": 88,
+        "sourceStrength": 88
+      },
+      "reasons": []
     },
     {
       "slug": "exclusive-paying-for-frontier-ai-models-buys-4-month-head-start-at-5x-the-cost",

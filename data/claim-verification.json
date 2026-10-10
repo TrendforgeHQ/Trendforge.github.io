@@ -1,19 +1,19 @@
 {
   "version": 18,
-  "generatedAt": "2026-10-09T22:04:10.047Z",
-  "articlePath": "content/articles/ai-generated-code-blooms-but-software-shipments-stay-flat.md",
-  "articleTitle": "AI‑Generated Code Blooms, But Software Shipments Stay Flat",
+  "generatedAt": "2026-10-10T11:38:03.959Z",
+  "articlePath": "content/articles/ella-langley-cancels-tulsa-show-over-serious-security-threat.md",
+  "articleTitle": "Ella Langley Cancels Tulsa Show Over Serious Security Threat",
   "verificationMode": "authoritative-evidence-pack-v20-fact-map-synthesis",
   "sourceCount": 4,
   "usableSourceCount": 4,
-  "claimCount": 18,
-  "editorialCount": 5,
-  "verified": 13,
-  "partial": 4,
-  "unsupported": 1,
+  "claimCount": 10,
+  "editorialCount": 1,
+  "verified": 9,
+  "partial": 1,
+  "unsupported": 0,
   "sourceUnavailable": 0,
-  "averageConfidence": 67,
-  "pass": false,
+  "averageConfidence": 76,
+  "pass": true,
   "policy": {
     "verifiedMin": 62,
     "partialMin": 45,
@@ -45,96 +45,270 @@
   "sources": [
     {
       "id": "S1",
-      "title": "AI coding agents generate more code, but not more software",
-      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-      "domain": "arstechnica.com",
-      "passageCount": 6,
-      "articleBodyLength": 1107
+      "title": "Ella Langley Abruptly Cancels Tulsa Show Due to ‘Serious Security Threat’ - Yahoo",
+      "url": "https://www.yahoo.com/entertainment/music/articles/ella-langley-abruptly-cancels-tulsa-222609230.html",
+      "domain": "yahoo.com",
+      "passageCount": 5,
+      "articleBodyLength": 751
     },
     {
       "id": "S2",
-      "title": "AI coding tools help write more lines of code, but not ship more software: study - IT Brew",
-      "url": "https://www.itbrew.com/stories/ai-coding-tools-help-write-more-lines-of-code-but-not-ship-more-software-study",
-      "domain": "itbrew.com",
-      "passageCount": 5,
-      "articleBodyLength": 1263
+      "title": "Ella Langley Cancels Show Amid \"Serious Security Threat\" - Wide Open Country",
+      "url": "https://www.wideopencountry.com/ella-langley-cancels-show-amid-serious-security-threat/",
+      "domain": "wideopencountry.com",
+      "passageCount": 6,
+      "articleBodyLength": 638
     },
     {
       "id": "S3",
-      "title": "Dan Adler Warns AI Coding Agents Are Flooding Legacy Codebases With Code No One Understands - BigGo Finance",
-      "url": "https://finance.biggo.com/news/77ca186991a8221a",
-      "domain": "finance.biggo.com",
-      "passageCount": 16,
-      "articleBodyLength": 2816
+      "title": "Ella Langley’s Tulsa concert canceled after ‘serious security threat’ discovered - The Big Lead",
+      "url": "https://www.thebiglead.com/ella-langley-concert-canceled-serious-security-threat-discovered/",
+      "domain": "thebiglead.com",
+      "passageCount": 9,
+      "articleBodyLength": 922
     },
     {
       "id": "S4",
-      "title": "AI coding agents need good software engineers",
-      "url": "https://www.infoworld.com/article/4176534/ai-coding-agents-need-good-software-engineers.html",
-      "domain": "infoworld.com",
-      "passageCount": 9,
-      "articleBodyLength": 1512
+      "title": "Country star Ella Langley cancels Tulsa, Oklahoma, show due to ‘serious security threat’",
+      "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/country-star-ella-langley-cancels-tulsa-oklahoma-show-due-serious-secu-rcna602609",
+      "domain": "nbcnews.com",
+      "passageCount": 3,
+      "articleBodyLength": 708
     }
   ],
   "claims": [
     {
       "index": 1,
-      "claim": "A recent survey of GitHub developers revealed that AI coding assistants can raise the number of lines written by a noticeable margin.",
-      "status": "partial",
-      "classification": "supported_with_context",
-      "confidence": 58,
+      "claim": "Ella Langley cancelled her sold‑out performance in Tulsa, Oklahoma, on Friday night because of a “serious security threat” that could endanger fans, venue staff, and her team.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 94,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "AI coding tools help write more lines of code, but not ship more software: study - IT Brew",
-      "bestUrl": "https://www.itbrew.com/stories/ai-coding-tools-help-write-more-lines-of-code-but-not-ship-more-software-study",
-      "bestDomain": "itbrew.com",
-      "sourceId": "S2",
+      "bestSource": "Country star Ella Langley cancels Tulsa, Oklahoma, show due to ‘serious security threat’",
+      "bestUrl": "https://www.nbcnews.com/pop-culture/pop-culture-news/country-star-ella-langley-cancels-tulsa-oklahoma-show-due-serious-secu-rcna602609",
+      "bestDomain": "nbcnews.com",
+      "sourceId": "S4",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F7",
-        "sourceId": "S2",
+        "factId": "F20",
+        "sourceId": "S4",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 46
+        "score": 92
       },
       "provenanceFactMatches": [
         {
-          "factId": "F7",
-          "sourceId": "S2",
+          "factId": "F20",
+          "sourceId": "S4",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 46,
-          "passageIndex": 2
+          "score": 92,
+          "passageIndex": 1
+        },
+        {
+          "factId": "F1",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 89,
+          "passageIndex": 1
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "After examining the data and AI usage telemetry of over 100,000 GitHub developers, researchers from MIT and UPenn’s Wharton School have determined that AI coding tools might help developers produce more lines of code, but that’s not leading to more finished software shipped.",
-      "bestPassage": "After examining the data and AI usage telemetry of over 100,000 GitHub developers, researchers from MIT and UPenn’s Wharton School have determined that AI coding tools might help developers produce more lines of code, but that’s not leading to more finished software shipped.",
+      "bestPassageId": "S4-FF20,S1-FF1",
+      "evidence": "Country singer Ella Langley canceled her sold-out show slated for Friday evening in Tulsa, Oklahoma, due to what she described as “a serious security threat.” The 27-year-old star announced the last-minute cancellation on Instagram, saying the threat involved “the safety of my fans, the venue staff, and my team.” “The incredibly difficult decision was made to cancel tonight’s show,” she said. Ella Langley canceled her show in Tulsa, Oklahoma, on Friday night due to a \"serious security threat\" to fans, venue staff, and her team.",
+      "bestPassage": "Country singer Ella Langley canceled her sold-out show slated for Friday evening in Tulsa, Oklahoma, due to what she described as “a serious security threat.” The 27-year-old star announced the last-minute cancellation on Instagram, saying the threat involved “the safety of my fans, the venue staff, and my team.” “The incredibly difficult decision was made to cancel tonight’s show,” she said. Ella Langley canceled her show in Tulsa, Oklahoma, on Friday night due to a \"serious security threat\" to fans, venue staff, and her team.",
       "matchedPassages": [
-        "S2-BODY",
-        "S2-P1"
+        "S4-BODY",
+        "S4-P1"
       ],
       "sharedTerms": [
-        "github",
-        "developer",
-        "cod",
-        "can",
-        "the",
-        "lin"
+        "ella",
+        "langley",
+        "her",
+        "sold",
+        "out",
+        "tulsa",
+        "oklahoma",
+        "friday",
+        "night",
+        "seriou",
+        "security",
+        "threat",
+        "fans",
+        "venue",
+        "staff",
+        "and",
+        "team"
       ],
       "entityShared": [
-        "github"
+        "ella",
+        "langley",
+        "tulsa",
+        "oklahoma",
+        "friday"
       ],
       "topicShared": [
-        "cod"
+        "ella",
+        "langley",
+        "tulsa",
+        "oklahoma",
+        "seriou",
+        "security",
+        "threat"
       ],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
       "scopeWarnings": [],
       "attributionUncertainty": {
-        "evidenceUncertain": true,
+        "evidenceUncertain": false,
         "claimUncertain": true,
-        "evidenceAttributed": false,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-multi-fact-anchored"
+    },
+    {
+      "index": 2,
+      "claim": "She announced the decision on social media hours before doors opened at the BOK Center.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 89,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Ella Langley Abruptly Cancels Tulsa Show Due to ‘Serious Security Threat’ - Yahoo",
+      "bestUrl": "https://www.yahoo.com/entertainment/music/articles/ella-langley-abruptly-cancels-tulsa-222609230.html",
+      "bestDomain": "yahoo.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F2",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 89
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F2",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 89,
+          "passageIndex": 2
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-P2",
+      "evidence": "The country star announced the news on social media hours before doors were set to open at the BOK Center.",
+      "bestPassage": "The country star announced the news on social media hours before doors were set to open at the BOK Center.",
+      "matchedPassages": [
+        "S1-P2",
+        "S1-BODY"
+      ],
+      "sharedTerms": [
+        "announce",
+        "the",
+        "social",
+        "media",
+        "hour",
+        "door",
+        "open",
+        "bok",
+        "center"
+      ],
+      "entityShared": [
+        "bok",
+        "center"
+      ],
+      "topicShared": [],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": true,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 3,
+      "claim": "The venue echoed her post, stating that the safety and well‑being of everyone involved was the absolute priority and that the show could not proceed.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 81,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Ella Langley Abruptly Cancels Tulsa Show Due to ‘Serious Security Threat’ - Yahoo",
+      "bestUrl": "https://www.yahoo.com/entertainment/music/articles/ella-langley-abruptly-cancels-tulsa-222609230.html",
+      "bestDomain": "yahoo.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F4",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 78
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F4",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 78,
+          "passageIndex": 7
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-BODY",
+      "evidence": "A statement shared by the venue echoed Langley's post, which added, \"The safety and well-being of everyone involved is our absolute priority, and after careful consideration, we have determined that the show cannot proceed.\" The venue said that information on ticket refunds will be shared soon.",
+      "bestPassage": "A statement shared by the venue echoed Langley's post, which added, \"The safety and well-being of everyone involved is our absolute priority, and after careful consideration, we have determined that the show cannot proceed.\" The venue said that information on ticket refunds will be shared soon.",
+      "matchedPassages": [
+        "S1-BODY",
+        "S1-P4"
+      ],
+      "sharedTerms": [
+        "the",
+        "venue",
+        "echo",
+        "her",
+        "post",
+        "safety",
+        "and",
+        "well",
+        "everyone",
+        "involv",
+        "absolute",
+        "priority",
+        "show",
+        "proce"
+      ],
+      "entityShared": [],
+      "topicShared": [
+        "show"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": true,
+        "evidenceAttributed": true,
         "claimAttributed": false,
         "certaintyEscalation": false,
         "attributionDropped": false,
@@ -147,174 +321,81 @@
       "matchingMode": "fact-map-anchored-source-passage"
     },
     {
-      "index": 2,
-      "claim": "Researchers from MIT and the Wharton School processed telemetry from more than 100,000 developers and found that AI tools help produce more lines of code, but that this increase does not lead to more software being shipped.",
+      "index": 4,
+      "claim": "Both Langley and the BOK Center said ticket‑refund information would be shared soon.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 93,
+      "confidence": 92,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "AI coding tools help write more lines of code, but not ship more software: study - IT Brew",
-      "bestUrl": "https://www.itbrew.com/stories/ai-coding-tools-help-write-more-lines-of-code-but-not-ship-more-software-study",
-      "bestDomain": "itbrew.com",
-      "sourceId": "S2",
+      "bestSource": "Ella Langley Abruptly Cancels Tulsa Show Due to ‘Serious Security Threat’ - Yahoo",
+      "bestUrl": "https://www.yahoo.com/entertainment/music/articles/ella-langley-abruptly-cancels-tulsa-222609230.html",
+      "bestDomain": "yahoo.com",
+      "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F7",
-        "sourceId": "S2",
+        "factId": "F4",
+        "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 93
+        "score": 69
       },
       "provenanceFactMatches": [
         {
-          "factId": "F7",
-          "sourceId": "S2",
+          "factId": "F4",
+          "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 93,
-          "passageIndex": 2
+          "score": 69,
+          "passageIndex": 7
+        },
+        {
+          "factId": "F12",
+          "sourceId": "S3",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 58,
+          "passageIndex": 7
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S2-FF7",
-      "evidence": "After examining the data and AI usage telemetry of over 100,000 GitHub developers, researchers from MIT and UPenn’s Wharton School have determined that AI coding tools might help developers produce more lines of code, but that’s not leading to more finished software shipped.",
-      "bestPassage": "After examining the data and AI usage telemetry of over 100,000 GitHub developers, researchers from MIT and UPenn’s Wharton School have determined that AI coding tools might help developers produce more lines of code, but that’s not leading to more finished software shipped.",
+      "bestPassageId": "S1-FF4,S3-FF12",
+      "evidence": "A statement shared by the venue echoed Langley's post, which added, \"The safety and well-being of everyone involved is our absolute priority, and after careful consideration, we have determined that the show cannot proceed.\" The venue said that information on ticket refunds will be shared soon. &#8220;Due to a serious security threat involving the safety of fans, venue personnel, and the artist, Ella Langley&#8217;s scheduled performance tonight at BOK Center in Tulsa has been canceled.&#8221;",
+      "bestPassage": "A statement shared by the venue echoed Langley's post, which added, \"The safety and well-being of everyone involved is our absolute priority, and after careful consideration, we have determined that the show cannot proceed.\" The venue said that information on ticket refunds will be shared soon. &#8220;Due to a serious security threat involving the safety of fans, venue personnel, and the artist, Ella Langley&#8217;s scheduled performance tonight at BOK Center in Tulsa has been canceled.&#8221;",
       "matchedPassages": [
-        "S2-P1",
-        "S2-BODY"
+        "S1-BODY"
       ],
       "sharedTerms": [
-        "researcher",
-        "mit",
+        "langley",
         "and",
         "the",
-        "wharton",
-        "school",
-        "telemetry",
-        "100",
-        "000",
-        "developer",
-        "tool",
-        "help",
-        "produce",
-        "lin",
-        "code",
-        "but",
-        "not",
-        "lead",
-        "software",
-        "shipp"
+        "bok",
+        "center",
+        "ticket",
+        "refund",
+        "information",
+        "shar",
+        "soon"
       ],
       "entityShared": [
-        "mit",
-        "wharton",
-        "school"
+        "langley",
+        "bok",
+        "center"
       ],
       "topicShared": [
-        "code",
-        "but",
-        "not",
-        "software"
+        "langley"
       ],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
       "scopeWarnings": [],
       "attributionUncertainty": {
-        "evidenceUncertain": true,
+        "evidenceUncertain": false,
         "claimUncertain": false,
-        "evidenceAttributed": false,
+        "evidenceAttributed": true,
         "claimAttributed": true,
         "certaintyEscalation": false,
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": true,
-      "directExact": true,
-      "matchingMode": "direct-exact-evidence"
-    },
-    {
-      "index": 4,
-      "claim": "While the agents can produce functional code quickly, the volume of new code is not matched by a corresponding rise in finished products.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 61,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Dan Adler Warns AI Coding Agents Are Flooding Legacy Codebases With Code No One Understands - BigGo Finance",
-      "bestUrl": "https://finance.biggo.com/news/77ca186991a8221a",
-      "bestDomain": "finance.biggo.com",
-      "sourceId": "S3",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F22",
-        "sourceId": "S3",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 37
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F22",
-          "sourceId": "S3",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 37,
-          "passageIndex": 8
-        },
-        {
-          "factId": "F7",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 34,
-          "passageIndex": 2
-        },
-        {
-          "factId": "F5",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 29,
-          "passageIndex": 2
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S3-FF22,S2-FF7,S1-FF5",
-      "evidence": "He rejects the obvious counterarguments — that agents can check code, that codebase-health tools exist, that model quality keeps improving — as \"local maxima,\" dams built to contain a flow that keeps rising. After examining the data and AI usage telemetry of over 100,000 GitHub developers, researchers from MIT and UPenn’s Wharton School have determined that AI coding tools might help developers produce more lines of code, but that’s not leading to more finished software shipped. Anyone who has even tangentially associated with computer programming knows that modern AI coding assistants and agents can be incredibly efficient at generating huge amounts of functional code .",
-      "bestPassage": "He rejects the obvious counterarguments — that agents can check code, that codebase-health tools exist, that model quality keeps improving — as \"local maxima,\" dams built to contain a flow that keeps rising. After examining the data and AI usage telemetry of over 100,000 GitHub developers, researchers from MIT and UPenn’s Wharton School have determined that AI coding tools might help developers produce more lines of code, but that’s not leading to more finished software shipped. Anyone who has even tangentially associated with computer programming knows that modern AI coding assistants and agents can be incredibly efficient at generating huge amounts of functional code .",
-      "matchedPassages": [
-        "S3-BODY",
-        "S3-P11"
-      ],
-      "sharedTerms": [
-        "the",
-        "agent",
-        "can",
-        "produce",
-        "functional",
-        "code",
-        "not",
-        "rise",
-        "finish"
-      ],
-      "entityShared": [],
-      "topicShared": [
-        "agent",
-        "code",
-        "not"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": true,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 3,
+      "factCoverage": 2,
       "multiFactSupported": true,
       "directFactExact": false,
       "directExact": false,
@@ -322,148 +403,125 @@
     },
     {
       "index": 5,
-      "claim": "The efficiency gains from AI coding come with a trade‑off: teams face a higher burden of reviewing and integrating the new code.",
+      "claim": "The threat was reported by Tulsa police, who said a call was made that threatened the lives of people attending the event.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 57,
+      "confidence": 90,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "AI coding agents generate more code, but not more software",
-      "bestUrl": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-      "bestDomain": "arstechnica.com",
-      "sourceId": "S1",
+      "bestSource": "Ella Langley Cancels Show Amid \"Serious Security Threat\" - Wide Open Country",
+      "bestUrl": "https://www.wideopencountry.com/ella-langley-cancels-show-amid-serious-security-threat/",
+      "bestDomain": "wideopencountry.com",
+      "sourceId": "S2",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F4",
-        "sourceId": "S1",
+        "factId": "F9",
+        "sourceId": "S2",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 37
+        "score": 86
       },
       "provenanceFactMatches": [
         {
-          "factId": "F4",
-          "sourceId": "S1",
+          "factId": "F9",
+          "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 37,
-          "passageIndex": 10
-        },
-        {
-          "factId": "F1",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 36,
-          "passageIndex": 6
-        },
-        {
-          "factId": "F6",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 33,
-          "passageIndex": 11
+          "score": 86,
+          "passageIndex": 3
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "These kinds of “coding time versus review time” trade-offs could improve as software engineering teams gain more experience with the pros and cons of siccing an AI agent on particular coding problems. The introduction of AI coding agents at a firm leads to a 30 percent increase in total lines of code generated, a 20 percent rise in the number of total commits, and a 23 percent increase in pull requests on average, the researchers write. For now, though, letting AI write your code looks like a double-edged sword, with increases in coding speed counteracted by similar increases in human code review time and effort.",
-      "bestPassage": "These kinds of “coding time versus review time” trade-offs could improve as software engineering teams gain more experience with the pros and cons of siccing an AI agent on particular coding problems. The introduction of AI coding agents at a firm leads to a 30 percent increase in total lines of code generated, a 20 percent rise in the number of total commits, and a 23 percent increase in pull requests on average, the researchers write. For now, though, letting AI write your code looks like a double-edged sword, with increases in coding speed counteracted by similar increases in human code review time and effort.",
+      "bestPassageId": "S2-BODY",
+      "evidence": "Per NBC News , Tulsa police said on Friday night that \"a call was made threatening the lives of people attending the event.\" They took the threat seriously, having deployed their K-9s, bomb team, and patrols in tandem with venue security.",
+      "bestPassage": "Per NBC News , Tulsa police said on Friday night that \"a call was made threatening the lives of people attending the event.\" They took the threat seriously, having deployed their K-9s, bomb team, and patrols in tandem with venue security.",
       "matchedPassages": [
-        "S1-BODY",
-        "S1-P4"
+        "S2-BODY",
+        "S2-P4"
       ],
       "sharedTerms": [
         "the",
-        "rise",
-        "cod",
-        "trade",
-        "team",
-        "review",
-        "and",
-        "new",
-        "code"
+        "threat",
+        "was",
+        "tulsa",
+        "police",
+        "who",
+        "call",
+        "threaten",
+        "liv",
+        "people",
+        "attend",
+        "event"
       ],
-      "entityShared": [],
+      "entityShared": [
+        "tulsa"
+      ],
       "topicShared": [
-        "cod",
-        "code"
+        "threat",
+        "tulsa"
       ],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
       "scopeWarnings": [],
       "attributionUncertainty": {
-        "evidenceUncertain": true,
+        "evidenceUncertain": false,
         "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
+        "evidenceAttributed": true,
+        "claimAttributed": true,
         "certaintyEscalation": false,
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 3,
-      "multiFactSupported": true,
+      "factCoverage": 1,
+      "multiFactSupported": false,
       "directFactExact": false,
       "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
+      "matchingMode": "fact-map-anchored-source-passage"
     },
     {
       "index": 6,
-      "claim": "The increased speed of code generation is balanced by a similar uptick in the time human engineers spend on code reviews and related tasks.",
+      "claim": "The police also apologized to fans who had arrived for the concert.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 57,
+      "confidence": 62,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "AI coding agents generate more code, but not more software",
-      "bestUrl": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-      "bestDomain": "arstechnica.com",
-      "sourceId": "S1",
+      "bestSource": "Ella Langley Cancels Show Amid \"Serious Security Threat\" - Wide Open Country",
+      "bestUrl": "https://www.wideopencountry.com/ella-langley-cancels-show-amid-serious-security-threat/",
+      "bestDomain": "wideopencountry.com",
+      "sourceId": "S2",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F6",
-        "sourceId": "S1",
+        "factId": "F10",
+        "sourceId": "S2",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 48
+        "score": 43
       },
       "provenanceFactMatches": [
         {
-          "factId": "F6",
-          "sourceId": "S1",
+          "factId": "F10",
+          "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 48,
-          "passageIndex": 11
-        },
-        {
-          "factId": "F31",
-          "sourceId": "S4",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 36,
-          "passageIndex": 11
+          "score": 43,
+          "passageIndex": 3
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-FF6,S4-FF31",
-      "evidence": "For now, though, letting AI write your code looks like a double-edged sword, with increases in coding speed counteracted by similar increases in human code review time and effort. As Honeycomb Founder and CTO Charity Majors puts it, being a great software engineer “has far more to do with your ability to understand, maintain, explain, and manage a large body of software in production over time, as well as the ability to translate business needs into technical implementation” than to simply churn out lots of code.",
-      "bestPassage": "For now, though, letting AI write your code looks like a double-edged sword, with increases in coding speed counteracted by similar increases in human code review time and effort. As Honeycomb Founder and CTO Charity Majors puts it, being a great software engineer “has far more to do with your ability to understand, maintain, explain, and manage a large body of software in production over time, as well as the ability to translate business needs into technical implementation” than to simply churn out lots of code.",
+      "bestPassageId": "S2-BODY",
+      "evidence": "Tulsa police also apologized to any Ella Langley fans who \"came down tonight\".",
+      "bestPassage": "Tulsa police also apologized to any Ella Langley fans who \"came down tonight\".",
       "matchedPassages": [
-        "S1-BODY",
-        "S1-P6"
+        "S2-BODY",
+        "S2-P5"
       ],
       "sharedTerms": [
         "the",
-        "rise",
-        "spe",
-        "code",
-        "similar",
-        "time",
-        "human",
-        "engineer",
-        "review",
-        "and"
+        "police",
+        "apologiz",
+        "fans",
+        "who"
       ],
       "entityShared": [],
-      "topicShared": [
-        "code"
-      ],
+      "topicShared": [],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
@@ -477,7 +535,94 @@
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 2,
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 7,
+      "claim": "While the police noted that no credible threat had been found, the artist and venue still chose to cancel the show.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 78,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Country star Ella Langley cancels Tulsa, Oklahoma, show due to ‘serious security threat’",
+      "bestUrl": "https://www.nbcnews.com/pop-culture/pop-culture-news/country-star-ella-langley-cancels-tulsa-oklahoma-show-due-serious-secu-rcna602609",
+      "bestDomain": "nbcnews.com",
+      "sourceId": "S4",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F22",
+        "sourceId": "S4",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 54
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F22",
+          "sourceId": "S4",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 54,
+          "passageIndex": 3
+        },
+        {
+          "factId": "F12",
+          "sourceId": "S3",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 44,
+          "passageIndex": 7
+        },
+        {
+          "factId": "F20",
+          "sourceId": "S4",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 44,
+          "passageIndex": 1
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S4-FF22,S3-FF12,S4-FF20",
+      "evidence": "Police said that it advised Langley’s staff that no credible threat was found, “but they decided to cancel the performance anyway.” “We apologize to everyone who came down tonight. &#8220;Due to a serious security threat involving the safety of fans, venue personnel, and the artist, Ella Langley&#8217;s scheduled performance tonight at BOK Center in Tulsa has been canceled.&#8221; Country singer Ella Langley canceled her sold-out show slated for Friday evening in Tulsa, Oklahoma, due to what she described as “a serious security threat.” The 27-year-old star announced the last-minute cancellation on Instagram, saying the threat involved “the safety of my fans, the venue staff, and my team.” “The incredibly difficult decision was made to cancel tonight’s show,” she said.",
+      "bestPassage": "Police said that it advised Langley’s staff that no credible threat was found, “but they decided to cancel the performance anyway.” “We apologize to everyone who came down tonight. &#8220;Due to a serious security threat involving the safety of fans, venue personnel, and the artist, Ella Langley&#8217;s scheduled performance tonight at BOK Center in Tulsa has been canceled.&#8221; Country singer Ella Langley canceled her sold-out show slated for Friday evening in Tulsa, Oklahoma, due to what she described as “a serious security threat.” The 27-year-old star announced the last-minute cancellation on Instagram, saying the threat involved “the safety of my fans, the venue staff, and my team.” “The incredibly difficult decision was made to cancel tonight’s show,” she said.",
+      "matchedPassages": [
+        "S4-BODY",
+        "S4-P3"
+      ],
+      "sharedTerms": [
+        "the",
+        "police",
+        "credible",
+        "threat",
+        "found",
+        "artist",
+        "and",
+        "venue",
+        "cancel",
+        "show"
+      ],
+      "entityShared": [],
+      "topicShared": [
+        "threat",
+        "cancel",
+        "show"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": true,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 3,
       "multiFactSupported": true,
       "directFactExact": false,
       "directExact": false,
@@ -485,54 +630,76 @@
     },
     {
       "index": 8,
-      "claim": "These “coding time versus review time” dynamics are expected to improve as teams gain experience.",
+      "claim": "Fans and ticket holders can still find remaining tickets for the rest of Langley’s “Dandelion” tour, and the artist has expressed regret for the disruption, acknowledging the time, travel, money, and planning that go into attending a concert.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 81,
+      "confidence": 77,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "AI coding agents generate more code, but not more software",
-      "bestUrl": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-      "bestDomain": "arstechnica.com",
+      "bestSource": "Ella Langley Abruptly Cancels Tulsa Show Due to ‘Serious Security Threat’ - Yahoo",
+      "bestUrl": "https://www.yahoo.com/entertainment/music/articles/ella-langley-abruptly-cancels-tulsa-222609230.html",
+      "bestDomain": "yahoo.com",
       "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F4",
+        "factId": "F3",
         "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 76
+        "score": 51
       },
       "provenanceFactMatches": [
         {
-          "factId": "F4",
+          "factId": "F3",
           "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 76,
-          "passageIndex": 10
+          "score": 51,
+          "passageIndex": 4
+        },
+        {
+          "factId": "F5",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 46,
+          "passageIndex": 6
+        },
+        {
+          "factId": "F12",
+          "sourceId": "S3",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 39,
+          "passageIndex": 7
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "These kinds of “coding time versus review time” trade-offs could improve as software engineering teams gain more experience with the pros and cons of siccing an AI agent on particular coding problems.",
-      "bestPassage": "These kinds of “coding time versus review time” trade-offs could improve as software engineering teams gain more experience with the pros and cons of siccing an AI agent on particular coding problems.",
+      "bestPassageId": "S1-FF3,S1-FF5,S3-FF12",
+      "evidence": "Here's Where You Can Still Find Tickets to Ella Langley's 'Dandelion' Tour \"I know how much time, travel, money, and planning goes into coming to a show, and I can't tell you how sorry I am,\" Langley continued. &#8220;Due to a serious security threat involving the safety of fans, venue personnel, and the artist, Ella Langley&#8217;s scheduled performance tonight at BOK Center in Tulsa has been canceled.&#8221;",
+      "bestPassage": "Here's Where You Can Still Find Tickets to Ella Langley's 'Dandelion' Tour \"I know how much time, travel, money, and planning goes into coming to a show, and I can't tell you how sorry I am,\" Langley continued. &#8220;Due to a serious security threat involving the safety of fans, venue personnel, and the artist, Ella Langley&#8217;s scheduled performance tonight at BOK Center in Tulsa has been canceled.&#8221;",
       "matchedPassages": [
-        "S1-BODY",
-        "S1-P4"
+        "S1-BODY"
       ],
       "sharedTerms": [
-        "cod",
+        "fans",
+        "and",
+        "ticket",
+        "can",
+        "find",
+        "the",
+        "langley",
+        "dandelion",
+        "tour",
+        "artist",
+        "has",
         "time",
-        "versu",
-        "review",
-        "are",
-        "improve",
-        "team",
-        "gain",
-        "experience"
+        "travel",
+        "money",
+        "plann"
       ],
-      "entityShared": [],
+      "entityShared": [
+        "langley",
+        "dandelion"
+      ],
       "topicShared": [
-        "cod"
+        "langley"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -547,85 +714,86 @@
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 1,
-      "multiFactSupported": false,
+      "factCoverage": 3,
+      "multiFactSupported": true,
       "directFactExact": false,
       "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
+      "matchingMode": "fact-map-multi-fact-anchored"
     },
     {
       "index": 9,
-      "claim": "Engineers may learn how to apply AI agents selectively, choosing the right problems for the tool and reducing unnecessary review overhead.",
+      "claim": "If you were planning to attend the Tulsa show, check the venue’s or artist’s website for refund updates and consider purchasing tickets for future tour dates.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 50,
+      "confidence": 56,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "AI coding tools help write more lines of code, but not ship more software: study - IT Brew",
-      "bestUrl": "https://www.itbrew.com/stories/ai-coding-tools-help-write-more-lines-of-code-but-not-ship-more-software-study",
-      "bestDomain": "itbrew.com",
-      "sourceId": "S2",
+      "bestSource": "Ella Langley Abruptly Cancels Tulsa Show Due to ‘Serious Security Threat’ - Yahoo",
+      "bestUrl": "https://www.yahoo.com/entertainment/music/articles/ella-langley-abruptly-cancels-tulsa-222609230.html",
+      "bestDomain": "yahoo.com",
+      "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F4",
-        "sourceId": "S1",
+        "factId": "F20",
+        "sourceId": "S4",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 35
+        "score": 39
       },
       "provenanceFactMatches": [
+        {
+          "factId": "F20",
+          "sourceId": "S4",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 39,
+          "passageIndex": 1
+        },
         {
           "factId": "F4",
           "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 35,
-          "passageIndex": 10
+          "score": 37,
+          "passageIndex": 7
         },
         {
-          "factId": "F28",
-          "sourceId": "S4",
+          "factId": "F9",
+          "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 32,
-          "passageIndex": 5
-        },
-        {
-          "factId": "F14",
-          "sourceId": "S3",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 26,
-          "passageIndex": 1
+          "score": 33,
+          "passageIndex": 3
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-FF4,S4-FF28,S3-FF14",
-      "evidence": "These kinds of “coding time versus review time” trade-offs could improve as software engineering teams gain more experience with the pros and cons of siccing an AI agent on particular coding problems. Well… The Wall Street Journal recently highlighted warnings from Mario Zechner and Armin Ronacher, two engineers behind core pieces of the popular OpenClaw AI agent, who argue that AI coding tools are flooding software with what they call “vibe slop.” Their complaint is that too many people are using AI to skip the parts of software development that actually matter: design, judgment, testing, ownership, and deep understanding of the system being changed. Dan Adler, CEO of SourceCraft, told this story on the AI Engineer podcast, and it captures the collision he sees coming for every company running large, legacy software systems.",
-      "bestPassage": "These kinds of “coding time versus review time” trade-offs could improve as software engineering teams gain more experience with the pros and cons of siccing an AI agent on particular coding problems. Well… The Wall Street Journal recently highlighted warnings from Mario Zechner and Armin Ronacher, two engineers behind core pieces of the popular OpenClaw AI agent, who argue that AI coding tools are flooding software with what they call “vibe slop.” Their complaint is that too many people are using AI to skip the parts of software development that actually matter: design, judgment, testing, ownership, and deep understanding of the system being changed. Dan Adler, CEO of SourceCraft, told this story on the AI Engineer podcast, and it captures the collision he sees coming for every company running large, legacy software systems.",
+      "bestPassageId": "S4-FF20,S1-FF4,S2-FF9",
+      "evidence": "Country singer Ella Langley canceled her sold-out show slated for Friday evening in Tulsa, Oklahoma, due to what she described as “a serious security threat.” The 27-year-old star announced the last-minute cancellation on Instagram, saying the threat involved “the safety of my fans, the venue staff, and my team.” “The incredibly difficult decision was made to cancel tonight’s show,” she said. A statement shared by the venue echoed Langley's post, which added, \"The safety and well-being of everyone involved is our absolute priority, and after careful consideration, we have determined that the show cannot proceed.\" The venue said that information on ticket refunds will be shared soon. Per NBC News , Tulsa police said on Friday night that \"a call was made threatening the lives of people attending the event.\" They took the threat seriously, having deployed their K-9s, bomb team, and patrols in tandem with venue security.",
+      "bestPassage": "Country singer Ella Langley canceled her sold-out show slated for Friday evening in Tulsa, Oklahoma, due to what she described as “a serious security threat.” The 27-year-old star announced the last-minute cancellation on Instagram, saying the threat involved “the safety of my fans, the venue staff, and my team.” “The incredibly difficult decision was made to cancel tonight’s show,” she said. A statement shared by the venue echoed Langley's post, which added, \"The safety and well-being of everyone involved is our absolute priority, and after careful consideration, we have determined that the show cannot proceed.\" The venue said that information on ticket refunds will be shared soon. Per NBC News , Tulsa police said on Friday night that \"a call was made threatening the lives of people attending the event.\" They took the threat seriously, having deployed their K-9s, bomb team, and patrols in tandem with venue security.",
       "matchedPassages": [
-        "S2-BODY",
-        "S2-P2"
+        "S1-BODY"
       ],
       "sharedTerms": [
-        "engineer",
-        "agent",
+        "attend",
         "the",
-        "problem",
+        "tulsa",
+        "show",
+        "venue",
         "for",
-        "tool",
+        "refund",
         "and",
-        "review"
+        "ticket"
       ],
       "entityShared": [
-        "engineer"
+        "tulsa"
       ],
       "topicShared": [
-        "agent"
+        "tulsa",
+        "show"
       ],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
       "scopeWarnings": [],
       "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": true,
+        "evidenceUncertain": false,
+        "claimUncertain": false,
         "evidenceAttributed": true,
         "claimAttributed": false,
         "certaintyEscalation": false,
@@ -640,824 +808,67 @@
     },
     {
       "index": 10,
-      "claim": "Dan Adler, CEO of SourceCraft, warned that large, legacy software environments could become overwhelmed by the rapid influx of AI‑generated code.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 83,
+      "claim": "The incident underscores the importance of venue security protocols and the swift decisions artists and organizers must make when safety concerns arise.",
+      "status": "partial",
+      "classification": "uncertain",
+      "confidence": 45,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Dan Adler Warns AI Coding Agents Are Flooding Legacy Codebases With Code No One Understands - BigGo Finance",
-      "bestUrl": "https://finance.biggo.com/news/77ca186991a8221a",
-      "bestDomain": "finance.biggo.com",
+      "bestSource": "Ella Langley’s Tulsa concert canceled after ‘serious security threat’ discovered - The Big Lead",
+      "bestUrl": "https://www.thebiglead.com/ella-langley-concert-canceled-serious-security-threat-discovered/",
+      "bestDomain": "thebiglead.com",
       "sourceId": "S3",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F14",
+        "factId": "F12",
         "sourceId": "S3",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 76
+        "score": 39
       },
       "provenanceFactMatches": [
         {
-          "factId": "F14",
-          "sourceId": "S3",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 76,
-          "passageIndex": 1
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S3-BODY",
-      "evidence": "Dan Adler, CEO of SourceCraft, told this story on the AI Engineer podcast, and it captures the collision he sees coming for every company running large, legacy software systems.",
-      "bestPassage": "Dan Adler, CEO of SourceCraft, told this story on the AI Engineer podcast, and it captures the collision he sees coming for every company running large, legacy software systems.",
-      "matchedPassages": [
-        "S3-BODY",
-        "S3-P3"
-      ],
-      "sharedTerms": [
-        "dan",
-        "adler",
-        "ceo",
-        "sourcecraft",
-        "large",
-        "legacy",
-        "software",
-        "the",
-        "generat",
-        "code"
-      ],
-      "entityShared": [
-        "dan",
-        "adler",
-        "ceo",
-        "sourcecraft"
-      ],
-      "topicShared": [
-        "software",
-        "code"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": true,
-        "evidenceAttributed": true,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 11,
-      "claim": "He described the situation as a “tsunami of code” that enterprises cannot keep pace with.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 71,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Dan Adler Warns AI Coding Agents Are Flooding Legacy Codebases With Code No One Understands - BigGo Finance",
-      "bestUrl": "https://finance.biggo.com/news/77ca186991a8221a",
-      "bestDomain": "finance.biggo.com",
-      "sourceId": "S3",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F21",
-        "sourceId": "S3",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 33
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F21",
-          "sourceId": "S3",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 33,
-          "passageIndex": 2
-        },
-        {
-          "factId": "F22",
-          "sourceId": "S3",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 27,
-          "passageIndex": 8
-        },
-        {
-          "factId": "F13",
-          "sourceId": "S3",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 25,
-          "passageIndex": 27
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S3-BODY",
-      "evidence": "He calls it \"a tsunami of code\" — code being generated faster than enterprises can review, understand, or integrate it. He rejects the obvious counterarguments — that agents can check code, that codebase-health tools exist, that model quality keeps improving — as \"local maxima,\" dams built to contain a flow that keeps rising. The engineers who maintain these systems are, in Adler's words, under siege from a flood of generated code they cannot fully understand or review.",
-      "bestPassage": "He calls it \"a tsunami of code\" — code being generated faster than enterprises can review, understand, or integrate it. He rejects the obvious counterarguments — that agents can check code, that codebase-health tools exist, that model quality keeps improving — as \"local maxima,\" dams built to contain a flow that keeps rising. The engineers who maintain these systems are, in Adler's words, under siege from a flood of generated code they cannot fully understand or review.",
-      "matchedPassages": [
-        "S3-BODY"
-      ],
-      "sharedTerms": [
-        "describ",
-        "the",
-        "tsunami",
-        "code",
-        "enterpris",
-        "cannot",
-        "keep"
-      ],
-      "entityShared": [],
-      "topicShared": [
-        "code"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 3,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
-    },
-    {
-      "index": 12,
-      "claim": "Adler notes that 72% of software workers operate in companies with more than 500 employees, many of which manage vast repositories and long‑standing codebases.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 75,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Dan Adler Warns AI Coding Agents Are Flooding Legacy Codebases With Code No One Understands - BigGo Finance",
-      "bestUrl": "https://finance.biggo.com/news/77ca186991a8221a",
-      "bestDomain": "finance.biggo.com",
-      "sourceId": "S3",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F23",
-        "sourceId": "S3",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 55
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F23",
-          "sourceId": "S3",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 55,
-          "passageIndex": 3
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S3-BODY",
-      "evidence": "By his account, 72% of software industry workers are employed at companies with more than 500 employees — large global corporations managing thousands of repositories and decades of accumulated code.",
-      "bestPassage": "By his account, 72% of software industry workers are employed at companies with more than 500 employees — large global corporations managing thousands of repositories and decades of accumulated code.",
-      "matchedPassages": [
-        "S3-BODY",
-        "S3-P12"
-      ],
-      "sharedTerms": [
-        "adler",
-        "not",
-        "software",
-        "worker",
-        "compani",
-        "500",
-        "repositori",
-        "and",
-        "codebas"
-      ],
-      "entityShared": [
-        "adler"
-      ],
-      "topicShared": [
-        "not",
-        "software"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": true,
-      "directExact": true,
-      "matchingMode": "direct-exact-evidence"
-    },
-    {
-      "index": 13,
-      "claim": "According to Adler, the agents’ search behavior mirrors that of a new employee acclimating to a codebase, but without the context that large repositories require.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 82,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Dan Adler Warns AI Coding Agents Are Flooding Legacy Codebases With Code No One Understands - BigGo Finance",
-      "bestUrl": "https://finance.biggo.com/news/77ca186991a8221a",
-      "bestDomain": "finance.biggo.com",
-      "sourceId": "S3",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F16",
-        "sourceId": "S3",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 49
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F16",
-          "sourceId": "S3",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 49,
-          "passageIndex": 10
-        },
-        {
-          "factId": "F26",
+          "factId": "F12",
           "sourceId": "S3",
           "sourceRole": "DIRECT_REPORTING",
           "score": 39,
-          "passageIndex": 14
+          "passageIndex": 7
         }
       ],
       "contextOnlySource": false,
       "bestPassageId": "S3-BODY",
-      "evidence": "They \"just love to search,\" he noted — comparing an agent to a new employee getting comfortable with a codebase — and this search behavior is how agents build their understanding. The second unnamed quote Adler surfaces comes from a technical leader at a top-ten US bank, described as holding tens of trillions of dollars in assets in custody or under management: \"Of course Claude Code can make this change, but I need to do it in 90,000 repositories.\" The context was a supply-chain vulnerability related to npm.",
-      "bestPassage": "They \"just love to search,\" he noted — comparing an agent to a new employee getting comfortable with a codebase — and this search behavior is how agents build their understanding. The second unnamed quote Adler surfaces comes from a technical leader at a top-ten US bank, described as holding tens of trillions of dollars in assets in custody or under management: \"Of course Claude Code can make this change, but I need to do it in 90,000 repositories.\" The context was a supply-chain vulnerability related to npm.",
+      "evidence": "&#8220;Due to a serious security threat involving the safety of fans, venue personnel, and the artist, Ella Langley&#8217;s scheduled performance tonight at BOK Center in Tulsa has been canceled.&#8221;",
+      "bestPassage": "&#8220;Due to a serious security threat involving the safety of fans, venue personnel, and the artist, Ella Langley&#8217;s scheduled performance tonight at BOK Center in Tulsa has been canceled.&#8221;",
       "matchedPassages": [
-        "S3-BODY"
+        "S3-BODY",
+        "S3-P1"
       ],
       "sharedTerms": [
-        "adler",
         "the",
-        "agent",
-        "search",
-        "behavior",
-        "new",
-        "worker",
-        "codebase",
-        "but",
-        "without",
-        "context",
-        "large",
-        "repositori"
+        "venue",
+        "security",
+        "and",
+        "decision",
+        "artist",
+        "safety"
       ],
-      "entityShared": [
-        "adler"
-      ],
+      "entityShared": [],
       "topicShared": [
-        "agent",
-        "but"
+        "security"
       ],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
       "scopeWarnings": [],
       "attributionUncertainty": {
-        "evidenceUncertain": true,
+        "evidenceUncertain": false,
         "claimUncertain": false,
-        "evidenceAttributed": true,
-        "claimAttributed": true,
+        "evidenceAttributed": false,
+        "claimAttributed": false,
         "certaintyEscalation": false,
         "attributionDropped": false,
         "blocked": false
       },
       "factCoverage": 2,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
-    },
-    {
-      "index": 14,
-      "claim": "He argues that existing tools for maintaining code health are insufficient to handle the volume and complexity of AI‑written code at scale.",
-      "status": "partial",
-      "classification": "supported_with_context",
-      "confidence": 57,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Dan Adler Warns AI Coding Agents Are Flooding Legacy Codebases With Code No One Understands - BigGo Finance",
-      "bestUrl": "https://finance.biggo.com/news/77ca186991a8221a",
-      "bestDomain": "finance.biggo.com",
-      "sourceId": "S3",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F22",
-        "sourceId": "S3",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 33
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F22",
-          "sourceId": "S3",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 33,
-          "passageIndex": 8
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S3-BODY",
-      "evidence": "He rejects the obvious counterarguments — that agents can check code, that codebase-health tools exist, that model quality keeps improving — as \"local maxima,\" dams built to contain a flow that keeps rising.",
-      "bestPassage": "He rejects the obvious counterarguments — that agents can check code, that codebase-health tools exist, that model quality keeps improving — as \"local maxima,\" dams built to contain a flow that keeps rising.",
-      "matchedPassages": [
-        "S3-BODY"
-      ],
-      "sharedTerms": [
-        "exist",
-        "tool",
-        "for",
-        "maintain",
-        "code",
-        "health",
-        "are",
-        "the",
-        "and",
-        "scale"
-      ],
-      "entityShared": [],
-      "topicShared": [
-        "code"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": true,
-        "attributionDropped": false,
-        "blocked": true
-      },
-      "factCoverage": 3,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 15,
-      "claim": "Experts such as Mario Zechner and Armin Ronacher have cautioned that AI coding tools can flood projects with what they term “vibe slop”—code that bypasses critical steps like design, judgment, testing, and ownership.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 81,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "AI coding agents need good software engineers",
-      "bestUrl": "https://www.infoworld.com/article/4176534/ai-coding-agents-need-good-software-engineers.html",
-      "bestDomain": "infoworld.com",
-      "sourceId": "S4",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F28",
-        "sourceId": "S4",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 79
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F28",
-          "sourceId": "S4",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 79,
-          "passageIndex": 5
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S4-BODY",
-      "evidence": "Well… The Wall Street Journal recently highlighted warnings from Mario Zechner and Armin Ronacher, two engineers behind core pieces of the popular OpenClaw AI agent, who argue that AI coding tools are flooding software with what they call “vibe slop.” Their complaint is that too many people are using AI to skip the parts of software development that actually matter: design, judgment, testing, ownership, and deep understanding of the system being changed.",
-      "bestPassage": "Well… The Wall Street Journal recently highlighted warnings from Mario Zechner and Armin Ronacher, two engineers behind core pieces of the popular OpenClaw AI agent, who argue that AI coding tools are flooding software with what they call “vibe slop.” Their complaint is that too many people are using AI to skip the parts of software development that actually matter: design, judgment, testing, ownership, and deep understanding of the system being changed.",
-      "matchedPassages": [
-        "S4-BODY",
-        "S4-P1"
-      ],
-      "sharedTerms": [
-        "mario",
-        "zechner",
-        "and",
-        "armin",
-        "ronacher",
-        "cod",
-        "tool",
-        "flood",
-        "vibe",
-        "slop",
-        "code",
-        "design",
-        "judgment",
-        "test",
-        "ownership"
-      ],
-      "entityShared": [
-        "mario",
-        "zechner",
-        "armin",
-        "ronacher"
-      ],
-      "topicShared": [
-        "cod",
-        "code"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": true,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 16,
-      "claim": "Their view aligns with Charity Majors, who stresses that effective software engineering hinges on the ability to understand, maintain, and evolve large production systems over time, rather than merely producing code.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 79,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "AI coding agents need good software engineers",
-      "bestUrl": "https://www.infoworld.com/article/4176534/ai-coding-agents-need-good-software-engineers.html",
-      "bestDomain": "infoworld.com",
-      "sourceId": "S4",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F31",
-        "sourceId": "S4",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 74
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F31",
-          "sourceId": "S4",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 74,
-          "passageIndex": 11
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S4-BODY",
-      "evidence": "As Honeycomb Founder and CTO Charity Majors puts it, being a great software engineer “has far more to do with your ability to understand, maintain, explain, and manage a large body of software in production over time, as well as the ability to translate business needs into technical implementation” than to simply churn out lots of code.",
-      "bestPassage": "As Honeycomb Founder and CTO Charity Majors puts it, being a great software engineer “has far more to do with your ability to understand, maintain, explain, and manage a large body of software in production over time, as well as the ability to translate business needs into technical implementation” than to simply churn out lots of code.",
-      "matchedPassages": [
-        "S4-BODY",
-        "S4-P4"
-      ],
-      "sharedTerms": [
-        "charity",
-        "major",
-        "who",
-        "software",
-        "engineer",
-        "the",
-        "ability",
-        "understand",
-        "maintain",
-        "and",
-        "large",
-        "production",
-        "system",
-        "time",
-        "code"
-      ],
-      "entityShared": [
-        "charity",
-        "major"
-      ],
-      "topicShared": [
-        "software",
-        "code"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 18,
-      "claim": "They highlight the risk of drifting toward locally convenient solutions when agents generate code without deep system insight.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 73,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "AI coding agents need good software engineers",
-      "bestUrl": "https://www.infoworld.com/article/4176534/ai-coding-agents-need-good-software-engineers.html",
-      "bestDomain": "infoworld.com",
-      "sourceId": "S4",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F33",
-        "sourceId": "S4",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 49
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F33",
-          "sourceId": "S4",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 49,
-          "passageIndex": 23
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S4-BODY",
-      "evidence": "In his talk, “The Friction Is Your Judgment,” he and Cristina Poncela argue that agent-generated code has a way of drifting toward the locally convenient answer.",
-      "bestPassage": "In his talk, “The Friction Is Your Judgment,” he and Cristina Poncela argue that agent-generated code has a way of drifting toward the locally convenient answer.",
-      "matchedPassages": [
-        "S4-BODY",
-        "S4-P6"
-      ],
-      "sharedTerms": [
-        "highlight",
-        "the",
-        "drift",
-        "toward",
-        "locally",
-        "convenient",
-        "agent",
-        "code",
-        "deep",
-        "system"
-      ],
-      "entityShared": [],
-      "topicShared": [
-        "agent",
-        "generate",
-        "code"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 19,
-      "claim": "The current evidence points to a clear pattern: AI coding assistants increase code volume but do not automatically raise shipped software.",
-      "status": "partial",
-      "classification": "supported_with_context",
-      "confidence": 54,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "AI coding tools help write more lines of code, but not ship more software: study - IT Brew",
-      "bestUrl": "https://www.itbrew.com/stories/ai-coding-tools-help-write-more-lines-of-code-but-not-ship-more-software-study",
-      "bestDomain": "itbrew.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F7",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 41
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F7",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 41,
-          "passageIndex": 2
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "After examining the data and AI usage telemetry of over 100,000 GitHub developers, researchers from MIT and UPenn’s Wharton School have determined that AI coding tools might help developers produce more lines of code, but that’s not leading to more finished software shipped.",
-      "bestPassage": "After examining the data and AI usage telemetry of over 100,000 GitHub developers, researchers from MIT and UPenn’s Wharton School have determined that AI coding tools might help developers produce more lines of code, but that’s not leading to more finished software shipped.",
-      "matchedPassages": [
-        "S2-BODY",
-        "S2-P1",
-        "S2-P2"
-      ],
-      "sharedTerms": [
-        "the",
-        "cod",
-        "code",
-        "but",
-        "not",
-        "shipp",
-        "software"
-      ],
-      "entityShared": [],
-      "topicShared": [
-        "cod",
-        "code",
-        "but",
-        "not",
-        "software"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 21,
-      "claim": "Without such support, the rapid pace of AI code generation may overwhelm engineering teams’ ability to integrate and maintain it.",
-      "status": "unsupported",
-      "classification": "unsupported",
-      "confidence": 47,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "AI coding agents need good software engineers",
-      "bestUrl": "https://www.infoworld.com/article/4176534/ai-coding-agents-need-good-software-engineers.html",
-      "bestDomain": "infoworld.com",
-      "sourceId": "S4",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F31",
-        "sourceId": "S4",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 42
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F31",
-          "sourceId": "S4",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 42,
-          "passageIndex": 11
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S4-P4",
-      "evidence": "As Honeycomb Founder and CTO Charity Majors puts it, being a great software engineer “has far more to do with your ability to understand, maintain, explain, and manage a large body of software in production over time, as well as the ability to translate business needs into technical implementation” than to simply churn out lots of code.",
-      "bestPassage": "As Honeycomb Founder and CTO Charity Majors puts it, being a great software engineer “has far more to do with your ability to understand, maintain, explain, and manage a large body of software in production over time, as well as the ability to translate business needs into technical implementation” than to simply churn out lots of code.",
-      "matchedPassages": [
-        "S4-P4",
-        "S4-BODY"
-      ],
-      "sharedTerms": [
-        "the",
-        "code",
-        "engineer",
-        "ability",
-        "and",
-        "maintain"
-      ],
-      "entityShared": [],
-      "topicShared": [
-        "code"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": true,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 22,
-      "claim": "In short, AI coding agents offer a productivity boost that is offset by increased review effort.",
-      "status": "partial",
-      "classification": "uncertain",
-      "confidence": 51,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "AI coding agents generate more code, but not more software",
-      "bestUrl": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-      "bestDomain": "arstechnica.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F6",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 30
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F6",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 30,
-          "passageIndex": 11
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "For now, though, letting AI write your code looks like a double-edged sword, with increases in coding speed counteracted by similar increases in human code review time and effort.",
-      "bestPassage": "For now, though, letting AI write your code looks like a double-edged sword, with increases in coding speed counteracted by similar increases in human code review time and effort.",
-      "matchedPassages": [
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "cod",
-        "agent",
-        "rise",
-        "review",
-        "effort"
-      ],
-      "entityShared": [],
-      "topicShared": [
-        "cod",
-        "agent"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 3,
       "multiFactSupported": false,
       "directFactExact": false,
       "directExact": false,
@@ -1466,32 +877,8 @@
   ],
   "editorial": [
     {
-      "index": 3,
-      "claim": "The data also suggest that the extra code generated by AI does not automatically improve overall software output at the firm level.",
-      "type": "editorial-analysis",
-      "status": "editorial-excluded"
-    },
-    {
-      "index": 7,
-      "claim": "Consequently, the overall productivity curve levels off, leaving the number of shipped applications unchanged.",
-      "type": "editorial-analysis",
-      "status": "editorial-excluded"
-    },
-    {
-      "index": 17,
-      "claim": "These voices reinforce the idea that autonomous coding agents, while powerful, cannot replace the nuanced work of seasoned engineers.",
-      "type": "editorial-analysis",
-      "status": "editorial-excluded"
-    },
-    {
-      "index": 20,
-      "claim": "Organizations should monitor how review processes adapt, as teams gain familiarity with the strengths and limits of these tools.",
-      "type": "editorial-recommendation",
-      "status": "editorial-excluded"
-    },
-    {
-      "index": 23,
-      "claim": "For now, the net effect on software delivery remains neutral, but the long‑term impact will depend on how teams evolve their workflows and tooling to manage the flood of code.",
+      "index": 11,
+      "claim": "While the broader tour is expected to proceed without further disruptions, the situation highlights how even well‑planned events can be halted by unforeseen security risks.",
       "type": "editorial-analysis",
       "status": "editorial-excluded"
     }

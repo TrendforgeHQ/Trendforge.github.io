@@ -1,32 +1,32 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-10T07:44:36.287Z",
+  "generatedAt": "2026-10-10T11:38:13.095Z",
   "policy": {
     "privacyFirst": true,
     "noPersonalTracking": true,
     "noPaidTrafficRequired": true
   },
   "summary": {
-    "totalArticles": 45,
+    "totalArticles": 46,
     "averageEditorialScore": 76,
     "editorialReviewCount": 32,
-    "refreshCandidates": 19
+    "refreshCandidates": 20
   },
   "categoryMix": [
     {
       "category": "AI",
       "count": 15,
-      "share": 33.3
+      "share": 32.6
     },
     {
       "category": "Technology",
       "count": 7,
-      "share": 15.6
+      "share": 15.2
     },
     {
       "category": "How-To",
       "count": 3,
-      "share": 6.7
+      "share": 6.5
     },
     {
       "category": "Innovation",
@@ -40,13 +40,13 @@
     },
     {
       "category": "Digital Life",
-      "count": 10,
-      "share": 22.2
+      "count": 11,
+      "share": 23.9
     },
     {
       "category": "Crypto",
       "count": 8,
-      "share": 17.8
+      "share": 17.4
     }
   ],
   "missingCategories": [
@@ -56,9 +56,14 @@
   "recommendations": [
     "Prioritize missing categories: Innovation.",
     "32 article(s) are in editorial review; improve them before treating them as growth winners.",
-    "19 older/incomplete article(s) are refresh candidates."
+    "20 older/incomplete article(s) are refresh candidates."
   ],
   "recentArticles": [
+    {
+      "title": "Ella Langley Cancels Tulsa Show Over Serious Security Threat",
+      "category": "Digital Life",
+      "publishedAt": "2026-10-10T11:37:36.789Z"
+    },
     {
       "title": "Anjuna Security Wins Data Privacy Solution of the Year at CyberSecurity Breakthrough Awards",
       "category": "Digital Life",
@@ -103,11 +108,6 @@
       "title": "Trump Launches Super Intelligence Force to Coordinate U.S. AI Policy",
       "category": "AI",
       "publishedAt": "2026-10-04T16:11:38.821Z"
-    },
-    {
-      "title": "Apple Tightens Mac Disk Access After AI‑Driven Privacy Concerns",
-      "category": "Digital Life",
-      "publishedAt": "2026-10-04T00:35:17.406Z"
     }
   ]
 }
