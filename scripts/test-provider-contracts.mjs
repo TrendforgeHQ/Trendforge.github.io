@@ -133,7 +133,25 @@ try {
     content:'The survey identifies cost savings, customization, and community expertise.'
   }).passed, true, 'writer should accept a genuinely aligned cost-of-software title');
 
-  console.log('PASS: mocked provider contract tests (Gemini, Cohere, OpenRouter, no-hint 429). No live provider requests were made.');
+  // Cohere timeout regression: Node's AbortSignal timeout commonly reports
+  // "The operation was aborted due to timeout". Verify the request layer retries
+  // that exact error and succeeds on the next bounded attempt, without live network.
+  let cohereTimeoutAttempts=0;
+  globalThis.fetch=async(url,init)=>{
+    cohereTimeoutAttempts++;
+    captured={url:String(url),body:JSON.parse(init.body)};
+    if(cohereTimeoutAttempts===1) throw new DOMException('The operation was aborted due to timeout','TimeoutError');
+    return response(200,{
+      finish_reason:'COMPLETE',
+      message:{id:'fixture-timeout-retry',content:[{type:'text',text:'{"title":"Recovered Cohere","description":"Recovered description","content":"Recovered article body"}'}]}
+    });
+  };
+  const recoveredCohere=await requestProviderForTest('Cohere','fixture prompt','fixture system',{}, {maxCompletionTokens:900});
+  assert.equal(cohereTimeoutAttempts,2,'Cohere should retry once after the abort timeout');
+  assert.match(recoveredCohere.text,/"title":"Recovered Cohere"/);
+  assert.equal(recoveredCohere.diagnostics.finishReason,'COMPLETE');
+
+  console.log('PASS: mocked provider contract tests (Gemini, Cohere including timeout retry, OpenRouter, no-hint 429). No live provider requests were made.');
 } finally {
   globalThis.fetch=originalFetch;
 }
