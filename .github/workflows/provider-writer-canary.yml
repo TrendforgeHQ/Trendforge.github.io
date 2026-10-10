@@ -18,10 +18,12 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        provider: [OpenRouter]
+        provider: [Groq, Gemini]
     runs-on: ubuntu-latest
     timeout-minutes: 4
     env:
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
       COHERE_MODEL: command-r-plus-08-2024
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
