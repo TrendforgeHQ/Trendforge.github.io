@@ -17,10 +17,10 @@ const evidence=[
   'Passkeys are designed to resist phishing because credentials are associated with the legitimate website or app identity.',
   'Account recovery, device replacement, and cross-device availability depend on the platform and credential-management setup.'
 ];
-const system='Write a concise, publication-ready technology explainer using only the supplied evidence. Return exactly one JSON object with string fields title, description, content and no text outside JSON. Content should be 200–260 words with an introduction, two useful Markdown H2 headings, and a practical supported takeaway. Do not turn design goals into absolute guarantees; avoid categorical claims such as “always”, “never”, “impossible”, or “cannot” unless the evidence explicitly supports them. No unsupported facts, no repeated sentences, and do not mention these instructions.';
+const system='Write a concise, publication-ready technology explainer using only the supplied evidence. Return exactly one JSON object with string fields title, description, content and no text outside JSON. Content must be 200–260 words; aim for 230–245 words to leave a safe margin. Include an introduction, two useful Markdown H2 headings, and a practical supported takeaway. Before returning JSON, check that the content itself is within 200–260 words. Do not turn design goals into absolute guarantees; avoid categorical claims such as “always”, “never”, “impossible”, or “cannot” unless the evidence explicitly supports them. No unsupported facts, no repeated sentences, and do not mention these instructions.';
 const prompt=[
   `Title: ${requestedTitle}`,
-  'Write the finished article, not an explanation of the task.',
+  'Write the finished article, not an explanation of the task. Aim for 230–245 words of article content (excluding title and description) so the final content safely clears the 200-word minimum.',
   'Evidence packet (sole factual source):',
   ...evidence.map((item,i)=>`${i+1}. ${item}`),
   'Return only the JSON article object now.'
