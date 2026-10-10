@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T06:21:08.167Z",
+  "updatedAt": "2026-10-10T13:00:30.582Z",
   "mode": "shadow",
   "policy": {
     "advisoryOnly": true,
@@ -14,9 +14,9 @@
     "noWinnerBeforeMinimumSample": true
   },
   "sample": {
-    "runs": 84,
+    "runs": 85,
     "topics": 500,
-    "articles": 45
+    "articles": 46
   },
   "learningInput": {
     "version": 2,
@@ -88,54 +88,6 @@
   "assignments": {
     "headline-style": [
       {
-        "key": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91ZGkxbFU5bkFVZmVsWkd6blNoWW52Q2dubV9VXzZNUlZHZy1HUEVuaklGb3BOb0dBVDVSUm1hOUlTN1hNd3BUNldQM21obHhEZG9v?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVUdPS1ZSX3I2OG4zdVNISmtQdWJDN1VmR1lSemRhS1dwUzVVU1ZZRV9UN0lyc2lEbE96WkgxX0J2TjI2U1l0cGRnX3BsNFhudE5oWUh3VUh1bDgxTk1ITmdJOFMxaFFTVXBJSE5tNXlVV0Nqb2VEek9rLTB0TE1YWGtMa3M1dmxhME1PWE9UbFVrS2dERHotazRzLWJza21seElQQmlFcUJZckZfTzQw0gG0AUFVX3lxTE1RSW5Xb2ZQQjNFYlpBVXllWTVUbmlpQWN0NGNPdzAxNEFqMEE1T196dHZNYXAwQTRTc3J6UVpGNkFOMEo4c2tialBna3MtQ24xbDJ5QTdxcUxXWEJUYmlKVFJXNXJMeFJjM2p3T3dpd2d2WjA1bmFpUEhhdzA1QmQwa0tMRm53U25RaGxVSlFReHdwWGdiSS1Sd2ZqcV9KZXE0al9VNUc1aXNOSjNDOTNFUmxpSg?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOY0N5OUtIcEtlOWpOYlo1cnZnTXNYbEdpUnBZUDlSeE5IdXRBcXBmNlJBZ010QjFKOUxVYUNRclkzSGNreWV4Tkd0VUpRT2dzUE9OWUwybjdqYlkxaFBiUVRZUHgtbXh1a18zeE1BX3VKU1c5bHAzaXJ4a2tsTW5MbGM3dVNNejBGeHlTNWFEUjZiNVJFOGtueQ?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT0Q2OWJjRkhxV1MtVkNZXzc0eVpVTlpHSF9ady1TWmdkRjJ5RGZPNkw0TTI5NTlwTUNlU1FCRGh6Qy1tcEl1QjJ4LTJ0SGFGZmg2R3F2dGpCNHRnbGVCZi1nZktqeUhqZ3ViUUwyc1NXQ2xwZzdUNUFXbXBzV2tVLVhMTlQ?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPamt1eFBsN3VaU1hMbnhyc3ZoYUJYQW4xYUFBcWJ1a3Z2aXV4eUU1WlRLTEpxYUFXOVlLT2hJQ254Y1BSaHZtU0pJS2lzY1RHQlNqenJRMjBtMTJmc0hZM1NmeUQyS0JPTzFadDZvbDI1Q1hYMHozMkwxQlR6Wmt6dzNJNXFQbXVYT09DMjNuUEN0d2lRNF8yM1FTX2hia25LRDBiQmpB?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAxbUozUERkS3RNM2FFbDlLSDJ3VUpSU3BYUW95a0dxRmFBczYtdF9WWmZaUzRXYlZQRnp1ZnNsU3hQdzBvbjZmbTJPNlBDcVl0WUxVc1lPd2Q2Q1hTMXF4VXBqUDBieEE1Q0hnb0kxMDM3N0JCMDE4WjBHZi0tZw?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxORTJ1TXBmSTlqWnR2Z3NyNHBzeTBoWmU5ZUFRdUQ2UHpMZFpJblZ0QXphb1llR1RxZWxZcm5nbW5lSzE2Tnl0VFJINW9RYWlmYThVTVdaYjRSY19UQ1VBc3BNRm5kWU8wem1kcUczRVVPRmpoclhRLThiYk9FSHNXSVhSS3FmbllRM19hTkhrenVBSURuclVJMXF1bVd1Nm5mUWhDUHppRzdhR243X09Ycmo1RTY4enV0d2dzVzBudmlYQllUNFN6MjZEYlpjZ3BHaHJOMWpjcmZUZ3VKNk5TYWF2WklId082a2k4R3FZUUxJaVdlVVd4MVRZN0htUVU?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcUxVaTVFMktlOXgyVER3Z1VpRXlzU2c2TzFnWUhPVE9seDVIUk0xSVpTUmVIclAtVGt4OTFSaVE4UThfeVYwRExrdjdsLWdPaDlqQlBCZi1uYVlLeXdZdVlMU1VLcFFuajg1TkRQZkVJaHhuQlZnZjkyc2Z0X1U2QWJGQnRoT3laSG1uN1FOekFOb3NRaVN6c2dWbDJCSTg0R21zWWhPQnlUbHUyV3c3UXl6d2l0YmMtZlow?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUVlNQWNSemV5R2JVcFFLa1VtNHZjdXVocmQtdElIbTBRRGpnSzg5Q2E0SWxCSEJNVzdmTnhlSXdLaWRKbVB3WXRzXzlKZXliczU1aGJGVUlocWl5anZPdk9ZX1d4ZDI0UEFScGJfVUg2X194dHpGM0tTaGpncFQ5ZUFTMTE3THA0bmlCQURMVFdQbTZEMV9IM1VLR1NYZHFuQXNPOWU1TUp5TE05YThidjRBaHlsZkNTWnY0YnJtMzJEUTRXdDhEMW5RUFZyYjFiN2lNLW9LTklidw?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcDJCNmNoUWlleVdaOHdIaS0yWUNaaGtMWWJnRURFQUZKREV6TzNRd0k4R1pST0hpazZuOUt5eTRNYWF6ZG5kVTJKZkNwWC1CWHNnbnQxcHN4WHNteC0yUDgwVUF6YVhOMUR6UHdWczgyNkFqSnRLWjJqRUhYX3ROVS1ER0s4UlV4d05WYWhoUFRaMmV3dGxEVVE2c0RtNXhz?oc=5",
-        "bucket": "control"
-      },
-      {
         "key": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdWcxekwzbzFqaWlNSFpzWGgtdVE5akdkU2ZWbWp5aFd3eXl0bUUzZnliaTdZWjhLekUwalJWcUgyVDhtWFY1ZDNHZmhKRVRsbjVSSDVVMFBUcFI3cUJrT09yblZ5ZFhxck5IQlpnR2tQc3VCaWxkbEQ1Ti1QRi0tUTItT1hKclktSHVvQkpaZThNUUYzdUJVRUdESHAxRmVGclV6LTBR?oc=5",
         "bucket": "control"
       },
@@ -165,59 +117,59 @@
       },
       {
         "key": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVmZvc0hicDBKYmo3ajc3dmNsdDF0V0JGTXJVQnNnbnVCNmhtRFYzZDVwelhKQlZOd1cyM3VWeXpzdjd3MkFhQnNnT0ZYcVJEbEJFUV90Zk40QUowZmhnTkRKenI3RXRzTDFfaUtWcDNCSzY1WUJDekQ1X3duOXBnbk9sVDF2TnRfT3hVVkVnS1N0bFpIbXQ1OW5LYXBQQkpPcFAtc1MtVHc2endMeFFPeU5NNEhVb0VsSXNmZGJ2clk?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QRlpLU0NSbGNPUzlhY3pIS2djUVctbzFHczBJYVpjajFyUXpTeDlsbXBIdy1Yelh2LW9pZ2lseXo2bjRrUEF4QmNHSEt6ZmFTOGxJdlBqQnpubW1IOUNwMlZUbVdoenRQcDVGTXFIYkpJT0tyWk1JdmJHMDMydw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNllrUGRRSk9kMG9HUGxidi1JYUJZMlBwQ2RFc0xHRTRhUW53ZzZfOWdpZHM1eEpjZjVGZWNlQTFfbWZmTlR5WEp3S2liamhwRVBZdVlaa2FuNXZrLXdCY3Vzd1c0UkcyZ3Uyc3pMQWs1dk5SUHVOcWpUTkJaaGhFSDRJcjlYYkRLYzRHT1Y5c1NONDdfWUE?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdGhmbVpfYXdaSVdkdnpMT0pyMnJoQzR5UEJpYVF6VlRTY2FZUXppODdiZi1CaG5jQ1MwY2NwbU1NVDVtdnEydG9TRjNrZjhSQVVqRjkyQmhRZEU5ajE2VDIzeDJLNk1mY0dxOUEzYTRKWUo3VFVfQzU4eVoyRHBHUVYwMDYxN3M5YUczMktaWkk?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNkVRcklOa0ZzVnFrT1NoMzlwdzN1N0F1ZWF3VU1qb3cyRDJoNVI5VlM0eExuVlFGeVZjSGVieEhaVmRPZHJPNHF4bjRIOTFDczBjSWZxWVVncGZkNE9iQUVEcXhQeUFTTHNDNWFQbEo4bndhZEU5bkdfOW1yVW05VlZCM21LWHYxUkNGS3ZhM2lwU21RbDc1UmNfNmRsQnRtNmpuLVRFQWtGTDA5UkZJZThzQW9LMXRtZDlLTmYySkktWmlSb0hNTGxkU1c?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SldKWWgzNDExSThTZW9MRTQ5WHE3VFRZMl9oSjIzaVhuZEZaY1ZSUTFxZTJFaFpUanlncTQySUg5SlRGVnNkQXZ0S3IxLWJScXNkLXY2Z3Jzbk5WR0UwSFp0NmUxN3c?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRmdKVEtxQ0FuVUNuYWQxYy04R1dPT25kTm1tNkM4UmRtdmRiNU1PbGhwMHlaWWRyRUdqZUJkd2ZSTWZNV2d0VGxhU0p6em1lWE9zV1Yxbkt6RmNPVTM1cTdyN09tOVpHUy1KMXVqQlFmZl9TYllzcEtoX2Q1U1ZQQkt1aWNpZUVyalE4MEdUS0lOaWttQ0M3R0hWNGFMSkttbHNMYTd3Zk52WjgxVUUxd3Y4anBrQnJT?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNb3BpMTJUTlJvTFdMejhpa2d5XzJwLWUzNUxGYkhPRnljc1VfSU1Xd3NzVXZQVlAxeC1wLTk3ZG0yWFRBZlJ3M1djUHZaZkpFM1lrc0thbGNKNDdFeGtPMy12WkVyd3FpSXZ2REI0MkxYS0RkVjZ3ZjRpVzl2azdUNW9IR1pRbGI4SnppVG9welBRU1E?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNaWkwbnJGNXE4NEdnRmhJSG0wazVJU2RVbm9rM1M1Q2V2bmpWcEhvdHBHMzd6QXEwYW9mU3N1ZE11MEV3bGdTUWdiYUR4MlZBS0lrMGV2SE1iWW0wOFhFb1lNRTc2VnNxQmJ2NGtrLTk1TGliOWRMU3A1V2l4WExyeDQwZW4tY0Jfcjl4SklEcDFXMExqZk5wdWVmTnBNSk52TUFhaDRXdWtPd3pOMFZHc2NRREFUbUlteGZtdm02OHNZNkhWd04tdkpvVDI2cVp6Zm1DRDBMU0RfdUhUbThjaFdORG1sMmx1RmtaQmx1WUd4cTQ?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ZcDg5SXNmVWFZbnFGQkVMYjVFNjBxeUVDWlN2RFJNREhRb0xXbmRsUWhWRnkzOWNHSjgxT3ROQk96VkZ3OHR4X2JrZDNmUThOa3ZJWU9zcw?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbS1hcXNNbk9MQkZjN1dRQlVWcTVkVUtiQ21KNjBmNS0weWo5enAtcTVKU3M2MUlfbE54ZWVpUEVXVlFsMmEydXZIai1vdTlBVTdUbFduQ0d6bzl5N0lsNjBVYXNTXzVQLXg3OHZ4dnk3MlVsRzdvRVlEMU5qRlNzSUFaZEg5bGhoYldZdEtGbkNFRy1mLXNidk51eGE1QnpRT2hDOHFUc0dQOUJyQ3lCYktCckk1TmNmdk9LQ1ZuNEQ4OWhyUXNuNHlaUEJjUXNDTXMxdWZ4V21fZw?oc=5",
         "bucket": "control"
       }
     ],
     "intro-style": [
       {
-        "key": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91ZGkxbFU5bkFVZmVsWkd6blNoWW52Q2dubV9VXzZNUlZHZy1HUEVuaklGb3BOb0dBVDVSUm1hOUlTN1hNd3BUNldQM21obHhEZG9v?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVUdPS1ZSX3I2OG4zdVNISmtQdWJDN1VmR1lSemRhS1dwUzVVU1ZZRV9UN0lyc2lEbE96WkgxX0J2TjI2U1l0cGRnX3BsNFhudE5oWUh3VUh1bDgxTk1ITmdJOFMxaFFTVXBJSE5tNXlVV0Nqb2VEek9rLTB0TE1YWGtMa3M1dmxhME1PWE9UbFVrS2dERHotazRzLWJza21seElQQmlFcUJZckZfTzQw0gG0AUFVX3lxTE1RSW5Xb2ZQQjNFYlpBVXllWTVUbmlpQWN0NGNPdzAxNEFqMEE1T196dHZNYXAwQTRTc3J6UVpGNkFOMEo4c2tialBna3MtQ24xbDJ5QTdxcUxXWEJUYmlKVFJXNXJMeFJjM2p3T3dpd2d2WjA1bmFpUEhhdzA1QmQwa0tMRm53U25RaGxVSlFReHdwWGdiSS1Sd2ZqcV9KZXE0al9VNUc1aXNOSjNDOTNFUmxpSg?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOY0N5OUtIcEtlOWpOYlo1cnZnTXNYbEdpUnBZUDlSeE5IdXRBcXBmNlJBZ010QjFKOUxVYUNRclkzSGNreWV4Tkd0VUpRT2dzUE9OWUwybjdqYlkxaFBiUVRZUHgtbXh1a18zeE1BX3VKU1c5bHAzaXJ4a2tsTW5MbGM3dVNNejBGeHlTNWFEUjZiNVJFOGtueQ?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT0Q2OWJjRkhxV1MtVkNZXzc0eVpVTlpHSF9ady1TWmdkRjJ5RGZPNkw0TTI5NTlwTUNlU1FCRGh6Qy1tcEl1QjJ4LTJ0SGFGZmg2R3F2dGpCNHRnbGVCZi1nZktqeUhqZ3ViUUwyc1NXQ2xwZzdUNUFXbXBzV2tVLVhMTlQ?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPamt1eFBsN3VaU1hMbnhyc3ZoYUJYQW4xYUFBcWJ1a3Z2aXV4eUU1WlRLTEpxYUFXOVlLT2hJQ254Y1BSaHZtU0pJS2lzY1RHQlNqenJRMjBtMTJmc0hZM1NmeUQyS0JPTzFadDZvbDI1Q1hYMHozMkwxQlR6Wmt6dzNJNXFQbXVYT09DMjNuUEN0d2lRNF8yM1FTX2hia25LRDBiQmpB?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAxbUozUERkS3RNM2FFbDlLSDJ3VUpSU3BYUW95a0dxRmFBczYtdF9WWmZaUzRXYlZQRnp1ZnNsU3hQdzBvbjZmbTJPNlBDcVl0WUxVc1lPd2Q2Q1hTMXF4VXBqUDBieEE1Q0hnb0kxMDM3N0JCMDE4WjBHZi0tZw?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxORTJ1TXBmSTlqWnR2Z3NyNHBzeTBoWmU5ZUFRdUQ2UHpMZFpJblZ0QXphb1llR1RxZWxZcm5nbW5lSzE2Tnl0VFJINW9RYWlmYThVTVdaYjRSY19UQ1VBc3BNRm5kWU8wem1kcUczRVVPRmpoclhRLThiYk9FSHNXSVhSS3FmbllRM19hTkhrenVBSURuclVJMXF1bVd1Nm5mUWhDUHppRzdhR243X09Ycmo1RTY4enV0d2dzVzBudmlYQllUNFN6MjZEYlpjZ3BHaHJOMWpjcmZUZ3VKNk5TYWF2WklId082a2k4R3FZUUxJaVdlVVd4MVRZN0htUVU?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcUxVaTVFMktlOXgyVER3Z1VpRXlzU2c2TzFnWUhPVE9seDVIUk0xSVpTUmVIclAtVGt4OTFSaVE4UThfeVYwRExrdjdsLWdPaDlqQlBCZi1uYVlLeXdZdVlMU1VLcFFuajg1TkRQZkVJaHhuQlZnZjkyc2Z0X1U2QWJGQnRoT3laSG1uN1FOekFOb3NRaVN6c2dWbDJCSTg0R21zWWhPQnlUbHUyV3c3UXl6d2l0YmMtZlow?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUVlNQWNSemV5R2JVcFFLa1VtNHZjdXVocmQtdElIbTBRRGpnSzg5Q2E0SWxCSEJNVzdmTnhlSXdLaWRKbVB3WXRzXzlKZXliczU1aGJGVUlocWl5anZPdk9ZX1d4ZDI0UEFScGJfVUg2X194dHpGM0tTaGpncFQ5ZUFTMTE3THA0bmlCQURMVFdQbTZEMV9IM1VLR1NYZHFuQXNPOWU1TUp5TE05YThidjRBaHlsZkNTWnY0YnJtMzJEUTRXdDhEMW5RUFZyYjFiN2lNLW9LTklidw?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcDJCNmNoUWlleVdaOHdIaS0yWUNaaGtMWWJnRURFQUZKREV6TzNRd0k4R1pST0hpazZuOUt5eTRNYWF6ZG5kVTJKZkNwWC1CWHNnbnQxcHN4WHNteC0yUDgwVUF6YVhOMUR6UHdWczgyNkFqSnRLWjJqRUhYX3ROVS1ER0s4UlV4d05WYWhoUFRaMmV3dGxEVVE2c0RtNXhz?oc=5",
-        "bucket": "control"
-      },
-      {
         "key": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdWcxekwzbzFqaWlNSFpzWGgtdVE5akdkU2ZWbWp5aFd3eXl0bUUzZnliaTdZWjhLekUwalJWcUgyVDhtWFY1ZDNHZmhKRVRsbjVSSDVVMFBUcFI3cUJrT09yblZ5ZFhxck5IQlpnR2tQc3VCaWxkbEQ1Ti1QRi0tUTItT1hKclktSHVvQkpaZThNUUYzdUJVRUdESHAxRmVGclV6LTBR?oc=5",
         "bucket": "control"
       },
@@ -247,59 +199,59 @@
       },
       {
         "key": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVmZvc0hicDBKYmo3ajc3dmNsdDF0V0JGTXJVQnNnbnVCNmhtRFYzZDVwelhKQlZOd1cyM3VWeXpzdjd3MkFhQnNnT0ZYcVJEbEJFUV90Zk40QUowZmhnTkRKenI3RXRzTDFfaUtWcDNCSzY1WUJDekQ1X3duOXBnbk9sVDF2TnRfT3hVVkVnS1N0bFpIbXQ1OW5LYXBQQkpPcFAtc1MtVHc2endMeFFPeU5NNEhVb0VsSXNmZGJ2clk?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QRlpLU0NSbGNPUzlhY3pIS2djUVctbzFHczBJYVpjajFyUXpTeDlsbXBIdy1Yelh2LW9pZ2lseXo2bjRrUEF4QmNHSEt6ZmFTOGxJdlBqQnpubW1IOUNwMlZUbVdoenRQcDVGTXFIYkpJT0tyWk1JdmJHMDMydw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNllrUGRRSk9kMG9HUGxidi1JYUJZMlBwQ2RFc0xHRTRhUW53ZzZfOWdpZHM1eEpjZjVGZWNlQTFfbWZmTlR5WEp3S2liamhwRVBZdVlaa2FuNXZrLXdCY3Vzd1c0UkcyZ3Uyc3pMQWs1dk5SUHVOcWpUTkJaaGhFSDRJcjlYYkRLYzRHT1Y5c1NONDdfWUE?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdGhmbVpfYXdaSVdkdnpMT0pyMnJoQzR5UEJpYVF6VlRTY2FZUXppODdiZi1CaG5jQ1MwY2NwbU1NVDVtdnEydG9TRjNrZjhSQVVqRjkyQmhRZEU5ajE2VDIzeDJLNk1mY0dxOUEzYTRKWUo3VFVfQzU4eVoyRHBHUVYwMDYxN3M5YUczMktaWkk?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNkVRcklOa0ZzVnFrT1NoMzlwdzN1N0F1ZWF3VU1qb3cyRDJoNVI5VlM0eExuVlFGeVZjSGVieEhaVmRPZHJPNHF4bjRIOTFDczBjSWZxWVVncGZkNE9iQUVEcXhQeUFTTHNDNWFQbEo4bndhZEU5bkdfOW1yVW05VlZCM21LWHYxUkNGS3ZhM2lwU21RbDc1UmNfNmRsQnRtNmpuLVRFQWtGTDA5UkZJZThzQW9LMXRtZDlLTmYySkktWmlSb0hNTGxkU1c?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SldKWWgzNDExSThTZW9MRTQ5WHE3VFRZMl9oSjIzaVhuZEZaY1ZSUTFxZTJFaFpUanlncTQySUg5SlRGVnNkQXZ0S3IxLWJScXNkLXY2Z3Jzbk5WR0UwSFp0NmUxN3c?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRmdKVEtxQ0FuVUNuYWQxYy04R1dPT25kTm1tNkM4UmRtdmRiNU1PbGhwMHlaWWRyRUdqZUJkd2ZSTWZNV2d0VGxhU0p6em1lWE9zV1Yxbkt6RmNPVTM1cTdyN09tOVpHUy1KMXVqQlFmZl9TYllzcEtoX2Q1U1ZQQkt1aWNpZUVyalE4MEdUS0lOaWttQ0M3R0hWNGFMSkttbHNMYTd3Zk52WjgxVUUxd3Y4anBrQnJT?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNb3BpMTJUTlJvTFdMejhpa2d5XzJwLWUzNUxGYkhPRnljc1VfSU1Xd3NzVXZQVlAxeC1wLTk3ZG0yWFRBZlJ3M1djUHZaZkpFM1lrc0thbGNKNDdFeGtPMy12WkVyd3FpSXZ2REI0MkxYS0RkVjZ3ZjRpVzl2azdUNW9IR1pRbGI4SnppVG9welBRU1E?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNaWkwbnJGNXE4NEdnRmhJSG0wazVJU2RVbm9rM1M1Q2V2bmpWcEhvdHBHMzd6QXEwYW9mU3N1ZE11MEV3bGdTUWdiYUR4MlZBS0lrMGV2SE1iWW0wOFhFb1lNRTc2VnNxQmJ2NGtrLTk1TGliOWRMU3A1V2l4WExyeDQwZW4tY0Jfcjl4SklEcDFXMExqZk5wdWVmTnBNSk52TUFhaDRXdWtPd3pOMFZHc2NRREFUbUlteGZtdm02OHNZNkhWd04tdkpvVDI2cVp6Zm1DRDBMU0RfdUhUbThjaFdORG1sMmx1RmtaQmx1WUd4cTQ?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ZcDg5SXNmVWFZbnFGQkVMYjVFNjBxeUVDWlN2RFJNREhRb0xXbmRsUWhWRnkzOWNHSjgxT3ROQk96VkZ3OHR4X2JrZDNmUThOa3ZJWU9zcw?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbS1hcXNNbk9MQkZjN1dRQlVWcTVkVUtiQ21KNjBmNS0weWo5enAtcTVKU3M2MUlfbE54ZWVpUEVXVlFsMmEydXZIai1vdTlBVTdUbFduQ0d6bzl5N0lsNjBVYXNTXzVQLXg3OHZ4dnk3MlVsRzdvRVlEMU5qRlNzSUFaZEg5bGhoYldZdEtGbkNFRy1mLXNidk51eGE1QnpRT2hDOHFUc0dQOUJyQ3lCYktCckk1TmNmdk9LQ1ZuNEQ4OWhyUXNuNHlaUEJjUXNDTXMxdWZ4V21fZw?oc=5",
         "bucket": "control"
       }
     ],
     "cta-placement": [
       {
-        "key": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91ZGkxbFU5bkFVZmVsWkd6blNoWW52Q2dubV9VXzZNUlZHZy1HUEVuaklGb3BOb0dBVDVSUm1hOUlTN1hNd3BUNldQM21obHhEZG9v?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVUdPS1ZSX3I2OG4zdVNISmtQdWJDN1VmR1lSemRhS1dwUzVVU1ZZRV9UN0lyc2lEbE96WkgxX0J2TjI2U1l0cGRnX3BsNFhudE5oWUh3VUh1bDgxTk1ITmdJOFMxaFFTVXBJSE5tNXlVV0Nqb2VEek9rLTB0TE1YWGtMa3M1dmxhME1PWE9UbFVrS2dERHotazRzLWJza21seElQQmlFcUJZckZfTzQw0gG0AUFVX3lxTE1RSW5Xb2ZQQjNFYlpBVXllWTVUbmlpQWN0NGNPdzAxNEFqMEE1T196dHZNYXAwQTRTc3J6UVpGNkFOMEo4c2tialBna3MtQ24xbDJ5QTdxcUxXWEJUYmlKVFJXNXJMeFJjM2p3T3dpd2d2WjA1bmFpUEhhdzA1QmQwa0tMRm53U25RaGxVSlFReHdwWGdiSS1Sd2ZqcV9KZXE0al9VNUc1aXNOSjNDOTNFUmxpSg?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOY0N5OUtIcEtlOWpOYlo1cnZnTXNYbEdpUnBZUDlSeE5IdXRBcXBmNlJBZ010QjFKOUxVYUNRclkzSGNreWV4Tkd0VUpRT2dzUE9OWUwybjdqYlkxaFBiUVRZUHgtbXh1a18zeE1BX3VKU1c5bHAzaXJ4a2tsTW5MbGM3dVNNejBGeHlTNWFEUjZiNVJFOGtueQ?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT0Q2OWJjRkhxV1MtVkNZXzc0eVpVTlpHSF9ady1TWmdkRjJ5RGZPNkw0TTI5NTlwTUNlU1FCRGh6Qy1tcEl1QjJ4LTJ0SGFGZmg2R3F2dGpCNHRnbGVCZi1nZktqeUhqZ3ViUUwyc1NXQ2xwZzdUNUFXbXBzV2tVLVhMTlQ?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPamt1eFBsN3VaU1hMbnhyc3ZoYUJYQW4xYUFBcWJ1a3Z2aXV4eUU1WlRLTEpxYUFXOVlLT2hJQ254Y1BSaHZtU0pJS2lzY1RHQlNqenJRMjBtMTJmc0hZM1NmeUQyS0JPTzFadDZvbDI1Q1hYMHozMkwxQlR6Wmt6dzNJNXFQbXVYT09DMjNuUEN0d2lRNF8yM1FTX2hia25LRDBiQmpB?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAxbUozUERkS3RNM2FFbDlLSDJ3VUpSU3BYUW95a0dxRmFBczYtdF9WWmZaUzRXYlZQRnp1ZnNsU3hQdzBvbjZmbTJPNlBDcVl0WUxVc1lPd2Q2Q1hTMXF4VXBqUDBieEE1Q0hnb0kxMDM3N0JCMDE4WjBHZi0tZw?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxORTJ1TXBmSTlqWnR2Z3NyNHBzeTBoWmU5ZUFRdUQ2UHpMZFpJblZ0QXphb1llR1RxZWxZcm5nbW5lSzE2Tnl0VFJINW9RYWlmYThVTVdaYjRSY19UQ1VBc3BNRm5kWU8wem1kcUczRVVPRmpoclhRLThiYk9FSHNXSVhSS3FmbllRM19hTkhrenVBSURuclVJMXF1bVd1Nm5mUWhDUHppRzdhR243X09Ycmo1RTY4enV0d2dzVzBudmlYQllUNFN6MjZEYlpjZ3BHaHJOMWpjcmZUZ3VKNk5TYWF2WklId082a2k4R3FZUUxJaVdlVVd4MVRZN0htUVU?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcUxVaTVFMktlOXgyVER3Z1VpRXlzU2c2TzFnWUhPVE9seDVIUk0xSVpTUmVIclAtVGt4OTFSaVE4UThfeVYwRExrdjdsLWdPaDlqQlBCZi1uYVlLeXdZdVlMU1VLcFFuajg1TkRQZkVJaHhuQlZnZjkyc2Z0X1U2QWJGQnRoT3laSG1uN1FOekFOb3NRaVN6c2dWbDJCSTg0R21zWWhPQnlUbHUyV3c3UXl6d2l0YmMtZlow?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUVlNQWNSemV5R2JVcFFLa1VtNHZjdXVocmQtdElIbTBRRGpnSzg5Q2E0SWxCSEJNVzdmTnhlSXdLaWRKbVB3WXRzXzlKZXliczU1aGJGVUlocWl5anZPdk9ZX1d4ZDI0UEFScGJfVUg2X194dHpGM0tTaGpncFQ5ZUFTMTE3THA0bmlCQURMVFdQbTZEMV9IM1VLR1NYZHFuQXNPOWU1TUp5TE05YThidjRBaHlsZkNTWnY0YnJtMzJEUTRXdDhEMW5RUFZyYjFiN2lNLW9LTklidw?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcDJCNmNoUWlleVdaOHdIaS0yWUNaaGtMWWJnRURFQUZKREV6TzNRd0k4R1pST0hpazZuOUt5eTRNYWF6ZG5kVTJKZkNwWC1CWHNnbnQxcHN4WHNteC0yUDgwVUF6YVhOMUR6UHdWczgyNkFqSnRLWjJqRUhYX3ROVS1ER0s4UlV4d05WYWhoUFRaMmV3dGxEVVE2c0RtNXhz?oc=5",
-        "bucket": "control"
-      },
-      {
         "key": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdWcxekwzbzFqaWlNSFpzWGgtdVE5akdkU2ZWbWp5aFd3eXl0bUUzZnliaTdZWjhLekUwalJWcUgyVDhtWFY1ZDNHZmhKRVRsbjVSSDVVMFBUcFI3cUJrT09yblZ5ZFhxck5IQlpnR2tQc3VCaWxkbEQ1Ti1QRi0tUTItT1hKclktSHVvQkpaZThNUUYzdUJVRUdESHAxRmVGclV6LTBR?oc=5",
         "bucket": "control"
       },
@@ -329,6 +281,54 @@
       },
       {
         "key": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVmZvc0hicDBKYmo3ajc3dmNsdDF0V0JGTXJVQnNnbnVCNmhtRFYzZDVwelhKQlZOd1cyM3VWeXpzdjd3MkFhQnNnT0ZYcVJEbEJFUV90Zk40QUowZmhnTkRKenI3RXRzTDFfaUtWcDNCSzY1WUJDekQ1X3duOXBnbk9sVDF2TnRfT3hVVkVnS1N0bFpIbXQ1OW5LYXBQQkpPcFAtc1MtVHc2endMeFFPeU5NNEhVb0VsSXNmZGJ2clk?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QRlpLU0NSbGNPUzlhY3pIS2djUVctbzFHczBJYVpjajFyUXpTeDlsbXBIdy1Yelh2LW9pZ2lseXo2bjRrUEF4QmNHSEt6ZmFTOGxJdlBqQnpubW1IOUNwMlZUbVdoenRQcDVGTXFIYkpJT0tyWk1JdmJHMDMydw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNllrUGRRSk9kMG9HUGxidi1JYUJZMlBwQ2RFc0xHRTRhUW53ZzZfOWdpZHM1eEpjZjVGZWNlQTFfbWZmTlR5WEp3S2liamhwRVBZdVlaa2FuNXZrLXdCY3Vzd1c0UkcyZ3Uyc3pMQWs1dk5SUHVOcWpUTkJaaGhFSDRJcjlYYkRLYzRHT1Y5c1NONDdfWUE?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdGhmbVpfYXdaSVdkdnpMT0pyMnJoQzR5UEJpYVF6VlRTY2FZUXppODdiZi1CaG5jQ1MwY2NwbU1NVDVtdnEydG9TRjNrZjhSQVVqRjkyQmhRZEU5ajE2VDIzeDJLNk1mY0dxOUEzYTRKWUo3VFVfQzU4eVoyRHBHUVYwMDYxN3M5YUczMktaWkk?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNkVRcklOa0ZzVnFrT1NoMzlwdzN1N0F1ZWF3VU1qb3cyRDJoNVI5VlM0eExuVlFGeVZjSGVieEhaVmRPZHJPNHF4bjRIOTFDczBjSWZxWVVncGZkNE9iQUVEcXhQeUFTTHNDNWFQbEo4bndhZEU5bkdfOW1yVW05VlZCM21LWHYxUkNGS3ZhM2lwU21RbDc1UmNfNmRsQnRtNmpuLVRFQWtGTDA5UkZJZThzQW9LMXRtZDlLTmYySkktWmlSb0hNTGxkU1c?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SldKWWgzNDExSThTZW9MRTQ5WHE3VFRZMl9oSjIzaVhuZEZaY1ZSUTFxZTJFaFpUanlncTQySUg5SlRGVnNkQXZ0S3IxLWJScXNkLXY2Z3Jzbk5WR0UwSFp0NmUxN3c?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRmdKVEtxQ0FuVUNuYWQxYy04R1dPT25kTm1tNkM4UmRtdmRiNU1PbGhwMHlaWWRyRUdqZUJkd2ZSTWZNV2d0VGxhU0p6em1lWE9zV1Yxbkt6RmNPVTM1cTdyN09tOVpHUy1KMXVqQlFmZl9TYllzcEtoX2Q1U1ZQQkt1aWNpZUVyalE4MEdUS0lOaWttQ0M3R0hWNGFMSkttbHNMYTd3Zk52WjgxVUUxd3Y4anBrQnJT?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNb3BpMTJUTlJvTFdMejhpa2d5XzJwLWUzNUxGYkhPRnljc1VfSU1Xd3NzVXZQVlAxeC1wLTk3ZG0yWFRBZlJ3M1djUHZaZkpFM1lrc0thbGNKNDdFeGtPMy12WkVyd3FpSXZ2REI0MkxYS0RkVjZ3ZjRpVzl2azdUNW9IR1pRbGI4SnppVG9welBRU1E?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNaWkwbnJGNXE4NEdnRmhJSG0wazVJU2RVbm9rM1M1Q2V2bmpWcEhvdHBHMzd6QXEwYW9mU3N1ZE11MEV3bGdTUWdiYUR4MlZBS0lrMGV2SE1iWW0wOFhFb1lNRTc2VnNxQmJ2NGtrLTk1TGliOWRMU3A1V2l4WExyeDQwZW4tY0Jfcjl4SklEcDFXMExqZk5wdWVmTnBNSk52TUFhaDRXdWtPd3pOMFZHc2NRREFUbUlteGZtdm02OHNZNkhWd04tdkpvVDI2cVp6Zm1DRDBMU0RfdUhUbThjaFdORG1sMmx1RmtaQmx1WUd4cTQ?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ZcDg5SXNmVWFZbnFGQkVMYjVFNjBxeUVDWlN2RFJNREhRb0xXbmRsUWhWRnkzOWNHSjgxT3ROQk96VkZ3OHR4X2JrZDNmUThOa3ZJWU9zcw?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbS1hcXNNbk9MQkZjN1dRQlVWcTVkVUtiQ21KNjBmNS0weWo5enAtcTVKU3M2MUlfbE54ZWVpUEVXVlFsMmEydXZIai1vdTlBVTdUbFduQ0d6bzl5N0lsNjBVYXNTXzVQLXg3OHZ4dnk3MlVsRzdvRVlEMU5qRlNzSUFaZEg5bGhoYldZdEtGbkNFRy1mLXNidk51eGE1QnpRT2hDOHFUc0dQOUJyQ3lCYktCckk1TmNmdk9LQ1ZuNEQ4OWhyUXNuNHlaUEJjUXNDTXMxdWZ4V21fZw?oc=5",
         "bucket": "control"
       }
     ]
@@ -337,8 +337,8 @@
     {
       "experimentId": "headline-style",
       "sample": {
-        "control": 12,
-        "variant": 8,
+        "control": 8,
+        "variant": 12,
         "total": 20
       },
       "outcomeMetrics": {
@@ -352,8 +352,8 @@
     {
       "experimentId": "intro-style",
       "sample": {
-        "control": 12,
-        "variant": 8,
+        "control": 8,
+        "variant": 12,
         "total": 20
       },
       "outcomeMetrics": {
@@ -367,8 +367,8 @@
     {
       "experimentId": "cta-placement",
       "sample": {
-        "control": 12,
-        "variant": 8,
+        "control": 8,
+        "variant": 12,
         "total": 20
       },
       "outcomeMetrics": {
@@ -381,6 +381,6 @@
     }
   ],
   "history": {
-    "previousUpdatedAt": "2026-10-09T22:52:32.814Z"
+    "previousUpdatedAt": "2026-10-10T06:21:08.167Z"
   }
 }
