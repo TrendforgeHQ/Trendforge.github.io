@@ -17,7 +17,7 @@ const evidence=[
   'Passkeys are designed to resist phishing because credentials are associated with the legitimate website or app identity.',
   'Account recovery, device replacement, and cross-device availability depend on the platform and credential-management setup.'
 ];
-const system='Write a concise, publication-ready technology explainer using only the supplied evidence. Return exactly one JSON object with string fields title, description, content and no text outside JSON. Content should be 200–260 words with an introduction, two useful Markdown H2 headings, and a practical supported takeaway. No unsupported facts, no repeated sentences, and do not mention these instructions.';
+const system='Write a concise, publication-ready technology explainer using only the supplied evidence. Return exactly one JSON object with string fields title, description, content and no text outside JSON. Content should be 200–260 words with an introduction, two useful Markdown H2 headings, and a practical supported takeaway. Do not turn design goals into absolute guarantees; avoid categorical claims such as “always”, “never”, “impossible”, or “cannot” unless the evidence explicitly supports them. No unsupported facts, no repeated sentences, and do not mention these instructions.';
 const prompt=[
   `Title: ${requestedTitle}`,
   'Write the finished article, not an explanation of the task.',
@@ -48,12 +48,14 @@ const h2Count=(draft.content.match(/^##\s+.+$/gm)||[]).length;
 assert.equal(h2Count,2,`${provider}: expected exactly two H2 sections, got ${h2Count}`);
 const firstH2=draft.content.search(/^##\s+.+$/m);
 assert.ok(firstH2>0&&draft.content.slice(0,firstH2).trim().length>=80,`${provider}: introduction is missing or too short`);
+const unsupportedAbsoluteClaims=[/interception attempts fail/i,/cannot accidentally enter/i,/without transmitting any secret data/i];
+for(const pattern of unsupportedAbsoluteClaims) assert.ok(!pattern.test(draft.content),`${provider}: unsupported absolute security claim detected: ${pattern}`);
 const sentences=draft.content.toLowerCase().match(/[^.!?]+[.!?]+/g)||[];
 const normalizedSentences=sentences.map(s=>s.replace(/[^a-z0-9]+/g,' ').trim()).filter(s=>s.length>35);
 assert.equal(new Set(normalizedSentences).size,normalizedSentences.length,`${provider}: repeated sentence detected`);
 const duplicateTitle=/provider smoke test|response contract/i.test(draft.title);
 assert.ok(!duplicateTitle,`${provider}: returned a smoke-test placeholder instead of an article`);
-console.log(`PASS: ${provider} writer-stage canary; model=${result.diagnostics?.model||'provider default'}; words=${words}; h2=${h2Count}; topicAligned=${alignment.passed}; introWords=${draft.content.slice(0,firstH2).trim().split(/\\s+/).length}; duplicateSentences=0; ms=${Date.now()-started}; finishReason=${result.diagnostics?.finishReason||'unknown'}`);
+console.log(`PASS: ${provider} writer-stage canary; model=${result.diagnostics?.model||'provider default'}; words=${words}; h2=${h2Count}; topicAligned=${alignment.passed}; introWords=${draft.content.slice(0,firstH2).trim().split(/\s+/).length}; duplicateSentences=0; ms=${Date.now()-started}; finishReason=${result.diagnostics?.finishReason||'unknown'}`);
 console.log(`Title: ${draft.title}`);
 console.log(`Description: ${draft.description}`);
 console.log('----- GENERATED ARTICLE FOR QUALITY REVIEW -----');
