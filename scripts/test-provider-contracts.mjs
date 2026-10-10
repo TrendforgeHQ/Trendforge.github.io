@@ -72,6 +72,30 @@ try {
   assert.equal(router.diagnostics.finishReason,'stop');
   assert.equal(router.diagnostics.model,'fixture/free-model');
 
+  // OpenRouter truncation regression: if a model returns finish_reason=length,
+  // retry once through the dynamic free router with a larger visible-output budget.
+  // This is fully mocked and makes no live provider request.
+  let openRouterRecoveryAttempts=0;
+  const openRouterRequestBodies=[];
+  globalThis.fetch=async(url,init)=>{
+    openRouterRecoveryAttempts++;
+    const body=JSON.parse(init.body);
+    openRouterRequestBodies.push(body);
+    if(openRouterRecoveryAttempts===1) {
+      return response(200,{model:'liquid/lfm-2.5-2.6b:free',choices:[{finish_reason:'length',message:{content:'{"title":"Truncated"}}'}]});
+    }
+    return response(200,{model:'fixture/recovered-free-model',choices:[{finish_reason:'stop',message:{content:'{"title":"Recovered router","description":"Recovered description","content":"Recovered article body"}'}}]});
+  };
+  const recoveredRouter=await requestProviderForTest('OpenRouter','fixture prompt','fixture system',{}, {maxCompletionTokens:900});
+  assert.equal(openRouterRecoveryAttempts,2,'truncated OpenRouter JSON should trigger exactly one recovery request');
+  assert.equal(openRouterRequestBodies[0].model,'openrouter/free');
+  assert.equal(openRouterRequestBodies[1].model,'openrouter/free','recovery must use the dynamic free router rather than repeat a tiny configured model');
+  assert.equal(openRouterRequestBodies[1].max_tokens,6000,'recovery should expand the output token budget');
+  assert.equal('reasoning' in openRouterRequestBodies[1],false,'dynamic free-router recovery should not send a model-specific reasoning budget');
+  assert.match(recoveredRouter.text,/"title":"Recovered router"/);
+  assert.equal(recoveredRouter.diagnostics.finishReason,'stop');
+  assert.equal(recoveredRouter.diagnostics.model,'fixture/recovered-free-model');
+
   // OpenRouter may return HTTP 200 with an embedded routing/provider error and no
   // message content. Preserve safe error metadata instead of silently losing it.
   globalThis.fetch=async()=>response(200,{id:'fixture-error-id',model:'dots-studio/dots-3-note-preview:free',choices:[{finish_reason:'error',message:{content:'',error:{code:'provider_unavailable',message:'Selected provider could not serve this model.'}}}]});
