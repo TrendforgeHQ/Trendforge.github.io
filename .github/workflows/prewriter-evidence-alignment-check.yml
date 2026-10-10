@@ -1,0 +1,58 @@
+name: Pre-Writer Evidence Alignment Check
+
+on:
+  push:
+    branches:
+      - fix/provider-response-contracts-2026-10-09
+    paths:
+      - ".github/workflows/prewriter-evidence-alignment-check.yml"
+      - "scripts/pre-writer-pipeline.mjs"
+      - "scripts/candidate-source-alignment.mjs"
+      - "scripts/test-candidate-source-alignment.mjs"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: trendforge-prewriter-evidence-alignment
+  cancel-in-progress: true
+
+jobs:
+  evidence-alignment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          package-manager-cache: false
+      - name: Install dependencies
+        run: npm install
+      - name: Run source-alignment regression tests
+        run: node scripts/test-candidate-source-alignment.mjs
+      - name: Run pre-writer evidence pipeline without refreshing research
+        run: node scripts/pre-writer-pipeline.mjs
+      - name: Assert every retained source matches its candidate
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import assert from 'node:assert/strict';
+          import { assessCandidateSourceAlignment } from './scripts/candidate-source-alignment.mjs';
+          const data = JSON.parse(fs.readFileSync('data/pre-writer-pipeline.json', 'utf8'));
+          let checked = 0;
+          const failures = [];
+          for (const candidate of data.candidates || []) {
+            for (const source of candidate.evidence?.sources || []) {
+              checked++;
+              const result = assessCandidateSourceAlignment(
+                { title: candidate.title, description: candidate.description || '' },
+                { title: source.title || '', description: source.description || '', body: source.body || '', passages: source.passages || [] }
+              );
+              if (!result.aligned) failures.push({ candidate: candidate.title, source: source.title, reason: result.reason, anchors: result.sharedAnchors });
+            }
+          }
+          console.log(JSON.stringify({ checkedRetainedSources: checked, misalignedRetainedSources: failures.length, failures: failures.slice(0, 20), readyForWriter: data.summary?.readyForWriter ?? null }, null, 2));
+          assert.equal(failures.length, 0, 'Pre-writer output retained candidate/source mismatches');
+          NODE

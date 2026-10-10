@@ -1,0 +1,38 @@
+name: Isolated AI Provider Response-Contract Smoke Tests
+
+on:
+  push:
+    branches:
+      - fix/provider-response-contracts-2026-10-09
+    paths:
+      - ".github/workflows/provider-smoke-one-shot.yml"
+      - "scripts/provider-smoke-test.mjs"
+      - "scripts/trendforge-writer-engine.mjs"
+      - "scripts/test-provider-contracts.mjs"
+
+permissions:
+  contents: read
+
+jobs:
+  provider-smoke:
+    if: github.event.head_commit.message == 'Run isolated provider smoke tests'
+    strategy:
+      fail-fast: false
+      matrix:
+        provider: [Cohere, OpenRouter]
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    env:
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      PROVIDER_SMOKE_TARGET: ${{ matrix.provider }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          package-manager-cache: false
+      - name: Run one bounded ${{ matrix.provider }} response-contract request
+        run: node scripts/provider-smoke-test.mjs

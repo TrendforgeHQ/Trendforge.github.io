@@ -1,0 +1,127 @@
+name: Bounded Gemini Writer-Stage Canary
+# JSON files must end with a real newline, not a literal backslash-n.
+# The canary resets run-local gate markers and checks candidate/source identity before research.
+# Token alignment unit tests run before any fresh research or provider request.
+
+on:
+  push:
+    branches:
+      - fix/provider-response-contracts-2026-10-09
+    paths:
+      - ".github/workflows/gemini-writer-canary.yml"
+      - "scripts/trendforge-writer-engine.mjs"
+      - "scripts/pre-writer-pipeline.mjs"
+      - "scripts/candidate-source-alignment.mjs"
+      - "scripts/test-candidate-source-alignment.mjs"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: trendforge-gemini-writer-canary
+  cancel-in-progress: true
+
+jobs:
+  writer-canary:
+    if: github.event_name == 'workflow_dispatch' || github.event.head_commit.message == 'Run isolated Gemini writer-stage canary'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+      TRENDFORGE_WRITER_CANDIDATE_INDEX: "1"
+      TRENDFORGE_WRITER_QUEUE_SIZE: "1"
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          package-manager-cache: false
+      - name: Install dependencies
+        run: npm install
+      - name: Verify writer runtime
+        run: node scripts/prepare-writer-runtime.mjs
+      - name: Test candidate/source alignment guard
+        run: node scripts/test-candidate-source-alignment.mjs
+      - name: Generate fresh research and evidence candidate
+        env:
+          PRE_WRITER_REFRESH_UPSTREAM: "1"
+        run: node scripts/pre-writer-pipeline.mjs
+      - name: Select exactly one writer-ready candidate
+        shell: bash
+        run: |
+          set -euo pipefail
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const pre=JSON.parse(fs.readFileSync('data/pre-writer-pipeline.json','utf8'));
+          const ready=(pre.candidates||[]).filter(x=>x.readyForWriter===true);
+          if(!ready.length) {
+            console.error('CANARY BLOCKED BEFORE PROVIDER CALL: no candidate reached readyForWriter.');
+            console.log(JSON.stringify({readyForWriter:0,candidateCount:(pre.candidates||[]).length,gateCounts:pre.summary||pre.stats||null},null,2));
+            process.exit(20);
+          }
+          const scoredPath='data/scored-trends.json';
+          const scored=JSON.parse(fs.readFileSync(scoredPath,'utf8'));
+          const rows=Array.isArray(scored)?scored:(scored.trends||[]);
+          const selected=ready.find(r=>rows.some(t=>t.link===r.link));
+          if(!selected) {
+            console.error('CANARY BLOCKED BEFORE PROVIDER CALL: ready candidate did not match scored-trends.');
+            process.exit(21);
+          }
+          const kept=rows.filter(t=>t.link===selected.link);
+          if(Array.isArray(scored)) fs.writeFileSync(scoredPath,JSON.stringify(kept,null,2)+'\n');
+          else fs.writeFileSync(scoredPath,JSON.stringify({...scored,trends:kept},null,2)+'\n');
+          fs.writeFileSync('data/writer-canary-selection.json',JSON.stringify({
+            status:'selected-one-candidate',title:selected.title,link:selected.link,category:selected.category,
+            readyCount:ready.length,selectedAt:new Date().toISOString(),publishingDisabled:true
+          },null,2)+'\n');
+          console.log('Selected exactly one writer-ready candidate: '+selected.title);
+          NODE
+      - name: Reset run-local writer state
+        run: |
+          rm -f data/writer-provider-budget.json data/provider-state.json data/provider-health.json
+          rm -f data/repair-provider-budget.json data/current-run-article.json data/native-writer-published.json
+          rm -f data/current-article-rejected.json data/editorial-gate.json data/article-brief.json data/article-contract.json
+      - name: Run one-candidate Gemini writer-stage canary (no publish/deploy)
+        run: node scripts/generate-article-adaptive.mjs
+      - name: Record canary outcome
+        if: always()
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const read=p=>{try{return JSON.parse(fs.readFileSync(p,'utf8'));}catch{return null;}};
+          const files=['data/writer-canary-selection.json','data/pre-writer-pipeline.json','data/article-brief.json','data/article-contract.json','data/editorial-gate.json','data/current-article-rejected.json','data/current-run-article.json'];
+          const out={recordedAt:new Date().toISOString(),provider:'Gemini only (other provider keys intentionally absent)',publishingDisabled:true,files:Object.fromEntries(files.map(p=>[p,read(p)]))};
+          fs.writeFileSync('data/writer-canary-result.json',JSON.stringify(out,null,2)+'\n');
+          console.log(JSON.stringify({
+            selected:!!out.files['data/writer-canary-selection.json'],
+            selectedTitle:out.files['data/writer-canary-selection.json']?.title||null,
+            articleBriefCreated:!!out.files['data/article-brief.json'],
+            editorialGate:out.files['data/editorial-gate.json']?.editorial?.passed??null,
+            copyrightGate:out.files['data/editorial-gate.json']?.copyright?.passed??null,
+            currentRunArticle:out.files['data/current-run-article.json']?.generated??null,
+            rejected:out.files['data/current-article-rejected.json']?.status||null
+          },null,2));
+          NODE
+      - name: Upload writer-stage diagnostics (no source changes committed)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: trendforge-gemini-writer-canary-${{ github.run_number }}
+          path: |
+            data/writer-canary-*.json
+            data/pre-writer-pipeline.json
+            data/authoritative-evidence-pack.json
+            data/article-brief.json
+            data/article-contract.json
+            data/editorial-gate.json
+            data/current-article-rejected.json
+            data/current-run-article.json
+            data/provider-health.json
+            data/provider-state.json
+            data/writer-provider-budget.json
+            content/articles/
+          if-no-files-found: warn
+          retention-days: 14

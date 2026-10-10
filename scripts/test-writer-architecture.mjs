@@ -3,6 +3,15 @@ import fs from 'node:fs';
 import { validateDraft } from './trendforge-editorial-policy.mjs';
 
 const writerEngine=fs.readFileSync(new URL('./trendforge-writer-engine.mjs',import.meta.url),'utf8');
+const providerRouter=fs.readFileSync(new URL('./ai-provider-router.mjs',import.meta.url),'utf8');
+assert.match(writerEngine,/thinkingLevel:'minimal'/,'Gemini 3 Flash must reserve output budget for the article by minimizing default thinking.');
+assert.match(writerEngine,/candidateTokenCount:j\.usageMetadata\?\.candidatesTokenCount/,'Gemini diagnostics must capture candidate tokens to identify thinking-budget exhaustion.');
+assert.match(writerEngine,/finishReason:choice\?\.finish_reason/,'OpenAI-compatible providers must expose finish reasons in safe diagnostics.');
+assert.match(writerEngine,/finishReason:j\.finish_reason\|\|j\.message\?\.finish_reason/,'Cohere diagnostics must expose finish reason.');
+assert.match(writerEngine,/inspectWriterOutput\(text\)/,'Invalid provider output must log shape diagnostics without logging article text.');
+assert.match(writerEngine,/OpenRouter:process\.env\.OPENROUTER_MODEL\|\|'openrouter\/free'/,'OpenRouter default must route through its dynamic free-model pool, not one rate-limited free model.');
+assert.match(writerEngine,/r\.status===429&&hasRetryHint/,'429 retries must respect explicit provider reset hints and avoid blind retry loops.');
+assert.match(providerRouter,/const COOLDOWN_RATE_MS=30\*1000/,'Rate-limited providers must cool down long enough to avoid immediate repeated attempts.');
 const storyFactMap=fs.readFileSync(new URL('./story-fact-map.mjs',import.meta.url),'utf8');
 assert.match(writerEngine,/TEMPORAL EVIDENCE LOCK/);
 assert.match(writerEngine,/pre-event reporting as prediction\/expectation/);
