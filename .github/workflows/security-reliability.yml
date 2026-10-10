@@ -1,6 +1,15 @@
 name: TrendForge Security + Reliability
 
 on:
+  pull_request:
+    paths:
+      - 'scripts/trendforge-security-reliability.mjs'
+      - 'scripts/test-trendforge-security-reliability.mjs'
+      - 'scripts/generate-search-index.ts'
+      - 'lib/articles.ts'
+      - 'package.json'
+      - 'docs/SECURITY-RELIABILITY.md'
+      - '.github/workflows/security-reliability.yml'
   push:
     branches: ["main"]
     paths:

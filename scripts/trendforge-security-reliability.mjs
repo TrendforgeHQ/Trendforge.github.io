@@ -71,7 +71,7 @@ if (exists('out')) {
     for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
       const full = path.join(dir, entry.name);
       if (entry.isDirectory()) scanOut(full);
-      else if (/^(\.env(?:\..*)?|.*secret.*)$/i.test(entry.name)) secretFiles.push(path.relative(root, full));
+      else if (/^(?:\.env(?:\..*)?|id_(?:rsa|dsa|ecdsa|ed25519)|.*\.(?:pem|key|p12|pfx))$/i.test(entry.name)) secretFiles.push(path.relative(root, full));
     }
   }
   scanOut(path.join(root, 'out'));
