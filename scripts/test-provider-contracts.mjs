@@ -73,7 +73,7 @@ try {
   assert.equal(router.diagnostics.model,'fixture/free-model');
 
   // OpenRouter truncation regression: if a model returns finish_reason=length,
-  // retry once through the dynamic free router with a larger visible-output budget.
+  // retry once on the configured OpenRouter model with a larger output budget and its required reasoning parameter.
   // This is fully mocked and makes no live provider request.
   let openRouterRecoveryAttempts=0;
   const openRouterRequestBodies=[];
@@ -91,7 +91,7 @@ try {
   assert.equal(openRouterRequestBodies[0].model,'openrouter/free');
   assert.equal(openRouterRequestBodies[1].model,'openrouter/free','recovery must use the dynamic free router rather than repeat a tiny configured model');
   assert.equal(openRouterRequestBodies[1].max_tokens,6000,'recovery should expand the output token budget');
-  assert.equal('reasoning' in openRouterRequestBodies[1],false,'dynamic free-router recovery should not send a model-specific reasoning budget');
+  assert.deepEqual(openRouterRequestBodies[1].reasoning,{max_tokens:128,exclude:true},'recovery must preserve the endpoint-required reasoning configuration');
   assert.match(recoveredRouter.text,/"title":"Recovered router"/);
   assert.equal(recoveredRouter.diagnostics.finishReason,'stop');
   assert.equal(recoveredRouter.diagnostics.model,'fixture/recovered-free-model');
