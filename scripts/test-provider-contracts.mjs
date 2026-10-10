@@ -82,7 +82,7 @@ try {
     const body=JSON.parse(init.body);
     openRouterRequestBodies.push(body);
     if(openRouterRecoveryAttempts===1) {
-      return response(200,{model:'liquid/lfm-2.5-2.6b:free',choices:[{finish_reason:'length',message:{content:'{"title":"Truncated"}}'}]});
+      return response(200,{model:'liquid/lfm-2.5-2.6b:free',choices:[{finish_reason:'length',message:{content:'{"title":"Truncated"'}}]});
     }
     return response(200,{model:'fixture/recovered-free-model',choices:[{finish_reason:'stop',message:{content:'{"title":"Recovered router","description":"Recovered description","content":"Recovered article body"}'}}]});
   };
