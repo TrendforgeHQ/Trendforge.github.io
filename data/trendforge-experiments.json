@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T13:00:30.582Z",
+  "updatedAt": "2026-10-10T21:58:22.736Z",
   "mode": "shadow",
   "policy": {
     "advisoryOnly": true,
@@ -14,9 +14,9 @@
     "noWinnerBeforeMinimumSample": true
   },
   "sample": {
-    "runs": 85,
+    "runs": 86,
     "topics": 500,
-    "articles": 46
+    "articles": 47
   },
   "learningInput": {
     "version": 2,
@@ -88,247 +88,247 @@
   "assignments": {
     "headline-style": [
       {
-        "key": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdWcxekwzbzFqaWlNSFpzWGgtdVE5akdkU2ZWbWp5aFd3eXl0bUUzZnliaTdZWjhLekUwalJWcUgyVDhtWFY1ZDNHZmhKRVRsbjVSSDVVMFBUcFI3cUJrT09yblZ5ZFhxck5IQlpnR2tQc3VCaWxkbEQ1Ti1QRi0tUTItT1hKclktSHVvQkpaZThNUUYzdUJVRUdESHAxRmVGclV6LTBR?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTFdwYm5XZ0RpWjlDY05FdHp1dmIzcDV0QjlxNWpXTWRpM24tTVlPeHBXTkhjNW5TMzAwckxiczBkY00ydDcwNm9WdmNxYjhSYXpjTFRZVlFOM2NvN01GTVk1NnZLRWZnLV9Hdlg2YlJXcXp6eXNGaGxzdWVfdUtkWElfX1hvMmJPNm93Q2Z0ZjNvTWhpejZUc09KRy11dElt?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/09/tesla-renames-full-self-driving-to-tesla-assisted-driving-in-europe/",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMWRfbDJMYVBZZ1JuQTM4aWZUcWk0b1NzSWtkVUcweHNTU3BBbi1YLVFva0tYWUpJNjBpS2lBWFp2bjRCbVVZcnU3by13anpSek5lOFk0SUZFLW1Pc1ozUDM3U2RrZEVLOGRPZzhhMFp5QzlnRVpwa0I2Z2hNaHFTMTRnTXZNNnV6dzFkd3lLcmU2dzF1TTVpUWRGZElpa1lUWjVNbzR4YWR2b1dQWGhjVnQxWQ?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Ld05oVjdpSVo1elVEdkl6dU9MMGVHTktrclhPa3FvTGtPVHRUeHpfUThTQzZ4dkpGQ1YtdHFsejJtTUFFWVhfWUtoTXZWeVQ1LXJHaE5wX0dEQjVFZzM4b3NTMnJ2QlJtOFFDZTQ2c0JmTlFuVUtHSTVEczg?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQ29na2s3cjRNa0xzeE1QQ0Z3a3F2MFk3QUgtMHNTT3hPMUhjeEh2cExsOUFEZFpLSVNYMzVmMEFlekplbnpMd3hDTm1mN09GTHFGTXJPNDJQNjIwby1qWmVqbDU5dnJmOVliMWltVFFUZ0Ftd1FtdlAyS3BhSEVSejdkVnYwRE92S1REZWtGMmQxbUN3VTdGbnhjYTUzeEE?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVmZvc0hicDBKYmo3ajc3dmNsdDF0V0JGTXJVQnNnbnVCNmhtRFYzZDVwelhKQlZOd1cyM3VWeXpzdjd3MkFhQnNnT0ZYcVJEbEJFUV90Zk40QUowZmhnTkRKenI3RXRzTDFfaUtWcDNCSzY1WUJDekQ1X3duOXBnbk9sVDF2TnRfT3hVVkVnS1N0bFpIbXQ1OW5LYXBQQkpPcFAtc1MtVHc2endMeFFPeU5NNEhVb0VsSXNmZGJ2clk?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QRlpLU0NSbGNPUzlhY3pIS2djUVctbzFHczBJYVpjajFyUXpTeDlsbXBIdy1Yelh2LW9pZ2lseXo2bjRrUEF4QmNHSEt6ZmFTOGxJdlBqQnpubW1IOUNwMlZUbVdoenRQcDVGTXFIYkpJT0tyWk1JdmJHMDMydw?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNllrUGRRSk9kMG9HUGxidi1JYUJZMlBwQ2RFc0xHRTRhUW53ZzZfOWdpZHM1eEpjZjVGZWNlQTFfbWZmTlR5WEp3S2liamhwRVBZdVlaa2FuNXZrLXdCY3Vzd1c0UkcyZ3Uyc3pMQWs1dk5SUHVOcWpUTkJaaGhFSDRJcjlYYkRLYzRHT1Y5c1NONDdfWUE?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdGhmbVpfYXdaSVdkdnpMT0pyMnJoQzR5UEJpYVF6VlRTY2FZUXppODdiZi1CaG5jQ1MwY2NwbU1NVDVtdnEydG9TRjNrZjhSQVVqRjkyQmhRZEU5ajE2VDIzeDJLNk1mY0dxOUEzYTRKWUo3VFVfQzU4eVoyRHBHUVYwMDYxN3M5YUczMktaWkk?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNkVRcklOa0ZzVnFrT1NoMzlwdzN1N0F1ZWF3VU1qb3cyRDJoNVI5VlM0eExuVlFGeVZjSGVieEhaVmRPZHJPNHF4bjRIOTFDczBjSWZxWVVncGZkNE9iQUVEcXhQeUFTTHNDNWFQbEo4bndhZEU5bkdfOW1yVW05VlZCM21LWHYxUkNGS3ZhM2lwU21RbDc1UmNfNmRsQnRtNmpuLVRFQWtGTDA5UkZJZThzQW9LMXRtZDlLTmYySkktWmlSb0hNTGxkU1c?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SldKWWgzNDExSThTZW9MRTQ5WHE3VFRZMl9oSjIzaVhuZEZaY1ZSUTFxZTJFaFpUanlncTQySUg5SlRGVnNkQXZ0S3IxLWJScXNkLXY2Z3Jzbk5WR0UwSFp0NmUxN3c?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRmdKVEtxQ0FuVUNuYWQxYy04R1dPT25kTm1tNkM4UmRtdmRiNU1PbGhwMHlaWWRyRUdqZUJkd2ZSTWZNV2d0VGxhU0p6em1lWE9zV1Yxbkt6RmNPVTM1cTdyN09tOVpHUy1KMXVqQlFmZl9TYllzcEtoX2Q1U1ZQQkt1aWNpZUVyalE4MEdUS0lOaWttQ0M3R0hWNGFMSkttbHNMYTd3Zk52WjgxVUUxd3Y4anBrQnJT?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNb3BpMTJUTlJvTFdMejhpa2d5XzJwLWUzNUxGYkhPRnljc1VfSU1Xd3NzVXZQVlAxeC1wLTk3ZG0yWFRBZlJ3M1djUHZaZkpFM1lrc0thbGNKNDdFeGtPMy12WkVyd3FpSXZ2REI0MkxYS0RkVjZ3ZjRpVzl2azdUNW9IR1pRbGI4SnppVG9welBRU1E?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNaWkwbnJGNXE4NEdnRmhJSG0wazVJU2RVbm9rM1M1Q2V2bmpWcEhvdHBHMzd6QXEwYW9mU3N1ZE11MEV3bGdTUWdiYUR4MlZBS0lrMGV2SE1iWW0wOFhFb1lNRTc2VnNxQmJ2NGtrLTk1TGliOWRMU3A1V2l4WExyeDQwZW4tY0Jfcjl4SklEcDFXMExqZk5wdWVmTnBNSk52TUFhaDRXdWtPd3pOMFZHc2NRREFUbUlteGZtdm02OHNZNkhWd04tdkpvVDI2cVp6Zm1DRDBMU0RfdUhUbThjaFdORG1sMmx1RmtaQmx1WUd4cTQ?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ZcDg5SXNmVWFZbnFGQkVMYjVFNjBxeUVDWlN2RFJNREhRb0xXbmRsUWhWRnkzOWNHSjgxT3ROQk96VkZ3OHR4X2JrZDNmUThOa3ZJWU9zcw?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-        "bucket": "control"
-      },
-      {
         "key": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbS1hcXNNbk9MQkZjN1dRQlVWcTVkVUtiQ21KNjBmNS0weWo5enAtcTVKU3M2MUlfbE54ZWVpUEVXVlFsMmEydXZIai1vdTlBVTdUbFduQ0d6bzl5N0lsNjBVYXNTXzVQLXg3OHZ4dnk3MlVsRzdvRVlEMU5qRlNzSUFaZEg5bGhoYldZdEtGbkNFRy1mLXNidk51eGE1QnpRT2hDOHFUc0dQOUJyQ3lCYktCckk1TmNmdk9LQ1ZuNEQ4OWhyUXNuNHlaUEJjUXNDTXMxdWZ4V21fZw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE12Zjh2Z2tETEw5MzJ4VEZnV2wxUVFCY09JWTVhNEktZDZSR3ZPN1VVaWkzblc1WkJXeDJ4VmNvbUIxUFBMUGpIUkJzRVJSRGJHaWpTYk9LYklpenM?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOUxMOUR3SGdwNXRvdEd3TzlCczktaXloUjNWZVJRY3NQNU9hZEY1T09hRVM5ek1UZkc0WGh2bjV2Wm5WTFRYSTdoR0hNT01BbzlCZUVzOEhHajRwVmpPXzlSUmM3aTZxQ09kMDNvaWo5UkZ6OGNWN1I3NFFCWXVEY1JjSFRGZw?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxOczhValhJNGY3ckVNdDdWTnFhbDAtbVBERllEOGNnRVdWZDc1dzBNVlFuLWstVGd4QUpzaG50S2dxanhHVnBHOEktVmJtNzBaa3B5YVJMQ1dfYkpqaVJsU2hvQUE5YnZaclhPUk1lRG1SLW91ZXFPQkdzUVc1UVl4cGYtbC1Jdlh2cUZvVHNZdFpHeEpzc1RuU2tPVTdiY0FmaGI1X2x2WEMtcWhxOW9UczVIOGdoZlYtbzZhcS1kSV82S0ZOeWNiRV9KZnR0dnh1QkVTWmRjTVNzampaX19kV0VMeXVTNmRMRFBUd0JMbnA1TldTQ2x3RTB2OFdYNVZCcFBSYzE3SExqeDRFMWhLRW00UXZianJfbUU0ZEtDQmxGRzBJSllLdlZ2V0RseWZDRVppSHlnLVNEU3p4OVpNSUhjbzlCRmF2elQzRGRRMlJqQ0dNNWJabGZteHpaVTdBS2d4YWFqdy1MRlh5RXVfbDBZTWx1akx5MFE?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQlhFSEFFMzhvcmdYSW01OTl5UlVCOHRsNVpVakZHQVVHQzRINUFPa2xsWGkwYS1SRlBfN0lxeThxOHZSZC1qZHBkTFJFRTBRZ3laekpIalhreDJqOFJCRE9VUlhIUEJZT3VMcnk2RWsxZFRoSWxsMG1xTGFZMjd6R2k5amV4TTlCak1BY0taTWFCbU5qMUx3UVhNS0xEX0RNZ0pPNlhheWxvZWpfTVFpSkFRNkx4TU1YclhrbFc0eU1SeWpXd2NSQlBTOUJwUzg?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVEt0d0lnWWFtSUZjTUlKaEd4UEpQT2pHbWNmbjBhUFhabzBELXBteHBlZWduMFJWSy1WZk5jT2huRGxBSmVKNHdmRjB1eHRZWi1ya0FMTC1hdUhRSmZWUkQ1VElMTVM1Y3Zfbkpvak1IWXF0QmZrbkZMQUZEc2VYRzlSNFdZZlJTSXg5Z241YWJsSi0wdDBvaWxpb2Jwb2U5azk2eXkzZlFrbUJGUzhZN01ickRmTUI1NDNYWFJXRldzTG5zb280MklVYXhDQdIBzAFBVV95cUxNT19BNm5KZjlybVM4bU5IblFvcW9FOWtOYU5WblY2ZVQ1WEVJckFrUDlvcnVNVmdZWVprMHNZbE5fR2lBWmFPaHVYaHlKSkhMeUVheE9mVnZwb0NVMXNWQTF5UUFPVEFONkw5NTF1WU9ZYjJSMGlHeGdIZHVMbHg2WTBCbGhyYnBjUW5yTW9IUUtDLW5RRTNoTHl1bUlWNlB2aHRBQUE5QkxTejRfZUVPeE5lZ1dlX0hnbjhBOG02OVBXeWFCUVBncDdRank?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVjczeHp0VGJ0MFVYMG1sdmFmQ19wWF9lRTc3WG1qY3hyWG51SV9oN3BfUnJ2UXgwZl96UTVaQ1RtS2ZNSjh2VS1aYnhKUTNwRzg5ZnFnRTV1b1pkSjk1SlFBRXVZTU8xcUhnT2lhLUxfWW5Ic0F5a2YwVEItN1R6bzJkMTJlQmR4bGRZTVpFcnJ0S2dzNDE0OW5ITnhrb2lUaGpBY2dMX095MmJIMFljQ0owNXpETThaN2Y2OEx3?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYnFKWnB0LTd6NGtjdzFqbG5YQnU1aDUwRVZIWEZtb2F4NUQ2UldpVEs1NkpJN1RVa2FwUUJGbGRUNTliTmhsX1dtZ0dNNDJFVUd6TlByZnV3LVltdnpqbzlrR2I0bHB1UE9UTmNpa1htQk1oQXV5al9ablF6MXZSakRJdmNjRTB4Q3RuS2s1dURoN2ZieTg0aGtaT0l6d1JCSUJxbjZwWl92ZDVINlJwaTdQM3pFVFRzaDhwRlEyd3R0SU9RcWp1VURHR2R5M0Qwdk9EcVE3U24xZw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRjJTempXWXZMX1RTeThlV0NObGk3cU1ZNTV6UFRkM3J0NTVuM2JtaUxZQnI1aWZYM3J4ckwtSnVUVVpoWHlQTXJLNXRFUXd4Wk10a1NZSmE2SUxBVVNxal9EUXoyUU9KX1JJdjJjOE9PcWV3Qjh6TnUwaXg4SWVYd3VXS0ZkcDN5dnhJZHZYZkhlQmFUOVJWQmF2NHhCZzQzNk1MSEkxZDBuek0tZmlvdkhMTjhFSFlCY0dJU3FIYV9wV2UxZ0xISjVR?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYmIzMHlZNHh0ckRrOUZSYmRHUXFuSWVaWGdNSV9rbmRNcnhRMFJjOXlPdmlrOVlFRVB0eV9BbFNseXJuekJqcHU4VXNUc1VOelVnaWJOX1AtOW8waXp6UUJJX1BmUEIyWXd4RHlpV0pDeFpaVUE1RDZjcGt3dl80RWdtRnhxWm12c0d1T3dDdVl2V1gyeWVxUEpkcU9DWk02ZlEzSFJR0gGmAUFVX3lxTE9iYjMweVk0eHRyRGs5RlJiZEdRcW5JZVpYZ01JX2tuZE1yeFEwUmM5eU92aWs5WUVFUHR5X0FsU2x5cm56QmpwdThVc1RzVU56VWdpYk5fUC05bzBpenpRQklfUGZQQjJZd3hEeWlXSkN4WlpVQTVENmNwa3d2XzRFZ21GeHFabXZzR3VPd0N1WXZXWDJ5ZXFQSmRxT0NaTTZmUTNIUlE?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPNWxkRTRReHFDcTdObGs2a1pINXlvSXMtTV9LZTNiMWlrSG1tT2c0ZXlCMDktS3pjeDc1TTVjNFNJaFUtdVBtdHJJeWwtUmpOOG5ZcG9renF5WTI4bGlaSy15TE1hc1YyLUt1cnRtWHkwUFJKNEU1WkVyNWxha2htZVloRUhiQnJ4M2ZBU3dLOGhoamk3TVlmUWZ3Rlo3UERYa1Q5dktkY0xRd1UyZ05Xd2hYbU9iUElQNHBkM1lJTHFBRXRyWTVVbDU3cXNOUlJ4MWZPR0lXYjBkTElXeGxIS3BqT29UWU9zdS1XWUVVQ3hjdHBFLXdmN2g1Q0JVakIxUXBxaDNkUEtnR1FaTWVaS3A3b2FVLWJhMDN1ajdmWF9UckU1VUdrUlJSbzRuRTBxN3RPcjdKV0tQUQ?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPS0hzZ3h3OHJXbWRqNkc5ZmROTkJKaXZtQ2p3MmktTUZ0WG91YmJUUUVaWGk0cV84YU4zWVBJTDl5dTlRakhmNC11cld3MTc5M1hMOU1kTnQyd254cW5CTDRqVU1IQjBDR2dMdDRQWDVpdGRmT1ZuY3hjTFlhQjVGU0pMZ2RURWVXMnVyWlExcTNYcjdJTWJLSmlkWDFLZ3NjcGx2VUJyenExZzA?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcl9LZWFuNkw4TUVvekVCLW1NalRjSWZxZWw0dUM0aWVjVDFQbkxXNVVUTTJLSGZxQ2lVT0lZM2Zqb2dJbDA2dHltODY2QWRqUTlCTTJ4ZDE1UVhpUVB4RmNYamloaGM0MjgwX3U2Z2pyYm1QTF9CQUpkWUFaVTFFUWZ1Z1lTZW42TElkQi0yTWNWMVF2d1J6Tmc3emJoVUlMem8xYUtMNGxodDBIbnZQYmx2X19xdzd4dXdTUi05TW5neXVPNlFCNERrMGZ4UFo2VlHSAdcBQVVfeXFMT1VRSXp0ZUNadWFZX0FCZU54cjBFcmRpNGhfUzZkREdCMkpiT05jODN6Z3lIYXlhXzMySGdqcTZ5Q1BpVHVTRlM4UmxNcnJJcG9KT3NRdENTUGl3azAxdGFDTlIyYnFKaUFFWmNUZTVLR1VuOWhFaTFQNi1xU2hhaHYzVHBUQmxGSXpFSlJzVEtuaDQ0eGxtcGV5VGQ1REYtd2R0MXdlYXp0aDd6MmVVNzFlZnJ1YlJBU1JmVW9BRE1lSmNqYUY2dC1mTjlZZGd6RjRvY0liRFE?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNY3oxelhBak9DSjlneEhFbVJHaVBqQmV5MV9oSmp4bjhEUlp1WFMyclNCOWJ4VHNEd3RWZzE5YVNSdFVJaDdzX1czNmY5eGFheGwxMVEtSm1mM3dVdHk4OVRpTDZVaTd6OWs0dm5faGxuTjdRYUpGd1pKcC1oWVVhSERYcXVHN0lpeTgzT3dOenRvSHI0U09rY1d3Yw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWkFES1ItRFZvYXMtNGFyNHZud0c1Wm9ueHAxUXNiMWpDU1BsWlZiOV9UcVI1MElFcHVaeUhlUmpkZFZmdVN3SXprTWJQS0RIZVNfeFVRTFhxem5uRVcxSTBTSTZSeS01YWdrcnROZmJUVHhEdG5ydzdOYklOalhCd2tFRFBtTGl3OGJXcFJfZ2xnc1FaT3ZoWEt4T3lJWjYzbXM0bmsyNXVrdw?oc=5",
         "bucket": "control"
       }
     ],
     "intro-style": [
       {
-        "key": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdWcxekwzbzFqaWlNSFpzWGgtdVE5akdkU2ZWbWp5aFd3eXl0bUUzZnliaTdZWjhLekUwalJWcUgyVDhtWFY1ZDNHZmhKRVRsbjVSSDVVMFBUcFI3cUJrT09yblZ5ZFhxck5IQlpnR2tQc3VCaWxkbEQ1Ti1QRi0tUTItT1hKclktSHVvQkpaZThNUUYzdUJVRUdESHAxRmVGclV6LTBR?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTFdwYm5XZ0RpWjlDY05FdHp1dmIzcDV0QjlxNWpXTWRpM24tTVlPeHBXTkhjNW5TMzAwckxiczBkY00ydDcwNm9WdmNxYjhSYXpjTFRZVlFOM2NvN01GTVk1NnZLRWZnLV9Hdlg2YlJXcXp6eXNGaGxzdWVfdUtkWElfX1hvMmJPNm93Q2Z0ZjNvTWhpejZUc09KRy11dElt?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/09/tesla-renames-full-self-driving-to-tesla-assisted-driving-in-europe/",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMWRfbDJMYVBZZ1JuQTM4aWZUcWk0b1NzSWtkVUcweHNTU3BBbi1YLVFva0tYWUpJNjBpS2lBWFp2bjRCbVVZcnU3by13anpSek5lOFk0SUZFLW1Pc1ozUDM3U2RrZEVLOGRPZzhhMFp5QzlnRVpwa0I2Z2hNaHFTMTRnTXZNNnV6dzFkd3lLcmU2dzF1TTVpUWRGZElpa1lUWjVNbzR4YWR2b1dQWGhjVnQxWQ?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Ld05oVjdpSVo1elVEdkl6dU9MMGVHTktrclhPa3FvTGtPVHRUeHpfUThTQzZ4dkpGQ1YtdHFsejJtTUFFWVhfWUtoTXZWeVQ1LXJHaE5wX0dEQjVFZzM4b3NTMnJ2QlJtOFFDZTQ2c0JmTlFuVUtHSTVEczg?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQ29na2s3cjRNa0xzeE1QQ0Z3a3F2MFk3QUgtMHNTT3hPMUhjeEh2cExsOUFEZFpLSVNYMzVmMEFlekplbnpMd3hDTm1mN09GTHFGTXJPNDJQNjIwby1qWmVqbDU5dnJmOVliMWltVFFUZ0Ftd1FtdlAyS3BhSEVSejdkVnYwRE92S1REZWtGMmQxbUN3VTdGbnhjYTUzeEE?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVmZvc0hicDBKYmo3ajc3dmNsdDF0V0JGTXJVQnNnbnVCNmhtRFYzZDVwelhKQlZOd1cyM3VWeXpzdjd3MkFhQnNnT0ZYcVJEbEJFUV90Zk40QUowZmhnTkRKenI3RXRzTDFfaUtWcDNCSzY1WUJDekQ1X3duOXBnbk9sVDF2TnRfT3hVVkVnS1N0bFpIbXQ1OW5LYXBQQkpPcFAtc1MtVHc2endMeFFPeU5NNEhVb0VsSXNmZGJ2clk?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QRlpLU0NSbGNPUzlhY3pIS2djUVctbzFHczBJYVpjajFyUXpTeDlsbXBIdy1Yelh2LW9pZ2lseXo2bjRrUEF4QmNHSEt6ZmFTOGxJdlBqQnpubW1IOUNwMlZUbVdoenRQcDVGTXFIYkpJT0tyWk1JdmJHMDMydw?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNllrUGRRSk9kMG9HUGxidi1JYUJZMlBwQ2RFc0xHRTRhUW53ZzZfOWdpZHM1eEpjZjVGZWNlQTFfbWZmTlR5WEp3S2liamhwRVBZdVlaa2FuNXZrLXdCY3Vzd1c0UkcyZ3Uyc3pMQWs1dk5SUHVOcWpUTkJaaGhFSDRJcjlYYkRLYzRHT1Y5c1NONDdfWUE?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdGhmbVpfYXdaSVdkdnpMT0pyMnJoQzR5UEJpYVF6VlRTY2FZUXppODdiZi1CaG5jQ1MwY2NwbU1NVDVtdnEydG9TRjNrZjhSQVVqRjkyQmhRZEU5ajE2VDIzeDJLNk1mY0dxOUEzYTRKWUo3VFVfQzU4eVoyRHBHUVYwMDYxN3M5YUczMktaWkk?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNkVRcklOa0ZzVnFrT1NoMzlwdzN1N0F1ZWF3VU1qb3cyRDJoNVI5VlM0eExuVlFGeVZjSGVieEhaVmRPZHJPNHF4bjRIOTFDczBjSWZxWVVncGZkNE9iQUVEcXhQeUFTTHNDNWFQbEo4bndhZEU5bkdfOW1yVW05VlZCM21LWHYxUkNGS3ZhM2lwU21RbDc1UmNfNmRsQnRtNmpuLVRFQWtGTDA5UkZJZThzQW9LMXRtZDlLTmYySkktWmlSb0hNTGxkU1c?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SldKWWgzNDExSThTZW9MRTQ5WHE3VFRZMl9oSjIzaVhuZEZaY1ZSUTFxZTJFaFpUanlncTQySUg5SlRGVnNkQXZ0S3IxLWJScXNkLXY2Z3Jzbk5WR0UwSFp0NmUxN3c?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRmdKVEtxQ0FuVUNuYWQxYy04R1dPT25kTm1tNkM4UmRtdmRiNU1PbGhwMHlaWWRyRUdqZUJkd2ZSTWZNV2d0VGxhU0p6em1lWE9zV1Yxbkt6RmNPVTM1cTdyN09tOVpHUy1KMXVqQlFmZl9TYllzcEtoX2Q1U1ZQQkt1aWNpZUVyalE4MEdUS0lOaWttQ0M3R0hWNGFMSkttbHNMYTd3Zk52WjgxVUUxd3Y4anBrQnJT?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNb3BpMTJUTlJvTFdMejhpa2d5XzJwLWUzNUxGYkhPRnljc1VfSU1Xd3NzVXZQVlAxeC1wLTk3ZG0yWFRBZlJ3M1djUHZaZkpFM1lrc0thbGNKNDdFeGtPMy12WkVyd3FpSXZ2REI0MkxYS0RkVjZ3ZjRpVzl2azdUNW9IR1pRbGI4SnppVG9welBRU1E?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNaWkwbnJGNXE4NEdnRmhJSG0wazVJU2RVbm9rM1M1Q2V2bmpWcEhvdHBHMzd6QXEwYW9mU3N1ZE11MEV3bGdTUWdiYUR4MlZBS0lrMGV2SE1iWW0wOFhFb1lNRTc2VnNxQmJ2NGtrLTk1TGliOWRMU3A1V2l4WExyeDQwZW4tY0Jfcjl4SklEcDFXMExqZk5wdWVmTnBNSk52TUFhaDRXdWtPd3pOMFZHc2NRREFUbUlteGZtdm02OHNZNkhWd04tdkpvVDI2cVp6Zm1DRDBMU0RfdUhUbThjaFdORG1sMmx1RmtaQmx1WUd4cTQ?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ZcDg5SXNmVWFZbnFGQkVMYjVFNjBxeUVDWlN2RFJNREhRb0xXbmRsUWhWRnkzOWNHSjgxT3ROQk96VkZ3OHR4X2JrZDNmUThOa3ZJWU9zcw?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-        "bucket": "control"
-      },
-      {
         "key": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbS1hcXNNbk9MQkZjN1dRQlVWcTVkVUtiQ21KNjBmNS0weWo5enAtcTVKU3M2MUlfbE54ZWVpUEVXVlFsMmEydXZIai1vdTlBVTdUbFduQ0d6bzl5N0lsNjBVYXNTXzVQLXg3OHZ4dnk3MlVsRzdvRVlEMU5qRlNzSUFaZEg5bGhoYldZdEtGbkNFRy1mLXNidk51eGE1QnpRT2hDOHFUc0dQOUJyQ3lCYktCckk1TmNmdk9LQ1ZuNEQ4OWhyUXNuNHlaUEJjUXNDTXMxdWZ4V21fZw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE12Zjh2Z2tETEw5MzJ4VEZnV2wxUVFCY09JWTVhNEktZDZSR3ZPN1VVaWkzblc1WkJXeDJ4VmNvbUIxUFBMUGpIUkJzRVJSRGJHaWpTYk9LYklpenM?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOUxMOUR3SGdwNXRvdEd3TzlCczktaXloUjNWZVJRY3NQNU9hZEY1T09hRVM5ek1UZkc0WGh2bjV2Wm5WTFRYSTdoR0hNT01BbzlCZUVzOEhHajRwVmpPXzlSUmM3aTZxQ09kMDNvaWo5UkZ6OGNWN1I3NFFCWXVEY1JjSFRGZw?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxOczhValhJNGY3ckVNdDdWTnFhbDAtbVBERllEOGNnRVdWZDc1dzBNVlFuLWstVGd4QUpzaG50S2dxanhHVnBHOEktVmJtNzBaa3B5YVJMQ1dfYkpqaVJsU2hvQUE5YnZaclhPUk1lRG1SLW91ZXFPQkdzUVc1UVl4cGYtbC1Jdlh2cUZvVHNZdFpHeEpzc1RuU2tPVTdiY0FmaGI1X2x2WEMtcWhxOW9UczVIOGdoZlYtbzZhcS1kSV82S0ZOeWNiRV9KZnR0dnh1QkVTWmRjTVNzampaX19kV0VMeXVTNmRMRFBUd0JMbnA1TldTQ2x3RTB2OFdYNVZCcFBSYzE3SExqeDRFMWhLRW00UXZianJfbUU0ZEtDQmxGRzBJSllLdlZ2V0RseWZDRVppSHlnLVNEU3p4OVpNSUhjbzlCRmF2elQzRGRRMlJqQ0dNNWJabGZteHpaVTdBS2d4YWFqdy1MRlh5RXVfbDBZTWx1akx5MFE?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQlhFSEFFMzhvcmdYSW01OTl5UlVCOHRsNVpVakZHQVVHQzRINUFPa2xsWGkwYS1SRlBfN0lxeThxOHZSZC1qZHBkTFJFRTBRZ3laekpIalhreDJqOFJCRE9VUlhIUEJZT3VMcnk2RWsxZFRoSWxsMG1xTGFZMjd6R2k5amV4TTlCak1BY0taTWFCbU5qMUx3UVhNS0xEX0RNZ0pPNlhheWxvZWpfTVFpSkFRNkx4TU1YclhrbFc0eU1SeWpXd2NSQlBTOUJwUzg?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVEt0d0lnWWFtSUZjTUlKaEd4UEpQT2pHbWNmbjBhUFhabzBELXBteHBlZWduMFJWSy1WZk5jT2huRGxBSmVKNHdmRjB1eHRZWi1ya0FMTC1hdUhRSmZWUkQ1VElMTVM1Y3Zfbkpvak1IWXF0QmZrbkZMQUZEc2VYRzlSNFdZZlJTSXg5Z241YWJsSi0wdDBvaWxpb2Jwb2U5azk2eXkzZlFrbUJGUzhZN01ickRmTUI1NDNYWFJXRldzTG5zb280MklVYXhDQdIBzAFBVV95cUxNT19BNm5KZjlybVM4bU5IblFvcW9FOWtOYU5WblY2ZVQ1WEVJckFrUDlvcnVNVmdZWVprMHNZbE5fR2lBWmFPaHVYaHlKSkhMeUVheE9mVnZwb0NVMXNWQTF5UUFPVEFONkw5NTF1WU9ZYjJSMGlHeGdIZHVMbHg2WTBCbGhyYnBjUW5yTW9IUUtDLW5RRTNoTHl1bUlWNlB2aHRBQUE5QkxTejRfZUVPeE5lZ1dlX0hnbjhBOG02OVBXeWFCUVBncDdRank?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVjczeHp0VGJ0MFVYMG1sdmFmQ19wWF9lRTc3WG1qY3hyWG51SV9oN3BfUnJ2UXgwZl96UTVaQ1RtS2ZNSjh2VS1aYnhKUTNwRzg5ZnFnRTV1b1pkSjk1SlFBRXVZTU8xcUhnT2lhLUxfWW5Ic0F5a2YwVEItN1R6bzJkMTJlQmR4bGRZTVpFcnJ0S2dzNDE0OW5ITnhrb2lUaGpBY2dMX095MmJIMFljQ0owNXpETThaN2Y2OEx3?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYnFKWnB0LTd6NGtjdzFqbG5YQnU1aDUwRVZIWEZtb2F4NUQ2UldpVEs1NkpJN1RVa2FwUUJGbGRUNTliTmhsX1dtZ0dNNDJFVUd6TlByZnV3LVltdnpqbzlrR2I0bHB1UE9UTmNpa1htQk1oQXV5al9ablF6MXZSakRJdmNjRTB4Q3RuS2s1dURoN2ZieTg0aGtaT0l6d1JCSUJxbjZwWl92ZDVINlJwaTdQM3pFVFRzaDhwRlEyd3R0SU9RcWp1VURHR2R5M0Qwdk9EcVE3U24xZw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRjJTempXWXZMX1RTeThlV0NObGk3cU1ZNTV6UFRkM3J0NTVuM2JtaUxZQnI1aWZYM3J4ckwtSnVUVVpoWHlQTXJLNXRFUXd4Wk10a1NZSmE2SUxBVVNxal9EUXoyUU9KX1JJdjJjOE9PcWV3Qjh6TnUwaXg4SWVYd3VXS0ZkcDN5dnhJZHZYZkhlQmFUOVJWQmF2NHhCZzQzNk1MSEkxZDBuek0tZmlvdkhMTjhFSFlCY0dJU3FIYV9wV2UxZ0xISjVR?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYmIzMHlZNHh0ckRrOUZSYmRHUXFuSWVaWGdNSV9rbmRNcnhRMFJjOXlPdmlrOVlFRVB0eV9BbFNseXJuekJqcHU4VXNUc1VOelVnaWJOX1AtOW8waXp6UUJJX1BmUEIyWXd4RHlpV0pDeFpaVUE1RDZjcGt3dl80RWdtRnhxWm12c0d1T3dDdVl2V1gyeWVxUEpkcU9DWk02ZlEzSFJR0gGmAUFVX3lxTE9iYjMweVk0eHRyRGs5RlJiZEdRcW5JZVpYZ01JX2tuZE1yeFEwUmM5eU92aWs5WUVFUHR5X0FsU2x5cm56QmpwdThVc1RzVU56VWdpYk5fUC05bzBpenpRQklfUGZQQjJZd3hEeWlXSkN4WlpVQTVENmNwa3d2XzRFZ21GeHFabXZzR3VPd0N1WXZXWDJ5ZXFQSmRxT0NaTTZmUTNIUlE?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPNWxkRTRReHFDcTdObGs2a1pINXlvSXMtTV9LZTNiMWlrSG1tT2c0ZXlCMDktS3pjeDc1TTVjNFNJaFUtdVBtdHJJeWwtUmpOOG5ZcG9renF5WTI4bGlaSy15TE1hc1YyLUt1cnRtWHkwUFJKNEU1WkVyNWxha2htZVloRUhiQnJ4M2ZBU3dLOGhoamk3TVlmUWZ3Rlo3UERYa1Q5dktkY0xRd1UyZ05Xd2hYbU9iUElQNHBkM1lJTHFBRXRyWTVVbDU3cXNOUlJ4MWZPR0lXYjBkTElXeGxIS3BqT29UWU9zdS1XWUVVQ3hjdHBFLXdmN2g1Q0JVakIxUXBxaDNkUEtnR1FaTWVaS3A3b2FVLWJhMDN1ajdmWF9UckU1VUdrUlJSbzRuRTBxN3RPcjdKV0tQUQ?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPS0hzZ3h3OHJXbWRqNkc5ZmROTkJKaXZtQ2p3MmktTUZ0WG91YmJUUUVaWGk0cV84YU4zWVBJTDl5dTlRakhmNC11cld3MTc5M1hMOU1kTnQyd254cW5CTDRqVU1IQjBDR2dMdDRQWDVpdGRmT1ZuY3hjTFlhQjVGU0pMZ2RURWVXMnVyWlExcTNYcjdJTWJLSmlkWDFLZ3NjcGx2VUJyenExZzA?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcl9LZWFuNkw4TUVvekVCLW1NalRjSWZxZWw0dUM0aWVjVDFQbkxXNVVUTTJLSGZxQ2lVT0lZM2Zqb2dJbDA2dHltODY2QWRqUTlCTTJ4ZDE1UVhpUVB4RmNYamloaGM0MjgwX3U2Z2pyYm1QTF9CQUpkWUFaVTFFUWZ1Z1lTZW42TElkQi0yTWNWMVF2d1J6Tmc3emJoVUlMem8xYUtMNGxodDBIbnZQYmx2X19xdzd4dXdTUi05TW5neXVPNlFCNERrMGZ4UFo2VlHSAdcBQVVfeXFMT1VRSXp0ZUNadWFZX0FCZU54cjBFcmRpNGhfUzZkREdCMkpiT05jODN6Z3lIYXlhXzMySGdqcTZ5Q1BpVHVTRlM4UmxNcnJJcG9KT3NRdENTUGl3azAxdGFDTlIyYnFKaUFFWmNUZTVLR1VuOWhFaTFQNi1xU2hhaHYzVHBUQmxGSXpFSlJzVEtuaDQ0eGxtcGV5VGQ1REYtd2R0MXdlYXp0aDd6MmVVNzFlZnJ1YlJBU1JmVW9BRE1lSmNqYUY2dC1mTjlZZGd6RjRvY0liRFE?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNY3oxelhBak9DSjlneEhFbVJHaVBqQmV5MV9oSmp4bjhEUlp1WFMyclNCOWJ4VHNEd3RWZzE5YVNSdFVJaDdzX1czNmY5eGFheGwxMVEtSm1mM3dVdHk4OVRpTDZVaTd6OWs0dm5faGxuTjdRYUpGd1pKcC1oWVVhSERYcXVHN0lpeTgzT3dOenRvSHI0U09rY1d3Yw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWkFES1ItRFZvYXMtNGFyNHZud0c1Wm9ueHAxUXNiMWpDU1BsWlZiOV9UcVI1MElFcHVaeUhlUmpkZFZmdVN3SXprTWJQS0RIZVNfeFVRTFhxem5uRVcxSTBTSTZSeS01YWdrcnROZmJUVHhEdG5ydzdOYklOalhCd2tFRFBtTGl3OGJXcFJfZ2xnc1FaT3ZoWEt4T3lJWjYzbXM0bmsyNXVrdw?oc=5",
         "bucket": "control"
       }
     ],
     "cta-placement": [
       {
-        "key": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdWcxekwzbzFqaWlNSFpzWGgtdVE5akdkU2ZWbWp5aFd3eXl0bUUzZnliaTdZWjhLekUwalJWcUgyVDhtWFY1ZDNHZmhKRVRsbjVSSDVVMFBUcFI3cUJrT09yblZ5ZFhxck5IQlpnR2tQc3VCaWxkbEQ1Ti1QRi0tUTItT1hKclktSHVvQkpaZThNUUYzdUJVRUdESHAxRmVGclV6LTBR?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTFdwYm5XZ0RpWjlDY05FdHp1dmIzcDV0QjlxNWpXTWRpM24tTVlPeHBXTkhjNW5TMzAwckxiczBkY00ydDcwNm9WdmNxYjhSYXpjTFRZVlFOM2NvN01GTVk1NnZLRWZnLV9Hdlg2YlJXcXp6eXNGaGxzdWVfdUtkWElfX1hvMmJPNm93Q2Z0ZjNvTWhpejZUc09KRy11dElt?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/09/tesla-renames-full-self-driving-to-tesla-assisted-driving-in-europe/",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMWRfbDJMYVBZZ1JuQTM4aWZUcWk0b1NzSWtkVUcweHNTU3BBbi1YLVFva0tYWUpJNjBpS2lBWFp2bjRCbVVZcnU3by13anpSek5lOFk0SUZFLW1Pc1ozUDM3U2RrZEVLOGRPZzhhMFp5QzlnRVpwa0I2Z2hNaHFTMTRnTXZNNnV6dzFkd3lLcmU2dzF1TTVpUWRGZElpa1lUWjVNbzR4YWR2b1dQWGhjVnQxWQ?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Ld05oVjdpSVo1elVEdkl6dU9MMGVHTktrclhPa3FvTGtPVHRUeHpfUThTQzZ4dkpGQ1YtdHFsejJtTUFFWVhfWUtoTXZWeVQ1LXJHaE5wX0dEQjVFZzM4b3NTMnJ2QlJtOFFDZTQ2c0JmTlFuVUtHSTVEczg?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQ29na2s3cjRNa0xzeE1QQ0Z3a3F2MFk3QUgtMHNTT3hPMUhjeEh2cExsOUFEZFpLSVNYMzVmMEFlekplbnpMd3hDTm1mN09GTHFGTXJPNDJQNjIwby1qWmVqbDU5dnJmOVliMWltVFFUZ0Ftd1FtdlAyS3BhSEVSejdkVnYwRE92S1REZWtGMmQxbUN3VTdGbnhjYTUzeEE?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVmZvc0hicDBKYmo3ajc3dmNsdDF0V0JGTXJVQnNnbnVCNmhtRFYzZDVwelhKQlZOd1cyM3VWeXpzdjd3MkFhQnNnT0ZYcVJEbEJFUV90Zk40QUowZmhnTkRKenI3RXRzTDFfaUtWcDNCSzY1WUJDekQ1X3duOXBnbk9sVDF2TnRfT3hVVkVnS1N0bFpIbXQ1OW5LYXBQQkpPcFAtc1MtVHc2endMeFFPeU5NNEhVb0VsSXNmZGJ2clk?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QRlpLU0NSbGNPUzlhY3pIS2djUVctbzFHczBJYVpjajFyUXpTeDlsbXBIdy1Yelh2LW9pZ2lseXo2bjRrUEF4QmNHSEt6ZmFTOGxJdlBqQnpubW1IOUNwMlZUbVdoenRQcDVGTXFIYkpJT0tyWk1JdmJHMDMydw?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNllrUGRRSk9kMG9HUGxidi1JYUJZMlBwQ2RFc0xHRTRhUW53ZzZfOWdpZHM1eEpjZjVGZWNlQTFfbWZmTlR5WEp3S2liamhwRVBZdVlaa2FuNXZrLXdCY3Vzd1c0UkcyZ3Uyc3pMQWs1dk5SUHVOcWpUTkJaaGhFSDRJcjlYYkRLYzRHT1Y5c1NONDdfWUE?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdGhmbVpfYXdaSVdkdnpMT0pyMnJoQzR5UEJpYVF6VlRTY2FZUXppODdiZi1CaG5jQ1MwY2NwbU1NVDVtdnEydG9TRjNrZjhSQVVqRjkyQmhRZEU5ajE2VDIzeDJLNk1mY0dxOUEzYTRKWUo3VFVfQzU4eVoyRHBHUVYwMDYxN3M5YUczMktaWkk?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNkVRcklOa0ZzVnFrT1NoMzlwdzN1N0F1ZWF3VU1qb3cyRDJoNVI5VlM0eExuVlFGeVZjSGVieEhaVmRPZHJPNHF4bjRIOTFDczBjSWZxWVVncGZkNE9iQUVEcXhQeUFTTHNDNWFQbEo4bndhZEU5bkdfOW1yVW05VlZCM21LWHYxUkNGS3ZhM2lwU21RbDc1UmNfNmRsQnRtNmpuLVRFQWtGTDA5UkZJZThzQW9LMXRtZDlLTmYySkktWmlSb0hNTGxkU1c?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SldKWWgzNDExSThTZW9MRTQ5WHE3VFRZMl9oSjIzaVhuZEZaY1ZSUTFxZTJFaFpUanlncTQySUg5SlRGVnNkQXZ0S3IxLWJScXNkLXY2Z3Jzbk5WR0UwSFp0NmUxN3c?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRmdKVEtxQ0FuVUNuYWQxYy04R1dPT25kTm1tNkM4UmRtdmRiNU1PbGhwMHlaWWRyRUdqZUJkd2ZSTWZNV2d0VGxhU0p6em1lWE9zV1Yxbkt6RmNPVTM1cTdyN09tOVpHUy1KMXVqQlFmZl9TYllzcEtoX2Q1U1ZQQkt1aWNpZUVyalE4MEdUS0lOaWttQ0M3R0hWNGFMSkttbHNMYTd3Zk52WjgxVUUxd3Y4anBrQnJT?oc=5",
-        "bucket": "control"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNb3BpMTJUTlJvTFdMejhpa2d5XzJwLWUzNUxGYkhPRnljc1VfSU1Xd3NzVXZQVlAxeC1wLTk3ZG0yWFRBZlJ3M1djUHZaZkpFM1lrc0thbGNKNDdFeGtPMy12WkVyd3FpSXZ2REI0MkxYS0RkVjZ3ZjRpVzl2azdUNW9IR1pRbGI4SnppVG9welBRU1E?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNaWkwbnJGNXE4NEdnRmhJSG0wazVJU2RVbm9rM1M1Q2V2bmpWcEhvdHBHMzd6QXEwYW9mU3N1ZE11MEV3bGdTUWdiYUR4MlZBS0lrMGV2SE1iWW0wOFhFb1lNRTc2VnNxQmJ2NGtrLTk1TGliOWRMU3A1V2l4WExyeDQwZW4tY0Jfcjl4SklEcDFXMExqZk5wdWVmTnBNSk52TUFhaDRXdWtPd3pOMFZHc2NRREFUbUlteGZtdm02OHNZNkhWd04tdkpvVDI2cVp6Zm1DRDBMU0RfdUhUbThjaFdORG1sMmx1RmtaQmx1WUd4cTQ?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ZcDg5SXNmVWFZbnFGQkVMYjVFNjBxeUVDWlN2RFJNREhRb0xXbmRsUWhWRnkzOWNHSjgxT3ROQk96VkZ3OHR4X2JrZDNmUThOa3ZJWU9zcw?oc=5",
-        "bucket": "variant"
-      },
-      {
-        "key": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-        "bucket": "control"
-      },
-      {
         "key": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbS1hcXNNbk9MQkZjN1dRQlVWcTVkVUtiQ21KNjBmNS0weWo5enAtcTVKU3M2MUlfbE54ZWVpUEVXVlFsMmEydXZIai1vdTlBVTdUbFduQ0d6bzl5N0lsNjBVYXNTXzVQLXg3OHZ4dnk3MlVsRzdvRVlEMU5qRlNzSUFaZEg5bGhoYldZdEtGbkNFRy1mLXNidk51eGE1QnpRT2hDOHFUc0dQOUJyQ3lCYktCckk1TmNmdk9LQ1ZuNEQ4OWhyUXNuNHlaUEJjUXNDTXMxdWZ4V21fZw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE12Zjh2Z2tETEw5MzJ4VEZnV2wxUVFCY09JWTVhNEktZDZSR3ZPN1VVaWkzblc1WkJXeDJ4VmNvbUIxUFBMUGpIUkJzRVJSRGJHaWpTYk9LYklpenM?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOUxMOUR3SGdwNXRvdEd3TzlCczktaXloUjNWZVJRY3NQNU9hZEY1T09hRVM5ek1UZkc0WGh2bjV2Wm5WTFRYSTdoR0hNT01BbzlCZUVzOEhHajRwVmpPXzlSUmM3aTZxQ09kMDNvaWo5UkZ6OGNWN1I3NFFCWXVEY1JjSFRGZw?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxOczhValhJNGY3ckVNdDdWTnFhbDAtbVBERllEOGNnRVdWZDc1dzBNVlFuLWstVGd4QUpzaG50S2dxanhHVnBHOEktVmJtNzBaa3B5YVJMQ1dfYkpqaVJsU2hvQUE5YnZaclhPUk1lRG1SLW91ZXFPQkdzUVc1UVl4cGYtbC1Jdlh2cUZvVHNZdFpHeEpzc1RuU2tPVTdiY0FmaGI1X2x2WEMtcWhxOW9UczVIOGdoZlYtbzZhcS1kSV82S0ZOeWNiRV9KZnR0dnh1QkVTWmRjTVNzampaX19kV0VMeXVTNmRMRFBUd0JMbnA1TldTQ2x3RTB2OFdYNVZCcFBSYzE3SExqeDRFMWhLRW00UXZianJfbUU0ZEtDQmxGRzBJSllLdlZ2V0RseWZDRVppSHlnLVNEU3p4OVpNSUhjbzlCRmF2elQzRGRRMlJqQ0dNNWJabGZteHpaVTdBS2d4YWFqdy1MRlh5RXVfbDBZTWx1akx5MFE?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQlhFSEFFMzhvcmdYSW01OTl5UlVCOHRsNVpVakZHQVVHQzRINUFPa2xsWGkwYS1SRlBfN0lxeThxOHZSZC1qZHBkTFJFRTBRZ3laekpIalhreDJqOFJCRE9VUlhIUEJZT3VMcnk2RWsxZFRoSWxsMG1xTGFZMjd6R2k5amV4TTlCak1BY0taTWFCbU5qMUx3UVhNS0xEX0RNZ0pPNlhheWxvZWpfTVFpSkFRNkx4TU1YclhrbFc0eU1SeWpXd2NSQlBTOUJwUzg?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVEt0d0lnWWFtSUZjTUlKaEd4UEpQT2pHbWNmbjBhUFhabzBELXBteHBlZWduMFJWSy1WZk5jT2huRGxBSmVKNHdmRjB1eHRZWi1ya0FMTC1hdUhRSmZWUkQ1VElMTVM1Y3Zfbkpvak1IWXF0QmZrbkZMQUZEc2VYRzlSNFdZZlJTSXg5Z241YWJsSi0wdDBvaWxpb2Jwb2U5azk2eXkzZlFrbUJGUzhZN01ickRmTUI1NDNYWFJXRldzTG5zb280MklVYXhDQdIBzAFBVV95cUxNT19BNm5KZjlybVM4bU5IblFvcW9FOWtOYU5WblY2ZVQ1WEVJckFrUDlvcnVNVmdZWVprMHNZbE5fR2lBWmFPaHVYaHlKSkhMeUVheE9mVnZwb0NVMXNWQTF5UUFPVEFONkw5NTF1WU9ZYjJSMGlHeGdIZHVMbHg2WTBCbGhyYnBjUW5yTW9IUUtDLW5RRTNoTHl1bUlWNlB2aHRBQUE5QkxTejRfZUVPeE5lZ1dlX0hnbjhBOG02OVBXeWFCUVBncDdRank?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVjczeHp0VGJ0MFVYMG1sdmFmQ19wWF9lRTc3WG1qY3hyWG51SV9oN3BfUnJ2UXgwZl96UTVaQ1RtS2ZNSjh2VS1aYnhKUTNwRzg5ZnFnRTV1b1pkSjk1SlFBRXVZTU8xcUhnT2lhLUxfWW5Ic0F5a2YwVEItN1R6bzJkMTJlQmR4bGRZTVpFcnJ0S2dzNDE0OW5ITnhrb2lUaGpBY2dMX095MmJIMFljQ0owNXpETThaN2Y2OEx3?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYnFKWnB0LTd6NGtjdzFqbG5YQnU1aDUwRVZIWEZtb2F4NUQ2UldpVEs1NkpJN1RVa2FwUUJGbGRUNTliTmhsX1dtZ0dNNDJFVUd6TlByZnV3LVltdnpqbzlrR2I0bHB1UE9UTmNpa1htQk1oQXV5al9ablF6MXZSakRJdmNjRTB4Q3RuS2s1dURoN2ZieTg0aGtaT0l6d1JCSUJxbjZwWl92ZDVINlJwaTdQM3pFVFRzaDhwRlEyd3R0SU9RcWp1VURHR2R5M0Qwdk9EcVE3U24xZw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRjJTempXWXZMX1RTeThlV0NObGk3cU1ZNTV6UFRkM3J0NTVuM2JtaUxZQnI1aWZYM3J4ckwtSnVUVVpoWHlQTXJLNXRFUXd4Wk10a1NZSmE2SUxBVVNxal9EUXoyUU9KX1JJdjJjOE9PcWV3Qjh6TnUwaXg4SWVYd3VXS0ZkcDN5dnhJZHZYZkhlQmFUOVJWQmF2NHhCZzQzNk1MSEkxZDBuek0tZmlvdkhMTjhFSFlCY0dJU3FIYV9wV2UxZ0xISjVR?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYmIzMHlZNHh0ckRrOUZSYmRHUXFuSWVaWGdNSV9rbmRNcnhRMFJjOXlPdmlrOVlFRVB0eV9BbFNseXJuekJqcHU4VXNUc1VOelVnaWJOX1AtOW8waXp6UUJJX1BmUEIyWXd4RHlpV0pDeFpaVUE1RDZjcGt3dl80RWdtRnhxWm12c0d1T3dDdVl2V1gyeWVxUEpkcU9DWk02ZlEzSFJR0gGmAUFVX3lxTE9iYjMweVk0eHRyRGs5RlJiZEdRcW5JZVpYZ01JX2tuZE1yeFEwUmM5eU92aWs5WUVFUHR5X0FsU2x5cm56QmpwdThVc1RzVU56VWdpYk5fUC05bzBpenpRQklfUGZQQjJZd3hEeWlXSkN4WlpVQTVENmNwa3d2XzRFZ21GeHFabXZzR3VPd0N1WXZXWDJ5ZXFQSmRxT0NaTTZmUTNIUlE?oc=5",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPNWxkRTRReHFDcTdObGs2a1pINXlvSXMtTV9LZTNiMWlrSG1tT2c0ZXlCMDktS3pjeDc1TTVjNFNJaFUtdVBtdHJJeWwtUmpOOG5ZcG9renF5WTI4bGlaSy15TE1hc1YyLUt1cnRtWHkwUFJKNEU1WkVyNWxha2htZVloRUhiQnJ4M2ZBU3dLOGhoamk3TVlmUWZ3Rlo3UERYa1Q5dktkY0xRd1UyZ05Xd2hYbU9iUElQNHBkM1lJTHFBRXRyWTVVbDU3cXNOUlJ4MWZPR0lXYjBkTElXeGxIS3BqT29UWU9zdS1XWUVVQ3hjdHBFLXdmN2g1Q0JVakIxUXBxaDNkUEtnR1FaTWVaS3A3b2FVLWJhMDN1ajdmWF9UckU1VUdrUlJSbzRuRTBxN3RPcjdKV0tQUQ?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPS0hzZ3h3OHJXbWRqNkc5ZmROTkJKaXZtQ2p3MmktTUZ0WG91YmJUUUVaWGk0cV84YU4zWVBJTDl5dTlRakhmNC11cld3MTc5M1hMOU1kTnQyd254cW5CTDRqVU1IQjBDR2dMdDRQWDVpdGRmT1ZuY3hjTFlhQjVGU0pMZ2RURWVXMnVyWlExcTNYcjdJTWJLSmlkWDFLZ3NjcGx2VUJyenExZzA?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+        "bucket": "control"
+      },
+      {
+        "key": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcl9LZWFuNkw4TUVvekVCLW1NalRjSWZxZWw0dUM0aWVjVDFQbkxXNVVUTTJLSGZxQ2lVT0lZM2Zqb2dJbDA2dHltODY2QWRqUTlCTTJ4ZDE1UVhpUVB4RmNYamloaGM0MjgwX3U2Z2pyYm1QTF9CQUpkWUFaVTFFUWZ1Z1lTZW42TElkQi0yTWNWMVF2d1J6Tmc3emJoVUlMem8xYUtMNGxodDBIbnZQYmx2X19xdzd4dXdTUi05TW5neXVPNlFCNERrMGZ4UFo2VlHSAdcBQVVfeXFMT1VRSXp0ZUNadWFZX0FCZU54cjBFcmRpNGhfUzZkREdCMkpiT05jODN6Z3lIYXlhXzMySGdqcTZ5Q1BpVHVTRlM4UmxNcnJJcG9KT3NRdENTUGl3azAxdGFDTlIyYnFKaUFFWmNUZTVLR1VuOWhFaTFQNi1xU2hhaHYzVHBUQmxGSXpFSlJzVEtuaDQ0eGxtcGV5VGQ1REYtd2R0MXdlYXp0aDd6MmVVNzFlZnJ1YlJBU1JmVW9BRE1lSmNqYUY2dC1mTjlZZGd6RjRvY0liRFE?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+        "bucket": "variant"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNY3oxelhBak9DSjlneEhFbVJHaVBqQmV5MV9oSmp4bjhEUlp1WFMyclNCOWJ4VHNEd3RWZzE5YVNSdFVJaDdzX1czNmY5eGFheGwxMVEtSm1mM3dVdHk4OVRpTDZVaTd6OWs0dm5faGxuTjdRYUpGd1pKcC1oWVVhSERYcXVHN0lpeTgzT3dOenRvSHI0U09rY1d3Yw?oc=5",
+        "bucket": "control"
+      },
+      {
+        "key": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWkFES1ItRFZvYXMtNGFyNHZud0c1Wm9ueHAxUXNiMWpDU1BsWlZiOV9UcVI1MElFcHVaeUhlUmpkZFZmdVN3SXprTWJQS0RIZVNfeFVRTFhxem5uRVcxSTBTSTZSeS01YWdrcnROZmJUVHhEdG5ydzdOYklOalhCd2tFRFBtTGl3OGJXcFJfZ2xnc1FaT3ZoWEt4T3lJWjYzbXM0bmsyNXVrdw?oc=5",
         "bucket": "control"
       }
     ]
@@ -337,8 +337,8 @@
     {
       "experimentId": "headline-style",
       "sample": {
-        "control": 8,
-        "variant": 12,
+        "control": 13,
+        "variant": 7,
         "total": 20
       },
       "outcomeMetrics": {
@@ -352,8 +352,8 @@
     {
       "experimentId": "intro-style",
       "sample": {
-        "control": 8,
-        "variant": 12,
+        "control": 13,
+        "variant": 7,
         "total": 20
       },
       "outcomeMetrics": {
@@ -367,8 +367,8 @@
     {
       "experimentId": "cta-placement",
       "sample": {
-        "control": 8,
-        "variant": 12,
+        "control": 13,
+        "variant": 7,
         "total": 20
       },
       "outcomeMetrics": {
@@ -381,6 +381,6 @@
     }
   ],
   "history": {
-    "previousUpdatedAt": "2026-10-10T06:21:08.167Z"
+    "previousUpdatedAt": "2026-10-10T13:00:30.582Z"
   }
 }
