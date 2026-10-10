@@ -14,11 +14,11 @@ permissions:
 
 jobs:
   writer-canary:
-    if: contains(fromJSON('["run-provider-canaries","run-cohere-canary"]'), github.event.label.name) && github.event.pull_request.head.ref == 'integration/provider-fixes-on-current-main-2026-10-10'
+    if: contains(fromJSON('["run-provider-canaries","run-cohere-canary","run-openrouter-canary"]'), github.event.label.name) && github.event.pull_request.head.ref == 'integration/provider-fixes-on-current-main-2026-10-10'
     strategy:
       fail-fast: false
       matrix:
-        provider: ${{ github.event.label.name == 'run-cohere-canary' && fromJSON('["Cohere"]') || fromJSON('["Groq","Gemini","OpenRouter","Cohere"]') }}
+        provider: ${{ github.event.label.name == 'run-cohere-canary' && fromJSON('["Cohere"]') || (github.event.label.name == 'run-openrouter-canary' && fromJSON('["OpenRouter"]') || fromJSON('["Groq","Gemini","OpenRouter","Cohere"]')) }}
     runs-on: ubuntu-latest
     timeout-minutes: 4
     env:
