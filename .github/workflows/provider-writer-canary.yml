@@ -1,0 +1,40 @@
+name: Isolated AI Provider Writer-Stage Canaries
+
+on:
+  pull_request:
+    types: [labeled]
+    branches: [main]
+    paths:
+      - ".github/workflows/provider-writer-canary.yml"
+      - "scripts/provider-writer-canary.mjs"
+      - "scripts/trendforge-writer-engine.mjs"
+
+permissions:
+  contents: read
+
+jobs:
+  writer-canary:
+    if: contains(fromJSON('["run-provider-canaries","run-cohere-canary","run-openrouter-canary"]'), github.event.label.name) && github.event.pull_request.head.ref == 'integration/provider-fixes-on-current-main-2026-10-10'
+    strategy:
+      fail-fast: false
+      matrix:
+        provider: ${{ github.event.label.name == 'run-cohere-canary' && fromJSON('["Cohere"]') || (github.event.label.name == 'run-openrouter-canary' && fromJSON('["OpenRouter"]') || fromJSON('["Groq","Gemini","OpenRouter","Cohere"]')) }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    env:
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
+      COHERE_MODEL: command-r-plus-08-2024
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      PROVIDER_WRITER_TARGET: ${{ matrix.provider }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+      - name: Setup Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          package-manager-cache: false
+      - name: Run one bounded ${{ matrix.provider }} writer-stage request
+        run: node scripts/provider-writer-canary.mjs

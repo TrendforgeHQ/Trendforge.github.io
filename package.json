@@ -50,6 +50,7 @@
     "article-depth:test": "node scripts/test-article-depth-guard.mjs",
     "visual-planner:test": "node scripts/test-visual-planner.mjs",
     "ai-router:test": "node scripts/test-ai-provider-router.mjs",
+    "provider-contracts:test": "node scripts/test-provider-contracts.mjs",
     "claims:provenance-anchor": "node scripts/test-claim-provenance-anchor.mjs",
     "claims:passage-provenance": "node tests/test-passage-provenance.mjs",
     "evidence-extraction:test": "node tests/test-evidence-extraction-headline-context.mjs",
