@@ -42,7 +42,7 @@ const buildHealthy=timestamp=>configured.filter(name=>(state.providers[name]?.qu
 let now=Date.now();let healthy=buildHealthy(now);
 if(!healthy.length&&configured.length){const recoverable=configured.filter(name=>!isHardQuotaState(state.providers[name])).map(name=>Number(state.providers[name]?.quotaBlockedUntil||0)).filter(until=>until>now).sort((a,b)=>a-b);const earliest=recoverable[0]||0;const waitMs=Math.min(MAX_STARTUP_RECOVERY_WAIT_MS,Math.max(0,earliest-Date.now()));if(waitMs>0){console.log(`AI router recovery wait: all configured providers are temporarily cooling down; waiting ${Math.ceil(waitMs/1000)}s for provider recovery.`);await sleep(waitMs);now=Date.now();healthy=buildHealthy(now);console.log(`AI router recovery re-check: ${healthy.length}/${configured.length} provider(s) recovered after bounded wait.`);}}
 const healthPriority={Gemini:0,Groq:1,Cohere:2,OpenRouter:3};
-const healthRank=[...healthy].sort((a,b)=>{const scoreA=reliabilityScore(a),scoreB=reliabilityScore(b);if(scoreA!==scoreB)return scoreB-scoreA;return (healthPriority[a]??99)-(healthPriority[b]??99);});
+const healthRank=[...healthy].sort((a,b)=>{if(a==='Groq'&&b!=='Groq')return -1;if(b==='Groq'&&a!=='Groq')return 1;const scoreA=reliabilityScore(a),scoreB=reliabilityScore(b);if(scoreA!==scoreB)return scoreB-scoreA;return (healthPriority[a]??99)-(healthPriority[b]??99);});
 const rotationBase=healthRank.length?healthRank:[];
 // Prefer the currently healthiest provider first. Do not rotate a weaker provider ahead of a stronger one: provider diversity is preserved by fallback order, while the best recent reliability gets the first attempt.
 const available=rotationBase;
