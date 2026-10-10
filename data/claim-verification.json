@@ -1,18 +1,18 @@
 {
   "version": 18,
-  "generatedAt": "2026-10-10T11:38:03.959Z",
-  "articlePath": "content/articles/ella-langley-cancels-tulsa-show-over-serious-security-threat.md",
-  "articleTitle": "Ella Langley Cancels Tulsa Show Over Serious Security Threat",
+  "generatedAt": "2026-10-10T16:38:31.735Z",
+  "articlePath": "content/articles/tom-lee-lowers-ethereum-target-to-5-000-while-anticipating-major-market-shifts.md",
+  "articleTitle": "Tom Lee Lowers Ethereum Target to $5,000 While Anticipating Major Market Shifts",
   "verificationMode": "authoritative-evidence-pack-v20-fact-map-synthesis",
-  "sourceCount": 4,
-  "usableSourceCount": 4,
-  "claimCount": 10,
-  "editorialCount": 1,
-  "verified": 9,
+  "sourceCount": 2,
+  "usableSourceCount": 2,
+  "claimCount": 13,
+  "editorialCount": 2,
+  "verified": 12,
   "partial": 1,
   "unsupported": 0,
   "sourceUnavailable": 0,
-  "averageConfidence": 76,
+  "averageConfidence": 81,
   "pass": true,
   "policy": {
     "verifiedMin": 62,
@@ -45,115 +45,254 @@
   "sources": [
     {
       "id": "S1",
-      "title": "Ella Langley Abruptly Cancels Tulsa Show Due to ‘Serious Security Threat’ - Yahoo",
-      "url": "https://www.yahoo.com/entertainment/music/articles/ella-langley-abruptly-cancels-tulsa-222609230.html",
-      "domain": "yahoo.com",
+      "title": "Tom Lee’s Ethereum Year-End Call Is Now Half Of What He Called ‘Conservative’ Last Month, But He Expects ‘Monster Moves’ In The Crypto Industry - Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/tom-lee-ethereum-end-call-121659621.html",
+      "domain": "finance.yahoo.com",
       "passageCount": 5,
-      "articleBodyLength": 751
+      "articleBodyLength": 747
     },
     {
       "id": "S2",
-      "title": "Ella Langley Cancels Show Amid \"Serious Security Threat\" - Wide Open Country",
-      "url": "https://www.wideopencountry.com/ella-langley-cancels-show-amid-serious-security-threat/",
-      "domain": "wideopencountry.com",
-      "passageCount": 6,
-      "articleBodyLength": 638
-    },
-    {
-      "id": "S3",
-      "title": "Ella Langley’s Tulsa concert canceled after ‘serious security threat’ discovered - The Big Lead",
-      "url": "https://www.thebiglead.com/ella-langley-concert-canceled-serious-security-threat-discovered/",
-      "domain": "thebiglead.com",
-      "passageCount": 9,
-      "articleBodyLength": 922
-    },
-    {
-      "id": "S4",
-      "title": "Country star Ella Langley cancels Tulsa, Oklahoma, show due to ‘serious security threat’",
-      "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/country-star-ella-langley-cancels-tulsa-oklahoma-show-due-serious-secu-rcna602609",
-      "domain": "nbcnews.com",
+      "title": "Tom Lee’s Ethereum Year-End Call Is Now Half Of What He Called ‘Conservative’ Last Month",
+      "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/tom-lees-ethereum-yearend-call-is-now-half-of-what-he-called-conservative-last-month/cZxTv6URBnD",
+      "domain": "stocktwits.com",
       "passageCount": 3,
-      "articleBodyLength": 708
+      "articleBodyLength": 1174
     }
   ],
   "claims": [
     {
       "index": 1,
-      "claim": "Ella Langley cancelled her sold‑out performance in Tulsa, Oklahoma, on Friday night because of a “serious security threat” that could endanger fans, venue staff, and her team.",
+      "claim": "Tom Lee, chairman of BitMine Immersion Technologies (BMNR) and co-founder and head of research at Fundstrat, modified his Ethereum (ETH) price outlook during an appearance at Token 2049 in Singapore.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 94,
+      "confidence": 90,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Country star Ella Langley cancels Tulsa, Oklahoma, show due to ‘serious security threat’",
-      "bestUrl": "https://www.nbcnews.com/pop-culture/pop-culture-news/country-star-ella-langley-cancels-tulsa-oklahoma-show-due-serious-secu-rcna602609",
-      "bestDomain": "nbcnews.com",
-      "sourceId": "S4",
+      "bestSource": "Tom Lee’s Ethereum Year-End Call Is Now Half Of What He Called ‘Conservative’ Last Month",
+      "bestUrl": "https://stocktwits.com/news-articles/markets/cryptocurrency/tom-lees-ethereum-yearend-call-is-now-half-of-what-he-called-conservative-last-month/cZxTv6URBnD",
+      "bestDomain": "stocktwits.com",
+      "sourceId": "S2",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F20",
-        "sourceId": "S4",
+        "factId": "F6",
+        "sourceId": "S2",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 92
+        "score": 90
       },
       "provenanceFactMatches": [
         {
-          "factId": "F20",
-          "sourceId": "S4",
+          "factId": "F6",
+          "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 92,
+          "score": 90,
           "passageIndex": 1
-        },
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S2-P1",
+      "evidence": "BitMine Immersion Technologies chairman Tom Lee said Ethereum should top $5,000 by year-end, in Singapore on Friday.That was half the $10,000 year-end figure Lee called \"conservative\" when he also said Ethereum would trade \"much higher\" than that level within 12 months.His cycle target came down too, to \"25,000 or 50,000 per token\" from an illustrative $62,000 nine days earlier.Ethereum (ETH) held above $2,400 on Saturday after BitMine Immersion Technologies (BMNR) chairman Tom Lee said the token should top $5,000 by year-end, half the level he called a “conservative target” more than a week ago.Speaking at Token 2049 in Singapore on Friday, Lee, who is also co-founder and head of research at Fundstrat, tied the call to Bitcoin (BTC).",
+      "bestPassage": "BitMine Immersion Technologies chairman Tom Lee said Ethereum should top $5,000 by year-end, in Singapore on Friday.That was half the $10,000 year-end figure Lee called \"conservative\" when he also said Ethereum would trade \"much higher\" than that level within 12 months.His cycle target came down too, to \"25,000 or 50,000 per token\" from an illustrative $62,000 nine days earlier.Ethereum (ETH) held above $2,400 on Saturday after BitMine Immersion Technologies (BMNR) chairman Tom Lee said the token should top $5,000 by year-end, half the level he called a “conservative target” more than a week ago.Speaking at Token 2049 in Singapore on Friday, Lee, who is also co-founder and head of research at Fundstrat, tied the call to Bitcoin (BTC).",
+      "matchedPassages": [
+        "S2-P1",
+        "S2-BODY"
+      ],
+      "sharedTerms": [
+        "tom",
+        "lee",
+        "chairman",
+        "bitmine",
+        "immersion",
+        "technologi",
+        "bmnr",
+        "and",
+        "founder",
+        "head",
+        "research",
+        "fundstrat",
+        "his",
+        "eth",
+        "token",
+        "2049",
+        "singapore"
+      ],
+      "entityShared": [
+        "tom",
+        "lee",
+        "bitmine",
+        "immersion",
+        "technologi",
+        "bmnr",
+        "fundstrat",
+        "eth",
+        "token",
+        "singapore"
+      ],
+      "topicShared": [
+        "tom",
+        "lee",
+        "eth"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 2,
+      "claim": "Lee stated that Ethereum should top $5,000 by year-end, linking his prediction to Bitcoin (BTC).",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 89,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Tom Lee’s Ethereum Year-End Call Is Now Half Of What He Called ‘Conservative’ Last Month",
+      "bestUrl": "https://stocktwits.com/news-articles/markets/cryptocurrency/tom-lees-ethereum-yearend-call-is-now-half-of-what-he-called-conservative-last-month/cZxTv6URBnD",
+      "bestDomain": "stocktwits.com",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F6",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 89
+      },
+      "provenanceFactMatches": [
         {
-          "factId": "F1",
-          "sourceId": "S1",
+          "factId": "F6",
+          "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
           "score": 89,
           "passageIndex": 1
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S4-FF20,S1-FF1",
-      "evidence": "Country singer Ella Langley canceled her sold-out show slated for Friday evening in Tulsa, Oklahoma, due to what she described as “a serious security threat.” The 27-year-old star announced the last-minute cancellation on Instagram, saying the threat involved “the safety of my fans, the venue staff, and my team.” “The incredibly difficult decision was made to cancel tonight’s show,” she said. Ella Langley canceled her show in Tulsa, Oklahoma, on Friday night due to a \"serious security threat\" to fans, venue staff, and her team.",
-      "bestPassage": "Country singer Ella Langley canceled her sold-out show slated for Friday evening in Tulsa, Oklahoma, due to what she described as “a serious security threat.” The 27-year-old star announced the last-minute cancellation on Instagram, saying the threat involved “the safety of my fans, the venue staff, and my team.” “The incredibly difficult decision was made to cancel tonight’s show,” she said. Ella Langley canceled her show in Tulsa, Oklahoma, on Friday night due to a \"serious security threat\" to fans, venue staff, and her team.",
+      "bestPassageId": "S2-FF6",
+      "evidence": "BitMine Immersion Technologies chairman Tom Lee said Ethereum should top $5,000 by year-end, in Singapore on Friday.That was half the $10,000 year-end figure Lee called \"conservative\" when he also said Ethereum would trade \"much higher\" than that level within 12 months.His cycle target came down too, to \"25,000 or 50,000 per token\" from an illustrative $62,000 nine days earlier.Ethereum (ETH) held above $2,400 on Saturday after BitMine Immersion Technologies (BMNR) chairman Tom Lee said the token should top $5,000 by year-end, half the level he called a “conservative target” more than a week ago.Speaking at Token 2049 in Singapore on Friday, Lee, who is also co-founder and head of research at Fundstrat, tied the call to Bitcoin (BTC).",
+      "bestPassage": "BitMine Immersion Technologies chairman Tom Lee said Ethereum should top $5,000 by year-end, in Singapore on Friday.That was half the $10,000 year-end figure Lee called \"conservative\" when he also said Ethereum would trade \"much higher\" than that level within 12 months.His cycle target came down too, to \"25,000 or 50,000 per token\" from an illustrative $62,000 nine days earlier.Ethereum (ETH) held above $2,400 on Saturday after BitMine Immersion Technologies (BMNR) chairman Tom Lee said the token should top $5,000 by year-end, half the level he called a “conservative target” more than a week ago.Speaking at Token 2049 in Singapore on Friday, Lee, who is also co-founder and head of research at Fundstrat, tied the call to Bitcoin (BTC).",
       "matchedPassages": [
-        "S4-BODY",
-        "S4-P1"
+        "S2-P1",
+        "S2-BODY"
       ],
       "sharedTerms": [
-        "ella",
-        "langley",
-        "her",
-        "sold",
-        "out",
-        "tulsa",
-        "oklahoma",
-        "friday",
-        "night",
-        "seriou",
-        "security",
-        "threat",
-        "fans",
-        "venue",
-        "staff",
-        "and",
-        "team"
+        "lee",
+        "eth",
+        "should",
+        "top",
+        "000",
+        "year",
+        "end",
+        "his",
+        "btc"
       ],
       "entityShared": [
-        "ella",
-        "langley",
-        "tulsa",
-        "oklahoma",
-        "friday"
+        "lee",
+        "eth",
+        "btc"
       ],
       "topicShared": [
-        "ella",
-        "langley",
-        "tulsa",
-        "oklahoma",
-        "seriou",
-        "security",
-        "threat"
+        "lee",
+        "eth",
+        "year",
+        "end"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "direct-exact-evidence"
+    },
+    {
+      "index": 3,
+      "claim": "This updated $5,000 target represents half of the $10,000 year-end figure Lee had previously characterized as a conservative target more than a week prior, when he also suggested the token would trade much higher within 12 months.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 77,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Tom Lee’s Ethereum Year-End Call Is Now Half Of What He Called ‘Conservative’ Last Month",
+      "bestUrl": "https://stocktwits.com/news-articles/markets/cryptocurrency/tom-lees-ethereum-yearend-call-is-now-half-of-what-he-called-conservative-last-month/cZxTv6URBnD",
+      "bestDomain": "stocktwits.com",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F6",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 77
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F6",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 77,
+          "passageIndex": 1
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S2-FF6",
+      "evidence": "BitMine Immersion Technologies chairman Tom Lee said Ethereum should top $5,000 by year-end, in Singapore on Friday.That was half the $10,000 year-end figure Lee called \"conservative\" when he also said Ethereum would trade \"much higher\" than that level within 12 months.His cycle target came down too, to \"25,000 or 50,000 per token\" from an illustrative $62,000 nine days earlier.Ethereum (ETH) held above $2,400 on Saturday after BitMine Immersion Technologies (BMNR) chairman Tom Lee said the token should top $5,000 by year-end, half the level he called a “conservative target” more than a week ago.Speaking at Token 2049 in Singapore on Friday, Lee, who is also co-founder and head of research at Fundstrat, tied the call to Bitcoin (BTC).",
+      "bestPassage": "BitMine Immersion Technologies chairman Tom Lee said Ethereum should top $5,000 by year-end, in Singapore on Friday.That was half the $10,000 year-end figure Lee called \"conservative\" when he also said Ethereum would trade \"much higher\" than that level within 12 months.His cycle target came down too, to \"25,000 or 50,000 per token\" from an illustrative $62,000 nine days earlier.Ethereum (ETH) held above $2,400 on Saturday after BitMine Immersion Technologies (BMNR) chairman Tom Lee said the token should top $5,000 by year-end, half the level he called a “conservative target” more than a week ago.Speaking at Token 2049 in Singapore on Friday, Lee, who is also co-founder and head of research at Fundstrat, tied the call to Bitcoin (BTC).",
+      "matchedPassages": [
+        "S2-P1",
+        "S2-BODY"
+      ],
+      "sharedTerms": [
+        "000",
+        "target",
+        "half",
+        "the",
+        "year",
+        "end",
+        "figure",
+        "lee",
+        "conservative",
+        "week",
+        "token",
+        "trade",
+        "higher",
+        "within",
+        "month"
+      ],
+      "entityShared": [
+        "lee"
+      ],
+      "topicShared": [
+        "half",
+        "the",
+        "year",
+        "end",
+        "lee",
+        "conservative",
+        "month"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -168,138 +307,144 @@
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 2,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "direct-exact-evidence"
     },
     {
-      "index": 2,
-      "claim": "She announced the decision on social media hours before doors opened at the BOK Center.",
+      "index": 4,
+      "claim": "Additionally, his longer-term cycle target was adjusted to $25,000 or $50,000 per token, down from an illustrative $62,000 baseline cited nine days earlier.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 89,
+      "confidence": 73,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Ella Langley Abruptly Cancels Tulsa Show Due to ‘Serious Security Threat’ - Yahoo",
-      "bestUrl": "https://www.yahoo.com/entertainment/music/articles/ella-langley-abruptly-cancels-tulsa-222609230.html",
-      "bestDomain": "yahoo.com",
+      "bestSource": "Tom Lee’s Ethereum Year-End Call Is Now Half Of What He Called ‘Conservative’ Last Month",
+      "bestUrl": "https://stocktwits.com/news-articles/markets/cryptocurrency/tom-lees-ethereum-yearend-call-is-now-half-of-what-he-called-conservative-last-month/cZxTv6URBnD",
+      "bestDomain": "stocktwits.com",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F6",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 73
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F6",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 73,
+          "passageIndex": 1
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S2-FF6",
+      "evidence": "BitMine Immersion Technologies chairman Tom Lee said Ethereum should top $5,000 by year-end, in Singapore on Friday.That was half the $10,000 year-end figure Lee called \"conservative\" when he also said Ethereum would trade \"much higher\" than that level within 12 months.His cycle target came down too, to \"25,000 or 50,000 per token\" from an illustrative $62,000 nine days earlier.Ethereum (ETH) held above $2,400 on Saturday after BitMine Immersion Technologies (BMNR) chairman Tom Lee said the token should top $5,000 by year-end, half the level he called a “conservative target” more than a week ago.Speaking at Token 2049 in Singapore on Friday, Lee, who is also co-founder and head of research at Fundstrat, tied the call to Bitcoin (BTC).",
+      "bestPassage": "BitMine Immersion Technologies chairman Tom Lee said Ethereum should top $5,000 by year-end, in Singapore on Friday.That was half the $10,000 year-end figure Lee called \"conservative\" when he also said Ethereum would trade \"much higher\" than that level within 12 months.His cycle target came down too, to \"25,000 or 50,000 per token\" from an illustrative $62,000 nine days earlier.Ethereum (ETH) held above $2,400 on Saturday after BitMine Immersion Technologies (BMNR) chairman Tom Lee said the token should top $5,000 by year-end, half the level he called a “conservative target” more than a week ago.Speaking at Token 2049 in Singapore on Friday, Lee, who is also co-founder and head of research at Fundstrat, tied the call to Bitcoin (BTC).",
+      "matchedPassages": [
+        "S2-P1",
+        "S2-BODY"
+      ],
+      "sharedTerms": [
+        "his",
+        "cycle",
+        "target",
+        "was",
+        "000",
+        "per",
+        "token",
+        "down",
+        "illustrative",
+        "nine",
+        "days",
+        "earlier"
+      ],
+      "entityShared": [],
+      "topicShared": [],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "direct-exact-evidence"
+    },
+    {
+      "index": 6,
+      "claim": "He asserted that investors are not bullish enough and projected that market participants should expect some monster moves in crypto prices.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 71,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Tom Lee’s Ethereum Year-End Call Is Now Half Of What He Called ‘Conservative’ Last Month, But He Expects ‘Monster Moves’ In The Crypto Industry - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/tom-lee-ethereum-end-call-121659621.html",
+      "bestDomain": "finance.yahoo.com",
       "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
         "factId": "F2",
         "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 89
+        "score": 71
       },
       "provenanceFactMatches": [
         {
           "factId": "F2",
           "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 89,
-          "passageIndex": 2
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-P2",
-      "evidence": "The country star announced the news on social media hours before doors were set to open at the BOK Center.",
-      "bestPassage": "The country star announced the news on social media hours before doors were set to open at the BOK Center.",
-      "matchedPassages": [
-        "S1-P2",
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "announce",
-        "the",
-        "social",
-        "media",
-        "hour",
-        "door",
-        "open",
-        "bok",
-        "center"
-      ],
-      "entityShared": [
-        "bok",
-        "center"
-      ],
-      "topicShared": [],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": true,
-        "claimAttributed": true,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 3,
-      "claim": "The venue echoed her post, stating that the safety and well‑being of everyone involved was the absolute priority and that the show could not proceed.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 81,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Ella Langley Abruptly Cancels Tulsa Show Due to ‘Serious Security Threat’ - Yahoo",
-      "bestUrl": "https://www.yahoo.com/entertainment/music/articles/ella-langley-abruptly-cancels-tulsa-222609230.html",
-      "bestDomain": "yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F4",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 78
-      },
-      "provenanceFactMatches": [
+          "score": 71,
+          "passageIndex": 12
+        },
         {
-          "factId": "F4",
-          "sourceId": "S1",
+          "factId": "F8",
+          "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 78,
-          "passageIndex": 7
+          "score": 71,
+          "passageIndex": 11
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-BODY",
-      "evidence": "A statement shared by the venue echoed Langley's post, which added, \"The safety and well-being of everyone involved is our absolute priority, and after careful consideration, we have determined that the show cannot proceed.\" The venue said that information on ticket refunds will be shared soon.",
-      "bestPassage": "A statement shared by the venue echoed Langley's post, which added, \"The safety and well-being of everyone involved is our absolute priority, and after careful consideration, we have determined that the show cannot proceed.\" The venue said that information on ticket refunds will be shared soon.",
+      "bestPassageId": "S1-FF2,S2-FF8",
+      "evidence": "Investors \"aren't bullish enough,\" he said, and should expect \"some monster moves in crypto prices.\" Investors “aren’t bullish enough,” he said, and should expect “some monster moves in crypto prices.”Why BitMine Bets On EthereumLee pointed to Ethereum’s developer base and its record without downtime.",
+      "bestPassage": "Investors \"aren't bullish enough,\" he said, and should expect \"some monster moves in crypto prices.\" Investors “aren’t bullish enough,” he said, and should expect “some monster moves in crypto prices.”Why BitMine Bets On EthereumLee pointed to Ethereum’s developer base and its record without downtime.",
       "matchedPassages": [
         "S1-BODY",
-        "S1-P4"
+        "S1-P2"
       ],
       "sharedTerms": [
-        "the",
-        "venue",
-        "echo",
-        "her",
-        "post",
-        "safety",
+        "invest",
+        "bullish",
+        "enough",
         "and",
-        "well",
-        "everyone",
-        "involv",
-        "absolute",
-        "priority",
-        "show",
-        "proce"
+        "should",
+        "expect",
+        "monster",
+        "mov",
+        "crypto",
+        "pric"
       ],
       "entityShared": [],
       "topicShared": [
-        "show"
+        "expect",
+        "monster",
+        "mov",
+        "crypto"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -314,87 +459,6 @@
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 4,
-      "claim": "Both Langley and the BOK Center said ticket‑refund information would be shared soon.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 92,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Ella Langley Abruptly Cancels Tulsa Show Due to ‘Serious Security Threat’ - Yahoo",
-      "bestUrl": "https://www.yahoo.com/entertainment/music/articles/ella-langley-abruptly-cancels-tulsa-222609230.html",
-      "bestDomain": "yahoo.com",
-      "sourceId": "S1",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F4",
-        "sourceId": "S1",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 69
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F4",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 69,
-          "passageIndex": 7
-        },
-        {
-          "factId": "F12",
-          "sourceId": "S3",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 58,
-          "passageIndex": 7
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S1-FF4,S3-FF12",
-      "evidence": "A statement shared by the venue echoed Langley's post, which added, \"The safety and well-being of everyone involved is our absolute priority, and after careful consideration, we have determined that the show cannot proceed.\" The venue said that information on ticket refunds will be shared soon. &#8220;Due to a serious security threat involving the safety of fans, venue personnel, and the artist, Ella Langley&#8217;s scheduled performance tonight at BOK Center in Tulsa has been canceled.&#8221;",
-      "bestPassage": "A statement shared by the venue echoed Langley's post, which added, \"The safety and well-being of everyone involved is our absolute priority, and after careful consideration, we have determined that the show cannot proceed.\" The venue said that information on ticket refunds will be shared soon. &#8220;Due to a serious security threat involving the safety of fans, venue personnel, and the artist, Ella Langley&#8217;s scheduled performance tonight at BOK Center in Tulsa has been canceled.&#8221;",
-      "matchedPassages": [
-        "S1-BODY"
-      ],
-      "sharedTerms": [
-        "langley",
-        "and",
-        "the",
-        "bok",
-        "center",
-        "ticket",
-        "refund",
-        "information",
-        "shar",
-        "soon"
-      ],
-      "entityShared": [
-        "langley",
-        "bok",
-        "center"
-      ],
-      "topicShared": [
-        "langley"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": true,
-        "claimAttributed": true,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
       "factCoverage": 2,
       "multiFactSupported": true,
       "directFactExact": false,
@@ -402,61 +466,62 @@
       "matchingMode": "fact-map-multi-fact-anchored"
     },
     {
-      "index": 5,
-      "claim": "The threat was reported by Tulsa police, who said a call was made that threatened the lives of people attending the event.",
+      "index": 7,
+      "claim": "Following his statements, Ethereum held above $2,400 on Saturday.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 90,
+      "confidence": 80,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Ella Langley Cancels Show Amid \"Serious Security Threat\" - Wide Open Country",
-      "bestUrl": "https://www.wideopencountry.com/ella-langley-cancels-show-amid-serious-security-threat/",
-      "bestDomain": "wideopencountry.com",
-      "sourceId": "S2",
+      "bestSource": "Tom Lee’s Ethereum Year-End Call Is Now Half Of What He Called ‘Conservative’ Last Month, But He Expects ‘Monster Moves’ In The Crypto Industry - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/tom-lee-ethereum-end-call-121659621.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F9",
-        "sourceId": "S2",
+        "factId": "F1",
+        "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 86
+        "score": 71
       },
       "provenanceFactMatches": [
         {
-          "factId": "F9",
+          "factId": "F6",
           "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 86,
-          "passageIndex": 3
+          "score": 77,
+          "passageIndex": 1
+        },
+        {
+          "factId": "F1",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 71,
+          "passageIndex": 5
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "Per NBC News , Tulsa police said on Friday night that \"a call was made threatening the lives of people attending the event.\" They took the threat seriously, having deployed their K-9s, bomb team, and patrols in tandem with venue security.",
-      "bestPassage": "Per NBC News , Tulsa police said on Friday night that \"a call was made threatening the lives of people attending the event.\" They took the threat seriously, having deployed their K-9s, bomb team, and patrols in tandem with venue security.",
+      "bestPassageId": "S2-FF6,S1-FF1",
+      "evidence": "BitMine Immersion Technologies chairman Tom Lee said Ethereum should top $5,000 by year-end, in Singapore on Friday.That was half the $10,000 year-end figure Lee called \"conservative\" when he also said Ethereum would trade \"much higher\" than that level within 12 months.His cycle target came down too, to \"25,000 or 50,000 per token\" from an illustrative $62,000 nine days earlier.Ethereum (ETH) held above $2,400 on Saturday after BitMine Immersion Technologies (BMNR) chairman Tom Lee said the token should top $5,000 by year-end, half the level he called a “conservative target” more than a week ago.Speaking at Token 2049 in Singapore on Friday, Lee, who is also co-founder and head of research at Fundstrat, tied the call to Bitcoin (BTC). Ethereum (ETH) held above $2,400 on Saturday after BitMine Immersion Technologies (BMNR) chairman Tom Lee said the token should top $5,000 by year-end, half the level he called a \"conservative target\" more than a week ago.",
+      "bestPassage": "BitMine Immersion Technologies chairman Tom Lee said Ethereum should top $5,000 by year-end, in Singapore on Friday.That was half the $10,000 year-end figure Lee called \"conservative\" when he also said Ethereum would trade \"much higher\" than that level within 12 months.His cycle target came down too, to \"25,000 or 50,000 per token\" from an illustrative $62,000 nine days earlier.Ethereum (ETH) held above $2,400 on Saturday after BitMine Immersion Technologies (BMNR) chairman Tom Lee said the token should top $5,000 by year-end, half the level he called a “conservative target” more than a week ago.Speaking at Token 2049 in Singapore on Friday, Lee, who is also co-founder and head of research at Fundstrat, tied the call to Bitcoin (BTC). Ethereum (ETH) held above $2,400 on Saturday after BitMine Immersion Technologies (BMNR) chairman Tom Lee said the token should top $5,000 by year-end, half the level he called a \"conservative target\" more than a week ago.",
       "matchedPassages": [
-        "S2-BODY",
-        "S2-P4"
+        "S1-BODY",
+        "S1-P1"
       ],
       "sharedTerms": [
-        "the",
-        "threat",
-        "was",
-        "tulsa",
-        "police",
-        "who",
-        "call",
-        "threaten",
-        "liv",
-        "people",
-        "attend",
-        "event"
+        "his",
+        "eth",
+        "held",
+        "above",
+        "400",
+        "saturday"
       ],
       "entityShared": [
-        "tulsa"
+        "eth",
+        "saturday"
       ],
       "topicShared": [
-        "threat",
-        "tulsa"
+        "eth"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -466,326 +531,215 @@
         "evidenceUncertain": false,
         "claimUncertain": false,
         "evidenceAttributed": true,
-        "claimAttributed": true,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 6,
-      "claim": "The police also apologized to fans who had arrived for the concert.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 62,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Ella Langley Cancels Show Amid \"Serious Security Threat\" - Wide Open Country",
-      "bestUrl": "https://www.wideopencountry.com/ella-langley-cancels-show-amid-serious-security-threat/",
-      "bestDomain": "wideopencountry.com",
-      "sourceId": "S2",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F10",
-        "sourceId": "S2",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 43
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F10",
-          "sourceId": "S2",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 43,
-          "passageIndex": 3
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S2-BODY",
-      "evidence": "Tulsa police also apologized to any Ella Langley fans who \"came down tonight\".",
-      "bestPassage": "Tulsa police also apologized to any Ella Langley fans who \"came down tonight\".",
-      "matchedPassages": [
-        "S2-BODY",
-        "S2-P5"
-      ],
-      "sharedTerms": [
-        "the",
-        "police",
-        "apologiz",
-        "fans",
-        "who"
-      ],
-      "entityShared": [],
-      "topicShared": [],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": false,
         "claimAttributed": false,
         "certaintyEscalation": false,
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 1,
-      "multiFactSupported": false,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-anchored-source-passage"
-    },
-    {
-      "index": 7,
-      "claim": "While the police noted that no credible threat had been found, the artist and venue still chose to cancel the show.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 78,
-      "temporalWarning": null,
-      "eventDate": null,
-      "bestSource": "Country star Ella Langley cancels Tulsa, Oklahoma, show due to ‘serious security threat’",
-      "bestUrl": "https://www.nbcnews.com/pop-culture/pop-culture-news/country-star-ella-langley-cancels-tulsa-oklahoma-show-due-serious-secu-rcna602609",
-      "bestDomain": "nbcnews.com",
-      "sourceId": "S4",
-      "sourceRole": "DIRECT_REPORTING",
-      "coreFactMatch": {
-        "factId": "F22",
-        "sourceId": "S4",
-        "sourceRole": "DIRECT_REPORTING",
-        "score": 54
-      },
-      "provenanceFactMatches": [
-        {
-          "factId": "F22",
-          "sourceId": "S4",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 54,
-          "passageIndex": 3
-        },
-        {
-          "factId": "F12",
-          "sourceId": "S3",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 44,
-          "passageIndex": 7
-        },
-        {
-          "factId": "F20",
-          "sourceId": "S4",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 44,
-          "passageIndex": 1
-        }
-      ],
-      "contextOnlySource": false,
-      "bestPassageId": "S4-FF22,S3-FF12,S4-FF20",
-      "evidence": "Police said that it advised Langley’s staff that no credible threat was found, “but they decided to cancel the performance anyway.” “We apologize to everyone who came down tonight. &#8220;Due to a serious security threat involving the safety of fans, venue personnel, and the artist, Ella Langley&#8217;s scheduled performance tonight at BOK Center in Tulsa has been canceled.&#8221; Country singer Ella Langley canceled her sold-out show slated for Friday evening in Tulsa, Oklahoma, due to what she described as “a serious security threat.” The 27-year-old star announced the last-minute cancellation on Instagram, saying the threat involved “the safety of my fans, the venue staff, and my team.” “The incredibly difficult decision was made to cancel tonight’s show,” she said.",
-      "bestPassage": "Police said that it advised Langley’s staff that no credible threat was found, “but they decided to cancel the performance anyway.” “We apologize to everyone who came down tonight. &#8220;Due to a serious security threat involving the safety of fans, venue personnel, and the artist, Ella Langley&#8217;s scheduled performance tonight at BOK Center in Tulsa has been canceled.&#8221; Country singer Ella Langley canceled her sold-out show slated for Friday evening in Tulsa, Oklahoma, due to what she described as “a serious security threat.” The 27-year-old star announced the last-minute cancellation on Instagram, saying the threat involved “the safety of my fans, the venue staff, and my team.” “The incredibly difficult decision was made to cancel tonight’s show,” she said.",
-      "matchedPassages": [
-        "S4-BODY",
-        "S4-P3"
-      ],
-      "sharedTerms": [
-        "the",
-        "police",
-        "credible",
-        "threat",
-        "found",
-        "artist",
-        "and",
-        "venue",
-        "cancel",
-        "show"
-      ],
-      "entityShared": [],
-      "topicShared": [
-        "threat",
-        "cancel",
-        "show"
-      ],
-      "numericMismatch": false,
-      "contradicted": false,
-      "offTopic": false,
-      "scopeWarnings": [],
-      "attributionUncertainty": {
-        "evidenceUncertain": false,
-        "claimUncertain": false,
-        "evidenceAttributed": true,
-        "claimAttributed": true,
-        "certaintyEscalation": false,
-        "attributionDropped": false,
-        "blocked": false
-      },
-      "factCoverage": 3,
+      "factCoverage": 2,
       "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
+      "directFactExact": true,
+      "directExact": true,
       "matchingMode": "fact-map-multi-fact-anchored"
     },
     {
       "index": 8,
-      "claim": "Fans and ticket holders can still find remaining tickets for the rest of Langley’s “Dandelion” tour, and the artist has expressed regret for the disruption, acknowledging the time, travel, money, and planning that go into attending a concert.",
+      "claim": "To substantiate his perspective on potential upside, Lee noted past market cycles where Ethereum experienced gains ranging from 50 times to 200 times.",
       "status": "verified",
       "classification": "supported",
-      "confidence": 77,
+      "confidence": 72,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Ella Langley Abruptly Cancels Tulsa Show Due to ‘Serious Security Threat’ - Yahoo",
-      "bestUrl": "https://www.yahoo.com/entertainment/music/articles/ella-langley-abruptly-cancels-tulsa-222609230.html",
-      "bestDomain": "yahoo.com",
+      "bestSource": "Tom Lee’s Ethereum Year-End Call Is Now Half Of What He Called ‘Conservative’ Last Month, But He Expects ‘Monster Moves’ In The Crypto Industry - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/tom-lee-ethereum-end-call-121659621.html",
+      "bestDomain": "finance.yahoo.com",
       "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
         "factId": "F3",
         "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 51
+        "score": 58
       },
       "provenanceFactMatches": [
         {
           "factId": "F3",
           "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 51,
-          "passageIndex": 4
-        },
-        {
-          "factId": "F5",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 46,
-          "passageIndex": 6
-        },
-        {
-          "factId": "F12",
-          "sourceId": "S3",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 39,
-          "passageIndex": 7
+          "score": 58,
+          "passageIndex": 8
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S1-FF3,S1-FF5,S3-FF12",
-      "evidence": "Here's Where You Can Still Find Tickets to Ella Langley's 'Dandelion' Tour \"I know how much time, travel, money, and planning goes into coming to a show, and I can't tell you how sorry I am,\" Langley continued. &#8220;Due to a serious security threat involving the safety of fans, venue personnel, and the artist, Ella Langley&#8217;s scheduled performance tonight at BOK Center in Tulsa has been canceled.&#8221;",
-      "bestPassage": "Here's Where You Can Still Find Tickets to Ella Langley's 'Dandelion' Tour \"I know how much time, travel, money, and planning goes into coming to a show, and I can't tell you how sorry I am,\" Langley continued. &#8220;Due to a serious security threat involving the safety of fans, venue personnel, and the artist, Ella Langley&#8217;s scheduled performance tonight at BOK Center in Tulsa has been canceled.&#8221;",
+      "bestPassageId": "S1-BODY",
+      "evidence": "To support his point, Lee said, \"Think Arthur's conservative in the sense that you know in the past cycles Ethereum has gone up 50 times to 200 times.\"",
+      "bestPassage": "To support his point, Lee said, \"Think Arthur's conservative in the sense that you know in the past cycles Ethereum has gone up 50 times to 200 times.\"",
       "matchedPassages": [
-        "S1-BODY"
+        "S1-BODY",
+        "S1-P3"
       ],
       "sharedTerms": [
-        "fans",
-        "and",
-        "ticket",
-        "can",
-        "find",
-        "the",
-        "langley",
-        "dandelion",
-        "tour",
-        "artist",
-        "has",
-        "time",
-        "travel",
-        "money",
-        "plann"
+        "his",
+        "lee",
+        "not",
+        "past",
+        "cycl",
+        "eth",
+        "tim",
+        "200"
       ],
       "entityShared": [
-        "langley",
-        "dandelion"
+        "lee",
+        "eth"
       ],
       "topicShared": [
-        "langley"
+        "lee",
+        "eth"
       ],
       "numericMismatch": false,
       "contradicted": false,
       "offTopic": false,
       "scopeWarnings": [],
       "attributionUncertainty": {
-        "evidenceUncertain": true,
-        "claimUncertain": true,
-        "evidenceAttributed": false,
-        "claimAttributed": false,
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": true,
         "certaintyEscalation": false,
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 3,
-      "multiFactSupported": true,
-      "directFactExact": false,
-      "directExact": false,
-      "matchingMode": "fact-map-multi-fact-anchored"
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "direct-exact-evidence"
     },
     {
       "index": 9,
-      "claim": "If you were planning to attend the Tulsa show, check the venue’s or artist’s website for refund updates and consider purchasing tickets for future tour dates.",
-      "status": "verified",
-      "classification": "supported",
-      "confidence": 56,
+      "claim": "He argued that the current market cycle will outrun past cycles due to the specific composition of buyers entering the space.",
+      "status": "partial",
+      "classification": "supported_with_context",
+      "confidence": 52,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Ella Langley Abruptly Cancels Tulsa Show Due to ‘Serious Security Threat’ - Yahoo",
-      "bestUrl": "https://www.yahoo.com/entertainment/music/articles/ella-langley-abruptly-cancels-tulsa-222609230.html",
-      "bestDomain": "yahoo.com",
-      "sourceId": "S1",
+      "bestSource": "Tom Lee’s Ethereum Year-End Call Is Now Half Of What He Called ‘Conservative’ Last Month",
+      "bestUrl": "https://stocktwits.com/news-articles/markets/cryptocurrency/tom-lees-ethereum-yearend-call-is-now-half-of-what-he-called-conservative-last-month/cZxTv6URBnD",
+      "bestDomain": "stocktwits.com",
+      "sourceId": "S2",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F20",
-        "sourceId": "S4",
+        "factId": "F7",
+        "sourceId": "S2",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 39
+        "score": 44
       },
       "provenanceFactMatches": [
         {
-          "factId": "F20",
-          "sourceId": "S4",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 39,
-          "passageIndex": 1
-        },
-        {
-          "factId": "F4",
-          "sourceId": "S1",
-          "sourceRole": "DIRECT_REPORTING",
-          "score": 37,
-          "passageIndex": 7
-        },
-        {
-          "factId": "F9",
+          "factId": "F7",
           "sourceId": "S2",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 33,
-          "passageIndex": 3
+          "score": 44,
+          "passageIndex": 9
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S4-FF20,S1-FF4,S2-FF9",
-      "evidence": "Country singer Ella Langley canceled her sold-out show slated for Friday evening in Tulsa, Oklahoma, due to what she described as “a serious security threat.” The 27-year-old star announced the last-minute cancellation on Instagram, saying the threat involved “the safety of my fans, the venue staff, and my team.” “The incredibly difficult decision was made to cancel tonight’s show,” she said. A statement shared by the venue echoed Langley's post, which added, \"The safety and well-being of everyone involved is our absolute priority, and after careful consideration, we have determined that the show cannot proceed.\" The venue said that information on ticket refunds will be shared soon. Per NBC News , Tulsa police said on Friday night that \"a call was made threatening the lives of people attending the event.\" They took the threat seriously, having deployed their K-9s, bomb team, and patrols in tandem with venue security.",
-      "bestPassage": "Country singer Ella Langley canceled her sold-out show slated for Friday evening in Tulsa, Oklahoma, due to what she described as “a serious security threat.” The 27-year-old star announced the last-minute cancellation on Instagram, saying the threat involved “the safety of my fans, the venue staff, and my team.” “The incredibly difficult decision was made to cancel tonight’s show,” she said. A statement shared by the venue echoed Langley's post, which added, \"The safety and well-being of everyone involved is our absolute priority, and after careful consideration, we have determined that the show cannot proceed.\" The venue said that information on ticket refunds will be shared soon. Per NBC News , Tulsa police said on Friday night that \"a call was made threatening the lives of people attending the event.\" They took the threat seriously, having deployed their K-9s, bomb team, and patrols in tandem with venue security.",
+      "bestPassageId": "S2-P2",
+      "evidence": "On Stocktwits, retail sentiment around Ethereum remained in the ‘bearish’ zone, with chatter at ‘normal’ levels over the last day.Why This Cycle Is DifferentLee argued this cycle will outrun past ones because of who was buying.",
+      "bestPassage": "On Stocktwits, retail sentiment around Ethereum remained in the ‘bearish’ zone, with chatter at ‘normal’ levels over the last day.Why This Cycle Is DifferentLee argued this cycle will outrun past ones because of who was buying.",
       "matchedPassages": [
-        "S1-BODY"
+        "S2-P2",
+        "S2-BODY"
       ],
       "sharedTerms": [
-        "attend",
+        "argu",
         "the",
-        "tulsa",
-        "show",
-        "venue",
-        "for",
-        "refund",
+        "cycle",
+        "outrun",
+        "past"
+      ],
+      "entityShared": [],
+      "topicShared": [
+        "the"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": true,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 10,
+      "claim": "Furthermore, Lee highlighted fundamental strengths behind BitMine's focus on the asset, pointing directly to Ethereum's developer base and its operational record without downtime.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 80,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Tom Lee’s Ethereum Year-End Call Is Now Half Of What He Called ‘Conservative’ Last Month",
+      "bestUrl": "https://stocktwits.com/news-articles/markets/cryptocurrency/tom-lees-ethereum-yearend-call-is-now-half-of-what-he-called-conservative-last-month/cZxTv6URBnD",
+      "bestDomain": "stocktwits.com",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F8",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 71
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F8",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 71,
+          "passageIndex": 11
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S2-BODY",
+      "evidence": "Investors “aren’t bullish enough,” he said, and should expect “some monster moves in crypto prices.”Why BitMine Bets On EthereumLee pointed to Ethereum’s developer base and its record without downtime.",
+      "bestPassage": "Investors “aren’t bullish enough,” he said, and should expect “some monster moves in crypto prices.”Why BitMine Bets On EthereumLee pointed to Ethereum’s developer base and its record without downtime.",
+      "matchedPassages": [
+        "S2-BODY",
+        "S2-P3"
+      ],
+      "sharedTerms": [
+        "lee",
+        "bitmine",
+        "the",
+        "point",
+        "eth",
+        "developer",
+        "base",
         "and",
-        "ticket"
+        "its",
+        "record",
+        "without",
+        "downtime"
       ],
       "entityShared": [
-        "tulsa"
+        "lee",
+        "bitmine",
+        "eth"
       ],
       "topicShared": [
-        "tulsa",
-        "show"
+        "lee",
+        "the",
+        "eth"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -800,60 +754,154 @@
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 3,
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": false,
+      "directExact": false,
+      "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 11,
+      "claim": "On Stocktwits, retail sentiment around Ethereum remained in the 'bearish' zone.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 98,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Tom Lee’s Ethereum Year-End Call Is Now Half Of What He Called ‘Conservative’ Last Month, But He Expects ‘Monster Moves’ In The Crypto Industry - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/tom-lee-ethereum-end-call-121659621.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F5",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 98
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F5",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 98,
+          "passageIndex": 11
+        },
+        {
+          "factId": "F7",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 98,
+          "passageIndex": 9
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S1-FF5,S2-FF7",
+      "evidence": "On Stocktwits, retail sentiment around Ethereum remained in the 'bearish' zone, with chatter at 'normal' levels over the last day. On Stocktwits, retail sentiment around Ethereum remained in the ‘bearish’ zone, with chatter at ‘normal’ levels over the last day.Why This Cycle Is DifferentLee argued this cycle will outrun past ones because of who was buying.",
+      "bestPassage": "On Stocktwits, retail sentiment around Ethereum remained in the 'bearish' zone, with chatter at 'normal' levels over the last day. On Stocktwits, retail sentiment around Ethereum remained in the ‘bearish’ zone, with chatter at ‘normal’ levels over the last day.Why This Cycle Is DifferentLee argued this cycle will outrun past ones because of who was buying.",
+      "matchedPassages": [
+        "S1-P5",
+        "S1-BODY"
+      ],
+      "sharedTerms": [
+        "stocktwit",
+        "retail",
+        "sentiment",
+        "eth",
+        "remain",
+        "the",
+        "bearish",
+        "zone"
+      ],
+      "entityShared": [
+        "stocktwit",
+        "eth"
+      ],
+      "topicShared": [
+        "eth",
+        "the"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
       "multiFactSupported": true,
       "directFactExact": false,
       "directExact": false,
       "matchingMode": "fact-map-multi-fact-anchored"
     },
     {
-      "index": 10,
-      "claim": "The incident underscores the importance of venue security protocols and the swift decisions artists and organizers must make when safety concerns arise.",
-      "status": "partial",
-      "classification": "uncertain",
-      "confidence": 45,
+      "index": 13,
+      "claim": "Yahoo Finance notes that it is not a broker-dealer or investment adviser, and it does not offer securities or cryptocurrencies for sale or facilitate trading activities.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 95,
       "temporalWarning": null,
       "eventDate": null,
-      "bestSource": "Ella Langley’s Tulsa concert canceled after ‘serious security threat’ discovered - The Big Lead",
-      "bestUrl": "https://www.thebiglead.com/ella-langley-concert-canceled-serious-security-threat-discovered/",
-      "bestDomain": "thebiglead.com",
-      "sourceId": "S3",
+      "bestSource": "Tom Lee’s Ethereum Year-End Call Is Now Half Of What He Called ‘Conservative’ Last Month, But He Expects ‘Monster Moves’ In The Crypto Industry - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/tom-lee-ethereum-end-call-121659621.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
       "sourceRole": "DIRECT_REPORTING",
       "coreFactMatch": {
-        "factId": "F12",
-        "sourceId": "S3",
+        "factId": "F4",
+        "sourceId": "S1",
         "sourceRole": "DIRECT_REPORTING",
-        "score": 39
+        "score": 95
       },
       "provenanceFactMatches": [
         {
-          "factId": "F12",
-          "sourceId": "S3",
+          "factId": "F4",
+          "sourceId": "S1",
           "sourceRole": "DIRECT_REPORTING",
-          "score": 39,
-          "passageIndex": 7
+          "score": 95,
+          "passageIndex": 1
         }
       ],
       "contextOnlySource": false,
-      "bestPassageId": "S3-BODY",
-      "evidence": "&#8220;Due to a serious security threat involving the safety of fans, venue personnel, and the artist, Ella Langley&#8217;s scheduled performance tonight at BOK Center in Tulsa has been canceled.&#8221;",
-      "bestPassage": "&#8220;Due to a serious security threat involving the safety of fans, venue personnel, and the artist, Ella Langley&#8217;s scheduled performance tonight at BOK Center in Tulsa has been canceled.&#8221;",
+      "bestPassageId": "S1-P4",
+      "evidence": "Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading.",
+      "bestPassage": "Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading.",
       "matchedPassages": [
-        "S3-BODY",
-        "S3-P1"
+        "S1-P4",
+        "S1-BODY"
       ],
       "sharedTerms": [
-        "the",
-        "venue",
-        "security",
+        "yahoo",
+        "finance",
+        "not",
+        "broker",
+        "dealer",
+        "invest",
+        "adviser",
         "and",
-        "decision",
-        "artist",
-        "safety"
+        "does",
+        "offer",
+        "securiti",
+        "crypto",
+        "for",
+        "sale",
+        "facilitate",
+        "trad"
       ],
-      "entityShared": [],
+      "entityShared": [
+        "yahoo",
+        "finance"
+      ],
       "topicShared": [
-        "security"
+        "yahoo",
+        "finance",
+        "crypto"
       ],
       "numericMismatch": false,
       "contradicted": false,
@@ -868,17 +916,191 @@
         "attributionDropped": false,
         "blocked": false
       },
-      "factCoverage": 2,
+      "factCoverage": 1,
       "multiFactSupported": false,
       "directFactExact": false,
       "directExact": false,
       "matchingMode": "fact-map-anchored-source-passage"
+    },
+    {
+      "index": 14,
+      "claim": "Tom Lee trimmed his year-end Ethereum prediction to $5,000, half of his previous conservative target, while still predicting substantial crypto price movements.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 79,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Tom Lee’s Ethereum Year-End Call Is Now Half Of What He Called ‘Conservative’ Last Month, But He Expects ‘Monster Moves’ In The Crypto Industry - Yahoo Finance",
+      "bestUrl": "https://finance.yahoo.com/markets/crypto/articles/tom-lee-ethereum-end-call-121659621.html",
+      "bestDomain": "finance.yahoo.com",
+      "sourceId": "S1",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F1",
+        "sourceId": "S1",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 71
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F6",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 79,
+          "passageIndex": 1
+        },
+        {
+          "factId": "F1",
+          "sourceId": "S1",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 71,
+          "passageIndex": 5
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S2-FF6,S1-FF1",
+      "evidence": "BitMine Immersion Technologies chairman Tom Lee said Ethereum should top $5,000 by year-end, in Singapore on Friday.That was half the $10,000 year-end figure Lee called \"conservative\" when he also said Ethereum would trade \"much higher\" than that level within 12 months.His cycle target came down too, to \"25,000 or 50,000 per token\" from an illustrative $62,000 nine days earlier.Ethereum (ETH) held above $2,400 on Saturday after BitMine Immersion Technologies (BMNR) chairman Tom Lee said the token should top $5,000 by year-end, half the level he called a “conservative target” more than a week ago.Speaking at Token 2049 in Singapore on Friday, Lee, who is also co-founder and head of research at Fundstrat, tied the call to Bitcoin (BTC). Ethereum (ETH) held above $2,400 on Saturday after BitMine Immersion Technologies (BMNR) chairman Tom Lee said the token should top $5,000 by year-end, half the level he called a \"conservative target\" more than a week ago.",
+      "bestPassage": "BitMine Immersion Technologies chairman Tom Lee said Ethereum should top $5,000 by year-end, in Singapore on Friday.That was half the $10,000 year-end figure Lee called \"conservative\" when he also said Ethereum would trade \"much higher\" than that level within 12 months.His cycle target came down too, to \"25,000 or 50,000 per token\" from an illustrative $62,000 nine days earlier.Ethereum (ETH) held above $2,400 on Saturday after BitMine Immersion Technologies (BMNR) chairman Tom Lee said the token should top $5,000 by year-end, half the level he called a “conservative target” more than a week ago.Speaking at Token 2049 in Singapore on Friday, Lee, who is also co-founder and head of research at Fundstrat, tied the call to Bitcoin (BTC). Ethereum (ETH) held above $2,400 on Saturday after BitMine Immersion Technologies (BMNR) chairman Tom Lee said the token should top $5,000 by year-end, half the level he called a \"conservative target\" more than a week ago.",
+      "matchedPassages": [
+        "S1-BODY",
+        "S1-P1"
+      ],
+      "sharedTerms": [
+        "tom",
+        "lee",
+        "his",
+        "year",
+        "end",
+        "eth",
+        "000",
+        "half",
+        "conservative",
+        "target"
+      ],
+      "entityShared": [
+        "tom",
+        "lee",
+        "eth"
+      ],
+      "topicShared": [
+        "tom",
+        "lee",
+        "year",
+        "end",
+        "eth",
+        "half",
+        "conservative",
+        "crypto"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 2,
+      "multiFactSupported": true,
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "fact-map-multi-fact-anchored"
+    },
+    {
+      "index": 15,
+      "claim": "His revised cycle target stands between $25,000 and $50,000, even as retail sentiment on Stocktwits remains in bearish territory while ETH held above $2,400.",
+      "status": "verified",
+      "classification": "supported",
+      "confidence": 93,
+      "temporalWarning": null,
+      "eventDate": null,
+      "bestSource": "Tom Lee’s Ethereum Year-End Call Is Now Half Of What He Called ‘Conservative’ Last Month",
+      "bestUrl": "https://stocktwits.com/news-articles/markets/cryptocurrency/tom-lees-ethereum-yearend-call-is-now-half-of-what-he-called-conservative-last-month/cZxTv6URBnD",
+      "bestDomain": "stocktwits.com",
+      "sourceId": "S2",
+      "sourceRole": "DIRECT_REPORTING",
+      "coreFactMatch": {
+        "factId": "F6",
+        "sourceId": "S2",
+        "sourceRole": "DIRECT_REPORTING",
+        "score": 74
+      },
+      "provenanceFactMatches": [
+        {
+          "factId": "F6",
+          "sourceId": "S2",
+          "sourceRole": "DIRECT_REPORTING",
+          "score": 74,
+          "passageIndex": 1
+        }
+      ],
+      "contextOnlySource": false,
+      "bestPassageId": "S2-BODY",
+      "evidence": "BitMine Immersion Technologies chairman Tom Lee said Ethereum should top $5,000 by year-end, in Singapore on Friday.That was half the $10,000 year-end figure Lee called \"conservative\" when he also said Ethereum would trade \"much higher\" than that level within 12 months.His cycle target came down too, to \"25,000 or 50,000 per token\" from an illustrative $62,000 nine days earlier.Ethereum (ETH) held above $2,400 on Saturday after BitMine Immersion Technologies (BMNR) chairman Tom Lee said the token should top $5,000 by year-end, half the level he called a “conservative target” more than a week ago.Speaking at Token 2049 in Singapore on Friday, Lee, who is also co-founder and head of research at Fundstrat, tied the call to Bitcoin (BTC).",
+      "bestPassage": "BitMine Immersion Technologies chairman Tom Lee said Ethereum should top $5,000 by year-end, in Singapore on Friday.That was half the $10,000 year-end figure Lee called \"conservative\" when he also said Ethereum would trade \"much higher\" than that level within 12 months.His cycle target came down too, to \"25,000 or 50,000 per token\" from an illustrative $62,000 nine days earlier.Ethereum (ETH) held above $2,400 on Saturday after BitMine Immersion Technologies (BMNR) chairman Tom Lee said the token should top $5,000 by year-end, half the level he called a “conservative target” more than a week ago.Speaking at Token 2049 in Singapore on Friday, Lee, who is also co-founder and head of research at Fundstrat, tied the call to Bitcoin (BTC).",
+      "matchedPassages": [
+        "S2-BODY",
+        "S2-P1"
+      ],
+      "sharedTerms": [
+        "his",
+        "cycle",
+        "target",
+        "000",
+        "and",
+        "retail",
+        "sentiment",
+        "stocktwit",
+        "remain",
+        "bearish",
+        "eth",
+        "held",
+        "above",
+        "400"
+      ],
+      "entityShared": [
+        "his",
+        "stocktwit",
+        "eth"
+      ],
+      "topicShared": [
+        "eth"
+      ],
+      "numericMismatch": false,
+      "contradicted": false,
+      "offTopic": false,
+      "scopeWarnings": [],
+      "attributionUncertainty": {
+        "evidenceUncertain": false,
+        "claimUncertain": false,
+        "evidenceAttributed": true,
+        "claimAttributed": false,
+        "certaintyEscalation": false,
+        "attributionDropped": false,
+        "blocked": false
+      },
+      "factCoverage": 1,
+      "multiFactSupported": false,
+      "directFactExact": true,
+      "directExact": true,
+      "matchingMode": "direct-exact-evidence"
     }
   ],
   "editorial": [
     {
-      "index": 11,
-      "claim": "While the broader tour is expected to proceed without further disruptions, the situation highlights how even well‑planned events can be halted by unforeseen security risks.",
+      "index": 5,
+      "claim": "Despite the reduction in his numerical projections, Lee maintained an optimistic stance on overall digital asset valuations.",
+      "type": "editorial-analysis",
+      "status": "editorial-excluded"
+    },
+    {
+      "index": 12,
+      "claim": "Retail sentiment surrounding Ethereum remained positioned in the bearish zone, while overall discussion chatter held at normal levels over the last day.",
       "type": "editorial-analysis",
       "status": "editorial-excluded"
     }

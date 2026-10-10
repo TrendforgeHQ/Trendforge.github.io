@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "title": "Country star Ella Langley cancels Tulsa, Oklahoma, show due to ‘serious security threat’ - NBC News",
+  "title": "Tom Lee’s Ethereum Year-End Call Is Now Half Of What He Called ‘Conservative’ Last Month, But He Expects ‘Monster Moves’ In The Crypto Industry - Yahoo Finance",
   "mode": "narrow",
   "wordBudget": {
     "min": 231,
@@ -11,7 +11,7 @@
     "preferredMin": 1,
     "preferredMax": 2
   },
-  "atomicClaimBudget": 18,
+  "atomicClaimBudget": 8,
   "allowedFactIds": [
     "F1",
     "F2",
@@ -20,25 +20,11 @@
     "F5",
     "F6",
     "F7",
-    "F8",
-    "F9",
-    "F10",
-    "F11",
-    "F12",
-    "F13",
-    "F14",
-    "F15",
-    "F16",
-    "F17",
-    "F18",
-    "F19",
-    "F20",
-    "F21",
-    "F22"
+    "F8"
   ],
   "synthesis": {
     "allowed": true,
-    "maxWords": 100,
+    "maxWords": 95,
     "maxStatements": 3,
     "allowedFactIds": [
       "F1",
@@ -48,21 +34,7 @@
       "F5",
       "F6",
       "F7",
-      "F8",
-      "F9",
-      "F10",
-      "F11",
-      "F12",
-      "F13",
-      "F14",
-      "F15",
-      "F16",
-      "F17",
-      "F18",
-      "F19",
-      "F20",
-      "F21",
-      "F22"
+      "F8"
     ]
   },
   "rules": {
@@ -71,7 +43,7 @@
     "newEntitiesInSynthesis": false,
     "newCausalityInSynthesis": false
   },
-  "generatedAt": "2026-10-10T11:37:36.790Z",
-  "articleTitle": "Ella Langley Cancels Tulsa Show Over Serious Security Threat",
-  "articleSlug": "ella-langley-cancels-tulsa-show-over-serious-security-threat"
+  "generatedAt": "2026-10-10T16:38:29.604Z",
+  "articleTitle": "Tom Lee Lowers Ethereum Target to $5,000 While Anticipating Major Market Shifts",
+  "articleSlug": "tom-lee-lowers-ethereum-target-to-5-000-while-anticipating-major-market-shifts"
 }

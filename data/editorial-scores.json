@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-10T11:38:07.485Z",
+  "generatedAt": "2026-10-10T16:38:36.377Z",
   "status": "pass",
-  "currentGeneratedArticle": "ella-langley-cancels-tulsa-show-over-serious-security-threat",
-  "currentScore": 87,
+  "currentGeneratedArticle": null,
+  "currentScore": null,
   "identity": {
     "method": "brief.title",
     "rejectedMarker": false
@@ -326,16 +326,19 @@
       "slug": "ella-langley-cancels-tulsa-show-over-serious-security-threat",
       "title": "Ella Langley Cancels Tulsa Show Over Serious Security Threat",
       "category": "Digital Life",
-      "score": 87,
-      "decision": "publish_ready",
+      "score": 78,
+      "decision": "review",
       "dimensions": {
-        "evidence": 80,
+        "evidence": 75,
         "usefulness": 95,
         "clarity": 87,
         "originality": 88,
-        "sourceStrength": 88
+        "sourceStrength": 50
       },
-      "reasons": []
+      "reasons": [
+        "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
+      ]
     },
     {
       "slug": "exclusive-paying-for-frontier-ai-models-buys-4-month-head-start-at-5x-the-cost",
@@ -771,6 +774,24 @@
       "reasons": [
         "evidence confidence needs improvement",
         "topic/title similarity is high",
+        "source strength/diversity needs improvement"
+      ]
+    },
+    {
+      "slug": "tom-lee-lowers-ethereum-target-to-5-000-while-anticipating-major-market-shifts",
+      "title": "Tom Lee Lowers Ethereum Target to $5,000 While Anticipating Major Market Shifts",
+      "category": "Crypto",
+      "score": 79,
+      "decision": "review",
+      "dimensions": {
+        "evidence": 75,
+        "usefulness": 95,
+        "clarity": 98,
+        "originality": 88,
+        "sourceStrength": 41
+      },
+      "reasons": [
+        "evidence confidence needs improvement",
         "source strength/diversity needs improvement"
       ]
     },

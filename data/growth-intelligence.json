@@ -1,32 +1,32 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-10T11:38:13.095Z",
+  "generatedAt": "2026-10-10T16:38:43.774Z",
   "policy": {
     "privacyFirst": true,
     "noPersonalTracking": true,
     "noPaidTrafficRequired": true
   },
   "summary": {
-    "totalArticles": 46,
+    "totalArticles": 47,
     "averageEditorialScore": 76,
-    "editorialReviewCount": 32,
+    "editorialReviewCount": 34,
     "refreshCandidates": 20
   },
   "categoryMix": [
     {
       "category": "AI",
       "count": 15,
-      "share": 32.6
+      "share": 31.9
     },
     {
       "category": "Technology",
       "count": 7,
-      "share": 15.2
+      "share": 14.9
     },
     {
       "category": "How-To",
       "count": 3,
-      "share": 6.5
+      "share": 6.4
     },
     {
       "category": "Innovation",
@@ -36,17 +36,17 @@
     {
       "category": "Product Launches",
       "count": 1,
-      "share": 2.2
+      "share": 2.1
     },
     {
       "category": "Digital Life",
       "count": 11,
-      "share": 23.9
+      "share": 23.4
     },
     {
       "category": "Crypto",
-      "count": 8,
-      "share": 17.4
+      "count": 9,
+      "share": 19.1
     }
   ],
   "missingCategories": [
@@ -55,10 +55,15 @@
   "overrepresentedCategories": [],
   "recommendations": [
     "Prioritize missing categories: Innovation.",
-    "32 article(s) are in editorial review; improve them before treating them as growth winners.",
+    "34 article(s) are in editorial review; improve them before treating them as growth winners.",
     "20 older/incomplete article(s) are refresh candidates."
   ],
   "recentArticles": [
+    {
+      "title": "Tom Lee Lowers Ethereum Target to $5,000 While Anticipating Major Market Shifts",
+      "category": "Crypto",
+      "publishedAt": "2026-10-10T16:38:29.603Z"
+    },
     {
       "title": "Ella Langley Cancels Tulsa Show Over Serious Security Threat",
       "category": "Digital Life",
@@ -103,11 +108,6 @@
       "title": "Tether Reintroduces USDT to Bitcoin: What It Means for the Network",
       "category": "Crypto",
       "publishedAt": "2026-10-04T20:43:32.346Z"
-    },
-    {
-      "title": "Trump Launches Super Intelligence Force to Coordinate U.S. AI Policy",
-      "category": "AI",
-      "publishedAt": "2026-10-04T16:11:38.821Z"
     }
   ]
 }

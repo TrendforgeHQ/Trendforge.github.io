@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-10T11:38:07.485Z",
+  "generatedAt": "2026-10-10T16:38:36.378Z",
   "queue": [
     {
       "slug": "anjuna-security-wins-data-privacy-solution-of-the-year-at-cybersecurity-breakthrough-award",
@@ -94,6 +94,24 @@
       ]
     },
     {
+      "slug": "tom-lee-lowers-ethereum-target-to-5-000-while-anticipating-major-market-shifts",
+      "title": "Tom Lee Lowers Ethereum Target to $5,000 While Anticipating Major Market Shifts",
+      "category": "Crypto",
+      "score": 79,
+      "decision": "review",
+      "dimensions": {
+        "evidence": 75,
+        "usefulness": 95,
+        "clarity": 98,
+        "originality": 88,
+        "sourceStrength": 41
+      },
+      "reasons": [
+        "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
+      ]
+    },
+    {
       "slug": "beyond-obscurity-navigating-the-dual-eras-of-drone-threats-and-ai-driven-vulnerabilities",
       "title": "Beyond Obscurity: Navigating the Dual Eras of Drone Threats and AI-Driven Vulnerabilities",
       "category": "Digital Life",
@@ -105,6 +123,24 @@
         "clarity": 100,
         "originality": 89,
         "sourceStrength": 28
+      },
+      "reasons": [
+        "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
+      ]
+    },
+    {
+      "slug": "ella-langley-cancels-tulsa-show-over-serious-security-threat",
+      "title": "Ella Langley Cancels Tulsa Show Over Serious Security Threat",
+      "category": "Digital Life",
+      "score": 78,
+      "decision": "review",
+      "dimensions": {
+        "evidence": 75,
+        "usefulness": 95,
+        "clarity": 87,
+        "originality": 88,
+        "sourceStrength": 50
       },
       "reasons": [
         "evidence confidence needs improvement",

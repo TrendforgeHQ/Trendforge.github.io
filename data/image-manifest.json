@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-10T11:38:12.338Z",
+  "generatedAt": "2026-10-10T16:38:42.557Z",
   "model": "@cf/black-forest-labs/flux-1-schnell",
   "width": 1024,
   "height": 576,
@@ -9,19 +9,19 @@
   "skipped": 0,
   "failed": 0,
   "images": {
-    "ella-langley-cancels-tulsa-show-over-serious-security-threat": {
+    "tom-lee-lowers-ethereum-target-to-5-000-while-anticipating-major-market-shifts": {
       "status": "generated",
-      "image": "/Trendforge/images/articles/ella-langley-cancels-tulsa-show-over-serious-security-threat.1024x576.png",
+      "image": "/Trendforge/images/articles/tom-lee-lowers-ethereum-target-to-5-000-while-anticipating-major-market-shifts.1024x576.png",
       "generatedBy": "@cf/black-forest-labs/flux-1-schnell",
       "width": 1024,
       "height": 576,
       "steps": 4,
-      "elapsedMs": 2201,
-      "bytes": 490903,
+      "elapsedMs": 1850,
+      "bytes": 619304,
       "visualBrief": {
         "version": 2,
         "mode": "editorial-photography",
-        "primarySubject": "the most concrete physical subject, event, organization, or action explicitly described by the story, centered on ella, langley, cancels, tulsa",
+        "primarySubject": "the most concrete physical subject, event, organization, or action explicitly described by the story, centered on lowers, ethereum, target, while",
         "scene": "A commissioned technology-publication photograph of that concrete subject or event, not a category-level representation.",
         "supportingElements": [
           "only contextual elements that directly explain the story"
@@ -29,16 +29,16 @@
         "composition": "One hero subject with one or two supporting elements, natural editorial lighting and strong negative space.",
         "company": null,
         "namedPerson": null,
-        "category": "Digital Life",
+        "category": "Crypto",
         "storyAnchors": [
-          "ella",
-          "langley",
-          "cancels",
-          "tulsa",
-          "show",
-          "over",
-          "serious",
-          "security"
+          "lowers",
+          "ethereum",
+          "target",
+          "while",
+          "anticipating",
+          "major",
+          "market",
+          "shifts"
         ],
         "avoid": [
           "generic office imagery",
@@ -51,20 +51,20 @@
       "relevance": {
         "passed": true,
         "anchors": [
-          "ella",
-          "langley",
-          "cancels",
-          "tulsa",
-          "show",
-          "over",
-          "serious",
-          "security"
+          "lowers",
+          "ethereum",
+          "target",
+          "while",
+          "anticipating",
+          "major",
+          "market",
+          "shifts"
         ],
         "matchedAnchors": [
-          "ella",
-          "langley",
-          "cancels",
-          "tulsa"
+          "lowers",
+          "ethereum",
+          "target",
+          "while"
         ],
         "entityMatches": [],
         "score": 0.5
