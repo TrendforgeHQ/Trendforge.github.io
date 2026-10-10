@@ -17,6 +17,10 @@ assert.match(script, /BEGIN \(\?:RSA\|EC\|OPENSSH\|DSA\) PRIVATE KEY/);
 assert.match(script, /AKIA\[0-9A-Z\]\{16\}/);
 assert.match(script, /ghp_/);
 assert.match(script, /github_pat_/);
+// Build-output scanning must target actual sensitive filenames, not ordinary article slugs.
+assert.match(script, /id_\(\?:rsa\|dsa\|ecdsa\|ed25519\)/);
+assert.match(script, /pem\|key\|p12\|pfx/);
+assert.doesNotMatch(script, /\.\*secret\.\*/i);
 assert.match(script, /out\/index\.html/);
 assert.match(script, /out\/robots\.txt/);
 assert.match(script, /out\/sitemap\.xml/);
