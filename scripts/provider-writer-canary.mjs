@@ -2,9 +2,9 @@ import assert from 'node:assert/strict';
 import { request, parseWriterJson, assessWriterTopicAlignment } from './trendforge-writer-engine.mjs';
 
 const provider=String(process.env.PROVIDER_WRITER_TARGET||'').trim();
-const allowed=new Set(['Cohere','OpenRouter']);
+const allowed=new Set(['Groq','Gemini','Cohere','OpenRouter']);
 if(!allowed.has(provider)) throw new Error('Set PROVIDER_WRITER_TARGET to exactly Cohere or OpenRouter.');
-const keyName={Cohere:'COHERE_API_KEY',OpenRouter:'OPENROUTER_API_KEY'}[provider];
+const keyName={Groq:'GROQ_API_KEY',Gemini:'GEMINI_API_KEY',Cohere:'COHERE_API_KEY',OpenRouter:'OPENROUTER_API_KEY'}[provider];
 if(!process.env[keyName]) throw new Error(`Missing required secret: ${keyName}`);
 
 const requestedTitle='How Passkeys Change the Sign-In Process';
@@ -27,7 +27,7 @@ const prompt=[
 ].join('\n');
 
 const schema={type:'object',properties:{title:{type:'string'},description:{type:'string'},content:{type:'string'}},required:['title','description','content'],additionalProperties:false};
-const formats={OpenRouter:{type:'json_object'},Cohere:{type:'json_object',schema}};
+const formats={OpenRouter:{type:'json_object'},Cohere:{type:'json_object',schema},Groq:{type:'json_schema',json_schema:{name:'trendforge_article',strict:true,schema:{type:'object',properties:{title:{type:'string'},description:{type:'string'},content:{type:'string'}},required:['title','description','content'],additionalProperties:false}}},Gemini:{type:'json_object'}};
 const started=Date.now();
 console.log(`Starting one bounded real writer-stage request for ${provider}; max completion tokens=2400; research refresh and publishing are disabled.`);
 const result=await request(provider,prompt,system,formats,{maxCompletionTokens:2400});
