@@ -1,9 +1,9 @@
 name: Isolated AI Provider Writer-Stage Canaries
 
 on:
-  push:
-    branches:
-      - integration/provider-fixes-on-current-main-2026-10-10
+  pull_request:
+    types: [labeled]
+    branches: [main]
     paths:
       - ".github/workflows/provider-writer-canary.yml"
       - "scripts/provider-writer-canary.mjs"
@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   writer-canary:
-    if: github.event.head_commit.message == 'Run isolated provider writer canaries'
+    if: github.event.label.name == 'run-provider-canaries' && github.event.pull_request.head.ref == 'integration/provider-fixes-on-current-main-2026-10-10'
     strategy:
       fail-fast: false
       matrix:
