@@ -6,6 +6,8 @@ on:
       - "app/tools/**"
       - "tests/test-tools-suite.ts"
       - "scripts/candidate-source-alignment.mjs"
+      - "scripts/ai-provider-router.mjs"
+      - "scripts/test-ai-provider-router.mjs"
       - "scripts/test-candidate-source-alignment.mjs"
       - "scripts/pre-writer-pipeline.mjs"
       - "package.json"
@@ -31,6 +33,8 @@ jobs:
         run: npm install --no-audit --no-fund
       - name: Run candidate/source alignment regression tests
         run: node scripts/test-candidate-source-alignment.mjs
+      - name: Run deterministic AI provider routing tests
+        run: npm run ai-router:test
       - name: Run mocked provider contract tests
         run: npm run provider-contracts:test
       - name: Run consolidated tools QA
