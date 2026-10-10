@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T16:38:29.604Z",
+  "generatedAt": "2026-10-10T20:55:44.091Z",
   "provider": "Gemini",
   "editorial": {
     "passed": true,
@@ -22,8 +22,8 @@
       "noHighSimilaritySource": true
     },
     "metrics": {
-      "normalizedLength": 2413,
-      "sentenceCount": 16,
+      "normalizedLength": 3012,
+      "sentenceCount": 21,
       "maxSourceSimilarity": 0,
       "maxCommonPhrase": 0
     }
@@ -31,13 +31,15 @@
   "semanticDuplicateCheck": "passed",
   "sourceRelationshipCheck": "passed",
   "verifiedEvidenceDomains": [
-    "finance.yahoo.com",
-    "stocktwits.com"
+    "yahoo.com",
+    "bbc.com",
+    "unilad.com",
+    "newscord.org"
   ],
   "primarySourceCount": 0,
   "grounding": {
-    "sourceCount": 2,
-    "usablePassages": 8,
+    "sourceCount": 4,
+    "usablePassages": 20,
     "primarySourceCount": 0
   }
 }

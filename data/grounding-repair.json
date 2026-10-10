@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-10T16:38:31.517Z",
-  "runId": "38068186693",
-  "articlePath": "content/articles/tom-lee-lowers-ethereum-target-to-5-000-while-anticipating-major-market-shifts.md",
+  "generatedAt": "2026-10-10T20:56:38.528Z",
+  "runId": "38085367295",
+  "articlePath": "content/articles/anthropic-ai-model-submits-false-murder-tip-to-philadelphia-police.md",
   "provider": "Groq",
-  "previousTitle": "Tom Lee Lowers Ethereum Target to $5,000 While Anticipating Major Market Shifts",
-  "newTitle": "Tom Lee Lowers Ethereum Target to $5,000 While Anticipating Major Market Shifts",
-  "briefTitle": "Tom Lee’s Ethereum Year-End Call Is Now Half Of What He Called ‘Conservative’ Last Month, But He Expects ‘Monster Moves’ In The Crypto Industry - Yahoo Finance",
-  "evidenceClaims": 14,
-  "failedClaims": 2,
-  "evidenceChars": 1744,
-  "mode": "atomic-sentence-repair-v12-primary-fingerprint-rewrite-narrow-delete-isolated-recovery",
+  "previousTitle": "Anthropic AI Model Submits False Murder Tip to Philadelphia Police",
+  "newTitle": "Anthropic AI Model Submits False Murder Tip to Philadelphia Police",
+  "briefTitle": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case - BBC",
+  "evidenceClaims": 15,
+  "failedClaims": 3,
+  "evidenceChars": 2142,
+  "mode": "atomic-sentence-repair-v12-surgical-fingerprint-rewrite-narrow-delete-isolated-recovery",
   "repairOrder": [
     "rewrite",
     "narrow",
@@ -19,14 +19,14 @@
   "maxRecoveryPasses": 1,
   "recoveryWaitMs": 15000,
   "providerAttempts": 4,
-  "appliedRepairs": 2,
-  "rewriteOrNarrowRepairs": 1,
-  "deletedSentences": 1,
+  "appliedRepairs": 3,
+  "rewriteOrNarrowRepairs": 3,
+  "deletedSentences": 0,
   "wordCountValidation": {
-    "before": 354,
-    "after": 341,
-    "minimum": 231,
-    "depthMode": "narrow",
-    "preservedFloor": true
+    "before": 412,
+    "after": 401,
+    "minimum": 425,
+    "depthMode": "bounded",
+    "preservedFloor": false
   }
 }
