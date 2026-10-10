@@ -10,6 +10,16 @@ permissions:
 on:
   push:
     branches: ["main", "fix/evidence-provenance-run401"]
+  pull_request:
+    paths:
+      - ".github/workflows/reliability-check.yml"
+      - "scripts/test-claim-verifier-run405-calibration.mjs"
+      - "scripts/verify-article-claims-smart.mjs"
+      - "scripts/test-claim-verifier*.mjs"
+      - "scripts/claim-provenance-anchor.mjs"
+      - "tests/test-passage-provenance.mjs"
+      - "scripts/pre-writer-pipeline.mjs"
+      - "scripts/authoritative-evidence-pack.mjs"
   workflow_dispatch:
 
 concurrency:
