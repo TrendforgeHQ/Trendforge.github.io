@@ -9,6 +9,12 @@ on:
       - "BOAT/**"
       - "scripts/boat-article-doctor.mjs"
       - "scripts/test-boat-article-doctor.mjs"
+  pull_request:
+    paths:
+      - ".github/workflows/boat-offline-tests.yml"
+      - "BOAT/**"
+      - "scripts/boat-article-doctor.mjs"
+      - "scripts/test-boat-article-doctor.mjs"
   workflow_dispatch:
 
 permissions:
