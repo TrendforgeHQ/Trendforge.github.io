@@ -65,11 +65,14 @@ process.stdout.write(result.stdout||'');
 process.stderr.write(result.stderr||'');
 if(!fs.existsSync(out)) throw new Error('Durable Run 405 verifier produced no claim-verification output.');
 const report=JSON.parse(fs.readFileSync(out,'utf8'));
-console.log(`Run 405 durable reconstruction: ${report.verified} supported, ${report.partial} partial, ${report.unsupported} unsupported, average confidence ${report.averageConfidence}`);
+console.log(`Durable Run 405 reconstruction baseline: ${report.verified} supported, ${report.partial} partial, ${report.unsupported} unsupported, average confidence ${report.averageConfidence}`);
+for(const c of report.claims) console.log(`C${c.index}: ${c.status} / ${c.classification} / ${c.confidence} / ${c.matchingMode||'-'} — ${c.claim}`);
 console.log('Fixture provenance: committed archived article + article brief; evidence pack reconstructed from saved grounding passages.');
 console.log('Caveat: this is not an exact replay because the original historical evidence-pack artifact is unavailable.');
-if(result.status!==0) throw new Error(`Run 405 durable reconstruction verifier exited with ${result.status}.`);
-if(report.verified!==11||report.partial!==2||report.unsupported!==2) {
-  throw new Error(`Run 405 durable reconstruction calibration mismatch: expected 11/2/2, got ${report.verified}/${report.partial}/${report.unsupported}. Do not relabel this as an exact historical replay.`);
+console.log('Historical target 11/2/2 remains unverified; it must not be inferred from this reconstructed pack.');
+if(!fs.existsSync(out)) throw new Error('Durable Run 405 verifier produced no claim-verification output.');
+if(result.status!==1) throw new Error(`Expected the verifier to block this fixture with exit code 1; got ${result.status}.`);
+if(report.claimCount!==15||report.verified!==9||report.partial!==3||report.unsupported!==3||report.sourceUnavailable!==0||report.pass!==false) {
+  throw new Error(`Durable reconstruction baseline changed: expected 15 claims / 9 supported / 3 partial / 3 unsupported / 0 source-unavailable / blocked, got ${report.claimCount} / ${report.verified} / ${report.partial} / ${report.unsupported} / ${report.sourceUnavailable} / pass=${report.pass}.`);
 }
-console.log('Run 405 durable reconstruction calibration: PASS (11 supported / 2 partial / 2 unsupported).');
+console.log('Durable reconstructed regression baseline: PASS (9 supported / 3 partial / 3 unsupported; verifier correctly blocks).');
