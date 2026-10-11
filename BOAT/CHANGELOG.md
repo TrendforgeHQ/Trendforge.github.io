@@ -22,3 +22,5 @@ All entries should describe actual work and results. Do not record planned work 
 - Expanded the baseline audit with artifact producer/consumer/provenance/gap notes.
 - No production source, articles, workflows, providers, or gates changed. No paid calls, image generation, build, or publish run triggered.
 - Evaluator tests and schema/path checks remain pending; no passing result is claimed.
+
+- Follow-up validation: report schema and fixture index both parse as JSON; all nine indexed article/report/metadata paths exist on main. No evaluator replay or build was run.
