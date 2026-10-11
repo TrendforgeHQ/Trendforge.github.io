@@ -77,3 +77,9 @@ Follow [NEXT_STEP.md](NEXT_STEP.md). Do not start runtime changes until Phase 0 
 - Report schema and offline test plan files added. Schema/path validation remains pending.
 - No production workflow/article/provider/gate changes; no paid provider or image generation calls.
 - CI status remains unknown until checks are reported.
+
+
+## Validation update
+- JSON parsing: pass for the report schema and fixture index.
+- Fixture index contains 3 records; all 9 referenced archive paths exist on main.
+- This checks syntax and path existence only. No evaluator replay, formal schema-validator run, build, or workflow run has been performed.
