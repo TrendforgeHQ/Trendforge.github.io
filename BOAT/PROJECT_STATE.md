@@ -69,3 +69,11 @@ Create a reliable, evidence-grounded, self-improving editorial operations bot fo
 
 ## Next task
 Follow [NEXT_STEP.md](NEXT_STEP.md). Do not start runtime changes until Phase 0 documentation is reviewed and the read-only interface map is completed.
+
+
+## Phase 0.2 update
+- Artifact interface map added to BASELINE_AUDIT.md.
+- Three saved failed claim reports indexed as regression seeds; no evaluator replay has been run.
+- Report schema and offline test plan files added. Schema/path validation remains pending.
+- No production workflow/article/provider/gate changes; no paid provider or image generation calls.
+- CI status remains unknown until checks are reported.
