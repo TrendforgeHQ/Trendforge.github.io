@@ -29,3 +29,10 @@ Keep verified observations separate from hypotheses. Each entry should include e
 - **Evidence:** General interpretation of automated validation boundaries; article-level baseline remains to be measured.
 - **Confidence:** High as a validation principle.
 - **Validation status:** Design principle; future baseline measurement required.
+
+
+## L-005 — Artifact provenance
+Observed: mutable data snapshots can be overwritten, while archived claim-blocked attempts include workflowRun/workflowSha metadata. Article Doctor should retain input hashes and run/SHA references. Hash binding is a design requirement, not implemented yet.
+
+## L-006 — Fixture bias
+Three archived blocked reports are useful regression seeds, but they do not represent all articles. Add passing examples before estimating overall quality or false-positive rates. Broad sampling has not been performed.
