@@ -13,3 +13,12 @@ All entries should describe actual work and results. Do not record planned work 
 - No paid provider was called. No article, publishing workflow, provider routing, production behavior, or gate was changed.
 - Validation at last check: repository files and PR contents are available on GitHub; the draft PR reports no check runs yet. Build/test result is therefore **unknown/pending**, not passed.
 - Next action: complete the read-only interface map described in [NEXT_STEP.md](NEXT_STEP.md), after reviewing this blueprint.
+
+
+## 2026-10-11 — Phase 0.2 artifact map
+- Inspected the pre-writer pipeline, authoritative evidence pack, adaptive writer evidence gate, smart claim verifier, grounding repair, editorial intelligence, quality validator, and publishing workflow sequence.
+- Indexed three archived failed claim-verification reports as AD-FX-001..003 (runs 38085367295, 37996683799, 37696062759); they have not been replayed.
+- Added the Article Doctor report schema, archived-fixture index, and offline test plan.
+- Expanded the baseline audit with artifact producer/consumer/provenance/gap notes.
+- No production source, articles, workflows, providers, or gates changed. No paid calls, image generation, build, or publish run triggered.
+- Evaluator tests and schema/path checks remain pending; no passing result is claimed.
