@@ -24,3 +24,13 @@ All entries should describe actual work and results. Do not record planned work 
 - Evaluator tests and schema/path checks remain pending; no passing result is claimed.
 
 - Follow-up validation: report schema and fixture index both parse as JSON; all nine indexed article/report/metadata paths exist on main. No evaluator replay or build was run.
+
+
+## 2026-10-11 — Phase 1 offline Article Doctor implementation
+- Added `scripts/boat-article-doctor.mjs` for read-only diagnostics from saved article, claim report, and optional metadata; report includes provenance hashes, integrity findings, and limitations.
+- Added `scripts/test-boat-article-doctor.mjs` covering archived fixtures, deterministic output, unsupported/contradicted/numeric/attribution/scope signals, title/run mismatches, CLI error behavior, and input immutability. Test execution is **pending**; no pass is claimed.
+- Added `.github/workflows/boat-offline-tests.yml` scoped to the BOAT branch and BOAT PR paths. This workflow only invokes Node's built-in test runner; it does not call providers or publishing.
+- Inspected failure logs for [run 38062572123](https://github.com/TrendforgeHQ/Trendforgehq.github.io/actions/runs/38062572123): Step 14 failed because Run 405 calibration tried to download expired artifact `10713098432` and received HTTP 410. Earlier steps 1–13 passed; downstream steps were skipped.
+- Inspected PR #34's follow-up run [38066111717](https://github.com/TrendforgeHQ/Trendforgehq.github.io/actions/runs/38066111717): the live claim-verifier regression suite passed, while the historical calibration was skipped due to HTTP 410. The overall green result did not establish that calibration passed.
+- Found the archived Run 405 article and `article-brief.json` on `main`, but the archived `authoritative-evidence-pack.json` file is empty and the original artifact listing is empty. Updated PR #34's calibration script to reconstruct a durable, clearly labelled evidence pack from saved brief grounding passages and to retain the expected 11/2/2 assertion. This is a reconstruction, not an exact historical replay; result pending actual CI logs.
+- No direct `main` edits, merges, paid provider calls, publishing runs, image generation, or production gate changes were made.
