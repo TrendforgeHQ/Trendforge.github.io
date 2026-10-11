@@ -2,8 +2,8 @@
 
 **Last updated:** 2026-10-11  
 **State version:** 0.1.1  
-**Current phase:** Phase 0 — Blueprint and baseline documentation  
-**Status:** Documentation drafted and committed to the dedicated branch; draft PR is open for review.
+**Current phase:** Phase 1 — Offline Article Doctor  
+**Status:** Read-only evaluator and regression tests are committed on the dedicated branch; execution results are pending verification.
 
 ## Mission
 Create a reliable, evidence-grounded, self-improving editorial operations bot for TrendForge with controlled permissions, article auditing, editorial benchmarking, urgent-topic prioritization, and durable project memory.
@@ -23,7 +23,7 @@ Create a reliable, evidence-grounded, self-improving editorial operations bot fo
 - Runtime: not implemented.
 - Chat backend: not implemented.
 - Approval gateway/button: not implemented.
-- Article Doctor: not implemented.
+- Article Doctor: offline read-only CLI implemented in `scripts/boat-article-doctor.mjs`; its regression suite exists in `scripts/test-boat-article-doctor.mjs`, but tests must not be called passing until a real run is inspected.
 - Claim-level article audit: not implemented as a BOAT module.
 - Human-article benchmark lab: not implemented as a BOAT module.
 - Priority queue / targeted dispatch: not implemented.
@@ -44,7 +44,7 @@ Create a reliable, evidence-grounded, self-improving editorial operations bot fo
 | Phase | Goal | Status |
 |---|---|---|
 | 0 | Blueprint, baseline audit, durable project records | In progress — draft PR open |
-| 1 | Read-only artifact collection and Article Doctor report | Not started |
+| 1 | Read-only artifact collection and Article Doctor report | In progress — implementation and tests added; CI result pending |
 | 2 | Claim/source audit and editorial benchmark evaluation | Not started |
 | 3 | Fixture-backed repair proposals and regression harness | Not started |
 | 4 | Secure approval gateway and Control Center workspace | Not started |
@@ -57,7 +57,7 @@ Create a reliable, evidence-grounded, self-improving editorial operations bot fo
 - Eleven documentation files added/updated in the blueprint PR.
 - No production code, articles, provider routing, publishing workflow, or quality gates changed.
 - No paid provider calls were made.
-- CI/check runs have not appeared yet for this draft PR. Do not treat this as a passing build.
+- An isolated BOAT-only CI workflow was added to run the offline Article Doctor regression suite; its current run status must be checked before claiming success.
 - Manual source inspection was performed; Markdown rendering/build validation remains pending.
 
 ## Repository record
@@ -83,3 +83,12 @@ Follow [NEXT_STEP.md](NEXT_STEP.md). Do not start runtime changes until Phase 0 
 - JSON parsing: pass for the report schema and fixture index.
 - Fixture index contains 3 records; all 9 referenced archive paths exist on main.
 - This checks syntax and path existence only. No evaluator replay, formal schema-validator run, build, or workflow run has been performed.
+
+
+## Phase 1 implementation record — 2026-10-11
+- Added `scripts/boat-article-doctor.mjs`: read-only extraction of saved verifier signals, title/run integrity checks, artifact SHA-256 hashes, and explicit limitations. It does not fetch sources, call providers, edit articles, or dispatch workflows.
+- Added `scripts/test-boat-article-doctor.mjs`: deterministic fixture, finding-category, mismatch, CLI failure, and no-input-mutation tests. **The suite is not yet verified as passing.** A local clone attempt failed because this environment could not resolve `github.com`; that is an environment limitation, not a test result.
+- Added `.github/workflows/boat-offline-tests.yml`, scoped to the dedicated BOAT branch and BOAT-related pull-request paths. It runs only Node built-in tests and does not run publishing, image generation, or paid providers.
+- Related independent reliability investigation: Run [38062572123](https://github.com/TrendforgeHQ/Trendforgehq.github.io/actions/runs/38062572123) failed because the Run 405 calibration test tried to download expired artifact `10713098432` (HTTP 410). PR #34's previous successful run treated this as an explicit skip; that was not a calibration pass.
+- The archived Run 405 article and brief are still committed, but its archived `authoritative-evidence-pack.json` is empty. A new test attempt on PR #34 reconstructs a labelled evidence pack from the saved brief passages; this is **not** an exact replay of the original historical pack. Calibration outcome remains pending until its actual job log is inspected.
+- BOAT branch: `docs/boat-blueprint-phase0-2026-10-11`; draft PR #35 remains open and unmerged. No direct `main` changes, paid provider calls, image-generation calls, publishing runs, or gate/threshold changes were made for this work.
