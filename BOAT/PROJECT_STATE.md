@@ -1,9 +1,9 @@
 # BOAT — Canonical Project State
 
 **Last updated:** 2026-10-11  
-**State version:** 0.1.0  
+**State version:** 0.1.1  
 **Current phase:** Phase 0 — Blueprint and baseline documentation  
-**Status:** In progress; documentation branch created; PR status recorded in repository history when opened.
+**Status:** Documentation drafted and committed to the dedicated branch; draft PR is open for review.
 
 ## Mission
 Create a reliable, evidence-grounded, self-improving editorial operations bot for TrendForge with controlled permissions, article auditing, editorial benchmarking, urgent-topic prioritization, and durable project memory.
@@ -17,7 +17,7 @@ Create a reliable, evidence-grounded, self-improving editorial operations bot fo
 - Existing Self-Learning: `scripts/trendforge-self-learning.mjs`, mode `shadow`; aggregates historical run metrics/signals and does not currently implement full claim-level editorial learning.
 - Existing audit/memory assets include `scripts/trendforge-memory.mjs`, `scripts/trendforge-audit-trail.mjs`, `data/decision-log.jsonl`, and `data/trendforge-memory.json`.
 - Publishing workflow: `.github/workflows/publish.yml`; scheduled every six hours and manually dispatchable. Current declaration has no topic/article input. The workflow includes source/evidence checks, claim verification and bounded repair/re-verification, editorial quality, image safety, and build/release steps.
-- Several unrelated PRs are already open. BOAT changes must stay isolated and must not disturb them.
+- Several unrelated PRs were open at baseline. BOAT changes stay isolated.
 
 ## Current BOAT implementation
 - Runtime: not implemented.
@@ -28,7 +28,7 @@ Create a reliable, evidence-grounded, self-improving editorial operations bot fo
 - Human-article benchmark lab: not implemented as a BOAT module.
 - Priority queue / targeted dispatch: not implemented.
 - Persistent BOAT event schema: proposed only.
-- Blueprint and documentation: being established in this phase.
+- Blueprint and documentation: committed on the BOAT documentation branch; awaiting review.
 
 ## Hard constraints
 1. Do not directly commit changes to `main`.
@@ -43,7 +43,7 @@ Create a reliable, evidence-grounded, self-improving editorial operations bot fo
 ## Phase ledger
 | Phase | Goal | Status |
 |---|---|---|
-| 0 | Blueprint, baseline audit, durable project records | In progress |
+| 0 | Blueprint, baseline audit, durable project records | In progress — draft PR open |
 | 1 | Read-only artifact collection and Article Doctor report | Not started |
 | 2 | Claim/source audit and editorial benchmark evaluation | Not started |
 | 3 | Fixture-backed repair proposals and regression harness | Not started |
@@ -54,9 +54,18 @@ Create a reliable, evidence-grounded, self-improving editorial operations bot fo
 ## Current verified progress
 - Repository and relevant existing modules inspected.
 - Existing static Control Center, shadow learning, advisory supervisor, and six-hour publishing cadence documented.
-- Blueprint and baseline records drafted for review.
-- No production code or publishing logic changed as part of the blueprint phase.
-- Automated tests have not been run for documentation-only changes unless a later log explicitly records them.
+- Eleven documentation files added/updated in the blueprint PR.
+- No production code, articles, provider routing, publishing workflow, or quality gates changed.
+- No paid provider calls were made.
+- CI/check runs have not appeared yet for this draft PR. Do not treat this as a passing build.
+- Manual source inspection was performed; Markdown rendering/build validation remains pending.
+
+## Repository record
+- Branch: `docs/boat-blueprint-phase0-2026-10-11`
+- Draft PR: https://github.com/TrendforgeHQ/Trendforgehq.github.io/pull/35
+- Initial documentation commit: `0a0dde3ea372013f605d12effaadbc0abdb77d31`
+- PR state at last check: open, draft, not merged.
+- Current PR check state at last check: no check runs reported; build/test result unknown.
 
 ## Next task
 Follow [NEXT_STEP.md](NEXT_STEP.md). Do not start runtime changes until Phase 0 documentation is reviewed and the read-only interface map is completed.
