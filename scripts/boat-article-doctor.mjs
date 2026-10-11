@@ -73,7 +73,7 @@ export function analyzeArticle({ articleText, articlePath, report, reportPath, m
       const index = Number.isInteger(claim.index) ? claim.index : i + 1;
       const jsonIndex = i;
       const sourceIndex = jsonIndex;
-      if (claim.status === 'unsupported' || claim.classification === 'unsupported') {
+      if (claim.status === 'unsupported' || String(claim.classification ?? '').startsWith('unsupported')) {
         findings.push(makeFinding({
           id: `AD-UNSUPPORTED-${index}`, category: 'unsupported_claim', severity: 'high',
           title: 'Claim verifier marked a claim unsupported',
