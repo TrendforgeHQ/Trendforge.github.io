@@ -21,7 +21,7 @@ if(!brief?.brief?.title||!Array.isArray(groundingSources)||groundingSources.leng
 }
 const sources=groundingSources.map((source,index)=>{
   let domain='';
-  try { domain=new URL(source.url).hostname.replace(/^www\\./,''); } catch {}
+  try { domain=new URL(source.url).hostname; if(domain.startsWith('www.')) domain=domain.slice(4); } catch {}
   return {
     title:source.title||brief.brief.title,
     url:source.url||'',
@@ -48,7 +48,7 @@ const pack=buildAuthoritativeEvidencePack({
 const root=fs.mkdtempSync(path.join(os.tmpdir(),'trendforge-run405-durable-'));
 const evidencePath=path.join(root,'authoritative-evidence-pack.json');
 const out=path.join(root,'claim-verification.json');
-fs.writeFileSync(evidencePath,JSON.stringify({candidates:[pack]},null,2)+'\\n');
+fs.writeFileSync(evidencePath,JSON.stringify({candidates:[pack]},null,2)+String.fromCharCode(10));
 
 const result=spawnSync(process.execPath,['scripts/verify-article-claims-smart.mjs'],{
   env:{
