@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-10T20:56:41.802Z",
+  "generatedAt": "2026-10-11T02:54:10.191Z",
   "status": "pass",
   "currentGeneratedArticle": null,
   "currentScore": null,
   "identity": {
     "method": "brief.title",
-    "rejectedMarker": true
+    "rejectedMarker": false
   },
   "policy": {
     "publishCandidate": 90,
@@ -98,6 +98,24 @@
         "usefulness": 95,
         "clarity": 100,
         "originality": 100,
+        "sourceStrength": 41
+      },
+      "reasons": [
+        "evidence confidence needs improvement",
+        "source strength/diversity needs improvement"
+      ]
+    },
+    {
+      "slug": "amazon-eyes-8-b-nvidia-chip-financing-to-lighten-ai-capital-load",
+      "title": "Amazon Eyes $8 B Nvidia Chip Financing to Lighten AI Capital Load",
+      "category": "Technology",
+      "score": 77,
+      "decision": "review",
+      "dimensions": {
+        "evidence": 75,
+        "usefulness": 91,
+        "clarity": 92,
+        "originality": 88,
         "sourceStrength": 41
       },
       "reasons": [

@@ -7,21 +7,9 @@
       "lastStatus": 200,
       "lastError": null,
       "lastClass": "success",
-      "successes": 167,
-      "lastSuccessAt": "2026-10-10T20:56:38.526Z",
+      "successes": 169,
+      "lastSuccessAt": "2026-10-11T02:54:05.187Z",
       "history": [
-        {
-          "at": 1791517200355,
-          "ok": false,
-          "class": "rate_limit",
-          "status": 429
-        },
-        {
-          "at": 1791548430370,
-          "ok": false,
-          "class": "rate_limit",
-          "status": 429
-        },
         {
           "at": 1791548440048,
           "ok": true,
@@ -285,19 +273,57 @@
               "reasoning_tokens": 285
             }
           }
+        },
+        {
+          "at": 1791687243367,
+          "ok": true,
+          "class": "success",
+          "status": 200,
+          "latencyMs": 1261,
+          "usage": {
+            "queue_time": 0.139442458,
+            "prompt_tokens": 4641,
+            "prompt_time": 0.251379245,
+            "completion_tokens": 535,
+            "completion_time": 0.560636081,
+            "total_tokens": 5176,
+            "total_time": 0.812015326,
+            "completion_tokens_details": {
+              "reasoning_tokens": 19
+            }
+          }
+        },
+        {
+          "at": 1791687245187,
+          "ok": true,
+          "class": "success",
+          "status": 200,
+          "latencyMs": 512,
+          "usage": {
+            "queue_time": 0.003172506,
+            "prompt_tokens": 1575,
+            "prompt_time": 0.079481496,
+            "completion_tokens": 294,
+            "completion_time": 0.303764139,
+            "total_tokens": 1869,
+            "total_time": 0.383245635,
+            "completion_tokens_details": {
+              "reasoning_tokens": 179
+            }
+          }
         }
       ],
-      "lastLatencyMs": 25924,
+      "lastLatencyMs": 512,
       "lastUsage": {
-        "queue_time": 0.095464124,
-        "prompt_tokens": 1633,
-        "prompt_time": 0.087332265,
-        "completion_tokens": 420,
-        "completion_time": 0.436758788,
-        "total_tokens": 2053,
-        "total_time": 0.524091053,
+        "queue_time": 0.003172506,
+        "prompt_tokens": 1575,
+        "prompt_time": 0.079481496,
+        "completion_tokens": 294,
+        "completion_time": 0.303764139,
+        "total_tokens": 1869,
+        "total_time": 0.383245635,
         "completion_tokens_details": {
-          "reasoning_tokens": 285
+          "reasoning_tokens": 179
         }
       }
     },
@@ -773,5 +799,5 @@
     }
   },
   "rotationCursor": 0,
-  "updatedAt": "2026-10-10T20:56:38.526Z"
+  "updatedAt": "2026-10-11T02:54:05.187Z"
 }

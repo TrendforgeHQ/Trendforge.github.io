@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case - BBC",
-  "mode": "bounded",
+  "title": "Amazon (AMZN) Wants Investors to Finance $8 Billion of Nvidia Chips. Is AI Spending Getting Too Heavy? - Yahoo Finance",
+  "mode": "narrow",
   "wordBudget": {
-    "min": 425,
-    "max": 750,
-    "soft": 588
+    "min": 231,
+    "max": 420,
+    "soft": 326
   },
   "h2Budget": {
-    "preferredMin": 2,
-    "preferredMax": 4
+    "preferredMin": 1,
+    "preferredMax": 2
   },
   "atomicClaimBudget": 18,
   "allowedFactIds": [
@@ -32,7 +32,22 @@
     "F17",
     "F18",
     "F19",
-    "F20"
+    "F20",
+    "F21",
+    "F22",
+    "F23",
+    "F24",
+    "F25",
+    "F26",
+    "F27",
+    "F29",
+    "F30",
+    "F31",
+    "F32",
+    "F33",
+    "F34",
+    "F35",
+    "F36"
   ],
   "synthesis": {
     "allowed": true,
@@ -58,7 +73,22 @@
       "F17",
       "F18",
       "F19",
-      "F20"
+      "F20",
+      "F21",
+      "F22",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F29",
+      "F30",
+      "F31",
+      "F32",
+      "F33",
+      "F34",
+      "F35",
+      "F36"
     ]
   },
   "rules": {
@@ -67,7 +97,7 @@
     "newEntitiesInSynthesis": false,
     "newCausalityInSynthesis": false
   },
-  "generatedAt": "2026-10-10T20:55:44.091Z",
-  "articleTitle": "Anthropic AI Model Submits False Murder Tip to Philadelphia Police",
-  "articleSlug": "anthropic-ai-model-submits-false-murder-tip-to-philadelphia-police"
+  "generatedAt": "2026-10-11T02:54:03.386Z",
+  "articleTitle": "Amazon Eyes $8 B Nvidia Chip Financing to Lighten AI Capital Load",
+  "articleSlug": "amazon-eyes-8-b-nvidia-chip-financing-to-lighten-ai-capital-load"
 }
